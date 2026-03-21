@@ -156,16 +156,22 @@ async function fetchGDELTAlerts() {
 
   for (const q of queries.slice(0, 2)) { // limit to 2 queries to be gentle
     try {
-      const url = `https://api.gdeltproject.org/api/v2/doc/doc?query=${q}&mode=artlist&maxrecords=5&format=json&timespan=24H&sort=HybridRel`;
+      const url = `https://api.gdeltproject.org/api/v2/doc/doc?query=${q}&mode=artlist&maxrecords=5&format=json&timespan=24H&sort=HybridRel&sourcelang=english`;
       const data = await fetchJSON(url);
 
       if (data?.articles) {
         data.articles.forEach(article => {
+          // Parse GDELT date format: "20260321123045" → ISO
+          let parsedTime = article.seendate;
+          if (article.seendate && article.seendate.length === 14) {
+            const d = article.seendate;
+            parsedTime = d.slice(0,4)+'-'+d.slice(4,6)+'-'+d.slice(6,8)+'T'+d.slice(8,10)+':'+d.slice(10,12)+':'+d.slice(12,14)+'Z';
+          }
           alerts.push({
             title: article.title,
             source: article.domain,
             url: article.url,
-            time: article.seendate,
+            time: parsedTime,
             tone: article.tone,
             type: article.tone < -5 ? 'critical' : article.tone < -2 ? 'warning' : 'info'
           });
