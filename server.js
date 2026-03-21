@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 3000;
 // ============================================================
 // API KEYS — Set these as environment variables in Railway
 // ============================================================
-const OIL_API_KEY = process.env.OIL_API_KEY || '';          // oilpriceapi.com free key
+const COMMODITY_API_KEY = process.env.COMMODITY_API_KEY || '';          // oilpriceapi.com free key
 const NEWS_API_KEY = process.env.NEWS_API_KEY || '';         // newsdata.io free key
 const ACLED_KEY = process.env.ACLED_KEY || '';               // acleddata.com free research key
 const ACLED_EMAIL = process.env.ACLED_EMAIL || '';
@@ -78,17 +78,15 @@ async function fetchOilPrice() {
   let price = null;
   let source = 'unknown';
 
-  // Try oilpriceapi.com
-  if (OIL_API_KEY) {
+    // Try commoditypriceapi.com (primary)
+  if (COMMODITY_API_KEY) {
     try {
-      const data = await fetchJSON(`https://api.oilpriceapi.com/v1/prices/latest?by_code=BRENT_CRUDE_USD`, {
-        headers: { 'Authorization': `Token ${OIL_API_KEY}` }
-      });
-      if (data?.data?.price) {
-        price = parseFloat(data.data.price);
-        source = 'oilpriceapi.com';
+      const data = await fetchJSON(`https://commoditypriceapi.com/api/latest?access_key=${COMMODITY_API_KEY}&base=USD&symbols=BRENT`);
+      if (data?.rates?.BRENT) {
+        price = Math.round((1 / data.rates.BRENT) * 100) / 100;
+        source = 'commoditypriceapi.com';
       }
-    } catch (e) { /* try next */ }
+    } catch (e) { console.log('commodity api error:', e.message); }
   }
 
   // Try Yahoo Finance (no key needed)
