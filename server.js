@@ -483,6 +483,19 @@ app.get('/api/substack', async (req, res) => {
   }
 });
 
+
+// ============================================================
+// LEADERS DATA ENDPOINT
+// Edit leaders.json on GitHub to update assessments
+// Railway redeploys automatically — frontend picks up on next load
+// ============================================================
+const LEADERS_DATA = require('./leaders.json');
+
+app.get('/api/leaders', (req, res) => {
+  res.set('Cache-Control', 'public, max-age=3600'); // cache 1 hour
+  res.json({ leaders: LEADERS_DATA, ts: new Date().toISOString() });
+});
+
 // ============================================================
 // START
 // ============================================================
