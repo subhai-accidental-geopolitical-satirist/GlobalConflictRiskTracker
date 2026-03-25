@@ -1,4 +1,3 @@
-
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
@@ -81,24 +80,18 @@ async function gdeltQuery(terms) {
 }
 
 // ── ESTIMATE IMPACT ──
-// Returns estimated point impact based on gdelt signal strength
-// Scaled by dimension weight — higher weight = flag triggers at smaller absolute change
 function estimateImpact(gdeltResult, dimWeight) {
   const { count, tone, sources } = gdeltResult;
   if (count === 0) return 0;
-  // Frequency signal: 0-8 based on article count
   const freqScore = Math.min(8, count * 0.8);
-  // Consequence signal: 0-8 based on tone (more negative = higher consequence)
   const consScore = Math.min(8, Math.abs(tone) * 1.5);
-  // Corroboration signal: 0-8 based on distinct sources
   const corrScore = Math.min(8, sources * 2);
-  const totalIntensity = (freqScore + consScore + corrScore) / 24; // 0-1
-  // Scale by weight: higher weight dimensions have lower threshold so same signal = more impact
-  const weightMultiplier = dimWeight / 18; // normalized to impulsivity as baseline
+  const totalIntensity = (freqScore + consScore + corrScore) / 24;
+  const weightMultiplier = dimWeight / 18;
   return Math.round(totalIntensity * 15 * weightMultiplier * 10) / 10;
 }
 
-// ── WATCH MONITORING (runs at refresh) ──
+// ── WATCH MONITORING ──
 async function runWatchMonitoring() {
   const leaders = readJSON(LEADERS_FILE, []);
   const state = readJSON(WATCH_FILE, { leaders: {}, vars: {} });
@@ -106,15 +99,12 @@ async function runWatchMonitoring() {
   const DIM_WEIGHTS = { narcissism: 20, impulsivity: 18, values: 15, survival: 25, accountability: 22 };
   let newFlags = 0;
 
-  // Check each leader
   for (const leader of leaders) {
     if (!state.leaders[leader.n]) state.leaders[leader.n] = { flags: {}, lastRefresh: null };
     const ls = state.leaders[leader.n];
     const watchTerms = leader.watch || [];
     if (!watchTerms.length) continue;
-    // Query GDELT for this leader's watch terms
     const gdelt = await gdeltQuery(watchTerms);
-    // Check each dimension
     for (const dim of Object.keys(DIM_THRESHOLDS)) {
       const thresh = DIM_THRESHOLDS[dim];
       const wt = (leader.weights && leader.weights[dim]) || DIM_WEIGHTS[dim] || 18;
@@ -136,7 +126,6 @@ async function runWatchMonitoring() {
     }
   }
 
-  // Check static variables
   const VAR_WATCH = [
     { k: 'nuclearSignalling', name: 'Nuclear Signalling', watch: ['nuclear doctrine India', 'nuclear Pakistan', 'LoC violations', 'nuclear signalling'] },
     { k: 'congressConstraint', name: 'Congressional Constraint', watch: ['War Powers', 'AUMF', 'Congress vote Iran', 'congressional authorisation'] },
@@ -180,7 +169,6 @@ async function sendEmailDigest() {
   const leaders = readJSON(LEADERS_FILE, []);
   const lines = [];
 
-  // Leader flags
   for (const leader of leaders) {
     const ls = state.leaders[leader.n];
     if (!ls || !ls.flags) continue;
@@ -189,13 +177,12 @@ async function sendEmailDigest() {
     lines.push(`<h3 style="color:#E8F5EC;font-family:Georgia,serif;margin:16px 0 8px">${leader.n}</h3>`);
     triggered.forEach(dim => {
       const flag = ls.flags[dim];
-      lines.push(`<p style="color:#A8C4B0;font-size:14px;margin:4px 0"><strong style="color:#E8C96A">${dim.toUpperCase()}</strong> — Est. impact: <strong>${flag.impact} pts</strong> (threshold: 2.0–3.0 pts depending on weight)<br><span style="color:#5A8068;font-size:12px">${flag.reason}</span></p>`);
+      lines.push(`<p style="color:#A8C4B0;font-size:14px;margin:4px 0"><strong style="color:#E8C96A">${dim.toUpperCase()}</strong> — Est. impact: <strong>${flag.impact} pts</strong><br><span style="color:#5A8068;font-size:12px">${flag.reason}</span></p>`);
     });
   }
 
-  // Variable flags
-  const varFlagged = [];
   const VAR_NAMES = { nuclearSignalling: 'Nuclear Signalling', congressConstraint: 'Congressional Constraint', diplomaticChannels: 'Diplomatic Channels', armsControlArchitecture: 'Arms Control Architecture', trumpDomesticPressure: 'Trump Domestic Pressure', netanyahuLegalJeopardy: 'Netanyahu Legal Jeopardy', pakistanEconomicStress: 'Pakistan Economic Stress', iranRegimeCohesion: 'Iran Regime Cohesion' };
+  const varFlagged = [];
   Object.keys(state.vars || {}).forEach(k => {
     const vs = state.vars[k];
     if (vs && vs.flag && vs.flag.triggered) varFlagged.push({ k, name: VAR_NAMES[k] || k, flag: vs.flag });
@@ -215,10 +202,10 @@ async function sendEmailDigest() {
         <h1 style="font-family:Georgia,serif;font-size:24px;color:#E8F5EC;margin:0">Assessment Watch Digest</h1>
         <p style="color:#5A8068;font-size:12px;margin:6px 0 0;font-family:monospace">${new Date().toLocaleDateString('en-SG', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })} · 08:00 SGT</p>
       </div>
-      <p style="color:#A8C4B0;font-size:14px;margin-bottom:20px">The following assessment dimensions have triggered review flags based on GDELT monitoring over the past 24 hours. Review the evidence and update scores in leaders.json if the documented evidence materially changes the assessment.</p>
+      <p style="color:#A8C4B0;font-size:14px;margin-bottom:20px">The following assessment dimensions have triggered review flags. Review the evidence and update scores in leaders.json if the documented evidence materially changes the assessment.</p>
       ${lines.join('\n')}
       <div style="border-top:1px solid rgba(255,255,255,0.1);padding-top:16px;margin-top:24px">
-        <a href="https://accidental-geopolitical-tracker.surge.sh" style="color:#5DCAA5;font-family:monospace;font-size:11px">OPEN TRACKER &#8599;</a>
+        <a href="https://accidental-geopolitical-tracker.surge.sh" style="color:#5DCAA5;font-family:monospace;font-size:11px">OPEN TRACKER ↗</a>
         <span style="color:#3A5C45;font-size:11px;margin-left:16px">accidentalgeopoliticaltracker.com</span>
       </div>
     </div>`;
@@ -264,9 +251,11 @@ app.get('/api/live', async (req, res) => {
     let oil = null;
     if (API_KEY) {
       try {
-        const d = await httpsGet(`https://commoditypriceapi.com/api/spot-price/crude-brent?api_key=${API_KEY}`);
-        if (d && d.price) oil = { price: d.price, source: 'CommodityPriceAPI', change_pct: d.change_pct || '' };
-      } catch(e) {}
+        const d = await httpsGet(`https://commoditypriceapi.com/api/latest?access_key=${API_KEY}&base=USD&symbols=BRENT`);
+        if (d && d.rates && d.rates.BRENT) {
+          oil = { price: Math.round((1 / d.rates.BRENT) * 100) / 100, source: 'CommodityPriceAPI', change_pct: '' };
+        }
+      } catch(e) { console.log('Commodity API error:', e.message); }
     }
     if (!oil) { oil = { price: 97 + (Math.random() - 0.5) * 4, source: 'Estimated', change_pct: '' }; }
 
@@ -274,11 +263,18 @@ app.get('/api/live', async (req, res) => {
     try {
       const gdelt = await httpsGet('https://api.gdeltproject.org/api/v2/doc/doc?query=Iran+war+OR+Strait+Hormuz+OR+Pakistan+India+LoC+OR+Ukraine+ceasefire&mode=artlist&maxrecords=12&format=json&timespan=6h&sourcelang=english');
       if (gdelt.articles) {
-        alerts = gdelt.articles.slice(0, 8).map(a => ({
-          type: parseFloat(a.tone) < -5 ? 'critical' : parseFloat(a.tone) < -2 ? 'warning' : 'info',
-          title: a.title || '',
-          time: a.seendate ? new Date(a.seendate).toISOString() : new Date().toISOString()
-        }));
+        alerts = gdelt.articles.slice(0, 8).map(a => {
+          let ts = new Date().toISOString();
+          if (a.seendate && a.seendate.length === 14) {
+            const s = a.seendate;
+            ts = `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}T${s.slice(8,10)}:${s.slice(10,12)}:${s.slice(12,14)}Z`;
+          }
+          return {
+            type: parseFloat(a.tone) < -5 ? 'critical' : parseFloat(a.tone) < -2 ? 'warning' : 'info',
+            title: a.title || '',
+            time: ts
+          };
+        });
       }
     } catch(e) {}
 
@@ -312,18 +308,19 @@ app.get('/api/substack', async (req, res) => {
     { title: 'I Was On Instagram. Then America Went To War.', link: 'https://subhaimtiaz.substack.com/p/i-was-on-instagram-then-america-went', date: '28 Feb 2026', excerpt: 'I was posting a Spider-Man meme about AI ethics on Friday night. By Saturday morning America had launched strikes on Iran.' },
     { title: 'Oh, Those Iranians. Bless Their Hearts.', link: 'https://subhaimtiaz.substack.com/p/oh-those-iranians-bless-their-hearts', date: '2 Mar 2026', excerpt: 'You picked their king. You funded his torture. You shot their plane. No punchline. That is it. That is the joke.' },
     { title: 'Oh Sure, It Was Definitely Just One Very Lucky Sad Man With A Gun', link: 'https://subhaimtiaz.substack.com/p/oh-sure-it-was-definitely-just-one', date: '4 Mar 2026', excerpt: 'A completely uncontroversial retelling of totally unrelated historical events.' },
-    { title: 'The Whitmores: A Family of Great Values', link: 'https://subhaimtiaz.substack.com/p/the-whitmores-a-family-of-great-values', date: '19 Mar 2026', excerpt: 'IBM billed for the Holocaust. Quarterly. The Whitmores are still billing.' }
+    { title: 'The Whitmores: A Family of Great Values', link: 'https://subhaimtiaz.substack.com/p/the-whitmores-a-family-of-great-values', date: '19 Mar 2026', excerpt: 'IBM billed for the Holocaust. Quarterly. The Whitmores are still billing.' },
+    { title: 'Israel Has No Choice — It\'s Fighting The Brother It Made', link: 'https://subhaimtiaz.substack.com/p/israel-has-no-choice', date: '22 Mar 2026', excerpt: 'Hamas, Hezbollah, Loki, and a completely serious Marvel guide to the Middle East.' }
   ];
   try {
-    const rss = await httpsGet('https://subhaimtiaz.substack.com/feed');
+    const xml = await httpsGet('https://subhaimtiaz.substack.com/feed');
     res.json({ articles: FALLBACK, source: 'fallback' });
   } catch(e) { res.json({ articles: FALLBACK, source: 'fallback' }); }
 });
 
 // ── HEALTH CHECK ──
-app.get('/health', (req, res) => res.json({ ok: true, ts: new Date().toISOString() }));
+app.get('/health', (req, res) => res.json({ ok: true, ts: new Date().toISOString(), version: 'accidental-geopolitical-tracker-v2' }));
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
   scheduleDailyDigest();
 });
