@@ -92,7 +92,15 @@ const NEWS_QUERIES = [
   { q: 'arms control New START nuclear treaty Russia US',      variable: 'armsControlArchitecture', leaders: ['Vladimir Putin','Donald J. Trump'],                     dims: ['accountability','values'] },
   { q: 'general commander killed airstrike assassination',     event: 'personnel_killed',         leaders: [], dims: ['survival','impulsivity','narcissism'] },
   { q: 'oil refinery port infrastructure attack strike',       event: 'infrastructure_attack',    leaders: [], dims: ['survival','impulsivity','accountability'] },
-  { q: 'airstrike missile drone naval attack Middle East',     event: 'regional_strike',          leaders: [], dims: ['impulsivity','survival'] }
+  { q: 'airstrike missile drone naval attack Middle East',     event: 'regional_strike',          leaders: [], dims: ['impulsivity','survival'] },
+  // Breaking news specific queries
+  { q: 'US fighter jet aircraft shot down downed Iran',        event: 'regional_strike',          leaders: ['Donald J. Trump','Mojtaba Khamenei'], dims: ['survival','impulsivity','narcissism'] },
+  { q: 'bridge destroyed airstrike Tehran Karaj Iran',         event: 'infrastructure_attack',    leaders: ['Donald J. Trump','Benjamin Netanyahu','Mojtaba Khamenei'], dims: ['survival','impulsivity','accountability'] },
+  { q: 'US general admiral fired Pentagon Hegseth wartime',    event: 'leader_statement',         leaders: ['Donald J. Trump'], dims: ['accountability','narcissism','impulsivity'] },
+  { q: 'Iran missiles Gulf Kuwait UAE Saudi Arabia refinery',  event: 'regional_strike',          leaders: ['Mojtaba Khamenei','Mohammed bin Salman'], dims: ['survival','impulsivity'] },
+  { q: 'Trump Iran war speech address nation threat',          event: 'leader_statement',         leaders: ['Donald J. Trump'], dims: ['narcissism','impulsivity','accountability'] },
+  { q: 'Israel Iran airstrike strike overnight latest',        event: 'regional_strike',          leaders: ['Benjamin Netanyahu','Mojtaba Khamenei'], dims: ['survival','impulsivity'] },
+  { q: 'Hegseth fired military leader Pentagon Iran war',      event: 'personnel_killed',         leaders: ['Donald J. Trump'], dims: ['accountability','narcissism'] }
 ];
 
 function classifyBloc(name) {
