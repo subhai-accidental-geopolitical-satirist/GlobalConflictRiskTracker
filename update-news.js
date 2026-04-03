@@ -161,6 +161,14 @@ NewsAPI has fetched mainstream Western news. You cover what it cannot reach:
 - South Asian (Dawn, Geo, NDTV, The Hindu) on India-Pakistan
 - Any high-escalation event (personnel killed, infrastructure attacked, nuclear signal) not yet covered
 
+CRITICAL RULES:
+- ALL headlines and summaries MUST be in English only — no exceptions
+- Only reputable, editorial news sources — no tabloids, no clickbait, no state propaganda
+- No Daily Mail, Daily Star, The Sun, Mirror, Sputnik, RT, ZeroHedge or equivalent
+- Headlines must be factual and neutral in tone — no sensationalism ("horror", "shock", "bombshell")
+- Dates MUST be in YYYY-MM-DD format — no exceptions, no nulls
+- Zero hallucinations — only include items you have verified via web search
+
 ALREADY FETCHED — do not duplicate:
 ${existingHeadlines}
 
@@ -168,8 +176,8 @@ Return ONLY valid JSON:
 {
   "items": [
     {
-      "headline": "factual only",
-      "summary": "2-3 sentences",
+      "headline": "factual, neutral, English only",
+      "summary": "2-3 sentences, factual, English only",
       "source": "exact publication name",
       "url": "URL or null",
       "bloc": "western|persian|regional|institutional",
@@ -191,7 +199,7 @@ Return ONLY valid JSON:
     }
   ]
 }
-dimension_signal is optional — only include when this specific item provides clear evidence of a dimension change. Leave null otherwise.`;
+dimension_signal is optional — only include when this specific item provides clear evidence of a dimension change. Omit the field entirely otherwise.`;
 
   const user = `Today: ${new Date().toISOString().slice(0,10)} — last 7 days.
 Context: Iran-US-Israel war since Feb 28 2026. Strait ~70% closed. Pakistan on 3 fronts.
@@ -261,13 +269,45 @@ function extractJson(text) {
   return JSON.parse(j.replace(/,\s*([\}\]])/g,'$1'));
 }
 
+// ── LANGUAGE DETECTION — block non-English headlines ─────────────────────────
+// Detects non-Latin scripts: Arabic, Persian, Devanagari, CJK, Korean, etc.
+function isEnglishHeadline(text) {
+  if (!text) return false;
+  // Allow Latin, numbers, punctuation, spaces. Reject anything with non-Latin script blocks.
+  const nonLatin = /[\u0600-\u06FF\u0900-\u097F\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\uAC00-\uD7AF\u0400-\u04FF\u0A80-\u0AFF]/;
+  return !nonLatin.test(text);
+}
+
+// ── SOURCE QUALITY FILTER — block tabloid and clickbait sources ───────────────
+const BLOCKED_SOURCES = [
+  'daily mail','daily star','the sun','mirror','express','metro',
+  'national enquirer','infowars','breitbart','the blaze','newsmax',
+  'oann','one america','zero hedge','zerohedge','sputnik','rt.com',
+  'russia today','globalresearch','veterans today','beforeitsnews'
+];
+function isQualitySource(sourceName) {
+  const s = (sourceName||'').toLowerCase();
+  return !BLOCKED_SOURCES.some(b => s.includes(b));
+}
+
+// ── DATE SANITISATION — ensure valid YYYY-MM-DD ───────────────────────────────
+function sanitiseDate(raw) {
+  if (!raw) return new Date().toISOString().slice(0,10);
+  const match = (raw||'').match(/(\d{4}-\d{2}-\d{2})/);
+  return match ? match[1] : new Date().toISOString().slice(0,10);
+}
+
 function deduplicate(items) {
   const seen = new Set();
-  return items.filter(i => {
-    const k = (i.headline||'').toLowerCase().slice(0,60);
-    if (seen.has(k)) return false;
-    seen.add(k); return true;
-  });
+  return items
+    .filter(i => isEnglishHeadline(i.headline))
+    .filter(i => isQualitySource(i.source))
+    .map(i => ({ ...i, date: sanitiseDate(i.date) }))
+    .filter(i => {
+      const k = (i.headline||'').toLowerCase().slice(0,60);
+      if (seen.has(k)) return false;
+      seen.add(k); return true;
+    });
 }
 
 // ── RESEND EMAIL DIGEST ───────────────────────────────────────────────────────
