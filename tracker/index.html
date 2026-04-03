@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accidental Geopolitical Tracker — Subha Imtiaz</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ── RESET ── */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+
+/* ── TOKENS ── */
+:root{
+  --bg:#080F0A;--bg2:#0D1A10;--bg3:#112014;
+  --surf:#162B1E;--surf2:#1C3525;
+  --ink:#E8F5EC;--ink2:#A8C4B0;--ink3:#5A8068;--ink4:#3A5C45;
+  --rule:rgba(255,255,255,0.08);
+  --g:#2D7A4F;--g2:#3D9E68;--g3:#5DCAA5;
+  --au:#C9A84C;--au2:#E8C96A;
+  --mu:#9E6B72;--mu2:#C48A92;
+  --fd:'Playfair Display',Georgia,serif;
+  --fb:'DM Sans',system-ui,sans-serif;
+  --fm:'DM Mono','Courier New',monospace;
+  --nav:64px;
+}
+
+body{
+  background:var(--bg);color:var(--ink);
+  font-family:var(--fb);font-size:16px;line-height:1.65;
+  min-height:100vh;
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:-1;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%,rgba(26,92,58,0.5) 0%,transparent 70%),
+    radial-gradient(ellipse 40% 40% at 10% 90%,rgba(15,61,32,0.4) 0%,transparent 60%),
+    var(--bg);
+}
+
+/* ── MOBILE TOPBAR (always rendered, hidden on desktop) ── */
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 16px;height:52px;
+  background:rgba(6,14,8,0.97);backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--rule);
+  position:fixed;top:0;left:0;right:0;z-index:900;
+}
+.topbar-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.topbar-mark{
+  width:30px;height:30px;background:var(--g);border-radius:6px;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--fd);font-size:14px;font-weight:900;color:#fff;flex-shrink:0;
+}
+.topbar-name{font-family:var(--fm);font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--ink2)}
+.menu-btn{
+  background:none;border:1px solid rgba(255,255,255,0.12);
+  color:var(--ink2);border-radius:6px;padding:6px 12px;
+  font-family:var(--fm);font-size:10px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;
+}
+
+/* ── MOBILE MENU OVERLAY ── */
+.mob-menu{
+  position:fixed;inset:0;background:rgba(6,14,8,0.99);
+  z-index:1000;display:none;flex-direction:column;
+  padding:16px;overflow-y:auto;
+}
+.mob-menu.open{display:flex}
+.mm-head{
+  display:flex;justify-content:space-between;align-items:center;
+  padding-bottom:14px;border-bottom:1px solid var(--rule);margin-bottom:10px;
+}
+.mm-lbl{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3)}
+.mm-x{background:none;border:none;color:var(--ink2);font-size:22px;cursor:pointer;padding:4px}
+.mm-sec{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink4);padding:10px 12px 4px}
+.mm-item{
+  display:flex;align-items:center;gap:12px;
+  padding:13px 12px;border-radius:8px;
+  color:var(--ink2);background:none;border:none;width:100%;
+  text-align:left;cursor:pointer;font-family:var(--fb);font-size:15px;font-weight:500;
+  border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.mm-item.live{background:rgba(45,122,79,0.18);color:var(--g3);border:1px solid rgba(93,202,165,0.2);border-radius:8px;margin-bottom:4px}
+.mm-item.wbtn{background:rgba(201,168,76,0.12);color:var(--au2);border:1px solid rgba(201,168,76,0.2);border-radius:8px;margin-bottom:4px}
+.mm-ic{width:20px;height:20px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.mm-ic svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* ── LAYOUT ── */
+.layout{display:flex;padding-top:52px}
+.main{flex:1;width:100%;min-height:calc(100vh - 52px)}
+
+/* ── SIDENAV (desktop only — rendered in DOM but display:none on mobile) ── */
+.sidenav{display:none}
+
+/* ── RIGHT PANEL (desktop only — never on mobile) ── */
+.rpanel{display:none}
+.rpanel-drawer{display:none}
+
+/* ── PAGES ── */
+.page{display:none;animation:pgn .25s ease}
+.page.active{display:block}
+@keyframes pgn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+/* ── TYPOGRAPHY HELPERS ── */
+.kicker{
+  font-family:var(--fm);font-size:10px;letter-spacing:3px;text-transform:uppercase;
+  color:var(--g3);margin-bottom:16px;
+  display:flex;align-items:center;gap:10px;
+}
+.kicker::before{content:'';width:20px;height:1px;background:var(--g3)}
+.h1{font-family:var(--fd);font-size:clamp(26px,7vw,54px);font-weight:900;line-height:1.1;color:var(--ink);margin-bottom:16px}
+.h1 em{font-style:italic;color:var(--g3)}
+.lead{font-size:16px;color:var(--ink2);line-height:1.8;font-weight:300}
+.pull{
+  background:rgba(45,122,79,0.1);border-left:3px solid var(--g);
+  padding:16px 20px;margin:20px 0;border-radius:0 6px 6px 0;
+  font-family:var(--fd);font-size:17px;font-style:italic;color:var(--ink);line-height:1.5;
+}
+.prose{font-size:15px;color:var(--ink2);line-height:1.85;font-weight:300}
+.prose p+p{margin-top:14px}
+.prose strong{color:var(--ink);font-weight:600}
+
+/* ── PAGE SECTIONS ── */
+.hero{padding:28px 18px 24px;border-bottom:1px solid var(--rule)}
+.sec{padding:28px 18px;border-bottom:1px solid var(--rule)}
+.sec-lbl{
+  font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;
+  color:var(--ink3);margin-bottom:22px;
+  display:flex;align-items:center;gap:10px;
+}
+.sec-lbl::after{content:'';flex:1;height:1px;background:var(--rule)}
+
+/* ── BUTTONS ── */
+.btn{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:10px 20px;border-radius:4px;
+  font-size:11px;font-weight:500;cursor:pointer;border:none;
+  text-decoration:none;font-family:var(--fm);text-transform:uppercase;letter-spacing:.08em;
+  transition:all .18s;
+}
+.btn-g{background:var(--g);color:#fff}
+.btn-g:hover{background:var(--g2)}
+.btn-o{background:transparent;color:var(--ink2);border:1px solid rgba(255,255,255,0.14)}
+.btn-o:hover{background:rgba(255,255,255,0.06);color:var(--ink)}
+.hero-btns{display:flex;flex-direction:column;gap:10px;margin-top:24px}
+
+/* ── STATS ROW ── */
+.stats{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--rule)}
+.stat{padding:16px 18px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.stat:nth-child(even){border-right:none}
+.sv{font-family:var(--fd);font-size:26px;font-weight:900;color:var(--ink);line-height:1}
+.sv.g{color:var(--g3)}.sv.au{color:var(--au)}.sv.mu{color:var(--mu2)}
+.sl{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin-top:4px}
+
+/* ── CONCEPT CARDS ── */
+.cc-grid{display:flex;flex-direction:column;gap:12px;margin-top:20px}
+.cc{background:var(--surf);border:1px solid var(--rule);border-radius:8px;padding:20px}
+.cc::before{content:'';display:block;width:24px;height:3px;background:var(--c,var(--g));border-radius:2px;margin-bottom:12px}
+.cc-n{font-family:var(--fm);font-size:9px;color:var(--ink3);letter-spacing:2px;margin-bottom:6px}
+.cc-t{font-family:var(--fd);font-size:16px;font-weight:700;color:var(--ink);margin-bottom:6px;line-height:1.3}
+.cc-b{font-size:13px;color:var(--ink2);line-height:1.7}
+
+/* ── LEADERS GRID ── */
+.lg{display:flex;flex-direction:column;gap:14px;padding:18px}
+.lc{background:var(--surf);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+.lc-h{padding:18px 18px 12px;border-bottom:1px solid var(--rule)}
+.lc-n{font-family:var(--fd);font-size:17px;font-weight:700;color:var(--ink);line-height:1.2}
+.lc-r{font-size:12px;color:var(--ink2);margin-top:3px;line-height:1.3}
+.rbadge{font-family:var(--fm);font-size:10px;padding:3px 8px;border-radius:3px;white-space:nowrap;float:right}
+.rc{background:rgba(158,107,114,0.2);color:var(--mu2)}
+.rh{background:rgba(201,168,76,0.2);color:var(--au2)}
+.re{background:rgba(45,122,79,0.2);color:var(--g3)}
+.lc-b{padding:14px 18px}
+.dr{display:grid;grid-template-columns:110px 1fr 26px;align-items:center;gap:8px;margin-bottom:7px}
+.dl{font-size:11px;color:var(--ink3)}
+.db{height:3px;background:var(--rule);border-radius:2px;overflow:hidden}
+.df{height:100%;border-radius:2px}
+.dv{font-family:var(--fm);font-size:10px;color:var(--ink3);text-align:right}
+.ltags{display:flex;flex-direction:column;gap:3px;padding-top:10px;border-top:1px solid var(--rule);margin-top:10px}
+.ltag{font-size:10px;padding:3px 7px;background:rgba(255,255,255,0.04);color:var(--ink3);border-radius:3px;line-height:1.4}
+.lideo{margin-top:10px;padding-top:10px;border-top:1px solid var(--rule)}
+.lideo-l{font-family:var(--fm);font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--au);margin-bottom:4px}
+.lideo-t{font-size:11px;color:var(--ink2);line-height:1.6}
+
+/* ── ASSESSMENT ── */
+.adim{padding:16px 18px;border-bottom:1px solid var(--rule)}
+.adim:last-child{border-bottom:none}
+.adim-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.adim-name{font-family:var(--fm);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3)}
+.adim-score{font-family:var(--fd);font-size:26px;font-weight:900;line-height:1}
+.adim-band{font-family:var(--fm);font-size:9px;padding:2px 7px;border-radius:3px;margin-top:4px;display:inline-block}
+.ba{background:rgba(196,138,146,0.2);color:var(--mu2)}
+.bb{background:rgba(201,168,76,0.2);color:var(--au2)}
+.bc{background:rgba(93,202,165,0.15);color:var(--g3)}
+.bd{background:rgba(255,255,255,0.06);color:var(--ink3)}
+.adim-bar{height:4px;background:var(--rule);border-radius:2px;margin:10px 0;overflow:hidden}
+.adim-fill{height:100%;border-radius:2px}
+.adim-wt{font-family:var(--fm);font-size:9px;color:var(--ink4)}
+.adim-ev{font-size:12px;color:var(--ink2);line-height:1.7;margin-bottom:6px}
+.adim-src{font-family:var(--fm);font-size:9px;color:var(--ink4)}
+.conf{font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:2px;margin-top:6px;display:inline-block}
+.chigh{background:rgba(45,122,79,0.2);color:var(--g3)}
+.cmed{background:rgba(201,168,76,0.15);color:var(--au2)}
+.clow{background:rgba(255,255,255,0.06);color:var(--ink3)}
+.assess-leader{background:var(--surf);border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin-bottom:20px}
+.alh{padding:20px 18px;border-bottom:1px solid var(--rule);display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.aln{font-family:var(--fd);font-size:20px;font-weight:900;color:var(--ink)}
+.alr{font-size:12px;color:var(--ink2);margin-top:3px}
+
+/* ── INTERDEPENDENCY MAP ── */
+.idw{padding:24px 18px;border-bottom:1px solid var(--rule)}
+.id-kicker{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--g3);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.id-kicker::before{content:'';width:18px;height:1px;background:var(--g3)}
+.id-title{font-family:var(--fd);font-size:clamp(18px,4vw,28px);font-weight:900;color:var(--ink);margin-bottom:6px}
+.id-sub{font-size:13px;color:var(--ink2);margin-bottom:16px;line-height:1.6;font-weight:300}
+#idCanvas{width:100%;display:block;cursor:pointer;border-radius:8px;border:1px solid var(--rule);background:var(--bg2);touch-action:none}
+.id-legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.id-leg{display:flex;align-items:center;gap:5px;font-family:var(--fm);font-size:9px;letter-spacing:1px;text-transform:uppercase}
+.id-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.id-tooltip{
+  position:fixed;background:rgba(8,20,12,0.97);border:1px solid rgba(93,202,165,0.3);
+  border-radius:8px;padding:12px 14px;max-width:260px;z-index:3000;
+  pointer-events:none;display:none;backdrop-filter:blur(12px);
+}
+.idt-from{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--g3);margin-bottom:5px}
+.idt-label{font-family:var(--fd);font-size:14px;font-weight:700;color:var(--ink);margin-bottom:5px;line-height:1.3}
+.idt-detail{font-size:11px;color:var(--ink2);line-height:1.6;margin-bottom:5px}
+.idt-src{font-family:var(--fm);font-size:9px;color:var(--ink4)}
+.id-table-wrap{margin-top:20px;overflow-x:auto}
+.id-table{width:100%;border-collapse:collapse;font-size:12px;min-width:500px}
+.id-table th{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left;white-space:nowrap}
+.id-table td{color:var(--ink2);padding:9px 10px;border-bottom:1px solid rgba(255,255,255,0.04);vertical-align:top}
+.ib{font-family:var(--fm);font-size:9px;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.iw{background:rgba(201,168,76,0.15);color:var(--au2)}
+.ii{background:rgba(158,107,114,0.15);color:var(--mu2)}
+.is{background:rgba(196,138,146,0.2);color:var(--mu2)}
+.id{background:rgba(45,122,79,0.15);color:var(--g3)}
+.ie{background:rgba(93,202,165,0.12);color:var(--g3)}
+.ip{background:rgba(255,255,255,0.06);color:var(--ink3)}
+
+/* ── ASSESSMENT WATCH ── */
+.wcard{background:var(--surf);border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin-bottom:14px;transition:border-color .2s}
+.wcard.flagged{border-color:rgba(201,168,76,0.5)}
+.wcard.critical{border-color:rgba(196,138,146,0.5)}
+.wh{padding:14px 18px;border-bottom:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.wn{font-family:var(--fd);font-size:16px;font-weight:700;color:var(--ink)}
+.wr{font-size:11px;color:var(--ink2);margin-top:2px}
+.wstatus{display:flex;align-items:center;gap:6px;font-family:var(--fm);font-size:9px;padding:3px 8px;border-radius:3px;white-space:nowrap}
+.ws-clear{background:rgba(45,122,79,0.1);color:var(--g3);border:1px solid rgba(93,202,165,0.2)}
+.ws-flag{background:rgba(201,168,76,0.15);color:var(--au2);border:1px solid rgba(201,168,76,0.3)}
+.ws-crit{background:rgba(196,138,146,0.15);color:var(--mu2);border:1px solid rgba(196,138,146,0.3)}
+.wb{padding:14px 18px}
+.wdims{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+.wdim{background:var(--bg3);border:1px solid var(--rule);border-radius:6px;padding:10px 12px}
+.wdim.dfl{border-color:rgba(201,168,76,0.4);background:rgba(201,168,76,0.05)}
+.wdim.dcr{border-color:rgba(196,138,146,0.4);background:rgba(196,138,146,0.05)}
+.wdt{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.wdn{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3)}
+.wds{font-family:var(--fd);font-size:18px;font-weight:900;color:var(--ink)}
+.wdw{font-family:var(--fm);font-size:9px;color:var(--ink4)}
+.wdb{height:3px;background:var(--rule);border-radius:2px;overflow:hidden;margin-bottom:6px}
+.wdf{height:100%;border-radius:2px}
+.wdflag{font-size:10px;color:var(--au2);margin-top:4px;line-height:1.5}
+.wmeta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;padding-top:12px;border-top:1px solid var(--rule)}
+.wlr{font-family:var(--fm);font-size:9px;color:var(--ink3)}
+.wlr span{color:var(--g3)}
+.wkws{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.wkw{font-family:var(--fm);font-size:8px;padding:2px 6px;background:rgba(255,255,255,0.04);color:var(--ink4);border-radius:3px;border:1px solid var(--rule)}
+.mrv{font-family:var(--fm);font-size:9px;padding:5px 12px;border-radius:3px;border:1px solid rgba(93,202,165,0.3);background:rgba(45,122,79,0.1);color:var(--g3);cursor:pointer;transition:all .15s}
+.mrv:hover{background:rgba(45,122,79,0.2)}
+.vwcard{background:var(--surf);border:1px solid var(--rule);border-radius:8px;padding:16px 18px;margin-bottom:10px;transition:border-color .2s}
+.vwcard.flagged{border-color:rgba(201,168,76,0.5)}
+.vwt{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-wrap:wrap;gap:8px}
+.vwn{font-size:14px;font-weight:600;color:var(--ink)}
+.vwv{font-family:var(--fd);font-size:22px;font-weight:900;color:var(--g3)}
+.vwb{height:3px;background:var(--rule);border-radius:2px;overflow:hidden;margin-bottom:8px}
+.vwf{height:100%;border-radius:2px}
+.vwmeta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.vwrf{font-family:var(--fm);font-size:9px;color:var(--ink3)}
+.vwrf span{color:var(--g3)}
+.vwfl{font-size:11px;color:var(--au2);margin-top:6px;padding:6px 10px;background:rgba(201,168,76,0.08);border-radius:4px;border-left:2px solid var(--au)}
+
+/* ── DASHBOARD ── */
+.dh{background:rgba(6,14,8,0.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--rule);padding:12px 16px;position:sticky;top:52px;z-index:100}
+.dht{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.dtitle{font-family:var(--fd);font-size:16px;font-weight:900;color:var(--ink)}
+.dsub{font-family:var(--fm);font-size:8px;letter-spacing:1px;text-transform:uppercase;color:var(--ink3);margin-top:2px}
+.dpills{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:8px}
+.doom{background:rgba(158,107,114,0.15);border:1px solid rgba(196,138,146,0.3);padding:4px 10px;border-radius:4px;text-align:center}
+.doom-t{font-family:var(--fd);font-size:14px;font-weight:900;color:var(--mu2);line-height:1}
+.doom-l{font-family:var(--fm);font-size:7px;letter-spacing:1px;color:var(--ink3)}
+.spill{display:flex;align-items:center;gap:5px;font-family:var(--fm);font-size:9px;padding:4px 9px;border-radius:3px;border:1px solid var(--rule);color:var(--ink3)}
+.spill.live{border-color:rgba(93,202,165,0.4);color:var(--g3);background:rgba(45,122,79,0.1)}
+.blink{width:5px;height:5px;border-radius:50%;background:currentColor;animation:bl 1.5s infinite}
+@keyframes bl{0%,100%{opacity:1}50%{opacity:.2}}
+.dattr{background:rgba(6,14,8,0.6);border-bottom:1px solid var(--rule);padding:5px 16px;font-family:var(--fm);font-size:8px;color:var(--ink3);letter-spacing:.5px}
+.dbody{padding:12px 14px;display:flex;flex-direction:column;gap:12px}
+.dp{background:var(--surf);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.dph{padding:10px 14px;border-bottom:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between;cursor:pointer}
+.dph:hover{background:rgba(255,255,255,0.03)}
+.dpt{font-family:var(--fm);font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3)}
+.dph-h{font-family:var(--fm);font-size:8px;color:var(--ink4)}
+.dpb{padding:14px}
+.pbs{display:flex;gap:5px;margin-bottom:10px;flex-wrap:wrap}
+.pb{font-family:var(--fm);font-size:8px;letter-spacing:1px;padding:4px 8px;border-radius:3px;border:1px solid var(--rule);background:var(--bg3);color:var(--ink3);cursor:pointer;transition:all .15s}
+.pb:hover,.pb.on{background:var(--g);color:#fff;border-color:var(--g)}
+.oc-row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.oc{background:var(--bg3);border:1px solid var(--rule);border-radius:6px;padding:10px;position:relative;overflow:hidden}
+.oc::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--occ,var(--rule));transform:scaleX(var(--ocp,0));transform-origin:left;transition:transform .6s cubic-bezier(.4,0,.2,1)}
+.oc-n{font-family:var(--fm);font-size:8px;color:var(--ink3);letter-spacing:1px;margin-bottom:3px}
+.oc-nm{font-size:11px;font-weight:600;color:var(--ink);line-height:1.3;margin-bottom:6px;min-height:28px}
+.oc-p{font-family:var(--fd);font-size:24px;font-weight:900;line-height:1}
+.oc-p span{font-size:12px;opacity:.6}
+.vgs{display:flex;flex-direction:column;gap:8px}
+.vg{border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.vgt{font-family:var(--fm);font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);padding:6px 12px;background:var(--bg3);border-bottom:1px solid var(--rule)}
+.vrow{display:flex;align-items:center;gap:8px;padding:7px 12px;border-bottom:1px solid var(--rule);cursor:pointer;transition:background .15s}
+.vrow:last-child{border-bottom:none}
+.vrow:hover{background:rgba(93,202,165,0.05)}
+.vlbl{font-size:11px;color:var(--ink);flex:0 0 120px;line-height:1.3}
+.vsl{flex:1}
+input[type=range]{width:100%;height:3px;-webkit-appearance:none;background:var(--rule);border-radius:2px;outline:none;cursor:pointer}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:12px;height:12px;border-radius:50%;background:var(--g3);cursor:pointer}
+.vval{font-family:var(--fm);font-size:10px;color:var(--g3);flex:0 0 22px;text-align:right}
+.oil-s{display:none;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.2);border-radius:6px;padding:10px 14px;margin-bottom:10px}
+.oil-v{font-family:var(--fd);font-size:22px;font-weight:900;color:var(--au);line-height:1}
+.oil-l{font-family:var(--fm);font-size:8px;letter-spacing:1px;color:var(--ink3);text-transform:uppercase}
+.thlist{display:flex;flex-direction:column;gap:5px}
+.thr{display:grid;grid-template-columns:100px 1fr 26px;align-items:center;gap:8px;padding:8px 10px;background:var(--bg3);border:1px solid var(--rule);border-radius:5px}
+.thn{font-size:11px;font-weight:600;color:var(--ink)}
+.ths{font-size:9px;color:var(--ink3)}
+.thb{height:4px;background:var(--rule);border-radius:2px;overflow:hidden}
+.thbf{height:100%;border-radius:2px}
+.thlv{font-family:var(--fm);font-size:11px;text-align:right}
+.feed{background:var(--bg3);border:1px solid var(--rule);border-radius:6px;height:160px;overflow-y:auto}
+.ai{display:flex;gap:6px;padding:5px 10px;border-bottom:1px solid var(--rule)}
+.at{font-family:var(--fm);font-size:9px;color:var(--ink3);flex:0 0 44px;padding-top:1px}
+.ax{font-size:10px;line-height:1.5}
+.ax.critical{color:var(--mu2)}.ax.warning{color:var(--au)}.ax.info{color:var(--g3)}
+.ldash{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ldc{background:var(--bg3);border:1px solid var(--rule);border-radius:6px;padding:10px;position:relative}
+.ldc::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--lc,var(--rule));border-radius:6px 6px 0 0}
+.ldcn{font-family:var(--fd);font-size:12px;font-weight:700;color:var(--ink);line-height:1.2}
+.ldcr{font-size:9px;color:var(--ink2);margin-bottom:6px;line-height:1.3}
+.ldcb{height:3px;background:var(--rule);border-radius:2px;margin-bottom:4px;overflow:hidden}
+.ldcf{height:100%;border-radius:2px}
+.dfoot{font-family:var(--fm);font-size:8px;color:var(--ink3);text-align:center;padding:6px;border-top:1px solid var(--rule)}
+
+/* ── POC ── */
+.poc{background:var(--surf);border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin-bottom:20px}
+.poc-h{padding:18px;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.poc-n{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--g3);margin-bottom:4px}
+.poc-t{font-family:var(--fd);font-size:18px;font-weight:900;color:var(--ink);line-height:1.2}
+.poc-p{font-family:var(--fm);font-size:11px;color:var(--ink3);margin-top:3px}
+.poc-v{font-family:var(--fm);font-size:9px;padding:3px 8px;border-radius:3px;white-space:nowrap}
+.poc-v.fail{background:rgba(158,107,114,0.2);color:var(--mu2)}
+.poc-v.live{background:rgba(93,202,165,0.15);color:var(--g3)}
+.poc-cols{border-bottom:1px solid var(--rule)}
+.poc-col{padding:16px 18px;border-bottom:1px solid var(--rule)}
+.poc-col:last-child{border-bottom:none}
+.poc-cl{font-family:var(--fm);font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin-bottom:8px}
+.poc-ct{font-size:13px;color:var(--ink2);line-height:1.7}
+.poc-ct strong{color:var(--ink);font-weight:600}
+.poc-col.pred{background:rgba(158,107,114,0.04)}
+.poc-col.real{background:rgba(201,168,76,0.04)}
+.poc-col.human{background:rgba(45,122,79,0.05)}
+.poc-dims{padding:12px 18px;display:flex;flex-wrap:wrap;gap:5px;border-bottom:1px solid var(--rule)}
+.pdim{font-family:var(--fm);font-size:9px;padding:2px 7px;border-radius:3px;background:rgba(93,202,165,0.1);color:var(--g3);border:1px solid rgba(93,202,165,0.2)}
+.pdim.ideo{background:rgba(201,168,76,0.1);color:var(--au2);border-color:rgba(201,168,76,0.2)}
+.pdim.narc{background:rgba(158,107,114,0.1);color:var(--mu2);border-color:rgba(158,107,114,0.2)}
+.poc-gap{padding:14px 18px;background:rgba(45,122,79,0.04)}
+.poc-gl{font-family:var(--fm);font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--g3);margin-bottom:5px}
+.poc-gt{font-size:13px;color:var(--ink2);line-height:1.65;font-style:italic}
+
+/* ── ARTICLES ── */
+.art{padding:22px 0;border-bottom:1px solid var(--rule);display:block;text-decoration:none;color:var(--ink)}
+.art-m{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin-bottom:6px;display:flex;gap:8px}
+.art-tag{color:var(--g3)}
+.art-t{font-family:var(--fd);font-size:18px;font-weight:700;line-height:1.25;margin-bottom:6px;color:var(--ink);transition:color .15s}
+.art:hover .art-t{color:var(--g3)}
+.art-e{font-size:13px;color:var(--ink2);line-height:1.7;font-weight:300;margin-bottom:6px}
+.art-d{font-family:var(--fm);font-size:10px;color:var(--ink3)}
+
+/* ── MODAL ── */
+.modal{position:fixed;inset:0;background:rgba(4,10,6,0.92);backdrop-filter:blur(8px);z-index:2000;display:none;align-items:flex-end;justify-content:center;padding:0}
+.modal.open{display:flex;animation:min .2s ease}
+@keyframes min{from{opacity:0}to{opacity:1}}
+.mbox{background:#0D1A10;border:1px solid rgba(255,255,255,0.1);border-radius:16px 16px 0 0;width:100%;max-height:88vh;overflow-y:auto}
+.mbox::-webkit-scrollbar{width:3px}
+.mbox::-webkit-scrollbar-thumb{background:var(--g);border-radius:2px}
+.mhd{padding:20px 22px 16px;border-bottom:1px solid rgba(255,255,255,0.07);display:flex;align-items:flex-start;justify-content:space-between;position:sticky;top:0;background:#0D1A10;z-index:1}
+.mk{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--g3);margin-bottom:6px}
+.mt{font-family:var(--fd);font-size:22px;font-weight:900;color:var(--ink);line-height:1.15}
+.mx{background:none;border:1px solid rgba(255,255,255,0.1);color:var(--ink3);cursor:pointer;width:32px;height:32px;border-radius:50%;font-size:15px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-left:12px}
+.mbd{padding:20px 22px}
+.msec{margin-bottom:20px}
+.msl{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--ink3);margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,0.06)}
+.mtxt{font-size:14px;color:var(--ink2);line-height:1.8;font-weight:300}
+.mtxt p+p{margin-top:10px}
+.mtxt strong{color:var(--ink);font-weight:600}
+.mpull{background:rgba(45,122,79,0.1);border-left:3px solid var(--g);padding:12px 16px;border-radius:0 6px 6px 0;font-family:var(--fd);font-size:16px;font-style:italic;color:var(--ink);line-height:1.5;margin:14px 0}
+
+/* ── METHODOLOGY TABLE ── */
+.mtable{width:100%;border-collapse:collapse;margin:16px 0;font-size:13px;overflow-x:auto;display:block}
+.mtable th{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);padding:8px 12px;border-bottom:1px solid var(--rule);text-align:left;white-space:nowrap}
+.mtable td{color:var(--ink2);padding:9px 12px;border-bottom:1px solid rgba(255,255,255,0.04);vertical-align:top}
+.bpill{font-family:var(--fm);font-size:9px;padding:2px 7px;border-radius:3px;white-space:nowrap}
+
+/* ── PROPOSALS SECTION ── */
+.prop-card{background:var(--bg3);border:1px solid rgba(201,168,76,0.25);border-radius:10px;overflow:hidden;margin-bottom:16px}
+.prop-card.high{border-color:rgba(196,138,146,0.4)}
+.prop-hdr{padding:14px 18px;border-bottom:1px solid var(--rule);display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.prop-leader{font-family:var(--fd);font-size:16px;font-weight:700;color:var(--ink)}
+.prop-dim{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin-top:3px}
+.prop-delta{text-align:right;flex-shrink:0}
+.prop-dv{font-family:var(--fd);font-size:28px;font-weight:900;line-height:1}
+.prop-scores{font-family:var(--fm);font-size:10px;color:var(--ink3);margin-top:2px}
+.prop-conf{font-family:var(--fm);font-size:8px;padding:2px 6px;border-radius:3px;display:inline-block;margin-top:4px}
+.prop-body{padding:14px 18px}
+.prop-pattern{font-size:13px;color:var(--ink2);line-height:1.7;margin-bottom:14px}
+.prop-ev-lbl{font-family:var(--fm);font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin-bottom:8px}
+.prop-ev-item{border-left:2px solid var(--rule);padding:6px 10px;margin-bottom:6px}
+.prop-ev-hl{font-size:12px;color:var(--ink);font-weight:500;line-height:1.4}
+.prop-ev-meta{font-family:var(--fm);font-size:9px;color:var(--ink4);margin-top:3px}
+.prop-ev-rel{font-size:11px;color:var(--ink2);margin-top:3px;font-style:italic}
+.prop-counter{background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.2);border-radius:4px;padding:8px 10px;font-size:11px;color:var(--au2);margin-top:8px}
+.prop-actions{padding:12px 18px;border-top:1px solid var(--rule);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.prop-approve{background:var(--g);color:#fff;border:none;border-radius:5px;padding:8px 20px;font-family:var(--fm);font-size:10px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;transition:background .15s}
+.prop-approve:hover{background:var(--g2)}
+.prop-approve:disabled{opacity:0.5;cursor:not-allowed}
+.prop-reject{background:transparent;color:var(--mu2);border:1px solid rgba(196,138,146,0.3);border-radius:5px;padding:8px 16px;font-family:var(--fm);font-size:10px;letter-spacing:1px;text-transform:uppercase;cursor:pointer}
+.prop-status{font-family:var(--fm);font-size:10px;color:var(--g3);display:none}
+.pat-row{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding:12px 16px;background:var(--bg3);border:1px solid var(--rule);border-radius:6px}
+.pat-lbl{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);white-space:nowrap}
+.pat-input{flex:1;background:var(--bg2);border:1px solid var(--rule);border-radius:4px;padding:7px 10px;color:var(--ink);font-family:var(--fm);font-size:11px;outline:none}
+.pat-hint{font-size:11px;color:var(--ink4)}
+.clock-n{font-family:var(--fd);font-size:80px;font-weight:900;color:var(--mu2);line-height:1}
+.trow{display:grid;grid-template-columns:70px 1fr;gap:14px;padding:12px 16px;border-bottom:1px solid var(--rule)}
+.tyr{font-family:var(--fm);font-size:12px;color:var(--g3);font-weight:500}
+.tyr.r{color:var(--mu2)}
+.tdesc{font-size:13px;color:var(--ink2)}
+
+/* ── WATCH ALERT BANNER ── */
+.watch-alert{background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.2);border-radius:6px;padding:12px 16px;margin-bottom:24px;font-family:var(--fm);font-size:10px;color:var(--au2)}
+.watch-sec-t{font-family:var(--fd);font-size:22px;font-weight:900;color:var(--ink);margin-bottom:6px}
+.watch-sec-s{font-size:13px;color:var(--ink2);margin-bottom:24px;line-height:1.6}
+.vcat-t{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--g3);padding:6px 0;border-bottom:1px solid var(--rule);margin-bottom:10px;margin-top:24px}
+
+/* ── SCORING TABLE (methodology) ── */
+.stab{background:var(--surf);border:1px solid var(--rule);border-radius:8px;overflow:hidden;margin:16px 0}
+.stab-h{padding:10px 16px;border-bottom:1px solid var(--rule);background:var(--bg3);font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--g3)}
+.stab-body{overflow-x:auto}
+
+/* ── DESKTOP 768px+ ── */
+@media(min-width:768px){
+  .topbar{display:none}
+  .layout{padding-top:0}
+
+  .sidenav{
+    display:flex;flex-direction:column;
+    position:fixed;left:0;top:0;bottom:0;width:64px;
+    background:rgba(6,14,8,0.95);backdrop-filter:blur(12px);
+    border-right:1px solid var(--rule);z-index:800;
+    overflow:hidden;transition:width .28s cubic-bezier(.4,0,.2,1);
+  }
+  .sidenav:hover{width:230px}
+
+  .main{margin-left:64px;margin-right:160px}
+
+  .nav-logo{display:flex;align-items:center;gap:12px;padding:18px 15px 16px;border-bottom:1px solid var(--rule);text-decoration:none;white-space:nowrap}
+  .nav-logo-mark{width:34px;height:34px;background:var(--g);border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:16px;font-weight:900;color:#fff;flex-shrink:0}
+  .nav-logo-text{font-size:11px;font-weight:600;color:var(--ink2);line-height:1.35;opacity:0;transform:translateX(-8px);transition:opacity .2s .05s,transform .2s .05s}
+  .sidenav:hover .nav-logo-text{opacity:1;transform:none}
+  .nav-scroll{flex:1;display:flex;flex-direction:column;padding:10px 8px;gap:2px;overflow-y:auto;overflow-x:hidden}
+  .nav-scroll::-webkit-scrollbar{display:none}
+  .nav-sec{font-family:var(--fm);font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink4);padding:10px 10px 4px;white-space:nowrap;opacity:0;transition:opacity .2s}
+  .sidenav:hover .nav-sec{opacity:1}
+  .nav-item{display:flex;align-items:center;gap:11px;padding:9px 10px;border-radius:7px;cursor:pointer;color:var(--ink3);text-decoration:none;white-space:nowrap;transition:background .15s,color .15s;border:none;background:none;font-family:var(--fb);width:100%;text-align:left}
+  .nav-item:hover{background:rgba(255,255,255,0.06);color:var(--ink)}
+  .nav-item.active{background:var(--g);color:#fff}
+  .nav-item.live-btn{background:rgba(45,122,79,0.18);border:1px solid rgba(93,202,165,0.25)}
+  .nav-item.watch-nav{background:rgba(201,168,76,0.12);border:1px solid rgba(201,168,76,0.2)}
+  .nav-icon{width:20px;height:20px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+  .nav-icon svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .nav-text{font-size:13px;font-weight:500;opacity:0;transform:translateX(-6px);transition:opacity .18s .04s,transform .18s .04s}
+  .sidenav:hover .nav-text{opacity:1;transform:none}
+  .nav-text.lv{color:var(--g3);font-weight:600}
+  .nav-text.wt{color:var(--au2);font-weight:600}
+  .nav-badge{margin-left:auto;font-family:var(--fm);font-size:9px;padding:1px 5px;border-radius:3px;opacity:0;transition:opacity .18s;white-space:nowrap}
+  .nav-badge.live{background:#2D7A4F;color:var(--g3)}
+  .nav-badge.gold{background:var(--au);color:#2A1F00}
+  .nav-badge.green{background:var(--g);color:#fff}
+  .nav-badge.watch{background:var(--au);color:#2A1F00}
+  .sidenav:hover .nav-badge{opacity:1}
+  .nav-div{height:1px;background:var(--rule);margin:6px 0}
+  .nav-footer{padding:10px 8px;border-top:1px solid var(--rule)}
+  .nav-author{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:7px;text-decoration:none;white-space:nowrap}
+  .nav-avatar{width:28px;height:28px;border-radius:50%;background:var(--au);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:12px;font-weight:700;color:#2A1F00}
+  .nav-author-info{opacity:0;transform:translateX(-6px);transition:opacity .18s,transform .18s}
+  .sidenav:hover .nav-author-info{opacity:1;transform:none}
+  .nav-author-name{font-size:12px;font-weight:600;color:var(--ink);line-height:1.2}
+  .nav-author-role{font-size:10px;color:var(--ink3)}
+
+  /* RIGHT PANEL — desktop only */
+  .rpanel{
+    display:flex;flex-direction:column;align-items:center;
+    position:fixed;right:0;top:0;bottom:0;width:160px;
+    background:rgba(6,14,8,0.97);backdrop-filter:blur(12px);
+    border-left:1px solid var(--rule);padding:14px 0 0;z-index:799;cursor:pointer;
+  }
+  .rpanel-drawer{
+    display:block;
+    position:fixed;right:160px;top:0;bottom:0;width:0;
+    background:rgba(8,20,12,0.98);backdrop-filter:blur(20px);
+    border-left:1px solid var(--rule);z-index:798;
+    overflow:hidden;transition:width .3s cubic-bezier(.4,0,.2,1);
+  }
+  .rpanel-drawer.open{width:340px}
+  .rpd-inner{width:340px;height:100%;overflow-y:auto;padding:24px 0}
+  .rpd-inner::-webkit-scrollbar{display:none}
+  .rpd-title{font-family:var(--fm);font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--ink3);padding:0 24px 16px;border-bottom:1px solid var(--rule);margin-bottom:8px;display:flex;align-items:center;justify-content:space-between}
+  .rpd-close{background:none;border:none;color:var(--ink3);cursor:pointer;font-size:18px}
+  .rpd-item{padding:16px 24px;border-bottom:1px solid rgba(255,255,255,0.06)}
+  .rpd-top{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:4px}
+  .rpd-name{font-family:var(--fd);font-size:14px;font-weight:700;color:var(--ink)}
+  .rpd-val{font-family:var(--fm);font-size:17px;font-weight:600}
+  .rpd-bar{height:3px;background:rgba(255,255,255,0.07);border-radius:2px;margin:6px 0;overflow:hidden}
+  .rpd-fill{height:100%;border-radius:2px}
+  .rpd-desc{font-size:11px;color:var(--ink2);line-height:1.6;font-weight:300}
+  .rp-dot{width:6px;height:6px;border-radius:50%;background:var(--g3);animation:rpbl 2s infinite;margin-bottom:10px}
+  @keyframes rpbl{0%,100%{opacity:1}50%{opacity:.2}}
+  .rp-item{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px 12px;width:100%;border-top:1px solid var(--rule);min-height:76px}
+  .rp-item:hover{background:rgba(93,202,165,0.06)}
+  .rp-val{font-family:var(--fm);font-size:19px;font-weight:600;line-height:1;color:var(--g3)}
+  .rp-val.r{color:var(--mu2)}.rp-val.au{color:var(--au2)}.rp-val.wh{color:var(--ink)}
+  .rp-lbl{font-family:var(--fm);font-size:9px;letter-spacing:.8px;text-transform:uppercase;color:var(--ink3);margin-top:5px;text-align:center;line-height:1.4}
+
+  /* Desktop layout tweaks */
+  .dh{top:0}
+  .hero{padding:60px 56px 48px}
+  .sec{padding:48px 56px}
+  .hero-btns{flex-direction:row}
+  .stats{display:flex;flex-wrap:nowrap;overflow-x:auto}
+  .stat{flex:0 0 auto;padding:20px 28px;border-bottom:none}
+  .stat:nth-child(even){border-right:1px solid var(--rule)}
+  .cc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .lg{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;padding:40px 56px}
+  .oc-row{grid-template-columns:repeat(5,1fr)}
+  .ldash{grid-template-columns:repeat(3,1fr)}
+  .vlbl{flex:0 0 148px}
+  .clock-n{font-size:100px}
+  .modal{align-items:center;padding:24px}
+  .mbox{border-radius:12px;max-width:860px;max-height:88vh}
+  .mhd{padding:28px 32px 20px}
+  .mt{font-size:26px}
+  .mbd{padding:28px 32px}
+  .poc-cols{display:grid;grid-template-columns:1fr 1fr 1fr}
+  .poc-col{border-bottom:none;border-right:1px solid var(--rule)}
+  .poc-col:last-child{border-right:none}
+  .idw{padding:48px 56px}
+  .id-table-wrap{overflow-x:visible}
+}
+</style>
+</head>
+<body>
+<script>
+function openMenu(){document.getElementById('mobMenu').classList.add('open');document.body.style.overflow='hidden';}
+function closeMenu(){document.getElementById('mobMenu').classList.remove('open');document.body.style.overflow='';}
+function mnav(id){closeMenu();showPage(id);}
+</script>
+
+<!-- TOPBAR (mobile only) -->
+<div class="topbar">
+  <a class="topbar-logo" href="#" onclick="mnav('home');return false">
+    <div class="topbar-mark">AG</div>
+    <div class="topbar-name">Accidental Geopolitical Tracker</div>
+  </a>
+  <button class="menu-btn" onclick="openMenu()">&#9776; Menu</button>
+</div>
+
+<!-- MOBILE MENU -->
+<div class="mob-menu" id="mobMenu">
+  <div class="mm-head">
+    <div class="mm-lbl">Navigation</div>
+    <button class="mm-x" onclick="closeMenu()">&#10005;</button>
+  </div>
+  <button class="mm-item" onclick="mnav('home')"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>Home</button>
+  <button class="mm-item" onclick="mnav('about')"><div class="mm-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>About</button>
+  <button class="mm-item live" onclick="mnav('dashboard')"><div class="mm-ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>Live Dashboard &#11044;</button>
+  <button class="mm-item wbtn" onclick="mnav('watch')"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div>Assessment Watch &#9873;</button>
+  <div class="mm-sec">Analysis</div>
+  <button class="mm-item" onclick="mnav('methodology')"><div class="mm-ic"><svg viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/></svg></div>Methodology</button>
+  <button class="mm-item" onclick="mnav('psychology')"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><circle cx="12" cy="12" r="10"/></svg></div>Leadership Psychology</button>
+  <button class="mm-item" onclick="mnav('poc')"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M2 20h20M6 20V10l6-6 6 6v10"/></svg></div>Proof of Concept</button>
+  <button class="mm-item" onclick="mnav('leaders')"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg></div>Global Leaders</button>
+  <button class="mm-item" onclick="mnav('assessment')"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>Leader Assessment</button>
+  <button class="mm-item" onclick="mnav('clock')"><div class="mm-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>89 Seconds</button>
+  <button class="mm-item" onclick="mnav('articles')"><div class="mm-ic"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg></div>Articles</button>
+</div>
+
+<div class="layout">
+
+<!-- SIDENAV (desktop only — display:none on mobile via CSS) -->
+<nav class="sidenav">
+  <a class="nav-logo" href="#" onclick="showPage('home');return false">
+    <div class="nav-logo-mark">AG</div>
+    <div class="nav-logo-text">Accidental Geopolitical<br>Tracker</div>
+  </a>
+  <div class="nav-scroll">
+    <button class="nav-item active" id="nav-home" onclick="showPage('home')"><div class="nav-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><span class="nav-text">Home</span></button>
+    <button class="nav-item" id="nav-about" onclick="showPage('about')"><div class="nav-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div><span class="nav-text">About</span></button>
+    <button class="nav-item live-btn" id="nav-dashboard" onclick="showPage('dashboard')"><div class="nav-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div><span class="nav-text lv">Live Dashboard</span><span class="nav-badge live">LIVE</span></button>
+    <button class="nav-item watch-nav" id="nav-watch" onclick="showPage('watch')"><div class="nav-icon"><svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div><span class="nav-text wt">Assessment Watch</span><span class="nav-badge watch" id="wbadge">0</span></button>
+    <div class="nav-div"></div>
+    <div class="nav-sec">Analysis</div>
+    <button class="nav-item" id="nav-methodology" onclick="showPage('methodology')"><div class="nav-icon"><svg viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/></svg></div><span class="nav-text">Methodology</span></button>
+    <button class="nav-item" id="nav-psychology" onclick="showPage('psychology')"><div class="nav-icon"><svg viewBox="0 0 24 24"><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><circle cx="12" cy="12" r="10"/></svg></div><span class="nav-text">Leadership Psychology</span></button>
+    <button class="nav-item" id="nav-poc" onclick="showPage('poc')"><div class="nav-icon"><svg viewBox="0 0 24 24"><path d="M2 20h20M6 20V10l6-6 6 6v10M10 20v-5h4v5"/></svg></div><span class="nav-text">Proof of Concept</span><span class="nav-badge green">7</span></button>
+    <button class="nav-item" id="nav-leaders" onclick="showPage('leaders')"><div class="nav-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg></div><span class="nav-text">Global Leaders</span><span class="nav-badge gold">11</span></button>
+    <button class="nav-item" id="nav-assessment" onclick="showPage('assessment')"><div class="nav-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg></div><span class="nav-text">Leader Assessment</span></button>
+    <button class="nav-item" id="nav-clock" onclick="showPage('clock')"><div class="nav-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><span class="nav-text">89 Seconds</span></button>
+    <button class="nav-item" id="nav-articles" onclick="showPage('articles')"><div class="nav-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/></svg></div><span class="nav-text">Articles</span></button>
+  </div>
+  <div class="nav-footer">
+    <a class="nav-author" href="https://substack.com/@subhaimtiaz" target="_blank">
+      <div class="nav-avatar">SI</div>
+      <div class="nav-author-info"><div class="nav-author-name">Subha Imtiaz</div><div class="nav-author-role">People &amp; Culture · APAC</div></div>
+    </a>
+  </div>
+</nav>
+
+<!-- RIGHT PANEL DRAWER (desktop only) -->
+<div class="rpanel-drawer" id="rpdrawer">
+  <div class="rpd-inner">
+    <div class="rpd-title"><span>Live Metrics</span><button class="rpd-close" onclick="closeDrawer()">&#10005;</button></div>
+    <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Doomsday Clock</div><div class="rpd-val" style="color:var(--mu2)">89s</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:98%;background:var(--mu2)"></div></div><div class="rpd-desc">Set Jan 2026. Closest to midnight in history.</div></div>
+    <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Escalation Risk</div><div class="rpd-val r" id="drawerEsc" style="color:var(--mu2)">26%</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:26%;background:var(--mu2)"></div></div><div class="rpd-desc">Composite probability weighted across 15 variables and 11 leader profiles.</div></div>
+    <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Brent Crude</div><div class="rpd-val" id="drawerOil" style="color:var(--au2)">$97</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:62%;background:var(--au)"></div></div><div class="rpd-desc">Live spot price. Pre-war baseline $67/bbl.</div></div>
+    <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Narcissism Index</div><div class="rpd-val wh">78</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:78%;background:var(--mu)"></div></div><div class="rpd-desc">Aggregate across 11 leaders.</div></div>
+    <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Negotiation Chance</div><div class="rpd-val" id="drawerNeg" style="color:var(--g3)">3%</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:3%;background:var(--g3)"></div></div><div class="rpd-desc">Oman breakthrough Feb 27 destroyed by strikes the next day.</div></div>
+    <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Leaders Assessed</div><div class="rpd-val au">11</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:100%;background:var(--au)"></div></div><div class="rpd-desc">All 11: high survival incentive, low accountability exposure.</div></div>
+  </div>
+</div>
+
+<!-- RIGHT PANEL (desktop only) -->
+<div class="rpanel" onclick="toggleDrawer()">
+  <div class="rp-dot"></div>
+  <div class="rp-item"><div class="rp-val r">89s</div><div class="rp-lbl">To<br>Midnight</div></div>
+  <div class="rp-item"><div class="rp-val r" id="rpEsc">26%</div><div class="rp-lbl">Esc<br>Risk</div></div>
+  <div class="rp-item"><div class="rp-val au" id="rpOil">$97</div><div class="rp-lbl">Brent<br>Oil</div></div>
+  <div class="rp-item"><div class="rp-val wh">78</div><div class="rp-lbl">Narc<br>Index</div></div>
+  <div class="rp-item"><div class="rp-val" id="rpNeg">3%</div><div class="rp-lbl">Neg<br>Chance</div></div>
+  <div class="rp-item"><div class="rp-val au">11</div><div class="rp-lbl">Leaders<br>Assessed</div></div>
+</div>
+
+<main class="main">
+
+<!-- HOME -->
+<div class="page active" id="page-home">
+  <div class="hero">
+    <div class="kicker">Live Geopolitical Intelligence</div>
+    <h1 class="h1">Geopolitical risk analysis<br>with the <em>human element</em> built in.</h1>
+    <p class="lead">Wars are not started by complex variables alone. The people deciding to act on them are the variable every other tracker leaves out.</p>
+    <div class="hero-btns">
+      <button class="btn btn-g" onclick="showPage('dashboard')">Open Live Dashboard</button>
+      <button class="btn btn-o" onclick="showPage('about')">Why This Exists</button>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="sv mu">89s</div><div class="sl">To Midnight</div></div>
+    <div class="stat"><div class="sv mu">26%</div><div class="sl">Escalation Risk</div></div>
+    <div class="stat"><div class="sv au">78</div><div class="sl">Narcissism Index</div></div>
+    <div class="stat"><div class="sv g">11</div><div class="sl">Leader Profiles</div></div>
+    <div class="stat"><div class="sv g">15</div><div class="sl">Live Variables</div></div>
+    <div class="stat"><div class="sv g">3%</div><div class="sl">Negotiation Chance</div></div>
+  </div>
+  <div class="sec">
+    <div class="sec-lbl">The Thesis</div>
+    <div class="pull">"It is not the machines at battle. It is the people deciding to fire them."</div>
+  </div>
+  <div class="sec">
+    <div class="sec-lbl">Five Dimensions</div>
+    <h2 style="font-family:var(--fd);font-size:clamp(18px,3vw,30px);font-weight:700;color:var(--ink);margin-bottom:16px">What this tracker measures that no other does.</h2>
+    <div class="cc-grid">
+      <div class="cc" style="--c:var(--g3)"><div class="cc-n">DIMENSION 01</div><div class="cc-t">Leader Psychology</div><div class="cc-b">Narcissism, impulsivity, values anchor, survival incentive, accountability exposure — with formal weightings. Survival incentive is 25% weight — highest — because loss aversion research is clear: leaders fighting for personal survival take disproportionate risks.</div></div>
+      <div class="cc" style="--c:var(--au)"><div class="cc-n">DIMENSION 02</div><div class="cc-t">Factuality Layer</div><div class="cc-b">The gap between what leaders say publicly and what the verifiable record shows. That gap is not a communication error. It is where the actual strategy lives.</div></div>
+      <div class="cc" style="--c:var(--mu)"><div class="cc-n">DIMENSION 03</div><div class="cc-t">Structural Guardrails</div><div class="cc-b">What remains of the systems designed to create friction before catastrophic decisions. Congressional constraint 20/100. Diplomatic channels 22/100. Arms control 15/100.</div></div>
+      <div class="cc" style="--c:#C2CAD4"><div class="cc-n">DIMENSION 04</div><div class="cc-t">Escalation Signals</div><div class="cc-b">Nuclear signalling, cyber intensity, proxy network activity. The tells analysts miss when they are only watching hardware.</div></div>
+      <div class="cc" style="--c:var(--au2)"><div class="cc-n">DIMENSION 05</div><div class="cc-t">Ideological Philosophy</div><div class="cc-b">What a leader cannot see is more dangerous than what a leader will not do. When ideology dehumanises the adversary it degrades intelligence. Not a moral variable. A strategic one.</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="page" id="page-about">
+  <div class="hero">
+    <div class="kicker">About This Tracker</div>
+    <h1 class="h1">I was done with sleepless nights about outcomes decided by people I would not trust to <em>house sit my cats.</em></h1>
+    <p class="lead">Not because the situation is not serious. It is. But because the anxiety was coming from treating these conflicts as forces of nature when they are being decided by a small number of specific human beings.</p>
+  </div>
+  <div class="sec">
+    <div class="sec-lbl">Why It Exists</div>
+    <div class="prose">
+      <p>We are told these conflicts are too complex to understand. Too many variables. Too much history. We feel what we are supposed to feel: overwhelmed, anxious, and ultimately passive.</p>
+      <p>I am Pakistani. I have lived inside the kind of geopolitical decisions that get made in rooms I am not in, about people who look like me, by people who have never met anyone who looks like me. 2001. 2003. A direct line from each of those decisions to the current Iran war.</p>
+      <p><strong>3 trillion dollars. 500,000 deaths. All of it predictable — not from the intelligence, but from the psychology of the people interpreting it.</strong></p>
+    </div>
+  </div>
+  <div class="sec"><div class="sec-lbl">The Purpose</div><div class="pull">"We cannot just be consumers of smoke and screen. We have a responsibility to distil and share information. To help clear the haze."</div><div class="prose" style="margin-top:18px"><p>This tracker started as a personal discipline. Not to tell anyone what will happen. To force every assessment through a factual filter before it becomes a conclusion. Because a prediction without a proof base is just a fear with a narrative attached.</p></div></div>
+  <div class="sec"><div class="sec-lbl">About Subha Imtiaz</div><div class="prose"><p>People and Culture Director. Strategic Adviser, Institute of Neurodiversity Singapore. Former student journalist who interviewed Taliban figures, organised flood relief in Pakistan, and filmed inside Lal Masjid one week before Operation Sunrise in 2007. Then spent 13 years in corporate HR across Pakistan, Singapore, Malaysia, UK, Japan, and Korea.</p><p>The through-line is the same in both rooms: systems, power, and the humans operating inside them.</p><p style="margin-top:14px"><a href="https://substack.com/@subhaimtiaz" target="_blank" style="color:var(--g3);font-family:var(--fm);font-size:11px;letter-spacing:1px">READ ON SUBSTACK &#8599;</a></p></div></div>
+</div>
+
+<!-- METHODOLOGY -->
+<div class="page" id="page-methodology">
+  <div class="hero"><div class="kicker">Methodology</div><h1 class="h1">How the scores are calculated.</h1><p class="lead">Every number has a source, a weighting rationale, and a human psychology reason for existing.</p></div>
+  <div class="sec">
+    <div class="sec-lbl">Scoring Formula</div>
+    <div class="stab"><div class="stab-h">Step 1 — Evidence Band</div><div class="stab-body"><table class="mtable"><tr><th>Band</th><th>Base</th><th>Definition</th></tr><tr><td><span class="bpill ba">A</span></td><td style="font-family:var(--fm)">76–100</td><td>Peer-reviewed + official government record + multiple independent sources</td></tr><tr><td><span class="bpill bb">B</span></td><td style="font-family:var(--fm)">51–75</td><td>Two of the three above, or peer-reviewed + documented behavioural pattern</td></tr><tr><td><span class="bpill bc">C</span></td><td style="font-family:var(--fm)">26–50</td><td>Single credible source or consistent multi-journalist pattern</td></tr><tr><td><span class="bpill bd">D</span></td><td style="font-family:var(--fm)">0–25</td><td>Thin public record, indirect evidence, new leader</td></tr></table></div></div>
+    <div class="stab" style="margin-top:16px"><div class="stab-h">Step 2 — Intensity Multiplier (0–24 added to base)</div><div class="stab-body"><table class="mtable"><tr><th>Factor</th><th>Adds</th><th>Definition</th></tr><tr><td style="color:var(--ink)">Frequency</td><td style="font-family:var(--fm)">0–8</td><td>Isolated incident (0) to consistent pattern across years (8)</td></tr><tr><td style="color:var(--ink)">Consequence</td><td style="font-family:var(--fm)">0–8</td><td>Low-stakes (0) to life-or-death military decision (8)</td></tr><tr><td style="color:var(--ink)">Corroboration</td><td style="font-family:var(--fm)">0–8</td><td>Denied with no corroboration (0) to confirmed by multiple independent parties (8)</td></tr></table></div></div>
+    <div class="pull" style="margin-top:20px">Example: Trump Narcissism 92. Band A (Frontiers in Psychology 2025 + 6 named Cabinet officials + Congressional testimony). Frequency 8 + Consequence 8 + Corroboration 8 = 24. Base 76 + 16 = 92. Confidence: HIGH.</div>
+  </div>
+  <div class="sec">
+    <div class="sec-lbl">Formal Dimension Weights</div>
+    <div class="stab"><div class="stab-body"><table class="mtable"><tr><th>Dimension</th><th>Weight</th><th>Flag Threshold</th><th>Rationale</th></tr><tr><td style="color:var(--ink)">Survival Incentive</td><td style="font-family:var(--fm);color:var(--mu2)">25%</td><td style="font-family:var(--fm)">≥2.0 pts</td><td>Loss aversion research: highest predictor of irrational escalation.</td></tr><tr><td style="color:var(--ink)">Accountability Exposure</td><td style="font-family:var(--fm);color:var(--mu2)">22%</td><td style="font-family:var(--fm)">≥2.3 pts</td><td>When no consequences exist, all other dimensions amplify.</td></tr><tr><td style="color:var(--ink)">Narcissism</td><td style="font-family:var(--fm);color:var(--au2)">20%</td><td style="font-family:var(--fm)">≥2.5 pts</td><td>Extends conflicts past rational endpoints.</td></tr><tr><td style="color:var(--ink)">Impulsivity</td><td style="font-family:var(--fm);color:var(--au2)">18%</td><td style="font-family:var(--fm)">≥2.8 pts</td><td>Inverts deterrence. Unpredictability becomes the weapon.</td></tr><tr><td style="color:var(--ink)">Values Anchor</td><td style="font-family:var(--fm);color:var(--g3)">15%</td><td style="font-family:var(--fm)">≥3.0 pts</td><td>Slower-moving. Framework constraint rather than active driver.</td></tr></table></div></div>
+  </div>
+</div>
+
+<!-- PSYCHOLOGY -->
+<div class="page" id="page-psychology">
+  <div class="hero"><div class="kicker">Leadership Psychology</div><h1 class="h1">Why the human variable<br>determines every other variable.</h1><p class="lead">The theoretical basis for why leader psychology is a strategic input, not a biographical footnote.</p></div>
+  <div class="sec"><div class="sec-lbl">Theoretical Foundation</div><div class="prose"><p><strong>Prospect Theory</strong> (Kahneman and Tversky, 1979): Leaders make decisions based on perceived losses relative to their personal reference point. Netanyahu at 96/100 survival incentive is not making the same calculation as a leader at 30/100.</p><p><strong>Narcissistic Leadership</strong> (Rosenthal and Pittinsky, 2006): Narcissistic leaders systematically overestimate their capabilities, extend conflicts past rational endpoints, and only exit when they can frame it as a personal victory.</p><p><strong>Loss Aversion in Conflict</strong> (McDermott, 2004): Leaders facing personal loss take disproportionate risks. Three active corruption trials suspended under wartime emergency is a loss aversion variable producing specific predictable behaviour.</p></div></div>
+  <div class="sec"><div class="sec-lbl">The Role of Ideological Philosophy</div><div class="prose"><p>The five dimensions measure what a leader will and will not <strong>do</strong>. Ideological philosophy measures what a leader is unable to <strong>see</strong>.</p><p>When an ideological framework dehumanises an entire group, it produces a cognitive filter. The leader stops receiving accurate intelligence about that group. The result is not evil strategy. It is degraded strategy.</p></div><div class="pull">"What a leader is unwilling to see is more dangerous than what a leader is unwilling to do."</div><div class="prose" style="margin-top:16px"><p>Nazi Germany lost the nuclear race not because of military failure but because antisemitism drove out the scientists who could have won it. October 7 was the most significant intelligence failure in Israeli history — under the most intensive surveillance architecture in the world. The mechanism is identical.</p></div></div>
+</div>
+
+<!-- POC -->
+<div class="page" id="page-poc">
+  <div class="hero"><div class="kicker">Proof of Concept</div><h1 class="h1">When conventional metrics failed.<br>What the <em>human dimension</em> predicted.</h1><p class="lead">Seven historical conflicts. In each one the prediction was wrong. The variable that closed the gap was human psychology or ideological philosophy.</p></div>
+  <div class="sec" id="pocList"></div>
+  <div class="sec"><div class="sec-lbl">The Pattern</div><div class="pull">"Every one of these failures had a human dimension variable that predicted it. None of those variables had a column in the conventional analysis. This tracker gives them a column."</div></div>
+</div>
+
+<!-- LEADERS -->
+<div class="page" id="page-leaders">
+  <div class="hero"><div class="kicker">Global Conflict Leaders</div><h1 class="h1">Eleven leaders.<br>One pattern across all of them.</h1><p class="lead">High survival incentive. Low accountability exposure. Simultaneously. Across all eleven.</p></div>
+  <div class="lg" id="leadersGrid"></div>
+</div>
+
+<!-- ASSESSMENT -->
+<div class="page" id="page-assessment">
+  <!-- INTERDEPENDENCY MAP -->
+  <div class="idw">
+    <div class="id-kicker">Leader Interdependency Map</div>
+    <div class="id-title">How leaders affect each other's risk scores.</div>
+    <div class="id-sub">Documented connections only. Every link sourced. No inferences. Tap any connection to see the evidence. Auto-refreshes from leaders.json on every page open.</div>
+    <canvas id="idCanvas" height="480"></canvas>
+    <div class="id-legend">
+      <div class="id-leg"><div class="id-dot" style="background:#C9A84C"></div><span style="color:#C9A84C">Weapons Supply</span></div>
+      <div class="id-leg"><div class="id-dot" style="background:#9E6B72"></div><span style="color:#9E6B72">Intelligence Sharing</span></div>
+      <div class="id-leg"><div class="id-dot" style="background:#C48A92"></div><span style="color:#C48A92">Mutual Survival Loop</span></div>
+      <div class="id-leg"><div class="id-dot" style="background:#5DCAA5"></div><span style="color:#5DCAA5">Escalation Signal</span></div>
+      <div class="id-leg"><div class="id-dot" style="background:rgba(255,255,255,0.3)"></div><span style="color:var(--ink3)">Proxy Network</span></div>
+    </div>
+    <div class="id-table-wrap">
+      <table class="id-table">
+        <thead><tr><th>From</th><th>To</th><th>Type</th><th>Connection + Evidence</th><th>Source</th></tr></thead>
+        <tbody id="idTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+  <!-- FULL ASSESSMENTS -->
+  <div class="hero"><div class="kicker">Leader Assessment</div><h1 class="h1">Full psychological assessment.<br>Evidence base. Sources. Confidence ratings.</h1><div class="hero-btns"><button class="btn btn-o" onclick="showPage('methodology')">Scoring Formula</button><button class="btn btn-o" onclick="showPage('psychology')">Theoretical Basis</button></div></div>
+  <div class="sec" id="assessmentContent"></div>
+</div>
+
+<!-- ASSESSMENT WATCH -->
+<div class="page" id="page-watch">
+  <div class="hero">
+    <div class="kicker">Assessment Watch</div>
+    <h1 class="h1">When to update.<br>What triggered the flag.</h1>
+    <p class="lead">Two sections. Leadership psychology is auto-monitored per leader, per dimension. Overall risk variables are static by design — requiring human judgment, not just code.</p>
+  </div>
+
+  <div class="sec">
+    <div class="watch-alert">&#9873; EMAIL ALERTS ACTIVE — digest sent to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="790a0c1b111810140d101803391e14181015571a1614">[email&#160;protected]</a> at 8am SGT when flags exceed dimension threshold</div>
+
+    <div class="watch-sec-t">Section 1 — Leadership Psychology Assessment</div>
+    <div class="watch-sec-s">Per-leader, per-dimension monitoring. Each dimension is watched against its formal weight — survival (25%) flags at ±2.0 pts, accountability (22%) at ±2.3 pts, narcissism (20%) at ±2.5 pts, impulsivity (18%) at ±2.8 pts, values (15%) at ±3.0 pts. Higher weight = lower threshold. A flag here means GDELT has detected news volume, tone, and corroboration consistent with a material change in how that dimension should score for that leader. Review the evidence. If it holds, update leaders.json and commit.</div>
+    <div id="leaderWatchList"></div>
+  </div>
+
+  <div class="sec">
+    <div class="watch-sec-t">Section 2 — Overall Risk Assessment Variables</div>
+    <div class="watch-sec-s" style="margin-bottom:0">
+      These variables are <strong style="color:var(--ink)">static by design</strong> — they do not update automatically. This is intentional and the reason matters.
+    </div>
+    <div class="pull" style="margin:16px 0">
+      "Code can detect volume and tone. It cannot detect meaning. Whether the Oman talks represent a genuine diplomatic breakthrough or a stalling tactic while missiles are repositioned is a judgment call. That judgment belongs to a human."
+    </div>
+    <div class="prose" style="margin-bottom:24px">
+      <p>Variables like Congressional Constraint (20/100), Diplomatic Channels (22/100), and Arms Control Architecture (15/100) represent <strong>structural conditions</strong> — the presence or absence of institutional frameworks designed to create friction before catastrophic decisions. These cannot be derived from headline count or GDELT tone alone. A ceasefire announcement that collapses in 48 hours looks identical in raw data to a genuine negotiated pause.</p>
+      <p style="margin-top:12px">The dimension weightings that govern these variables — how much each one contributes to the escalation probability calculation — are <strong>validated against real-time developments</strong>. When guardrails all fall below 25/100 simultaneously (as they do now), individual psychology becomes the primary determinant of outcomes. That threshold is not arbitrary. It is calibrated against the seven historical case studies in the Proof of Concept, and it is updated when evidence warrants. But the update itself requires human review, source citation, and a confidence rating. The agent flags. You decide.</p>
+      <p style="margin-top:12px"><strong>How to update:</strong> When a variable changes materially — a ceasefire holds for 72+ hours, War Powers passes, a new arms control framework is announced — update the value in the dashboard sliders or directly in the source JSON. Mark reviewed below. The change is logged with your timestamp.</p>
+    </div>
+    <div id="varWatchList"></div>
+  </div>
+
+  <div class="sec">
+    <div class="watch-sec-t">Section 3 — Dimension Proposals</div>
+    <div class="watch-sec-s">Proposals generated by cumulative analysis of the last 30 days of verified news. Each proposal requires cross-corroborated evidence across multiple source blocs before it appears here. <strong style="color:var(--ink)">Nothing updates leaders.json without your approval.</strong> Review the evidence chain. Approve only if it holds.</div>
+    <div class="pat-row">
+      <div class="pat-lbl">GitHub PAT</div>
+      <input class="pat-input" type="password" id="propPat" placeholder="ghp_xxxx — needed to commit approved changes">
+      <span class="pat-hint">Stored in memory only</span>
+    </div>
+    <div id="proposalsList"><div style="font-family:var(--fm);font-size:11px;color:var(--ink4);padding:20px 0">No proposals loaded — visit this page after the GitHub Action runs.</div></div>
+  </div>
+</div>
+
+<!-- 89 SECONDS -->
+<div class="page" id="page-clock">
+  <div class="hero">
+    <div class="kicker">The Doomsday Clock</div>
+    <div style="display:flex;align-items:flex-start;gap:24px;flex-wrap:wrap">
+      <div><div class="clock-n">89</div><div style="font-family:var(--fm);font-size:10px;letter-spacing:3px;color:var(--ink3);text-transform:uppercase;margin-top:4px">Seconds To Midnight</div></div>
+      <div style="flex:1;min-width:220px"><h1 class="h1" style="font-size:clamp(20px,4vw,36px)">What does 89 seconds mean?</h1><p class="lead" style="margin-top:10px">The Bulletin of Atomic Scientists — founded in 1945 by the scientists who built the first atomic bomb. Set to 89 seconds in January 2026.</p></div>
+    </div>
+  </div>
+  <div class="sec"><div class="sec-lbl">The Timeline</div><div style="border:1px solid var(--rule);border-radius:8px;overflow:hidden"><div class="trow"><div class="tyr">1947</div><div class="tdesc">7 minutes — Clock created. Cold War begins.</div></div><div class="trow"><div class="tyr">1953</div><div class="tdesc">2 minutes — US and USSR test thermonuclear devices within months of each other.</div></div><div class="trow"><div class="tyr">1991</div><div class="tdesc">17 minutes — Furthest ever. Cold War ends. START treaty signed.</div></div><div class="trow"><div class="tyr r">2023</div><div class="tdesc">90 seconds — Previous record. Ukraine war, AI risks, climate.</div></div><div class="trow" style="background:rgba(158,107,114,0.08)"><div class="tyr r">2026</div><div class="tdesc" style="color:var(--ink);font-weight:500">89 seconds — New record. Iran war. South Asia nuclear signalling. Arms control collapse.</div></div></div></div>
+  <div class="sec"><div class="pull">"89 seconds is not a number about missiles. It is a number about the humans deciding whether to fire them."</div></div>
+</div>
+
+<!-- ARTICLES -->
+<div class="page" id="page-articles">
+  <div class="hero"><div class="kicker">Articles and Analysis</div><h1 class="h1">Writing. Analysis. Satire.<br>From Substack — live.</h1><p class="lead">Not predictions dressed as analysis. Analysis disciplined by evidence.</p></div>
+  <div class="sec">
+    <div style="font-family:var(--fm);font-size:10px;color:var(--ink3);letter-spacing:1px;margin-bottom:18px" id="artStatus">LOADING FROM SUBSTACK...</div>
+    <div id="artList"></div>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div class="page" id="page-dashboard">
+  <div class="dh">
+    <div class="dht">
+      <div><div class="dtitle">Global Conflict Risk Matrix</div><div class="dsub">Live · March 2026 · Iran War · South Asia · Ukraine</div></div>
+      <div class="doom"><div class="doom-t">89s</div><div class="doom-l">TO MIDNIGHT</div></div>
+    </div>
+    <div class="dpills">
+      <div class="spill" id="sPill"><span class="blink"></span><span id="sTxt">CONNECTING...</span></div>
+      <div class="spill" id="tPill">REFRESH 5:00</div>
+    </div>
+  </div>
+  <div class="dattr">ANALYSIS BY <a href="https://substack.com/@subhaimtiaz" target="_blank" style="color:var(--g3);text-decoration:none">SUBHA IMTIAZ</a> · DATA: GDELT · COMMODITYPRICEAPI</div>
+  <div class="dbody">
+    <div class="oil-s" id="oilS"><div><div class="oil-l">Brent Crude — Live</div><div class="oil-v" id="oilV">--</div><div style="font-family:var(--fm);font-size:8px;color:var(--ink3)" id="oilSrc">connecting...</div></div><div style="text-align:right"><div style="font-family:var(--fm);font-size:10px;color:var(--au)" id="oilChg"></div><div class="oil-l">Pre-war: $67</div></div></div>
+    <div class="dp"><div class="dph" onclick="openModal('outcomes')"><div class="dpt">Outcome Probability Matrix</div><div class="dph-h">TAP TO EXPAND &#8599;</div></div><div class="dpb"><div class="pbs"><button class="pb on" onclick="setPreset('baseline',this)">BASELINE</button><button class="pb" onclick="setPreset('deesc',this)">DE-ESC</button><button class="pb" onclick="setPreset('esc',this)">ESCALATION</button><button class="pb" onclick="setPreset('sa',this)">SOUTH ASIA</button></div><div class="oc-row" id="ocRow"></div></div></div>
+    <div class="dp"><div class="dph" onclick="openModal('variables')"><div class="dpt">Escalation Variables</div><div class="dph-h">TAP &#8599;</div></div><div class="dpb"><div class="vgs" id="vgroups"></div></div></div>
+    <div class="dp"><div class="dph" onclick="openModal('theatres')"><div class="dpt">Conflict Theatres</div><div class="dph-h">TAP &#8599;</div></div><div class="dpb"><div class="thlist" id="thList"></div></div></div>
+    <div class="dp"><div class="dph" onclick="openModal('feed')"><div class="dpt">Intelligence Feed</div><div style="display:flex;align-items:center;gap:5px"><div style="font-family:var(--fm);font-size:9px;color:var(--g3)">LIVE</div><div class="dph-h">TAP &#8599;</div></div></div><div class="dpb" style="padding:0"><div class="feed" id="feedBox"></div></div></div>
+    <div class="dp"><div class="dph" onclick="openModal('leaders')"><div class="dpt">Leader Risk Profiles</div><div class="dph-h">TAP &#8599;</div></div><div class="dpb"><div class="ldash" id="lDash"></div></div></div>
+    <div class="dfoot" id="dFoot">Initialising...</div>
+  </div>
+</div>
+
+</main>
+</div><!-- end layout -->
+
+<!-- MODAL -->
+<div class="modal" id="panelModal" onclick="closeModalOvl(event)">
+  <div class="mbox">
+    <div class="mhd">
+      <div><div class="mk" id="mKicker">Detail</div><div class="mt" id="mTitle">Loading</div></div>
+      <button class="mx" onclick="closeModal()">&#10005;</button>
+    </div>
+    <div class="mbd" id="mBody"></div>
+  </div>
+</div>
+
+<!-- INTERDEPENDENCY TOOLTIP -->
+<div class="id-tooltip" id="idTip"></div>
+<script>
+var API='https://accidentalgeopoliticaltracker.com';
+var LEADERS_FALLBACK=[{"n":"Donald J. Trump","r":"45th and 47th President of the United States","b":88,"tags":["Transactional nationalism","No defined exit condition","War ends when I feel it in my bones"],"ideo":"Transactional nationalism \u2014 no consistent ideological doctrine. Blind spot: underestimates adversary resilience and cost of conflict.","dims":{"narcissism":92,"impulsivity":90,"values":20,"survival":65,"accountability":10},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":92,"band":"A","confidence":"HIGH","evidence":"Peer-reviewed Frontiers in Psychology 2025. Six named former Cabinet officials on record (Mattis, McMaster, Kelly, Esper, Milley, Woodward sources). Congressional testimony corroborating pattern. Consistent 8-year documented behaviour.","source":"Frontiers in Psychology PMC 2025; Woodward War 2024; Gen Kelly NYT Oct 2024"},"impulsivity":{"score":90,"band":"A","confidence":"HIGH","evidence":"Syria withdrawal announced via tweet before Pentagon notified \u2014 Mattis resigned same day Dec 2018. Afghanistan troop reduction against written SecDef and Joint Chiefs memorandum \u2014 Congressional testimony Sept 2021. Iran war exit condition: when I feel it in my bones \u2014 public statement 2026.","source":"Congressional testimony Sept 2021; Mattis resignation letter Dec 2018; NBC News 2026"},"values":{"score":20,"band":"B","confidence":"HIGH","evidence":"No consistent foreign policy doctrine across two terms. NATO, Russia, China, Iran positions reversed within single terms. Personal financial interest in Gulf states documented. Told Woodward he personally intervened to protect MBS from Congressional accountability.","source":"Woodward Rage 2020; Foreign Policy analysis 2024"},"survival":{"score":65,"band":"B","confidence":"MEDIUM","evidence":"91 felony counts across 4 indictments \u2014 all impacted by return to office. War framing provides political cover and approval. Survival incentive tied to political not physical survival.","source":"DOJ indictments 2023-2024; public record"},"accountability":{"score":10,"band":"A","confidence":"HIGH","evidence":"War Powers Resolution failed 47-53. No congressional authorisation sought for Iran strikes. 91 felony counts \u2014 no conviction secured. Executive branch functioning as personal instrument.","source":"Congressional record 2026; public record"}},"watch":["War Powers","Iran ceasefire","approval rating","AUMF","Trump impeach"]},{"n":"Benjamin Netanyahu","r":"Prime Minister of Israel \u2014 6th and 8th term","b":85,"tags":["Revisionist Zionism filtered through personal survival calculus","Three corruption trials suspended under wartime emergency","ICC arrest warrant Nov 2024"],"ideo":"Revisionist Zionism. Blind spot: conflict continuation is structurally necessary for personal legal immunity. Strategic and personal incentives have merged.","dims":{"narcissism":80,"impulsivity":30,"values":35,"survival":96,"accountability":15},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":80,"band":"B","confidence":"HIGH","evidence":"Trial testimony described self as victim of politically orchestrated witch hunt despite three independent indictments. Requested pardon from President Herzog Nov 2025 without admitting guilt \u2014 no precedent in Israeli law. Coalition includes Ben-Gvir convicted terrorist supporter.","source":"Jerusalem District Court records; Reuters Dec 2025"},"impulsivity":{"score":30,"band":"C","confidence":"MEDIUM","evidence":"Strategic rather than impulsive. Long-term calculated manoeuvring documented across 30 years. South Pars strike was calculated not impulsive \u2014 coordinated with US per Axios AP WSJ.","source":"Axios AP WSJ 2026; academic biography sources"},"values":{"score":35,"band":"B","confidence":"HIGH","evidence":"Coalition includes Ben-Gvir \u2014 convicted of supporting terrorist organisation \u2014 and Smotrich who has called for erasure of Palestinian villages. Consistent pattern of settlement expansion against international law.","source":"Human Rights Watch; Jerusalem District Court records"},"survival":{"score":96,"band":"A","confidence":"HIGH","evidence":"Case 1000 fraud and breach of trust \u2014 gifts worth 200,000 USD. Case 2000 fraud and breach of trust \u2014 media coverage deal. Case 4000 bribery fraud \u2014 regulatory favours to Bezeq worth approx 500M USD. Trial begun May 2020 suspended under wartime emergency provisions. Direct structural link between war continuation and trial suspension.","source":"Jerusalem District Court; Al-Monitor Dec 2025; public record"},"accountability":{"score":15,"band":"B","confidence":"HIGH","evidence":"First sitting PM in Israeli history to stand trial but no legal obligation to resign unless convicted. ICC arrest warrant Nov 2024 \u2014 no enforcement mechanism. Trial repeatedly delayed under wartime provisions.","source":"ICC public record Nov 2024; Al-Monitor"}},"watch":["trial hearing","ICC Netanyahu","coalition collapse","ceasefire Gaza"]},{"n":"Mohammed bin Salman","r":"Prime Minister and Crown Prince of Saudi Arabia","b":80,"tags":["Lobbied Trump to attack Iran \u2014 Washington Post documented","Ordered Khashoggi murder \u2014 DNI confirmed","Zero accountability exposure"],"ideo":"Saudi nationalist modernisation combined with deep Sunni sectarianism against Iran. Blind spot: started a war he cannot control whose consequences are now threatening his own economic project Vision 2030.","dims":{"narcissism":78,"impulsivity":55,"values":15,"survival":60,"accountability":5},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":78,"band":"B","confidence":"HIGH","evidence":"Ritz Carlton mass arrests 2017 \u2014 200+ princes and businessmen held without charge. Allegedly sent bullet to judge who ruled against him \u2014 documented by Sir John Jenkins former British Ambassador. Pattern of eliminating rivals through state apparatus.","source":"Multiple diplomatic sources; Jenkins documented account"},"impulsivity":{"score":55,"band":"B","confidence":"MEDIUM","evidence":"Generally calculated but South Pars lobbying shows willingness to take extreme actions when sectarian ideology overrides strategic calculation. Khashoggi murder \u2014 bone saw in own consulate \u2014 shows risk tolerance when personally threatened.","source":"DNI assessment Feb 2021; Washington Post 2026"},"values":{"score":15,"band":"A","confidence":"HIGH","evidence":"US declassified DNI intelligence assessment Feb 26 2021: approved Khashoggi capture or kill operation. 338 executions in 2024 \u2014 near one per day. Kafala system \u2014 documented bonded labour for migrant workers. Systematic repression of Shia minority in Eastern Province.","source":"DNI Haines Feb 2021; RSF; HRW; Amnesty International"},"survival":{"score":60,"band":"B","confidence":"MEDIUM","evidence":"Physical survival not immediately threatened. Political survival tied to Vision 2030 economic success \u2014 now threatened by war he helped start. No democratic accountability mechanism.","source":"Analytical assessment"},"accountability":{"score":5,"band":"A","confidence":"HIGH","evidence":"US sanctioned 76 individuals but not MBS personally despite DNI confirmation of his role. No criminal charges in any jurisdiction. Trump publicly stated he protected MBS from Congressional accountability. Effectively zero accountability exposure.","source":"State Dept Feb 2021; Woodward Rage 2020"}},"watch":["Saudi Arabia Iran","Khashoggi","executions Saudi","MBS","Saudi nuclear"]},{"n":"Mojtaba Khamenei","r":"Supreme Leader of the Islamic Republic of Iran","b":78,"tags":["No Grand Ayatollah credentials","IRGC-dependent for all power","First statement vowed no surrender and Strait remains closed"],"ideo":"Velayat-e Faqih combined with anti-imperial resistance ideology. Blind spot: legitimacy deficit means every moderate signal costs internal credibility \u2014 structurally pushed toward hardline positions.","dims":{"narcissism":65,"impulsivity":50,"values":40,"survival":90,"accountability":20},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":65,"band":"B","confidence":"LOW","evidence":"Limited public record as new Supreme Leader. First statement showed grandiose resistance framing. IRGC-dependent which creates feedback loop reinforcing hardline self-image. Constitutionally elected per Assembly of Experts process though lacking traditional clerical legitimacy.","source":"Iranian state media; academic Iran affairs literature"},"impulsivity":{"score":50,"band":"C","confidence":"LOW","evidence":"Very limited track record. New leader mid-war. Legitimacy deficit may drive impulsive signalling to demonstrate strength. Insufficient public record for higher confidence.","source":"Limited public record \u2014 new leader"},"values":{"score":40,"band":"C","confidence":"LOW","evidence":"Resistance ideology framework documented. IRGC institutional values. Limited personal track record to assess.","source":"IRGC institutional record; Iranian political analysis"},"survival":{"score":90,"band":"B","confidence":"MEDIUM","evidence":"No legitimate alternative power base outside IRGC patronage network. If IRGC fractures, position collapses. Wartime context means survival depends on war not ending in visible defeat. Every moderate signal threatens internal credibility.","source":"Iranian political analysis; academic sources on IRGC structure"},"accountability":{"score":20,"band":"B","confidence":"MEDIUM","evidence":"No independent judiciary. No free press. IRGC is both power base and check \u2014 creates circular accountability structure. Assembly of Experts theoretically supervisory but in practice subordinate.","source":"Iranian constitutional structure; academic sources"}},"watch":["Supreme Leader Iran","IRGC","Strait Hormuz","nuclear Iran","Iran ceasefire"]},{"n":"Narendra Modi","r":"Prime Minister of India \u2014 2nd and 3rd consecutive term","b":65,"tags":["Abandoned No First Use nuclear doctrine","BJP lost outright majority 2024 \u2014 coalition dependent","Operation Sindoor crossed previously sacrosanct red lines"],"ideo":"Hindu nationalist framework rooted in RSS ideology. Blind spot: traumatic nationalism requires permanent Muslim enemy \u2014 makes genuine Pakistan de-escalation politically impossible.","dims":{"narcissism":72,"impulsivity":25,"values":45,"survival":71,"accountability":30},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":72,"band":"B","confidence":"MEDIUM","evidence":"Clinical psychologist Ashis Nandy 2002 assessment: met virtually all criteria for authoritarian personality. Self-referential statements \u2014 refers to self in third person documented. BBC documentary banned within 24 hours of Indian university screenings.","source":"Nandy 2002; BBC India The Modi Question 2023; documented quotes"},"impulsivity":{"score":25,"band":"B","confidence":"HIGH","evidence":"Generally strategic and patient. Operation Sindoor escalation was calculated not impulsive. RSS institutional discipline provides strong framework. Long-horizon political calculation documented.","source":"Academic analysis; documented decision-making pattern"},"values":{"score":45,"band":"B","confidence":"MEDIUM","evidence":"Supreme Court SIT 2012 found no personal prosecution evidence for Gujarat 2002. However Martha Nussbaum Harvard assessment documents ethnic cleansing framing with state complicity. CAA legislation explicitly excludes Muslims. Bulldozer justice documented across BJP states.","source":"SIT finding 2012; Nussbaum documented academic assessment; HRW"},"survival":{"score":71,"band":"B","confidence":"HIGH","evidence":"BJP lost outright majority in 2024 \u2014 now dependent on coalition partners Nitish Kumar and Chandrababu Naidu. LoC violations create domestic pressure to respond visibly. Coalition survival requires maintaining nationalist base. Updated from 55 following LoC violations.","source":"2024 election results public record; coalition arithmetic documented"},"accountability":{"score":30,"band":"B","confidence":"MEDIUM","evidence":"India has functioning Supreme Court and independent election commission. SIT finding provided legal protection. EU and international oversight present. Some institutional checks operating.","source":"Indian constitutional structure; SIT record 2012"}},"watch":["India Pakistan","nuclear doctrine","No First Use","LoC violations","Modi coalition"]},{"n":"General Asim Munir","r":"Chief of Army Staff, Pakistan Armed Forces","b":72,"tags":["De facto autonomous from civilian government","J-10C and PL-15 \u2014 downed 3 Rafales May 2025","Fighting three simultaneous fronts"],"ideo":"Pakistan military institutional nationalism. Non-interference doctrine for internal politics but actively shapes civilian governance. Blind spot: emboldened by May 2025 aerial success \u2014 may overestimate Pakistan capacity for sustained multi-front conflict.","dims":{"narcissism":60,"impulsivity":73,"values":50,"survival":75,"accountability":15},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":60,"band":"C","confidence":"MEDIUM","evidence":"Institutional rather than individual narcissism. Pakistani military's documented pattern of viewing itself as guardian of national interest above civilian authority. Munir personal profile shows assertive command style but limited direct documentation.","source":"Pakistan military institutional record; limited personal documentation"},"impulsivity":{"score":73,"band":"B","confidence":"MEDIUM","evidence":"LoC violations conducted while simultaneously fighting on two other active fronts \u2014 Afghanistan border and Balochistan. Three simultaneous active engagements documented operational fact. Post-Rafale-downing emboldening shifts risk threshold upward. Updated from 65 following documented LoC violations.","source":"Multiple sources documenting simultaneous fronts; LoC violations documented March 2026"},"values":{"score":50,"band":"C","confidence":"LOW","evidence":"Pakistan Army de facto autonomous from civilian government \u2014 three elected governments removed historically. Pattern of institutional self-interest. Imran Khan imprisonment raises accountability concerns but limited direct personal documentation.","source":"Pakistan political history; documented coups and removals"},"survival":{"score":75,"band":"B","confidence":"MEDIUM","evidence":"Military institutional survival entangled with conflict continuation \u2014 cannot be seen losing. Chinese weapons supply creates dependency relationship. Economy at IMF threshold creates additional pressure. Fighting three fronts simultaneously.","source":"Pakistan IMF record; documented military-civilian dynamics"},"accountability":{"score":15,"band":"B","confidence":"HIGH","evidence":"No civilian oversight mechanism with teeth in Pakistan \u2014 historically documented. Army has removed three elected governments. ISI operates independently of civilian control. Courts nominally exist but subject to military influence.","source":"Pakistan political history; documented institutional dynamics"}},"watch":["Pakistan military","IMF Pakistan","India Pakistan border","LoC","Pakistan nuclear","Munir"]},{"n":"Vladimir Putin","r":"President of the Russian Federation","b":70,"tags":["ICC arrest warrant March 2023","Eliminated constitutional term limits 2020","Russia-Iran military cooperation \u2014 satellite targeting data documented"],"ideo":"Orthodox Christian civilisational nationalism against Western decadence. The Gerasimov doctrine \u2014 make the West ungovernable rather than defeat it militarily. Blind spot: Ukraine democratic example as existential threat requires permanent war.","dims":{"narcissism":75,"impulsivity":20,"values":30,"survival":85,"accountability":10},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":75,"band":"A","confidence":"HIGH","evidence":"Peer-reviewed Immelman and Trenzeluk 2017 Unit for Study of Personality in Politics \u2014 primary pattern Ambitious self-serving narcissism measure. Frontiers in Psychology 2025 comparative study. Deliberately brought large dog to first Merkel meeting knowing she was afraid \u2014 documented multiple sources.","source":"Immelman ISPP 2017; Frontiers in Psychology PMC 2025; documented diplomatic record"},"impulsivity":{"score":20,"band":"B","confidence":"HIGH","evidence":"Academic assessment consistent: strategic expansionist rather than impulsive. Ukraine invasion planned over months. Merics study: top-down decisionism \u2014 centralised but methodical. Described as rational ruthless and resilient \u2014 The Diplomat Feb 2024.","source":"Immelman ISPP 2017; Merics academic study; The Diplomat 2024"},"values":{"score":30,"band":"A","confidence":"HIGH","evidence":"Navalny died in custody Feb 2024 \u2014 removal of primary domestic challenger. All independent Russian media closed or exiled since 2022. Constitutional term limits eliminated 2020. Chechen military campaign documented civilian casualties.","source":"Multiple documented sources; public record"},"survival":{"score":85,"band":"A","confidence":"HIGH","evidence":"ICC arrest warrant March 2023 for war crimes in Ukraine \u2014 cannot travel to 124 ICC member states. Constitutional term limits eliminated specifically to extend tenure. System built around his continued power \u2014 no succession mechanism.","source":"ICC public record March 2023; Russian constitutional amendment record 2020"},"accountability":{"score":10,"band":"A","confidence":"HIGH","evidence":"ICC warrant \u2014 no enforcement mechanism. All independent Russian media closed or exiled. Opposition eliminated through prosecution or death. No functioning independent judiciary.","source":"ICC record; RSF; HRW"}},"watch":["Ukraine ceasefire","ICC Putin","Russia nuclear","New START","Putin health"]},{"n":"Kim Jong-un","r":"Supreme Leader, Democratic People of Korea","b":60,"tags":["Executed uncle Jang Song-thaek 2013","DPRK-Russia troops and ammunition agreement Sept 2024","Nuclear doctrine: survival at any cost"],"ideo":"Juche racial Korean nationalism \u2014 Korean people as uniquely pure and requiring Kim dynasty protection. Blind spot: complete information isolation from reality creates highest miscalculation risk of any leader.","dims":{"narcissism":82,"impulsivity":40,"values":25,"survival":95,"accountability":5},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":82,"band":"A","confidence":"HIGH","evidence":"Executed uncle Jang Song-thaek 2013 \u2014 public execution of closest family member. Executed general with anti-aircraft gun for allegedly sleeping in a meeting \u2014 documented. Personality cult: school curriculum, statues, mandatory mourning rituals.","source":"Multiple documented sources including defector accounts and satellite imagery"},"impulsivity":{"score":40,"band":"B","confidence":"MEDIUM","evidence":"Nuclear and missile tests are calculated provocations not impulsive acts \u2014 timed strategically. However decision-making entirely isolated from external input which creates unpredictability. No advisers who say no.","source":"IISS; academic North Korea studies"},"values":{"score":25,"band":"A","confidence":"HIGH","evidence":"100,000-150,000 people in labour camps \u2014 UN Commission of Inquiry 2014. Crimes against humanity documented. Systematic starvation used as control mechanism.","source":"UN Commission of Inquiry 2014; HRW"},"survival":{"score":95,"band":"A","confidence":"HIGH","evidence":"Regime survival equals personal survival \u2014 no separation possible. No succession plan. No institutional alternative. Nuclear programme is explicitly survival guarantee.","source":"Academic North Korea analysis; IISS"},"accountability":{"score":5,"band":"A","confidence":"HIGH","evidence":"No external check of any kind. ICC has no jurisdiction in DPRK. No free press. No opposition. No institutional constraint.","source":"Public record; UN reports"}},"watch":["DPRK missile","North Korea nuclear","Kim Jong-un","North Korea test","DPRK Russia"]},{"n":"Xi Jinping","r":"General Secretary of the CPC and President of the PRC","b":82,"tags":["Xi Jinping Thought institutionalised Oct 2017","China-Pakistan J-10C and PL-15 \u2014 combat proven May 2025","Bilateral Strait of Hormuz access negotiations with Iran"],"ideo":"Han Chinese civilisational nationalism \u2014 century of humiliation requiring restoration. Non-interference doctrine provides strategic deniability while pursuing sphere of influence through economic architecture. Blind spot: Taiwan window calculation may be distorted by US distraction in Middle East.","dims":{"narcissism":75,"impulsivity":15,"values":35,"survival":88,"accountability":8},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":75,"band":"A","confidence":"HIGH","evidence":"Peer-reviewed psychodiagnostic Immelman ISPP 2021 St Johns University: primary patterns Dominant-controlling and Ambitious self-serving. Xi Jinping Thought institutionalised in CCP Charter Oct 2017 \u2014 only third leader after Mao and Deng. Revised CCP Charter to explicitly grant command authority over all major decisions.","source":"Immelman ISPP 2021; CCP Charter amendment Oct 2017; China Leadership Monitor 2023"},"impulsivity":{"score":15,"band":"A","confidence":"HIGH","evidence":"ISPP peer-reviewed assessment: deliberative leadership style well-informed cautious and emotionally controlled. Merics academic study: top-down decisionism \u2014 centralised but methodical. Described as rational ruthless and resilient.","source":"Immelman ISPP 2021; Merics study; The Diplomat Feb 2024"},"values":{"score":35,"band":"A","confidence":"HIGH","evidence":"1.8 million Uyghurs in detention facilities \u2014 US government estimate. HRW 2026: relentless repression campaign. Tibetan cultural suppression ongoing. Hong Kong democratic system ended 2020-2022. Crimes against humanity documented by multiple independent bodies.","source":"HRW 2026; UN Special Rapporteur; multiple documented sources"},"survival":{"score":88,"band":"A","confidence":"HIGH","evidence":"Abolished presidential term limits March 2018 \u2014 NPC vote documented. Anti-corruption campaign used to remove 1.5 million officials 2013-2022 while consolidating personal power. Taiwan reunification framed as personal historical legacy.","source":"NPC record March 2018; China Leadership Monitor"},"accountability":{"score":8,"band":"A","confidence":"HIGH","evidence":"No independent judiciary. No free press. No opposition party. Anti-corruption apparatus controlled by Xi used against rivals not as external check.","source":"Public record; Freedom House; HRW"}},"watch":["China Taiwan","China Iran","China Pakistan","PLA","South China Sea","China nuclear"]},{"n":"Volodymyr Zelensky","r":"President of Ukraine","b":58,"tags":["Refused multiple territorial concession exit deals","NABU anti-corruption body functioning \u2014 Defence Minister Reznikov resigned 2023","No stance on Gaza or Iran bombardment \u2014 transactional sovereignty documented"],"ideo":"National sovereignty and anti-imperialism as primary framework \u2014 but selectively applied. Does not extend to Palestinian or Iranian sovereignty when Ukrainian survival interests conflict. Framework is transactional sovereignty not principled sovereignty.","dims":{"narcissism":70,"impulsivity":67,"values":30,"survival":78,"accountability":33},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":70,"band":"B","confidence":"HIGH","evidence":"Peer-reviewed Vomacka and Immelman ISPP 2023 St Johns University: primary patterns Ambitious-confident and Outgoing-congenial. Gordon et al peer-reviewed study: scored 91% mental functioning \u2014 psychologically healthy leader. Moderate not extreme narcissism.","source":"Vomacka Immelman ISPP 2023; Gordon et al peer-reviewed study"},"impulsivity":{"score":67,"band":"B","confidence":"MEDIUM","evidence":"Dauntless-adventurous pattern documented \u2014 risk-taking but calculated. Remained in Kyiv Feb 2022 was calculated not impulsive. Oval Office Feb 2025 showed controlled assertiveness under extreme pressure.","source":"Vomacka Immelman ISPP 2023; documented public behaviour"},"values":{"score":30,"band":"B","confidence":"MEDIUM","evidence":"Corruption within administration documented by NABU \u2014 independent body. Defence Ministry procurement scandal 2023 \u2014 inflated prices. Ukraine ranked 104/180 Transparency International 2023. No personal criminal indictment. EU accession conditionality cites ongoing anti-corruption requirement. No public stance on Gaza or Iran bombardment despite professing sovereignty principles.","source":"NABU documented cases; Transparency International 2023; EU accession conditions"},"survival":{"score":78,"band":"B","confidence":"HIGH","evidence":"Literal physical survival \u2014 remained in Kyiv during active invasion. Democratic elections suspended under martial law. Western aid dependency creates vulnerability. Gaza-Iran silence is documented survival calculus \u2014 cannot afford to alienate Israel which has Washington influence.","source":"Public record; documented behaviour pattern"},"accountability":{"score":33,"band":"B","confidence":"MEDIUM","evidence":"NABU functioning as independent body \u2014 genuine accountability mechanism. EU oversight present with anti-corruption conditionality. US Congressional oversight of aid. Wartime election suspension legally authorised under Ukrainian constitution.","source":"NABU record; EU conditionality documents; Ukrainian constitutional provisions"}},"watch":["Ukraine ceasefire","Zelensky corruption","NATO Ukraine","Ukraine Israel","NABU Ukraine"]},{"n":"Recep Tayyip Erdogan","r":"President of the Republic of Turkey","b":78,"tags":["AKP lost Istanbul and Ankara March 2024","Imamoglu prosecution \u2014 documented political persecution","Turkey only NATO member mediating Russia-Ukraine"],"ideo":"Sunni Islamic identity combined with Turkish ethnic nationalism. Non-interference doctrine selectively applied \u2014 intervenes in Libya, Syria, Azerbaijan. Blind spot: domestic political survival requires suppressing Kurdish 20% of population \u2014 limits NATO reliability.","dims":{"narcissism":88,"impulsivity":70,"values":20,"survival":95,"accountability":32},"weights":{"narcissism":20,"impulsivity":18,"values":15,"survival":25,"accountability":22},"assess":{"narcissism":{"score":88,"band":"A","confidence":"HIGH","evidence":"Peer-reviewed Springer 2024 chapter on Erdogan psychological profile. Turkish Studies academic journal 2011 personality and leadership assessment. All Azimuth 2021 Leadership Trait Analysis: documented increase in dominance and control post-2016 coup attempt. Three independent peer-reviewed sources.","source":"Springer 2024; Turkish Studies 2011; All Azimuth 2021"},"impulsivity":{"score":70,"band":"B","confidence":"HIGH","evidence":"All Azimuth 2021: post-coup attempt trauma increased impulsivity scores measured via Leadership Trait Analysis. S-400 purchase from Russia against NATO objections \u2014 significant impulsive strategic decision. Also shows strategic patience on Ukraine mediation.","source":"All Azimuth 2021; documented S-400 purchase record"},"values":{"score":20,"band":"A","confidence":"HIGH","evidence":"Turkey ranked 158/180 RSF Press Freedom Index 2024. Dismissed 150,000 public servants after 2016 coup without due process \u2014 documented. HDP-DEM party Kurdish representation repeatedly threatened with ban and leaders imprisoned. Imamoglu prosecution to remove 2028 presidential rival \u2014 documented political persecution.","source":"RSF 2024; documented post-coup dismissals; HDP legal proceedings"},"survival":{"score":95,"band":"A","confidence":"HIGH","evidence":"March 2024 local elections: AKP lost Istanbul and Ankara \u2014 first major electoral defeat. Imamoglu prosecution documented as political persecution to remove 2028 rival. Political survival now entangled with suppressing opposition.","source":"2024 Turkish election results public record; Imamoglu prosecution documented"},"accountability":{"score":32,"band":"B","confidence":"MEDIUM","evidence":"Constitutional court occasionally rules against government. EU accession pressure diminished. Press severely constrained RSF rank 158. Opposition leaders prosecuted. Some institutional mechanisms remaining but substantially weakened.","source":"RSF 2024; EU Turkey progress reports; documented court proceedings"}},"watch":["Turkey NATO","S-400 Turkey","Erdogan election","Turkey Iran","Imamoglu","Turkey mediation"]}];
+var LEADERS=[];
+var DW={narcissism:20,impulsivity:18,values:15,survival:25,accountability:22};
+var DT={narcissism:2.5,impulsivity:2.8,values:3.0,survival:2.0,accountability:2.3};
+var DC={narcissism:'#C48A92',impulsivity:'#C9A84C',values:'#5DCAA5',survival:'#9E6B72',accountability:'#3D9E68'};
+var WATCH_STATE={leaders:{},vars:{}};
+
+// ── LEADERS API ──
+function loadLeaders(cb){
+  if(LEADERS&&LEADERS.length){if(cb)cb();return;}
+  fetch(API+'/api/leaders')
+    .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+    .then(function(d){
+      if(d.leaders&&d.leaders.length){LEADERS=d.leaders;console.log('Leaders loaded:',LEADERS.length);}
+      else{console.warn('API returned no leaders');}
+      if(cb)cb();
+    })
+    .catch(function(e){
+      console.warn('API unavailable, using fallback leaders:',e.message);
+      if(!LEADERS.length&&LEADERS_FALLBACK&&LEADERS_FALLBACK.length){
+        LEADERS=LEADERS_FALLBACK;
+        console.log('Using fallback:',LEADERS.length,'leaders');
+      }
+      if(cb)cb();
+    });
+}
+function loadWatchState(cb){
+  fetch(API+'/api/watch')
+    .then(function(r){return r.json();})
+    .then(function(d){WATCH_STATE=d;if(cb)cb();})
+    .catch(function(){if(cb)cb();});
+}
+
+// ── NAV ──
+function showPage(id){
+  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active');});
+  document.querySelectorAll('.nav-item').forEach(function(b){b.classList.remove('active');});
+  var pg=document.getElementById('page-'+id);
+  var nv=document.getElementById('nav-'+id);
+  if(pg)pg.classList.add('active');
+  if(nv)nv.classList.add('active');
+  window.scrollTo(0,0);
+  if(id==='leaders')loadLeaders(renderLeaders);
+  if(id==='assessment')loadLeaders(function(){renderAssessment();drawInterdep();renderIdTable();initIdEvents();});
+  if(id==='dashboard')initDash();
+  if(id==='articles')loadArticles();
+  if(id==='poc')renderPOC();
+  if(id==='watch')loadLeaders(function(){loadWatchState(function(){renderLeaderWatch();renderVarWatch();});loadProposals();});
+}
+
+// ── POC DATA ──
+var POC=[
+  {num:'Case 01',title:'World War I — The July Crisis',period:'1914 · Europe',verdict:'fail',vt:'CONVENTIONAL FAILED',pred:'A general European war was economically irrational. Norman Angell argued modern economic interdependence made large-scale war self-defeating. Prediction: escalation contained.',reality:'20 million dead. Four empires collapsed. The economically interconnected continent went to war anyway.',human:'Kaiser Wilhelm impulsivity and the personal honour codes of monarchs with near-zero accountability created escalation logic that overrode economic reality. <strong>No leader had meaningful accountability exposure. The cascade was predictable.</strong>',dims:[{t:'Impulsivity',c:'narc'},{t:'Accountability: Near Zero',c:'narc'},{t:'Ideological Philosophy: Honour Culture',c:'ideo'}],gap:'The economic model was correct about the cost. It was wrong about whether cost would be considered.'},
+  {num:'Case 02',title:'The Nuclear Race — Germany vs Manhattan Project',period:'1939–1945 · WW2',verdict:'fail',vt:'CONVENTIONAL FAILED',pred:'Germany had the most advanced physics community in the world. Military-industrial analysis: Germany wins the nuclear race.',reality:'The United States built the bomb. Germany never came close. The Manhattan Project was led substantially by European Jewish refugee physicists who had fled Nazi persecution.',human:'Nazi antisemitism drove out the human capital Germany needed. <strong>The ideology that defined the enemy also destroyed the capability to defeat them.</strong>',dims:[{t:'Ideological Philosophy: Antisemitism as Strategic Failure',c:'ideo'},{t:'Ideological Blindness: Could Not Value Discounted Group',c:'ideo'}],gap:'Capability metrics said Germany wins. Ideological philosophy said Germany loses. The hatred was the variable.'},
+  {num:'Case 03',title:'Iraq 2003 — The Weapons That Were Not There',period:'2003 · Iraq',verdict:'fail',vt:'CONVENTIONAL FAILED',pred:"Colin Powell at the UN. The vial. WMD: certain, documented, imminent. Prediction: rapid victory, manageable stabilisation.",reality:'No weapons. 3 trillion dollars. 500,000 deaths. A destabilised region whose downstream effects run in a direct line to the current Iran war.',human:"Cheney's ideological certainty required Saddam to be a threat regardless of evidence. <strong>The decision was made before the intelligence was assessed.</strong>",dims:[{t:'Ideological Certainty That Overrode Evidence',c:'ideo'},{t:'Narcissism: Rumsfeld',c:'narc'},{t:'Survival Incentive: Post-9/11 Political Calculus',c:'narc'}],gap:'The intelligence was not the problem. The psychology of the people interpreting it was.'},
+  {num:'Case 04',title:'Vietnam — The Limits of Firepower',period:'1965–1975 · Southeast Asia',verdict:'fail',vt:'CONVENTIONAL FAILED',pred:'Every conventional metric predicted US victory. GDP ratio 150:1. Air superiority absolute. Prediction: US wins through overwhelming conventional superiority.',reality:'The United States lost. 58,000 Americans dead. 3 million Vietnamese dead.',human:'Vietnamese tolerance for cost could not be modelled by planners whose ideological framework did not take Vietnamese sovereignty seriously. <strong>No human dimension variable supported US victory.</strong>',dims:[{t:'Ideological Philosophy: Could Not Model Colonial Resistance',c:'ideo'},{t:'Selective Sovereignty: Vietnamese Self-Determination Discounted',c:'ideo'},{t:'Survival Incentive: LBJ and Nixon Could Not Exit',c:'narc'}],gap:'The kill ratio model could count bodies. It could not count meaning.'},
+  {num:'Case 05',title:'October 7, 2023 — The Intelligence Failure',period:'2023 · Gaza / Israel',verdict:'fail',vt:'CONVENTIONAL FAILED',pred:'Gaza under the most intensive surveillance architecture in the world. Assessment: Hamas lacked capability for large-scale coordinated attack.',reality:'The deadliest day for Jewish people since the Holocaust. 1,200 killed. 250 taken hostage. Total intelligence failure.',human:'An ideological framework that does not recognise Palestinian agency cannot accurately model Palestinian capability. <strong>Did the framework create an intelligence environment that could not imagine this outcome?</strong>',dims:[{t:'Ideological Philosophy: Could Not Model Palestinian Agency',c:'ideo'},{t:'Ideological Blindness: Framework Filtered Intelligence',c:'ideo'}],gap:'The surveillance was working. The failure was in what the framework was capable of doing with it.'},
+  {num:'Case 06',title:'Soviet Collapse — The Stability Illusion',period:'1989–1991 · USSR',verdict:'fail',vt:'CONVENTIONAL FAILED',pred:'The USSR was a nuclear superpower with the second largest economy in the world. CIA assessments consistently rated Soviet power as stable.',reality:'The Soviet Union ceased to exist in December 1991. Not predicted by any major intelligence service.',human:'The ideological philosophy variable had been bankrupt for decades. Gorbachev genuine reform commitment created an irreversible opening. <strong>Ideological bankruptcy predicted the trajectory conventional metrics could not see.</strong>',dims:[{t:'Ideological Philosophy: Framework Internally Bankrupt',c:'ideo'},{t:'Values Anchor: Gorbachev Genuine Reform Commitment',c:'narc'}],gap:'GDP and missile counts tell you what a state has. They cannot tell you what a population believes.'},
+  {num:'Case 07 — LIVE',title:'The Iran War — In Progress',period:'February 2026 — Present',verdict:'live',vt:'TRACKING NOW',pred:'US/Israeli military superiority overwhelming. Iranian conventional forces degraded. Prediction: rapid military success, manageable regional response.',reality:'Day 25 and no defined exit condition. $200B+ supplemental requested. Weapons at 58% capacity. Strait 70% closed. Pakistan at war on three fronts. Oil at $97–112.',human:'Trump impulsivity 90 + no exit condition + narcissism 92 = war until it can be framed as victory. Netanyahu survival 96 = ceasefire that looks like failure ends wartime legal protection. <strong>Every human variable pointed toward prolonged conflict before it began.</strong>',dims:[{t:'Narcissism: Trump 92, Netanyahu 80, Kim 82',c:'narc'},{t:'Survival: Netanyahu 96, Mojtaba 90, Kim 95',c:'narc'},{t:'Accountability: All below 20/100',c:'narc'},{t:'Guardrails: Congress 20, Diplomacy 22, Arms 15',c:'ideo'}],gap:'The conventional prediction was rapid success. The human dimension predicted prolonged conflict with no natural exit point before the first strike.', live:true}
+];
+
+function renderPOC(){
+  var el=document.getElementById('pocList');if(!el)return;
+  el.innerHTML=POC.map(function(c){
+    return '<div class="poc'+(c.live?'" style="border-color:rgba(93,202,165,0.3)':'')+'">' +
+      '<div class="poc-h'+(c.live?'" style="background:rgba(45,122,79,0.06)':'')+'">' +
+        '<div><div class="poc-n">'+c.num+'</div><div class="poc-t">'+c.title+'</div><div class="poc-p">'+c.period+'</div></div>' +
+        '<div class="poc-v '+c.verdict+'">'+c.vt+'</div>' +
+      '</div>' +
+      '<div class="poc-cols">' +
+        '<div class="poc-col pred"><div class="poc-cl">Conventional Prediction</div><div class="poc-ct">'+c.pred+'</div></div>' +
+        '<div class="poc-col real"><div class="poc-cl">What Actually Happened</div><div class="poc-ct">'+c.reality+'</div></div>' +
+        '<div class="poc-col human'+(c.live?'" style="background:rgba(45,122,79,0.07)':'')+'">' +
+          '<div class="poc-cl">Human Dimension Predicted</div><div class="poc-ct">'+c.human+'</div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="poc-dims">'+c.dims.map(function(d){return '<span class="pdim '+d.c+'">'+d.t+'</span>';}).join('')+'</div>' +
+      '<div class="poc-gap'+(c.live?'" style="background:rgba(45,122,79,0.08)':'')+'">' +
+        '<div class="poc-gl"'+(c.live?' style="color:var(--g3)"':'')+'>The Gap</div>' +
+        '<div class="poc-gt">'+c.gap+'</div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+function renderLeaders(){
+  var el=document.getElementById('leadersGrid');if(!el)return;
+  var COLORS=['#C48A92','#C9A84C','#9E6B72','#C48A92','#5DCAA5','#C9A84C','#5DCAA5','#C48A92','#3D9E68','#C48A92','#C9A84C'];
+  el.innerHTML=LEADERS.map(function(l,i){
+    var risk=l.b>=85?'rc':l.b>=75?'rh':'re';
+    var rtxt=l.b>=85?'CRITICAL':l.b>=75?'HIGH':'ELEVATED';
+    return '<div class="lc">' +
+      '<div class="lc-h"><span class="rbadge '+risk+'">'+rtxt+'</span><div class="lc-n">'+l.n+'</div><div class="lc-r">'+l.r+'</div></div>' +
+      '<div class="lc-b">' +
+        Object.keys(l.dims).map(function(d){
+          var v=l.dims[d];var c=v>=75?'#C48A92':v>=50?'#C9A84C':'#5DCAA5';
+          return '<div class="dr"><div class="dl">'+d+'</div><div class="db"><div class="df" style="width:'+v+'%;background:'+c+'"></div></div><div class="dv">'+v+'</div></div>';
+        }).join('') +
+        '<div class="ltags">'+l.tags.map(function(t){return '<div class="ltag">'+t+'</div>';}).join('')+'</div>' +
+        '<div class="lideo"><div class="lideo-l">Ideological Philosophy</div><div class="lideo-t">'+l.ideo+'</div></div>' +
+        '<button style="margin-top:10px;font-family:var(--fm);font-size:9px;letter-spacing:1px;color:var(--g3);text-transform:uppercase;background:none;border:none;cursor:pointer;padding:0" onclick="showPage(\'assessment\')">View Full Assessment &#8599;</button>' +
+      '</div></div>';
+  }).join('');
+}
+
+function renderAssessment(){
+  var el=document.getElementById('assessmentContent');if(!el)return;
+  var BANDS={A:'ba',B:'bb',C:'bc',D:'bd'};
+  var BLAB={A:'A — OVERWHELMING',B:'B — STRONG',C:'C — MODERATE',D:'D — LIMITED'};
+  var CCLASS={high:'chigh',med:'cmed',low:'clow'};
+  var CLAB={high:'HIGH CONFIDENCE',med:'MEDIUM CONFIDENCE',low:'LOW CONFIDENCE'};
+  el.innerHTML=LEADERS.map(function(l){
+    var risk=l.b>=85?'rc':l.b>=75?'rh':'re';
+    var rtxt=l.b>=85?'CRITICAL':l.b>=75?'HIGH':'ELEVATED';
+    var w=l.weights||DW;
+    return '<div class="assess-leader">' +
+      '<div class="alh"><div><div class="aln">'+l.n+'</div><div class="alr">'+l.r+'</div></div><span class="rbadge '+risk+'">'+rtxt+'</span></div>' +
+      Object.keys(l.assess).map(function(dim){
+        var a=l.assess[dim];var c=DC[dim]||'var(--g3)';var wt=(w[dim]||DW[dim]||0);var thresh=DT[dim]||2.5;
+        return '<div class="adim">' +
+          '<div class="adim-top"><div class="adim-name">'+dim.toUpperCase()+'</div><div class="adim-score" style="color:'+c+'">'+a.score+'</div></div>' +
+          '<span class="adim-band '+(BANDS[a.band]||'bd')+'">'+(BLAB[a.band]||a.band)+'</span>' +
+          '<div class="adim-wt">Weight: '+wt+'% · Flag threshold: ±'+thresh+' pts</div>' +
+          '<div class="adim-bar"><div class="adim-fill" style="width:'+a.score+'%;background:'+c+'"></div></div>' +
+          '<div class="adim-ev">'+a.evidence+'</div>' +
+          '<div class="adim-src">SOURCES: '+a.source+'</div>' +
+          '<span class="conf '+(CCLASS[(a.confidence||a.conf||'low').toLowerCase()]||'clow')+'">'+(CLAB[(a.confidence||a.conf||'low').toLowerCase()]||'CONFIDENCE: LOW')+'</span>' +
+        '</div>';
+      }).join('') +
+      '<div style="padding:14px 18px;background:rgba(255,255,255,0.02);border-top:1px solid var(--rule)"><div class="lideo-l" style="margin-bottom:4px">Ideological Philosophy</div><div style="font-size:13px;color:var(--ink2);line-height:1.65">'+l.ideo+'</div></div>' +
+    '</div>';
+  }).join('');
+}
+
+// ── INTERDEPENDENCY MAP ──
+var CONNS=[
+  {from:'Xi Jinping',to:'General Asim Munir',type:'weapons',label:'J-10C/PL-15 supply',detail:'Chinese J-10C fighters with PL-15 missiles downed 3 Rafales, 1 MiG-29, 1 Su-30 in May 2025 aerial engagement.',src:'May 2025 engagement reports · Reuters · Pakistani MoD',color:'#C9A84C'},
+  {from:'Xi Jinping',to:'Mojtaba Khamenei',type:'diplomatic',label:'Bilateral Strait access',detail:'China negotiating bilateral Strait of Hormuz access with Iran while publicly calling for de-escalation. 25-year China-Iran cooperation agreement.',src:'China-Iran 25yr cooperation 2021 · Shipping reports 2026',color:'#C9A84C'},
+  {from:'Vladimir Putin',to:'Mojtaba Khamenei',type:'intelligence',label:'Satellite targeting data',detail:'Russia providing Iran with updated satellite targeting data. Part of Russia-Iran military cooperation.',src:'Reuters · US intelligence assessments · Al-Monitor',color:'#9E6B72'},
+  {from:'Kim Jong-un',to:'Vladimir Putin',type:'intelligence',label:'Troops + ammunition',detail:'DPRK-Russia cooperation agreement September 2024. DPRK troops deployed. Ammunition supplied.',src:'DPRK-Russia agreement Sept 2024 · Ukrainian intelligence · Reuters',color:'#9E6B72'},
+  {from:'Mojtaba Khamenei',to:'Mojtaba Khamenei',type:'proxy',label:'Houthi/Hezbollah activation',detail:'Iran-backed proxy network: Houthis, Hezbollah, Iraqi Shia militias. Escalation without direct attribution.',src:'ACLED · UN Panel of Experts · GDELT',color:'rgba(255,255,255,0.25)'},
+  {from:'Benjamin Netanyahu',to:'Donald J. Trump',type:'survival',label:'Wartime legal shield loop',detail:"Netanyahu's three corruption trials suspended under wartime emergency. Trump publicly called for Netanyahu trial cancellation. Mutual survival incentive.",src:'Jerusalem District Court records · Trump statements · Reuters Dec 2025',color:'#C48A92'},
+  {from:'Donald J. Trump',to:'Benjamin Netanyahu',type:'survival',label:'ICC shield + political cover',detail:'Trump withdrew US from ICC mechanisms, blocked sanctions on Netanyahu. US vetoes ICC enforcement.',src:'ICC public record · US Security Council veto record',color:'#C48A92'},
+  {from:'Narendra Modi',to:'General Asim Munir',type:'escalation',label:'LoC violations + nuclear signal',detail:'India abandoned No First Use doctrine — direct message to emboldened Pakistani military post-May 2025.',src:'LoC incident reports March 2026 · Indian nuclear doctrine statements',color:'#5DCAA5'},
+  {from:'General Asim Munir',to:'Narendra Modi',type:'escalation',label:'May 2025 Rafale downing',detail:'Pakistan downing 3 Rafales changed India risk calculus. Emboldened Pakistani military = increased LoC pressure.',src:'May 2025 engagement reports · Indian Air Force statements',color:'#5DCAA5'}
+];
+
+var TYPCLS={weapons:'iw',intelligence:'ii',survival:'is',diplomatic:'id',escalation:'ie',proxy:'ip'};
+
+function drawInterdep(){
+  var canvas=document.getElementById('idCanvas');
+  if(!canvas||!LEADERS.length)return;
+  var W=canvas.offsetWidth||canvas.parentElement.offsetWidth||700;
+  var H=480;canvas.width=W;canvas.height=H;
+  var ctx=canvas.getContext('2d');
+  ctx.clearRect(0,0,W,H);
+  var N=LEADERS.length,cx=W/2,cy=H/2,R=Math.min(W,H)*0.36;
+  var nodes={};
+  LEADERS.forEach(function(l,i){
+    var angle=-Math.PI/2+(2*Math.PI*i/N);
+    nodes[l.n]={x:cx+R*Math.cos(angle),y:cy+R*Math.sin(angle),l:l,angle:angle,r:20};
+  });
+  canvas._nodes=nodes;
+  // Draw connections
+  CONNS.forEach(function(c){
+    var fn=nodes[c.from],tn=c.from===c.to?null:nodes[c.to];
+    if(!fn)return;
+    ctx.save();ctx.strokeStyle=c.color;ctx.lineWidth=2;ctx.globalAlpha=0.75;
+    if(!tn){
+      ctx.beginPath();ctx.arc(fn.x,fn.y-26,16,0,Math.PI*2);ctx.stroke();
+    } else {
+      var dx=tn.x-fn.x,dy=tn.y-fn.y,dist=Math.sqrt(dx*dx+dy*dy);
+      var nx=-dy/dist*38,ny=dx/dist*38;
+      var cpx=(fn.x+tn.x)/2+nx,cpy=(fn.y+tn.y)/2+ny;
+      ctx.beginPath();ctx.moveTo(fn.x,fn.y);ctx.quadraticCurveTo(cpx,cpy,tn.x,tn.y);ctx.stroke();
+      var t=0.9,ax=2*(1-t)*(cpx-fn.x)+2*t*(tn.x-cpx),ay=2*(1-t)*(cpy-fn.y)+2*t*(tn.y-cpy);
+      var al=Math.sqrt(ax*ax+ay*ay);
+      if(al>0){
+        ctx.fillStyle=c.color;ctx.beginPath();
+        var hx=tn.x,hy=tn.y,ux=ax/al,uy=ay/al;
+        ctx.moveTo(hx,hy);ctx.lineTo(hx-ux*9+uy*4,hy-uy*9-ux*4);ctx.lineTo(hx-ux*9-uy*4,hy-uy*9+ux*4);ctx.closePath();ctx.fill();
+      }
+    }
+    ctx.restore();
+  });
+  // Draw nodes
+  Object.keys(nodes).forEach(function(name){
+    var nd=nodes[name],l=nd.l,risk=l.b||50;
+    var nc=risk>=85?'#C48A92':risk>=75?'#C9A84C':'#5DCAA5';
+    ctx.save();ctx.shadowColor=nc;ctx.shadowBlur=10;
+    ctx.beginPath();ctx.arc(nd.x,nd.y,nd.r,0,Math.PI*2);ctx.fillStyle='#0D1A10';ctx.fill();ctx.restore();
+    ctx.beginPath();ctx.arc(nd.x,nd.y,nd.r,0,Math.PI*2);ctx.strokeStyle=nc;ctx.lineWidth=2;ctx.stroke();
+    ctx.fillStyle='rgba(13,26,16,0.9)';ctx.fill();
+    ctx.fillStyle=nc;ctx.font='bold 10px DM Mono,monospace';ctx.textAlign='center';ctx.textBaseline='middle';
+    ctx.fillText(risk,nd.x,nd.y);
+    var short=name.split(' ').slice(-1)[0];
+    if(name==='General Asim Munir')short='Munir';
+    if(name==='Mojtaba Khamenei')short='Mojtaba';
+    if(name==='Benjamin Netanyahu')short='Bibi';
+    if(name==='Donald J. Trump')short='Trump';
+    var lx=nd.x+Math.cos(nd.angle)*36,ly=nd.y+Math.sin(nd.angle)*36;
+    ctx.fillStyle='rgba(232,245,236,0.85)';ctx.font='500 9px DM Sans,sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';
+    ctx.fillText(short,lx,ly);
+  });
+}
+
+function renderIdTable(){
+  var tb=document.getElementById('idTableBody');if(!tb)return;
+  tb.innerHTML=CONNS.map(function(c){
+    var to=c.from===c.to?'Self (proxy)':c.to.split(' ').slice(-1)[0];
+    return '<tr><td style="font-weight:600;color:var(--ink)">'+c.from.split(' ').slice(-1)[0]+'</td><td>'+to+'</td><td><span class="ib '+(TYPCLS[c.type]||'ip')+'">'+c.type+'</span></td><td>'+c.label+'<br><span style="font-size:11px;color:var(--ink3)">'+c.detail+'</span></td><td style="font-family:var(--fm);font-size:9px;color:var(--ink4)">'+c.src+'</td></tr>';
+  }).join('');
+}
+
+function initIdEvents(){
+  var canvas=document.getElementById('idCanvas');
+  if(!canvas||canvas._eventsInit)return;
+  canvas._eventsInit=true;
+  var tip=document.getElementById('idTip');
+  function getHit(cx,cy){
+    var rect=canvas.getBoundingClientRect();
+    var mx=cx-rect.left,my=cy-rect.top;
+    var nodes=canvas._nodes||{};
+    for(var name in nodes){var nd=nodes[name];if(Math.sqrt((mx-nd.x)*(mx-nd.x)+(my-nd.y)*(my-nd.y))<nd.r+8)return{type:'node',data:nd.l};}
+    for(var i=0;i<CONNS.length;i++){
+      var c=CONNS[i],fn=nodes[c.from],tn=c.from===c.to?null:nodes[c.to];if(!fn)continue;
+      var mpx,mpy;
+      if(!tn){mpx=fn.x;mpy=fn.y-42;}
+      else{var dx=tn.x-fn.x,dy=tn.y-fn.y,dist=Math.sqrt(dx*dx+dy*dy),nx=-dy/dist*38,ny=dx/dist*38;mpx=(fn.x+tn.x)/2+nx;mpy=(fn.y+tn.y)/2+ny;}
+      if(Math.sqrt((mx-mpx)*(mx-mpx)+(my-mpy)*(my-mpy))<22)return{type:'conn',data:c};
+    }
+    return null;
+  }
+  function showTip(e,hit){
+    if(!hit){tip.style.display='none';return;}
+    var d=hit.data,html='';
+    if(hit.type==='conn'){html='<div class="idt-from">'+d.from+(d.from===d.to?' → Self':' → '+d.to)+'</div><div class="idt-label">'+d.label+'</div><div class="idt-detail">'+d.detail+'</div><div class="idt-src">SOURCES: '+d.src+'</div>';}
+    else{html='<div class="idt-from">Leader Profile</div><div class="idt-label">'+d.n+'</div><div class="idt-detail">'+d.r+'</div><div class="idt-detail">Overall Risk: <strong style="color:var(--mu2)">'+d.b+'</strong></div>';}
+    tip.innerHTML=html;tip.style.display='block';
+    var tx=e.clientX+14,ty=e.clientY-10;
+    if(tx+270>window.innerWidth)tx=e.clientX-280;
+    if(ty+160>window.innerHeight)ty=e.clientY-170;
+    tip.style.left=tx+'px';tip.style.top=ty+'px';
+  }
+  canvas.addEventListener('mousemove',function(e){showTip(e,getHit(e.clientX,e.clientY));});
+  canvas.addEventListener('mouseleave',function(){tip.style.display='none';});
+  canvas.addEventListener('touchstart',function(e){var t=e.touches[0];showTip(t,getHit(t.clientX,t.clientY));e.preventDefault();},{passive:false});
+  canvas.addEventListener('touchend',function(){setTimeout(function(){tip.style.display='none';},2000);});
+}
+
+window.addEventListener('resize',function(){if(document.getElementById('page-assessment').classList.contains('active'))drawInterdep();});
+
+// ── PROPOSALS ──
+var PROPOSALS_DATA = null;
+function loadProposals(){
+  fetch(API+'/api/proposals')
+    .then(function(r){return r.json();})
+    .then(function(d){
+      PROPOSALS_DATA = d;
+      renderProposals(d);
+    })
+    .catch(function(){
+      var el=document.getElementById('proposalsList');
+      if(el)el.innerHTML='<div style="font-family:var(--fm);font-size:11px;color:var(--ink4);padding:20px 0">Proposals not yet available — run the GitHub Action first.</div>';
+    });
+}
+function renderProposals(d){
+  var el=document.getElementById('proposalsList');if(!el)return;
+  var proposals=(d&&d.leader_proposals)||[];
+  if(!proposals.length){
+    el.innerHTML='<div style="font-family:var(--fm);font-size:11px;color:var(--ink4);padding:20px 0">No proposals — insufficient history or no sustained patterns detected yet. Run the Action a few more times to build history.</div>';
+    return;
+  }
+  el.innerHTML=proposals.map(function(p,idx){
+    var deltaPos=p.proposed_delta>0;
+    var dc=deltaPos?'var(--mu2)':'var(--g3)';
+    var dsign=deltaPos?'+':'';
+    var confCls=p.confidence==='high'?'chigh':p.confidence==='medium'?'cmed':'clow';
+    var confLbl=(p.confidence||'low').toUpperCase();
+    var evHtml=(p.evidence_chain||[]).slice(0,4).map(function(ev){
+      return '<div class="prop-ev-item">' +
+        '<div class="prop-ev-hl">'+(ev.headline||'')+'</div>' +
+        '<div class="prop-ev-meta">'+(ev.date||'')+' · '+(ev.source||'')+' · '+((ev.bloc||'').toUpperCase())+'</div>' +
+        '<div class="prop-ev-rel">'+(ev.relevance||'')+'</div>' +
+      '</div>';
+    }).join('');
+    var counterHtml=p.counter_evidence?'<div class="prop-counter">Counter-evidence: '+p.counter_evidence+'</div>':'';
+    return '<div class="prop-card '+(p.confidence==='high'?'high':'')+'" id="prop-'+idx+'">' +
+      '<div class="prop-hdr">' +
+        '<div><div class="prop-leader">'+p.leader+'</div><div class="prop-dim">'+p.dimension.toUpperCase()+'</div></div>' +
+        '<div class="prop-delta">' +
+          '<div class="prop-dv" style="color:'+dc+'">'+dsign+p.proposed_delta+'</div>' +
+          '<div class="prop-scores">'+p.current_score+' &rarr; '+p.proposed_new_score+'</div>' +
+          '<span class="conf '+confCls+'">'+confLbl+'</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="prop-body">' +
+        '<div class="prop-pattern">'+(p.pattern_description||'')+'</div>' +
+        '<div class="prop-ev-lbl">Evidence chain ('+((p.evidence_chain||[]).length)+' items · '+(p.items_supporting||0)+' supporting · '+((p.blocs_represented||[]).join(', '))+')</div>' +
+        evHtml +
+        counterHtml +
+      '</div>' +
+      '<div class="prop-actions">' +
+        '<button class="prop-approve" onclick="approveProposal('+idx+',this)">Approve &rarr; Commit to leaders.json</button>' +
+        '<button class="prop-reject" onclick="rejectProposal('+idx+')">Reject</button>' +
+        '<span class="prop-status" id="prop-status-'+idx+'"></span>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+function rejectProposal(idx){
+  var card=document.getElementById('prop-'+idx);
+  if(card){card.style.opacity='0.35';card.style.pointerEvents='none';}
+}
+async function approveProposal(idx,btn){
+  var pat=document.getElementById('propPat').value.trim();
+  if(!pat){alert('Enter your GitHub PAT first.');return;}
+  if(!PROPOSALS_DATA||!PROPOSALS_DATA.leader_proposals||!PROPOSALS_DATA.leader_proposals[idx])return;
+  var proposal=PROPOSALS_DATA.leader_proposals[idx];
+  var statusEl=document.getElementById('prop-status-'+idx);
+  btn.disabled=true;btn.textContent='Committing...';
+  var repo='subhai-accidental-geopolitical-satirist/GlobalConflictRiskTracker';
+  try {
+    // GET current leaders.json
+    var getRes=await fetch('https://api.github.com/repos/'+repo+'/contents/leaders.json',{
+      headers:{'Authorization':'token '+pat,'Accept':'application/vnd.github.v3+json'}
+    });
+    if(!getRes.ok)throw new Error('Could not fetch leaders.json: '+getRes.status);
+    var fileData=await getRes.json();
+    var current=JSON.parse(atob(fileData.content.replace(/\n/g,'')));
+    // Apply delta to the correct leader and dimension
+    var leaders=current.leaders||current;
+    var updated=false;
+    leaders.forEach(function(l){
+      if(l.n===proposal.leader){
+        if(l.dims&&l.dims[proposal.dimension]!==undefined){
+          var oldScore=l.dims[proposal.dimension];
+          var newScore=Math.max(0,Math.min(100,oldScore+proposal.proposed_delta));
+          l.dims[proposal.dimension]=newScore;
+          if(l.assess&&l.assess[proposal.dimension]){
+            l.assess[proposal.dimension].score=newScore;
+          }
+          updated=true;
+        }
+      }
+    });
+    if(!updated)throw new Error('Leader or dimension not found in leaders.json');
+    // Commit updated leaders.json
+    var content=btoa(unescape(encodeURIComponent(JSON.stringify(current,null,2))));
+    var msg='Assessment update [proposals]: '+proposal.leader+' '+proposal.dimension+' '+proposal.proposed_delta+' approved:subha '+new Date().toISOString().slice(0,10);
+    var putRes=await fetch('https://api.github.com/repos/'+repo+'/contents/leaders.json',{
+      method:'PUT',
+      headers:{'Authorization':'token '+pat,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'},
+      body:JSON.stringify({message:msg,content:content,sha:fileData.sha})
+    });
+    if(!putRes.ok){var e=await putRes.json();throw new Error(e.message||putRes.status);}
+    var putData=await putRes.json();
+    if(statusEl){statusEl.style.display='inline';statusEl.textContent='Committed '+putData.commit.sha.slice(0,7)+' · Railway redeploys in ~60s';}
+    btn.textContent='Approved';
+    btn.style.background='var(--g3)';btn.style.color='var(--bg)';
+  } catch(e){
+    if(statusEl){statusEl.style.display='inline';statusEl.style.color='var(--mu2)';statusEl.textContent='Error: '+e.message;}
+    btn.disabled=false;btn.textContent='Approve &rarr; Commit to leaders.json';
+  }
+}
+var VAR_WATCH=[
+  {k:'nuclearSignalling',name:'Nuclear Signalling',val:60,watch:['nuclear doctrine India','nuclear Pakistan','LoC violations'],thresh:2,tier:'Escalation Signals'},
+  {k:'congressConstraint',name:'Congressional Constraint',val:20,watch:['War Powers','AUMF','Congress vote Iran'],thresh:2,tier:'Guardrails'},
+  {k:'diplomaticChannels',name:'Diplomatic Channels',val:22,watch:['Iran ceasefire','diplomacy Iran','Oman talks'],thresh:2,tier:'Guardrails'},
+  {k:'armsControlArchitecture',name:'Arms Control Architecture',val:15,watch:['New START','arms control treaty'],thresh:2,tier:'Guardrails'},
+  {k:'trumpDomesticPressure',name:'Trump Domestic Pressure',val:65,watch:['Trump approval','Congress Trump'],thresh:2,tier:'Political Pressures'},
+  {k:'netanyahuLegalJeopardy',name:'Netanyahu Legal Jeopardy',val:82,watch:['Netanyahu trial','Netanyahu ICC'],thresh:2,tier:'Political Pressures'},
+  {k:'pakistanEconomicStress',name:'Pakistan Economic Stress',val:68,watch:['IMF Pakistan','Pakistan rupee'],thresh:2,tier:'Political Pressures'},
+  {k:'iranRegimeCohesion',name:'Iran Regime Cohesion',val:40,watch:['IRGC split','Iran protest'],thresh:2,tier:'Political Pressures'}
+];
+
+function renderLeaderWatch(){
+  var el=document.getElementById('leaderWatchList');if(!el||!LEADERS.length)return;
+  el.innerHTML=LEADERS.map(function(l){
+    var ls=WATCH_STATE.leaders&&WATCH_STATE.leaders[l.n]||{};
+    var flags=ls.flags||{};
+    var hasCrit=Object.keys(flags).some(function(f){return flags[f]&&flags[f].level==='critical';});
+    var hasFlag=Object.keys(flags).some(function(f){return flags[f]&&flags[f].triggered;});
+    var sc=hasCrit?'critical':hasFlag?'flagged':'';
+    var st=hasCrit?'&#9888; REVIEW URGENT':hasFlag?'&#9873; FLAG ACTIVE':'&#10003; CLEAR';
+    var sc2=hasCrit?'ws-crit':hasFlag?'ws-flag':'ws-clear';
+    var w=l.weights||DW;
+    var lr=ls.lastRefresh?('<span>'+new Date(ls.lastRefresh).toLocaleDateString('en-SG',{day:'numeric',month:'short',year:'numeric'})+'</span>'):('<span style="color:var(--mu2)">Never</span>');
+    return '<div class="wcard '+sc+'">' +
+      '<div class="wh"><div><div class="wn">'+l.n+'</div><div class="wr">'+l.r+'</div></div><div class="wstatus '+sc2+'">'+st+'</div></div>' +
+      '<div class="wb">' +
+        '<div class="wdims">'+
+          Object.keys(l.dims).map(function(dim){
+            var score=l.dims[dim],wt=(w[dim]||DW[dim]||0),thresh=DT[dim]||2.5,c=DC[dim]||'var(--g3)';
+            var flag=flags[dim]||{};
+            var dc=flag.level==='critical'?'dcr':flag.triggered?'dfl':'';
+            return '<div class="wdim '+dc+'">' +
+              '<div class="wdt"><div><div class="wdn">'+dim.toUpperCase()+'</div><div class="wdw">Weight '+wt+'% · Flag at ±'+thresh+'</div></div><div class="wds" style="color:'+c+'">'+score+'</div></div>' +
+              '<div class="wdb"><div class="wdf" style="width:'+score+'%;background:'+c+'"></div></div>' +
+              (flag.triggered?'<div class="wdflag">&#9873; '+flag.reason+'</div>':'') +
+            '</div>';
+          }).join('') +
+        '</div>' +
+        '<div class="wkws">'+( l.watch||[]).map(function(kw){return '<span class="wkw">'+kw+'</span>';}).join('')+'</div>' +
+        '<div class="wmeta"><div class="wlr">Last refreshed: '+lr+'</div>'+(hasFlag?'<button class="mrv" onclick="markReviewed(\'leader\',\''+l.n+'\')">Mark Reviewed</button>':'')+'</div>' +
+      '</div></div>';
+  }).join('');
+}
+
+function renderVarWatch(){
+  var el=document.getElementById('varWatchList');if(!el)return;
+  var tiers={};
+  VAR_WATCH.forEach(function(v){if(!tiers[v.tier])tiers[v.tier]=[];tiers[v.tier].push(v);});
+  el.innerHTML=Object.keys(tiers).map(function(tier){
+    return '<div class="vcat-t">'+tier+'</div>'+
+      tiers[tier].map(function(v){
+        var vs=WATCH_STATE.vars&&WATCH_STATE.vars[v.k]||{};
+        var flag=vs.flag||{};
+        var sc=flag.triggered?'flagged':'';
+        var c=v.val>=75?'#C48A92':v.val>=50?'#C9A84C':'#5DCAA5';
+        var lr=vs.lastRefresh?('<span>'+new Date(vs.lastRefresh).toLocaleDateString('en-SG',{day:'numeric',month:'short',year:'numeric'})+'</span>'):('<span style="color:var(--mu2)">Never</span>');
+        return '<div class="vwcard '+sc+'">' +
+          '<div class="vwt"><div><div class="vwn">'+v.name+'</div><div class="wkws">'+v.watch.map(function(kw){return '<span class="wkw">'+kw+'</span>';}).join('')+'</div></div><div class="vwv" style="color:'+c+'">'+v.val+'</div></div>' +
+          '<div class="vwb"><div class="vwf" style="width:'+v.val+'%;background:'+c+'"></div></div>' +
+          (flag.triggered?'<div class="vwfl">&#9873; '+flag.reason+'</div>':'') +
+          '<div class="vwmeta"><div class="vwrf">Last refreshed: '+lr+'</div>'+(flag.triggered?'<button class="mrv" onclick="markReviewed(\'var\',\''+v.k+'\')">Mark Reviewed</button>':'')+'</div>' +
+        '</div>';
+      }).join('');
+  }).join('');
+  updateWatchBadge();
+}
+
+function updateWatchBadge(){
+  var count=0;
+  if(WATCH_STATE.leaders)Object.keys(WATCH_STATE.leaders).forEach(function(k){var ls=WATCH_STATE.leaders[k];if(ls.flags)Object.keys(ls.flags).forEach(function(f){if(ls.flags[f]&&ls.flags[f].triggered)count++;});});
+  if(WATCH_STATE.vars)Object.keys(WATCH_STATE.vars).forEach(function(k){var vs=WATCH_STATE.vars[k];if(vs.flag&&vs.flag.triggered)count++;});
+  var b=document.getElementById('wbadge');if(b)b.textContent=count;
+}
+
+function markReviewed(type,key){
+  fetch(API+'/api/mark-reviewed',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:type,key:key,ts:new Date().toISOString()})})
+    .then(function(){loadWatchState(function(){renderLeaderWatch();renderVarWatch();});})
+    .catch(function(){});
+}
+
+// ── DASHBOARD ──
+var V={oilPrice:47,straitControl:70,weaponsDepletion:58,nuclearSignalling:60,cyberIntensity:50,proxyActivation:62,trumpDomesticPressure:65,netanyahuLegalJeopardy:82,pakistanEconomicStress:68,iranRegimeCohesion:40,congressConstraint:20,diplomaticChannels:22,armsControlArchitecture:15,narcissismCoefficient:78,groupthinkRisk:68};
+var VDEFS=[
+  {k:'oilPrice',l:'Oil Price Stress',w:12,g:'Energy & Military'},
+  {k:'straitControl',l:'Iran Strait Control',w:15,g:'Energy & Military'},
+  {k:'weaponsDepletion',l:'US Weapons Depletion',w:10,g:'Energy & Military'},
+  {k:'nuclearSignalling',l:'Nuclear Signalling',w:18,g:'Escalation Signals'},
+  {k:'cyberIntensity',l:'Cyber Intensity',w:8,g:'Escalation Signals'},
+  {k:'proxyActivation',l:'Proxy Activation',w:10,g:'Escalation Signals'},
+  {k:'trumpDomesticPressure',l:'Trump Domestic Pressure',w:10,g:'Political Pressures'},
+  {k:'netanyahuLegalJeopardy',l:'Netanyahu Legal Risk',w:12,g:'Political Pressures'},
+  {k:'pakistanEconomicStress',l:'Pakistan Econ Stress',w:0,g:'Political Pressures'},
+  {k:'iranRegimeCohesion',l:'Iran Regime Cohesion',w:0,g:'Political Pressures'},
+  {k:'congressConstraint',l:'Congressional Constraint',w:35,g:'Guardrails (higher=safer)'},
+  {k:'diplomaticChannels',l:'Diplomatic Channels',w:40,g:'Guardrails (higher=safer)'},
+  {k:'armsControlArchitecture',l:'Arms Control Architecture',w:25,g:'Guardrails (higher=safer)'},
+  {k:'narcissismCoefficient',l:'Narcissism Coefficient',w:5,g:'Leader Psychology'},
+  {k:'groupthinkRisk',l:'Groupthink Risk',w:0,g:'Leader Psychology'}
+];
+var OUTCOMES=[
+  {id:'stalemate',name:'Managed Perpetual Stalemate',key:'stalemate',c:'#5DCAA5'},
+  {id:'escalation',name:'Military Escalation',key:'escalation',c:'#C9A84C'},
+  {id:'southasia',name:'South Asia Nuclear Flashpoint',key:'southasia',c:'#C48A92'},
+  {id:'cascade',name:'Catastrophic Miscalculation',key:'cascade',c:'#9E6B72'},
+  {id:'negotiation',name:'Negotiated De-escalation',key:'negotiation',c:'#3D9E68'}
+];
+var THEATRES=[{name:'Iran',status:'Active War',level:88,c:'#C48A92'},{name:'Pakistan/Afghanistan',status:'Active Conflict',level:75,c:'#C9A84C'},{name:'Israel/Lebanon',status:'Active Strikes',level:72,c:'#C9A84C'},{name:'Yemen',status:'Houthi Operations',level:65,c:'#C9A84C'},{name:'Ukraine',status:'Ongoing War',level:58,c:'#5DCAA5'}];
+var FEED_FALLBACK=[{type:'info',txt:'Intelligence feed loading — connect to API for live updates'},{type:'info',txt:'Source: NewsAPI + GDELT + Claude web search'},{type:'info',txt:'Updates every 6 hours via GitHub Action'}];
+var PRESETS={baseline:{},deesc:{congressConstraint:45,diplomaticChannels:55,armsControlArchitecture:35,nuclearSignalling:20,proxyActivation:30},esc:{congressConstraint:10,diplomaticChannels:8,nuclearSignalling:75,proxyActivation:85},sa:{pakistanEconomicStress:95,nuclearSignalling:85,congressConstraint:12,diplomaticChannels:10}};
+
+function calc(){
+  var g=V.congressConstraint,d=V.diplomaticChannels,a=V.armsControlArchitecture;
+  var guardrail=(g*0.35+d*0.40+a*0.25)/100;
+  var raw=0,tw=0;
+  VDEFS.forEach(function(vd){if(vd.w>0&&vd.g!=='Guardrails (higher=safer)'){raw+=V[vd.k]*vd.w;tw+=vd.w;}});
+  var base=tw>0?raw/tw:50;
+  var risk=Math.round(base*(1-guardrail*0.4));
+  return{negotiation:Math.max(2,Math.round((100-risk)*0.08)),stalemate:Math.max(5,Math.round(risk*0.15)),escalation:Math.round(risk*0.35),cascade:Math.round(risk*0.22),southasia:Math.round(risk*0.25)};
+}
+function renderOutcomes(p){
+  var el=document.getElementById('ocRow');if(!el)return;
+  el.innerHTML=OUTCOMES.map(function(o){var pct=p[o.key]||5;return '<div class="oc" style="--occ:'+o.c+';--ocp:'+(pct/100)+'"><div class="oc-n">'+o.id.substring(0,3).toUpperCase()+'</div><div class="oc-nm">'+o.name+'</div><div class="oc-p" style="color:'+o.c+'">'+pct+'<span>%</span></div></div>';}).join('');
+}
+function renderVars(){
+  var el=document.getElementById('vgroups');if(!el)return;
+  var groups={};VDEFS.forEach(function(vd){if(!groups[vd.g])groups[vd.g]=[];groups[vd.g].push(vd);});
+  el.innerHTML=Object.keys(groups).map(function(g){
+    return '<div class="vg"><div class="vgt">'+g+'</div>'+
+      groups[g].map(function(vd){
+        return '<div class="vrow" onclick="openVarModal(\''+vd.k+'\')">'+
+          '<div class="vlbl">'+vd.l+(vd.w?' <span style="color:var(--ink4);font-size:9px">('+vd.w+'%)</span>':'')+'</div>'+
+          '<div class="vsl"><input type="range" min="0" max="100" value="'+V[vd.k]+'" onclick="event.stopPropagation()" oninput="event.stopPropagation();V[\''+vd.k+'\']=(+this.value);updateAll();this.nextElementSibling.textContent=this.value"></div>'+
+          '<div class="vval">'+V[vd.k]+'</div></div>';
+      }).join('')+'</div>';
+  }).join('');
+}
+function updateAll(){
+  var p=calc();renderOutcomes(p);
+  var mx=Math.max(p.escalation,p.cascade,p.southasia);
+  ['rpEsc','drawerEsc'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent=mx+'%';});
+  ['rpNeg','drawerNeg'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent=p.negotiation+'%';});
+}
+function renderTheatres(data){
+  var el=document.getElementById('thList');if(!el)return;
+  (data||THEATRES).forEach(function(t){el.innerHTML+='<div class="thr"><div><div class="thn">'+t.name+'</div><div class="ths">'+t.status+'</div></div><div class="thb"><div class="thbf" style="width:'+t.level+'%;background:'+(t.c||'#5DCAA5')+'"></div></div><div class="thlv" style="color:'+(t.c||'#5DCAA5')+'">'+t.level+'</div></div>';});
+}
+function renderFeed(alerts){
+  var el=document.getElementById('feedBox');if(!el)return;
+  (alerts||FEED_FALLBACK).slice(0,10).forEach(function(a){
+    var dt=a.time?new Date(a.time):null;
+    var t;
+    if(dt&&!isNaN(dt.getTime())){
+      t=dt.toLocaleDateString([],{month:'short',day:'numeric'})+' · '+dt.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
+    } else {
+      t=new Date().toLocaleDateString([],{month:'short',day:'numeric'})+' · '+new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
+    }
+    el.innerHTML+='<div class="ai"><div class="at">'+t+'</div><div class="ax '+(a.type||'info')+'">'+(a.txt||a.title||'')+'</div></div>';
+  });
+}
+function renderLDash(){
+  var el=document.getElementById('lDash');if(!el)return;
+  var COLORS=['#C48A92','#C9A84C','#9E6B72','#C48A92','#5DCAA5','#C9A84C','#5DCAA5','#C48A92','#3D9E68','#C48A92','#C9A84C'];
+  el.innerHTML=LEADERS.map(function(l,i){
+    return '<div class="ldc" style="--lc:'+COLORS[i]+'">' +
+      '<div class="ldcn">'+l.n.split(' ').slice(-1)[0]+'</div>' +
+      '<div class="ldcr">'+l.r.split('·')[0].split(',')[0].trim()+'</div>' +
+      '<div class="ldcb"><div class="ldcf" style="width:'+l.dims.narcissism+'%;background:'+COLORS[i]+'"></div></div>' +
+      '<div style="font-family:var(--fm);font-size:8px;color:var(--ink3)">Narc: '+l.dims.narcissism+' · Surv: '+l.dims.survival+'</div>' +
+    '</div>';
+  }).join('');
+}
+function setPreset(name,btn){
+  document.querySelectorAll('.pb').forEach(function(b){b.classList.remove('on');});
+  if(btn)btn.classList.add('on');
+  var p=PRESETS[name]||{};
+  Object.keys(p).forEach(function(k){V[k]=p[k];});
+  renderVars();updateAll();
+}
+var countdown=300;
+function tick(){
+  countdown--;
+  if(countdown<=0){countdown=300;fetchLive();}
+  var m=Math.floor(countdown/60),s=countdown%60;
+  var tp=document.getElementById('tPill');
+  if(tp)tp.textContent='REFRESH '+m+':'+(s<10?'0':'')+s;
+}
+function fetchLive(){
+  var sp=document.getElementById('sPill'),st=document.getElementById('sTxt');
+  if(sp)sp.className='spill';if(st)st.textContent='FETCHING...';
+  fetch(API+'/api/live')
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(sp)sp.className='spill live';if(st)st.textContent='LIVE';
+      if(d.oil&&d.oil.price&&d.oil.source!=='Estimated'){
+        var ov=document.getElementById('oilV'),oc=document.getElementById('oilChg'),os=document.getElementById('oilSrc'),strip=document.getElementById('oilS');
+        if(ov)ov.textContent='$'+d.oil.price.toFixed(2);
+        if(os)os.textContent=(d.oil.source||'').toUpperCase();
+        if(oc)oc.textContent=d.oil.change_pct||'';
+        if(strip)strip.style.display='flex';
+        ['rpOil','drawerOil'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent='$'+Math.round(d.oil.price);});
+      }
+      if(d.alerts&&d.alerts.length){var fb=document.getElementById('feedBox');if(fb)fb.innerHTML='';renderFeed(d.alerts.map(function(a){return{type:a.type,txt:a.title,time:a.time};}));}
+      if(d.computedVars)Object.keys(d.computedVars).forEach(function(k){if(V[k]!==undefined)V[k]=d.computedVars[k];});
+      renderVars();updateAll();fetchNews();fetchVariables();
+      var foot=document.getElementById('dFoot');
+      if(foot)foot.textContent='Last updated: '+new Date().toLocaleTimeString()+' SGT · GDELT + CommodityPriceAPI';
+    })
+    .catch(function(){
+      if(sp)sp.className='spill';if(st)st.textContent='API ERROR · FALLBACK';
+      renderFeed(null);
+    });
+}
+function fetchNews(){
+  fetch(API+'/api/news')
+    .then(function(r){return r.json();})
+    .then(function(d){
+      // Wire live oil price and stress from news.json → overwrites Railway fallback
+      if(d.live_variables&&d.live_variables.oilStress!=null){
+        V.oilPrice=d.live_variables.oilStress;
+        renderVars();updateAll();
+      }
+      if(d.live_variables&&d.live_variables.oilPrice){
+        var op=d.live_variables.oilPrice;
+        ['rpOil','drawerOil'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent='$'+op;});
+        var ov=document.getElementById('oilV');if(ov)ov.textContent='$'+op+'.00';
+        var os=document.getElementById('oilSrc');if(os)os.textContent='LIVE';
+        var strip=document.getElementById('oilS');if(strip)strip.style.display='flex';
+      }
+      // Blend verified news items into the intelligence feed
+      if(d.items&&d.items.length){
+        var fb=document.getElementById('feedBox');
+        if(fb)fb.innerHTML='';
+        // Show high-escalation items first, then the rest
+        var sorted=d.items.slice().sort(function(a,b){return (b.escalation||0)-(a.escalation||0);});
+        renderFeed(sorted.slice(0,12).map(function(item){
+          return{
+            type: item.escalation>=4?'critical':item.escalation>=3?'warning':'info',
+            txt:  item.headline,
+            time: item.datetime||item.date
+          };
+        }));
+        // Update footer
+        var foot=document.getElementById('dFoot');
+        if(foot&&d.ts)foot.textContent='Intel feed updated: '+new Date(d.ts).toLocaleString('en-SG',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+' SGT · NewsAPI + Claude';
+      }
+    })
+    .catch(function(){/* news.json not yet available — GDELT feed remains */});
+}
+function fetchVariables(){
+  fetch(API+'/api/variables')
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(d.variables){
+        Object.keys(d.variables).forEach(function(k){
+          if(V[k]!==undefined) V[k]=d.variables[k];
+        });
+        renderVars();updateAll();
+        var foot=document.getElementById('dFoot');
+        if(foot)foot.textContent='Variables updated: '+new Date(d.ts).toLocaleString('en-SG',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+' SGT · news_history.json';
+      }
+    })
+    .catch(function(){/* use existing values if endpoint unavailable */});
+}
+var dashInited=false;
+function initDash(){
+  if(dashInited)return;dashInited=true;
+  var p=calc();renderOutcomes(p);renderVars();renderTheatres(null);renderFeed(null);renderLDash();
+  fetchLive();fetchNews();fetchVariables();setInterval(tick,1000);
+}
+
+// ── ARTICLES ──
+var ARTS_FALLBACK=[
+  {title:'I Was On Instagram. Then America Went To War.',link:'https://subhaimtiaz.substack.com/p/i-was-on-instagram-then-america-went',date:'28 Feb 2026',excerpt:'I was posting a Spider-Man meme about AI ethics. By Saturday morning America had launched strikes on Iran.'},
+  {title:'Oh, Those Iranians. Bless Their Hearts.',link:'https://subhaimtiaz.substack.com/p/oh-those-iranians-bless-their-hearts',date:'2 Mar 2026',excerpt:'You picked their king. You funded his torture. You shot their plane. No punchline. That is the joke.'},
+  {title:'Oh Sure, It Was Definitely Just One Very Lucky Sad Man With A Gun',link:'https://subhaimtiaz.substack.com/p/oh-sure-it-was-definitely-just-one',date:'4 Mar 2026',excerpt:'A completely uncontroversial retelling of totally unrelated historical events that definitely do not connect.'},
+  {title:'The Whitmores: A Family of Great Values',link:'https://subhaimtiaz.substack.com/p/the-whitmores-a-family-of-great-values',date:'19 Mar 2026',excerpt:'IBM billed for the Holocaust. Quarterly. The Whitmores are still billing.'}
+];
+function loadArticles(){
+  var st=document.getElementById('artStatus'),al=document.getElementById('artList');if(!st||!al)return;
+  fetch(API+'/api/substack')
+    .then(function(r){return r.json();})
+    .then(function(d){renderArticles(d.articles||[]);})
+    .catch(function(){renderArticles([]);});
+}
+function renderArticles(arts){
+  var st=document.getElementById('artStatus'),al=document.getElementById('artList');if(!al)return;
+  var list=arts&&arts.length?arts:ARTS_FALLBACK;
+  if(st)st.textContent=arts&&arts.length?'LIVE FROM SUBSTACK · '+list.length+' ARTICLES':'CACHED ARTICLES';
+  al.innerHTML=list.map(function(a){
+    return '<a class="art" href="'+a.link+'" target="_blank">' +
+      '<div class="art-m"><span class="art-tag">SUBSTACK</span><span>@subhaimtiaz</span></div>' +
+      '<div class="art-t">'+a.title+'</div>' +
+      '<div class="art-e">'+a.excerpt+'</div>' +
+      '<div class="art-d">'+a.date+'</div></a>';
+  }).join('');
+}
+
+// ── MODALS ──
+var MODAL_DATA={
+  outcomes:{k:'Outcome Probability Matrix',t:'Five Scenarios. One Configuration of Leaders.',body:'<div class="msec"><div class="msl">Why De-escalation Is Near-Impossible</div><div class="mtxt"><p>Requires: a leader with low survival incentive, functioning diplomatic channels, and an off-ramp that allows all parties to claim victory. Currently zero of three conditions are met.</p><div class="mpull">The Oman breakthrough of Feb 27 was destroyed by strikes the next day. At least one party in the room did not want diplomacy to succeed.</div></div></div>'},
+  variables:{k:'Escalation Variables',t:'15 Variables. One Human Psychology Rationale Each.',body:'<div class="msec"><div class="msl">The Guardrail Crisis</div><div class="mtxt"><p><strong>Congressional Constraint (20/100)</strong> — War Powers failed 47-53.</p><p><strong>Diplomatic Channels (22/100)</strong> — Oman breakthrough destroyed next day.</p><p><strong>Arms Control Architecture (15/100)</strong> — New START expired Feb 2026.</p><p><strong>Nuclear Signalling (60/100)</strong> — Updated for LoC violations between nuclear states.</p><div class="mpull">When all three guardrails are below 25/100 simultaneously, individual psychology becomes the primary determinant of outcomes.</div></div></div>'},
+  theatres:{k:'Conflict Theatres',t:'Five Active Theatres. Zero Firebreaks.',body:'<div class="msec"><div class="msl">Theatre Analysis</div><div class="mtxt"><p><strong>Iran (88)</strong> — Active war since Feb 28, 2026. Strait 70% closed.</p><p><strong>Pakistan/Afghanistan (75)</strong> — Three simultaneous fronts. Economy at IMF threshold.</p><p><strong>Israel/Lebanon (72)</strong> — Netanyahu survival 96/100 makes de-escalation impossible.</p><p><strong>Yemen (65)</strong> — Houthi operations ongoing.</p><p><strong>Ukraine (58)</strong> — US weapons and attention diverted.</p></div></div>'},
+  feed:{k:'Intelligence Feed',t:'What the Feed Tracks — and How.',body:'<div class="msec"><div class="msl">Data Sources</div><div class="mtxt"><p><strong>GDELT Project</strong> — Updated every 15 minutes. Tone score classifies alerts as Critical, Warning, or Info.</p><p>Tone below -5 = CRITICAL. -2 to -5 = WARNING. Above -2 = INFO.</p></div></div>'},
+  leaders:{k:'Leader Risk Profiles',t:'Eleven Leaders. One Pattern Across All.',body:'<div class="msec"><div class="msl">The Pattern</div><div class="mtxt"><p>High survival incentive. Low accountability exposure. Simultaneously. Across all eleven.</p><div class="mpull">High survival incentive + low accountability exposure = escalation without natural stopping points. This is not a theory. It is a description of the current board.</div></div></div>'}
+};
+function openModal(id){
+  var d=MODAL_DATA[id];if(!d)return;
+  document.getElementById('mKicker').textContent=d.k;
+  document.getElementById('mTitle').textContent=d.t;
+  document.getElementById('mBody').innerHTML=d.body;
+  document.getElementById('panelModal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function openVarModal(key){
+  var why={oilPrice:'Not just economic. Oil at $100+ creates domestic political urgency. Leaders need visible wins and enemies to blame for the pain.',straitControl:'An ego variable as much as strategic. Opening the Strait looks like surrender to the only constituency keeping Mojtaba in power.',weaponsDepletion:'The $200B supplemental request is the tell. When a military asks for that much 20 days in, the stockpiles were not where they said.',nuclearSignalling:'When Modi abandoned No First Use doctrine he was not announcing strategy. He was sending a message. The performance IS the signal. LoC violations between nuclear states moves this to 60.',cyberIntensity:'Attacks on water plants and medical devices say: we can reach inside your country without a missile.',proxyActivation:'Wanting escalation without owning accountability. One of the most dangerous psychological states in conflict.',trumpDomesticPressure:'A narcissistic leader evaluates a war by whether it makes him look strong. No defined exit condition means no natural stopping point.',netanyahuLegalJeopardy:'Three corruption trials suspended under wartime emergency. The war IS his legal situation.',pakistanEconomicStress:'Fighting three simultaneous conflicts at IMF emergency threshold. Emboldened military that cannot afford to be seen losing.',iranRegimeCohesion:'Mojtaba lacks clerical credentials. IRGC-dependent. If the IRGC fractures, decisions become unpredictable.',congressConstraint:'Currently 20/100. War Powers failed 47-53. Higher = safer.',diplomaticChannels:'The Oman breakthrough of Feb 27 was destroyed by strikes the next day. Currently 22/100. Higher = safer.',armsControlArchitecture:'New START expired Feb 2026. When frameworks collapse you lose the shared assumption that rules exist. Currently 15/100.',narcissismCoefficient:'Peer-reviewed: narcissistic leaders extend wars past rational endpoints. Currently 78/100 aggregate across 11 leaders.',groupthinkRisk:'Kennedy had advisers willing to push back. Witkoff is the lead Iran negotiator. The gap between those two sentences is what this variable measures.'};
+  var labels={oilPrice:'Oil Price Stress',straitControl:'Iran Strait Control',weaponsDepletion:'US Weapons Depletion',nuclearSignalling:'Nuclear Signalling',cyberIntensity:'Cyber Intensity',proxyActivation:'Proxy Activation',trumpDomesticPressure:'Trump Domestic Pressure',netanyahuLegalJeopardy:'Netanyahu Legal Risk',pakistanEconomicStress:'Pakistan Economic Stress',iranRegimeCohesion:'Iran Regime Cohesion',congressConstraint:'Congressional Constraint',diplomaticChannels:'Diplomatic Channels',armsControlArchitecture:'Arms Control Architecture',narcissismCoefficient:'Narcissism Coefficient',groupthinkRisk:'Groupthink Risk'};
+  document.getElementById('mKicker').textContent='Variable Detail';
+  document.getElementById('mTitle').textContent=labels[key]||key;
+  document.getElementById('mBody').innerHTML='<div class="msec"><div class="msl">Why This Variable Matters</div><div class="mtxt"><p>'+(why[key]||'')+'</p></div></div><div class="msec"><div class="msl">Current Value</div><div class="mtxt"><p style="font-family:var(--fd);font-size:28px;color:var(--g3);font-weight:900">'+V[key]+'/100</p></div></div>';
+  document.getElementById('panelModal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(){document.getElementById('panelModal').classList.remove('open');document.body.style.overflow='';}
+function closeModalOvl(e){if(e.target===document.getElementById('panelModal'))closeModal();}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal();});
+
+// ── RIGHT PANEL DRAWER ──
+var drawerOpen=false;
+function toggleDrawer(){drawerOpen=!drawerOpen;var d=document.getElementById('rpdrawer');if(d)d.classList.toggle('open',drawerOpen);}
+function closeDrawer(){drawerOpen=false;var d=document.getElementById('rpdrawer');if(d)d.classList.remove('open');}
+
+// ── INIT ──
+window.addEventListener('DOMContentLoaded',function(){
+  loadLeaders(function(){loadWatchState(function(){updateWatchBadge();});});
+  showPage('home');
+});
+</script>
+</body>
+</html>

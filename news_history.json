@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-03T21:07:04.183Z",
+  "updated": "2026-04-03T21:51:21.343Z",
   "retention_days": 30,
   "items": [
     {
@@ -1704,41 +1704,6 @@
       "run_id": "2026-04-03T21:07"
     },
     {
-      "headline": "Pakistan Army Deploys 'Ghatak' Units Along India Border Amid Iran Mediation Role",
-      "summary": "Despite Pakistan's diplomatic mediation role, General Asim Munir has deployed specialized 'killer' units along the Jammu-Rajouri border. Intelligence reports indicate Pakistani terrorist groups are planning Border Action Team attacks targeting Indian Army personnel, with three separate groups active in the LoC sector.",
-      "source": "India.com",
-      "url": null,
-      "bloc": "regional",
-      "date": "2026-01-22",
-      "datetime": "2026-01-22T14:00:00Z",
-      "leaders": [
-        "General Asim Munir"
-      ],
-      "watch_terms": [
-        "Pakistan military",
-        "LoC violations",
-        "Pakistan nuclear"
-      ],
-      "dimensions": [
-        "impulsivity",
-        "survival"
-      ],
-      "variable_key": "pakistan_ghatak_deployment",
-      "event_type": "infrastructure_attack",
-      "escalation": 4,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "General Asim Munir",
-        "dimension": "impulsivity",
-        "proposed_delta": 1,
-        "rationale": "Deploying attack units while serving as peace mediator shows contradictory military posturing",
-        "confidence": "medium"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-03T21:07:04.183Z",
-      "run_id": "2026-04-03T21:07"
-    },
-    {
       "headline": "Senate Rejects War Powers Resolution to Constrain Trump on Iran by 53-47 Vote",
       "summary": "The Senate rejected a war powers resolution seeking to force President Trump to get congressional consent for military actions against Iran. The vote reflects Congress becoming more of a bystander than decider on US military operations, as Trump reportedly prepares to request $50 billion in supplemental funding.",
       "source": "Constitution Center",
@@ -1801,40 +1766,6 @@
         "dimension": "survival",
         "proposed_delta": 1,
         "rationale": "Prioritizing military spending despite economic challenges shows regime security focus",
-        "confidence": "high"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-03T21:07:04.183Z",
-      "run_id": "2026-04-03T21:07"
-    },
-    {
-      "headline": "Kim Jong-un Orders Massive Missile Production Increase for 2026 Operations",
-      "summary": "North Korean dictator Kim Jong-un ordered factories to significantly increase missile and munitions production in 2026 to meet growing demand. During visits to munitions plants, Kim instructed production sites to satisfy military requirements and ordered construction of new ammunition factories, calling the sector 'critical for military deterrence.'",
-      "source": "Euronews",
-      "url": null,
-      "bloc": "western",
-      "date": "2025-12-26",
-      "datetime": "2025-12-26T11:00:00Z",
-      "leaders": [
-        "Kim Jong-un"
-      ],
-      "watch_terms": [
-        "DPRK missile",
-        "North Korea nuclear"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "dprk_missile_production_2026",
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Kim Jong-un",
-        "dimension": "survival",
-        "proposed_delta": 1,
-        "rationale": "Massive military production increase demonstrates focus on regime security through deterrence",
         "confidence": "high"
       },
       "_from": "claude",
