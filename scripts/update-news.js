@@ -93,15 +93,7 @@ const NEWS_QUERIES = [
   { q: 'arms control New START nuclear treaty Russia US',      variable: 'armsControlArchitecture', leaders: ['Vladimir Putin','Donald J. Trump'],                     dims: ['accountability','values'] },
   { q: 'general commander killed airstrike assassination',     event: 'personnel_killed',         leaders: [], dims: ['survival','impulsivity','narcissism'] },
   { q: 'oil refinery port infrastructure attack strike',       event: 'infrastructure_attack',    leaders: [], dims: ['survival','impulsivity','accountability'] },
-  { q: 'airstrike missile drone naval attack Middle East',     event: 'regional_strike',          leaders: [], dims: ['impulsivity','survival'] },
-  // Breaking news specific queries
-  { q: 'US fighter jet aircraft shot down downed Iran',        event: 'regional_strike',          leaders: ['Donald J. Trump','Mojtaba Khamenei'], dims: ['survival','impulsivity','narcissism'] },
-  { q: 'bridge destroyed airstrike Tehran Karaj Iran',         event: 'infrastructure_attack',    leaders: ['Donald J. Trump','Benjamin Netanyahu','Mojtaba Khamenei'], dims: ['survival','impulsivity','accountability'] },
-  { q: 'US general admiral fired Pentagon Hegseth wartime',    event: 'leader_statement',         leaders: ['Donald J. Trump'], dims: ['accountability','narcissism','impulsivity'] },
-  { q: 'Iran missiles Gulf Kuwait UAE Saudi Arabia refinery',  event: 'regional_strike',          leaders: ['Mojtaba Khamenei','Mohammed bin Salman'], dims: ['survival','impulsivity'] },
-  { q: 'Trump Iran war speech address nation threat',          event: 'leader_statement',         leaders: ['Donald J. Trump'], dims: ['narcissism','impulsivity','accountability'] },
-  { q: 'Israel Iran airstrike strike overnight latest',        event: 'regional_strike',          leaders: ['Benjamin Netanyahu','Mojtaba Khamenei'], dims: ['survival','impulsivity'] },
-  { q: 'Hegseth fired military leader Pentagon Iran war',      event: 'personnel_killed',         leaders: ['Donald J. Trump'], dims: ['accountability','narcissism'] }
+  { q: 'airstrike missile drone naval attack Middle East',     event: 'regional_strike',          leaders: [], dims: ['impulsivity','survival'] }
 ];
 
 function classifyBloc(name) {
@@ -262,7 +254,7 @@ function appendToHistory(newItems) {
   const toAdd = newItems
     .filter(i => isEnglishHeadline(i.headline) && isQualitySource(i.source))
     .filter(i => !existingKeys.has((i.headline||'').toLowerCase().slice(0,80)))
-    .map(i => ({ ...i, date: sanitiseDate(i.date), datetime: i.datetime||new Date().toISOString(), first_seen: new Date().toISOString(), run_id: runId }));
+    .map(i => ({ ...i, date: sanitiseDate(i.date), datetime: i.datetime||new Date().toISOString(), first_seen: new Date().toISOString(), run_id: runId, escalation: Math.max(1,Math.min(5,i.escalation||2)) }));
 
   // Trim items older than retention window
   const retained = history.items.filter(i => (i.date || '') >= cutoff);
@@ -462,7 +454,7 @@ function deduplicate(items) {
   return items
     .filter(i => isEnglishHeadline(i.headline))
     .filter(i => isQualitySource(i.source))
-    .map(i => ({...i, date: sanitiseDate(i.date), datetime: i.datetime||new Date().toISOString()}))
+    .map(i => ({...i, date: sanitiseDate(i.date), datetime: i.datetime||new Date().toISOString(), escalation: Math.max(1,Math.min(5,i.escalation||2))}))
     .filter(i => {
       const k = (i.headline||'').toLowerCase().slice(0,60);
       if (seen.has(k)) return false;
@@ -681,7 +673,10 @@ async function main() {
   const history = appendToHistory(allItems);
   console.log();
 
-  // 3. Cumulative analysis across full history
+  // 3. Cumulative analysis — wait 65s to clear the 30k token/min rate limit window
+  // (Claude gap-fill uses ~20k tokens; analysis needs another ~25k)
+  console.log('Waiting 65s before analysis to clear rate limit window...');
+  await sleep(65000);
   console.log('Running cumulative analysis...');
   const analysis = await runCumulativeAnalysis(leaders, history);
   console.log();
