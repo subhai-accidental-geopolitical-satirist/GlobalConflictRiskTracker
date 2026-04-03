@@ -1636,8 +1636,11 @@ function closeDrawer(){drawerOpen=false;var d=document.getElementById('rpdrawer'
 
 // ── INIT ──
 window.addEventListener('DOMContentLoaded',function(){
-  loadLeaders(function(){loadWatchState(function(){updateWatchBadge();});});
+  loadLeaders(function(){loadWatchState(function(){updateWatchBadge();});updateLandingStats();});
   showPage('home');
+  // Fetch oil + news immediately so landing page stats are live
+  if(_lastOilPrice)updateOilDisplay(_lastOilPrice);
+  fetchNews();fetchVariables();
 });
 </script>
 </body>
