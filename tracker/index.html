@@ -635,7 +635,7 @@ function mnav(id){closeMenu();showPage(id);}
     <div class="rpd-title"><span>Live Metrics</span><button class="rpd-close" onclick="closeDrawer()">&#10005;</button></div>
     <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Doomsday Clock</div><div class="rpd-val" style="color:var(--mu2)">89s</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:98%;background:var(--mu2)"></div></div><div class="rpd-desc">Set Jan 2026. Closest to midnight in history.</div></div>
     <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Escalation Risk</div><div class="rpd-val r" id="drawerEsc" style="color:var(--mu2)">26%</div></div><div class="rpd-bar"><div class="rpd-fill" id="drawerEscBar" style="width:26%;background:var(--mu2)"></div></div><div class="rpd-desc">Composite probability weighted across 15 variables and 11 leader profiles.</div></div>
-    <div class="rpd-item" id="drawerOilWrap" style="display:none"><div class="rpd-top"><div class="rpd-name">Brent Crude</div><div class="rpd-val" id="drawerOil" style="color:var(--au2)"></div></div><div class="rpd-bar"><div class="rpd-fill" id="drawerOilBar" style="width:0%;background:var(--au)"></div></div><div class="rpd-desc">Live spot price. Pre-war baseline $67/bbl.</div></div>
+    <div class="rpd-item" id="drawerOilWrap"><div class="rpd-top"><div class="rpd-name">Brent Crude</div><div class="rpd-val" id="drawerOil" style="color:var(--au2)"></div></div><div class="rpd-bar"><div class="rpd-fill" id="drawerOilBar" style="width:0%;background:var(--au)"></div></div><div class="rpd-desc">Live spot price. Pre-war baseline $67/bbl.</div></div>
     <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Narcissism Index</div><div class="rpd-val wh" id="drawerNarc">78</div></div><div class="rpd-bar"><div class="rpd-fill" id="drawerNarcBar" style="width:78%;background:var(--mu)"></div></div><div class="rpd-desc">Aggregate across 11 leaders.</div></div>
     <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Negotiation Chance</div><div class="rpd-val" id="drawerNeg" style="color:var(--g3)">3%</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:3%;background:var(--g3)"></div></div><div class="rpd-desc">Oman breakthrough Feb 27 destroyed by strikes the next day.</div></div>
     <div class="rpd-item"><div class="rpd-top"><div class="rpd-name">Leaders Assessed</div><div class="rpd-val au">11</div></div><div class="rpd-bar"><div class="rpd-fill" style="width:100%;background:var(--au)"></div></div><div class="rpd-desc">All 11: high survival incentive, low accountability exposure.</div></div>
@@ -647,7 +647,7 @@ function mnav(id){closeMenu();showPage(id);}
   <div class="rp-dot"></div>
   <div class="rp-item"><div class="rp-val r">89s</div><div class="rp-lbl">To<br>Midnight</div></div>
   <div class="rp-item"><div class="rp-val r" id="rpEsc">26%</div><div class="rp-lbl">Esc<br>Risk</div></div>
-  <div class="rp-item" id="rpOilWrap" style="display:none"><div class="rp-val au" id="rpOil"></div><div class="rp-lbl">Brent<br>Oil</div></div>
+  <div class="rp-item" id="rpOilWrap"><div class="rp-val au" id="rpOil"></div><div class="rp-lbl">Brent<br>Oil</div></div>
   <div class="rp-item"><div class="rp-val wh" id="rpNarc">78</div><div class="rp-lbl">Narc<br>Index</div></div>
   <div class="rp-item"><div class="rp-val" id="rpNeg">3%</div><div class="rp-lbl">Neg<br>Chance</div></div>
   <div class="rp-item"><div class="rp-val au">11</div><div class="rp-lbl">Leaders<br>Assessed</div></div>
@@ -1341,9 +1341,6 @@ function updateOilDisplay(price){
   _lastOilPrice=price;
   try{localStorage.setItem('agra_oilPrice',String(price));}catch(e){}
   ['rpOil','drawerOil'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent='$'+price;});
-  // Show the hidden wrappers now that we have real data
-  var rpw=document.getElementById('rpOilWrap');if(rpw)rpw.style.display='';
-  var dw=document.getElementById('drawerOilWrap');if(dw)dw.style.display='';
   var ov=document.getElementById('oilV');if(ov)ov.textContent='$'+price+'.00';
   var os=document.getElementById('oilSrc');if(os)os.textContent='LIVE';
   var strip=document.getElementById('oilS');if(strip)strip.style.display='flex';
