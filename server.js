@@ -321,13 +321,17 @@ app.get('/api/live', async (req, res) => {
     // ── GDELT INTELLIGENCE FEED ──
     let alerts = [], conflicts = [];
     try {
-      const gdelt = await httpsGet('https://api.gdeltproject.org/api/v2/doc/doc?query=Iran+war+OR+Strait+Hormuz+OR+Pakistan+India+LoC+OR+Ukraine+ceasefire&mode=artlist&maxrecords=12&format=json&timespan=6h&sourcelang=english');
+      const gdelt = await httpsGet('https://api.gdeltproject.org/api/v2/doc/doc?query=Iran+war+OR+Strait+Hormuz+OR+Pakistan+India+LoC+OR+Ukraine+ceasefire&mode=artlist&maxrecords=20&format=json&timespan=6h&sourcelang=english');
       if (gdelt.articles) {
-        alerts = gdelt.articles.slice(0, 8).map(a => ({
-          type:  parseFloat(a.tone) < -5 ? 'critical' : parseFloat(a.tone) < -2 ? 'warning' : 'info',
-          title: a.title || '',
-          time:  safeISODate(a.seendate)  // ← fixed: always valid ISO string
-        }));
+        const nonLatin = /[\u0600-\u06FF\u0900-\u097F\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\uAC00-\uD7AF\u0400-\u04FF\u0A80-\u0AFF]/;
+        alerts = gdelt.articles
+          .filter(a => a.title && !nonLatin.test(a.title))
+          .slice(0, 8)
+          .map(a => ({
+            type:  parseFloat(a.tone) < -5 ? 'critical' : parseFloat(a.tone) < -2 ? 'warning' : 'info',
+            title: a.title || '',
+            time:  safeISODate(a.seendate)
+          }));
       }
     } catch(e) { console.warn('GDELT alerts error:', e.message); }
 
@@ -380,4 +384,3 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
   scheduleDailyDigest();
 });
-
