@@ -1326,7 +1326,11 @@ function markReviewed(type,key){
 }
 
 // ── DASHBOARD ──
-var V={oilPrice:47,straitControl:70,weaponsDepletion:58,nuclearSignalling:60,cyberIntensity:50,proxyActivation:62,trumpDomesticPressure:65,netanyahuLegalJeopardy:82,pakistanEconomicStress:68,iranRegimeCohesion:40,congressConstraint:20,diplomaticChannels:22,armsControlArchitecture:15,narcissismCoefficient:78,groupthinkRisk:68};
+var V_DEFAULTS={oilPrice:0,straitControl:0,weaponsDepletion:0,nuclearSignalling:0,cyberIntensity:0,proxyActivation:0,trumpDomesticPressure:0,netanyahuLegalJeopardy:0,pakistanEconomicStress:0,iranRegimeCohesion:0,congressConstraint:0,diplomaticChannels:0,armsControlArchitecture:0,narcissismCoefficient:0,groupthinkRisk:0};
+var V=(function(){try{var s=localStorage.getItem('agra_vars');if(s){var p=JSON.parse(s);var v={};Object.keys(V_DEFAULTS).forEach(function(k){v[k]=p[k]!=null?p[k]:V_DEFAULTS[k];});return v;}}catch(e){}return JSON.parse(JSON.stringify(V_DEFAULTS));})();
+function saveVars(){try{localStorage.setItem('agra_vars',JSON.stringify(V));}catch(e){}}
+var _lastOilPrice=(function(){try{return localStorage.getItem('agra_oilPrice')||null;}catch(e){return null;}})();
+var _lastFeed=(function(){try{var s=localStorage.getItem('agra_feed');return s?JSON.parse(s):null;}catch(e){return null;}})();
 var VDEFS=[
   {k:'oilPrice',l:'Oil Price Stress',w:12,g:'Energy & Military'},
   {k:'straitControl',l:'Iran Strait Control',w:15,g:'Energy & Military'},
@@ -1438,6 +1442,7 @@ function fetchLive(){
     .then(function(r){return r.json();})
     .then(function(d){
       if(sp)sp.className='spill live';if(st)st.textContent='LIVE';
+      try{localStorage.setItem('agra_live',JSON.stringify(d));}catch(e){}
       if(d.oil&&d.oil.price&&d.oil.source!=='Estimated'){
         var ov=document.getElementById('oilV'),oc=document.getElementById('oilChg'),os=document.getElementById('oilSrc'),strip=document.getElementById('oilS');
         if(ov)ov.textContent='$'+d.oil.price.toFixed(2);
@@ -1448,26 +1453,36 @@ function fetchLive(){
       }
       if(d.alerts&&d.alerts.length){var fb=document.getElementById('feedBox');if(fb)fb.innerHTML='';renderFeed(d.alerts.map(function(a){return{type:a.type,txt:a.title,time:a.time};}));}
       if(d.computedVars)Object.keys(d.computedVars).forEach(function(k){if(V[k]!==undefined)V[k]=d.computedVars[k];});
+      saveVars();
       renderVars();updateAll();fetchNews();fetchVariables();
       var foot=document.getElementById('dFoot');
       if(foot)foot.textContent='Last updated: '+new Date().toLocaleTimeString()+' SGT · GDELT + CommodityPriceAPI';
     })
     .catch(function(){
-      if(sp)sp.className='spill';if(st)st.textContent='API ERROR · FALLBACK';
-      renderFeed(null);
+      if(sp)sp.className='spill';if(st)st.textContent='OFFLINE · LAST KNOWN';
+      if(_lastFeed)renderFeed(_lastFeed);else renderFeed(null);
+      if(_lastOilPrice){
+        ['rpOil','drawerOil'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent='$'+_lastOilPrice;});
+        var ov=document.getElementById('oilV');if(ov)ov.textContent='$'+_lastOilPrice;
+      }
+      fetchNews();fetchVariables();
     });
 }
 function fetchNews(){
   fetch(API+'/api/news')
     .then(function(r){return r.json();})
     .then(function(d){
+      try{localStorage.setItem('agra_news',JSON.stringify(d));}catch(e){}
       // Wire live oil price and stress from news.json → overwrites Railway fallback
       if(d.live_variables&&d.live_variables.oilStress!=null){
         V.oilPrice=d.live_variables.oilStress;
+        saveVars();
         renderVars();updateAll();
       }
       if(d.live_variables&&d.live_variables.oilPrice){
         var op=d.live_variables.oilPrice;
+        _lastOilPrice=op;
+        try{localStorage.setItem('agra_oilPrice',String(op));}catch(e){}
         ['rpOil','drawerOil'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent='$'+op;});
         var ov=document.getElementById('oilV');if(ov)ov.textContent='$'+op+'.00';
         var os=document.getElementById('oilSrc');if(os)os.textContent='LIVE';
@@ -1477,41 +1492,57 @@ function fetchNews(){
       if(d.items&&d.items.length){
         var fb=document.getElementById('feedBox');
         if(fb)fb.innerHTML='';
-        // Show high-escalation items first, then the rest
-        var sorted=d.items.slice().sort(function(a,b){return (b.escalation||0)-(a.escalation||0);});
-        renderFeed(sorted.slice(0,12).map(function(item){
+        // Show 6 most recent items sorted by date descending
+        var sorted=d.items.slice().sort(function(a,b){return new Date(b.datetime||b.date||0)-new Date(a.datetime||a.date||0);});
+        var feedItems=sorted.slice(0,6).map(function(item){
           return{
             type: item.escalation>=4?'critical':item.escalation>=3?'warning':'info',
             txt:  item.headline,
             time: item.datetime||item.date
           };
-        }));
+        });
+        _lastFeed=feedItems;
+        try{localStorage.setItem('agra_feed',JSON.stringify(feedItems));}catch(e){}
+        renderFeed(feedItems);
         // Update footer
         var foot=document.getElementById('dFoot');
         if(foot&&d.ts)foot.textContent='Intel feed updated: '+new Date(d.ts).toLocaleString('en-SG',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+' SGT · NewsAPI + Claude';
       }
     })
-    .catch(function(){/* news.json not yet available — GDELT feed remains */});
+    .catch(function(){
+      // Restore last known feed from localStorage
+      if(_lastFeed)renderFeed(_lastFeed);
+    });
 }
 function fetchVariables(){
   fetch(API+'/api/variables')
     .then(function(r){return r.json();})
     .then(function(d){
+      try{localStorage.setItem('agra_variables',JSON.stringify(d));}catch(e){}
       if(d.variables){
         Object.keys(d.variables).forEach(function(k){
           if(V[k]!==undefined) V[k]=d.variables[k];
         });
+        saveVars();
         renderVars();updateAll();
         var foot=document.getElementById('dFoot');
         if(foot)foot.textContent='Variables updated: '+new Date(d.ts).toLocaleString('en-SG',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+' SGT · news_history.json';
       }
     })
-    .catch(function(){/* use existing values if endpoint unavailable */});
+    .catch(function(){/* localStorage values already loaded — dashboard shows last known */});
 }
 var dashInited=false;
 function initDash(){
   if(dashInited)return;dashInited=true;
-  var p=calc();renderOutcomes(p);renderVars();renderTheatres(null);renderFeed(null);renderLDash();
+  var p=calc();renderOutcomes(p);renderVars();renderTheatres(null);
+  // Show cached feed + oil immediately, then fetch fresh data
+  if(_lastFeed)renderFeed(_lastFeed);else renderFeed(null);
+  if(_lastOilPrice){
+    ['rpOil','drawerOil'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent='$'+_lastOilPrice;});
+    var ov=document.getElementById('oilV');if(ov)ov.textContent='$'+_lastOilPrice;
+    var strip=document.getElementById('oilS');if(strip)strip.style.display='flex';
+  }
+  renderLDash();
   fetchLive();fetchNews();fetchVariables();setInterval(tick,1000);
 }
 
