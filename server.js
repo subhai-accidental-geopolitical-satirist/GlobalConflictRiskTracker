@@ -306,8 +306,8 @@ app.get('/api/live', async (req, res) => {
 
     // ── LAST RESORT: use a reasonable war-context estimate ──
     if (!oil) {
-      oil = { price: 97 + (Math.random() - 0.5) * 4, source: 'Estimated', change_pct: '' };
-      console.warn('Using estimated oil price — all sources unavailable');
+      oil = { price: 0, source: 'Unavailable', change_pct: '' };
+      console.warn('Oil price unavailable — all sources failed');
     }
 
     // ── GDELT INTELLIGENCE FEED ──
@@ -402,7 +402,10 @@ const VAR_CONFIG = {
   //            'down' = high news intensity pushes value down (bad = lower)
   oilPrice:              { baseline: 47,  direction: 'up',   floor: 0,   ceiling: 100, sensitivity: 1.2 },
   straitControl:         { baseline: 70,  direction: 'up',   floor: 30,  ceiling: 100, sensitivity: 1.5 },
+  weaponsDepletion:      { baseline: 58,  direction: 'up',   floor: 20,  ceiling: 100, sensitivity: 1.3 },
   nuclearSignalling:     { baseline: 60,  direction: 'up',   floor: 20,  ceiling: 100, sensitivity: 2.0 },
+  cyberIntensity:        { baseline: 50,  direction: 'up',   floor: 15,  ceiling: 100, sensitivity: 1.0 },
+  proxyActivation:       { baseline: 62,  direction: 'up',   floor: 20,  ceiling: 100, sensitivity: 1.2 },
   congressConstraint:    { baseline: 20,  direction: 'down', floor: 5,   ceiling: 50,  sensitivity: 1.0 },
   diplomaticChannels:    { baseline: 22,  direction: 'down', floor: 5,   ceiling: 60,  sensitivity: 1.2 },
   armsControlArchitecture:{ baseline: 15, direction: 'down', floor: 5,   ceiling: 40,  sensitivity: 0.8 },
@@ -415,7 +418,10 @@ const VAR_CONFIG = {
 // Also map leader watch terms to dimension signals
 const LEADER_VAR_MAP = {
   'straitControl':          ['Mojtaba Khamenei', 'Mohammed bin Salman', 'Xi Jinping'],
+  'weaponsDepletion':       ['Donald J. Trump'],
   'nuclearSignalling':      ['Kim Jong-un', 'Vladimir Putin', 'General Asim Munir', 'Narendra Modi'],
+  'cyberIntensity':         ['Vladimir Putin', 'Kim Jong-un', 'Xi Jinping'],
+  'proxyActivation':        ['Mojtaba Khamenei', 'Mohammed bin Salman', 'Recep Tayyip Erdogan'],
   'congressConstraint':     ['Donald J. Trump'],
   'diplomaticChannels':     ['Donald J. Trump', 'Mojtaba Khamenei', 'Recep Tayyip Erdogan'],
   'netanyahuLegalJeopardy': ['Benjamin Netanyahu'],
