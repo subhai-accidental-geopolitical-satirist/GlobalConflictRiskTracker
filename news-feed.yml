@@ -29,16 +29,17 @@ jobs:
           NOTIFY_EMAIL:       ${{ secrets.NOTIFY_EMAIL }}
         run: node scripts/update-news.js
 
-      - name: Commit news.json if changed
+      - name: Commit updated files
         run: |
           git config user.name  "AGRA News Bot"
           git config user.email "agra-bot@accidental-geopolitical-tracker"
-          git add news.json
+          git add news.json news_history.json
           if git diff --cached --quiet; then
             echo "No changes — skipping commit"
           else
             ITEMS=$(node -e "const n=require('./news.json'); console.log(n.items.length)")
+            HISTORY=$(node -e "try{const h=require('./news_history.json');console.log(h.items.length)}catch(e){console.log('?')}")
             OIL=$(node -e "const n=require('./news.json'); const v=n.live_variables; console.log(v.oilPrice ? '\$'+v.oilPrice+' s:'+v.oilStress : 'N/A')")
-            git commit -m "News feed x${ITEMS} oil ${OIL} $(date -u +%Y-%m-%dT%H:%M)Z"
+            git commit -m "News feed x${ITEMS} history x${HISTORY} oil ${OIL} $(date -u +%Y-%m-%dT%H:%M)Z"
             git push
           fi
