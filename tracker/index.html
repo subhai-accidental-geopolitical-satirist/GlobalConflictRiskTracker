@@ -897,7 +897,9 @@ function calcBellicosity(l){
 function loadLeaders(cb){
   if(LEADERS&&LEADERS.length){if(cb)cb();return;}
   // Try localStorage first for instant render
-  try{var cached=localStorage.getItem('agra_leaders');if(cached){var cd=JSON.parse(cached);var arr=Array.isArray(cd.leaders)?cd.leaders:(cd.leaders&&cd.leaders.leaders)||[];if(arr.length&&arr[0].b!=null){LEADERS=arr;console.log('Leaders from localStorage:',LEADERS.length);}else{localStorage.removeItem('agra_leaders');}}}catch(e){localStorage.removeItem('agra_leaders');}
+  // Clear old cache from before accountability scale flip
+  try{localStorage.removeItem('agra_leaders');}catch(e){}
+  try{var cached=localStorage.getItem('agra_leaders_v2');if(cached){var cd=JSON.parse(cached);var arr=Array.isArray(cd.leaders)?cd.leaders:(cd.leaders&&cd.leaders.leaders)||[];if(arr.length&&arr[0].dims){LEADERS=arr;console.log('Leaders from localStorage:',LEADERS.length);}else{localStorage.removeItem('agra_leaders_v2');}}}catch(e){localStorage.removeItem('agra_leaders_v2');}
   fetch(API+'/api/leaders')
     .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
     .then(function(d){
@@ -905,7 +907,7 @@ function loadLeaders(cb){
       var arr=Array.isArray(d.leaders)?d.leaders:(d.leaders&&d.leaders.leaders)||[];
       if(arr.length){
         LEADERS=arr;
-        try{localStorage.setItem('agra_leaders',JSON.stringify({leaders:arr}));}catch(e){}
+        try{localStorage.setItem('agra_leaders_v2',JSON.stringify({leaders:arr}));}catch(e){}
         console.log('Leaders loaded from API:',LEADERS.length);
       } else{console.warn('API returned no leaders');}
       // Fallback if still empty
