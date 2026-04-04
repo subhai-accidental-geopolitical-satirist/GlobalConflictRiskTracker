@@ -891,7 +891,7 @@ var WATCH_STATE={leaders:{},vars:{}};
 function loadLeaders(cb){
   if(LEADERS&&LEADERS.length){if(cb)cb();return;}
   // Try localStorage first for instant render
-  try{var cached=localStorage.getItem('agra_leaders');if(cached){var cd=JSON.parse(cached);var arr=Array.isArray(cd.leaders)?cd.leaders:(cd.leaders&&cd.leaders.leaders)||[];if(arr.length){LEADERS=arr;console.log('Leaders from localStorage:',LEADERS.length);}}}catch(e){}
+  try{var cached=localStorage.getItem('agra_leaders');if(cached){var cd=JSON.parse(cached);var arr=Array.isArray(cd.leaders)?cd.leaders:(cd.leaders&&cd.leaders.leaders)||[];if(arr.length&&arr[0].b!=null){LEADERS=arr;console.log('Leaders from localStorage:',LEADERS.length);}else{localStorage.removeItem('agra_leaders');}}}catch(e){localStorage.removeItem('agra_leaders');}
   fetch(API+'/api/leaders')
     .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
     .then(function(d){
