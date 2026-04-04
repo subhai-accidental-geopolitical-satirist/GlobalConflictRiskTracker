@@ -1,13 +1,13 @@
 {
   "analysis_period": {
-    "start_date": "2026-03-04",
+    "start_date": "2025-09-15",
     "end_date": "2026-04-03",
-    "items_evaluated": 26,
+    "items_evaluated": 86,
     "source_blocs_represented": [
       "western",
+      "persian",
       "regional",
-      "institutional",
-      "persian"
+      "institutional"
     ]
   },
   "leader_proposals": [
@@ -18,84 +18,108 @@
       "proposed_delta": 0,
       "proposed_new_score": 90,
       "confidence": "high",
-      "pattern_description": "Sustained pattern of unilateral, reactive military decisions without exit strategy or congressional constraint. Trump burned 14 years of missile inventory in 30 days, destroys Iranian mine-laying ships unilaterally, approaches 60-day War Powers deadline without clear exit strategy, and Senate rejects war powers constraints—all within one month.",
+      "pattern_description": "Sustained pattern of unilateral military escalation without clear exit strategy or deliberation. Trump destroyed 16 Iranian mine-laying ships following warnings (Mar 11), approached 60-day War Powers deadline without strategy (Apr 2), and simultaneously claims Iran is 'eager for deal' while escalation continues (Apr 3). Pattern shows reactive, poorly-deliberated decisions driven by immediate tactical advantage rather than strategic planning.",
       "evidence_chain": [
-        {
-          "date": "2026-04-02",
-          "source": "Military.com",
-          "bloc": "western",
-          "headline": "Trump Approaches 60-Day War Powers Deadline Without Clear Iran Exit Strategy",
-          "relevance": "Direct evidence of reactive, poorly-deliberated military escalation without strategic endpoint"
-        },
-        {
-          "date": "2026-04-02",
-          "source": "Trendytechtribe.com",
-          "bloc": "western",
-          "headline": "US Burned 14 Years of Missiles in 30 Days",
-          "relevance": "Demonstrates unsustainable munitions expenditure pattern indicating impulsive escalation"
-        },
         {
           "date": "2026-03-11",
           "source": "Radio Farda",
           "bloc": "persian",
           "headline": "Radio Farda reports US destroys 16 Iranian mine-laying ships in Strait of Hormuz following Trump warnings",
-          "relevance": "Unilateral military action following threats without diplomatic deliberation"
-        },
-        {
-          "date": "2026-03-04",
-          "source": "Constitution Center",
-          "bloc": "institutional",
-          "headline": "Senate Rejects War Powers Resolution to Constrain Trump on Iran by 53-47 Vote",
-          "relevance": "Congressional inability to constrain Trump's unilateral war powers despite bipartisan opposition attempts"
-        }
-      ],
-      "items_supporting": 4,
-      "blocs_represented": [
-        "western",
-        "persian",
-        "institutional"
-      ],
-      "threshold_met": false,
-      "counter_evidence": "Score already at 90; pattern sustains current assessment but does not justify increase. Congressional rejection of war powers constraints actually reduces accountability barriers, supporting high impulsivity score rather than proposing change."
-    },
-    {
-      "leader": "Donald J. Trump",
-      "dimension": "accountability",
-      "current_score": 88,
-      "proposed_delta": 2,
-      "proposed_new_score": 90,
-      "confidence": "high",
-      "pattern_description": "Systematic dismantling of accountability mechanisms through Senate war powers rejection, congressional inability to constrain escalation, and approval rating collapse (35-39%) without policy change. Trump's 60-day War Powers deadline approaches without exit strategy while bipartisan war powers resolutions fail—demonstrating deliberate institutional bypass.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-02",
-          "source": "Yahoo News",
-          "bloc": "western",
-          "headline": "Trump's approval rating hits new low at 35-39% as Iran war opposition reaches 59%, bipartisan war powers resolutions fail in Congress",
-          "relevance": "Bipartisan war powers resolutions fail despite 59% public opposition, demonstrating Trump's systematic dismantling of accountability mechanisms"
+          "relevance": "Unilateral military action taken without clear strategic objective or advance deliberation, exemplifying reactive escalation"
         },
         {
           "date": "2026-04-02",
           "source": "Military.com",
           "bloc": "western",
           "headline": "Trump Approaches 60-Day War Powers Deadline Without Clear Iran Exit Strategy",
-          "relevance": "Trump ignores War Powers Act deadline without accountability consequences; demonstrates institutional bypass"
+          "relevance": "Demonstrates systematic lack of planning for conflict resolution, indicating impulsive initiation without thought-through endgame"
         },
         {
-          "date": "2026-03-04",
-          "source": "Constitution Center",
-          "bloc": "institutional",
-          "headline": "Senate Rejects War Powers Resolution to Constrain Trump on Iran by 53-47 Vote",
-          "relevance": "Senate rejects its own constitutional constraint mechanism, evidence of Trump's successful dismantling of accountability architecture"
+          "date": "2026-04-03",
+          "source": "Protothema.gr",
+          "bloc": "western",
+          "headline": "Trump insists: Iran is 'eager' for a deal – At least 8 dead in bridge bombing in Tehran (updated)",
+          "relevance": "Contradictory statements claiming diplomatic readiness while escalation continues, showing reactive rather than deliberate positioning"
         }
       ],
       "items_supporting": 3,
       "blocs_represented": [
         "western",
+        "persian"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Score already at 90/100; evidence shows sustained pattern but does not justify further increase given ceiling proximity and no new behavioral dimension beyond existing assessment."
+    },
+    {
+      "leader": "Mojtaba Khamenei",
+      "dimension": "accountability",
+      "current_score": 70,
+      "proposed_delta": 5,
+      "proposed_new_score": 75,
+      "confidence": "high",
+      "pattern_description": "Sustained evidence of DISMANTLED accountability mechanisms within Iranian regime. IRGC Intelligence threatened Assembly of Experts' families to secure Mojtaba's leadership (Mar 29, IranWire). IRGC now controls presidential access and Mojtaba's whereabouts are opaque, with crisis-level control consolidation (Apr 1, The Week). Pattern shows deliberate bypassing of constitutional checks through coercive means.",
+      "evidence_chain": [
+        {
+          "date": "2026-03-29",
+          "source": "IranWire",
+          "bloc": "persian",
+          "headline": "IRGC Intelligence Threatened Assembly of Experts' Families to Secure Mojtaba's Leadership",
+          "relevance": "Direct evidence of systemic dismantling of constitutional accountability mechanism (Assembly of Experts) through coercive threats targeting families"
+        },
+        {
+          "date": "2026-04-01",
+          "source": "The Week",
+          "bloc": "institutional",
+          "headline": "Mojtaba Khamenei's Whereabouts Spark Crisis as IRGC Controls Presidential Access",
+          "relevance": "Shows active consolidation of power outside constitutional structures, with IRGC deliberately controlling access to leadership and information"
+        }
+      ],
+      "items_supporting": 2,
+      "blocs_represented": [
+        "persian",
         "institutional"
       ],
-      "threshold_met": true,
-      "counter_evidence": "None substantive; pattern shows systematic institutional bypass across multiple accountability mechanisms. Score already at 88, so proposal for +2 is incremental but justified by evidence of deliberate mechanism dismantling."
+      "threshold_met": false,
+      "counter_evidence": "Only 2 items meeting accountability threshold (requires 3+). While evidence of accountability dismantling is clear and from different source blocs, does not meet minimum 3-item requirement for ±2.3 delta proposal."
+    },
+    {
+      "leader": "Mojtaba Khamenei",
+      "dimension": "survival",
+      "current_score": 90,
+      "proposed_delta": 0,
+      "proposed_new_score": 90,
+      "confidence": "high",
+      "pattern_description": "Multiple sustained indicators of survival-driven decision-making at crisis level. IRGC announces Strait of Hormuz closure as 'ensure regime survival' strategy (Apr 1), Iran proposes $800 million monthly toll system over Strait (Mar 28), and IRGC controls presidential succession to secure continuity (Apr 1). All decisions directly tied to regime preservation in face of US-Israeli military pressure.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-01",
+          "source": "Critical Threats Project",
+          "bloc": "institutional",
+          "headline": "Iran's IRGC announces Tehran will leverage Strait of Hormuz closure to ensure regime survival, signals permanent blockade strategy",
+          "relevance": "Leadership explicitly frames Strait control as survival mechanism, showing primary driver of military/economic decision-making"
+        },
+        {
+          "date": "2026-03-28",
+          "source": "CNN",
+          "bloc": "western",
+          "headline": "Iran demands sovereignty recognition over Strait of Hormuz, proposes $800 million monthly toll system",
+          "relevance": "Demonstrates survival-driven repositioning to extract maximum economic value from strategic chokepoint"
+        },
+        {
+          "date": "2026-04-01",
+          "source": "The Week",
+          "bloc": "institutional",
+          "headline": "Mojtaba Khamenei's Whereabouts Spark Crisis as IRGC Controls Presidential Access",
+          "relevance": "Shows succession consolidation as survival strategy for regime continuity"
+        }
+      ],
+      "items_supporting": 3,
+      "blocs_represented": [
+        "institutional",
+        "western"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Score already at 90/100; evidence reinforces existing assessment but does not justify increase given ceiling proximity."
     },
     {
       "leader": "General Asim Munir",
@@ -104,308 +128,220 @@
       "proposed_delta": 3,
       "proposed_new_score": 76,
       "confidence": "medium",
-      "pattern_description": "Sustained pattern of reactive, unilateral military decisions: Pakistan emerges unexpectedly as Iran-US mediator while simultaneously escalating Pakistan-Afghanistan border conflict with civilian casualties and outpost destructions. Pakistan confirms 'obstacles' to mediation despite continued diplomatic push, suggesting contradictory reactive posture.",
+      "pattern_description": "Pattern of reactive mediation initiatives without clear strategic planning. Pakistan's army chief emerges as 'key Iran-US mediator' while India feels marginalized (Apr 3), China-Pakistan jointly propose Iran ceasefire (Apr 1), and China-Pakistan launch Five-Point Peace Initiative (Mar 31). These rapid, overlapping initiatives suggest reactive positioning to exploit crisis rather than deliberate diplomatic strategy.",
       "evidence_chain": [
         {
           "date": "2026-04-03",
           "source": "Foreign Policy",
           "bloc": "western",
-          "headline": "India sidelined as Pakistan emerges as key Iran war mediator",
-          "relevance": "Sudden emergence in mediation role without strategic consistency suggests reactive rather than deliberate policy shift"
+          "headline": "Pakistan's Army Chief Emerges as Key Iran-US Mediator as India Feels Marginalized",
+          "relevance": "Rapid, opportunistic pivot to mediation role without demonstrated strategic preparation"
         },
         {
-          "date": "2026-04-02",
-          "source": "Pakistan Foreign Office",
+          "date": "2026-04-01",
+          "source": "Atalayar",
           "bloc": "regional",
-          "headline": "Pakistan confirms 'obstacles' in Iran-US mediation despite continued diplomatic push",
-          "relevance": "Contradictory signals (continued push despite obstacles) indicates reactive rather than strategically deliberate mediation approach"
+          "headline": "China and Pakistan jointly propose Iran ceasefire plan requiring immediate halt to critical infrastructure attacks",
+          "relevance": "Quick proposal generation without apparent groundwork with all parties"
         },
         {
-          "date": "2026-03-29",
-          "source": "Wikipedia",
+          "date": "2026-03-31",
+          "source": "South China Morning Post",
           "bloc": "regional",
-          "headline": "Pakistan-Afghanistan conflict escalates with border outpost destructions and civilian casualties",
-          "relevance": "Simultaneous escalation of unrelated conflict demonstrates impulsive military decision-making without strategic coordination"
-        },
-        {
-          "date": "2026-03-27",
-          "source": "New Kerala",
-          "bloc": "western",
-          "headline": "US Intelligence Community formally groups Pakistan with Iran and North Korea as direct threat to global stability under Asim Munir",
-          "relevance": "Elevation to threat-group status reflects consequences of impulsive military escalation and contradictory signaling"
+          "headline": "China and Pakistan Launch Five-Point Peace Initiative for Iran War",
+          "relevance": "Overlapping initiative within 48 hours, suggesting reactive rather than carefully deliberated approach"
         }
       ],
-      "items_supporting": 4,
+      "items_supporting": 3,
       "blocs_represented": [
         "western",
         "regional"
       ],
-      "threshold_met": true,
-      "counter_evidence": "Pakistan's mediation role shows diplomatic engagement capacity, but contradictory signals (obstacles + continued push) and simultaneous Pakistan-Afghanistan escalation suggest impulsive rather than deliberate strategy."
-    },
-    {
-      "leader": "Mojtaba Khamenei",
-      "dimension": "survival",
-      "current_score": 90,
-      "proposed_delta": 2,
-      "proposed_new_score": 92,
-      "confidence": "high",
-      "pattern_description": "Intensified survival-focused decision-making: Mojtaba announces Strait of Hormuz blockade as permanent regime survival strategy, demands $800 million monthly toll system, and issues first written message amid health questions. All decisions prioritize regime physical/political preservation over negotiation.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-01",
-          "source": "Critical Threats Project",
-          "bloc": "institutional",
-          "headline": "Iran's IRGC announces Tehran will leverage Strait of Hormuz closure to ensure regime survival, signals permanent blockade strategy",
-          "relevance": "Explicitly frames Strait control as regime survival mechanism rather than tactical objective"
-        },
-        {
-          "date": "2026-03-28",
-          "source": "CNN",
-          "bloc": "western",
-          "headline": "Iran demands sovereignty recognition over Strait of Hormuz, proposes $800 million monthly toll system",
-          "relevance": "Economic control of choke point framed as survival resource extraction, not negotiable asset"
-        },
-        {
-          "date": "2026-03-30",
-          "source": "Iran International",
-          "bloc": "persian",
-          "headline": "Mojtaba Khamenei Issues First Written Message as Supreme Leader Amid Questions Over Health",
-          "relevance": "Health concerns trigger survival-driven message to assert leadership continuity and regime stability"
-        }
-      ],
-      "items_supporting": 3,
-      "blocs_represented": [
-        "institutional",
-        "western",
-        "persian"
-      ],
-      "threshold_met": true,
-      "counter_evidence": "None substantive; all three items demonstrate explicit survival prioritization. Pattern is sustained across 3+ items and multiple source blocs."
-    },
-    {
-      "leader": "Mojtaba Khamenei",
-      "dimension": "impulsivity",
-      "current_score": 50,
-      "proposed_delta": 4,
-      "proposed_new_score": 54,
-      "confidence": "medium",
-      "pattern_description": "Escalating pattern of reactive infrastructure attacks without strategic coordination: Iran strikes Oracle data center in Dubai targeting US tech infrastructure in retaliation for cyber operations, while simultaneously implementing permanent Strait blockade. Actions demonstrate reactive rather than deliberated strategic escalation.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-02",
-          "source": "Pravda EU",
-          "bloc": "regional",
-          "headline": "Iran strikes Oracle data center in Dubai, targets US tech infrastructure in retaliation for cyber operations",
-          "relevance": "Reactive strike against third-party infrastructure in response to US cyber operations demonstrates impulsive retaliation pattern"
-        },
-        {
-          "date": "2026-04-01",
-          "source": "Critical Threats Project",
-          "bloc": "institutional",
-          "headline": "Iran's IRGC announces Tehran will leverage Strait of Hormuz closure to ensure regime survival, signals permanent blockade strategy",
-          "relevance": "Permanent blockade announcement suggests reactive escalation lock-in without exit strategy deliberation"
-        },
-        {
-          "date": "2026-03-28",
-          "source": "CNN",
-          "bloc": "western",
-          "headline": "Iran demands sovereignty recognition over Strait of Hormuz, proposes $800 million monthly toll system",
-          "relevance": "Unilateral toll demand demonstrates reactive economic coercion without diplomatic groundwork"
-        }
-      ],
-      "items_supporting": 3,
-      "blocs_represented": [
-        "regional",
-        "institutional",
-        "western"
-      ],
       "threshold_met": false,
-      "counter_evidence": "Three items meet threshold minimum, but confidence is medium-only due to Pravda EU source reliability questions (regional bloc attribution). Oracle strike is reactive, but permanent blockade strategy shows deliberate calculation. Pattern supports modest increase but falls short of high-confidence threshold."
+      "counter_evidence": "While pattern is evident, items do not clearly demonstrate UNILATERAL, poorly-deliberated decisions that justify impulsivity increase; initiatives involve China partnership suggesting some deliberation. Requires 4+ items for ±2.8 threshold."
     },
     {
       "leader": "Xi Jinping",
       "dimension": "survival",
       "current_score": 88,
-      "proposed_delta": 2,
-      "proposed_new_score": 90,
-      "confidence": "high",
-      "pattern_description": "Sustained pattern of survival-driven strategic positioning: Xi observes Iran war implications for Taiwan strategy, secretly expands nuclear weapons facilities in response to US escalation pattern, purchases 90% of Iran oil exports for strategic leverage, and invites Taiwan opposition leader to visit China—all prioritize regime survival through diversified strategic hedging.",
+      "proposed_delta": 1,
+      "proposed_new_score": 89,
+      "confidence": "medium",
+      "pattern_description": "Sustained pattern of survival-driven decisions amid economic slowdown. China secretly expands nuclear weapons facilities in Sichuan (Apr 1), increases defense budget 7% despite slowing growth (Mar 13), accepts Taiwan opposition leader's visit as diplomatic positioning (Mar 31). Demonstrates prioritization of security/regime positioning over economic constraints.",
       "evidence_chain": [
-        {
-          "date": "2026-04-01",
-          "source": "Radio Free Europe/Radio Liberty",
-          "bloc": "western",
-          "headline": "Xi Jinping's Taiwan strategy shaped by Iran war observations, analysts warn",
-          "relevance": "Xi explicitly using US-Iran war as survival lesson for Taiwan contingency planning"
-        },
         {
           "date": "2026-04-01",
           "source": "CNN",
           "bloc": "western",
           "headline": "China secretly expands nuclear weapons facilities in Sichuan after village evictions, CNN investigation reveals major escalation",
-          "relevance": "Secret nuclear expansion demonstrates survival-driven deterrent buildup in response to US escalation pattern"
-        },
-        {
-          "date": "2026-03-04",
-          "source": "American Enterprise Institute",
-          "bloc": "western",
-          "headline": "China purchases 90% of Iran's oil exports as COSCO suspends Middle East operations",
-          "relevance": "Strategic oil purchase provides sanctions-resilience for regime survival while reducing Middle East exposure"
-        },
-        {
-          "date": "2026-03-31",
-          "source": "The Manila Times",
-          "bloc": "regional",
-          "headline": "Taiwan Opposition Leader Accepts Xi Jinping's Invitation to Visit China",
-          "relevance": "Outreach to Taiwan opposition demonstrates survival-focused political penetration strategy"
-        }
-      ],
-      "items_supporting": 4,
-      "blocs_represented": [
-        "western",
-        "regional"
-      ],
-      "threshold_met": true,
-      "counter_evidence": "None substantive; all four items demonstrate explicit survival prioritization through strategic hedging and deterrent positioning."
-    }
-  ],
-  "variable_proposals": [
-    {
-      "variable": "armsControlArchitecture",
-      "current_assessment": "NPT system facing structural uncertainty as 2026 review conference approaches; nuclear expansion accelerating among major powers without constraint mechanisms",
-      "proposed_direction": "decrease",
-      "confidence": "high",
-      "rationale": "Arms Control Association formally warns NPT system faces uncertain future amid nuclear expansion. Xi secretly expands Sichuan nuclear facilities, China increases defense budget 7% despite economic slowdown, and no credible institutional constraint mechanisms are functioning. This represents sustained institutional degradation across review period.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-03",
-          "source": "Arms Control Association",
-          "bloc": "institutional",
-          "headline": "Arms Control Association warns NPT system faces uncertain future as 2026 review conference approaches amid nuclear expansion",
-          "relevance": "Formal institutional assessment of NPT system uncertainty and failure to constrain expansion"
-        },
-        {
-          "date": "2026-04-01",
-          "source": "CNN",
-          "bloc": "western",
-          "headline": "China secretly expands nuclear weapons facilities in Sichuan after village evictions, CNN investigation reveals major escalation",
-          "relevance": "Major power nuclear expansion without NPT constraint response demonstrates institutional failure"
+          "relevance": "Covert militarization strategy indicates survival prioritization overriding transparency or civilian welfare"
         },
         {
           "date": "2026-03-13",
           "source": "American Enterprise Institute",
           "bloc": "institutional",
           "headline": "China Increases Defense Budget 7% to $278 Billion Despite Slowing Economic Growth",
-          "relevance": "Sustained weapons expansion despite economic constraint signals abandonment of arms control norms"
+          "relevance": "Allocates military resources despite economic pressure, demonstrating survival-first prioritization"
         }
-      ]
+      ],
+      "items_supporting": 2,
+      "blocs_represented": [
+        "western",
+        "institutional"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Only 2 items; requires 3+ for ±2.0 threshold on survival. Score already at 88/100, near ceiling."
     },
     {
+      "leader": "Recep Tayyip Erdogan",
+      "dimension": "accountability",
+      "current_score": 18,
+      "proposed_delta": -5,
+      "proposed_new_score": 13,
+      "confidence": "high",
+      "pattern_description": "Sustained pattern of deliberate dismantling of democratic accountability mechanisms. Istanbul Mayor Imamoglu arrested as Erdogan reshapes political field (Mar 19, Just Security). Arrests political opponents to consolidate control, demonstrating systematic bypass of judicial independence and electoral accountability through coercive state machinery.",
+      "evidence_chain": [
+        {
+          "date": "2026-03-19",
+          "source": "Just Security",
+          "bloc": "institutional",
+          "headline": "Istanbul Mayor Imamoglu Arrested as Erdogan Reshapes Political Field",
+          "relevance": "Direct evidence of deliberate dismantling of political accountability through arrest of major opposition figure to reshape electoral landscape"
+        }
+      ],
+      "items_supporting": 1,
+      "blocs_represented": [
+        "institutional"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Only 1 item; requires 3+ items from 2+ source blocs for ±2.3 threshold. Single dramatic event does not justify proposal per methodology."
+    }
+  ],
+  "variable_proposals": [
+    {
       "variable": "straitControl",
-      "current_assessment": "Strait of Hormuz increasingly unstable: Iran signals permanent blockade strategy with $800 million monthly toll demand; US destroyed 16 Iranian mine-laying ships; Trump administration shows no clear exit strategy",
+      "current_assessment": "Iran maintains de facto closure of Strait of Hormuz through IRGC mine-laying and interdiction; US responds with targeted strikes; economic toll mounting globally",
       "proposed_direction": "increase",
       "confidence": "high",
-      "rationale": "Iran announces permanent Strait blockade as regime survival strategy and demands $800 million monthly toll system, while US destroys Iranian mine-laying ships and approaches 60-day War Powers deadline without exit strategy. This represents sustained escalation toward Strait closure rather than reopening.",
+      "rationale": "Iran's IRGC explicitly announced permanent blockade strategy to 'ensure regime survival' (Apr 1, Critical Threats). Iran proposes $800M monthly toll system asserting sovereignty (Mar 28, CNN). US destroyed 16 mine-laying ships but closure persists; escalation cycle entrenches Iranian control rather than restoring transit. Sustained pattern shows Iran consolidating rather than relinquishing Strait control.",
       "evidence_chain": [
         {
           "date": "2026-04-01",
           "source": "Critical Threats Project",
-          "bloc": "institutional",
           "headline": "Iran's IRGC announces Tehran will leverage Strait of Hormuz closure to ensure regime survival, signals permanent blockade strategy",
-          "relevance": "Iran explicitly adopts permanent Strait blockade as survival strategy, not tactical option"
+          "relevance": "Iranian leadership formally commits to sustained Strait closure as core survival strategy"
         },
         {
           "date": "2026-03-28",
           "source": "CNN",
-          "bloc": "western",
           "headline": "Iran demands sovereignty recognition over Strait of Hormuz, proposes $800 million monthly toll system",
-          "relevance": "Economic toll demand signals institutionalization of Strait control, not negotiable concession"
-        },
-        {
-          "date": "2026-04-02",
-          "source": "Japan Today",
-          "bloc": "western",
-          "headline": "World anxious to open Hormuz Strait while Trump and Iran trade threats",
-          "relevance": "Global anxiety about Strait reopening indicates sustained closure risk from both sides' hardened positions"
+          "relevance": "Iran shifts from temporary closure to institutionalized toll system, indicating consolidation of control"
         },
         {
           "date": "2026-03-11",
           "source": "Radio Farda",
-          "bloc": "persian",
           "headline": "Radio Farda reports US destroys 16 Iranian mine-laying ships in Strait of Hormuz following Trump warnings",
-          "relevance": "US destruction of Iranian naval assets demonstrates escalatory commitment to Strait operations"
+          "relevance": "Despite US strikes, Iran continues closure operations, suggesting entrenchment rather than deterrence"
         }
       ]
     },
     {
-      "variable": "diplomaticChannels",
-      "current_assessment": "Pakistan emerges as Iran-US mediator but reports 'obstacles' and contradictory signaling; China-Pakistan propose ceasefire plan; Russia provides intelligence support while positioning as mediator—all channels weakened by escalation",
-      "proposed_direction": "decrease",
-      "confidence": "medium",
-      "rationale": "Pakistan confirms 'obstacles' in Iran-US mediation despite continued diplomatic push, suggesting channel weakening. China-Pakistan ceasefire proposal has not arrested escalation. Russia provides intelligence to Iran while claiming mediator role. NATO Secretary Rutte faces criticism for 'silence.' Sustained pattern shows diplomatic channels are simultaneously active and ineffective.",
+      "variable": "nuclearSignalling",
+      "current_assessment": "Iran enriching 60% uranium (non-weapons but threatening threshold); NPT system faces uncertain future per Arms Control Association; IAEA access to Natanz restricted after US strikes",
+      "proposed_direction": "increase",
+      "confidence": "high",
+      "rationale": "E3 confirms Iran is only non-nuclear state producing 60% enriched uranium (Mar 15, UK Government). Arms Control Association warns NPT system faces uncertain future as review conference approaches (Apr 3, institutional). IAEA access to Natanz cut off after US strikes (Mar 3). Sustained pattern shows Iran advancing nuclear capability while international oversight deteriorates.",
       "evidence_chain": [
         {
-          "date": "2026-04-02",
-          "source": "Pakistan Foreign Office",
-          "bloc": "regional",
-          "headline": "Pakistan confirms 'obstacles' in Iran-US mediation despite continued diplomatic push",
-          "relevance": "Pakistan acknowledges mediation channel dysfunction while claiming continued engagement"
+          "date": "2026-03-15",
+          "source": "UK Government",
+          "headline": "E3 Statement Confirms Iran Only Non-Nuclear State Producing 60% Enriched Uranium",
+          "relevance": "Iran maintains highest enrichment level short of weapons-grade, sustaining escalatory nuclear posture"
         },
         {
-          "date": "2026-03-30",
-          "source": "Bloomberg",
-          "bloc": "western",
-          "headline": "Putin provides intelligence support for Iran strikes while positioning as mediator",
-          "relevance": "Russia's dual role (supporting Iran while mediating) undermines diplomatic channel credibility"
+          "date": "2026-04-03",
+          "source": "Arms Control Association",
+          "headline": "Arms Control Association warns NPT system faces uncertain future as 2026 review conference approaches amid nuclear expansion",
+          "relevance": "Institutional assessment that NPT framework itself destabilizing under Iranian expansion pressure"
         },
         {
-          "date": "2026-04-02",
-          "source": "Politico",
-          "bloc": "western",
-          "headline": "NATO Secretary General Rutte faces European criticism over 'silence' on US-Iran war",
-          "relevance": "NATO institutional silence indicates diplomatic channel breakdown at alliance level"
+          "date": "2026-03-03",
+          "source": "Nuclear program of Iran - Wikipedia",
+          "headline": "IAEA Reports Iran Natanz Nuclear Site Inaccessible After US Strikes",
+          "relevance": "US military strikes create inspection gaps, reducing international visibility of Iranian nuclear activities"
+        }
+      ]
+    },
+    {
+      "variable": "armsControlArchitecture",
+      "current_assessment": "NPT system under strain; JCPOA effectively defunct; E3-Iran dialogue frozen; snapback sanctions disputed at UN",
+      "proposed_direction": "decrease",
+      "confidence": "high",
+      "rationale": "Arms Control Association explicitly warns NPT faces uncertain future as 2026 review approaches (Apr 3). UN Security Council debates Iran nuclear program amid snapback sanctions dispute (Mar 15) indicating institutional deadlock. E3 confirms Iran at 60% enrichment (Mar 15) showing no enforcement mechanism effective. Multiple indicators show arms control architecture deteriorating rather than stabilizing.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-03",
+          "source": "Arms Control Association",
+          "headline": "Arms Control Association warns NPT system faces uncertain future as 2026 review conference approaches amid nuclear expansion",
+          "relevance": "Institutional authority declares foundational arms control framework in crisis"
         },
         {
-          "date": "2026-03-31",
-          "source": "Atalayar",
-          "bloc": "regional",
-          "headline": "China and Pakistan jointly propose Iran ceasefire plan requiring immediate halt to critical infrastructure attacks",
-          "relevance": "Ceasefire proposal rejected or ignored, demonstrating diplomatic channel ineffectiveness"
+          "date": "2026-03-15",
+          "source": "UN Meetings Coverage",
+          "headline": "UN Security Council Debates Iran Nuclear Program Amid Snapback Sanctions Dispute",
+          "relevance": "Security Council unable to reach consensus on enforcement, showing institutional arms control failure"
+        },
+        {
+          "date": "2026-03-15",
+          "source": "UK Government",
+          "headline": "E3 Statement Confirms Iran Only Non-Nuclear State Producing 60% Enriched Uranium",
+          "relevance": "Iran violates E3 expectations with no effective diplomatic or institutional response mechanism"
+        }
+      ]
+    },
+    {
+      "variable": "oilPrice",
+      "current_assessment": "Prices surging amid Strait closure and regional instability",
+      "proposed_direction": "increase",
+      "confidence": "high",
+      "rationale": "Oil prices surge while Asian shares rise moderately (Apr 3, BusinessLine) indicating supply shock from Iran closure. Strait of Hormuz closure persists and Iran consolidates control, sustaining supply disruption. Multiple sources confirm continued disruption without resolution pathway, maintaining upward price pressure.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-03",
+          "source": "BusinessLine",
+          "headline": "Oil prices surge while Asian share prices rise moderately",
+          "relevance": "Market data confirms sustained oil price elevation from Strait disruption"
+        },
+        {
+          "date": "2026-04-01",
+          "source": "Critical Threats Project",
+          "headline": "Iran's IRGC announces Tehran will leverage Strait of Hormuz closure to ensure regime survival, signals permanent blockade strategy",
+          "relevance": "Iranian commitment to sustained closure ensures continued supply disruption and price pressure"
         }
       ]
     },
     {
       "variable": "iranRegimeCohesion",
-      "current_assessment": "Mojtaba Khamenei's health questioned; first written message issued to assert leadership; regime announces survival-focused strategies (Strait blockade, toll system); institutional consistency appears strained",
+      "current_assessment": "IRGC consolidating control; presidential succession managed through coercion; constitutional checks bypassed",
       "proposed_direction": "decrease",
-      "confidence": "medium",
-      "rationale": "Mojtaba Khamenei issues first written message amid health questions, suggesting leadership vulnerability. Regime announces explicit survival-focused Strait blockade strategy rather than integrated strategic plan. Critical Threats Project indicates IRGC operates independently on blockade strategy. Pattern suggests regime leadership cohesion strain without institutional collapse.",
+      "confidence": "high",
+      "rationale": "IranWire reports IRGC Intelligence threatened Assembly of Experts' families to secure Mojtaba's leadership (Mar 29), showing coercive control mechanisms. The Week reports IRGC now controls presidential access and Mojtaba's whereabouts are opaque, creating crisis-level succession anxiety (Apr 1). Pattern shows regime relying on coercion rather than institutional legitimacy, indicating internal cohesion fracturing beneath surface unity.",
       "evidence_chain": [
         {
-          "date": "2026-03-30",
-          "source": "Iran International",
-          "bloc": "persian",
-          "headline": "Mojtaba Khamenei Issues First Written Message as Supreme Leader Amid Questions Over Health",
-          "relevance": "Health concerns trigger leadership assertion, indicating cohesion vulnerability at apex"
+          "date": "2026-03-29",
+          "source": "IranWire",
+          "headline": "IRGC Intelligence Threatened Assembly of Experts' Families to Secure Mojtaba's Leadership",
+          "relevance": "Coercive threats against constitutional elites demonstrate institutional breakdown and loss of consensus"
         },
         {
           "date": "2026-04-01",
-          "source": "Critical Threats Project",
-          "bloc": "institutional",
-          "headline": "Iran's IRGC announces Tehran will leverage Strait of Hormuz closure to ensure regime survival, signals permanent blockade strategy",
-          "relevance": "IRGC announces strategy independently with explicit 'regime survival' rationale, suggesting autonomous institutional action"
-        },
-        {
-          "date": "2026-03-28",
-          "source": "CNN",
-          "bloc": "western",
-          "headline": "Iran demands sovereignty recognition over Strait of Hormuz, proposes $800 million monthly toll system",
-          "relevance": "Unilateral toll demand without coordination signals shows institutional drift from unified strategy"
+          "source": "The Week",
+          "headline": "Mojtaba Khamenei's Whereabouts Spark Crisis as IRGC Controls Presidential Access",
+          "relevance": "IRGC control over leadership access and information indicates institutional fragmentation and succession instability"
         }
       ]
     }
   ],
-  "no_change_assessment": "Benjamin Netanyahu maintains current accountability/survival scores despite ICC arrest warrant context—evidence shows institutional constraint (Hungary visit conditional on ICC warrant status) rather than systematic dismantling. Narendra Modi's marginalization from Iran mediation does not meet narcissism threshold; Foreign Policy reporting is analytical rather than documenting sustained behavioral change. Vladimir Putin's dual mediator-supporter role evidences survival positioning but does not meet the 3-item threshold for dimension change across reliable source blocs.",
-  "generated_at": "2026-04-03T22:39:54.692Z"
+  "no_change_assessment": "Benjamin Netanyahu, Mohammed bin Salman, Kim Jong-un, Vladimir Putin, Narendra Modi, and Volodymyr Zelensky show insufficient sustained pattern evidence meeting thresholds. Netanyahu's narcissism (80) and survival (96) remain stable despite ongoing legal jeopardy; single MBS quote denying Iran pressure does not shift impulsivity assessment; Kim Jong-un's missile barrage is tactical escalation within established pattern; Putin absent from recent history; Modi's marginalization is external consequence rather than behavioral shift; Zelensky's impulsivity sustained but no new threshold-crossing evidence. Congressional constraint variable cannot be assessed from provided history; diplomaticChannels shows deterioration but proposal captured in armsControlArchitecture and iranRegimeCohesion.",
+  "generated_at": "2026-04-04T05:19:58.756Z"
 }

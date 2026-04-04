@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-03T22:39:54.691Z",
+  "ts": "2026-04-04T05:19:58.751Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,35 @@
   "live_variables": {
     "oilPrice": 122,
     "oilStress": 87,
-    "updatedAt": "2026-04-03T22:39:54.691Z"
+    "updatedAt": "2026-04-04T05:19:58.751Z"
   },
   "items": [
+    {
+      "headline": "Trump insists: Iran is “eager” for a deal – At least 8 dead in bridge bombing in Tehran (updated)",
+      "summary": "US and Iran consider a ceasefire in exchange for reopening the Strait of Hormuz; Trump has briefed Saudi Arabia and the UAE\nThe post Trump insists: Iran is “eager” for a deal – At least 8 dead in bridge bombing in Tehran (updated) appeared first on ProtoThema…",
+      "source": "Protothema.gr",
+      "url": "https://en.protothema.gr/2026/04/03/seven-million-iranians-are-waiting-for-you-ready-and-armed-tehran-tells-the-us-you-will-go-to-the-depths-of-hell-israels-foreign-minister-thre/",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T00:29:26Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Iran fires on Israel and Gulf neighbors as Trump claims threat from Tehran nearly eliminated",
       "summary": "Iran's attacks on Gulf states along with its chokehold on the Strait of Hormuz have disrupted the world's energy supplies with effects far beyond the Middle East. That has proved to be Iran's greatest strategic advantage in the war.",
@@ -47,32 +73,6 @@
       "bloc": "western",
       "date": "2026-04-02",
       "datetime": "2026-04-02T14:14:21Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Pakistan to continue with Iran-US mediation despite ‘obstacles’",
-      "summary": "Islamabad's statement follows Trump threatening to bomb Iran 'back to the Stone Ages'.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/4/2/pakistan-to-continue-with-iran-us-mediation-despite-obstacles",
-      "bloc": "regional",
-      "date": "2026-04-02",
-      "datetime": "2026-04-02T13:19:47Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -220,31 +220,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Press conference by NATO Secretary General Mark Rutte at the launch of the 2025 Annual Report",
-      "summary": "Good afternoon, and thank you for joining us today for the launch of our 2025 Annual Report.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/03/mil-260326-nato02.htm",
-      "bloc": "western",
-      "date": "2026-03-27",
-      "datetime": "2026-03-27T10:16:18Z",
-      "leaders": [
-        "Vladimir Putin"
-      ],
-      "watch_terms": [
-        "Putin Ukraine ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "narcissism"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "Will China join Pakistan-led efforts to mediate US-Iran peace?",
       "summary": "Pakistan's Deputy PM Ishaq Dar visits China after Islamabad talks to broker negotiations between the US and Iran.",
       "source": "Al Jazeera English",
@@ -289,6 +264,32 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Oil prices surge while Asian share prices rise moderately",
+      "summary": "Oil prices spike amid Iran war concerns as Asian markets show modest gains in cautious trading.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/commodities/oil-prices-surge-while-asian-share-prices-rise-moderately/article70818705.ece",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T05:08:44Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -371,28 +372,27 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Morgan Stanley analyst sends urgent S&P 500 message",
-      "summary": "The S&P 500 just proved the bears wrong, and the worst may be over. After weeks of pressure tied to rising oil prices and escalating tensions in the Middle...",
-      "source": "TheStreet",
-      "url": "https://www.thestreet.com/investing/morgan-stanley-analyst-sends-urgent-sp-500-message",
+      "headline": "Iran lists Gulf bridge targets after coalition strike, US ceasefire odds plummet",
+      "summary": "The escalation reduces diplomatic prospects, impacting market confidence and highlighting the need for strategic peace interventions.\nThe post Iran lists Gulf bridge targets after coalition strike, US ceasefire odds plummet appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/iran-lists-gulf-bridge-targets-after-coalition-strike-us-ceasefire-odds-plummet/",
       "bloc": "western",
-      "date": "2026-04-01",
-      "datetime": "2026-04-01T21:47:41Z",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T02:46:32Z",
       "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
+        "Donald J. Trump",
+        "Mojtaba Khamenei"
       ],
       "watch_terms": [
-        "oil Brent crude"
+        "Iran US diplomacy"
       ],
       "dimensions": [
-        "survival",
-        "values"
+        "values",
+        "survival"
       ],
-      "variable_key": "oilPrice",
+      "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
-      "escalation": 2,
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -447,25 +447,25 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Was the Iran War Caused by AI Psychosis?",
-      "summary": "AI sycophancy, RLHF bias, and Ender's Foundry simulations shaped Operation Epic Fury. 7 planning assumptions failed in 23 days as the Iran war defied every AI prediction.",
-      "source": "Houseofsaud.com",
-      "url": "https://houseofsaud.com/iran-war-ai-psychosis-sycophancy-rlhf/",
-      "bloc": "western",
-      "date": "2026-03-27",
-      "datetime": "2026-03-27T20:16:31Z",
+      "headline": "Middle East War: Fresh satellite images show destruction at Iran’s Qeshm port after US-Israeli attack",
+      "summary": "Recent satellite imagery reveals significant destruction to port infrastructure on Qeshm Island, Iran, following coordinated strikes by the US and Israel. Additionally, a critical bridge in Karaj has suffered damage, leading to civilian loss of life.",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/middle-east-war-fresh-satellite-images-show-destruction-at-irans-qeshm-port-after-us-israeli-attack/articleshow/129994370.cms",
+      "bloc": "regional",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T05:12:16Z",
       "leaders": [],
       "watch_terms": [
-        "general commander killed"
+        "oil refinery port"
       ],
       "dimensions": [
         "survival",
         "impulsivity",
-        "narcissism"
+        "accountability"
       ],
       "variable_key": null,
-      "event_type": "personnel_killed",
-      "escalation": 4,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -523,29 +523,6 @@
       "bloc": "western",
       "date": "2026-03-31",
       "datetime": "2026-03-31T20:18:54Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran war: What is happening on day 32 of US-Israel attacks?",
-      "summary": "In an exclusive interview with Al Jazeera, Secretary of State Rubio said US war objectives would be achieved in 'weeks'.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/3/31/iran-war-what-is-happening-on-day-32-of-us-israel-attacks",
-      "bloc": "regional",
-      "date": "2026-03-31",
-      "datetime": "2026-03-31T07:49:45Z",
       "leaders": [],
       "watch_terms": [
         "oil refinery port"
@@ -626,6 +603,284 @@
       "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
+    },
+    {
+      "headline": "Mojtaba Khamenei's Whereabouts Spark Crisis as IRGC Controls Presidential Access",
+      "summary": "Iran's President Masoud Pezeshkian faces political deadlock as the IRGC controls information flow between him and Supreme Leader Mojtaba Khamenei, who remains unseen since March. The military has blocked presidential appointments while establishing a security perimeter around power centers, raising questions about the new Supreme Leader's health and effective control.",
+      "source": "The Week",
+      "url": "https://www.theweek.in/news/middle-east/2026/04/01/is-mojtaba-khamenei-s-disappearance-behind-growing-irgc-control-in-iran-report-offers-inside-view.html",
+      "bloc": "institutional",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T20:10:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Masoud Pezeshkian"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran",
+        "IRGC"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "survival",
+        "proposed_delta": -2,
+        "rationale": "Physical absence and inability to make public appearances while military controls access suggests weakened position",
+        "confidence": "medium"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "IRGC Intelligence Threatened Assembly of Experts' Families to Secure Mojtaba's Leadership",
+      "summary": "IranWire reports that IRGC intelligence pressured members of Iran's Assembly of Experts and threatened their families to secure Mojtaba Khamenei's appointment as Supreme Leader. Sources indicate the pressure was so intense that dissenting members were forced into supporting him through psychological and political coercion.",
+      "source": "IranWire",
+      "url": "https://iranwire.com/en/news/150272-exclusive-irgc-intelligence-threatened-experts-and-their-families-to-select-mojtaba-khamenei/",
+      "bloc": "persian",
+      "date": "2026-03-29",
+      "datetime": "2026-03-29T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran",
+        "IRGC"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": true,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "accountability",
+        "proposed_delta": -3,
+        "rationale": "Installation through coercion and threats rather than legitimate process undermines institutional legitimacy",
+        "confidence": "high"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "China and Pakistan Launch Five-Point Peace Initiative for Iran War",
+      "summary": "Pakistani Foreign Minister Mohammad Ishaq Dar met Chinese Foreign Minister Wang Yi in Beijing to announce a new initiative for ending the Iran war. The plan includes immediate ceasefire, securing the Strait of Hormuz, and UN-backed negotiations, marking China's formal entry into mediating the conflict.",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3348571/china-pledges-strategic-coordination-pakistan-help-end-us-war-iran",
+      "bloc": "regional",
+      "date": "2026-03-31",
+      "datetime": "2026-03-31T12:00:00Z",
+      "leaders": [
+        "Xi Jinping",
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "China Pakistan",
+        "China Iran"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "regional_strike",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "Saudi Crown Prince Denied Urging Trump to Strike Iran Despite US-Israel War Inception",
+      "summary": "The Washington Post reports that MBS conducted multiple phone calls with Trump urging attacks on Iran, stating Iran would become stronger if Washington didn't strike immediately. Trump's decision to attack Iran on February 28 came after Saudi and Israeli governments repeatedly lobbied him, though Saudi Arabia officially denies these reports.",
+      "source": "The Washington Post",
+      "url": null,
+      "bloc": "western",
+      "date": "2026-02-28",
+      "datetime": "2026-02-28T12:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman"
+      ],
+      "watch_terms": [
+        "Saudi Arabia Iran",
+        "MBS"
+      ],
+      "dimensions": [
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Mohammed bin Salman",
+        "dimension": "impulsivity",
+        "proposed_delta": 2,
+        "rationale": "Repeatedly pushing for immediate military action demonstrates impulsive decision-making pattern",
+        "confidence": "high"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "IAEA Reports Iran Natanz Nuclear Site Inaccessible After US Strikes",
+      "summary": "The IAEA confirmed that recent bombings failed to destroy the Natanz nuclear facility but significant damage to entrance buildings has made it inaccessible. The agency has been unable to account for Iran's enriched uranium stockpile for over eight months following withdrawal of inspectors in June 2025.",
+      "source": "Nuclear program of Iran - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nuclear_program_of_Iran",
+      "bloc": "institutional",
+      "date": "2026-03-03",
+      "datetime": "2026-03-03T12:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "nuclear Iran"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "E3 Statement Confirms Iran Only Non-Nuclear State Producing 60% Enriched Uranium",
+      "summary": "France, Germany and the UK delivered joint statement to IAEA Board confirming Iran remains the only state without nuclear weapons to have produced 60% High Enriched Uranium. The E3 expressed deep concern about lack of transparency over Iran's nuclear program with no credible civilian justification for enrichment activities.",
+      "source": "UK Government",
+      "url": "https://www.gov.uk/government/speeches/implementation-of-the-npt-safeguards-agreement-and-unsc-resolutions-in-iran-e3-statement-to-the-iaea-board-of-governors-march-2026",
+      "bloc": "institutional",
+      "date": "2026-03-15",
+      "datetime": "2026-03-15T12:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "nuclear Iran"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "Turkey's Erdogan Warns Iran Against Missile Strikes While Seeking Mediation Role",
+      "summary": "Turkish President Erdogan expressed Turkey's resolve to stay out of the Iran conflict while cautioning Iran against persistence in error after NATO downed Iranian ballistic missiles over Turkish airspace. Foreign Minister Fidan urged Iran to be careful and avoid further launches toward Turkey while positioning Turkey as mediator.",
+      "source": "Foundation for Defense of Democracies",
+      "url": "https://www.fdd.org/analysis/2026/03/17/what-are-turkeys-red-lines-in-the-iran-conflict/",
+      "bloc": "institutional",
+      "date": "2026-03-09",
+      "datetime": "2026-03-09T12:00:00Z",
+      "leaders": [
+        "Recep Tayyip Erdogan"
+      ],
+      "watch_terms": [
+        "Turkey NATO",
+        "Turkey Iran",
+        "Turkey mediation"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "Istanbul Mayor Imamoglu Arrested as Erdogan Reshapes Political Field",
+      "summary": "Turkish President Erdogan's main rival, Istanbul Mayor Ekrem Imamoglu, was arrested on March 19 despite ongoing Kurdish peace initiative. The arrest demonstrates Erdogan's use of state institutions to reshape the political field while pursuing constitutional changes to remove term limits for 2028 elections.",
+      "source": "Just Security",
+      "url": "https://www.justsecurity.org/110693/turkey-erdogan-kurds-peace-imamoglu/",
+      "bloc": "institutional",
+      "date": "2026-03-19",
+      "datetime": "2026-03-19T12:00:00Z",
+      "leaders": [
+        "Recep Tayyip Erdogan"
+      ],
+      "watch_terms": [
+        "Imamoglu",
+        "Erdogan election"
+      ],
+      "dimensions": [
+        "accountability",
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Recep Tayyip Erdogan",
+        "dimension": "survival",
+        "proposed_delta": 2,
+        "rationale": "Arrest of main political rival demonstrates prioritizing power retention over democratic norms",
+        "confidence": "high"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "China Withholds Support for Pakistan Railway Project During Sharif Beijing Visit",
+      "summary": "China withheld support for the Main Line-1 railway upgrade, a flagship CPEC project, during Prime Minister Shehbaz Sharif's September 2025 visit to Beijing. Instead, agreements worth $8.5 billion were signed in other sectors, with analysts noting the move comes amid Islamabad's engagement with Washington and broader geopolitical realignments.",
+      "source": "China–Pakistan Economic Corridor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/China%E2%80%93Pakistan_Economic_Corridor",
+      "bloc": "regional",
+      "date": "2025-09-15",
+      "datetime": "2025-09-15T12:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "China Pakistan",
+        "CPEC"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "Chinese Foreign Ministry Confirms Mediation Between Pakistan and Afghanistan",
+      "summary": "Chinese Foreign Ministry spokesperson Mao Ning confirmed China has made mediation efforts in its own way following the Pakistan-Afghanistan conflict escalation, maintaining close communication with both sides via multiple channels. China provided platforms for dialogue between both countries, with consultations being implemented steadily.",
+      "source": "Ministry of Foreign Affairs of China",
+      "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/202604/t20260403_11886663.html",
+      "bloc": "regional",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T12:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "China Pakistan"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "UN Security Council Debates Iran Nuclear Program Amid Snapback Sanctions Dispute",
+      "summary": "The Security Council met to debate Iran's nuclear program as Russia and China challenged the legality of UN sanctions on Tehran under the snapback mechanism. Multiple countries expressed support for IAEA cooperation and concerns over Iran's nuclear program, with calls for full adherence to international obligations.",
+      "source": "UN Meetings Coverage",
+      "url": "https://press.un.org/en/2026/sc16316.doc.htm",
+      "bloc": "institutional",
+      "date": "2026-03-15",
+      "datetime": "2026-03-15T12:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "nuclear Iran"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude"
     }
   ]
 }
