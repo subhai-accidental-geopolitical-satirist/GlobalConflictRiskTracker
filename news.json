@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-04T14:08:34.942Z",
+  "ts": "2026-04-04T19:49:46.189Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 122,
     "oilStress": 87,
-    "updatedAt": "2026-04-04T14:08:34.942Z"
+    "updatedAt": "2026-04-04T19:49:46.189Z"
   },
   "items": [
     {
@@ -66,32 +66,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "US-Israeli aggression on Iran: What happened on 34th day of the imposed war",
-      "summary": "Thirty-four days into the US-Israeli war on Iran, launched on February 28 with the assassination of the Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei, the military aggression continues to target civilian and industrial infrastructure across …",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260403-presstv02.htm",
-      "bloc": "western",
-      "date": "2026-04-03",
-      "datetime": "2026-04-03T07:34:55Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "As Crises Escalate in Middle East, Speakers in Security Council Urge Stronger United Nations-League of Arab States Cooperation",
       "summary": "Complementing a morning meeting held today on collaboration between the United Nations and the Gulf Cooperation Council, the Security Council met again in the afternoon to underline the importance of similar cooperation with the League of Arab States amidst m…",
       "source": "Globalsecurity.org",
@@ -118,6 +92,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "US-Israeli aggression on Iran: What happened on 34th day of the imposed war",
+      "summary": "Thirty-four days into the US-Israeli war on Iran, launched on February 28 with the assassination of the Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei, the military aggression continues to target civilian and industrial infrastructure across …",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260403-presstv02.htm",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T07:34:55Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "How Israel is destroying healthcare infrastructure in southern Lebanon",
       "summary": "Israel's attacks on hospitals, medical centres and healthcare workers are fuelling displacement and a health crisis.",
       "source": "Al Jazeera English",
@@ -132,6 +132,58 @@
       ],
       "watch_terms": [
         "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "'Regime change' in the Strait of Hormuz sees 20,000 sailors stranded at sea",
+      "summary": "Interviews and first-hand accounts from sailors stranded in the Persian Gulf — under threat of drone attacks, missiles, and exploding boats — reveal an increasingly dire humanitarian crisis unfolding.",
+      "source": "ABC News (AU)",
+      "url": "https://www.abc.net.au/news/2026-04-04/strait-of-hormuz-oil-sailors-stranded-first-supertankers/106525462",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T19:30:56Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran: at least five ships passed through the Strait of Hormuz in the last 24 hours",
+      "summary": "Oil and commodity markets are anxiously looking for signs that traffic in the Straits is being restored\nThe post Iran: at least five ships passed through the Strait of Hormuz in the last 24 hours appeared first on ProtoThema English.",
+      "source": "Protothema.gr",
+      "url": "https://en.protothema.gr/2026/04/03/iran-at-least-five-ships-passed-through-the-strait-of-hormuz-in-the-last-24-hours/",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T19:19:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
@@ -177,58 +229,6 @@
       "bloc": "western",
       "date": "2026-04-02",
       "datetime": "2026-04-02T18:57:42Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "UK Hosts 40-Nation Talks to Reopen Iran-Blocked Strait of Hormuz as Oil Prices Surge Amid War",
-      "summary": "LONDON — Britain convened a virtual summit Thursday with about 40 countries to explore ways of reopening the Strait of Hormuz, the vital Persian Gulf chokepoint effectively shut down by Iran during the ongoing U.S.-Israeli war, as global oil prices climbed on…",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/uk-hosts-40-nation-talks-reopen-iran-blocked-strait-hormuz-oil-prices-surge-amid-war-1865237",
-      "bloc": "western",
-      "date": "2026-04-02",
-      "datetime": "2026-04-02T14:14:21Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The Critical Commodities Caught in the Hormuz Blockade",
-      "summary": "When an Indian tanker carrying liquefied petroleum gas (LPG) passed through the Strait of Hormuz recently, its progress was followed by excited live TV news coverage. “Its position was received eight minutes ago. It’s currently at 12.5 knots and is moving at …",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/The-Critical-Commodities-Caught-in-the-Hormuz-Blockade.html",
-      "bloc": "western",
-      "date": "2026-04-02",
-      "datetime": "2026-04-02T14:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -298,6 +298,30 @@
       "_from": "newsapi"
     },
     {
+      "headline": "China–Taiwan Tensions — Civil War Legacies and Geopolitical Chess",
+      "summary": "Editor-in-Chief Atul Singh and FOI Senior Partner Glenn Carle, a retired CIA officer who now advises companies, governments and organizations on geopolitical risk, turn their attention eastward to examine the sharp escalation in China–Taiwan tensions over the…",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/region/asia_pacific/china-taiwan-tensions-civil-war-legacies-and-geopolitical-chess/",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T14:31:35Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Will China join Pakistan-led efforts to mediate US-Iran peace?",
       "summary": "Pakistan's Deputy PM Ishaq Dar visits China after Islamabad talks to broker negotiations between the US and Iran.",
       "source": "Al Jazeera English",
@@ -342,6 +366,32 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Russia Oil Revenues Halved in March Before War Boost",
+      "summary": "Russian producers paid 494.9 billion rubles ($6.18 billion) in oil taxes last month, down 48 percent year on year, according to Bloomberg calculations based on Finance Ministry data released Friday.",
+      "source": "Rigzone",
+      "url": "https://www.rigzone.com/news/wire/russia_oil_revenues_halved_in_march_before_war_boost-03-apr-2026-183373-article/",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T14:41:06Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -550,6 +600,29 @@
       "_from": "newsapi"
     },
     {
+      "headline": "‘US pilot rescued and another still missing’ after fighter jet shot down over Iran; EU prepares for fuel rationing",
+      "summary": "Follow our live blog on the war in the Middle East here:",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/us-pilot-rescued-and-another-still-missing-after-fighter-jet-shot-down-over-iran-eu-prepares-for-fuel-rationing/a1653284426.html",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T16:20:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Middle East War: Fresh satellite images show destruction at Iran’s Qeshm port after US-Israeli attack",
       "summary": "Recent satellite imagery reveals significant destruction to port infrastructure on Qeshm Island, Iran, following coordinated strikes by the US and Israel. Additionally, a critical bridge in Karaj has suffered damage, leading to civilian loss of life.",
       "source": "The Times of India",
@@ -603,29 +676,6 @@
       "bloc": "western",
       "date": "2026-03-31",
       "datetime": "2026-03-31T21:33:24Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Crude Slides as War Exit Signals Emerge",
-      "summary": "Oil declined as Iran and the US signaled potential de-escalation despite ongoing supply disruptions.",
-      "source": "Rigzone",
-      "url": "https://www.rigzone.com/news/wire/crude_slides_as_war_exit_signals_emerge-31-mar-2026-183343-article/",
-      "bloc": "western",
-      "date": "2026-03-31",
-      "datetime": "2026-03-31T20:18:54Z",
       "leaders": [],
       "watch_terms": [
         "oil refinery port"
@@ -708,213 +758,188 @@
       "_from": "newsapi"
     },
     {
-      "headline": "IRGC-linked money changers arrested in UAE deals major blow to Iran's sanctions-evasion network",
-      "summary": "UAE arrested dozens of IRGC-linked money changers operating sanctions-evasion network. Iran International reports this represents one of the most serious blows to Tehran's financial operations, exposing heavy reliance on Dubai as economic lifeline amid ongoing war.",
-      "source": "Iran International",
-      "url": "https://www.iranintl.com/en",
-      "bloc": "persian",
-      "date": "2026-04-04",
-      "datetime": "2026-04-04T00:00:00Z",
-      "leaders": [],
-      "watch_terms": [],
-      "dimensions": [],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 4,
-      "persian_only": true,
-      "dimension_signal": null,
-      "_from": "claude"
-    },
-    {
-      "headline": "IAEA unable to verify location of Iran's highly enriched uranium amid underground facilities",
-      "summary": "International Atomic Energy Agency reported inability to resume inspections in Iran with highly enriched uranium location unascertained, despite eight months since June 2025 nuclear strikes. Much uranium expected at underground facilities in Isfahan amid Iran's breakout capability.",
-      "source": "UK Parliament Research Briefings",
-      "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10521/CBP-10521.pdf",
-      "bloc": "institutional",
-      "date": "2026-03-31",
-      "datetime": "2026-03-31T00:00:00Z",
-      "leaders": [],
+      "headline": "China confirms Pakistan-Afghanistan peace talks advancing in Urumqi mediation",
+      "summary": "Chinese Foreign Ministry confirmed that negotiations between Pakistan and Afghanistan are progressing steadily in Urumqi following weeks of fighting that killed hundreds. Beijing is actively mediating to broker a lasting ceasefire after Pakistan carried out strikes in Kabul in late February.",
+      "source": "Associated Press",
+      "url": "https://www.npr.org/2026/04/03/g-s1-116299/pakistan-says-a-new-round-of-peace-talks-with-afghanistan-is-underway-in-china",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
       "watch_terms": [
-        "nuclear Iran",
-        "IAEA"
+        "China Pakistan"
       ],
       "dimensions": [],
       "variable_key": null,
       "event_type": "static_variable",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": null,
-      "_from": "claude"
-    },
-    {
-      "headline": "UN Security Council adopts resolution condemning Iran's attacks on Gulf states by 13-0 vote",
-      "summary": "Security Council Resolution 2817 adopted with 13 votes in favor, 135 co-sponsors, condemning Iran's attacks against Gulf neighbors. China and Russia abstained but did not veto, marking largest number of countries ever to cosponsor UNSC resolution.",
-      "source": "UN Press Release",
-      "url": "https://press.un.org/en/2026/sc16315.doc.htm",
-      "bloc": "institutional",
-      "date": "2026-03-12",
-      "datetime": "2026-03-12T00:00:00Z",
-      "leaders": [],
-      "watch_terms": [],
-      "dimensions": [],
-      "variable_key": null,
-      "event_type": "regional_strike",
-      "escalation": 4,
-      "persian_only": false,
-      "dimension_signal": null,
-      "_from": "claude"
-    },
-    {
-      "headline": "Mohammad Javad Zarif proposes Iran ceasefire deal in Foreign Affairs magazine",
-      "summary": "Iran's former nuclear negotiator Mohammad Javad Zarif published ceasefire proposal in Foreign Affairs, offering nuclear limits and Hormuz reopening for sanctions relief. Zarif maintains Iran is 'clearly winning' but suggests deal Washington might now accept.",
-      "source": "NBC News",
-      "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-strike-b-1-bridge-tehran-hormuz-israel-rcna266522",
-      "bloc": "western",
-      "date": "2026-04-04",
-      "datetime": "2026-04-04T00:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "Iran ceasefire",
-        "nuclear Iran"
-      ],
-      "dimensions": [],
-      "variable_key": null,
-      "event_type": "leader_statement",
       "escalation": 2,
       "persian_only": false,
-      "dimension_signal": null,
       "_from": "claude"
     },
     {
-      "headline": "Explosions reported at Iran's Bushehr Nuclear Power Plant and Mahshahr petrochemical zone",
-      "summary": "Explosions occurred at auxiliary building of Bushehr Nuclear Power Plant and Mahshahr Special Petrochemical Zone on April 4. Attacks represent continuation of infrastructure targeting amid Iran war escalation.",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
-      "bloc": "institutional",
+      "headline": "Pakistan military kills 71 militants in three-day northwestern operations",
+      "summary": "Pakistan army reported killing 71 militants in three days of operations in northwestern regions bordering Afghanistan, highlighting challenges Pakistani forces face on multiple fronts as tensions with India also rise rapidly. Operations targeted TTP infiltration attempts from Afghanistan.",
+      "source": "Arab News",
+      "url": "https://www.arabnews.com/node/2598748/amp",
+      "bloc": "western",
       "date": "2026-04-04",
       "datetime": "2026-04-04T00:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "nuclear Iran"
+      "leaders": [
+        "General Asim Munir"
       ],
-      "dimensions": [],
+      "watch_terms": [
+        "Pakistan military"
+      ],
+      "dimensions": [
+        "survival"
+      ],
       "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 5,
+      "event_type": "personnel_killed",
+      "escalation": 4,
       "persian_only": false,
-      "dimension_signal": null,
+      "dimension_signal": {
+        "leader": "General Asim Munir",
+        "dimension": "survival",
+        "proposed_delta": 1,
+        "rationale": "Military operations on multiple fronts demonstrate direct survival challenges facing Pakistan's military leadership",
+        "confidence": "high"
+      },
       "_from": "claude"
     },
     {
-      "headline": "Trump extends Iran deadline for Hormuz reopening to April 6 citing ongoing negotiations",
-      "summary": "Trump posted on Truth Social pausing energy plant destruction deadline by 10 days to April 6, citing Iranian government request. Administration claims talks going 'very well' despite Iran's denials of negotiations.",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions",
+      "headline": "Field Marshal Munir emerges as key US-Iran mediation facilitator",
+      "summary": "Pakistan's army chief Asim Munir has become central mediator in US-Iran tensions, helping deliver a 15-point American peace proposal to Tehran. Officials report Munir maintains close ties with Iran's Revolutionary Guard, positioning Pakistan as neutral intermediary.",
+      "source": "Ynet News",
+      "url": "https://www.ynetnews.com/article/skouxtzi11x",
       "bloc": "western",
-      "date": "2026-03-26",
-      "datetime": "2026-03-26T00:00:00Z",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T00:00:00Z",
       "leaders": [
-        "Donald J. Trump"
+        "General Asim Munir"
       ],
       "watch_terms": [
-        "Iran ceasefire",
-        "Trump"
+        "Iran ceasefire"
       ],
       "dimensions": [
-        "impulsivity"
+        "narcissism"
       ],
       "variable_key": null,
       "event_type": "leader_statement",
       "escalation": 3,
       "persian_only": false,
       "dimension_signal": {
-        "leader": "Donald J. Trump",
-        "dimension": "impulsivity",
-        "proposed_delta": -1,
-        "rationale": "Extended deadline shows restraint from immediate action despite ultimatum rhetoric",
+        "leader": "General Asim Munir",
+        "dimension": "narcissism",
+        "proposed_delta": 2,
+        "rationale": "Positioning himself as indispensable mediator on global stage demonstrates self-aggrandizing behavior",
         "confidence": "medium"
       },
       "_from": "claude"
     },
     {
-      "headline": "US forces strike 8,000 Iranian military targets including 130 vessels in Hormuz operations",
-      "summary": "Admiral Brad Cooper reported US military struck over 8,000 Iranian military targets including 130 vessels in campaign to reopen Strait of Hormuz. Operations represent massive escalation of US direct military engagement against Iranian forces.",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
-      "bloc": "institutional",
+      "headline": "Pakistan's diplomatic rise leaves India marginalized in Middle East negotiations",
+      "summary": "Indian policy magazine acknowledges Pakistan's emergence as mediator in Iran-US tensions has dealt major blow to New Delhi's regional standing. Pakistan's Chief of Army Staff now playing pivotal diplomatic role while India reportedly sidelined from key Middle Eastern negotiations.",
+      "source": "Daily Ittehad",
+      "url": "https://dailyittehad.com.pk/news/2026/04/04/india-faces-diplomatic-setback-as-pakistan-emerges-as-key-mediator-indian-magazine",
+      "bloc": "regional",
       "date": "2026-04-04",
       "datetime": "2026-04-04T00:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "Strait Hormuz"
-      ],
-      "dimensions": [],
-      "variable_key": null,
-      "event_type": "regional_strike",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": null,
-      "_from": "claude"
-    },
-    {
-      "headline": "Mojtaba Khamenei vows to keep Strait of Hormuz closed as leverage against US and Israel",
-      "summary": "Iran's new Supreme Leader Mojtaba Khamenei made first public statement since succession, declaring Hormuz closure should continue as leverage. Statement read on state television emphasized continuation of attacks on Gulf Arab neighbors.",
-      "source": "PBS News",
-      "url": "https://www.pbs.org/newshour/world/irans-supreme-leader-says-closure-of-strait-of-hormuz-should-be-used-as-leverage",
-      "bloc": "western",
-      "date": "2026-03-12",
-      "datetime": "2026-03-12T00:00:00Z",
       "leaders": [
-        "Mojtaba Khamenei"
+        "Narendra Modi",
+        "General Asim Munir"
       ],
       "watch_terms": [
-        "Supreme Leader Iran",
-        "Strait Hormuz"
+        "Modi coalition"
       ],
       "dimensions": [
-        "survival"
+        "accountability"
       ],
       "variable_key": null,
       "event_type": "leader_statement",
-      "escalation": 5,
+      "escalation": 3,
       "persian_only": false,
       "dimension_signal": {
-        "leader": "Mojtaba Khamenei",
-        "dimension": "survival",
-        "proposed_delta": 2,
-        "rationale": "First public statement emphasizes defiant stance and continued resistance despite massive attacks",
-        "confidence": "high"
+        "leader": "Narendra Modi",
+        "dimension": "accountability",
+        "proposed_delta": -1,
+        "rationale": "Being outmaneuvered diplomatically by Pakistan reduces accountability pressure on Modi domestically",
+        "confidence": "medium"
       },
       "_from": "claude"
     },
     {
-      "headline": "Israel kills IRGC Navy commander Alireza Tangsiri in overnight strike confirmed by Pakistan mediator",
-      "summary": "Israel's Defense Minister Israel Katz announced killing of Alireza Tangsiri, head of Iranian Revolutionary Guard's navy, in overnight strike. Pakistani official following negotiations confirmed the death, representing targeted elimination of key Iranian military leader.",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions",
-      "bloc": "western",
-      "date": "2026-03-26",
-      "datetime": "2026-03-26T00:00:00Z",
-      "leaders": [],
+      "headline": "SIPRI reports Pakistan nuclear arsenal at 170 warheads, India overtakes at 180",
+      "summary": "Stockholm International Peace Research Institute confirms India has overtaken Pakistan in nuclear warhead count for first time in two decades. Pakistan assessed to possess 170 assembled warheads, while continuing Full Spectrum Deterrence doctrine development amid economic stress.",
+      "source": "Global Military",
+      "url": "https://www.globalmilitary.net/nuclear/pak/",
+      "bloc": "institutional",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T00:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
       "watch_terms": [
-        "IRGC"
+        "Pakistan nuclear"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "Pakistan tests new Taimoor air-launched cruise missile from Mirage III",
+      "summary": "Pakistan successfully tested new 600 km low-observable air-launched cruise missile from Mirage III aircraft on January 3. Taimoor ALCM features terrain-hugging capability at 150m altitude, representing advancement in Pakistan's nuclear delivery systems amid regional tensions.",
+      "source": "Global Military",
+      "url": "https://www.globalmilitary.net/nuclear/pak/",
+      "bloc": "institutional",
+      "date": "2026-01-03",
+      "datetime": "2026-01-03T00:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Pakistan nuclear"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "Suicide bomber kills five in Pakistan police station attack during peace talks",
+      "summary": "Suicide bomber rammed explosives-laden vehicle into police station in Bannu district, killing at least five people and wounding others, even as Pakistan-Afghanistan peace talks continued in China. Attack underscores ongoing militant threat despite diplomatic efforts.",
+      "source": "Associated Press",
+      "url": "https://www.usnews.com/news/world/articles/2026-04-03/china-says-peace-talks-between-afghanistan-and-pakistan-are-advancing",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T00:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Pakistan military"
       ],
       "dimensions": [],
       "variable_key": null,
       "event_type": "personnel_killed",
-      "escalation": 5,
+      "escalation": 4,
       "persian_only": false,
-      "dimension_signal": null,
       "_from": "claude"
     },
     {
-      "headline": "Netanyahu skips Davos 2026 to avoid ICC arrest warrant execution in Switzerland",
-      "summary": "Israeli Prime Minister Benjamin Netanyahu avoided attending World Economic Forum in Switzerland due to ICC arrest warrant. Legal experts characterize decision as most dramatic legal development in Israel's history with 124 Rome Statute parties obligated to arrest.",
+      "headline": "Netanyahu skips Davos 2026 to avoid ICC arrest warrant enforcement",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu avoided attending World Economic Forum in Switzerland due to ICC arrest warrant, with Switzerland being Rome Statute signatory. International law professor calls it 'most dramatic legal development in Israel's history' affecting Netanyahu's travel to 124 countries.",
       "source": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/International_Criminal_Court_arrest_warrants_for_Israeli_leaders",
       "bloc": "institutional",
-      "date": "2026-01-20",
-      "datetime": "2026-01-20T00:00:00Z",
+      "date": "2026-01-01",
+      "datetime": "2026-01-01T00:00:00Z",
       "leaders": [
         "Benjamin Netanyahu"
       ],
@@ -925,46 +950,129 @@
         "accountability"
       ],
       "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
+      "event_type": "leader_statement",
+      "escalation": 5,
       "persian_only": false,
       "dimension_signal": {
         "leader": "Benjamin Netanyahu",
         "dimension": "accountability",
         "proposed_delta": 2,
-        "rationale": "Avoiding international forum demonstrates constraint by legal accountability mechanisms",
+        "rationale": "ICC arrest warrant severely limits international travel and increases accountability pressure",
         "confidence": "high"
       },
       "_from": "claude"
     },
     {
-      "headline": "Israeli legal officials delay ICJ evidence submission to March 12 amid classified war crimes defense",
-      "summary": "Israel obtained multiple delays of ICJ evidence-gathering from July 2025 to March 2026. Jerusalem Post reports massive upcoming brief defending against war crimes charges will likely remain classified for another year despite intensive legal campaign.",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-882076",
-      "bloc": "regional",
-      "date": "2026-01-04",
-      "datetime": "2026-01-04T00:00:00Z",
+      "headline": "Hun­gary expected to host Netanyahu despite ICC obligations",
+      "summary": "Human Rights Watch demands Hungary arrest Netanyahu during expected March 21 visit for Conservative Political Action Conference, despite Hungary's ongoing ICC membership obligations. Visit comes shortly before Hungary's April 12 national elections.",
+      "source": "Human Rights Watch",
+      "url": "https://www.hrw.org/news/2026/03/20/hungary-arrest-netanyahu-if-he-visits",
+      "bloc": "institutional",
+      "date": "2026-03-20",
+      "datetime": "2026-03-20T00:00:00Z",
       "leaders": [
         "Benjamin Netanyahu"
       ],
       "watch_terms": [
-        "ICC Netanyahu",
-        "trial hearing"
+        "ICC Netanyahu"
       ],
       "dimensions": [
         "accountability"
       ],
       "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
+      "event_type": "leader_statement",
+      "escalation": 5,
       "persian_only": false,
       "dimension_signal": {
         "leader": "Benjamin Netanyahu",
         "dimension": "accountability",
         "proposed_delta": 1,
-        "rationale": "Strategic legal delays show ongoing impact of judicial proceedings on government operations",
+        "rationale": "Some countries still willing to host him despite ICC warrant reduces immediate accountability pressure",
         "confidence": "medium"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "Modi government faces diplomatic setback as Pakistan gains US favor",
+      "summary": "Analysis suggests Pakistan has successfully broken diplomatic quarantine Modi worked to impose, with Trump administration imposing 50% tariffs on India while increasing outreach to Islamabad. Brief May 2025 conflict allowed Pakistan to leverage cease-fire for diplomatic gains.",
+      "source": "Foreign Policy",
+      "url": "https://foreignpolicy.com/2026/04/03/pakistan-iran-diplomacy-mediation-munir-india/",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T00:00:00Z",
+      "leaders": [
+        "Narendra Modi",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "approval rating",
+        "Modi coalition"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Narendra Modi",
+        "dimension": "accountability",
+        "proposed_delta": 1,
+        "rationale": "Diplomatic isolation and US tariffs increase domestic accountability pressure on Modi government",
+        "confidence": "medium"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "Afghanistan-Pakistan border clashes escalate with Taliban deployment of 15,000 troops",
+      "summary": "Taliban deployed 15,000 troops to Pakistan-Afghanistan border in December 2024 following ongoing skirmishes, armed with Soviet-era tanks and Humvees. Fighting has claimed dozens of lives with Afghan civilians reportedly bearing heaviest brunt of clashes.",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Afghanistan%E2%80%93Pakistan_skirmishes_(2024-present)",
+      "bloc": "western",
+      "date": "2024-12-30",
+      "datetime": "2024-12-30T00:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Pakistan military"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "regional_strike",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "Pakistan's military hopes to settle domestic political conflict before Afghanistan offensive",
+      "summary": "General Asim Munir believes army must first settle domestic political conflict with PTI party before any offensive inside Afghanistan. Without political party buy-in, military risks fighting on two fronts: messy conflict abroad and legitimacy crisis at home.",
+      "source": "The Intercept",
+      "url": "https://www.dropsitenews.com/p/pakistan-afghanistan-pti-imran-khan-trump",
+      "bloc": "western",
+      "date": "2025-02-07",
+      "datetime": "2025-02-07T00:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Pakistan military",
+        "Munir"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "General Asim Munir",
+        "dimension": "survival",
+        "proposed_delta": 1,
+        "rationale": "Recognition that domestic political legitimacy crisis threatens military's ability to operate abroad",
+        "confidence": "high"
       },
       "_from": "claude"
     }
