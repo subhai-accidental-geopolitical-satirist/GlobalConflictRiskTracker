@@ -886,6 +886,10 @@ var DW={narcissism:20,impulsivity:18,values:15,survival:25,accountability:22};
 var DT={narcissism:2.5,impulsivity:2.8,values:3.0,survival:2.0,accountability:2.3};
 var DC={narcissism:'#C48A92',impulsivity:'#C9A84C',values:'#5DCAA5',survival:'#9E6B72',accountability:'#3D9E68'};
 var WATCH_STATE={leaders:{},vars:{}};
+function calcBellicosity(l){
+  var d=l.dims;if(!d)return l.b||50;
+  return Math.round(d.narcissism*0.20+d.impulsivity*0.18+(100-d.values)*0.15+d.survival*0.25+(100-d.accountability)*0.22);
+}
 
 // ── LEADERS API ──
 function loadLeaders(cb){
@@ -975,8 +979,9 @@ function renderLeaders(){
   var el=document.getElementById('leadersGrid');if(!el)return;
   var COLORS=['#C48A92','#C9A84C','#9E6B72','#C48A92','#5DCAA5','#C9A84C','#5DCAA5','#C48A92','#3D9E68','#C48A92','#C9A84C'];
   el.innerHTML=LEADERS.map(function(l,i){
-    var risk=l.b>=85?'rc':l.b>=75?'rh':'re';
-    var rtxt=l.b>=85?'CRITICAL':l.b>=75?'HIGH':'ELEVATED';
+    var bel=calcBellicosity(l);
+    var risk=bel>=85?'rc':bel>=75?'rh':'re';
+    var rtxt=bel>=85?'CRITICAL':bel>=75?'HIGH':'ELEVATED';
     return '<div class="lc">' +
       '<div class="lc-h"><span class="rbadge '+risk+'">'+rtxt+'</span><div class="lc-n">'+l.n+'</div><div class="lc-r">'+l.r+'</div></div>' +
       '<div class="lc-b">' +
@@ -998,8 +1003,9 @@ function renderAssessment(){
   var CCLASS={high:'chigh',med:'cmed',low:'clow'};
   var CLAB={high:'HIGH CONFIDENCE',med:'MEDIUM CONFIDENCE',low:'LOW CONFIDENCE'};
   el.innerHTML=LEADERS.map(function(l){
-    var risk=l.b>=85?'rc':l.b>=75?'rh':'re';
-    var rtxt=l.b>=85?'CRITICAL':l.b>=75?'HIGH':'ELEVATED';
+    var bel=calcBellicosity(l);
+    var risk=bel>=85?'rc':bel>=75?'rh':'re';
+    var rtxt=bel>=85?'CRITICAL':bel>=75?'HIGH':'ELEVATED';
     var w=l.weights||DW;
     return '<div class="assess-leader">' +
       '<div class="alh"><div><div class="aln">'+l.n+'</div><div class="alr">'+l.r+'</div></div><span class="rbadge '+risk+'">'+rtxt+'</span></div>' +
@@ -1073,7 +1079,7 @@ function drawInterdep(){
   });
   // Draw nodes
   Object.keys(nodes).forEach(function(name){
-    var nd=nodes[name],l=nd.l,risk=l.b||50;
+    var nd=nodes[name],l=nd.l,risk=calcBellicosity(l);
     var nc=risk>=85?'#C48A92':risk>=75?'#C9A84C':'#5DCAA5';
     ctx.save();ctx.shadowColor=nc;ctx.shadowBlur=10;
     ctx.beginPath();ctx.arc(nd.x,nd.y,nd.r,0,Math.PI*2);ctx.fillStyle='#0D1A10';ctx.fill();ctx.restore();
@@ -1123,7 +1129,7 @@ function initIdEvents(){
     if(!hit){tip.style.display='none';return;}
     var d=hit.data,html='';
     if(hit.type==='conn'){html='<div class="idt-from">'+d.from+(d.from===d.to?' → Self':' → '+d.to)+'</div><div class="idt-label">'+d.label+'</div><div class="idt-detail">'+d.detail+'</div><div class="idt-src">SOURCES: '+d.src+'</div>';}
-    else{html='<div class="idt-from">Leader Profile</div><div class="idt-label">'+d.n+'</div><div class="idt-detail">'+d.r+'</div><div class="idt-detail">Overall Risk: <strong style="color:var(--mu2)">'+d.b+'</strong></div>';}
+    else{html='<div class="idt-from">Leader Profile</div><div class="idt-label">'+d.n+'</div><div class="idt-detail">'+d.r+'</div><div class="idt-detail">Overall Risk: <strong style="color:var(--mu2)">'+calcBellicosity(d)+'</strong></div>';}
     tip.innerHTML=html;tip.style.display='block';
     var tx=e.clientX+14,ty=e.clientY-10;
     if(tx+270>window.innerWidth)tx=e.clientX-280;
