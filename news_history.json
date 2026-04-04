@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-04T08:03:12.048Z",
+  "updated": "2026-04-04T14:06:45.174Z",
   "retention_days": 30,
   "items": [
     {
@@ -2562,40 +2562,6 @@
       "run_id": "2026-04-04T08:03"
     },
     {
-      "headline": "Pakistan's Field Marshal Munir Deploys 'Ghatak' Units Along India Border",
-      "summary": "Field Marshal Asim Munir has allegedly deployed specialized 'killer' units along the Jammu-Rajouri border for potential Border Action Team attacks against Indian Army personnel, according to Indian intelligence reports.",
-      "source": "India.com",
-      "url": "https://www.india.com/news/world/pakistan-asim-munir-shehbaz-sharif-pakistani-army-ghatak-border-action-team-jammu-rajouri-narendra-modi-pahalgam-terrorist-attack-operation-sindoor-line-of-control-8276953/",
-      "bloc": "regional",
-      "date": "2026-01-22",
-      "datetime": "2026-01-22T08:00:00Z",
-      "leaders": [
-        "General Asim Munir"
-      ],
-      "watch_terms": [
-        "Pakistan military",
-        "LoC violations",
-        "Pakistan nuclear"
-      ],
-      "dimensions": [
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "General Asim Munir",
-        "dimension": "impulsivity",
-        "proposed_delta": 2,
-        "rationale": "Deployment of specialized attack units during ongoing regional tensions shows increased risk-taking",
-        "confidence": "medium"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-04T08:03:12.048Z",
-      "run_id": "2026-04-04T08:03"
-    },
-    {
       "headline": "Trump Administration Approaches 60-Day War Powers Resolution Deadline on Iran",
       "summary": "President Trump faces mounting congressional pressure as the 60-day War Powers Resolution deadline approaches, with Congress yet to authorize the Iran military operation despite ongoing combat.",
       "source": "Military.com",
@@ -2831,7 +2797,429 @@
       "_from": "claude",
       "first_seen": "2026-04-04T08:03:12.048Z",
       "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Iranian state TV claims US fighter pilot ejected over southwestern Iran",
+      "summary": "The report has not been independently verified, and US authorities, including Central Command and the White House, have not responded to the claim",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/iranian-state-tv-claims-us-fighter-pilot-ejected-over-southwestern-iran/article70820121.ece",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T13:44:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T14:06:45.173Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "“Make A Deal Before It’s Too Late”: Trump Threatens Tehran (Again)",
+      "summary": "World's most important oil price hits record high as Trump threatens Iran: \"make a deal before it's too late.\"",
+      "source": "Shtfplan.com",
+      "url": "https://www.shtfplan.com/war/make-a-deal-before-its-too-late-trump-threatens-tehran-again",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T12:30:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T14:06:45.173Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "How does Hormuz closure affect U.S. oil? #world",
+      "summary": "Strait of Hormuz: a choke point with U.S. price spillovers U.S. and allied officials are racing to reopen or secure maritime transit through the Strait of Hormuz , a vital corridor for global oil and gas shipments. In the current Iran war, multiple reports de…",
+      "source": "Alltoc.com",
+      "url": "https://alltoc.com/world/how-does-hormuz-closure-affect-u-s-oil",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T12:04:09Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Russia’s Oil Revenues Halved in March Before Iran War Boost",
+      "summary": "Russia’s oil tax revenue in March dropped by nearly half compared to a year earlier, highlighting the Kremlin’s financial strain just before the Middle East war delivered an unexpected boost to Moscow’s earnings.",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/russias-oil-revenues-halved-in-march-before-iran-war-boost",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T13:02:18Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Iran’s former diplomat calls for US deal to end conflict as ceasefire markets dip",
+      "summary": "The call for US-Iran negotiations highlights potential diplomatic shifts, but market skepticism suggests limited immediate impact.\nThe post Iran’s former diplomat calls for US deal to end conflict as ceasefire markets dip appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/irans-former-diplomat-calls-for-us-deal-to-end-conflict-as-ceasefire-markets-dip/",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T12:15:28Z",
+      "leaders": [
+        "Donald J. Trump",
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Iran US diplomacy"
+      ],
+      "dimensions": [
+        "values",
+        "survival"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "IRGC-linked money changers arrested in UAE deals major blow to Iran's sanctions-evasion network",
+      "summary": "UAE arrested dozens of IRGC-linked money changers operating sanctions-evasion network. Iran International reports this represents one of the most serious blows to Tehran's financial operations, exposing heavy reliance on Dubai as economic lifeline amid ongoing war.",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en",
+      "bloc": "persian",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T00:00:00Z",
+      "leaders": [],
+      "watch_terms": [],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 4,
+      "persian_only": true,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "IAEA unable to verify location of Iran's highly enriched uranium amid underground facilities",
+      "summary": "International Atomic Energy Agency reported inability to resume inspections in Iran with highly enriched uranium location unascertained, despite eight months since June 2025 nuclear strikes. Much uranium expected at underground facilities in Isfahan amid Iran's breakout capability.",
+      "source": "UK Parliament Research Briefings",
+      "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10521/CBP-10521.pdf",
+      "bloc": "institutional",
+      "date": "2026-03-31",
+      "datetime": "2026-03-31T00:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "nuclear Iran",
+        "IAEA"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "UN Security Council adopts resolution condemning Iran's attacks on Gulf states by 13-0 vote",
+      "summary": "Security Council Resolution 2817 adopted with 13 votes in favor, 135 co-sponsors, condemning Iran's attacks against Gulf neighbors. China and Russia abstained but did not veto, marking largest number of countries ever to cosponsor UNSC resolution.",
+      "source": "UN Press Release",
+      "url": "https://press.un.org/en/2026/sc16315.doc.htm",
+      "bloc": "institutional",
+      "date": "2026-03-12",
+      "datetime": "2026-03-12T00:00:00Z",
+      "leaders": [],
+      "watch_terms": [],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "regional_strike",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Mohammad Javad Zarif proposes Iran ceasefire deal in Foreign Affairs magazine",
+      "summary": "Iran's former nuclear negotiator Mohammad Javad Zarif published ceasefire proposal in Foreign Affairs, offering nuclear limits and Hormuz reopening for sanctions relief. Zarif maintains Iran is 'clearly winning' but suggests deal Washington might now accept.",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-strike-b-1-bridge-tehran-hormuz-israel-rcna266522",
+      "bloc": "western",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T00:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "Iran ceasefire",
+        "nuclear Iran"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 2,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Explosions reported at Iran's Bushehr Nuclear Power Plant and Mahshahr petrochemical zone",
+      "summary": "Explosions occurred at auxiliary building of Bushehr Nuclear Power Plant and Mahshahr Special Petrochemical Zone on April 4. Attacks represent continuation of infrastructure targeting amid Iran war escalation.",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+      "bloc": "institutional",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T00:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "nuclear Iran"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Trump extends Iran deadline for Hormuz reopening to April 6 citing ongoing negotiations",
+      "summary": "Trump posted on Truth Social pausing energy plant destruction deadline by 10 days to April 6, citing Iranian government request. Administration claims talks going 'very well' despite Iran's denials of negotiations.",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions",
+      "bloc": "western",
+      "date": "2026-03-26",
+      "datetime": "2026-03-26T00:00:00Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Iran ceasefire",
+        "Trump"
+      ],
+      "dimensions": [
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 3,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Donald J. Trump",
+        "dimension": "impulsivity",
+        "proposed_delta": -1,
+        "rationale": "Extended deadline shows restraint from immediate action despite ultimatum rhetoric",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "US forces strike 8,000 Iranian military targets including 130 vessels in Hormuz operations",
+      "summary": "Admiral Brad Cooper reported US military struck over 8,000 Iranian military targets including 130 vessels in campaign to reopen Strait of Hormuz. Operations represent massive escalation of US direct military engagement against Iranian forces.",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+      "bloc": "institutional",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T00:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "Strait Hormuz"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "regional_strike",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Mojtaba Khamenei vows to keep Strait of Hormuz closed as leverage against US and Israel",
+      "summary": "Iran's new Supreme Leader Mojtaba Khamenei made first public statement since succession, declaring Hormuz closure should continue as leverage. Statement read on state television emphasized continuation of attacks on Gulf Arab neighbors.",
+      "source": "PBS News",
+      "url": "https://www.pbs.org/newshour/world/irans-supreme-leader-says-closure-of-strait-of-hormuz-should-be-used-as-leverage",
+      "bloc": "western",
+      "date": "2026-03-12",
+      "datetime": "2026-03-12T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran",
+        "Strait Hormuz"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "survival",
+        "proposed_delta": 2,
+        "rationale": "First public statement emphasizes defiant stance and continued resistance despite massive attacks",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Israel kills IRGC Navy commander Alireza Tangsiri in overnight strike confirmed by Pakistan mediator",
+      "summary": "Israel's Defense Minister Israel Katz announced killing of Alireza Tangsiri, head of Iranian Revolutionary Guard's navy, in overnight strike. Pakistani official following negotiations confirmed the death, representing targeted elimination of key Iranian military leader.",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions",
+      "bloc": "western",
+      "date": "2026-03-26",
+      "datetime": "2026-03-26T00:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "IRGC"
+      ],
+      "dimensions": [],
+      "variable_key": null,
+      "event_type": "personnel_killed",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Netanyahu skips Davos 2026 to avoid ICC arrest warrant execution in Switzerland",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu avoided attending World Economic Forum in Switzerland due to ICC arrest warrant. Legal experts characterize decision as most dramatic legal development in Israel's history with 124 Rome Statute parties obligated to arrest.",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/International_Criminal_Court_arrest_warrants_for_Israeli_leaders",
+      "bloc": "institutional",
+      "date": "2026-01-20",
+      "datetime": "2026-01-20T00:00:00Z",
+      "leaders": [
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "ICC Netanyahu"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Benjamin Netanyahu",
+        "dimension": "accountability",
+        "proposed_delta": 2,
+        "rationale": "Avoiding international forum demonstrates constraint by legal accountability mechanisms",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
+    },
+    {
+      "headline": "Israeli legal officials delay ICJ evidence submission to March 12 amid classified war crimes defense",
+      "summary": "Israel obtained multiple delays of ICJ evidence-gathering from July 2025 to March 2026. Jerusalem Post reports massive upcoming brief defending against war crimes charges will likely remain classified for another year despite intensive legal campaign.",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-882076",
+      "bloc": "regional",
+      "date": "2026-01-04",
+      "datetime": "2026-01-04T00:00:00Z",
+      "leaders": [
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "ICC Netanyahu",
+        "trial hearing"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Benjamin Netanyahu",
+        "dimension": "accountability",
+        "proposed_delta": 1,
+        "rationale": "Strategic legal delays show ongoing impact of judicial proceedings on government operations",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T14:06:45.174Z",
+      "run_id": "2026-04-04T14:06"
     }
   ],
-  "total_items_ever": 109
+  "total_items_ever": 125
 }

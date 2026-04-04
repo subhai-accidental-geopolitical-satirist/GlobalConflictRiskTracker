@@ -1,8 +1,8 @@
 {
   "analysis_period": {
-    "start_date": "2026-01-22",
-    "end_date": "2026-04-03",
-    "items_evaluated": 100,
+    "start_date": "2026-01-04",
+    "end_date": "2026-04-04",
+    "items_evaluated": 115,
     "source_blocs_represented": [
       "western",
       "persian",
@@ -18,268 +18,358 @@
       "proposed_delta": 0,
       "proposed_new_score": 90,
       "confidence": "high",
-      "pattern_description": "Sustained pattern of reactive escalatory threats without diplomatic groundwork. Trump publicly insists Iran is 'eager for a deal' while simultaneously threatening to destroy Iran power plants, declaring US 'hasn't even started' destruction efforts, and issuing escalatory warnings within hours of each other. This reflects rapid reversal and unilateral threat-making characteristic of high impulsivity.",
+      "pattern_description": "Sustained pattern of reactive, escalatory threats with rapid deadline revisions. Trump issued repeated threats to destroy Iranian power plants (Apr 3), extended Iran deadline for Hormuz reopening on short notice (Mar 26), and issued ultimatums framed as negotiation tactics ('Make A Deal Before It's Too Late'). Pattern shows reactive response to tactical developments (downed F-35 report) rather than deliberative strategy.",
       "evidence_chain": [
-        {
-          "date": "2026-04-03",
-          "source": "Protothema.gr",
-          "bloc": "western",
-          "headline": "Trump insists: Iran is \"eager\" for a deal – At least 8 dead in bridge bombing in Tehran (updated)",
-          "relevance": "Trump simultaneously claims readiness for negotiation while military escalation continues, demonstrating impulsive contradiction"
-        },
         {
           "date": "2026-04-03",
           "source": "CNBC",
           "bloc": "western",
           "headline": "Trump threatens to destroy Iran power plants as reports emerge of downed U.S. F-35",
-          "relevance": "Reactive threat-making in response to military setback, escalatory without strategic deliberation"
+          "relevance": "Reactive threat issued in response to specific military incident, exemplifies impulsive escalation"
         },
         {
           "date": "2026-04-03",
           "source": "Globalsecurity.org",
           "bloc": "western",
           "headline": "Trump Warns US 'Hasn't Even Started' To Destroy Iran, Says Regime Must Act 'Fast'",
-          "relevance": "Hyperbolic escalatory messaging contradicting deal-making position from same day, characteristic impulsive reversal"
+          "relevance": "Hyperbolic threat language designed for immediate pressure, not calibrated strategic communication"
+        },
+        {
+          "date": "2026-03-26",
+          "source": "NPR",
+          "bloc": "western",
+          "headline": "Trump extends Iran deadline for Hormuz reopening to April 6 citing ongoing negotiations",
+          "relevance": "Demonstrates pattern of deadline flexibility driven by tactical developments rather than strategic plan"
+        },
+        {
+          "date": "2026-04-03",
+          "source": "Shtfplan.com",
+          "bloc": "western",
+          "headline": "\"Make A Deal Before It's Too Late\": Trump Threatens Tehran (Again)",
+          "relevance": "Repeated threat framing suggests reactive escalation pattern rather than one-time decision"
         }
       ],
-      "items_supporting": 3,
+      "items_supporting": 4,
       "blocs_represented": [
         "western"
       ],
       "threshold_met": false,
-      "counter_evidence": "Score of 90 already reflects extremely high impulsivity; pattern is consistent with existing assessment rather than justifying change"
+      "counter_evidence": "Score already at 90/100; threshold for change is ±2.8 points requiring 4+ items and sustained pattern. While evidence supports current high score, insufficient delta movement justifies proposal. Current score appears calibrated to observed behavior."
     },
     {
-      "leader": "Mojtaba Khamenei",
+      "leader": "Benjamin Netanyahu",
       "dimension": "accountability",
-      "current_score": 70,
-      "proposed_delta": -5,
-      "proposed_new_score": 65,
+      "current_score": 18,
+      "proposed_delta": -8,
+      "proposed_new_score": 10,
       "confidence": "high",
-      "pattern_description": "Sustained pattern of systematically dismantling accountability mechanisms to consolidate power during crisis. IRGC Intelligence threatened Assembly of Experts' families to secure Mojtaba's leadership succession, followed by control of presidential access and internet blackout to suppress civilian oversight. These represent deliberate, escalating bypassing of institutional checks.",
+      "pattern_description": "Systematic evasion of ICC accountability mechanisms through deliberate legal delays and international avoidance. Netanyahu skipped Davos 2026 specifically to avoid ICC warrant execution (Jan 20), delayed ICJ evidence submission using classified war crimes defense (Jan 4), and further delayed ICC trial to March 2026 (Mar 12). Pattern demonstrates active dismantling of accountability through legal proceduralism and jurisdictional avoidance.",
       "evidence_chain": [
         {
-          "date": "2026-03-29",
-          "source": "IranWire",
-          "bloc": "persian",
-          "headline": "IRGC Intelligence Threatened Assembly of Experts' Families to Secure Mojtaba's Leadership",
-          "relevance": "Direct evidence of coercive dismantling of Assembly of Experts' accountability role through threats to civilian families"
-        },
-        {
-          "date": "2026-04-01",
-          "source": "The Week",
+          "date": "2026-01-20",
+          "source": "Wikipedia",
           "bloc": "institutional",
-          "headline": "Mojtaba Khamenei's Whereabouts Spark Crisis as IRGC Controls Presidential Access",
-          "relevance": "IRGC deliberately controlling information and access to consolidate power, bypassing presidential and civilian institutional checks"
+          "headline": "Netanyahu skips Davos 2026 to avoid ICC arrest warrant execution in Switzerland",
+          "relevance": "Direct evidence of deliberate avoidance of accountability mechanism (ICC warrant) through strategic location avoidance"
         },
         {
-          "date": "2026-04-01",
-          "source": "Iran International",
-          "bloc": "persian",
-          "headline": "Iran's Internet Blackout Enters 35th Day with 1% Connectivity",
-          "relevance": "Sustained internet suppression prevents civilian oversight and accountability information flow during power consolidation"
+          "date": "2026-01-04",
+          "source": "Jerusalem Post",
+          "bloc": "regional",
+          "headline": "Israeli legal officials delay ICJ evidence submission to March 12 amid classified war crimes defense",
+          "relevance": "Systemic use of legal proceduralism and classification to delay accountability proceedings"
+        },
+        {
+          "date": "2026-03-12",
+          "source": "The Jerusalem Post",
+          "bloc": "institutional",
+          "headline": "Netanyahu ICC Trial Delayed Until March 2026 Amid War",
+          "relevance": "Further evidence of deliberate trial delay strategy, framed as war-related necessity"
         }
       ],
       "items_supporting": 3,
       "blocs_represented": [
-        "persian",
-        "institutional"
+        "institutional",
+        "regional"
       ],
       "threshold_met": true,
-      "counter_evidence": "None; pattern is unidirectional and sustained over 11-day period (March 29 - April 1)"
+      "counter_evidence": "No counter-evidence of Netanyahu engaging accountability mechanisms or accepting legal proceedings voluntarily. Pattern shows consistent avoidance across multiple jurisdictions (ICC, ICJ)."
     },
     {
       "leader": "Mojtaba Khamenei",
-      "dimension": "impulsivity",
-      "current_score": 50,
-      "proposed_delta": 8,
-      "proposed_new_score": 58,
-      "confidence": "medium",
-      "pattern_description": "Escalating pattern of reactive military signaling without strategic coordination. Iran threatens to expand strikes to Bab el-Mandeb Strait, establishes Larak Island 'toll booth' for strait control, and conducts mine-laying operations—all rapid reactive responses to military pressure rather than coordinated strategy. Frequency of unilateral escalatory actions suggests increased impulsive decision-making.",
+      "dimension": "survival",
+      "current_score": 90,
+      "proposed_delta": 2,
+      "proposed_new_score": 92,
+      "confidence": "high",
+      "pattern_description": "Intensified primary reliance on survival-driven tactical decisions through military straits control and regime cohesion maintenance amid external pressure. Khamenei established Larak Island 'toll booth' for Hormuz control (Apr 2), vowed to keep Strait closed as leverage (Mar 12), threatened to expand strikes to Bab el-Mandeb (Apr 1), and implemented internet blackout (35+ days by Apr 1) to suppress internal dissent while facing external military threat. Every major decision prioritizes physical/political survival over any other objective.",
       "evidence_chain": [
         {
           "date": "2026-04-02",
           "source": "CNBC",
           "bloc": "western",
           "headline": "Iran Establishes Larak Island 'Toll Booth' to Control Strait of Hormuz Shipping",
-          "relevance": "Unilateral escalatory action establishing economic chokepoint, reactive to military pressure rather than strategically deliberated"
+          "relevance": "Strategic infrastructure decision explicitly designed for survival leverage in asymmetric conflict"
+        },
+        {
+          "date": "2026-03-12",
+          "source": "PBS News",
+          "bloc": "western",
+          "headline": "Mojtaba Khamenei vows to keep Strait of Hormuz closed as leverage against US and Israel",
+          "relevance": "Explicit survival-driven strategy: using economic leverage as deterrent to military threat"
         },
         {
           "date": "2026-04-01",
           "source": "Iran International",
           "bloc": "persian",
           "headline": "Iran Threatens to Expand Strikes to Bab el-Mandeb Strait",
-          "relevance": "Rapid threat escalation to secondary strait targeting, expanding warfare without clear operational plan"
+          "relevance": "Escalatory survival tactic: expanding threat scope to increase deterrence value"
         },
         {
-          "date": "2026-03-10",
+          "date": "2026-04-01",
+          "source": "Iran International",
+          "bloc": "persian",
+          "headline": "Iran's Internet Blackout Enters 35th Day with 1% Connectivity",
+          "relevance": "Information control as survival mechanism: suppressing internal dissent while regime faces external military pressure"
+        },
+        {
+          "date": "2026-03-08",
           "source": "Radio Farda",
           "bloc": "persian",
-          "headline": "US Central Command Reports Iranian Mine-Laying Ships Destroyed",
-          "relevance": "Reactive mine-laying operations in response to military escalation, characteristic impulsive tactical response"
+          "headline": "Tehran Protests Against New Supreme Leader Mojtaba Khamenei Continue",
+          "relevance": "Evidence of internal regime cohesion threat that justifies information control and survival-first decision-making"
         }
       ],
-      "items_supporting": 3,
+      "items_supporting": 5,
       "blocs_represented": [
         "western",
         "persian"
       ],
-      "threshold_met": false,
-      "counter_evidence": "Current impulsivity score of 50 already reflects moderate-high reactive decision-making; proposed +8 delta only brings to 58, which is within normal range variation and may not represent sustained behavioral shift requiring proposal"
+      "threshold_met": true,
+      "counter_evidence": "Zarif ceasefire proposal (Apr 4) represents minor divergence, but sourced from Foreign Affairs (western publication) and attributed to Zarif not Khamenei, suggesting regime-level survival priority overrides diplomatic overtures."
     },
     {
-      "leader": "Recep Tayyip Erdogan",
+      "leader": "Donald J. Trump",
       "dimension": "accountability",
-      "current_score": 18,
-      "proposed_delta": -8,
-      "proposed_new_score": 10,
-      "confidence": "high",
-      "pattern_description": "Systematic dismantling of political accountability through arrest and detention of opposition mayors. Istanbul Mayor Imamoglu arrest represents direct removal of electoral accountability mechanism and reshaping of political field through coercive rather than electoral means. This is deliberate institutional bypass.",
-      "evidence_chain": [
-        {
-          "date": "2026-03-19",
-          "source": "Just Security",
-          "bloc": "institutional",
-          "headline": "Istanbul Mayor Imamoglu Arrested as Erdogan Reshapes Political Field",
-          "relevance": "Direct removal of elected opposition figure, eliminating electoral accountability mechanism through detention rather than electoral process"
-        }
-      ],
-      "items_supporting": 1,
-      "blocs_represented": [
-        "institutional"
-      ],
-      "threshold_met": false,
-      "counter_evidence": "Single item insufficient to meet threshold of 3+ items; need additional sustained evidence of systematic accountability dismantling beyond this single arrest"
-    },
-    {
-      "leader": "Benjamin Netanyahu",
-      "dimension": "accountability",
-      "current_score": 18,
-      "proposed_delta": 0,
-      "proposed_new_score": 18,
+      "current_score": 12,
+      "proposed_delta": -3,
+      "proposed_new_score": 9,
       "confidence": "medium",
-      "pattern_description": "While ICC trial delayed until March 2026 and military operations continue, evidence does not show ACTIVE DISMANTLING of accountability mechanisms—rather, Netanyahu is operating within existing legal constraints that permit wartime operations. Delay reflects procedural timing, not institutional bypass.",
+      "pattern_description": "Deliberate circumvention of War Powers Resolution accountability requirements through deadline extension tactics. Trump administration approached 60-day War Powers deadline (Apr 2) without congressional authorization framework, then extended Iran deadline to Apr 6 while maintaining military operations, effectively bypassing formal congressional constraint mechanism that requires reporting/justification.",
       "evidence_chain": [
         {
-          "date": "2026-03-12",
-          "source": "The Jerusalem Post",
+          "date": "2026-04-02",
+          "source": "Military.com",
           "bloc": "institutional",
-          "headline": "Netanyahu ICC Trial Delayed Until March 2026 Amid War",
-          "relevance": "Trial delay is procedural consequence of ongoing war, not evidence of Netanyahu dismantling accountability structure"
+          "headline": "Trump Administration Approaches 60-Day War Powers Resolution Deadline on Iran",
+          "relevance": "Trump administration facing formal accountability requirement but no evidence of pre-emptive authorization or compliance submission"
+        },
+        {
+          "date": "2026-03-26",
+          "source": "NPR",
+          "bloc": "western",
+          "headline": "Trump extends Iran deadline for Hormuz reopening to April 6 citing ongoing negotiations",
+          "relevance": "Deadline extension used to defer accountability mechanism trigger, framed as negotiation necessity"
         }
       ],
-      "items_supporting": 1,
+      "items_supporting": 2,
       "blocs_represented": [
-        "institutional"
+        "institutional",
+        "western"
       ],
       "threshold_met": false,
-      "counter_evidence": "No evidence of Netanyahu actively dismantling accountability mechanisms; war provides legal shield for many actions but does not constitute systematic accountability elimination"
+      "counter_evidence": "Threshold requires 3+ items and 2+ source blocs. Only 2 items identified; insufficient evidence for sustained pattern of deliberate bypass vs. standard executive war powers assertion."
+    },
+    {
+      "leader": "General Asim Munir",
+      "dimension": "narcissism",
+      "current_score": 60,
+      "proposed_delta": 5,
+      "proposed_new_score": 65,
+      "confidence": "medium",
+      "pattern_description": "Elevated narcissistic positioning through Pakistan's emergence as key Iran-US mediator, displacing India as previously marginalized regional power. Munir/Pakistan military leveraged geopolitical opportunity to position themselves as indispensable mediator, potentially for regime credibility and validation.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-03",
+          "source": "Foreign Policy",
+          "bloc": "western",
+          "headline": "India Marginalized as Pakistan Emerges as Key Iran-US Mediator",
+          "relevance": "Direct evidence of Pakistan military (Munir's domain) achieving elevated status and centrality in major geopolitical crisis"
+        },
+        {
+          "date": "2026-03-26",
+          "source": "NPR",
+          "bloc": "western",
+          "headline": "Israel kills IRGC Navy commander Alireza Tangsiri in overnight strike confirmed by Pakistan mediator",
+          "relevance": "Pakistan military (Munir) positioned as authoritative verifier of major military development, demonstrating elevated validation-seeking role"
+        }
+      ],
+      "items_supporting": 2,
+      "blocs_represented": [
+        "western"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Threshold requires 3+ items with 2+ source blocs. Only 2 items and single source bloc (western). Insufficient for sustained pattern proposal."
     }
   ],
   "variable_proposals": [
     {
       "variable": "straitControl",
-      "current_assessment": "Hormuz under contested Iranian influence with sporadic enforcement; Bab el-Mandeb remains open but increasingly targeted",
+      "current_assessment": "Iran has established de facto control point at Larak Island; Hormuz closure threatened but not fully implemented; 35+ day internet blackout suggests control measures active",
       "proposed_direction": "increase",
       "confidence": "high",
-      "rationale": "Iran has established Larak Island 'toll booth' for Strait of Hormuz control, threatened expansion of strikes to Bab el-Mandeb Strait, and deployed mine-laying operations. These represent escalating assertion of chokepoint control over critical energy passages. Oil prices surge in response, indicating market perception of genuine supply-route risk escalation.",
+      "rationale": "Iran established Larak Island 'toll booth' for Hormuz shipping control (Apr 2), explicitly vowed to keep Strait closed as leverage (Mar 12), and threatened to expand closure to Bab el-Mandeb (Apr 1). These represent sustained escalation from threats to operational infrastructure. Internet blackout (35+ days) supports enforcement capability through regime information control.",
       "evidence_chain": [
         {
           "date": "2026-04-02",
           "source": "CNBC",
           "headline": "Iran Establishes Larak Island 'Toll Booth' to Control Strait of Hormuz Shipping",
-          "relevance": "Direct evidence of Iranian toll-booth infrastructure for Hormuz control, functional chokepoint assertion"
+          "relevance": "Direct evidence of operational control infrastructure, not just rhetorical threat"
+        },
+        {
+          "date": "2026-03-12",
+          "source": "PBS News",
+          "headline": "Mojtaba Khamenei vows to keep Strait of Hormuz closed as leverage against US and Israel",
+          "relevance": "Leadership commitment to sustained closure policy for strategic leverage"
         },
         {
           "date": "2026-04-01",
           "source": "Iran International",
           "headline": "Iran Threatens to Expand Strikes to Bab el-Mandeb Strait",
-          "relevance": "Expansion threat indicates multi-strait chokepoint strategy, not isolated Hormuz action"
-        },
-        {
-          "date": "2026-04-03",
-          "source": "BusinessLine",
-          "headline": "Oil prices surge while Asian share prices rise moderately",
-          "relevance": "Market response to strait control risk elevation confirms elevated perceived control threat"
+          "relevance": "Escalation beyond Hormuz suggests systematic strait-control strategy expansion"
         }
       ]
     },
     {
       "variable": "nuclearSignalling",
-      "current_assessment": "Iran producing 60% enriched uranium; Saudi Arabia threatening nuclear response to Iran; NPT system faces uncertain future",
+      "current_assessment": "Iran's highly enriched uranium location unverified by IAEA amid underground facility expansion (Mar 31); nuclear response rhetoric from Saudi Arabia (Mar 15) indicates perceived escalation threshold",
       "proposed_direction": "increase",
-      "confidence": "high",
-      "rationale": "Multiple signals indicate nuclear escalation dynamics: Iran confirmed producing 60% enriched uranium (only step below weapons-grade), Mohammed bin Salman reiterating nuclear response threat to Iran, and Arms Control Association warning NPT faces uncertain future. These represent sustained nuclear signaling escalation across three months.",
+      "confidence": "medium",
+      "rationale": "IAEA unable to verify location of Iran's highly enriched uranium due to underground facility concealment (Mar 31). Mohammed bin Salman reiterated nuclear response to Iran threat (Mar 15), indicating perceived proximity to nuclear threshold. US strikes targeted 8,000 Iranian military targets including 130 vessels (Apr 4), raising nuclear signalling from both sides.",
       "evidence_chain": [
         {
-          "date": "2026-03-15",
-          "source": "UK Government",
-          "headline": "E3 Statement Confirms Iran Only Non-Nuclear State Producing 60% Enriched Uranium",
-          "relevance": "Direct confirmation of near-weapons-grade uranium production, escalating nuclear capability signal"
+          "date": "2026-03-31",
+          "source": "UK Parliament Research Briefings",
+          "headline": "IAEA unable to verify location of Iran's highly enriched uranium amid underground facilities",
+          "relevance": "Iran's concealment of nuclear material location increases uncertainty and signalling risk"
         },
         {
           "date": "2026-03-15",
           "source": "Stimson Center",
           "headline": "Mohammed bin Salman Reiterates Nuclear Response to Iran Threat",
-          "relevance": "Saudi counterbalance nuclear threat in direct response to Iran program, nuclear signaling escalation"
+          "relevance": "Saudi Arabia's explicit nuclear response rhetoric raises threshold proximity signalling"
         },
         {
+          "date": "2026-04-04",
+          "source": "Wikipedia",
+          "headline": "US forces strike 8,000 Iranian military targets including 130 vessels in Hormuz operations",
+          "relevance": "Massive US military escalation increases nuclear signalling risk from both sides"
+        }
+      ]
+    },
+    {
+      "variable": "diplomaticChannels",
+      "current_assessment": "Pakistan emerging as key mediator (displacing India); Zarif proposes ceasefire in Foreign Affairs (Apr 4); direct US-Iran negotiation dynamics unclear but deadline extensions suggest ongoing communication",
+      "proposed_direction": "increase",
+      "confidence": "high",
+      "rationale": "Pakistan emerged as key Iran-US mediator (Apr 3), confirmed to have verified military developments (Mar 26). Mohammad Javad Zarif published ceasefire proposal in Foreign Affairs (Apr 4) suggesting regime willingness to signal diplomatic off-ramp. Trump extended deadline to Apr 6 citing 'ongoing negotiations' (Mar 26), indicating sustained if fragile diplomatic contact.",
+      "evidence_chain": [
+        {
           "date": "2026-04-03",
-          "source": "Arms Control Association",
-          "headline": "Arms Control Association warns NPT system faces uncertain future as 2026 review conference approaches amid nuclear expansion",
-          "relevance": "Institutional assessment that nuclear expansion is destabilizing NPT system, indicating sustained nuclear escalation trajectory"
+          "source": "Foreign Policy",
+          "headline": "India Marginalized as Pakistan Emerges as Key Iran-US Mediator",
+          "relevance": "Pakistan military established as active diplomatic channel operator"
+        },
+        {
+          "date": "2026-04-04",
+          "source": "NBC News",
+          "headline": "Mohammad Javad Zarif proposes Iran ceasefire deal in Foreign Affairs magazine",
+          "relevance": "Regime-level signal of diplomatic willingness through international publication"
+        },
+        {
+          "date": "2026-03-26",
+          "source": "NPR",
+          "headline": "Trump extends Iran deadline for Hormuz reopening to April 6 citing ongoing negotiations",
+          "relevance": "Trump explicitly framing deadline extension as negotiation tool, implying active channels"
         }
       ]
     },
     {
       "variable": "iranRegimeCohesion",
-      "current_assessment": "IRGC consolidating control; civilian institutions bypassed; succession crisis with Mojtaba; regime stability questioned",
+      "current_assessment": "35+ day internet blackout with 1% connectivity suggests severe internal control measures; ongoing Tehran protests against Mojtaba Khamenei indicate legitimacy challenge; IRGC sanctions-evasion network disrupted by UAE arrests",
       "proposed_direction": "decrease",
       "confidence": "high",
-      "rationale": "Sustained evidence of institutional fracturing: IRGC Intelligence threatening Assembly of Experts to secure Mojtaba's succession, IRGC controlling presidential access outside normal channels, Tehran protests continuing against new Supreme Leader, and 35-day internet blackout indicating loss of information control. These represent degradation of regime cohesion and institutional legitimacy.",
+      "rationale": "Internet blackout now in 35th day with only 1% connectivity (Apr 1), indicating severe regime control mechanisms required to suppress dissent. Ongoing Tehran protests against new Supreme Leader Mojtaba Khamenei (Mar 8) demonstrate active legitimacy challenge. IRGC-linked sanctions-evasion money changers arrested in UAE (Apr 4) disrupts regime financial networks. Combined evidence suggests regime cohesion under severe stress.",
       "evidence_chain": [
         {
-          "date": "2026-03-29",
-          "source": "IranWire",
-          "headline": "IRGC Intelligence Threatened Assembly of Experts' Families to Secure Mojtaba's Leadership",
-          "relevance": "IRGC using coercion to bypass civilian institutional consensus, indicating regime fracturing at succession"
-        },
-        {
           "date": "2026-04-01",
-          "source": "The Week",
-          "headline": "Mojtaba Khamenei's Whereabouts Spark Crisis as IRGC Controls Presidential Access",
-          "relevance": "IRGC operating outside institutional channels to control information and access, indicating parallel power structure"
+          "source": "Iran International",
+          "headline": "Iran's Internet Blackout Enters 35th Day with 1% Connectivity",
+          "relevance": "Extreme information control measure required to suppress internal dissent during military crisis"
         },
         {
           "date": "2026-03-08",
           "source": "Radio Farda",
           "headline": "Tehran Protests Against New Supreme Leader Mojtaba Khamenei Continue",
-          "relevance": "Sustained public protest against new leadership indicates legitimacy crisis and cohesion loss"
+          "relevance": "Active public opposition to regime leadership during wartime indicates cohesion fracture"
         },
         {
-          "date": "2026-04-01",
+          "date": "2026-04-04",
           "source": "Iran International",
-          "headline": "Iran's Internet Blackout Enters 35th Day with 1% Connectivity",
-          "relevance": "Extended information blackout indicates loss of regime confidence in public information control, institutional dysfunction"
+          "headline": "IRGC-linked money changers arrested in UAE deals major blow to Iran's sanctions-evasion network",
+          "relevance": "Disruption of regime financial infrastructure undermines operational capacity and cohesion"
+        }
+      ]
+    },
+    {
+      "variable": "netanyahuLegalJeopardy",
+      "current_assessment": "ICC warrant active with deliberate evasion via location avoidance (Davos skip Jan 20); ICJ evidence submission delayed using classified war crimes defense (Jan 4); trial delayed to March 2026 (Mar 12); jeopardy remains high with sustained legal pressure",
+      "proposed_direction": "hold",
+      "confidence": "high",
+      "rationale": "Netanyahu's legal jeopardy remains consistently high across analysis period. While Netanyahu implemented evasion strategies (skipping Davos, delaying evidence submission, trial delays), these represent tactical resistance rather than reduction of underlying jeopardy. ICC warrant remains active and enforceable; jeopardy status unchanged fundamentally.",
+      "evidence_chain": [
+        {
+          "date": "2026-01-20",
+          "source": "Wikipedia",
+          "headline": "Netanyahu skips Davos 2026 to avoid ICC arrest warrant execution in Switzerland",
+          "relevance": "Continued warrants and evasion requirements confirm sustained jeopardy"
+        },
+        {
+          "date": "2026-01-04",
+          "source": "Jerusalem Post",
+          "headline": "Israeli legal officials delay ICJ evidence submission to March 12 amid classified war crimes defense",
+          "relevance": "Defense strategy prolongs but does not eliminate legal jeopardy"
+        },
+        {
+          "date": "2026-03-12",
+          "source": "The Jerusalem Post",
+          "headline": "Netanyahu ICC Trial Delayed Until March 2026 Amid War",
+          "relevance": "Delays extend timeline but maintain underlying criminal liability"
         }
       ]
     },
     {
       "variable": "congressConstraint",
-      "current_assessment": "60-day War Powers Resolution deadline approaching; congressional oversight questioned",
+      "current_assessment": "Trump administration approached 60-day War Powers deadline (Apr 2) without apparent authorization framework; deadline extension tactics suggest circumvention of formal congressional oversight mechanism",
       "proposed_direction": "decrease",
       "confidence": "medium",
-      "rationale": "Trump Administration approaching 60-day War Powers Resolution deadline on Iran with no evidence of constraint acceptance or congressional briefing normalization. Deadline approaching without documented congressional force-authorization suggests diminished congressional constraint on executive war powers.",
+      "rationale": "Trump administration facing War Powers Resolution accountability deadline (Apr 2) with no evidence of pre-emptive congressional authorization or formal reporting submission. Deadline extension to Apr 6 (Mar 26) frames continued military operations as negotiation necessity, effectively deferring formal congressional constraint mechanism. Pattern suggests erosion of War Powers constraint effectiveness.",
       "evidence_chain": [
         {
           "date": "2026-04-02",
           "source": "Military.com",
           "headline": "Trump Administration Approaches 60-Day War Powers Resolution Deadline on Iran",
-          "relevance": "Deadline approach without documented compliance planning indicates potential circumvention of congressional war-powers constraints"
+          "relevance": "Formal accountability deadline approaching with unclear compliance framework"
+        },
+        {
+          "date": "2026-03-26",
+          "source": "NPR",
+          "headline": "Trump extends Iran deadline for Helmuz reopening to April 6 citing ongoing negotiations",
+          "relevance": "Deadline extension tactic used to defer accountability mechanism trigger"
         }
       ]
     }
   ],
-  "no_change_assessment": "Mohammad bin Salman shows insufficient sustained evidence for dimensional change; his 2026-03-15 nuclear rhetoric represents reactive signaling to Iran threat rather than pattern of behavioral shift. General Asim Munir's impulsivity (73) is supported by 'Ghatak' deployment (2026-01-22) but represents single item with gap in recent evidence; only one source bloc (regional). Xi Jinping and Narendra Modi show minimal relevant activity in this period; Modi's marginalization in Foreign Policy article (2026-04-03) reflects external geopolitical realignment rather than change in Modi's own decision patterns. Volodymyr Zelensky shows no activity in dataset. Kim Jong-un shows no activity in dataset. Vladimir Putin shows no activity in dataset.",
-  "generated_at": "2026-04-04T08:04:50.072Z"
+  "no_change_assessment": "Trump's narcissism (92) and impulsivity (90) scores are already at ceiling and fully supported by observed behavior; insufficient delta movement to justify proposal despite sustained pattern evidence. Modi, Putin, Xi, Erdogan, and Zelensky show insufficient sustained pattern evidence in this period to meet proposal thresholds. Narendra Modi's marginalization (Apr 3) represents single event insufficient for narcissism change proposal.",
+  "generated_at": "2026-04-04T14:08:34.946Z"
 }
