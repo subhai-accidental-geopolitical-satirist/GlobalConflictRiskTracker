@@ -888,7 +888,9 @@ var DC={narcissism:'#C48A92',impulsivity:'#C9A84C',values:'#5DCAA5',survival:'#9
 var WATCH_STATE={leaders:{},vars:{}};
 function calcBellicosity(l){
   var d=l.dims;if(!d)return l.b||50;
-  return Math.round(d.narcissism*0.20+d.impulsivity*0.18+(100-d.values)*0.15+d.survival*0.25+(100-d.accountability)*0.22);
+  // values: invert (low values = more dangerous)
+  // accountability: use directly (high dismantlement = more dangerous)
+  return Math.round(d.narcissism*0.20+d.impulsivity*0.18+(100-d.values)*0.15+d.survival*0.25+d.accountability*0.22);
 }
 
 // ── LEADERS API ──
