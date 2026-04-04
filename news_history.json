@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-04T05:18:13.742Z",
+  "updated": "2026-04-04T08:03:12.048Z",
   "retention_days": 30,
   "items": [
     {
@@ -2210,60 +2210,6 @@
       "run_id": "2026-04-04T05:18"
     },
     {
-      "headline": "Saudi Crown Prince Denied Urging Trump to Strike Iran Despite US-Israel War Inception",
-      "summary": "The Washington Post reports that MBS conducted multiple phone calls with Trump urging attacks on Iran, stating Iran would become stronger if Washington didn't strike immediately. Trump's decision to attack Iran on February 28 came after Saudi and Israeli governments repeatedly lobbied him, though Saudi Arabia officially denies these reports.",
-      "source": "The Washington Post",
-      "url": null,
-      "bloc": "western",
-      "date": "2026-02-28",
-      "datetime": "2026-02-28T12:00:00Z",
-      "leaders": [
-        "Mohammed bin Salman"
-      ],
-      "watch_terms": [
-        "Saudi Arabia Iran",
-        "MBS"
-      ],
-      "dimensions": [
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_statement",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Mohammed bin Salman",
-        "dimension": "impulsivity",
-        "proposed_delta": 2,
-        "rationale": "Repeatedly pushing for immediate military action demonstrates impulsive decision-making pattern",
-        "confidence": "high"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-04T05:18:13.742Z",
-      "run_id": "2026-04-04T05:18"
-    },
-    {
-      "headline": "IAEA Reports Iran Natanz Nuclear Site Inaccessible After US Strikes",
-      "summary": "The IAEA confirmed that recent bombings failed to destroy the Natanz nuclear facility but significant damage to entrance buildings has made it inaccessible. The agency has been unable to account for Iran's enriched uranium stockpile for over eight months following withdrawal of inspectors in June 2025.",
-      "source": "Nuclear program of Iran - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Nuclear_program_of_Iran",
-      "bloc": "institutional",
-      "date": "2026-03-03",
-      "datetime": "2026-03-03T12:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "nuclear Iran"
-      ],
-      "dimensions": [],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 5,
-      "persian_only": false,
-      "_from": "claude",
-      "first_seen": "2026-04-04T05:18:13.742Z",
-      "run_id": "2026-04-04T05:18"
-    },
-    {
       "headline": "E3 Statement Confirms Iran Only Non-Nuclear State Producing 60% Enriched Uranium",
       "summary": "France, Germany and the UK delivered joint statement to IAEA Board confirming Iran remains the only state without nuclear weapons to have produced 60% High Enriched Uranium. The E3 expressed deep concern about lack of transparency over Iran's nuclear program with no credible civilian justification for enrichment activities.",
       "source": "UK Government",
@@ -2346,32 +2292,6 @@
       "run_id": "2026-04-04T05:18"
     },
     {
-      "headline": "China Withholds Support for Pakistan Railway Project During Sharif Beijing Visit",
-      "summary": "China withheld support for the Main Line-1 railway upgrade, a flagship CPEC project, during Prime Minister Shehbaz Sharif's September 2025 visit to Beijing. Instead, agreements worth $8.5 billion were signed in other sectors, with analysts noting the move comes amid Islamabad's engagement with Washington and broader geopolitical realignments.",
-      "source": "China–Pakistan Economic Corridor - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/China%E2%80%93Pakistan_Economic_Corridor",
-      "bloc": "regional",
-      "date": "2025-09-15",
-      "datetime": "2025-09-15T12:00:00Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "China Pakistan",
-        "CPEC"
-      ],
-      "dimensions": [
-        "values"
-      ],
-      "variable_key": null,
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "claude",
-      "first_seen": "2026-04-04T05:18:13.742Z",
-      "run_id": "2026-04-04T05:18"
-    },
-    {
       "headline": "Chinese Foreign Ministry Confirms Mediation Between Pakistan and Afghanistan",
       "summary": "Chinese Foreign Ministry spokesperson Mao Ning confirmed China has made mediation efforts in its own way following the Pakistan-Afghanistan conflict escalation, maintaining close communication with both sides via multiple channels. China provided platforms for dialogue between both countries, with consultations being implemented steadily.",
       "source": "Ministry of Foreign Affairs of China",
@@ -2414,7 +2334,504 @@
       "_from": "claude",
       "first_seen": "2026-04-04T05:18:13.742Z",
       "run_id": "2026-04-04T05:18"
+    },
+    {
+      "headline": "US-Israeli aggression on Iran: What happened on 34th day of the imposed war",
+      "summary": "Thirty-four days into the US-Israeli war on Iran, launched on February 28 with the assassination of the Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei, the military aggression continues to target civilian and industrial infrastructure across …",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260403-presstv02.htm",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T07:34:55Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "As Crises Escalate in Middle East, Speakers in Security Council Urge Stronger United Nations-League of Arab States Cooperation",
+      "summary": "Complementing a morning meeting held today on collaboration between the United Nations and the Gulf Cooperation Council, the Security Council met again in the afternoon to underline the importance of similar cooperation with the League of Arab States amidst m…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260402-unsc02.htm",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T07:34:55Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "How Israel is destroying healthcare infrastructure in southern Lebanon",
+      "summary": "Israel's attacks on hospitals, medical centres and healthcare workers are fuelling displacement and a health crisis.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/features/2026/4/3/how-israel-is-destroying-healthcare-infrastructure-in-southern-lebanon",
+      "bloc": "regional",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T07:34:43Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Trump threatens to destroy Iran power plants as reports emerge of downed U.S. F-35",
+      "summary": "The threat comes a day after he said in a nationwide address that the U.S. military will be hitting Tehran \"extremely hard\" for the next two or three weeks",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/03/trump-iran-threats-un-resolution-blocked-strait-of-hormuz-f35-shot-down.html",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T06:47:33Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Trump Warns US 'Hasn't Even Started' To Destroy Iran, Says Regime Must Act 'Fast'",
+      "summary": "President Donald Trump said the US military \"hasn't even started\" to destroy what is left of Iran after a month of devastating air attacks and he threatened to strike electrical power plants and more bridges in his latest warning to the regime in Tehran.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260403-rferl01.htm",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T06:05:04Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Iran Establishes Larak Island 'Toll Booth' to Control Strait of Hormuz Shipping",
+      "summary": "Iran's IRGC has imposed a de facto safe-shipping corridor north of Larak Island, requiring vessels to submit to vetting and pay transit fees for passage through the strategically vital Strait of Hormuz.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/02/strait-of-hormuz-iran-war-united-states-israel-ships-vessels-oil.html",
+      "bloc": "western",
+      "date": "2026-04-02",
+      "datetime": "2026-04-02T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Strait Hormuz",
+        "IRGC"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": "strait_control_percentage",
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "survival",
+        "proposed_delta": 1,
+        "rationale": "IRGC creating revenue-generating control mechanism shows regime focus on economic survival",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Israeli Strike Kills Iranian Navy Commander Alireza Tangsiri",
+      "summary": "Israeli Defense Minister Israel Katz confirmed that IRGC Navy Commander Alireza Tangsiri was killed in an airstrike on 26 March, accusing him of direct responsibility for the Strait of Hormuz closure.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/26/tehranstollbooth-how-iran-picks-who-to-let-through-strait-of-hormuz",
+      "bloc": "western",
+      "date": "2026-03-26",
+      "datetime": "2026-03-26T14:00:00Z",
+      "leaders": [
+        "Benjamin Netanyahu",
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Strait Hormuz",
+        "IRGC"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "personnel_killed",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Netanyahu ICC Trial Delayed Until March 2026 Amid War",
+      "summary": "Israeli legal officials secured another delay in Netanyahu's ICC evidence gathering round from January to March 2026, while appeal decisions continue on jurisdiction challenges.",
+      "source": "The Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-882076",
+      "bloc": "institutional",
+      "date": "2026-03-12",
+      "datetime": "2026-03-12T10:00:00Z",
+      "leaders": [
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "ICC Netanyahu",
+        "trial hearing"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Pakistan's Field Marshal Munir Deploys 'Ghatak' Units Along India Border",
+      "summary": "Field Marshal Asim Munir has allegedly deployed specialized 'killer' units along the Jammu-Rajouri border for potential Border Action Team attacks against Indian Army personnel, according to Indian intelligence reports.",
+      "source": "India.com",
+      "url": "https://www.india.com/news/world/pakistan-asim-munir-shehbaz-sharif-pakistani-army-ghatak-border-action-team-jammu-rajouri-narendra-modi-pahalgam-terrorist-attack-operation-sindoor-line-of-control-8276953/",
+      "bloc": "regional",
+      "date": "2026-01-22",
+      "datetime": "2026-01-22T08:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Pakistan military",
+        "LoC violations",
+        "Pakistan nuclear"
+      ],
+      "dimensions": [
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "General Asim Munir",
+        "dimension": "impulsivity",
+        "proposed_delta": 2,
+        "rationale": "Deployment of specialized attack units during ongoing regional tensions shows increased risk-taking",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Trump Administration Approaches 60-Day War Powers Resolution Deadline on Iran",
+      "summary": "President Trump faces mounting congressional pressure as the 60-day War Powers Resolution deadline approaches, with Congress yet to authorize the Iran military operation despite ongoing combat.",
+      "source": "Military.com",
+      "url": "https://www.military.com/feature/2026/04/02/trump-signals-short-iran-fight-war-powers-clock-ticks.html",
+      "bloc": "western",
+      "date": "2026-04-02",
+      "datetime": "2026-04-02T15:00:00Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "War Powers",
+        "AUMF"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Donald J. Trump",
+        "dimension": "accountability",
+        "proposed_delta": -1,
+        "rationale": "Approaching legal deadline without congressional authorization shows disregard for institutional constraints",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Mohammed bin Salman Reiterates Nuclear Response to Iran Threat",
+      "summary": "Crown Prince Mohammed bin Salman has reiterated that Saudi Arabia would develop nuclear weapons if Iran acquires them, despite the ongoing US-Israeli military campaign against Iranian nuclear facilities.",
+      "source": "Stimson Center",
+      "url": "https://www.stimson.org/2026/saudi-arabias-nuclear-path-will-not-depend-on-iran-wars-outcome/",
+      "bloc": "institutional",
+      "date": "2026-03-15",
+      "datetime": "2026-03-15T12:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman"
+      ],
+      "watch_terms": [
+        "Saudi nuclear",
+        "Saudi Arabia Iran",
+        "MBS"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "India Marginalized as Pakistan Emerges as Key Iran-US Mediator",
+      "summary": "Prime Minister Modi relegated to single phone call with Trump while Pakistan's Field Marshal Munir gains prominence as mediator between Washington and Tehran, highlighting India's diminished regional influence.",
+      "source": "Foreign Policy",
+      "url": "https://foreignpolicy.com/2026/04/03/pakistan-iran-diplomacy-mediation-munir-india/",
+      "bloc": "western",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T11:00:00Z",
+      "leaders": [
+        "Narendra Modi",
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Modi coalition",
+        "India Pakistan",
+        "Munir"
+      ],
+      "dimensions": [
+        "narcissism"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Narendra Modi",
+        "dimension": "narcissism",
+        "proposed_delta": 1,
+        "rationale": "Being sidelined in favor of Pakistan challenges Modi's self-image as regional leader",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Iran Threatens to Expand Strikes to Bab el-Mandeb Strait",
+      "summary": "Iran's Parliament Speaker Mohammad-Bagher Ghalibaf signaled potential expansion of conflict to the Bab el-Mandeb Strait, while military sources confirm Iran could open new front there if attacked.",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en/liveblog/202604015564",
+      "bloc": "persian",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T16:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Strait Hormuz",
+        "Iran ceasefire"
+      ],
+      "dimensions": [
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": true,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "impulsivity",
+        "proposed_delta": 1,
+        "rationale": "Threatening to open new fronts shows escalatory risk-taking behavior under pressure",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "US Central Command Reports Iranian Mine-Laying Ships Destroyed",
+      "summary": "US CENTCOM confirmed that 16 Iranian mine-laying vessels were attacked in the Strait of Hormuz on March 10, following President Trump's warnings against Iranian mining operations.",
+      "source": "Radio Farda",
+      "url": "https://www.rferl.org/author/rfe-rls-radio-farda/g_t_qo",
+      "bloc": "persian",
+      "date": "2026-03-10",
+      "datetime": "2026-03-10T14:00:00Z",
+      "leaders": [
+        "Donald J. Trump",
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Strait Hormuz",
+        "War Powers"
+      ],
+      "dimensions": [
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Tehran Protests Against New Supreme Leader Mojtaba Khamenei Continue",
+      "summary": "Video footage from Tehran neighborhoods shows continued chanting against newly appointed Supreme Leader Mojtaba Khamenei, with voices calling 'Death to Mojtaba' echoing through residential areas on March 8.",
+      "source": "Radio Farda",
+      "url": "https://www.rferl.org/author/rfe-rls-radio-farda/g_t_qo",
+      "bloc": "persian",
+      "date": "2026-03-08",
+      "datetime": "2026-03-08T20:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
+      "persian_only": true,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "survival",
+        "proposed_delta": -2,
+        "rationale": "Domestic protests against new leader indicate declining regime legitimacy and survival prospects",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Saudi Arabia Pinning Hopes on Pakistan-Led Iran Mediation Efforts",
+      "summary": "Saudi Arabia is awaiting the outcome of Pakistan-led diplomatic mediation efforts before considering military action against Iran, with the kingdom prioritizing diplomatic breakthrough to end the conflict.",
+      "source": "Christian Science Monitor",
+      "url": "https://www.csmonitor.com/World/Middle-East/2026/0401/saudi-arabia-military-iran-war",
+      "bloc": "western",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T15:45:00Z",
+      "leaders": [
+        "Mohammed bin Salman"
+      ],
+      "watch_terms": [
+        "Saudi Arabia Iran"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
+    },
+    {
+      "headline": "Iran's Internet Blackout Enters 35th Day with 1% Connectivity",
+      "summary": "Iran's internet blackout continues with connectivity at about 1% of normal levels on day 35, leaving the Iranian public largely cut off from external communications, according to NetBlocks monitoring.",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en/liveblog/202604015564",
+      "bloc": "persian",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": true,
+      "_from": "claude",
+      "first_seen": "2026-04-04T08:03:12.048Z",
+      "run_id": "2026-04-04T08:03"
     }
   ],
-  "total_items_ever": 92
+  "total_items_ever": 109
 }
