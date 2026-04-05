@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-05T05:59:00.071Z",
+  "updated": "2026-04-05T08:07:06.692Z",
   "retention_days": 30,
   "items": [
     {
@@ -3712,40 +3712,6 @@
       "run_id": "2026-04-05T05:59"
     },
     {
-      "headline": "IAEA Declares Iran's Nuclear Program Outside International Monitoring for Eight Months",
-      "summary": "IAEA Director-General tells UN Security Council that Iran has prevented access to its declared uranium stockpiles for over eight months since strikes on nuclear facilities, raising unprecedented proliferation concerns. Agency reports only one state without nuclear weapons has accumulated 60% enriched uranium.",
-      "source": "International Atomic Energy Agency",
-      "url": null,
-      "bloc": "institutional",
-      "date": "2026-03-02",
-      "datetime": "2026-03-02T14:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei"
-      ],
-      "watch_terms": [
-        "nuclear Iran",
-        "IRGC",
-        "Supreme Leader Iran"
-      ],
-      "dimensions": [
-        "survival"
-      ],
-      "variable_key": "iran_nuclear_verification_status",
-      "event_type": "static_variable",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Mojtaba Khamenei",
-        "dimension": "survival",
-        "proposed_delta": 3,
-        "rationale": "Complete suspension of nuclear monitoring represents existential gamble with regime survival",
-        "confidence": "high"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-05T05:59:00.071Z",
-      "run_id": "2026-04-05T05:59"
-    },
-    {
       "headline": "Pakistan-China Launch Joint Five-Point Peace Initiative for Iran-US War",
       "summary": "Pakistan Foreign Minister Ishaq Dar and China's Wang Yi announce coordinated diplomatic framework calling for immediate ceasefire, Strait of Hormuz reopening, and protection of civilian infrastructure. Initiative positions Beijing as potential guarantor for Iran peace deal.",
       "source": "South China Morning Post",
@@ -3818,77 +3784,6 @@
       "run_id": "2026-04-05T05:59"
     },
     {
-      "headline": "Netanyahu Accepts Trump Gaza Peace Board Despite ICC War Crimes Warrant",
-      "summary": "Israeli Prime Minister joins US-led Gaza reconstruction board alongside Putin and Lukashenko, all under ICC arrest warrants. Move raises concerns about board objectivity as Netanyahu faces war crimes charges for Gaza operations while Palestinians view him as obstacle to peace.",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/1/21/israels-netanyahu-to-join-board-of",
-      "bloc": "institutional",
-      "date": "2026-01-21",
-      "datetime": "2026-01-21T16:00:00Z",
-      "leaders": [
-        "Benjamin Netanyahu",
-        "Vladimir Putin"
-      ],
-      "watch_terms": [
-        "ICC Netanyahu",
-        "trial hearing",
-        "coalition collapse"
-      ],
-      "dimensions": [
-        "accountability"
-      ],
-      "variable_key": "icc_compliance_israel",
-      "event_type": "leader_statement",
-      "escalation": 4,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Benjamin Netanyahu",
-        "dimension": "accountability",
-        "proposed_delta": -3,
-        "rationale": "Accepting board position while under ICC warrant demonstrates complete rejection of international judicial authority",
-        "confidence": "high"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-05T05:59:00.071Z",
-      "run_id": "2026-04-05T05:59"
-    },
-    {
-      "headline": "US Congress Rejects War Powers Resolutions on Iran by Narrow Margins",
-      "summary": "Senate defeats 47-53 and House rejects 219-212 war powers resolutions requiring congressional approval for further Iran military action. Trump openly admits avoiding word 'war' to circumvent constitutional requirements, as Congress cedes authority to executive branch.",
-      "source": "Christian Science Monitor",
-      "url": "https://www.csmonitor.com/USA/Politics/2026/0304/trump-iran-congress-war-powers",
-      "bloc": "western",
-      "date": "2026-03-05",
-      "datetime": "2026-03-05T19:00:00Z",
-      "leaders": [
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "War Powers",
-        "Iran ceasefire",
-        "approval rating",
-        "AUMF",
-        "Trump impeach"
-      ],
-      "dimensions": [
-        "accountability"
-      ],
-      "variable_key": "congress_war_powers_oversight",
-      "event_type": "static_variable",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Donald J. Trump",
-        "dimension": "accountability",
-        "proposed_delta": -2,
-        "rationale": "Explicit admission of constitutional avoidance demonstrates contempt for legislative oversight",
-        "confidence": "high"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-05T05:59:00.071Z",
-      "run_id": "2026-04-05T05:59"
-    },
-    {
       "headline": "Pakistan Claims Diplomatic Victory Over India as Iran Mediation Elevates Islamabad",
       "summary": "Pakistan's central role in Iran-US mediation and China partnership demonstrates diplomatic relevance despite economic challenges. Modi relegated to single Trump phone call while Pakistani military chief Munir gains direct White House access, marking shift in South Asian power dynamics.",
       "source": "Foreign Policy",
@@ -3919,110 +3814,6 @@
         "proposed_delta": 3,
         "rationale": "Successful Iran mediation role strengthens military's domestic position and international relevance",
         "confidence": "medium"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-05T05:59:00.071Z",
-      "run_id": "2026-04-05T05:59"
-    },
-    {
-      "headline": "ICC Issues Fresh Guidelines on Putin Arrest Warrant as Hungary Withdrawal Delayed",
-      "summary": "International Criminal Court confirms Hungary remains bound by Putin arrest warrant until June 2026 despite announced withdrawal. Court spokesperson emphasizes states cannot unilaterally determine soundness of ICC legal decisions, as European officials warn of legal consequences for hosting Putin.",
-      "source": "Euronews",
-      "url": "https://www.euronews.com/my-europe/2025/10/17/can-putin-under-sanctions-and-an-arrest-warrant-enter-the-european-union",
-      "bloc": "institutional",
-      "date": "2025-10-17",
-      "datetime": "2025-10-17T14:30:00Z",
-      "leaders": [
-        "Vladimir Putin"
-      ],
-      "watch_terms": [
-        "ICC Putin",
-        "Putin health",
-        "Russia nuclear"
-      ],
-      "dimensions": [
-        "accountability"
-      ],
-      "variable_key": "icc_enforcement_putin_warrant",
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Vladimir Putin",
-        "dimension": "accountability",
-        "proposed_delta": -1,
-        "rationale": "Continued diplomatic isolation due to ICC warrant limits international engagement options",
-        "confidence": "medium"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-05T05:59:00.071Z",
-      "run_id": "2026-04-05T05:59"
-    },
-    {
-      "headline": "India-Pakistan Nuclear Escalation Dynamics Shift After May 2025 Crisis",
-      "summary": "Carnegie Endowment analysis reveals Pakistan's National Command Authority meeting during Pahalgam crisis represented deliberate nuclear signaling. Study shows evolution of Islamabad's full-spectrum deterrence doctrine lowering nuclear thresholds, with US intervention preventing escalation.",
-      "source": "Carnegie Endowment for International Peace",
-      "url": "https://carnegieendowment.org/research/2026/02/escalation-dynamics-under-the-nuclear-shadow-indias-approach",
-      "bloc": "institutional",
-      "date": "2026-02-10",
-      "datetime": "2026-02-10T11:00:00Z",
-      "leaders": [
-        "General Asim Munir",
-        "Narendra Modi"
-      ],
-      "watch_terms": [
-        "Pakistan nuclear",
-        "nuclear doctrine",
-        "India Pakistan",
-        "LoC violations"
-      ],
-      "dimensions": [
-        "impulsivity"
-      ],
-      "variable_key": "pakistan_nuclear_threshold",
-      "event_type": "static_variable",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "General Asim Munir",
-        "dimension": "impulsivity",
-        "proposed_delta": 1,
-        "rationale": "Deliberate nuclear signaling during crisis shows willingness to escalate rapidly to nuclear domain",
-        "confidence": "high"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-05T05:59:00.071Z",
-      "run_id": "2026-04-05T05:59"
-    },
-    {
-      "headline": "Iran Threatens Complete IAEA Cooperation Withdrawal if UN Sanctions Reimposed",
-      "summary": "Tehran warns it will terminate recent IAEA inspection agreement if Security Council snapback sanctions take effect. Iran has prevented inspectors from accessing nuclear facilities since US-Israeli strikes, with over 400kg of 60% enriched uranium remaining unaccounted for.",
-      "source": "PBS NewsHour",
-      "url": "https://www.pbs.org/newshour/world/un-security-council-rejects-russia-and-chinas-resolution-to-delay-sanctions-on-iran",
-      "bloc": "institutional",
-      "date": "2025-09-26",
-      "datetime": "2025-09-26T20:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei"
-      ],
-      "watch_terms": [
-        "nuclear Iran",
-        "Supreme Leader Iran",
-        "Iran ceasefire"
-      ],
-      "dimensions": [
-        "survival"
-      ],
-      "variable_key": "iran_iaea_cooperation_status",
-      "event_type": "leader_statement",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Mojtaba Khamenei",
-        "dimension": "survival",
-        "proposed_delta": 2,
-        "rationale": "Threat to end all nuclear monitoring represents escalation of isolation strategy for regime survival",
-        "confidence": "high"
       },
       "_from": "claude",
       "first_seen": "2026-04-05T05:59:00.071Z",
@@ -4060,7 +3851,365 @@
       "_from": "claude",
       "first_seen": "2026-04-05T05:59:00.071Z",
       "run_id": "2026-04-05T05:59"
+    },
+    {
+      "headline": "US-Israeli aggression on Iran: What happened on 35th day of the imposed war",
+      "summary": "Thirty-five days into the US-Israeli war on Iran, launched on February 28 with the assassination of the Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei, and some top-ranking commanders, the military aggression continues to target civilian, med…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260403-presstv04.htm",
+      "bloc": "western",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T06:57:41Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "Iran's military vows to continue war until US, Israel 'regret' aggression",
+      "summary": "The senior spokesman for Iran's Armed Forces says the country will continue the war as long as it makes the United States and the Israeli regime \"regret\" their illegal act of aggression.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260403-presstv19.htm",
+      "bloc": "western",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T06:57:33Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "China and Pakistan unveil five-point peace proposal to end Iran conflict",
+      "summary": "Chinese Foreign Minister Wang Yi and his Pakistani counterpart announced a five-point proposal in Beijing calling for cessation of hostilities and reopening of the Strait of Hormuz. China has stepped up diplomatic engagement with Gulf states and Russia in mediation efforts.",
+      "source": "CP24 News",
+      "url": "https://www.cp24.com/news/world/2026/04/04/china-aims-to-show-global-leadership-with-iran-war-diplomacy-us-appears-uninterested/",
+      "bloc": "institutional",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T10:47:00Z",
+      "leaders": [
+        "Xi Jinping",
+        "Wang Yi"
+      ],
+      "watch_terms": [
+        "China Iran",
+        "China Pakistan"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 2,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Xi Jinping",
+        "dimension": "values",
+        "proposed_delta": 1,
+        "rationale": "China's measured diplomatic response to Iran crisis prioritizes stability over ideology",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "Turkey calls Iran conflict a 'geostrategic impasse' in talks with NATO chief",
+      "summary": "President Erdogan told NATO Secretary General Mark Rutte that the Iran war has reached a geostrategic impasse, urging international community to step up efforts to end the conflict. Turkey positions itself as mediator while absorbing Iranian missile attacks.",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/iran-war-headed-to-geostrategic-impasse-erdogan-tells-nato-chief/news",
+      "bloc": "regional",
+      "date": "2026-04-05",
+      "datetime": "2026-04-05T12:00:00Z",
+      "leaders": [
+        "Recep Tayyip Erdogan"
+      ],
+      "watch_terms": [
+        "Turkey NATO",
+        "Turkey Iran",
+        "Turkey mediation"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 2,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Recep Tayyip Erdogan",
+        "dimension": "survival",
+        "proposed_delta": 1,
+        "rationale": "Erdogan prioritizes Turkey's security by avoiding direct involvement while maintaining diplomatic relevance",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "Saudi Arabia pins hopes on Pakistan mediation before considering military action",
+      "summary": "Saudi officials await outcome of Pakistani-led mediation efforts before potential military response to Iran. Kingdom maintains daily diplomatic contact with Tehran despite ongoing Iranian attacks on Saudi energy infrastructure.",
+      "source": "Christian Science Monitor",
+      "url": "https://www.csmonitor.com/World/Middle-East/2026/0401/saudi-arabia-military-iran-war",
+      "bloc": "regional",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T15:45:00Z",
+      "leaders": [
+        "Mohammed bin Salman"
+      ],
+      "watch_terms": [
+        "Saudi Arabia Iran",
+        "MBS"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "IAEA confirms Iran's Natanz nuclear facility remains inaccessible after bombing damage",
+      "summary": "International Atomic Energy Agency reports significant damage to entrance buildings at Natanz makes facility inaccessible for inspections. Agency observes regular vehicular activity around Isfahan tunnel complex storing enriched uranium but cannot verify Iranian nuclear activities.",
+      "source": "PBS NewsHour",
+      "url": "https://www.pbs.org/newshour/world/un-nuclear-watchdog-says-its-unable-to-verify-whether-iran-has-suspended-all-uranium-enrichment",
+      "bloc": "institutional",
+      "date": "2026-03-02",
+      "datetime": "2026-03-02T18:30:00Z",
+      "leaders": [
+        "Rafael Grossi"
+      ],
+      "watch_terms": [
+        "nuclear Iran",
+        "IAEA"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": "iran_uranium_stockpile",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "India-Pakistan border witnesses eighth consecutive night of ceasefire violations",
+      "summary": "Pakistani troops violated ceasefire along Line of Control for eighth straight night following April 22 Pahalgam terrorist attack that killed 26 civilians. Indian army retaliates proportionately marking most intense breakdown since 2021 DGMO ceasefire agreement.",
+      "source": "Vajira Mandravi",
+      "url": "https://vajiramandravi.com/current-affairs/ceasefire-violations-along-the-loc-strategic-dynamics-in-india-pakistan-relations/",
+      "bloc": "regional",
+      "date": "2025-05-01",
+      "datetime": "2025-05-01T09:00:00Z",
+      "leaders": [
+        "Narendra Modi",
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "India Pakistan",
+        "LoC violations",
+        "Pakistan military"
+      ],
+      "dimensions": [
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "General Asim Munir",
+        "dimension": "impulsivity",
+        "proposed_delta": 1,
+        "rationale": "Sustained military pressure through consecutive ceasefire violations suggests tactical escalation approach",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "Iran Supreme Leader Mojtaba Khamenei issues first statement vowing continued resistance",
+      "summary": "New Supreme Leader calls for national unity and declares Strait of Hormuz will remain closed to pressure enemies. Statement delivered in writing via state TV anchor as questions persist about his health and whereabouts following father's assassination.",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en/202603125349",
+      "bloc": "persian",
+      "date": "2026-03-12",
+      "datetime": "2026-03-12T14:20:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran",
+        "Strait Hormuz",
+        "Iran ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "narcissism"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "narcissism",
+        "proposed_delta": 2,
+        "rationale": "First statement emphasizes defiance and resistance imagery despite regime vulnerability",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "US considers unprecedented ground operation to seize Iran's remaining enriched uranium",
+      "summary": "Trump administration reviews options for physical extraction of approximately 440.9 kg of 60% enriched uranium stored in hardened underground facilities. Operation would potentially be largest special forces mission in history to prevent weaponization of fissile material.",
+      "source": "Foreign Affairs Forum",
+      "url": "https://www.faf.ae/home/2026/4/2/extracting-the-unextractable-the-strategic-military-and-diplomatic-dimensions-of-a-us-operation-to-seize-irans-highly-enriched-uranium",
+      "bloc": "western",
+      "date": "2026-04-02",
+      "datetime": "2026-04-02T11:15:00Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "nuclear Iran",
+        "War Powers"
+      ],
+      "dimensions": [
+        "impulsivity"
+      ],
+      "variable_key": "iran_uranium_stockpile",
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Donald J. Trump",
+        "dimension": "impulsivity",
+        "proposed_delta": 2,
+        "rationale": "Consideration of unprecedented ground operation demonstrates willingness to escalate dramatically",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "Iranian sources report Supreme Leader Ali Khamenei authorized nuclear warhead development in October 2025",
+      "summary": "Institute for International Political Studies sources in Tehran claim former Supreme Leader authorized miniaturized nuclear warheads for ballistic missiles despite previous denials. Report suggests ultra-secret enrichment program exists at covert sites inaccessible to IAEA.",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nuclear_program_of_Iran",
+      "bloc": "institutional",
+      "date": "2025-10-15",
+      "datetime": "2025-10-15T16:30:00Z",
+      "leaders": [
+        "Ali Khamenei"
+      ],
+      "watch_terms": [
+        "nuclear Iran",
+        "Supreme Leader Iran"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": "iran_nuclear_program",
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "Arms Control Association analysis reveals US negotiators ill-prepared for Iran nuclear talks",
+      "summary": "Report indicates Trump administration lacked detailed understanding of Iran's February 2026 proposal to blend down 60% enriched uranium. US envoy Steve Witkoff reportedly mischaracterized Iranian offer during briefings to President Trump.",
+      "source": "Arms Control Association",
+      "url": "https://www.armscontrol.org/act/2026-04/features/analysis-us-negotiators-were-ill-prepared-serious-nuclear-talks-iran",
+      "bloc": "institutional",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T08:45:00Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Iran ceasefire",
+        "nuclear Iran"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
+    },
+    {
+      "headline": "NATO forces intercept Iranian ballistic missile targeting Turkish territory",
+      "summary": "NATO air defense systems destroy Iranian missile over Turkish airspace in Gaziantep province. Third attempted strike against Turkey since war began, prompting Erdogan to warn Iran against persistence in error while maintaining mediation efforts.",
+      "source": "Foundation for Defense of Democracies",
+      "url": "https://www.fdd.org/analysis/2026/03/17/what-are-turkeys-red-lines-in-the-iran-conflict/",
+      "bloc": "western",
+      "date": "2026-03-09",
+      "datetime": "2026-03-09T19:45:00Z",
+      "leaders": [
+        "Recep Tayyip Erdogan"
+      ],
+      "watch_terms": [
+        "Turkey NATO",
+        "Turkey Iran"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-05T08:07:06.692Z",
+      "run_id": "2026-04-05T08:07"
     }
   ],
-  "total_items_ever": 159
+  "total_items_ever": 171
 }

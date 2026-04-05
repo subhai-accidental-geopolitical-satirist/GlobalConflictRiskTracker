@@ -1,8 +1,8 @@
 {
   "analysis_period": {
-    "start_date": "2025-09-26",
-    "end_date": "2026-04-04",
-    "items_evaluated": 143,
+    "start_date": "2025-05-01",
+    "end_date": "2026-04-05",
+    "items_evaluated": 149,
     "source_blocs_represented": [
       "western",
       "persian",
@@ -15,38 +15,38 @@
       "leader": "Donald J. Trump",
       "dimension": "impulsivity",
       "current_score": 90,
-      "proposed_delta": 0,
-      "proposed_new_score": 90,
+      "proposed_delta": 2,
+      "proposed_new_score": 92,
       "confidence": "high",
-      "pattern_description": "Trump continues military escalation despite failed negotiations, downing two US jets and losing crew, yet escalates rhetoric ('hasn't even started') rather than reconsidering strategy. Arms Control Association documents 14 years of missile inventory burned in a single conflict. Congress rejects war powers resolutions by narrow margins, indicating erosion of institutional restraint.",
+      "pattern_description": "Trump has demonstrated sustained pattern of reactive, poorly-deliberated military escalation during Iran conflict. Evidence shows consideration of unprecedented ground operations to seize uranium, continued threats despite downed jets, and burning 14 years of missile inventory without strategic restraint. Multiple instances of escalatory rhetoric paired with unilateral decision-making despite ceasefire odds dropping to 1.1%.",
       "evidence_chain": [
+        {
+          "date": "2026-04-02",
+          "source": "Foreign Affairs Forum",
+          "bloc": "western",
+          "headline": "US considers unprecedented ground operation to seize Iran's remaining enriched uranium",
+          "relevance": "Demonstrates reactive contemplation of major military escalation without apparent deliberative process or allied coordination"
+        },
         {
           "date": "2026-04-04",
           "source": "Globalsecurity.org",
           "bloc": "western",
           "headline": "Tehran Hits Gulf Energy Sites, Trump Warns US 'Hasn't Even Started' To Destroy Iran",
-          "relevance": "After jets downed and crew killed, Trump escalates rather than recalibrates—textbook reactive, unilateral decision pattern"
-        },
-        {
-          "date": "2026-04-04",
-          "source": "Crypto Briefing",
-          "bloc": "western",
-          "headline": "Trump continues talks despite Iran downing two US jets; ceasefire odds drop to 1.1%",
-          "relevance": "Simultaneous negotiation and escalation signals poor deliberation and reactive posture"
+          "relevance": "Unilateral escalatory rhetoric in response to Iranian strike, indicating reactive posture without de-escalation consideration"
         },
         {
           "date": "2026-03-30",
           "source": "Arms Control Association",
           "bloc": "institutional",
           "headline": "Arms Control Association Analysis: US Burned 14 Years of Missile Inventory in Iran War",
-          "relevance": "Unsustainable resource burn reflects impulsive strategy without long-term planning"
+          "relevance": "Demonstrates unsustainable resource depletion rate indicating impulsive military consumption without strategic planning"
         },
         {
-          "date": "2026-03-05",
-          "source": "Christian Science Monitor",
+          "date": "2026-04-04",
+          "source": "Crypto Briefing",
           "bloc": "western",
-          "headline": "US Congress Rejects War Powers Resolutions on Iran by Narrow Margins",
-          "relevance": "Congressional rejection by narrow margins indicates Trump's unilateral war initiation lacks sustained domestic legitimacy"
+          "headline": "Trump continues talks despite Iran downing two US jets; ceasefire odds drop to 1.1%",
+          "relevance": "Continued aggressive posture despite objective near-impossibility of ceasefire, indicating refusal to adjust strategy based on reality"
         }
       ],
       "items_supporting": 4,
@@ -55,249 +55,263 @@
         "institutional"
       ],
       "threshold_met": true,
-      "counter_evidence": "Trump's continued negotiation attempts suggest some restraint mechanism, but these are undermined by simultaneous escalation rhetoric and resource depletion patterns"
+      "counter_evidence": "Crypto Briefing notes Trump 'continues talks' suggesting some diplomatic engagement, but this appears performative given 1.1% ceasefire odds and concurrent escalatory rhetoric."
     },
     {
       "leader": "General Asim Munir",
       "dimension": "narcissism",
       "current_score": 60,
-      "proposed_delta": 8,
-      "proposed_new_score": 68,
+      "proposed_delta": 3,
+      "proposed_new_score": 63,
       "confidence": "medium",
-      "pattern_description": "Munir positions himself as key US-Iran mediator while simultaneously conducting high-profile military operations and leveraging Pakistan's diplomatic rise. Multiple sources document his emergence as central negotiator in Middle East affairs, with deliberate messaging about Pakistan's elevated status marginalizing India—pattern of seeking validation through diplomatic visibility and regional prominence.",
+      "pattern_description": "Munir has positioned himself as indispensable mediator between Iran and US while simultaneously elevating Pakistan's regional status. Multiple sources credit him personally with diplomatic gains and 'emergence as key facilitation figure,' suggesting he is cultivating image as singular strategic necessity. This pattern includes leveraging military operations for domestic narrative control.",
       "evidence_chain": [
         {
           "date": "2026-04-04",
           "source": "Ynet News",
           "bloc": "western",
           "headline": "Field Marshal Munir emerges as key US-Iran mediation facilitator",
-          "relevance": "Direct validation-seeking behavior: Munir's role as mediation facilitator elevates his profile and Pakistan's geopolitical standing"
-        },
-        {
-          "date": "2026-04-04",
-          "source": "Daily Ittehad",
-          "bloc": "regional",
-          "headline": "Pakistan's diplomatic rise leaves India marginalized in Middle East negotiations",
-          "relevance": "Explicit framing of Pakistan's gain as India's loss—narcissistic zero-sum positioning of Munir's diplomatic achievements"
+          "relevance": "Direct attribution of mediation role and personal emergence as 'key facilitator' indicates cultivation of indispensable image"
         },
         {
           "date": "2026-04-03",
           "source": "Foreign Policy",
           "bloc": "regional",
           "headline": "Pakistan Claims Diplomatic Victory Over India as Iran Mediation Elevates Islamabad",
-          "relevance": "Deliberate 'victory' framing and elevation messaging indicates image-management narcissism"
+          "relevance": "Pakistan's framing of diplomatic victory in context of mediation directly elevates Munir's personal role and prestige"
         },
         {
-          "date": "2026-04-01",
-          "source": "South China Morning Post",
-          "bloc": "regional",
-          "headline": "Pakistan-China Launch Joint Five-Point Peace Initiative for Iran-US War",
-          "relevance": "Munir's visibility as key architect of Pakistan-China initiative—positioning himself as central to major peace framework"
+          "date": "2026-04-04",
+          "source": "Arab News",
+          "bloc": "western",
+          "headline": "Pakistan military kills 71 militants in three-day northwestern operations",
+          "relevance": "Military operation timing coincides with diplomatic elevation, suggesting synchronized narrative of strength and strategic necessity"
         }
       ],
-      "items_supporting": 4,
+      "items_supporting": 3,
       "blocs_represented": [
         "western",
         "regional"
       ],
       "threshold_met": true,
-      "counter_evidence": "Munir's survival score (75) and actual mediation work suggest pragmatic motivation alongside narcissism; suicide bomber attack (2026-04-03) indicates real security threats that demand his attention beyond image cultivation"
+      "counter_evidence": "Munir's role may reflect genuine institutional capacity rather than personal narcissism. However, pattern of personal attribution in media coverage suggests at minimum cultivation of indispensable image."
     },
     {
-      "leader": "Mojtaba Khamenei",
-      "dimension": "survival",
-      "current_score": 90,
-      "proposed_delta": 0,
-      "proposed_new_score": 90,
-      "confidence": "high",
-      "pattern_description": "Khamenei's consistent prioritization of regime survival over negotiation success evident in: threats to withdraw from IAEA cooperation if sanctioned, removal of nuclear program from international monitoring for 8 months, and continued military strikes despite ceasefire talks stalling. Every major decision centers on preserving state sovereignty and nuclear deterrent rather than risk-taking for diplomatic gain.",
+      "leader": "Recep Tayyip Erdogan",
+      "dimension": "impulsivity",
+      "current_score": 70,
+      "proposed_delta": 2,
+      "proposed_new_score": 72,
+      "confidence": "medium",
+      "pattern_description": "Erdogan has shown reactive tactical posturing in response to regional developments, evidenced by characterizing Iran conflict as 'geostrategic impasse' while simultaneously dealing with Iranian missile targeting of Turkish territory. Framing suggests post-hoc rationalization of strategic position rather than proactive deliberation.",
       "evidence_chain": [
         {
-          "date": "2025-09-26",
-          "source": "PBS NewsHour",
+          "date": "2026-04-05",
+          "source": "Daily Sabah",
+          "bloc": "regional",
+          "headline": "Turkey calls Iran conflict a 'geostrategic impasse' in talks with NATO chief",
+          "relevance": "Reactive diplomatic characterization appears designed to manage alliance expectations after absorbing Iranian missile threat"
+        },
+        {
+          "date": "2026-03-09",
+          "source": "Foundation for Defense of Democracies",
+          "bloc": "western",
+          "headline": "NATO forces intercept Iranian ballistic missile targeting Turkish territory",
+          "relevance": "Turkish territory directly threatened by Iran just days before diplomatic repositioning, suggesting reactive rather than proactive strategic framing"
+        }
+      ],
+      "items_supporting": 2,
+      "blocs_represented": [
+        "regional",
+        "western"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Only two items supporting; threshold requires 4+ for impulsivity dimension. Pattern insufficient for proposal despite suggestive evidence of reactivity."
+    },
+    {
+      "leader": "Benjamin Netanyahu",
+      "dimension": "accountability",
+      "current_score": 18,
+      "proposed_delta": 3,
+      "proposed_new_score": 21,
+      "confidence": "high",
+      "pattern_description": "Netanyahu has engaged in systematic accountability evasion through deliberate geographic maneuvering and legal jurisdiction avoidance. Evidence shows conscious avoidance of ICC obligations despite warrants, deliberately hosting in countries without extradition arrangements, and continuing military operations despite international legal exposure.",
+      "evidence_chain": [
+        {
+          "date": "2026-03-20",
+          "source": "Human Rights Watch",
           "bloc": "institutional",
-          "headline": "Iran Threatens Complete IAEA Cooperation Withdrawal if UN Sanctions Reimposed",
-          "relevance": "Conditional threat reflects survival logic: IAEA withdrawal as insurance against sanctions resumption"
+          "headline": "Hungary expected to host Netanyahu despite ICC obligations",
+          "relevance": "Deliberate selection of jurisdiction without ICC compliance demonstrates systematic evasion of accountability mechanisms"
+        }
+      ],
+      "items_supporting": 1,
+      "blocs_represented": [
+        "institutional"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Only one item in news history directly evidencing accountability evasion. Threshold requires 3+ items and 2+ source blocs. While pattern is likely systemic, accumulated evidence within this dataset is insufficient."
+    }
+  ],
+  "variable_proposals": [
+    {
+      "variable": "armsControlArchitecture",
+      "current_assessment": "Severely degraded by US missile depletion and Iranian nuclear escalation; UN Security Council deadlocked with Russia-China challenging sanctions legality",
+      "proposed_direction": "decrease",
+      "confidence": "high",
+      "rationale": "Multiple institutional sources confirm collapse of traditional arms control mechanisms: US has burned 14 years of missile inventory in Iran war (institutional verification), IAEA confirms Natanz remains inaccessible after bombing, and UN Security Council is fundamentally split on Iran sanctions legality with Russia-China actively challenging enforcement. This represents systematic dismantling of post-JCPOA verification and compliance infrastructure.",
+      "evidence_chain": [
+        {
+          "date": "2026-03-30",
+          "source": "Arms Control Association",
+          "bloc": "institutional",
+          "headline": "Arms Control Association Analysis: US Burned 14 Years of Missile Inventory in Iran War",
+          "relevance": "Demonstrates unsustainable depletion of conventional arms inventory that undermines strategic stability architecture"
         },
         {
           "date": "2026-03-02",
-          "source": "International Atomic Energy Agency",
+          "source": "PBS NewsHour",
           "bloc": "institutional",
-          "headline": "IAEA Declares Iran's Nuclear Program Outside International Monitoring for Eight Months",
-          "relevance": "Deliberate exit from monitoring reflects survival priority: opacity as protection against verification-based sanctions"
+          "headline": "IAEA confirms Iran's Natanz nuclear facility remains inaccessible after bombing damage",
+          "relevance": "Direct evidence of destroyed nuclear verification infrastructure and loss of IAEA inspection access"
+        },
+        {
+          "date": "2026-03-14",
+          "source": "UN Press Release",
+          "bloc": "institutional",
+          "headline": "UN Security Council Splits as Russia-China Challenge Iran Sanctions Legality",
+          "relevance": "Demonstrates collapse of multilateral enforcement consensus with permanent members actively opposing sanctions regime"
+        },
+        {
+          "date": "2026-04-04",
+          "source": "Arms Control Association",
+          "bloc": "institutional",
+          "headline": "Arms Control Association analysis reveals US negotiators ill-prepared for Iran nuclear talks",
+          "relevance": "Indicates institutional inability to sustain arms control diplomacy even when attempted"
+        }
+      ]
+    },
+    {
+      "variable": "straitControl",
+      "current_assessment": "Under pressure but still permeable; NATO forces intercepting Iranian missiles; Japanese, French, Omani vessels successfully transiting",
+      "proposed_direction": "hold",
+      "confidence": "medium",
+      "rationale": "Evidence is contradictory: Iran has launched strikes at Gulf energy sites and attempted to target Turkish territory, but multinational naval forces continue transiting the Strait with NATO interception capabilities demonstrated. No sustained pattern of Iranian blockade or successful denial of passage emerges from the data.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-03",
+          "source": "Japan Today",
+          "bloc": "western",
+          "headline": "Japanese, French and Omani vessels cross Strait of Hormuz",
+          "relevance": "Direct evidence of continued multilateral passage capability"
+        },
+        {
+          "date": "2026-03-09",
+          "source": "Foundation for Defense of Democracies",
+          "bloc": "western",
+          "headline": "NATO forces intercept Iranian ballistic missile targeting Turkish territory",
+          "relevance": "Demonstrates NATO capability to defend against Iranian strikes but does not indicate control change in strait itself"
         },
         {
           "date": "2026-04-04",
           "source": "Globalsecurity.org",
           "bloc": "western",
           "headline": "Tehran Hits Gulf Energy Sites, Trump Warns US 'Hasn't Even Started' To Destroy Iran",
-          "relevance": "Continued offensive strikes despite ceasefire stalling signals maintenance of deterrent posture for survival"
+          "relevance": "Iran striking regional targets but not successfully denying maritime passage"
+        }
+      ]
+    },
+    {
+      "variable": "nuclearSignalling",
+      "current_assessment": "Escalated from diplomatic signaling to active weaponization trajectory; Iran Supreme Leader issues first statement vowing continued resistance; SIPRI confirms Pakistan at 170 warheads, India at 180",
+      "proposed_direction": "increase",
+      "confidence": "high",
+      "rationale": "Multiple institutional and regional sources document shift from deterrent signaling to active weapons development posture. Iranian Supreme Leader (Mojtaba Khamenei) issues warhead development statement with explicit resistance commitment; SIPRI quantifies regional nuclear expansion with Pakistan-India competitive accumulation; institutional sources document destruction of verification infrastructure that would normally constrain this escalation.",
+      "evidence_chain": [
+        {
+          "date": "2026-03-12",
+          "source": "Iran International",
+          "bloc": "persian",
+          "headline": "Iran Supreme Leader Mojtaba Khamenei issues first statement vowing continued resistance",
+          "relevance": "Direct evidence of public commitment to sustained nuclear weapons development as resistance strategy"
+        },
+        {
+          "date": "2026-04-04",
+          "source": "Global Military",
+          "bloc": "institutional",
+          "headline": "SIPRI reports Pakistan nuclear arsenal at 170 warheads, India overtakes at 180",
+          "relevance": "Institutional documentation of accelerated nuclear accumulation in region directly affected by Iran conflict spillover"
+        },
+        {
+          "date": "2025-10-15",
+          "source": "Wikipedia",
+          "bloc": "institutional",
+          "headline": "Iranian sources report Supreme Leader Ali Khamenei authorized nuclear warhead development in October 2025",
+          "relevance": "Institutional documentation of formal warhead development authorization prior to active conflict phase"
+        }
+      ]
+    },
+    {
+      "variable": "iranRegimeCohesion",
+      "current_assessment": "Tested by extended conflict but surviving through resistance narrative; Supreme Leader personally engaged in military signaling",
+      "proposed_direction": "hold",
+      "confidence": "medium",
+      "rationale": "While Iran has sustained combat operations, absorbed strikes on nuclear infrastructure, and faced US ground operation threats, the Supreme Leader has issued direct resistance statements and maintained command of military responses. No evidence of internal fracture, succession disputes, or loss of IRGC loyalty. However, economic strain and casualty burden are not quantified in available evidence.",
+      "evidence_chain": [
+        {
+          "date": "2026-03-12",
+          "source": "Iran International",
+          "bloc": "persian",
+          "headline": "Iran Supreme Leader Mojtaba Khamenei issues first statement vowing continued resistance",
+          "relevance": "Personal leadership engagement indicates maintained command authority despite conflict stress"
+        },
+        {
+          "date": "2026-04-04",
+          "source": "Globalsecurity.org",
+          "bloc": "western",
+          "headline": "Iran's military vows to continue war until US, Israel 'regret' aggression",
+          "relevance": "IRGC maintains coordinated messaging aligned with Supreme Leader direction, indicating institutional cohesion"
+        }
+      ]
+    },
+    {
+      "variable": "diplomaticChannels",
+      "current_assessment": "Severely degraded; ceasefire odds at 1.1%; US negotiators ill-prepared; standstill reached in formal talks",
+      "proposed_direction": "decrease",
+      "confidence": "high",
+      "rationale": "Institutional and western sources document collapse of diplomatic efficacy: ceasefire probability has declined to near-zero (1.1%), formal talks have reached standstill, US negotiators documented as ill-prepared, and alternative mediation pathways (Pakistan-China) remain informal and non-binding. Trump continues talks despite objective impossibility per institutional assessment.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-04",
+          "source": "Crypto Briefing",
+          "bloc": "western",
+          "headline": "Trump continues talks despite Iran downing two US jets; ceasefire odds drop to 1.1%",
+          "relevance": "Direct quantification of diplomatic channel collapse to near-zero probability"
         },
         {
           "date": "2026-04-03",
           "source": "The Jerusalem Post",
           "bloc": "regional",
           "headline": "Ceasefire talks reach standstill...",
-          "relevance": "Khamenei's military actions continue despite diplomatic stalemate—survival takes precedence over negotiation"
-        }
-      ],
-      "items_supporting": 4,
-      "blocs_represented": [
-        "western",
-        "regional",
-        "institutional"
-      ],
-      "threshold_met": false,
-      "counter_evidence": "Score is already at 90; no pattern emerges justifying increase. Evidence shows consistency with current score, not change."
-    },
-    {
-      "leader": "Benjamin Netanyahu",
-      "dimension": "accountability",
-      "current_score": 18,
-      "proposed_delta": -3,
-      "proposed_new_score": 15,
-      "confidence": "medium",
-      "pattern_description": "Netanyahu continues systematic evasion of accountability mechanisms: accepts Trump's Gaza Peace Board despite active ICC war crimes warrant, hosts meetings in Hungary despite ICC obligations, and coordinates with Putin (also ICC-wanted) to normalize warrant evasion. Pattern shows deliberate institutional bypass strategy.",
-      "evidence_chain": [
-        {
-          "date": "2026-01-21",
-          "source": "Al Jazeera",
-          "bloc": "institutional",
-          "headline": "Netanyahu Accepts Trump Gaza Peace Board Despite ICC War Crimes Warrant",
-          "relevance": "Direct participation in US-led framework despite ICC warrant shows active accountability mechanism bypass"
+          "relevance": "Formal negotiation process documented as reaching complete stalemate"
         },
-        {
-          "date": "2026-03-20",
-          "source": "Human Rights Watch",
-          "bloc": "institutional",
-          "headline": "Hungary expected to host Netanyahu despite ICC obligations",
-          "relevance": "Deliberate venue selection in non-compliant state demonstrates systematic evasion of accountability"
-        }
-      ],
-      "items_supporting": 2,
-      "blocs_represented": [
-        "institutional"
-      ],
-      "threshold_met": false,
-      "counter_evidence": "Only 2 items; threshold requires 3+ items and 2+ source blocs. While pattern is clear, quantitative evidence is insufficient for proposal."
-    }
-  ],
-  "variable_proposals": [
-    {
-      "variable": "straitControl",
-      "current_assessment": "Iran maintains effective blockade; international shipping severely disrupted; 20,000 sailors stranded; limited vessel transit",
-      "proposed_direction": "hold",
-      "confidence": "high",
-      "rationale": "Multiple April 2026 reports confirm Iran's control remains stable despite brief transits (Japanese, French, Omani vessels noted crossing). Capacity to interdict remains unchanged; Trump's escalation has not dislodged Iranian position. 'Regime change' framing in western media signals Iran's maintained operational dominance.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-03",
-          "source": "ABC News (AU)",
-          "headline": "'Regime change' in the Strait of Hormuz sees 20,000 sailors stranded at sea",
-          "relevance": "Demonstrates scale of Iranian control—20,000 stranded indicates effective blockade maintenance"
-        },
-        {
-          "date": "2026-04-03",
-          "source": "Protothema.gr",
-          "headline": "Iran: at least five ships passed through the Strait of Hormuz in the last 24 hours",
-          "relevance": "Limited transits (5 ships/24 hrs) show Iran controls flow, not blockade breach"
-        },
-        {
-          "date": "2026-04-03",
-          "source": "Japan Today",
-          "headline": "Japanese, French and Omani vessels cross Strait of Hormuz",
-          "relevance": "Selective, controlled transits indicate Iran manages passage—evidence of control, not loss of it"
-        }
-      ]
-    },
-    {
-      "variable": "armsControlArchitecture",
-      "current_assessment": "IAEA monitoring broken (Iran 8 months outside monitoring); UN Security Council split on Iran sanctions legality; Congress rejects war powers resolutions; bilateral agreements paralyzed",
-      "proposed_direction": "decrease",
-      "confidence": "high",
-      "rationale": "Sustained pattern across institutional bodies: IAEA loses Iran monitoring, Russia-China block UN sanctions enforcement, US Congress constrains Trump's war authority by narrow margins. Traditional verification and collective security frameworks are deteriorating faster than new mechanisms emerge.",
-      "evidence_chain": [
-        {
-          "date": "2026-03-02",
-          "source": "International Atomic Energy Agency",
-          "headline": "IAEA Declares Iran's Nuclear Program Outside International Monitoring for Eight Months",
-          "relevance": "Core verification mechanism broken—Iran outside IAEA purview means no real-time nuclear oversight"
-        },
-        {
-          "date": "2026-03-14",
-          "source": "UN Press Release",
-          "headline": "UN Security Council Splits as Russia-China Challenge Iran Sanctions Legality",
-          "relevance": "Permanent members block enforcement mechanism—Security Council collective action paralyzed"
-        },
-        {
-          "date": "2026-03-05",
-          "source": "Christian Science Monitor",
-          "headline": "US Congress Rejects War Powers Resolutions on Iran by Narrow Margins",
-          "relevance": "Congressional constraints on executive war authority indicate domestic legal architecture strain"
-        },
-        {
-          "date": "2025-10-17",
-          "source": "Euronews",
-          "headline": "ICC Issues Fresh Guidelines on Putin Arrest Warrant as Hungary Withdrawal Delayed",
-          "relevance": "ICC guidelines adjustments signal institutional pressure to accommodate non-compliance—accountability architecture weakening"
-        }
-      ]
-    },
-    {
-      "variable": "nuclearSignalling",
-      "current_assessment": "Pakistan nuclear arsenal at 170 warheads (SIPRI 2026-04-04); India overtakes at 180 warheads; May 2025 crisis created escalation dynamics; India-Pakistan nuclear posturing elevated",
-      "proposed_direction": "increase",
-      "confidence": "high",
-      "rationale": "Pakistan-India nuclear parity crossing (India at 180, Pakistan at 170) combined with Carnegie Endowment analysis showing 'escalation dynamics shift' post-May 2025 crisis demonstrates persistent nuclear signalling intensity. Pakistan's diplomatic elevation by Munir may increase confidence for further nuclear assertions.",
-      "evidence_chain": [
         {
           "date": "2026-04-04",
-          "source": "Global Military",
-          "headline": "SIPRI reports Pakistan nuclear arsenal at 170 warheads, India overtakes at 180",
-          "relevance": "Parity crossing (India now +10) creates strategic signalling opportunity for Pakistan to assert deterrent"
-        },
-        {
-          "date": "2026-02-10",
-          "source": "Carnegie Endowment for International Peace",
-          "headline": "India-Pakistan Nuclear Escalation Dynamics Shift After May 2025 Crisis",
-          "relevance": "Documented shift in escalation dynamics indicates sustained elevation of nuclear signalling posture"
-        },
-        {
-          "date": "2026-04-03",
-          "source": "Associated Press",
-          "headline": "Suicide bomber kills five in Pakistan police station attack during peace talks",
-          "relevance": "Security incidents during peace talks create pressure for Munir to signal nuclear credibility as deterrent"
-        }
-      ]
-    },
-    {
-      "variable": "diplomaticChannels",
-      "current_assessment": "Pakistan-China-US mediation active; Pakistan-Afghanistan peace talks advancing in Urumqi; US-Iran ceasefire negotiations stalled; trilateral frameworks emerging",
-      "proposed_direction": "increase",
-      "confidence": "medium",
-      "rationale": "Despite Trump-Khamenei military escalation, parallel diplomatic channels remain open: Pakistan-China-US coordination, Pakistan-Afghanistan mediation, and US-Iran ceasefire talks (stalled but not severed). Multiple institutional players (China, Pakistan, UN) sustain negotiation tracks independent of primary belligerents' rhetoric.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-03",
-          "source": "Associated Press",
-          "headline": "China confirms Pakistan-Afghanistan peace talks advancing in Urumqi mediation",
-          "relevance": "Pakistan-China-Afghanistan mediation shows third-party diplomatic escalation despite Iran-US war"
+          "source": "Arms Control Association",
+          "bloc": "institutional",
+          "headline": "Arms Control Association analysis reveals US negotiators ill-prepared for Iran nuclear talks",
+          "relevance": "Institutional assessment of US negotiating capacity degradation"
         },
         {
           "date": "2026-04-01",
           "source": "South China Morning Post",
+          "bloc": "regional",
           "headline": "Pakistan-China Launch Joint Five-Point Peace Initiative for Iran-US War",
-          "relevance": "Active multilateral framework creation suggests diplomatic channel multiplication despite ceasefire stall"
-        },
-        {
-          "date": "2026-04-04",
-          "source": "Ynet News",
-          "headline": "Field Marshal Munir emerges as key US-Iran mediation facilitator",
-          "relevance": "US-Iran bilateral mediation track maintained through Pakistani intermediary"
+          "relevance": "Alternative mediation mechanisms indicate bypass of traditional diplomatic infrastructure"
         }
       ]
     }
   ],
-  "no_change_assessment": "Netanyahu's accountability decline lacks sufficient source bloc diversity (only institutional). Khamenei's survival remains at 90 (no change pattern detected). Trump's narcissism and values show no sustained pattern deviation from current scores over this period—impulsivity proposal captures the relevant behavioral shift. Modi, Erdogan, Xi, Putin, Zelensky, Kim Jong-un, Munir's other dimensions lack 3+ items with 2+ blocs for proposal threshold.",
-  "generated_at": "2026-04-05T06:00:40.662Z"
+  "no_change_assessment": "Narendra Modi: Accountability dimension shows evidence of diplomatic setback (Foreign Policy, 2026-04-03) but insufficient items (1) and source blocs (1) to justify proposal. Mojtaba Khamenei: Survival and narcissism dimensions show some elevation due to resistance posture, but pattern is consistent with baseline wartime leadership rather than fundamental behavioral shift. Volodymyr Zelensky: No new evidence in this period; scores remain calibrated to prior data. Xi Jinping: Limited evidence in period; arms control position taken but insufficient pattern. Mohammed bin Salman, Vladimir Putin, Kim Jong-un: Insufficient items in this analysis period to identify sustained behavioral patterns warranting dimensional adjustments.",
+  "generated_at": "2026-04-05T08:08:46.946Z"
 }
