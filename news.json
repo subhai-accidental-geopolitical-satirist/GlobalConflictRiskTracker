@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-06T14:42:24.857Z",
+  "ts": "2026-04-06T20:07:21.234Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 122,
     "oilStress": 87,
-    "updatedAt": "2026-04-06T14:42:24.857Z"
+    "updatedAt": "2026-04-06T20:07:21.234Z"
   },
   "items": [
     {
@@ -118,6 +118,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Wall Street’s Eyes on the Strait",
+      "summary": "With markets wobbling and bad information everywhere, Citrini Research sent an analyst to the war zone to figure out what’s really happening.",
+      "source": "New York Magazine",
+      "url": "http://nymag.com/intelligencer/article/why-citrini-research-sent-an-analyst-to-the-strait-of-hormuz.html",
+      "bloc": "western",
+      "date": "2026-04-05",
+      "datetime": "2026-04-05T16:00:41Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Iran war: What is happening on day 37 of US-Israeli attacks?",
       "summary": "A US crew member who has been missing since Iran shot down a fighter jet has been rescued, President Donald Trump says.",
       "source": "Al Jazeera English",
@@ -177,32 +203,6 @@
       "bloc": "western",
       "date": "2026-04-03",
       "datetime": "2026-04-03T19:30:56Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran: at least five ships passed through the Strait of Hormuz in the last 24 hours",
-      "summary": "Oil and commodity markets are anxiously looking for signs that traffic in the Straits is being restored\nThe post Iran: at least five ships passed through the Strait of Hormuz in the last 24 hours appeared first on ProtoThema English.",
-      "source": "Protothema.gr",
-      "url": "https://en.protothema.gr/2026/04/03/iran-at-least-five-ships-passed-through-the-strait-of-hormuz-in-the-last-24-hours/",
-      "bloc": "western",
-      "date": "2026-04-03",
-      "datetime": "2026-04-03T19:19:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -756,262 +756,162 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran's New Supreme Leader Mojtaba Khamenei Missing as IRGC Seizes Control, President Sidelined",
-      "summary": "Supreme Leader Mojtaba Khamenei remains unseen since March, sparking health speculation while IRGC blocks presidential appointments and controls information flow. Military council now mediates between President Pezeshkian and the Supreme Leader's office.",
-      "source": "The Week",
-      "url": "https://www.theweek.in/news/middle-east/2026/04/01/is-mojtaba-khamenei-s-disappearance-behind-growing-irgc-control-in-iran-report-offers-inside-view.html",
-      "bloc": "regional",
-      "date": "2026-04-01",
-      "datetime": "2026-04-01T20:10:00Z",
+      "headline": "Iran's New Supreme Leader Issues First Statement Amid Mounting Health Questions",
+      "summary": "Mojtaba Khamenei delivered his first message as Iran's Supreme Leader through written statements read on state television, vowing to keep Strait of Hormuz closed and continue resistance. No video or audio recording has been released, raising questions about his health after the strikes that killed his father.",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en/202603125349",
+      "bloc": "persian",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T12:00:00Z",
       "leaders": [
-        "Mojtaba Khamenei",
-        "Masoud Pezeshkian"
+        "Mojtaba Khamenei"
       ],
       "watch_terms": [
         "Supreme Leader Iran",
         "IRGC",
+        "Strait Hormuz",
         "Iran ceasefire"
       ],
       "dimensions": [
-        "survival",
-        "accountability"
+        "survival"
       ],
-      "variable_key": "khamenei_survival",
+      "variable_key": "mojtaba_health_concerns",
       "event_type": "leader_statement",
       "escalation": 5,
       "persian_only": false,
       "dimension_signal": {
         "leader": "Mojtaba Khamenei",
         "dimension": "survival",
-        "proposed_delta": -3,
-        "rationale": "Extended absence amid war suggests possible incapacitation or reduced control over power apparatus",
-        "confidence": "medium"
-      },
-      "_from": "claude"
-    },
-    {
-      "headline": "Netanyahu Avoids ICC Arrest by Skipping Davos 2026, Hungary Prepares Second Violation",
-      "summary": "Netanyahu cancelled World Economic Forum attendance to avoid arrest warrant, while Hungary announces intention to host him again in March despite ICC obligations. Human Rights Watch demands Hungary comply with international law.",
-      "source": "Human Rights Watch",
-      "url": "https://www.hrw.org/news/2026/03/20/hungary-arrest-netanyahu-if-he-visits",
-      "bloc": "institutional",
-      "date": "2026-03-20",
-      "datetime": "2026-03-20T00:00:00Z",
-      "leaders": [
-        "Benjamin Netanyahu",
-        "Viktor Orbán"
-      ],
-      "watch_terms": [
-        "ICC Netanyahu",
-        "trial hearing"
-      ],
-      "dimensions": [
-        "accountability",
-        "survival"
-      ],
-      "variable_key": "netanyahu_accountability",
-      "event_type": "leader_statement",
-      "escalation": 4,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Benjamin Netanyahu",
-        "dimension": "accountability",
         "proposed_delta": -2,
-        "rationale": "Actively avoiding international jurisdiction demonstrates evasion of legal accountability mechanisms",
+        "rationale": "no public appearances and health questions despite hardline stance suggest vulnerability",
         "confidence": "high"
       },
       "_from": "claude"
     },
     {
-      "headline": "Pakistan Army Chief Munir Issues Nuclear Threats from US Soil, Targets Indian Economic Asset",
-      "summary": "Field Marshal Asim Munir threatened to 'take half the world down' if Pakistan falls and specifically targeted India's Jamnagar refinery during Tampa speech. India condemned 'nuclear sabre-rattling' made from friendly country's territory.",
-      "source": "Australian Institute of International Affairs",
-      "url": "https://www.internationalaffairs.org.au/australianoutlook/pakistans-army-chief-sparks-alarm-with-nuclear-threats-on-u-s-soil/",
-      "bloc": "regional",
-      "date": "2025-09-11",
-      "datetime": "2025-09-11T00:00:00Z",
-      "leaders": [
-        "Asim Munir",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "Pakistan nuclear",
-        "India Pakistan",
-        "Munir"
-      ],
-      "dimensions": [
-        "impulsivity",
-        "survival"
-      ],
-      "variable_key": "munir_nuclear_threats",
-      "event_type": "leader_statement",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Asim Munir",
-        "dimension": "impulsivity",
-        "proposed_delta": 3,
-        "rationale": "Public nuclear threats with specific targets made on ally's soil demonstrates reckless escalatory behavior",
-        "confidence": "high"
-      },
-      "_from": "claude"
-    },
-    {
-      "headline": "Saudi Crown Prince MBS Pushes Trump to Continue Iran War Despite 'Productive' Ceasefire Claims",
-      "summary": "Mohammed bin Salman reportedly urged Trump in multiple calls to maintain military pressure on Iran, fearing failed state scenario. Crown Prince warns premature withdrawal would leave Gulf facing 'emboldened and furious' Iran without Western backing.",
-      "source": "The Jewish Chronicle",
-      "url": "https://www.thejc.com/news/world/saudi-mbs-us-continue-iran-war-ba5isi1s",
-      "bloc": "regional",
-      "date": "2026-03-25",
-      "datetime": "2026-03-25T11:24:00Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "Saudi Arabia Iran",
-        "MBS",
-        "Iran ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "mbs_iran_stance",
-      "event_type": "leader_statement",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Mohammed bin Salman",
-        "dimension": "survival",
-        "proposed_delta": 2,
-        "rationale": "Prioritizing regime survival over regional stability by advocating continued warfare to prevent Iranian retaliation",
-        "confidence": "high"
-      },
-      "_from": "claude"
-    },
-    {
-      "headline": "IAEA Chief Grossi Warns Iran Nuclear Stockpile Mystery Could Force 'No Guarantee' Declaration",
-      "summary": "Rafael Grossi stated IAEA cannot verify Iran's 440.9kg of 60% enriched uranium after seven months without inspections of bombed facilities. Iran has not submitted required special report on nuclear materials following US-Israeli strikes.",
-      "source": "WANA",
-      "url": "https://wanaen.com/iaea-chief-raises-concerns-over-irans-enriched-uranium-stockpile/",
+      "headline": "IAEA Reports Latest Strike on Iran's Bushehr Nuclear Plant Violates Safety Principles",
+      "summary": "UN nuclear chief Rafael Grossi expressed deep concern over reports of another attack on Bushehr nuclear facility, warning any strike near nuclear installations risks violating safety principles. Previous March strike damaged a structure 350 meters from reactor.",
+      "source": "UN News",
+      "url": "https://news.un.org/en/story/2026/04/1167250",
       "bloc": "institutional",
       "date": "2026-04-06",
-      "datetime": "2026-04-06T00:00:00Z",
+      "datetime": "2026-04-06T07:00:00Z",
       "leaders": [
         "Rafael Grossi"
       ],
       "watch_terms": [
-        "nuclear Iran",
-        "IAEA"
+        "nuclear Iran"
       ],
       "dimensions": [
         "accountability"
       ],
-      "variable_key": "iran_nuclear_compliance",
-      "event_type": "static_variable",
-      "escalation": 5,
-      "persian_only": false,
-      "_from": "claude"
-    },
-    {
-      "headline": "Iran's Nuclear Agency Pursues Legal Action Against IAEA Chief Over 'Inaction' During Facility Attacks",
-      "summary": "Iran's Atomic Energy Organization announces legal review of IAEA Director General Rafael Grossi's response to attacks on nuclear facilities. Move follows fourth projectile strike near Bushehr power plant killing protection staff member.",
-      "source": "Pravda EN",
-      "url": "https://news-pravda.com/world/2026/04/04/2211315.html",
-      "bloc": "persian",
-      "date": "2026-04-04",
-      "datetime": "2026-04-04T00:00:00Z",
-      "leaders": [
-        "Rafael Grossi"
-      ],
-      "watch_terms": [
-        "nuclear Iran",
-        "IAEA"
-      ],
-      "dimensions": [
-        "accountability"
-      ],
-      "variable_key": "iaea_iran_dispute",
+      "variable_key": null,
       "event_type": "infrastructure_attack",
       "escalation": 5,
       "persian_only": false,
       "_from": "claude"
     },
     {
-      "headline": "Pakistan Military Pursues ICBM Program as Citizens Suffer Under IMF Debt, US Assessment Reveals",
-      "summary": "US Intelligence Community's 2026 Threat Assessment identifies Pakistan under Munir as developing ICBMs capable of threatening Western capitals while surviving on IMF support. Report cites 2025 Pahalgam attack as proof Pakistan-linked terror remains nuclear trigger.",
-      "source": "The Hans India",
-      "url": "https://www.thehansindia.com/news/international/pakistans-military-pushes-icbm-ambitions-as-ordinary-citizens-suffer-1060151",
-      "bloc": "institutional",
-      "date": "2026-03-30",
-      "datetime": "2026-03-30T00:00:00Z",
+      "headline": "Pakistan Army Chief Makes Nuclear Threats Against India on U.S. Soil",
+      "summary": "General Asim Munir declared during Tampa event that Pakistan would 'take half the world down' if threatened, specifically naming India's Jamnagar refinery as potential target. India condemned remarks as nuclear sabre-rattling made on friendly nation's soil.",
+      "source": "Australian Institute of International Affairs",
+      "url": "https://www.internationalaffairs.org.au/australianoutlook/pakistans-army-chief-sparks-alarm-with-nuclear-threats-on-u-s-soil/",
+      "bloc": "regional",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T10:00:00Z",
       "leaders": [
-        "Asim Munir"
+        "General Asim Munir"
       ],
       "watch_terms": [
-        "Pakistan military",
         "Pakistan nuclear",
-        "IMF Pakistan"
+        "Pakistan military",
+        "Munir"
       ],
       "dimensions": [
-        "survival",
-        "values"
+        "impulsivity",
+        "narcissism"
       ],
-      "variable_key": "pakistan_icbm_program",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_statement",
       "escalation": 5,
       "persian_only": false,
       "dimension_signal": {
-        "leader": "Asim Munir",
-        "dimension": "values",
-        "proposed_delta": -2,
-        "rationale": "Prioritizing military capabilities over civilian welfare during economic crisis demonstrates misplaced resource allocation",
-        "confidence": "medium"
+        "leader": "General Asim Munir",
+        "dimension": "impulsivity",
+        "proposed_delta": 3,
+        "rationale": "public nuclear threats against specific civilian targets on foreign soil shows dangerous impulsiveness",
+        "confidence": "high"
       },
       "_from": "claude"
     },
     {
-      "headline": "Turkey's Erdogan Declares Iran Conflict 'Geostrategic Impasse,' Prepares NATO Summit Despite Mediation Role",
-      "summary": "President Erdogan tells NATO Secretary General Rutte that international community must intensify efforts to end Iran war. Turkey maintains dual strategy of mediation while hosting July 2026 NATO summit in Ankara and intercepting Iranian missiles.",
-      "source": "Pravda Turkey",
-      "url": "https://turkey.news-pravda.com/en/world/2026/04/04/80540.html",
+      "headline": "China-Pakistan Launch Five-Point Peace Plan for Iran War Ceasefire",
+      "summary": "Pakistani Foreign Minister Ishaq Dar met Chinese counterpart Wang Yi in Beijing to propose immediate ceasefire, Strait of Hormuz reopening, and peace talks. China positions itself as mediator while maintaining economic interests in regional stability.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/04/01/china/china-pakistan-peace-talks-iran-us-war-intl-hnk",
       "bloc": "regional",
-      "date": "2026-04-04",
-      "datetime": "2026-04-04T00:00:00Z",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T14:00:00Z",
       "leaders": [
-        "Recep Tayyip Erdogan"
+        "Xi Jinping",
+        "General Asim Munir"
       ],
       "watch_terms": [
-        "Turkey NATO",
-        "Turkey mediation",
-        "Erdogan"
+        "China Iran",
+        "China Pakistan",
+        "Pakistan mediation"
       ],
       "dimensions": [
-        "values",
-        "survival"
+        "values"
       ],
-      "variable_key": "turkey_mediation_stance",
-      "event_type": "leader_statement",
+      "variable_key": null,
+      "event_type": "static_variable",
       "escalation": 4,
       "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "Trump Approval Rating Hits New Lows Amid Iran War as Impeachment Talks Intensify",
+      "summary": "President Trump's approval dropped to 38% in recent polls as Iran conflict escalates. House Democrats are reportedly just two votes away from impeachment over war powers violations, with critics arguing strikes lacked congressional authorization.",
+      "source": "IBTimes UK",
+      "url": "https://www.ibtimes.co.uk/trump-approval-ratings-iran-conflict-impeachment-1785669",
+      "bloc": "western",
+      "date": "2026-04-05",
+      "datetime": "2026-04-05T16:00:00Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "approval rating",
+        "Trump impeach",
+        "War Powers",
+        "AUMF"
+      ],
+      "dimensions": [
+        "accountability",
+        "survival"
+      ],
+      "variable_key": "trump_approval_rating",
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
       "dimension_signal": {
-        "leader": "Recep Tayyip Erdogan",
-        "dimension": "values",
-        "proposed_delta": 1,
-        "rationale": "Balancing NATO obligations with regional peace mediation efforts demonstrates commitment to stability over conflict",
+        "leader": "Donald J. Trump",
+        "dimension": "accountability",
+        "proposed_delta": -2,
+        "rationale": "declining approval and impeachment threats indicate reduced political accountability",
         "confidence": "medium"
       },
       "_from": "claude"
     },
     {
-      "headline": "Iran's Assembly of Experts Held 'Unnatural' Online Election Under IRGC Pressure, Qom Office Bombed During Vote Count",
-      "summary": "Assembly members describe March election atmosphere as pressured with limited debate time before IRGC-backed Mojtaba Khamenei selection. US-Israeli bombs struck Experts' office after votes cast but before count completed, targeting the electoral process itself.",
-      "source": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2026_Iranian_supreme_leader_election",
+      "headline": "Mojtaba Khamenei Elected Iran's Third Supreme Leader After Father's Assassination",
+      "summary": "Assembly of Experts under IRGC pressure elected Ali Khamenei's son as Supreme Leader on March 8. The 56-year-old survived US-Israeli strike that killed his father and family members, marking first hereditary succession in Islamic Republic history.",
+      "source": "Radio Free Europe/Radio Liberty",
+      "url": "https://www.rferl.org/a/iran-names-khamenei-supreme-leader-us-israel/33698945.html",
       "bloc": "institutional",
-      "date": "2026-04-05",
-      "datetime": "2026-04-05T00:00:00Z",
+      "date": "2026-04-02",
+      "datetime": "2026-04-02T09:00:00Z",
       "leaders": [
         "Mojtaba Khamenei"
       ],
@@ -1020,88 +920,110 @@
         "IRGC"
       ],
       "dimensions": [
-        "accountability",
-        "survival"
+        "survival",
+        "values"
       ],
-      "variable_key": "iran_succession_legitimacy",
-      "event_type": "leader_statement",
+      "variable_key": null,
+      "event_type": "personnel_killed",
       "escalation": 5,
       "persian_only": false,
-      "dimension_signal": {
-        "leader": "Mojtaba Khamenei",
-        "dimension": "accountability",
-        "proposed_delta": -3,
-        "rationale": "Selection through pressured process under military control undermines democratic legitimacy and institutional accountability",
-        "confidence": "high"
-      },
       "_from": "claude"
     },
     {
-      "headline": "Trump Mocks Saudi Crown Prince, Claims MBS 'Kissing My Ass' While War Pressures Continue",
-      "summary": "Trump publicly humiliated Mohammed bin Salman at Miami investment forum, stating crown prince 'didn't think he'd be kissing my ass.' Comments contradict previous praise for MBS as 'warrior' fighting alongside America against Iran.",
-      "source": "Business Today",
-      "url": "https://www.businesstoday.in/world/story/he-didnt-think-hed-be-donald-trump-mocks-saudi-crown-prince-as-iran-war-rages-on-522831-2026-03-28",
+      "headline": "India-Pakistan Ceasefire Agreement Violated Hours After LoC Understanding",
+      "summary": "Pakistan brazenly violated ceasefire understanding along Line of Control and international border on same night it was reached between Directors General of Military Operations. Foreign Secretary confirmed repeated violations occurred immediately.",
+      "source": "Organiser",
+      "url": "https://organiser.org/2025/08/11/307456/bharat/india-slams-pakistan-nuclear-blackmail-mea-exposes-irresponsible-threats-as-proof-of-military-terror-nexus/",
       "bloc": "regional",
-      "date": "2026-03-28",
-      "datetime": "2026-03-28T00:00:00Z",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T11:00:00Z",
       "leaders": [
-        "Donald J. Trump",
-        "Mohammed bin Salman"
+        "General Asim Munir",
+        "Narendra Modi"
       ],
       "watch_terms": [
-        "MBS",
-        "approval rating",
-        "Saudi Arabia Iran"
+        "LoC violations",
+        "India Pakistan",
+        "Pakistan military"
       ],
       "dimensions": [
-        "narcissism",
-        "impulsivity"
+        "accountability"
       ],
-      "variable_key": "trump_saudi_relations",
-      "event_type": "leader_statement",
-      "escalation": 3,
+      "variable_key": null,
+      "event_type": "regional_strike",
+      "escalation": 5,
       "persian_only": false,
-      "dimension_signal": {
-        "leader": "Donald J. Trump",
-        "dimension": "narcissism",
-        "proposed_delta": 2,
-        "rationale": "Public humiliation of key ally demonstrates prioritizing personal dominance over strategic relationships",
-        "confidence": "high"
-      },
       "_from": "claude"
     },
     {
-      "headline": "Pakistan Field Marshal Munir Emerges as Key US-Iran Mediator, Delivers 15-Point Ceasefire Proposal",
-      "summary": "Asim Munir positioned as central figure in mediation efforts between Washington and Tehran, helping deliver US proposal including uranium enrichment halt and Strait of Hormuz reopening. Pakistan leverages neutral status as non-targeted regional power.",
-      "source": "YNet News",
-      "url": "https://www.ynetnews.com/article/skouxtzi11x",
-      "bloc": "regional",
-      "date": "2026-03-23",
-      "datetime": "2026-03-23T00:00:00Z",
+      "headline": "Senate Rejects War Powers Resolution to Constrain Trump on Iran by 47-53 Vote",
+      "summary": "Senate failed to pass resolution requiring congressional approval for further Iran military action. House expected similar outcome, representing latest example of Congress becoming bystander rather than decider on military operations.",
+      "source": "Christian Science Monitor",
+      "url": "https://www.csmonitor.com/USA/Politics/2026/0304/trump-iran-congress-war-powers",
+      "bloc": "western",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T15:00:00Z",
       "leaders": [
-        "Asim Munir",
         "Donald J. Trump"
       ],
       "watch_terms": [
-        "Pakistan military",
-        "Iran ceasefire",
-        "Munir"
+        "War Powers",
+        "AUMF"
       ],
       "dimensions": [
-        "values",
-        "survival"
+        "accountability"
       ],
-      "variable_key": "pakistan_mediation_role",
-      "event_type": "leader_statement",
-      "escalation": 2,
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
       "persian_only": false,
-      "dimension_signal": {
-        "leader": "Asim Munir",
-        "dimension": "values",
-        "proposed_delta": 1,
-        "rationale": "Taking constructive mediation role in regional conflict demonstrates diplomatic engagement over military confrontation",
-        "confidence": "medium"
-      },
+      "_from": "claude"
+    },
+    {
+      "headline": "ICC Maintains Netanyahu and Gallant Arrest Warrants After Rejecting Israeli Appeals",
+      "summary": "International Criminal Court rejected Israeli challenges to jurisdiction and upheld arrest warrants for Prime Minister Netanyahu and former Defense Minister Gallant over alleged Gaza war crimes. Israeli officials called decision antisemitic.",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/icc-denies-israeli-bid-to-halt-gaza-probe-maintains-warrants-for-netanyahu-gallant/",
+      "bloc": "western",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T13:00:00Z",
+      "leaders": [
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "ICC Netanyahu",
+        "trial hearing"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude"
+    },
+    {
+      "headline": "IAEA Confirms Damage to Iran's Natanz Nuclear Facility Entrance Buildings",
+      "summary": "International Atomic Energy Agency confirmed damage to entrance buildings of underground fuel enrichment plant at Natanz but no radiological consequences expected. Agency maintains emergency monitoring amid ongoing US-Israeli attacks.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/3/iaea-confirms-some-damage-to-irans-natanz-nuclear-facility",
+      "bloc": "institutional",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T08:00:00Z",
+      "leaders": [
+        "Rafael Grossi"
+      ],
+      "watch_terms": [
+        "nuclear Iran"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 5,
+      "persian_only": false,
       "_from": "claude"
     }
   ]
