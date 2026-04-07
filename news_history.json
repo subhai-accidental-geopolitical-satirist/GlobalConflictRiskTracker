@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-06T20:05:49.321Z",
+  "updated": "2026-04-07T06:02:26.245Z",
   "retention_days": 30,
   "items": [
     {
@@ -5662,7 +5662,423 @@
       "_from": "claude",
       "first_seen": "2026-04-06T20:05:49.321Z",
       "run_id": "2026-04-06T20:05"
+    },
+    {
+      "headline": "A Weekend of Lies: The Truth Behind Trump’s ‘Pilot Rescue’ and the Catastrophic Uranium Grab That Failed",
+      "summary": "Introduction: The Predictable Cycle of Lies and Market Manipulation I’ve been watching the geopolitical theater for a long time, and what we witnessed this past weekend was another obvious attempt at deception and manipulation. While the public was fed a thri…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-06-weekend-lies-truth-behind-trumps-pilot-rescue.html",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Iranian Leader Warns of Prolonged Conflict Ahead of Trump Address",
+      "summary": "Summary of Key Developments Iranian President Masoud Pezeshkian, in an open letter released on Wednesday, April 1, alleged that Israel aims to prolong the ongoing conflict using American military and financial resources. The letter was published hours before …",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-06-iranian-leader-warns-prolonged-conflict-trump-address.html",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Sign Of The Times",
+      "summary": "If you haven’t seen the movie, Project Hail Mary, then you should… it is excellent. It is faithful to Andy Weir’s 2021 book, hilarious and heart-warming, and with the Artemis II crew circling the moon, the film is just what we needed.",
+      "source": "Substack.com",
+      "url": "https://chinaarticles.substack.com/p/sign-of-the-times",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Russia Expands Gasoline Export Ban, Faces Major Oil Outages Due to Drone Strikes",
+      "summary": "Russia Bans Gasoline Exports, Confirms Major Baltic Oil Terminal Outages The Russian government has expanded a ban on gasoline exports to include producers of the fuel, according to a report from Interfax news agency [1]. The ban, which now includes all gasol…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-06-russian-govt-expands-ban-on-gasoline-exports.html",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T06:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Fourth Strike Near Iran's Bushehr Nuclear Plant Kills Security Guard as IAEA Warns of Radiological Risk",
+      "summary": "Iran's Bushehr nuclear power plant was struck for the fourth time since the war began, killing one security guard and prompting IAEA Director Rafael Grossi to warn of severe radiological accident risks. Russian staff evacuated while one strike hit just 75 meters from the plant perimeter.",
+      "source": "UN News",
+      "url": "https://news.un.org/en/story/2026/04/1167250",
+      "bloc": "institutional",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T12:00:00Z",
+      "leaders": [
+        "Rafael Grossi"
+      ],
+      "watch_terms": [
+        "nuclear Iran",
+        "IAEA"
+      ],
+      "dimensions": [
+        "accountability",
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Field Marshal Asim Munir Conducts Overnight Diplomacy with U.S. and Iran Officials on Ceasefire Mediation",
+      "summary": "<cite index=\"22-2\">Pakistan's army chief, Field Marshal Asim Munir, has been in contact \"all night long\" with U.S. Vice President JD Vance, special envoy Steve Witkoff and Iranian Foreign Minister Abbas Araqchi</cite>. Sources indicate Pakistan is working to deliver a 15-point U.S. peace proposal to Tehran.",
+      "source": "LiveUAMap",
+      "url": "https://iran.liveuamap.com/en/2026/6-april-07-pakistans-army-chief-field-marshal-asim-munir",
+      "bloc": "regional",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T22:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Pakistan military",
+        "Iran ceasefire",
+        "Munir"
+      ],
+      "dimensions": [
+        "impulsivity",
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "General Asim Munir",
+        "dimension": "values",
+        "proposed_delta": 2,
+        "rationale": "intensive overnight diplomacy demonstrates commitment to regional mediation role",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Afghanistan-Pakistan Conflict Forces 94,000 Displacement as UN Reports Sustained Cross-Border Violence",
+      "summary": "<cite index=\"5-2\">Just over 94,000 people (about 13,400 families) have been assessed as displaced to date across Khost (26,200), Kunar (25,300), Nangarhar (19,600), Paktia (18,200) and Paktika (4,900) provinces</cite>. One humanitarian worker was killed while 25 health facilities and 41 schools were damaged.",
+      "source": "UN OCHA",
+      "url": "https://www.unocha.org/publications/report/afghanistan/afghanistan-situation-update-2-humanitarian-impact-afghanistan-pakistan-military-escalation-5-april-2026",
+      "bloc": "institutional",
+      "date": "2026-04-05",
+      "datetime": "2026-04-05T15:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Pakistan military",
+        "LoC violations"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "personnel_killed",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "China-Pakistan Release Five-Point Iran Peace Plan Calling for Immediate Ceasefire and Hormuz Reopening",
+      "summary": "<cite index=\"46-3\">China and Pakistan presented on Tuesday a new initiative for ending the war in Iran that includes an immediate ceasefire and the reopening of the Strait of Hormuz</cite>. The plan emerged during Pakistani Foreign Minister Ishaq Dar's visit to Beijing.",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/03/31/china-pakistan-iran-peace-deal-strait-ceasefire",
+      "bloc": "regional",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T14:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "China Iran",
+        "China Pakistan"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 3,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Xi Jinping",
+        "dimension": "values",
+        "proposed_delta": 1,
+        "rationale": "Beijing positions itself as diplomatic mediator while avoiding concrete commitments",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Iran's New Supreme Leader Mojtaba Khamenei Issues First Statement Vowing Continued Resistance",
+      "summary": "<cite index=\"57-2,57-3\">Khamenei called for national unity and said the vital global artery of the Strait of Hormuz would continue to be closed to pressure Iran's enemies. He added that all US bases in the region should be immediately closed or will be attacked</cite>. The statement was read by anchor as no video recording exists.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/12/irans-mojtaba-khamenei-issues-first-statement-as-supreme-leader-amid-war",
+      "bloc": "persian",
+      "date": "2026-04-05",
+      "datetime": "2026-04-05T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran",
+        "IRGC",
+        "Strait Hormuz",
+        "Iran ceasefire"
+      ],
+      "dimensions": [
+        "impulsivity",
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": true,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "survival",
+        "proposed_delta": 3,
+        "rationale": "doubling down on established hardline positions while facing existential threats",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Saudi Arabia Awaits Pakistan Mediation Outcome Before Considering Military Action Against Iran",
+      "summary": "<cite index=\"36-5,36-16\">As the United States is sending thousands more troops to the region – amid rumblings of a potential weekslong ground operation in Iran – Saudi Arabia is awaiting the outcome of last-ditch mediation efforts by Pakistan before considering military action of its own</cite>.",
+      "source": "Christian Science Monitor",
+      "url": "https://www.csmonitor.com/World/Middle-East/2026/0401/saudi-arabia-military-iran-war",
+      "bloc": "regional",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T19:45:00Z",
+      "leaders": [
+        "Mohammed bin Salman"
+      ],
+      "watch_terms": [
+        "Saudi Arabia Iran",
+        "MBS"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Mohammed bin Salman",
+        "dimension": "impulsivity",
+        "proposed_delta": -1,
+        "rationale": "showing restraint by waiting for diplomatic mediation before military action",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Myanmar's Min Aung Hlaing Elected President Consolidating Military Rule in Southeast Asia",
+      "summary": "<cite index=\"61-11\">On 3 April, Min Aung Hlaing was elected the country's 11th president with 429 of 584 votes, while Nyo Saw of the Tatmadaw and Nan Ni Ni Aye of the Amyotha Hluttaw were elected vice presidents</cite>. The election follows pro-military parliamentary polls criticized as neither free nor fair.",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Min_Aung_Hlaing",
+      "bloc": "regional",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T12:00:00Z",
+      "leaders": [
+        "Min Aung Hlaing"
+      ],
+      "watch_terms": [
+        "Myanmar president"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Nuclear Proliferation Risk Grows as Saudi Arabia Advances Enrichment Program Without IAEA Safeguards",
+      "summary": "<cite index=\"32-1\">The United States has signaled willingness to allow for Saudi enrichment without demanding acceptance of the Additional Protocol (AP) of the nuclear Non-Proliferation Treaty (NPT)</cite>. Analysts warn Iran war could trigger regional nuclear arms race.",
+      "source": "Stimson Center",
+      "url": "https://www.stimson.org/2026/saudi-arabias-nuclear-path-will-not-depend-on-iran-wars-outcome/",
+      "bloc": "institutional",
+      "date": "2026-04-02",
+      "datetime": "2026-04-02T10:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman"
+      ],
+      "watch_terms": [
+        "Saudi nuclear",
+        "Saudi Arabia Iran"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Iran Foreign Minister Warns of Regional Radioactive Fallout from Bushehr Nuclear Plant Attacks",
+      "summary": "<cite index=\"20-1,20-6\">Iran's Foreign Minister Abbas Araghchi has warned that there would be a potential radioactive fallout in the Gulf region after the recent US-Israeli attack on the country's Bushehr nuclear plant. Radioactive fallout will end life in GCC capitals, not Tehran</cite>.",
+      "source": "The Week",
+      "url": "https://www.theweek.in/news/middle-east/2026/04/05/iran-fm-warns-of-radioactive-fallout-after-fourth-strike-on-bushehr-nuclear-plant.html",
+      "bloc": "persian",
+      "date": "2026-04-05",
+      "datetime": "2026-04-05T15:15:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "nuclear Iran",
+        "Iran ceasefire"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 5,
+      "persian_only": true,
+      "dimension_signal": null,
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Trump Administration Shows Limited Interest in China-Pakistan Mediation Efforts Despite Regional Pressure",
+      "summary": "<cite index=\"45-1\">The US has soured on third-party mediation efforts, and it has little interest in boosting China's international stature or giving it an opening to claim success in the Middle East</cite>. Three officials described administration position as \"agnostic\" toward Chinese-Pakistani peace initiative.",
+      "source": "Manila Times",
+      "url": "https://www.manilatimes.net/2026/04/05/world/china-shows-leadership-with-iran-us-no-interest/2314222",
+      "bloc": "western",
+      "date": "2026-04-05",
+      "datetime": "2026-04-05T16:00:00Z",
+      "leaders": [
+        "Donald J. Trump",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Iran ceasefire",
+        "China Iran"
+      ],
+      "dimensions": [
+        "narcissism",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Donald J. Trump",
+        "dimension": "narcissism",
+        "proposed_delta": 1,
+        "rationale": "rejecting mediation that could boost China's stature over his own diplomatic control",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T06:02:26.245Z",
+      "run_id": "2026-04-07T06:02"
     }
   ],
-  "total_items_ever": 233
+  "total_items_ever": 247
 }

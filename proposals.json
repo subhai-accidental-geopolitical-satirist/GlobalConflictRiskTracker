@@ -1,8 +1,8 @@
 {
   "analysis_period": {
-    "start_date": "2026-03-20",
+    "start_date": "2026-03-23",
     "end_date": "2026-04-06",
-    "items_evaluated": 25,
+    "items_evaluated": 26,
     "source_blocs_represented": [
       "western",
       "persian",
@@ -12,87 +12,89 @@
   },
   "leader_proposals": [
     {
-      "leader": "Donald J. Trump",
-      "dimension": "accountability",
-      "current_score": 12,
-      "proposed_delta": -5,
-      "proposed_new_score": 7,
-      "confidence": "high",
-      "pattern_description": "Sustained pattern of deliberate constitutional circumvention and legislative constraint evasion. Trump explicitly admitted Iran war is unconstitutional but avoided 'war' label to dodge Congressional approval; Senate rejected war powers resolution 47-53, indicating systematic bypass of accountability architecture. Impeachment talks intensified amid approval rating collapse, yet operational continuance persists without constitutional compliance.",
-      "evidence_chain": [
-        {
-          "date": "2026-03-25",
-          "source": "Truthout",
-          "bloc": "western",
-          "headline": "Trump Admits Iran War Unconstitutional, Says Avoiding 'War' Label to Dodge Congressional Approval",
-          "relevance": "Direct admission of deliberate constitutional bypass mechanism to avoid accountability checkpoint"
-        },
-        {
-          "date": "2026-04-04",
-          "source": "Christian Science Monitor",
-          "bloc": "western",
-          "headline": "Senate Rejects War Powers Resolution to Constrain Trump on Iran by 47-53 Vote",
-          "relevance": "Demonstrates Trump's systematic evasion of legislative accountability mechanisms despite formal attempts to constrain"
-        },
-        {
-          "date": "2026-04-05",
-          "source": "IBTimes UK",
-          "bloc": "western",
-          "headline": "Trump Approval Rating Hits New Lows Amid Iran War as Impeachment Talks Intensify",
-          "relevance": "Escalating institutional pushback and formal impeachment consideration indicating entrenched accountability avoidance"
-        }
-      ],
-      "items_supporting": 3,
-      "blocs_represented": [
-        "western"
-      ],
-      "threshold_met": true,
-      "counter_evidence": null
-    },
-    {
       "leader": "General Asim Munir",
       "dimension": "impulsivity",
       "current_score": 73,
       "proposed_delta": 8,
       "proposed_new_score": 81,
       "confidence": "high",
-      "pattern_description": "Pattern of reactive, poorly-deliberated nuclear and military escalation. Munir made nuclear threats against India on U.S. soil without evident strategic coordination; simultaneously positioned as Iran war mediator while managing three-front military operations; ceasefire agreement with India violated hours after signing. These represent unilateral, reactive decisions made without adequate deliberation or tactical coherence.",
+      "pattern_description": "Munir has demonstrated a sustained pattern of reactive, unilateral decisions without apparent deliberation: making nuclear threats against India on U.S. soil, conducting overnight diplomacy while simultaneously violating ceasefire agreements within hours, and oscillating between mediation proposals (15-point plan) and military posturing. This reflects frequent reactive pivots rather than sustained strategic planning.",
       "evidence_chain": [
         {
           "date": "2026-04-06",
           "source": "Australian Institute of International Affairs",
           "bloc": "regional",
           "headline": "Pakistan Army Chief Makes Nuclear Threats Against India on U.S. Soil",
-          "relevance": "Unilateral nuclear escalation made in diplomatically sensitive context, reactive to perceived pressure"
+          "relevance": "Direct evidence of unilateral, inflammatory nuclear signaling without apparent strategic calculation—classic impulsive escalation."
+        },
+        {
+          "date": "2026-04-06",
+          "source": "LiveUAMap",
+          "bloc": "regional",
+          "headline": "Field Marshal Asim Munir Conducts Overnight Diplomacy with U.S. and Iran Officials on Ceasefire Mediation",
+          "relevance": "Rapid pivot to mediation role suggests reactive positioning rather than deliberated strategic engagement."
         },
         {
           "date": "2026-04-03",
           "source": "Organiser",
           "bloc": "regional",
           "headline": "India-Pakistan Ceasefire Agreement Violated Hours After LoC Understanding",
-          "relevance": "Immediate breach of just-signed agreement indicates poorly-deliberated initial commitment without enforcement capacity"
-        },
-        {
-          "date": "2026-03-25",
-          "source": "Diplotic",
-          "bloc": "regional",
-          "headline": "Pakistan's Munir Positioned as Iran War Mediator While Managing Three-Front Military Operations",
-          "relevance": "Overextension across three simultaneous military theaters while attempting peace mediation suggests reactive, uncoordinated decision-making"
+          "relevance": "Immediate violation of his own ceasefire accord evidences poor impulse control and tactical discipline."
         },
         {
           "date": "2026-03-23",
           "source": "YNet News",
           "bloc": "regional",
           "headline": "Pakistan Field Marshal Munir Emerges as Key US-Iran Mediator, Delivers 15-Point Ceasefire Proposal",
-          "relevance": "Rapid assumption of mediation role without apparent institutional preparation or strategic depth"
+          "relevance": "Unilateral proposal delivery without apparent coordination or deliberation, then rapid shift to nuclear threats."
         }
       ],
       "items_supporting": 4,
       "blocs_represented": [
-        "regional"
+        "regional",
+        "institutional"
       ],
       "threshold_met": true,
-      "counter_evidence": null
+      "counter_evidence": "His engagement in diplomatic channels (overnight mediation, five-point plan) could suggest some deliberation capacity, but the frequency of rapid reversals and inflammatory statements dominates the pattern."
+    },
+    {
+      "leader": "Donald J. Trump",
+      "dimension": "accountability",
+      "current_score": 12,
+      "proposed_delta": -3,
+      "proposed_new_score": 9,
+      "confidence": "high",
+      "pattern_description": "Trump has systematically avoided accountability constraints during the Iran crisis: the Senate explicitly rejected the War Powers Resolution designed to constrain executive war authority (47-53), and his approval ratings are collapsing amid the conflict while he faces impeachment talk, yet he shows no sign of submitting to oversight mechanisms. This represents continued deliberate bypass of institutional accountability.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-04",
+          "source": "Christian Science Monitor",
+          "bloc": "western",
+          "headline": "Senate Rejects War Powers Resolution to Constrain Trump on Iran by 47-53 Vote",
+          "relevance": "Trump's war authority escaped the primary legislative accountability mechanism designed for executive constraint, indicating systematic bypass of oversight."
+        },
+        {
+          "date": "2026-04-05",
+          "source": "IBTimes UK",
+          "bloc": "western",
+          "headline": "Trump Approval Rating Hits New Lows Amid Iran War as Impeachment Talks Intensify",
+          "relevance": "Despite political jeopardy (low approval, impeachment talk), Trump continues unilateral war conduct—evidences willingness to avoid accountability even under political cost."
+        },
+        {
+          "date": "2026-04-06",
+          "source": "Naturalnews.com",
+          "bloc": "western",
+          "headline": "A Weekend of Lies: The Truth Behind Trump's 'Pilot Rescue' and the Catastrophic Uranium Grab That Failed",
+          "relevance": "Suggests Trump engaged in false narratives about military operations while executing unaccountable decisions (uranium grab)."
+        }
+      ],
+      "items_supporting": 3,
+      "blocs_represented": [
+        "western",
+        "institutional"
+      ],
+      "threshold_met": true,
+      "counter_evidence": "The Senate rejection could indicate that some institutional constraint remained active, though Trump's continuation of war despite this rejection suggests he has effectively neutralized it."
     },
     {
       "leader": "Mojtaba Khamenei",
@@ -101,143 +103,147 @@
       "proposed_delta": 3,
       "proposed_new_score": 93,
       "confidence": "medium",
-      "pattern_description": "Intensified evidence of primary survival-driven decision-making amid institutional instability. New Supreme Leader inherited control during active U.S.-Israeli strikes (day 37); Assembly of Experts election conducted under IRGC coercion with physical attacks on voting sites; health questions surrounding new leader; IRGC seized direct control with president sidelined. Every institutional decision reflects self-preservation calculus rather than governance coherence.",
+      "pattern_description": "Khamenei's first statements and actions as Supreme Leader have been dominated by survival-driven positioning: vowing continued resistance despite Bushehr nuclear strikes, warning of regional radioactive fallout (signaling fear of regime vulnerability), and the Assembly of Experts election occurred under IRGC pressure with the Qom office bombed during vote—all consistent with consolidating power under existential threat rather than pursuing values-based reform.",
       "evidence_chain": [
         {
-          "date": "2026-04-06",
-          "source": "Iran International",
+          "date": "2026-04-05",
+          "source": "Al Jazeera",
           "bloc": "persian",
-          "headline": "Iran's New Supreme Leader Issues First Statement Amid Mounting Health Questions",
-          "relevance": "Succession itself driven by survival necessity; health concerns compound institutional fragility around new leader"
+          "headline": "Iran's New Supreme Leader Mojtaba Khamenei Issues First Statement Vowing Continued Resistance",
+          "relevance": "First statement emphasizes resistance narrative—survival-focused messaging rather than reform or reconciliation."
+        },
+        {
+          "date": "2026-04-05",
+          "source": "The Week",
+          "bloc": "persian",
+          "headline": "Iran Foreign Minister Warns of Regional Radioactive Fallout from Bushehr Nuclear Plant Attacks",
+          "relevance": "Regime messaging focused on catastrophic consequences—suggests survival concern over Bushehr plant vulnerability."
         },
         {
           "date": "2026-04-05",
           "source": "Wikipedia",
           "bloc": "institutional",
           "headline": "Iran's Assembly of Experts Held 'Unnatural' Online Election Under IRGC Pressure, Qom Office Bombed During Vote Count",
-          "relevance": "Electoral process corrupted by military coercion and physical attacks, indicating survival-driven institutional manipulation"
+          "relevance": "Succession secured through military coercion and election conducted amid physical attacks on regime institutions—survival-driven consolidation, not legitimacy."
         },
         {
-          "date": "2026-04-01",
-          "source": "The Week",
-          "bloc": "regional",
-          "headline": "Iran's New Supreme Leader Mojtaba Khamenei Missing as IRGC Seizes Control, President Sidelined",
-          "relevance": "Leader's absence and military seizure of authority demonstrates survival prioritization over institutional legitimacy"
+          "date": "2026-04-06",
+          "source": "Iran International",
+          "bloc": "persian",
+          "headline": "Iran's New Supreme Leader Issues First Statement Amid Mounting Health Questions",
+          "relevance": "Health questions following succession suggest regime vulnerability and Khamenei's survival-focused legitimacy building."
         }
       ],
-      "items_supporting": 3,
+      "items_supporting": 4,
       "blocs_represented": [
         "persian",
-        "institutional",
-        "regional"
+        "institutional"
       ],
       "threshold_met": true,
-      "counter_evidence": null
+      "counter_evidence": "No evidence of reform intent or values-based positioning in his inaugural period, which would argue against survival as the *only* driver. However, the pattern is consistent with very high survival orientation."
     },
     {
-      "leader": "Donald J. Trump",
-      "dimension": "narcissism",
-      "current_score": 92,
-      "proposed_delta": 2,
-      "proposed_new_score": 94,
-      "confidence": "medium",
-      "pattern_description": "Sustained pattern of grandiosity and disdain for others in pursuit of image validation. Trump mocked Saudi Crown Prince MBS publicly while maintaining strategic reliance, claiming MBS was 'kissing my ass'; used crude language toward Iran ('English Obscenities') for domestic audience appeal; approval collapse has not moderated self-aggrandizing rhetoric. Willingness to degrade allies for personal image dominates decision calculus.",
+      "leader": "Benjamin Netanyahu",
+      "dimension": "accountability",
+      "current_score": 18,
+      "proposed_delta": -4,
+      "proposed_new_score": 14,
+      "confidence": "high",
+      "pattern_description": "Netanyahu has explicitly rejected international accountability mechanisms: the ICC maintained arrest warrants for him and his Defense Minister, and Netanyahu responded by appealing the warrants rather than submitting to international judicial process. This represents a deliberate systemic bypass of accountability—rejecting the jurisdiction itself rather than accepting judgment.",
       "evidence_chain": [
         {
-          "date": "2026-03-28",
-          "source": "Business Today",
-          "bloc": "regional",
-          "headline": "Trump Mocks Saudi Crown Prince, Claims MBS 'Kissing My Ass' While War Pressures Continue",
-          "relevance": "Public mockery of critical ally demonstrates narcissistic need for dominance and public validation over strategic coherence"
-        },
-        {
-          "date": "2026-03-25",
-          "source": "Truthout",
+          "date": "2026-04-01",
+          "source": "Times of Israel",
           "bloc": "western",
-          "headline": "Trump Admits Iran War Unconstitutional, Says Avoiding 'War' Label to Dodge Congressional Approval",
-          "relevance": "Demonstrates willingness to manipulate language and reality for perceived image benefit without regard for constitutional norms"
+          "headline": "ICC Maintains Netanyahu and Gallant Arrest Warrants After Rejecting Israeli Appeals",
+          "relevance": "Netanyahu appealed ICC warrants and lost—demonstrating willingness to litigate but ultimately reject international accountability authority itself."
         }
       ],
-      "items_supporting": 2,
+      "items_supporting": 1,
       "blocs_represented": [
-        "western",
-        "regional"
+        "western"
       ],
       "threshold_met": false,
-      "counter_evidence": "Only 2 items supporting, threshold requires 3+ items for narcissism ±2.5 proposal. Insufficient sustained evidence within analysis period."
+      "counter_evidence": "Only one item supports this proposal, and it documents a single rejection of ICC jurisdiction. The threshold requires 3+ items across 2+ source blocs. This does not meet the evidence standard despite the item's relevance to accountability dimension."
     }
   ],
   "variable_proposals": [
     {
-      "variable": "congressConstraint",
-      "current_assessment": "Congressional oversight largely ineffective; war powers resolution rejected 47-53; impeachment discussions ongoing but insufficient votes",
-      "proposed_direction": "decrease",
+      "variable": "nuclearSignalling",
+      "current_assessment": "High-intensity signaling from Pakistan (nuclear threats vs. India) and Iran (plant vulnerability threats); Saudi enrichment program advancing without IAEA safeguards.",
+      "proposed_direction": "increase",
       "confidence": "high",
-      "rationale": "Senate rejection of war powers resolution (47-53) demonstrates failed institutional constraint mechanism. Trump's explicit admission of constitutional circumvention combined with continued operational approval indicates Congressional ability to constrain executive war powers has collapsed. Impeachment discussions lack sufficient support to reverse course.",
+      "rationale": "Munir's nuclear threats on U.S. soil (April 6), Saudi advancement of enrichment without safeguards (April 2), and Iran's repeated warnings about Bushehr radiological risk (April 5-6) represent a sustained escalation in nuclear rhetoric and capability signaling. No de-escalation pathway visible; instead, multiple actors simultaneously escalating nuclear posture.",
       "evidence_chain": [
         {
-          "date": "2026-04-04",
-          "source": "Christian Science Monitor",
-          "headline": "Senate Rejects War Powers Resolution to Constrain Trump on Iran by 47-53 Vote",
-          "relevance": "Direct failure of institutional constraint mechanism with clear numerical evidence of Congressional inability to constrain"
+          "date": "2026-04-06",
+          "source": "Australian Institute of International Affairs",
+          "headline": "Pakistan Army Chief Makes Nuclear Threats Against India on U.S. Soil",
+          "relevance": "Direct nuclear signaling from a key regional actor on U.S. territory indicates escalation beyond rhetorical to explicit threat communication."
         },
         {
-          "date": "2026-03-25",
-          "source": "Truthout",
-          "headline": "Trump Admits Iran War Unconstitutional, Says Avoiding 'War' Label to Dodge Congressional Approval",
-          "relevance": "Demonstrates Trump's explicit knowledge of how to evade Congress, now operationalized without consequence"
+          "date": "2026-04-02",
+          "source": "Stimson Center",
+          "headline": "Nuclear Proliferation Risk Grows as Saudi Arabia Advances Enrichment Program Without IAEA Safeguards",
+          "relevance": "Saudi capability expansion outside international safeguards represents structural escalation of nuclear proliferation risk."
+        },
+        {
+          "date": "2026-04-05",
+          "source": "The Week",
+          "headline": "Iran Foreign Minister Warns of Regional Radioactive Fallout from Bushehr Nuclear Plant Attacks",
+          "relevance": "Iran's public warnings about radiological consequences signal both vulnerability and willingness to escalate nuclear rhetoric."
         }
       ]
     },
     {
       "variable": "iranRegimeCohesion",
-      "current_assessment": "Severely compromised; new succession during active conflict; IRGC seized control from civilian leadership; Assembly of Experts election coerced and attacked",
+      "current_assessment": "Newly-elevated Mojtaba Khamenei consolidating power; Assembly of Experts election conducted under IRGC coercion with bombing during vote count; health questions surrounding succession.",
       "proposed_direction": "decrease",
       "confidence": "high",
-      "rationale": "Multiple indicators of institutional collapse: IRGC forcibly took control from sidelined President Pezeshkian; Supreme Leader succession occurred during active U.S.-Israeli strikes (day 37); Assembly of Experts election held under military coercion with physical attacks on voting sites. This represents not normal succession but emergency seizure of authority amid wartime crisis.",
+      "rationale": "The 'unnatural' Assembly election under military pressure, bombing of Qom office during vote, and mounting health questions about Khamenei suggest regime cohesion is fragile despite apparent succession completion. The need for IRGC coercion to secure legitimacy indicates internal strain, not consolidated authority.",
       "evidence_chain": [
-        {
-          "date": "2026-04-01",
-          "source": "The Week",
-          "headline": "Iran's New Supreme Leader Mojtaba Khamenei Missing as IRGC Seizes Control, President Sidelined",
-          "relevance": "Direct evidence of IRGC seizure of civilian authority and leader's absence during critical period"
-        },
         {
           "date": "2026-04-05",
           "source": "Wikipedia",
           "headline": "Iran's Assembly of Experts Held 'Unnatural' Online Election Under IRGC Pressure, Qom Office Bombed During Vote Count",
-          "relevance": "Electoral process corrupted by military coercion and physical violence indicates breakdown of institutional legitimacy"
+          "relevance": "Coercive succession process and physical attacks on regime institutions during legitimacy-building exercise indicate deep cohesion problems."
+        },
+        {
+          "date": "2026-04-06",
+          "source": "Iran International",
+          "headline": "Iran's New Supreme Leader Issues First Statement Amid Mounting Health Questions",
+          "relevance": "Health concerns so significant they warrant international reporting suggests physical vulnerability at regime's apex, undermining leadership cohesion."
         }
       ]
     },
     {
-      "variable": "armsControlArchitecture",
-      "current_assessment": "Severely degraded; IAEA unable to verify Iran nuclear activities; strikes on Natanz and Bushehr damage inspection capacity; Grossi warns of 'no guarantee' declarations",
+      "variable": "diplomaticChannels",
+      "current_assessment": "Active mediation: Pakistan (Munir's overnight diplomacy, 15-point plan), China-Pakistan (5-point peace plan), Trump administration showing 'limited interest' in China-Pakistan efforts.",
       "proposed_direction": "decrease",
       "confidence": "high",
-      "rationale": "IAEA Chief Grossi explicitly warned Iran nuclear stockpile mystery could force 'no guarantee' declarations; confirmed damage to Natanz entrance buildings and Bushehr safety violations; Iran's nuclear agency pursuing legal action against Grossi for 'inaction' during facility attacks. Physical destruction of nuclear facilities combined with verification breakdown has eliminated functional arms control mechanisms.",
+      "rationale": "Despite multiple mediation initiatives (Munir's diplomatic push, China-Pakistan plan), Trump administration explicitly shows 'limited interest' in regional mediation (April 5), and Munir's ceasefire was violated within hours (April 3). These channels exist but are ineffective—the gap between diplomatic activity and actual conflict de-escalation suggests channels are degrading in utility.",
       "evidence_chain": [
         {
-          "date": "2026-04-06",
-          "source": "WANA",
-          "headline": "IAEA Chief Grossi Warns Iran Nuclear Stockpile Mystery Could Force 'No Guarantee' Declaration",
-          "relevance": "Explicit warning that verification mechanism is failing, forcing formal abandonment of assurance capacity"
+          "date": "2026-04-05",
+          "source": "Manila Times",
+          "headline": "Trump Administration Shows Limited Interest in China-Pakistan Mediation Efforts Despite Regional Pressure",
+          "relevance": "Explicit rejection of mediation efforts by primary conflict actor undercuts diplomatic channel effectiveness."
+        },
+        {
+          "date": "2026-04-03",
+          "source": "Organiser",
+          "headline": "India-Pakistan Ceasefire Agreement Violated Hours After LoC Understanding",
+          "relevance": "Immediate violation of negotiated agreement evidences that diplomatic channels produce agreements that cannot be enforced or are not intended to hold."
         },
         {
           "date": "2026-04-06",
-          "source": "UN News",
-          "headline": "IAEA Reports Latest Strike on Iran's Bushehr Nuclear Plant Violates Safety Principles",
-          "relevance": "Physical destruction of inspection-critical infrastructure prevents verification of safety and compliance"
-        },
-        {
-          "date": "2026-04-04",
-          "source": "Pravda EN",
-          "headline": "Iran's Nuclear Agency Pursues Legal Action Against IAEA Chief Over 'Inaction' During Facility Attacks",
-          "relevance": "Institutional breakdown: inspection agency attacking IAEA rather than cooperating on verification"
+          "source": "LiveUAMap",
+          "headline": "Field Marshal Asim Munir Conducts Overnight Diplomacy with U.S. and Iran Officials on Ceasefire Mediation",
+          "relevance": "Frenetic diplomatic activity (overnight sessions) combined with no reported outcomes suggests channels are active but ineffectual."
         }
       ]
     }
   ],
-  "no_change_assessment": "Benjamin Netanyahu's accountability and survival scores remain stable despite ICC arrest warrant maintenance — warrant is now established legal fact rather than new pressure. Mohammed bin Salman's narcissism shows insufficient sustained evidence for proposal (only 1-2 items); his impulsivity appears contextually driven by Trump pressure rather than autonomous patterns. Mojtaba Khamenei's accountability paradoxically appears stable despite institutional chaos because accountability mechanism itself (Assembly of Experts) has been co-opted rather than dismantled — the dimension requires systemic mechanism destruction, which has been subverted instead. Xi Jinping, Vladimir Putin, and other leaders lack sufficient regional evidence concentration within this period for valid proposals.",
-  "generated_at": "2026-04-06T20:07:21.237Z"
+  "no_change_assessment": "Xi Jinping, Vladimir Putin, and Narendra Modi show insufficient evidence of sustained behavioral change during this period. Modi appears once in ceasefire violation context (lacks pattern), Putin does not appear directly, and Xi appears in mediation role (values-oriented) but without sufficient volume or contradictory evidence to justify dimension changes. Volodymyr Zelensky, Recep Tayyip Erdogan, and Kim Jong-un similarly lack the 3+ item, 2+ bloc threshold needed for proposals. Erdogan's single appearance shows survival/values tension but does not constitute a sustained pattern.",
+  "generated_at": "2026-04-07T06:04:05.615Z"
 }
