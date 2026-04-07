@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-07T06:02:26.245Z",
+  "updated": "2026-04-07T16:18:16.988Z",
   "retention_days": 30,
   "items": [
     {
@@ -6078,7 +6078,541 @@
       "_from": "claude",
       "first_seen": "2026-04-07T06:02:26.245Z",
       "run_id": "2026-04-07T06:02"
+    },
+    {
+      "headline": "Tehran rejects latest ceasefire proposal, wants permanent end to the war: Iran's state media",
+      "summary": "Tehran rejects the ceasefire proposal, demanding a permanent end to the war with guarantees against future attacks, reports state media.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/tehran-rejects-latest-ceasefire-proposal-wants-permanent-end-to-the-war-irans-state-media/article70831230.ece",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T15:20:31Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "US, Iran Study Ceasefire Plan as Deadline Nears on Trump’s ‘Hell’ Threat",
+      "summary": "The United States and Iran on Monday were weighing the framework of a plan to end their five‑week-old conflict, even as Tehran pushed back against pressure to swiftly reopen the Strait of Hormuz on the eve of a new ultimatum …",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/international/2026/04/06/864598.htm",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T14:33:40Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "U.S., Iran Study Ceasefire Plan As Trump’s ‘Hell’ Warning Nears Deadline",
+      "summary": "The U.S. and Iran on Monday were weighing the framework of a plan to end their five‑week-old conflict, even as Tehran pushed back against pressure to swiftly reopen the Strait of Hormuz on the eve of a new ultimatum set by Trump.",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/us-iran-ceasefire-plan_n_69d3b259e4b05047ac8eff37",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T13:21:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Stone Age Showtime",
+      "summary": "If you're in many parts of the Commonwealth (although not Scotland), Happy Easter Monday. If you're in many parts of Europe, Happy Vízbevető, Happy Śmigus-dyngus Happy Velikonoční pondělí or Happy Veľkonočný pondelok, according to taste. If you're in",
+      "source": "Steynonline.com",
+      "url": "https://www.steynonline.com/16135/stone-age-showtime",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T12:37:19Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Monday: Hili dialogue",
+      "summary": "Welcome to Monday, April 6, 2026 and National Carbonara Day, celebrating my favorite pasta aside from Fettuccine Alfredo. As Wikipedia notes, Carbonara (Italian: [karboˈnaːra]) is a pasta dish made with fatty cured pork, hard cheese, eggs, salt, and black pep…",
+      "source": "Whyevolutionistrue.com",
+      "url": "https://whyevolutionistrue.com/2026/04/06/monday-hili-dialogue-563/",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T11:45:03Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Current price of oil as of April 6, 2026",
+      "summary": "When oil prices change, it affects your energy costs—and even the price of everyday items. Here’s why.",
+      "source": "Fortune",
+      "url": "https://fortune.com/article/price-of-oil-04-06-2026/",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T12:59:53Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "FO Talks: The Collapse of New START Treaty Raises Global Nuclear Risks",
+      "summary": "Editor-in-Chief Atul Singh and Simon Cleobury, Head of Arms Control and Disarmament at the Geneva Centre for Security Policy, discuss the expiration of the New Strategic Arms Reduction Treaty (New START) and what its disappearance means for global nuclear sta…",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/world-news/fo-talks-the-collapse-of-new-start-treaty-raises-global-nuclear-risks/",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T13:30:42Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Ukraine Steps Up Drone Attacks on Russian Oil Infrastructure",
+      "summary": "The key Russian oil export terminal at Novorossiysk was on fire early on Monday following an overnight drone attack, as Ukraine intensifies strikes on Russia’s oil infrastructure to reduce its export capabilities amid surging oil prices. The area at the port …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Steps-Up-Drone-Attacks-on-Russian-Oil-Infrastructure.html",
+      "bloc": "western",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T14:29:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Three killed in Russian strike on Odesa as Ukraine hits Russian oil sites",
+      "summary": "Russian drone strikes in Odesa claimed civilian lives including a toddler. Ukrainian drones retaliated targeting Russia's oil export ports.  The attacks damaged infrastructure and injured civilians. Ukraine faces ongoing challenges with air defense.  Russia c…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/three-killed-in-russian-strike-on-odesa-as-ukraine-hits-russian-oil-sites/articleshow/130056296.cms",
+      "bloc": "regional",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T09:01:29Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "IRGC pressure secured Mojtaba Khamenei as Iran's new Supreme Leader, sources confirm",
+      "summary": "Iranian sources reveal Revolutionary Guards forced Mojtaba Khamenei's selection as Supreme Leader, overcoming pragmatist opposition and Assembly of Experts concerns. IRGC threatened critics and used arguments of wartime urgency to secure his appointment by March 8.",
+      "source": "Reuters / Times of Israel",
+      "url": "https://www.timesofisrael.com/iranian-revolutionary-guards-orchestrated-selection-of-new-supreme-leader-sources/",
+      "bloc": "western",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran",
+        "IRGC"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "survival",
+        "proposed_delta": 3,
+        "rationale": "IRGC pressure tactics securing leadership position demonstrates heavy reliance on military support for political survival",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "New Iran Supreme Leader issues first message via state TV, health questions persist",
+      "summary": "Mojtaba Khamenei's first message as Supreme Leader was read by TV anchor showing only his photograph, raising questions about his condition after reports he was injured in February strikes. Called for continued military resistance and keeping Strait of Hormuz closed.",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en/202603125349",
+      "bloc": "persian",
+      "date": "2026-03-12",
+      "datetime": "2026-03-12T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Supreme Leader Iran",
+        "Strait Hormuz"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 3,
+      "persian_only": true,
+      "dimension_signal": {
+        "leader": "Mojtaba Khamenei",
+        "dimension": "survival",
+        "proposed_delta": -2,
+        "rationale": "inability to appear publicly and reliance on pre-recorded messages indicates weakened position and health concerns",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "IAEA reports Iran blocks access to nuclear facilities for eight months amid war",
+      "summary": "International Atomic Energy Agency confirms Iran has denied inspectors access to several nuclear facilities since June 2025 strikes, including Isfahan facility storing 400kg of 60% enriched uranium. E3 nations express deep concern over lack of transparency.",
+      "source": "UK Government / IAEA",
+      "url": "https://www.gov.uk/government/speeches/implementation-of-the-npt-safeguards-agreement-and-unsc-resolutions-in-iran-e3-statement-to-the-iaea-board-of-governors-march-2026",
+      "bloc": "institutional",
+      "date": "2026-03-05",
+      "datetime": "2026-03-05T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "nuclear Iran"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 5,
+      "persian_only": false,
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Pakistan mediates US-Iran ceasefire talks as Field Marshal Munir emerges as key broker",
+      "summary": "Field Marshal Asim Munir positioned as central mediator in US-Iran peace efforts, using Revolutionary Guard contacts to deliver 15-point ceasefire proposal. Pakistan's neutral stance aided by avoiding Iranian targeting during war.",
+      "source": "Ynet News",
+      "url": "https://www.ynetnews.com/article/skouxtzi11x",
+      "bloc": "western",
+      "date": "2026-03-20",
+      "datetime": "2026-03-20T00:00:00Z",
+      "leaders": [
+        "General Asim Munir"
+      ],
+      "watch_terms": [
+        "Pakistan military",
+        "Iran ceasefire"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 2,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "General Asim Munir",
+        "dimension": "values",
+        "proposed_delta": 2,
+        "rationale": "positioning as peace mediator between major powers demonstrates pragmatic diplomatic approach over ideological confrontation",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Xi Jinping purges 100 senior PLA officers including Central Military Commission members",
+      "summary": "By early 2026, Chinese President Xi Jinping detained or removed nearly 100 senior military officers in expanded anti-corruption campaign, including five of six Central Military Commission members. Purge leaves PLA high command in disarray, reducing credibility as Taiwan threat.",
+      "source": "East Asia Forum",
+      "url": "https://eastasiaforum.org/2026/04/04/xi-jinpings-forever-war-on-corruption/",
+      "bloc": "regional",
+      "date": "2026-04-04",
+      "datetime": "2026-04-04T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "PLA",
+        "China Taiwan"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "personnel_killed",
+      "escalation": 3,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Xi Jinping",
+        "dimension": "survival",
+        "proposed_delta": -2,
+        "rationale": "massive military purges removing his own appointees suggests deep trust issues and weakens military capability against Taiwan",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.987Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Trump approval rating hits 33% on Iran war handling as Congress rejects war powers resolution",
+      "summary": "President Trump's approval for Iran war handling sits at 33%, with overall rating at 35%. Senate rejected war powers resolution 53-47 in March, House followed 219-212. Administration preparing $50 billion supplemental funding request for Iran operations.",
+      "source": "CNN Politics / Christian Science Monitor",
+      "url": "https://www.cnn.com/2026/04/01/politics/donald-trump-iran-war-white-house-speech-cnn-poll",
+      "bloc": "western",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T00:00:00Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "approval rating",
+        "War Powers",
+        "Iran ceasefire"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Donald J. Trump",
+        "dimension": "accountability",
+        "proposed_delta": -2,
+        "rationale": "low approval ratings and congressional resistance to war powers demonstrate reduced domestic political accountability",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.988Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Netanyahu coalition advances bill to cancel fraud charges in ongoing corruption trial",
+      "summary": "Israeli coalition lawmakers announced bill to repeal fraud and breach of trust crimes that Netanyahu faces in three corruption cases. Opposition calls measure a 'coup' as PM also submitted formal pardon request to President Herzog in November.",
+      "source": "Times of Israel",
+      "url": "https://www.timesofisrael.com/coalition-advances-bill-to-repeal-criminal-charge-that-netanyahu-faces-in-his-trial/",
+      "bloc": "western",
+      "date": "2026-01-13",
+      "datetime": "2026-01-13T00:00:00Z",
+      "leaders": [
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "trial hearing",
+        "coalition collapse"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 3,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Benjamin Netanyahu",
+        "dimension": "accountability",
+        "proposed_delta": -3,
+        "rationale": "attempting to retroactively cancel criminal charges through legislative action represents direct undermining of judicial accountability",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.988Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "ICC Appeals Chamber upholds Netanyahu arrest warrants despite Israeli jurisdiction challenges",
+      "summary": "International Criminal Court Appeals Chamber rejected Israel's admissibility challenge by 3-2 vote in December 2025, keeping arrest warrants against Netanyahu and Gallant active. Two other preliminary motions challenging warrant validity remain pending.",
+      "source": "Just Security",
+      "url": "https://www.justsecurity.org/128238/complementarity-icc-israels-admissibility-challenge/",
+      "bloc": "institutional",
+      "date": "2026-01-09",
+      "datetime": "2026-01-09T00:00:00Z",
+      "leaders": [
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "ICC Netanyahu"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_statement",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Benjamin Netanyahu",
+        "dimension": "accountability",
+        "proposed_delta": 2,
+        "rationale": "ICC's rejection of jurisdiction challenges maintains international legal pressure and accountability mechanisms",
+        "confidence": "high"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.988Z",
+      "run_id": "2026-04-07T16:18"
+    },
+    {
+      "headline": "Xi Jinping deploys PLA Cyberspace Force to South China Sea artificial islands",
+      "summary": "Chinese President Xi Jinping's Lunar New Year message revealed PLA Cyberspace Force stationed on Fiery Cross Reef in disputed Spratly Islands conducting 'combat readiness duty'. Rare public appearance of mysterious cyber warfare unit in South China Sea.",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/military/article/3343312/xis-new-year-message-military-reveals-pla-cyberspace-force-post-south-china-sea",
+      "bloc": "regional",
+      "date": "2026-02-12",
+      "datetime": "2026-02-12T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "PLA",
+        "South China Sea"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Xi Jinping",
+        "dimension": "values",
+        "proposed_delta": -1,
+        "rationale": "deployment of cyber warfare capabilities to disputed territories signals increasingly aggressive military posture over territorial claims",
+        "confidence": "medium"
+      },
+      "_from": "claude",
+      "first_seen": "2026-04-07T16:18:16.988Z",
+      "run_id": "2026-04-07T16:18"
     }
   ],
-  "total_items_ever": 247
+  "total_items_ever": 265
 }
