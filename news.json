@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-08T10:57:47.852Z",
+  "ts": "2026-04-08T16:24:34.610Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,43 +10,17 @@
   "live_variables": {
     "oilPrice": 122,
     "oilStress": 87,
-    "updatedAt": "2026-04-08T10:57:47.852Z"
+    "updatedAt": "2026-04-08T16:24:34.610Z"
   },
   "items": [
     {
-      "headline": "How US, Israel are waging a war on Iranian culture, education",
-      "summary": "Iranian officials have told Al Jazeera the US and Israel's attacks seek to wipe out Iranian identity.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/4/7/how-us-israel-are-waging-a-war-on-iranian-culture-education",
-      "bloc": "regional",
-      "date": "2026-04-07",
-      "datetime": "2026-04-07T10:43:52Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US-Israeli aggression on Iran: What happened on 38th day of the imposed war",
-      "summary": "Thirty-eight days into the US-Israeli war on Iran, which began on February 28 with the assassination of the Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei, and top-ranking commanders, the US and Israel continue to target civilian, academic, a…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260407-presstv03.htm",
+      "headline": "Political World Stunned by Trump’s Threat to Kill All of Iran in Latest Truth Social Post: ‘Evil and Madness’",
+      "summary": "The political world was left stunned Tuesday morning when President Donald Trump threatened to kill all of Iran in a major escalation of the war.\nThe post Political World Stunned by Trump’s Threat to Kill All of Iran in Latest Truth Social Post: ‘Evil and Mad…",
+      "source": "Mediaite",
+      "url": "https://www.mediaite.com/media/news/political-world-stunned-by-trumps-threat-to-kill-all-of-iran-in-latest-truth-social-post-evil-and-madness/",
       "bloc": "western",
       "date": "2026-04-07",
-      "datetime": "2026-04-07T09:22:50Z",
+      "datetime": "2026-04-07T14:12:18Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -59,46 +33,20 @@
         "survival",
         "impulsivity"
       ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump threatens Iran could be \"taken out\" in one night, eying Iranian oil and tolls on Hormuz Strait",
-      "summary": "U.S. President Donald Trump said Monday that Iran could be \"taken out\" in one night and that night \"might\" be Tuesday evening, the deadline Trump set for Iran to make a deal and reopen the Strait of Hormuz, while claiming that negotiations with the Iranian si…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260407-pdo01.htm",
-      "bloc": "western",
-      "date": "2026-04-07",
-      "datetime": "2026-04-07T09:22:50Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
       "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Iran Calls For Human Chains Around Power Plants As Trump's Deadline Nears",
-      "summary": "Israel's military warned Iranians in Farsi to avoid taking trains throughout the day, likely telegraphing intended strikes on the rail network.",
-      "source": "HuffPost",
-      "url": "https://www.huffpost.com/entry/iran-war-trump-deadline_n_69d4bc48e4b05047ac8fad83",
+      "headline": "Trump Says USA in 'Heated' Iran Talks",
+      "summary": "President Donald Trump said he was in 'heated negotiations' involving the war with Iran.",
+      "source": "Rigzone",
+      "url": "https://www.rigzone.com/news/wire/trump_says_usa_in_heated_iran_talks-07-apr-2026-183394-article/",
       "bloc": "western",
       "date": "2026-04-07",
-      "datetime": "2026-04-07T08:21:53Z",
+      "datetime": "2026-04-07T14:02:04Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -111,20 +59,20 @@
         "survival",
         "impulsivity"
       ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Iran Rejects Ceasefire as Trump Ramps Up Threats Ahead of Deadline",
-      "summary": "Iran said on Monday it wanted a lasting end to the war with the U.S. and Israel, and pushed back against pressure to reopen the Strait of Hormuz, while U.S. President Donald Trump warned the country could be “taken out” …",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/04/07/864733.htm",
+      "headline": "Trump Says Iran Could 'Die Tonight'",
+      "summary": "President Donald Trump threatened Iran with civilizational destruction.",
+      "source": "Rigzone",
+      "url": "https://www.rigzone.com/news/wire/trump_says_iran_could_die_tonight-07-apr-2026-183394-article/",
       "bloc": "western",
       "date": "2026-04-07",
-      "datetime": "2026-04-07T07:06:18Z",
+      "datetime": "2026-04-07T14:02:04Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -132,6 +80,84 @@
       ],
       "watch_terms": [
         "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran declares 'historic victory' over US, says enemy forced to accept its proposal",
+      "summary": "Iran has declared a \"historic and crushing defeat\" of the United States and the Israeli regime after 40 days of war, announcing that Washington has been forced to accept a 10-point Iranian proposal that includes a permanent ceasefire, the lifting of all sanct…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260407-presstv06.htm",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US-Israeli aggression on Iran: What happened on 39th day of the imposed war",
+      "summary": "Thirty-eight days into the US-Israeli war on Iran, which began with the assassination of the Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei, and top-ranking commanders, the military aggression continues to target civilian, educational, and in…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260407-presstv07.htm",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Viral research firm Citrini sent an analyst to the Strait of Hormuz. From smugglers to Iranian drones, here's what they found.",
+      "summary": "Citrini Research's \"Analyst #3\" went to the Strait of Hormuz with recording equipment, \"a pack of Cuban cigars, $15,000 in cash and a roll of Zyn.\"",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/citrini-research-analyst-strait-of-hormuz-iran-us-war-energy-2026-4",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T12:28:17Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
@@ -203,32 +229,6 @@
       "bloc": "western",
       "date": "2026-04-06",
       "datetime": "2026-04-06T22:36:13Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Wall Street’s Eyes on the Strait",
-      "summary": "With markets wobbling and bad information everywhere, Citrini Research sent an analyst to the war zone to figure out what’s really happening.",
-      "source": "New York Magazine",
-      "url": "http://nymag.com/intelligencer/article/why-citrini-research-sent-an-analyst-to-the-strait-of-hormuz.html",
-      "bloc": "western",
-      "date": "2026-04-05",
-      "datetime": "2026-04-05T16:00:41Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -321,6 +321,84 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Global Economy Braces for Prolonged Shock From Iran War",
+      "summary": "A quiet Easter Sunday was abruptly punctured when US President Donald Trump unleashed a brutal, expletive-filled ultimatum to the Iranian regime. In a post on Truth Social, Trump wrote: “Tuesday will be power plant day, and bridge day, all wrapped up in one, …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Global-Economy-Braces-for-Prolonged-Shock-From-Iran-War.html",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T16:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "'Painful' interest rates are looming with the world facing a new wave of inflationary pressure, Harvard economist says",
+      "summary": "Kenneth Rogoff said the latest oil-price spike is adding to a host of inflationary pressures facing the global economy.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/interest-rates-painful-iran-war-inflation-outlook-harvard-economist-2026-4",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T15:20:38Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Australia Fuel Prices Ease Slightly to ~$2.40/L After Excise Cuts, But Diesel Soars Amid Iran War Fallout",
+      "summary": "SYDNEY — Australian fuel prices have begun to moderate in early April 2026 after the federal government's temporary halving of the fuel excise and an additional cut funded by GST revenue, yet they remain significantly higher than pre-conflict levels due to on…",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/australia-fuel-prices-ease-slightly-240-l-after-excise-cuts-diesel-soars-amid-iran-war-fallout-1865668",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T11:14:33Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Diesel Prices Exceed $8 Per Gallon in San Francisco as Supply Disruptions Affect California",
       "summary": "Introduction SAN FRANCISCO — The average price for a gallon of diesel fuel in San Francisco surpassed $8 on Saturday, April 5, 2026, marking the first time any U.S. city has reached that price threshold, according to data from fuel-tracking website GasBuddy. …",
       "source": "Naturalnews.com",
@@ -354,84 +432,6 @@
       "bloc": "western",
       "date": "2026-04-06",
       "datetime": "2026-04-06T19:00:00Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Current price of oil as of April 6, 2026",
-      "summary": "When oil prices change, it affects your energy costs—and even the price of everyday items. Here’s why.",
-      "source": "Fortune",
-      "url": "https://fortune.com/article/price-of-oil-04-06-2026/",
-      "bloc": "western",
-      "date": "2026-04-06",
-      "datetime": "2026-04-06T12:59:53Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Russia Oil Revenues Halved in March Before War Boost",
-      "summary": "Russian producers paid 494.9 billion rubles ($6.18 billion) in oil taxes last month, down 48 percent year on year, according to Bloomberg calculations based on Finance Ministry data released Friday.",
-      "source": "Rigzone",
-      "url": "https://www.rigzone.com/news/wire/russia_oil_revenues_halved_in_march_before_war_boost-03-apr-2026-183373-article/",
-      "bloc": "western",
-      "date": "2026-04-03",
-      "datetime": "2026-04-03T14:41:06Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Russia’s Oil Revenues Halved in March Before Iran War Boost",
-      "summary": "Russia’s oil tax revenue in March dropped by nearly half compared to a year earlier, highlighting the Kremlin’s financial strain just before the Middle East war delivered an unexpected boost to Moscow’s earnings.",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-pmn/russias-oil-revenues-halved-in-march-before-iran-war-boost",
-      "bloc": "western",
-      "date": "2026-04-03",
-      "datetime": "2026-04-03T13:02:18Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
@@ -551,6 +551,29 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Russia Expands Gasoline Export Ban, Faces Major Oil Outages Due to Drone Strikes",
+      "summary": "The Russian government has expanded a ban on gasoline exports to include producers of the fuel, according to a report from Interfax news agency [1]. The ban, which now includes all gasoline producers, is scheduled to remain in effect until July 31. It expands…",
+      "source": "Shtfplan.com",
+      "url": "https://www.shtfplan.com/economics/russia-expands-gasoline-export-ban-faces-major-oil-outages-due-to-drone-strikes",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T12:30:11Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Here’s a List of Gulf Energy Infrastructure Damaged in Iran War",
       "summary": "Dozens of refineries, oil fields, gas plants, ports and other energy infrastructure have been damaged by missile and drone strikes, five weeks into the Iran war. US President Donald Trump threatened to bring “Hell” to Iran with strikes on power …",
       "source": "Insurance Journal",
@@ -620,52 +643,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Russia Expands Gasoline Export Ban, Faces Major Oil Outages Due to Drone Strikes",
-      "summary": "Russia Bans Gasoline Exports, Confirms Major Baltic Oil Terminal Outages The Russian government has expanded a ban on gasoline exports to include producers of the fuel, according to a report from Interfax news agency [1]. The ban, which now includes all gasol…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-06-russian-govt-expands-ban-on-gasoline-exports.html",
-      "bloc": "western",
-      "date": "2026-04-06",
-      "datetime": "2026-04-06T06:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Ukraine Hits Russian Oil Facilities, Says At Least 1 Civilian Killed In Russian Strikes",
-      "summary": "Ukraine has kept up its attacks on Russian oil export and production infrastructure, hitting facilities in two regions, while widespread Russian drone attacks on Ukraine killed at least one civilian overnight and fighting persisted at the front, officials sai…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/04/ukraine-260405-rferl01.htm",
-      "bloc": "western",
-      "date": "2026-04-05",
-      "datetime": "2026-04-05T12:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "Trump's 'English Obscenities' to Iran - Latest War News",
       "summary": "US President Donald Trump has warned Iran that if an agreement is not reached within the next 48 hours, he will launch severe attacks on Iran's energy and transportation infrastructure, forcing Iran to allow ship traffic through the Strait of Hormuz. Trump, u…",
       "source": "Gossiplankanews.com",
@@ -688,79 +665,18 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Pakistan's Military Chief Asim Munir Emerges as Trump's Key Interlocutor in Iran Crisis",
-      "summary": "Field Marshal Asim Munir secured direct access to Trump administration and played decisive role in Iran-US ceasefire talks. Pakistan's dual-track diplomacy elevated it to strategic standing comparable to Israel in Middle East crisis.",
-      "source": "Foreign Policy",
-      "url": "https://foreignpolicy.com/2026/04/03/pakistan-iran-diplomacy-mediation-munir-india/",
-      "bloc": "regional",
-      "date": "2026-04-08",
-      "datetime": "2026-04-08T15:30:00Z",
-      "leaders": [
-        "Asim Munir",
-        "Donald J. Trump",
-        "Shehbaz Sharif"
-      ],
-      "watch_terms": [
-        "Pakistan military",
-        "Trump",
-        "Iran ceasefire",
-        "Munir"
-      ],
-      "dimensions": [
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "leader_statement",
-      "escalation": 2,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Asim Munir",
-        "dimension": "accountability",
-        "proposed_delta": 3,
-        "rationale": "Successfully mediated between US and Iran, demonstrating responsible leadership in preventing escalation",
-        "confidence": "high"
-      },
-      "_from": "claude"
-    },
-    {
-      "headline": "IAEA Reports Complete Loss of Access to Iran's Nuclear Facilities",
-      "summary": "International Atomic Energy Agency confirms no access to any of Iran's four declared enrichment facilities since February 2026. Agency cannot verify current status of enriched uranium stockpiles or Isfahan Fuel Enrichment Plant.",
-      "source": "IAEA",
-      "url": "https://www.iaea.org/sites/default/files/gov2026-8.pdf",
-      "bloc": "institutional",
-      "date": "2026-02-27",
-      "datetime": "2026-02-27T12:00:00Z",
-      "leaders": [
-        "Rafael Mariano Grossi"
-      ],
-      "watch_terms": [
-        "nuclear Iran",
-        "IAEA"
-      ],
-      "dimensions": [
-        "survival"
-      ],
-      "variable_key": "iran_nuclear_transparency",
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "claude"
-    },
-    {
-      "headline": "Iran's Intelligence Chief Majid Khademi Killed in Israeli Strike",
-      "summary": "Major General Majid Khademi, intelligence chief of Iran's Revolutionary Guard, confirmed killed by Israeli forces. Israel's Defense Minister threatens to continue hunting Iranian leaders one by one.",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/04/06/nx-s1-5775383/iran-war-updates",
-      "bloc": "western",
+      "headline": "IRGC intelligence chief Majid Khademi killed in Tehran strikes",
+      "summary": "Majid Khademi, the IRGC intelligence chief, was killed in U.S.-Israeli strikes on Tehran. He was a career security insider who rose through Iran's counterintelligence system and helped oversee repression and surveillance.",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en",
+      "bloc": "persian",
       "date": "2026-04-06",
-      "datetime": "2026-04-06T18:00:00Z",
+      "datetime": "2026-04-06T12:30:00Z",
       "leaders": [
-        "Benjamin Netanyahu",
-        "Israel Katz"
+        "Mojtaba Khamenei"
       ],
       "watch_terms": [
-        "IRGC",
-        "Israel strikes"
+        "IRGC"
       ],
       "dimensions": [
         "survival"
@@ -768,204 +684,303 @@
       "variable_key": null,
       "event_type": "personnel_killed",
       "escalation": 5,
-      "persian_only": false,
+      "persian_only": true,
+      "dimension_signal": null,
       "_from": "claude"
     },
     {
-      "headline": "US-Israeli Strikes Hit Sharif University of Technology in Tehran",
-      "summary": "Attacks targeted Iran's leading scientific university, compared to MIT, with extensive damage to laboratories and mosque. Iranian officials say strikes aim to wipe out Iranian identity and education infrastructure.",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/4/7/how-us-israel-are-waging-a-war-on-iranian-culture-education",
-      "bloc": "western",
+      "headline": "Iran offers potential 45-day ceasefire with U.S. mediated by Pakistan",
+      "summary": "Iran and the United States are discussing the terms of a potential 45-day ceasefire that could open the door to a permanent end to the war. Pakistan is mediating between the U.S. and Iran for high-level negotiations.",
+      "source": "Iran International",
+      "url": "https://www.iranintl.com/en/latest",
+      "bloc": "persian",
       "date": "2026-04-06",
-      "datetime": "2026-04-06T14:00:00Z",
+      "datetime": "2026-04-06T03:55:00Z",
       "leaders": [
-        "Mohammad Reza Aref"
+        "Donald J. Trump",
+        "Mojtaba Khamenei"
       ],
       "watch_terms": [
-        "Iran strikes",
-        "education"
+        "Iran ceasefire"
       ],
       "dimensions": [
-        "survival"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "claude"
-    },
-    {
-      "headline": "Iran Forms Human Chains Around Power Plants Ahead of Trump's Deadline",
-      "summary": "Iranian state media shows civilians forming human shields at Kazerun power plant hours before Trump's 8 PM ET deadline. Iran rejected US temporary ceasefire proposal, countered with permanent end to war demands.",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-deadline-power-plants-human-chains-israel-train-strikes/",
-      "bloc": "western",
-      "date": "2026-04-07",
-      "datetime": "2026-04-07T20:00:00Z",
-      "leaders": [
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "Iran ceasefire",
-        "Trump deadline"
-      ],
-      "dimensions": [
-        "survival",
         "impulsivity"
       ],
       "variable_key": null,
-      "event_type": "leader_statement",
-      "escalation": 5,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
       "persian_only": false,
       "dimension_signal": {
         "leader": "Donald J. Trump",
         "dimension": "impulsivity",
-        "proposed_delta": 2,
-        "rationale": "Set arbitrary 8 PM deadline threatening to destroy Iran's civilization, creating unnecessary time pressure",
-        "confidence": "high"
-      },
-      "_from": "claude"
-    },
-    {
-      "headline": "Two US Fighter Jets Shot Down by Iranian Forces on Friday",
-      "summary": "F-15 Strike Eagle crashed in Iran with one crew member missing, second combat plane downed near Strait of Hormuz. Search and rescue operations underway as war enters sixth week with 2,076 Iranian civilians killed.",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/04/04/nx-s1-5773436/iran-war-updates",
-      "bloc": "western",
-      "date": "2026-04-04",
-      "datetime": "2026-04-04T16:00:00Z",
-      "leaders": [
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "US military losses",
-        "Strait Hormuz"
-      ],
-      "dimensions": [
-        "survival"
-      ],
-      "variable_key": null,
-      "event_type": "personnel_killed",
-      "escalation": 5,
-      "persian_only": false,
-      "_from": "claude"
-    },
-    {
-      "headline": "Modi Coalition Under Pressure as Pakistan's Mediation Success Marginalizes India",
-      "summary": "India relegated to single phone call from Trump while Pakistan gains diplomatic capital as key Middle East mediator. External Affairs Minister Jaishankar called Pakistan a 'dalal' (fixer), betraying profound marginalization.",
-      "source": "Foreign Policy",
-      "url": "https://foreignpolicy.com/2026/04/03/pakistan-iran-diplomacy-mediation-munir-india/",
-      "bloc": "regional",
-      "date": "2026-04-03",
-      "datetime": "2026-04-03T12:00:00Z",
-      "leaders": [
-        "Narendra Modi",
-        "S. Jaishankar"
-      ],
-      "watch_terms": [
-        "Modi coalition",
-        "India Pakistan",
-        "Trump"
-      ],
-      "dimensions": [
-        "narcissism",
-        "survival"
-      ],
-      "variable_key": null,
-      "event_type": "leader_statement",
-      "escalation": 2,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Narendra Modi",
-        "dimension": "narcissism",
-        "proposed_delta": 1,
-        "rationale": "Images of undocumented Indians deported from US shattered Modi's claim of special friendship with Trump",
+        "proposed_delta": -2,
+        "rationale": "Trump engages in serious ceasefire negotiations showing reduced impulsive escalation",
         "confidence": "medium"
       },
       "_from": "claude"
     },
     {
-      "headline": "Netanyahu Coalition Advances Bill to Eliminate Fraud Charges Against PM",
-      "summary": "Coalition lawmakers advance legislation to repeal fraud and breach of trust crimes that Netanyahu faces in all three corruption cases. Opposition brands move as 'mafia-like' attempt to evade justice.",
-      "source": "Times of Israel",
-      "url": "https://www.timesofisrael.com/coalition-advances-bill-to-repeal-criminal-charge-that-netanyahu-faces-in-his-trial/",
-      "bloc": "regional",
-      "date": "2026-01-13",
-      "datetime": "2026-01-13T14:00:00Z",
+      "headline": "IMF imposes 11 new conditions on Pakistan bailout over India tensions",
+      "summary": "The IMF imposed 11 new conditions on Pakistan to release the next tranche of its $7 billion bailout package. Geopolitical tensions with India may jeopardize Pakistan's fiscal reform targets.",
+      "source": "Observer Research Foundation",
+      "url": "https://www.orfonline.org/expert-speak/munir-s-controversial-rise-and-pakistan-s-drift-to-a-hard-state",
+      "bloc": "institutional",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T00:00:00Z",
       "leaders": [
-        "Benjamin Netanyahu",
-        "Yair Lapid"
+        "General Asim Munir"
       ],
       "watch_terms": [
-        "Netanyahu trial",
-        "coalition collapse"
+        "IMF Pakistan"
       ],
       "dimensions": [
-        "accountability",
         "survival"
       ],
       "variable_key": null,
-      "event_type": "leader_statement",
-      "escalation": 3,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude"
+    },
+    {
+      "headline": "Xi Jinping invites KMT Chairwoman Cheng Li-wen to Beijing amid Taiwan tensions",
+      "summary": "CCP General Secretary Xi Jinping invited KMT Chairwoman Cheng Li-wen to lead a delegation to Beijing from April 7-12. The timing coincides with frequent PLA activities near Taiwan and military budget discussions.",
+      "source": "Vision Times",
+      "url": "https://www.visiontimes.com/2026/04/01/xi-invites-kmt-chair-cheng-li-wen-to-beijing-amid-cross-strait-tensions.html",
+      "bloc": "western",
+      "date": "2026-04-01",
+      "datetime": "2026-04-01T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "China Taiwan"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
       "persian_only": false,
       "dimension_signal": {
-        "leader": "Benjamin Netanyahu",
-        "dimension": "accountability",
-        "proposed_delta": -2,
-        "rationale": "Advancing legislation to retroactively eliminate criminal charges he faces shows avoidance of legal accountability",
-        "confidence": "high"
+        "leader": "Xi Jinping",
+        "dimension": "values",
+        "proposed_delta": 1,
+        "rationale": "Xi demonstrates commitment to peaceful reunification through opposition party engagement",
+        "confidence": "medium"
       },
       "_from": "claude"
     },
     {
-      "headline": "IAEA Director General: Iranian Nuclear Program Cannot Be Eliminated by Military Action Alone",
-      "summary": "Rafael Grossi states Iran's nuclear program is 'very vast' and 'scattered across a number of places' including facilities, universities and laboratories. IAEA doesn't know status of new Isfahan enrichment facility.",
-      "source": "The Hill",
-      "url": "https://thehill.com/homenews/5790670-iran-nuclear-facilities-iaea-concerns/",
+      "headline": "NABU exposes new $17.7 million grain corruption scheme in Ukraine",
+      "summary": "Ukrainian anti-corruption agencies uncovered an alleged corruption scheme involving the embezzlement of $17.7 million worth of grain. The State Food and Grain Corporation allegedly transferred control of shipments without payment from foreign buyers.",
+      "source": "National Anti-Corruption Bureau of Ukraine",
+      "url": "https://poland.news-pravda.com/en/poland/2026/04/03/53495.html",
       "bloc": "institutional",
-      "date": "2026-03-19",
-      "datetime": "2026-03-19T10:00:00Z",
+      "date": "2026-04-03",
+      "datetime": "2026-04-03T00:00:00Z",
       "leaders": [
-        "Rafael Mariano Grossi"
+        "Volodymyr Zelensky"
       ],
       "watch_terms": [
-        "nuclear Iran",
-        "IAEA"
-      ],
-      "dimensions": [
-        "survival"
-      ],
-      "variable_key": "iran_nuclear_resilience",
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "claude"
-    },
-    {
-      "headline": "Iranian Foreign Minister Credits Pakistan's 'Tireless Efforts' in Ceasefire Deal",
-      "summary": "Abbas Araghchi expressed gratitude to PM Sharif and Field Marshal Munir for mediation efforts. Iran agreed to halt operations and reopen Strait of Hormuz for two weeks based on Pakistan's brotherly request.",
-      "source": "Kurdistan24",
-      "url": "https://www.kurdistan24.net/en/story/906501/shehbaz-sharif-iran-and-us-along-with-allies-reach-ceasefire-deal",
-      "bloc": "regional",
-      "date": "2026-04-07",
-      "datetime": "2026-04-07T23:00:00Z",
-      "leaders": [
-        "Abbas Araghchi",
-        "Shehbaz Sharif",
-        "Asim Munir"
-      ],
-      "watch_terms": [
-        "Iran ceasefire",
-        "Pakistan mediation"
+        "NABU Ukraine"
       ],
       "dimensions": [
         "accountability"
       ],
       "variable_key": null,
-      "event_type": "leader_statement",
-      "escalation": 1,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
       "persian_only": false,
+      "dimension_signal": {
+        "leader": "Volodymyr Zelensky",
+        "dimension": "accountability",
+        "proposed_delta": -1,
+        "rationale": "Continued NABU investigations expose ongoing corruption issues in Zelensky administration",
+        "confidence": "medium"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "SIPRI reports NATO reduces reliance on U.S. arms imports amid Trump threats",
+      "summary": "European NATO nations reduced U.S. arms imports from 64% to 58% in 2021-2025. Trump's threats against allies and policy shift toward American homeland defense raised doubts about U.S. reliability as ally.",
+      "source": "SIPRI",
+      "url": "https://www.defensenews.com/global/europe/2026/03/09/european-nato-nations-reduce-reliance-on-us-arms-imports-sipri-data/",
+      "bloc": "institutional",
+      "date": "2026-03-09",
+      "datetime": "2026-03-09T00:00:00Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "NATO",
+        "approval rating"
+      ],
+      "dimensions": [
+        "values"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Donald J. Trump",
+        "dimension": "values",
+        "proposed_delta": -2,
+        "rationale": "European allies reducing defense dependence on U.S. shows erosion of Trump's alliance leadership",
+        "confidence": "high"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "IAEA Director General confirms Iran nuclear facilities increasingly inaccessible",
+      "summary": "IAEA Director General Rafael Grossi confirmed significant damage to Iran's nuclear facilities. While there has been no evidence of Iran building a nuclear bomb, its large stockpile of near-weapons grade uranium and refusal to grant full access are causes for concern.",
+      "source": "American Nuclear Society",
+      "url": "https://www.ans.org/news/2026-04-06/article-7911/iaea-provides-updates-on-iran-nuclear-facilities/",
+      "bloc": "institutional",
+      "date": "2026-04-06",
+      "datetime": "2026-04-06T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "nuclear Iran"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": null,
+      "_from": "claude"
+    },
+    {
+      "headline": "Modi declares India will not tolerate nuclear blackmail after Operation Sindoor",
+      "summary": "Prime Minister Modi announced that India will not tolerate nuclear blackmail and that Operation Sindoor represents India's new policy against terrorism. He stated future operations depend on Pakistan's behavior.",
+      "source": "The Print",
+      "url": "https://theprint.in/defence/whats-the-india-pakistan-civil-nuclear-facilities-non-attack-pact-that-has-endured-armed-hostilities/2624049/",
+      "bloc": "regional",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T00:00:00Z",
+      "leaders": [
+        "Narendra Modi"
+      ],
+      "watch_terms": [
+        "India Pakistan",
+        "nuclear doctrine",
+        "No First Use"
+      ],
+      "dimensions": [
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Narendra Modi",
+        "dimension": "survival",
+        "proposed_delta": 2,
+        "rationale": "Modi explicitly rejects nuclear coercion showing hardened position on national security",
+        "confidence": "high"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "PLA leadership purge continues as Xi removes military officials from legislative bodies",
+      "summary": "The PRC removed numerous current and former PLA officers from state legislative bodies leading up to annual meetings as part of ongoing purge campaign. Xi Jinping is targeting those perceived as having insufficient loyalty within the PLA.",
+      "source": "American Enterprise Institute",
+      "url": "https://www.aei.org/articles/china-taiwan-update-march-6-2026/",
+      "bloc": "institutional",
+      "date": "2026-03-06",
+      "datetime": "2026-03-06T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "PLA"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Xi Jinping",
+        "dimension": "accountability",
+        "proposed_delta": 2,
+        "rationale": "Xi continues systematic purge of military leadership to ensure loyalty and control",
+        "confidence": "high"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "Iran forms human chains to protect power plants ahead of Trump deadline",
+      "summary": "Iranian state media showed human chains forming in front of the Kazerun combined cycle power plant ahead of President Trump's deadline for Iran to reopen the Strait of Hormuz or face destruction of power plants.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-deadline-power-plants-human-chains-israel-train-strikes/",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T00:00:00Z",
+      "leaders": [
+        "Donald J. Trump",
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Iran ceasefire",
+        "Strait Hormuz"
+      ],
+      "dimensions": [
+        "impulsivity",
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Donald J. Trump",
+        "dimension": "impulsivity",
+        "proposed_delta": 3,
+        "rationale": "Trump sets ultimatums with specific deadlines for civilian infrastructure destruction",
+        "confidence": "high"
+      },
+      "_from": "claude"
+    },
+    {
+      "headline": "Ukraine corruption scandal reaches Zelensky's inner circle as chief of staff Yermak resigns",
+      "summary": "Ukrainian Energy Minister German Galushchenko was arrested while attempting to flee to Poland, and Zelensky's influential chief of staff Andrey Yermak resigned amid the $100 million corruption investigation. The scandal highlights tensions between anti-corruption agencies and the SBU.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/1/27/1865",
+      "bloc": "western",
+      "date": "2026-01-27",
+      "datetime": "2026-01-27T00:00:00Z",
+      "leaders": [
+        "Volodymyr Zelensky"
+      ],
+      "watch_terms": [
+        "Zelensky corruption"
+      ],
+      "dimensions": [
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 5,
+      "persian_only": false,
+      "dimension_signal": {
+        "leader": "Volodymyr Zelensky",
+        "dimension": "accountability",
+        "proposed_delta": -3,
+        "rationale": "Senior officials in Zelensky's inner circle arrested and resigned over corruption charges",
+        "confidence": "high"
+      },
       "_from": "claude"
     }
   ]
