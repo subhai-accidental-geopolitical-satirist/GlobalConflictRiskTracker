@@ -3,7 +3,7 @@
  * AGRA News Feed Updater — Full Coverage Build
  * Sources:
  *   1. NewsAPI.org      → primary news feed        (NEWS_API_KEY)
- *   2. Commodity API    → live Brent crude price    (COMMODITY_API_KEY)
+ *   2. OilPriceAPI.com  → live Brent crude price    (OIL_PRICE_API_KEY, fallback: COMMODITY_API_KEY)
  *   3. Claude web search → gap-fill, Persian bloc  (ANTHROPIC_API_KEY)
  * Analysis:
  *   4. news_history.json → 30-day rolling archive
@@ -18,6 +18,7 @@ const path = require('path');
 const API_KEY       = process.env.ANTHROPIC_API_KEY;
 const NEWS_API_KEY  = process.env.NEWS_API_KEY;
 const COMMODITY_KEY = process.env.COMMODITY_API_KEY;
+const OIL_API_KEY   = process.env.OIL_PRICE_API_KEY;
 const RESEND_KEY    = process.env.RESENT_API_KEY;
 const NOTIFY_EMAIL  = process.env.NOTIFY_EMAIL;
 
@@ -43,8 +44,27 @@ function calcOilStress(price) {
 
 // ── COMMODITY API ─────────────────────────────────────────────────────────────
 async function fetchBrentPrice() {
-  if (!COMMODITY_KEY) return null;
   console.log('Fetching Brent crude...');
+
+  // ── PRIMARY: OilPriceAPI.com (updates every 5 min, free tier) ──
+  if (OIL_API_KEY) {
+    try {
+      const res = await fetch('https://api.oilpriceapi.com/v1/prices/latest?by_code=BRENT_CRUDE_USD', {
+        headers: { 'Authorization': `Token ${OIL_API_KEY}`, 'Content-Type': 'application/json' }
+      });
+      if (res.ok) {
+        const d = await res.json();
+        if (d && d.status === 'success' && d.data && d.data.price > 0) {
+          const price = Math.round(parseFloat(d.data.price) * 100) / 100;
+          console.log(`  Brent (OilPriceAPI): $${price.toFixed(2)}`);
+          return price;
+        }
+      }
+    } catch(e) { console.warn('  OilPriceAPI failed:', e.message); }
+  }
+
+  // ── FALLBACK: existing multi-source cascade ──
+  if (!COMMODITY_KEY) return null;
   const attempts = [
     { url: `https://commoditypriceapi.com/api/latest?access_key=${COMMODITY_KEY}&base=USD&symbols=BRENT`,
       parse: d => {
@@ -76,7 +96,7 @@ async function fetchBrentPrice() {
 
 // ── NEWSAPI CLUSTERS ──────────────────────────────────────────────────────────
 const NEWS_QUERIES = [
-  { q: 'Iran war ceasefire Israel United States 2026',         leaders: ['Mojtaba Khamenei','Donald J. Trump','Benjamin Netanyahu'], dims: ['survival','impulsivity'] },
+  { q: 'Iran war ceasefire Israel United States 2026',         leaders: ['Mojtaba Khamenei','Donald J. Trump','Benjamin Netanyahu'], dims: ['survival','impulsivity'], variable: 'diplomaticChannels' },
   { q: 'Strait of Hormuz oil tanker shipping blockade',        leaders: ['Mojtaba Khamenei','Mohammed bin Salman','Xi Jinping'],      dims: ['survival','impulsivity'] },
   { q: 'Trump Iran war Congress AUMF war powers',              leaders: ['Donald J. Trump'],                                          dims: ['accountability','impulsivity'] },
   { q: 'Netanyahu trial ICC corruption coalition Israel',      leaders: ['Benjamin Netanyahu'],                                       dims: ['survival','accountability','narcissism'] },

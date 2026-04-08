@@ -1345,7 +1345,7 @@ function markReviewed(type,key){
 }
 
 // ── DASHBOARD ──
-var V_DEFAULTS={oilPrice:0,straitControl:0,weaponsDepletion:0,nuclearSignalling:0,cyberIntensity:0,proxyActivation:0,trumpDomesticPressure:0,netanyahuLegalJeopardy:0,pakistanEconomicStress:0,iranRegimeCohesion:0,congressConstraint:0,diplomaticChannels:0,armsControlArchitecture:0,narcissismCoefficient:0,groupthinkRisk:0};
+var V_DEFAULTS={oilPrice:47,straitControl:58,weaponsDepletion:55,nuclearSignalling:60,cyberIntensity:50,proxyActivation:50,trumpDomesticPressure:65,netanyahuLegalJeopardy:82,pakistanEconomicStress:68,iranRegimeCohesion:40,congressConstraint:25,diplomaticChannels:32,armsControlArchitecture:15,narcissismCoefficient:0,groupthinkRisk:0};
 var V=(function(){try{var s=localStorage.getItem('agra_vars');if(s){var p=JSON.parse(s);var v={};Object.keys(V_DEFAULTS).forEach(function(k){v[k]=p[k]!=null?p[k]:V_DEFAULTS[k];});return v;}}catch(e){}return JSON.parse(JSON.stringify(V_DEFAULTS));})();
 function saveVars(){try{localStorage.setItem('agra_vars',JSON.stringify(V));}catch(e){}}
 function updateOilDisplay(price){

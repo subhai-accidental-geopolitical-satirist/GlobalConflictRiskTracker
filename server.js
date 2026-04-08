@@ -11,6 +11,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 8080;
 const API_KEY       = process.env.COMMODITY_API_KEY || '';
 const NEWSDATA_KEY  = process.env.NEWSDATA_API_KEY || '';
+const OIL_API_KEY   = process.env.OIL_PRICE_API_KEY || '';
 const RESEND_KEY    = process.env.RESEND_API_KEY || '';
 const WATCH_FILE    = path.join(__dirname, 'watch_state.json');
 const LEADERS_FILE  = path.join(__dirname, 'leaders.json');
@@ -157,8 +158,8 @@ async function runWatchMonitoring() {
 
   const VAR_WATCH = [
     { k: 'nuclearSignalling',        name: 'Nuclear Signalling',        watch: ['nuclear doctrine India', 'nuclear Pakistan', 'LoC violations', 'nuclear signalling'] },
-    { k: 'congressConstraint',       name: 'Congressional Constraint',  watch: ['War Powers', 'AUMF', 'Congress vote Iran', 'congressional authorisation'] },
-    { k: 'diplomaticChannels',       name: 'Diplomatic Channels',       watch: ['Iran ceasefire', 'diplomacy Iran', 'Oman talks', 'back channel Iran'] },
+    { k: 'congressConstraint',       name: 'Congressional Constraint',  watch: ['War Powers', 'AUMF', 'Congress vote Iran', 'congressional authorisation', 'ceasefire oversight'] },
+    { k: 'diplomaticChannels',       name: 'Diplomatic Channels',       watch: ['Iran ceasefire', 'diplomacy Iran', 'Oman talks', 'back channel Iran', 'ceasefire violation', 'ceasefire collapse', 'ceasefire extension'] },
     { k: 'armsControlArchitecture',  name: 'Arms Control Architecture', watch: ['New START', 'arms control treaty', 'nuclear treaty'] },
     { k: 'trumpDomesticPressure',    name: 'Trump Domestic Pressure',   watch: ['Trump approval', 'FiveThirtyEight poll', 'Trump impeach'] },
     { k: 'netanyahuLegalJeopardy',   name: 'Netanyahu Legal Jeopardy',  watch: ['Netanyahu trial', 'Netanyahu ICC', 'Netanyahu coalition', 'corruption Israel'] },
@@ -279,9 +280,27 @@ app.get('/api/live', async (req, res) => {
   try {
     let oil = null;
 
-    // ── PRIMARY: call Commodity API directly — always real-time price ──
-    // This fires on every page refresh so oil price is never stale between Action runs.
-    if (API_KEY) {
+    // ── PRIMARY: OilPriceAPI.com (updates every 5 min, free tier) ──
+    if (OIL_API_KEY) {
+      try {
+        const d = await new Promise((resolve, reject) => {
+          const req = https.request({
+            hostname: 'api.oilpriceapi.com', path: '/v1/prices/latest?by_code=BRENT_CRUDE_USD', method: 'GET',
+            headers: { 'Authorization': `Token ${OIL_API_KEY}`, 'Content-Type': 'application/json' }
+          }, res => { let data = ''; res.on('data', chunk => data += chunk); res.on('end', () => { try { resolve(JSON.parse(data)); } catch(e) { reject(e); } }); });
+          req.on('error', reject);
+          req.end();
+        });
+        if (d && d.status === 'success' && d.data && d.data.price > 0) {
+          const price = Math.round(parseFloat(d.data.price) * 100) / 100;
+          oil = { price, source: 'OilPriceAPI', change_pct: '' };
+          console.log(`Oil from OilPriceAPI: $${price}/bbl`);
+        }
+      } catch(e) { console.warn('OilPriceAPI error:', e.message); }
+    }
+
+    // ── SECONDARY: Commodity API direct call (real-time on page refresh) ──
+    if (!oil && API_KEY) {
       try {
         const d = await httpsGet(`https://commoditypriceapi.com/api/latest?access_key=${API_KEY}&base=USD&symbols=BRENT`);
         if (d && d.rates && d.rates.BRENT && d.rates.BRENT > 0) {
@@ -290,21 +309,21 @@ app.get('/api/live', async (req, res) => {
             ? Math.round((1 / rawRate) * 100) / 100
             : Math.round(rawRate * 100) / 100;
           oil = { price: pricePerBarrel, source: 'CommodityPriceAPI', change_pct: '' };
-          console.log(`Oil from Commodity API (live): $${pricePerBarrel}/bbl`);
+          console.log(`Oil from Commodity API: $${pricePerBarrel}/bbl`);
         }
       } catch(e) { console.warn('Commodity API error:', e.message); }
     }
 
-    // ── SECONDARY: fall back to news.json if commodity API fails ──
+    // ── TERTIARY: fall back to news.json (written by GitHub Action) ──
     if (!oil && fs.existsSync(NEWS_FILE)) {
       const news = readJSON(NEWS_FILE, {});
       if (news.live_variables && news.live_variables.oilPrice && news.live_variables.oilPrice > 0) {
-        oil = { price: news.live_variables.oilPrice, source: 'CommodityPriceAPI', change_pct: '' };
+        oil = { price: news.live_variables.oilPrice, source: 'news.json', change_pct: '' };
         console.log(`Oil from news.json (fallback): $${oil.price}/bbl`);
       }
     }
 
-    // ── LAST RESORT ──
+    // ── LAST RESORT: war-context estimate ──
     if (!oil) {
       oil = { price: 97 + (Math.random() - 0.5) * 4, source: 'Estimated', change_pct: '' };
       console.warn('Using estimated oil price — all sources unavailable');
@@ -313,7 +332,7 @@ app.get('/api/live', async (req, res) => {
     // ── GDELT INTELLIGENCE FEED ──
     let alerts = [], conflicts = [];
     try {
-      const gdelt = await httpsGet('https://api.gdeltproject.org/api/v2/doc/doc?query=Iran+war+OR+Strait+Hormuz+OR+Pakistan+India+LoC+OR+Ukraine+ceasefire&mode=artlist&maxrecords=20&format=json&timespan=6h&sourcelang=english');
+      const gdelt = await httpsGet('https://api.gdeltproject.org/api/v2/doc/doc?query=Iran+war+OR+Iran+ceasefire+OR+Strait+Hormuz+OR+ceasefire+violation+OR+Pakistan+India+LoC+OR+Ukraine+ceasefire&mode=artlist&maxrecords=20&format=json&timespan=6h&sourcelang=english');
       if (gdelt.articles) {
         const nonLatin = /[\u0600-\u06FF\u0900-\u097F\u4E00-\u9FFF\u3040-\u309F\u30A0-\u30FF\uAC00-\uD7AF\u0400-\u04FF\u0A80-\u0AFF]/;
         alerts = gdelt.articles
@@ -328,7 +347,7 @@ app.get('/api/live', async (req, res) => {
     } catch(e) { console.warn('GDELT alerts error:', e.message); }
 
     const theatreQueries = [
-      { name: 'Iran',               q: 'Iran war OR Strait Hormuz OR Tehran strikes' },
+      { name: 'Iran',               q: 'Iran war OR Iran ceasefire OR Strait Hormuz OR Tehran strikes' },
       { name: 'Pakistan/Afghanistan', q: 'Pakistan India LoC OR Pakistan Afghanistan border' },
       { name: 'Israel/Lebanon',     q: 'Israel Lebanon OR Gaza ceasefire' },
       { name: 'Yemen',              q: 'Houthi OR Yemen strikes' },
@@ -400,22 +419,29 @@ const VAR_CONFIG = {
   // key: { baseline, direction, floor, ceiling, sensitivity }
   // direction: 'up' = high news intensity pushes value up (bad = higher)
   //            'down' = high news intensity pushes value down (bad = lower)
+  // Baselines updated 2026-04-08: US-Iran two-week ceasefire — moderate de-escalation shift
   oilPrice:              { baseline: 47,  direction: 'up',   floor: 0,   ceiling: 100, sensitivity: 1.2 },
-  straitControl:         { baseline: 70,  direction: 'up',   floor: 30,  ceiling: 100, sensitivity: 1.5 },
-  nuclearSignalling:     { baseline: 60,  direction: 'up',   floor: 20,  ceiling: 100, sensitivity: 2.0 },
-  congressConstraint:    { baseline: 20,  direction: 'down', floor: 5,   ceiling: 50,  sensitivity: 1.0 },
-  diplomaticChannels:    { baseline: 22,  direction: 'down', floor: 5,   ceiling: 60,  sensitivity: 1.2 },
+  straitControl:         { baseline: 58,  direction: 'up',   floor: 30,  ceiling: 100, sensitivity: 0.8 },
+  weaponsDepletion:      { baseline: 55,  direction: 'up',   floor: 20,  ceiling: 100, sensitivity: 0.7 },
+  nuclearSignalling:     { baseline: 60,  direction: 'up',   floor: 20,  ceiling: 100, sensitivity: 0.6 },
+  cyberIntensity:        { baseline: 50,  direction: 'up',   floor: 15,  ceiling: 100, sensitivity: 0.5 },
+  proxyActivation:       { baseline: 50,  direction: 'up',   floor: 20,  ceiling: 100, sensitivity: 0.8 },
+  congressConstraint:    { baseline: 25,  direction: 'down', floor: 5,   ceiling: 50,  sensitivity: 0.7 },
+  diplomaticChannels:    { baseline: 32,  direction: 'down', floor: 5,   ceiling: 60,  sensitivity: 0.5 },
   armsControlArchitecture:{ baseline: 15, direction: 'down', floor: 5,   ceiling: 40,  sensitivity: 0.8 },
-  netanyahuLegalJeopardy:{ baseline: 82,  direction: 'up',   floor: 50,  ceiling: 100, sensitivity: 1.0 },
-  iranRegimeCohesion:    { baseline: 40,  direction: 'up',   floor: 15,  ceiling: 75,  sensitivity: 1.5 },
-  trumpDomesticPressure: { baseline: 65,  direction: 'up',   floor: 30,  ceiling: 95,  sensitivity: 1.0 },
-  pakistanEconomicStress:{ baseline: 68,  direction: 'up',   floor: 30,  ceiling: 95,  sensitivity: 1.2 }
+  netanyahuLegalJeopardy:{ baseline: 82,  direction: 'up',   floor: 50,  ceiling: 100, sensitivity: 0.8 },
+  iranRegimeCohesion:    { baseline: 40,  direction: 'up',   floor: 15,  ceiling: 75,  sensitivity: 0.8 },
+  trumpDomesticPressure: { baseline: 65,  direction: 'up',   floor: 30,  ceiling: 95,  sensitivity: 0.6 },
+  pakistanEconomicStress:{ baseline: 68,  direction: 'up',   floor: 30,  ceiling: 95,  sensitivity: 0.7 }
 };
 
 // Also map leader watch terms to dimension signals
 const LEADER_VAR_MAP = {
   'straitControl':          ['Mojtaba Khamenei', 'Mohammed bin Salman', 'Xi Jinping'],
+  'weaponsDepletion':       ['Donald J. Trump'],
   'nuclearSignalling':      ['Kim Jong-un', 'Vladimir Putin', 'General Asim Munir', 'Narendra Modi'],
+  'cyberIntensity':         ['Vladimir Putin', 'Kim Jong-un', 'Xi Jinping'],
+  'proxyActivation':        ['Mojtaba Khamenei', 'Mohammed bin Salman', 'Recep Tayyip Erdogan'],
   'congressConstraint':     ['Donald J. Trump'],
   'diplomaticChannels':     ['Donald J. Trump', 'Mojtaba Khamenei', 'Recep Tayyip Erdogan'],
   'netanyahuLegalJeopardy': ['Benjamin Netanyahu'],
