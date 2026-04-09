@@ -42,5 +42,6 @@ jobs:
             HISTORY=$(node -e "try{const h=require('./news_history.json');console.log(h.items.length)}catch(e){console.log('?')}")
             OIL=$(node -e "const n=require('./news.json'); const v=n.live_variables; console.log(v.oilPrice ? '\$'+v.oilPrice+' s:'+v.oilStress : 'N/A')")
             git commit -m "News feed x${ITEMS} history x${HISTORY} oil ${OIL} $(date -u +%Y-%m-%dT%H:%M)Z"
+            git pull --rebase origin main || true
             git push
           fi
