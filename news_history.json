@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-09T01:57:11.722Z",
+  "updated": "2026-04-09T06:07:53.946Z",
   "retention_days": 30,
   "items": [
     {
@@ -8643,7 +8643,283 @@
       "_from": "claude",
       "first_seen": "2026-04-09T01:27:58.574Z",
       "run_id": "2026-04-09T01:27"
+    },
+    {
+      "headline": "Russia, China Veto UN Resolution on Strait of Hormuz, Citing Escalation Risk",
+      "summary": "UN Resolution Vetoed, Tensions Rise Over Key Shipping Lane Russia and China exercised their veto power at the United Nations Security Council on Tuesday, blocking a resolution that sought to reopen the Strait of Hormuz for international maritime traffic. The …",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-08-russia-china-veto-un-resolution-on-hormuz.html",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "Trump Surrenders to Iran on ‘TACO Tuesday’",
+      "summary": "The Unvarnished Truth: This Is a Capitulation Let’s be blunt. In the last hours before his deadline expired, President Donald Trump announced a two-week ceasefire with Iran, framing it as a ‘two-way ceasefire’ [1]. But I believe this is not a diplomatic trium…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-08-trump-surrenders-to-iran-on-taco-tuesday.html",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "Report: 75 Energy Assets Damaged in Gulf Region Conflicts",
+      "summary": "75 Energy Assets Damaged in Gulf Region Conflicts A new analysis indicates that 75 critical energy assets have been damaged or destroyed in hostilities across the Gulf region, according to a report cited by energy sector observers. The findings were released …",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-08-energy-assets-damaged-in-gulf-region-conflicts.html",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "Two-Week Ceasefire Declared in U.S.-Iran Standoff Following Pakistani Mediation",
+      "summary": "Introduction U.S. President Donald Trump announced a two-week suspension of planned U.S. airstrikes on Iran late Tuesday, April 7, just hours before a deadline he had set for Tehran to reopen the Strait of Hormuz. According to a post on his social media platf…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-08-ceasefire-declared-us-iran-following-pakistani-mediation.html",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "Israel backs temporary US-Iran ceasefire but says it does not include Lebanon",
+      "summary": "Israel’s statement contradicts an earlier announcement by Pakistan’s Prime Minister Shehbaz Sharif, who has acted as a mediator in the conflict.",
+      "source": "TheJournal.ie",
+      "url": "https://www.thejournal.ie/israel-backs-temporary-us-iran-ceasefire-but-says-it-does-not-include-lebanon-7006154-Apr2026/",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T05:52:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "Qatar LNG Export Disruption Continues as Tankers Divert from Strait of Hormuz",
+      "summary": "Introduction The ongoing disruption to Qatar’s liquefied natural gas (LNG) exports entered a new phase on Monday, April 6, 2026, as two carriers aborted a rare attempt to transit the Strait of Hormuz. The vessels, ‘Al Ghariya’ and ‘Al Huwaila,’ turned around …",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-08-qatar-lng-export-disruption-continues.html",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "The Hormuz Hype: How Europe Got Played at the Oil Casino",
+      "summary": "Europe’s oil shock was sold as a tragic consequence of the war on Iran and chaos in the Strait of Hormuz. The story was simple. Blame Tehran, blame geography, tell Europeans there was no choice but to pay. Yet official documents quietly admit that the EU’s di…",
+      "source": "Activistpost.com",
+      "url": "https://www.activistpost.com/the-hormuz-hype-how-europe-got-played-at-the-oil-casino/",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "Ambition will not counteract ambition",
+      "summary": "I have no objection per se to invoking impeachment and the 25th Amendment in the context of Trump’s genocidal threats — telling the truth can be its own justification even without an immediate practical remedy, and the political context might change down the …",
+      "source": "Lawyersgunsmoneyblog.com",
+      "url": "https://www.lawyersgunsmoneyblog.com/2026/04/ambition-will-not-counteract-ambition",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T21:03:25Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "Elizabeth Economy: Amanpour And Company",
+      "summary": "Hoover Institution fellow Elizabeth Economy discusses Beijing’s strategy to expand its power in the new world order.",
+      "source": "PBS",
+      "url": "https://www.pbs.org/video/april-7-2026-nfsxep/",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
+    },
+    {
+      "headline": "American Families Will Be Paying Price Of Iran War For Years To Come",
+      "summary": "Whether the Iran War ends in two weeks or two months, global markets may not stabilize for years.",
+      "source": "The Daily Caller",
+      "url": "https://dailycaller.com/2026/04/07/us-households-iran-war-trump-strait-of-hormuz-deficit-spending-mortgages-oil-groceries-affordability/",
+      "bloc": "western",
+      "date": "2026-04-07",
+      "datetime": "2026-04-07T22:35:28Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-09T06:07:53.946Z",
+      "run_id": "2026-04-09T06:07"
     }
   ],
-  "total_items_ever": 361
+  "total_items_ever": 371
 }
