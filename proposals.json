@@ -1,7 +1,7 @@
 {
   "analysis_period": {
-    "start_date": "2025-12-16",
-    "end_date": "2026-04-08",
+    "start_date": "2025-10-18",
+    "end_date": "2026-04-09",
     "items_evaluated": 25,
     "source_blocs_represented": [
       "western",
@@ -15,409 +15,327 @@
       "leader": "Donald J. Trump",
       "dimension": "impulsivity",
       "current_score": 90,
-      "proposed_delta": 2,
-      "proposed_new_score": 92,
+      "proposed_delta": 0,
+      "proposed_new_score": 90,
       "confidence": "high",
-      "pattern_description": "Trump has repeatedly issued unilateral ultimatums and threats (Iran deadline, NATO arms reduction threats) without establishing clear diplomatic offramps, reacting to events rather than orchestrating deliberate strategy. Multiple rapid shifts between military escalation options and ceasefire consideration within compressed timeframes demonstrate reactive rather than deliberative decision-making.",
+      "pattern_description": "Trump has sustained a pattern of deadline-driven ultimatums on Iran (April 7 deadline triggering human chain defensive response) and reactive public messaging (impeachment odds rising to record highs amid war threats). However, the score of 90 already reflects near-maximum impulsivity. No meaningful increase justified.",
       "evidence_chain": [
+        {
+          "date": "2026-04-09",
+          "source": "Newsweek",
+          "bloc": "western",
+          "headline": "Trump impeachment odds hit record high amid Iran war threats, approval rating at 42.9%",
+          "relevance": "Reflects reactive decision-making triggering constitutional accountability processes"
+        },
         {
           "date": "2026-04-07",
           "source": "CBS News",
           "bloc": "western",
           "headline": "Iran forms human chains to protect power plants ahead of Trump deadline",
-          "relevance": "Trump's deadline-driven ultimatum forced Iranian defensive posturing; reactive pressure tactic without apparent diplomatic strategy"
-        },
-        {
-          "date": "2026-04-07",
-          "source": "Freerepublic.com",
-          "bloc": "western",
-          "headline": "Pakistan PM asks Trump to extend Iran deadline by 2 weeks, calls on Tehran to open strait during that period",
-          "relevance": "Trump's deadline sufficiently rigid that allies requested extension, indicating unilateral imposition without coalition input"
-        },
-        {
-          "date": "2026-02-27",
-          "source": "Iran International",
-          "bloc": "persian",
-          "headline": "CENTCOM Chief Briefs Trump on Iran Strike Options After Nuclear Talks Stall",
-          "relevance": "Rapid escalation to military strike briefings after diplomatic talks stalled; no intermediate deliberative steps evident"
-        },
-        {
-          "date": "2026-03-09",
-          "source": "American Enterprise Institute",
-          "bloc": "institutional",
-          "headline": "SIPRI reports NATO reduces reliance on U.S. arms imports amid Trump threats",
-          "relevance": "Trump's threats to NATO allies (unilateral arms reduction threats) were reactive political gestures rather than calculated leverage"
+          "relevance": "Trump's hard deadline on Iran creates measurable behavioral responses indicating impulsive ultimatum-setting"
         }
       ],
-      "items_supporting": 4,
+      "items_supporting": 2,
       "blocs_represented": [
-        "western",
-        "persian",
-        "institutional"
+        "western"
       ],
-      "threshold_met": true,
-      "counter_evidence": null
-    },
-    {
-      "leader": "Xi Jinping",
-      "dimension": "accountability",
-      "current_score": 22,
-      "proposed_delta": -8,
-      "proposed_new_score": 14,
-      "confidence": "high",
-      "pattern_description": "Xi has systematically dismantled accountability mechanisms through large-scale official purges (983,000 officials removed ahead of 2027 Taiwan deadline) and accelerated nuclear expansion without international oversight or institutional review. This represents deliberate bypassing of internal Party accountability structures and international monitoring frameworks in pursuit of strategic objectives.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-07",
-          "source": "Just The News",
-          "bloc": "regional",
-          "headline": "Taiwan Intelligence: Xi Jinping Purges 983,000 Officials Ahead of 2027 Taiwan Deadline",
-          "relevance": "Massive purge of officials dismantles accountability mechanisms within Party apparatus; targets potential dissent/oversight before Taiwan operation"
-        },
-        {
-          "date": "2026-04-01",
-          "source": "CNN",
-          "bloc": "western",
-          "headline": "Xi Jinping Accelerates Nuclear Expansion in Response to Iran War",
-          "relevance": "Nuclear expansion conducted without IAEA coordination or transparency; deliberate bypass of international arms control architecture"
-        },
-        {
-          "date": "2026-03-31",
-          "source": "American Enterprise Institute",
-          "bloc": "institutional",
-          "headline": "China-Pakistan Joint Peace Plan for Iran War Aims to Project Regional Influence",
-          "relevance": "Xi uses regional initiatives to consolidate influence while avoiding accountability to multilateral institutions; unilateral strategic positioning"
-        }
-      ],
-      "items_supporting": 3,
-      "blocs_represented": [
-        "western",
-        "regional",
-        "institutional"
-      ],
-      "threshold_met": true,
-      "counter_evidence": null
+      "threshold_met": false,
+      "counter_evidence": "Score already at ceiling (90/100); no new pattern justifies increase. Actual policy outcomes show some deliberation (ceasefire negotiations ongoing), suggesting impulsivity is contained below absolute maximum."
     },
     {
       "leader": "General Asim Munir",
       "dimension": "impulsivity",
       "current_score": 73,
-      "proposed_delta": 6,
-      "proposed_new_score": 79,
+      "proposed_delta": 3,
+      "proposed_new_score": 76,
       "confidence": "high",
-      "pattern_description": "Munir has demonstrated escalatory pattern of unilateral military signaling including nuclear threat signals and border action team deployments against India, followed by rapid policy reversals driven by IMF conditionality. Decisions appear reactive to regional security pressures rather than product of deliberate strategic planning.",
+      "pattern_description": "Sustained pattern of nuclear threat escalation: April 7 field marshal signals Pakistan escalation doctrine shift; October 18 direct nuclear retaliation threat against India with grandiose language ('shattered immunity'). These are reactive, unilateral declarations without apparent deliberative constraints. Two critical escalatory moments in 6-month window.",
       "evidence_chain": [
         {
           "date": "2026-04-07",
           "source": "ThePrint",
           "bloc": "regional",
           "headline": "Field Marshal Asim Munir's Nuclear Threat Signals Pakistan Escalation Doctrine Shift",
-          "relevance": "Nuclear signaling represents reactive escalatory gesture amid regional pressures; unilateral shift in doctrine without institutional review"
+          "relevance": "Explicit doctrine shift toward nuclear brinkmanship as reactive policy tool"
         },
         {
-          "date": "2026-01-22",
-          "source": "India.com",
+          "date": "2025-10-18",
+          "source": "WION News",
           "bloc": "regional",
-          "headline": "Pakistan Deploys 'Ghatak' Border Action Teams Against India",
-          "relevance": "Unilateral deployment of special operations teams on border; reactive military posturing without apparent diplomatic coordination"
-        },
-        {
-          "date": "2026-04-01",
-          "source": "Observer Research Foundation",
-          "bloc": "institutional",
-          "headline": "IMF imposes 11 new conditions on Pakistan bailout over India tensions",
-          "relevance": "IMF forced reversal of escalatory policies; demonstrates reactive decision-making susceptible to external constraint rather than deliberative planning"
+          "headline": "Pakistan Army Chief Asim Munir threatens nuclear retaliation against India, warns of shattered immunity",
+          "relevance": "Direct nuclear threat with apocalyptic framing demonstrates high-stakes reactive behavior"
         },
         {
           "date": "2026-04-08",
           "source": "Zee News",
           "bloc": "regional",
           "headline": "Pakistan's 'Islamic NATO' Strategy Fails as Regional Isolation Deepens",
-          "relevance": "Rapid collapse of strategic initiative; indicates poorly-deliberated policy implementation driven by regional pressure rather than careful assessment"
+          "relevance": "Strategic failure suggests decisions made without adequate deliberation or consensus-building"
         }
       ],
-      "items_supporting": 4,
+      "items_supporting": 3,
       "blocs_represented": [
-        "western",
+        "regional"
+      ],
+      "threshold_met": true,
+      "counter_evidence": "No direct counter-evidence in record. However, some military actions appear coordinated with institutional partners (IMF conditions in April 2026), suggesting occasional constraint on pure impulsivity."
+    },
+    {
+      "leader": "Xi Jinping",
+      "dimension": "accountability",
+      "current_score": 22,
+      "proposed_delta": -5,
+      "proposed_new_score": 17,
+      "confidence": "high",
+      "pattern_description": "Sustained pattern of systematic dismantling of accountability mechanisms: April 7 purge of 983,000 officials ahead of 2027 Taiwan deadline; secret nuclear infrastructure expansion without public disclosure (April 1); coordinated diplomatic/military escalation without institutional oversight visible in record. These represent deliberate, large-scale bypassing of internal party accountability structures.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-07",
+          "source": "Just The News",
+          "bloc": "regional",
+          "headline": "Taiwan Intelligence: Xi Jinping Purges 983,000 Officials Ahead of 2027 Taiwan Deadline",
+          "relevance": "Mass purge of officials directly eliminates potential internal accountability/opposition voices in advance of major military decision"
+        },
+        {
+          "date": "2026-04-01",
+          "source": "CNN",
+          "bloc": "institutional",
+          "headline": "China secretly expanding nuclear weapons infrastructure amid US-Israeli Iran operations",
+          "relevance": "Secret expansion demonstrates deliberate concealment from international and likely internal oversight"
+        },
+        {
+          "date": "2026-01-09",
+          "source": "War on the Rocks",
+          "bloc": "institutional",
+          "headline": "Pentagon report shows China nuclear arsenal growing to 600+ warheads while targeting 2027 Taiwan capabilities",
+          "relevance": "Deliberate nuclear escalation without apparent institutional debate or constraint"
+        }
+      ],
+      "items_supporting": 3,
+      "blocs_represented": [
         "regional",
         "institutional"
       ],
       "threshold_met": true,
-      "counter_evidence": null
-    },
-    {
-      "leader": "Mojtaba Khamenei",
-      "dimension": "survival",
-      "current_score": 90,
-      "proposed_delta": 3,
-      "proposed_new_score": 93,
-      "confidence": "medium",
-      "pattern_description": "Khamenei has demonstrated acute focus on regime preservation through strategic messaging about leadership continuity, defensive infrastructure positioning (human chains for power plants), and willingness to negotiate ceasefire terms. Multiple survival-focused decisions indicate heightened perception of existential threat to regime.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-08",
-          "source": "Fortune",
-          "bloc": "western",
-          "headline": "Mojtaba Khamenei Confirms Iran's New Supreme Leader Alive After Ceasefire Deal",
-          "relevance": "Immediate messaging confirming leadership continuity post-ceasefire; direct survival-focused communication to domestic and international audiences"
-        },
-        {
-          "date": "2026-04-07",
-          "source": "CBS News",
-          "bloc": "western",
-          "headline": "Iran forms human chains to protect power plants ahead of Trump deadline",
-          "relevance": "Defensive mobilization of population for critical infrastructure; indicates regime prioritizes continuity of government functions"
-        },
-        {
-          "date": "2026-04-06",
-          "source": "Iran International",
-          "bloc": "persian",
-          "headline": "Iran offers potential 45-day ceasefire with U.S. mediated by Pakistan",
-          "relevance": "Strategic ceasefire proposal to secure breathing room; survival-driven negotiation despite military pressure"
-        },
-        {
-          "date": "2026-04-06",
-          "source": "American Nuclear Society",
-          "bloc": "institutional",
-          "headline": "IAEA Director General confirms Iran nuclear facilities increasingly inaccessible",
-          "relevance": "Protective hardening of nuclear infrastructure; survival-focused denial of international monitoring access"
-        }
-      ],
-      "items_supporting": 4,
-      "blocs_represented": [
-        "western",
-        "persian",
-        "institutional"
-      ],
-      "threshold_met": true,
-      "counter_evidence": null
+      "counter_evidence": "Limited counter-evidence. Some diplomatic channels remain open (KMT invitation April 1), but this appears tactical rather than evidence of accountability restoration."
     },
     {
       "leader": "Benjamin Netanyahu",
       "dimension": "accountability",
       "current_score": 18,
-      "proposed_delta": -4,
-      "proposed_new_score": 14,
+      "proposed_delta": -3,
+      "proposed_new_score": 15,
       "confidence": "medium",
-      "pattern_description": "Netanyahu has actively maintained position despite ICC arrest warrant, with no demonstrated willingness to submit to international accountability mechanisms. His continued operational control amid formal legal jeopardy indicates deliberate bypass of accountability structures designed to constrain leaders.",
+      "pattern_description": "Sustained pattern of deliberately circumventing legal accountability: January 12 coalition advances bill to repeal fraud and breach of trust charges Netanyahu faces; December 2025 ICC rejects jurisdictional challenges but maintains arrest warrants—Netanyahu continues military operations without constraint. Coalition actively dismantling accountability mechanisms despite international legal pressure.",
       "evidence_chain": [
+        {
+          "date": "2026-01-12",
+          "source": "The Times of Israel",
+          "bloc": "western",
+          "headline": "Coalition advances bill to repeal fraud and breach of trust charges Netanyahu faces",
+          "relevance": "Direct legislative action to eliminate personal legal accountability through coalition control"
+        },
         {
           "date": "2025-12-16",
           "source": "The Times of Israel",
           "bloc": "institutional",
-          "headline": "ICC Maintains Netanyahu Arrest Warrant Despite Israeli Challenge",
-          "relevance": "Netanyahu legally challenged ICC warrant but continued to operate without submitting to accountability; deliberate evasion of international legal mechanisms"
-        },
-        {
-          "date": "2026-04-07",
-          "source": "Pew Research Center",
-          "bloc": "western",
-          "headline": "Negative views of Israel, Netanyahu continue to rise among Americans – especially young people",
-          "relevance": "Declining accountability to international opinion; Netanyahu operates despite deteriorating global legitimacy, indicating disregard for democratic accountability mechanisms"
-        },
-        {
-          "date": "2026-04-07",
-          "source": "HuffPost",
-          "bloc": "western",
-          "headline": "This Would Be Genocide",
-          "relevance": "Continued military operations despite genocide allegations; demonstrates unwillingness to submit to moral or legal accountability structures"
+          "headline": "ICC rejects Israel's jurisdictional challenges, maintains Netanyahu and Gallant arrest warrants",
+          "relevance": "Despite ICC warrant maintenance, Netanyahu-led government continues operations unconstrained—demonstrates rejection of international accountability mechanism"
         }
       ],
-      "items_supporting": 3,
+      "items_supporting": 2,
       "blocs_represented": [
         "western",
         "institutional"
       ],
-      "threshold_met": true,
-      "counter_evidence": null
+      "threshold_met": false,
+      "counter_evidence": "Threshold requires 3+ items and 2+ blocs. Only 2 items despite 2 blocs represented. Additional evidence of systemic accountability dismantling needed to reach threshold."
+    },
+    {
+      "leader": "Mojtaba Khamenei",
+      "dimension": "survival",
+      "current_score": 90,
+      "proposed_delta": 0,
+      "proposed_new_score": 90,
+      "confidence": "high",
+      "pattern_description": "Mojtaba Khamenei's assumption of Supreme Leader post in March 2026 and subsequent actions (continuing military resistance via Strait of Hormuz pressure, IRGC intelligence coercing Assembly of Experts) reflect maximum survival prioritization. However, score of 90 already reflects this ceiling. Ceasefire deal confirmation (April 8) suggests some diplomatic flexibility, but primary driver remains regime survival.",
+      "evidence_chain": [
+        {
+          "date": "2026-03-12",
+          "source": "Iran International",
+          "bloc": "persian",
+          "headline": "New Supreme Leader Mojtaba Khamenei issues first message calling for continued military resistance via Strait of Hormuz pressure",
+          "relevance": "First act as Supreme Leader emphasizes military resistance—core survival posture"
+        },
+        {
+          "date": "2026-03-08",
+          "source": "IranWire",
+          "bloc": "persian",
+          "headline": "Iran International reports IRGC intelligence threatened Assembly of Experts families to secure Mojtaba Khamenei election",
+          "relevance": "Coercive securing of leadership position reflects prioritization of regime continuity over institutional legitimacy"
+        }
+      ],
+      "items_supporting": 2,
+      "blocs_represented": [
+        "persian"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Score already at ceiling (90/100). No sustained new pattern justifies increase. Ceasefire negotiations suggest tactical flexibility within survival-maximizing strategy."
+    },
+    {
+      "leader": "Mojtaba Khamenei",
+      "dimension": "accountability",
+      "current_score": 70,
+      "proposed_delta": -8,
+      "proposed_new_score": 62,
+      "confidence": "high",
+      "pattern_description": "Sustained pattern of dismantling accountability mechanisms within Iranian power structure: March 8 IRGC intelligence coercion of Assembly of Experts families to secure election (extrajudicial coercion); assumption of Supreme Leader role through coercion rather than institutional consensus represents systematic bypass of accountability within Revolutionary system. This is deliberate institutional undermining, not just personal misconduct.",
+      "evidence_chain": [
+        {
+          "date": "2026-03-08",
+          "source": "IranWire",
+          "bloc": "persian",
+          "headline": "Iran International reports IRGC intelligence threatened Assembly of Experts families to secure Mojtaba Khamenei election",
+          "relevance": "IRGC intelligence threats against Assembly families directly demonstrate deliberate dismantling of institutional checks on Supreme Leader authority"
+        },
+        {
+          "date": "2026-03-12",
+          "source": "Iran International",
+          "bloc": "persian",
+          "headline": "New Supreme Leader Mojtaba Khamenei issues first message calling for continued military resistance via Strait of Hormuz pressure",
+          "relevance": "Immediate emphasis on unilateral military decisions without consultation indicates established pattern of bypassing deliberative bodies"
+        }
+      ],
+      "items_supporting": 2,
+      "blocs_represented": [
+        "persian"
+      ],
+      "threshold_met": false,
+      "counter_evidence": "Threshold requires 3+ items. Only 2 items in record. Current accountability score (70) already reflects high level of institutional control; insufficient new evidence of escalating pattern beyond this."
     }
   ],
   "variable_proposals": [
     {
-      "variable": "oilPrice",
-      "current_assessment": "Elevated volatility with sustained price pressure from Iran conflict disruptions",
-      "proposed_direction": "increase",
-      "confidence": "high",
-      "rationale": "Multiple sources document prolonged economic shock from Iran war with inflationary pressure sustained across global markets. Australia, India, and broader economies report persistent fuel cost increases and diesel surges attributable to Strait of Hormuz disruption. Iran's protective infrastructure positioning and ceasefire negotiations suggest continued supply uncertainty.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-07",
-          "source": "OilPrice.com",
-          "headline": "Global Economy Braces for Prolonged Shock From Iran War",
-          "relevance": "Sustained economic shock from conflict indicates prolonged elevated oil prices; not temporary spike"
-        },
-        {
-          "date": "2026-04-07",
-          "source": "Business Insider",
-          "headline": "'Painful' interest rates are looming with the world facing a new wave of inflationary pressure, Harvard economist says",
-          "relevance": "Oil-driven inflationary pressure creating sustained macroeconomic headwinds; prices remain elevated"
-        },
-        {
-          "date": "2026-04-07",
-          "source": "Ibtimes.com.au",
-          "headline": "Australia Fuel Prices Ease Slightly to ~$2.40/L After Excise Cuts, But Diesel Soars Amid Iran War Fallout",
-          "relevance": "Diesel specifically surging from conflict; indicates selective supply constraint and pricing power remaining elevated"
-        },
-        {
-          "date": "2026-04-07",
-          "source": "Business Insider",
-          "headline": "Viral research firm Citrini sent an analyst to the Strait of Hormuz. From smugglers to Iranian drones, here's what they found.",
-          "relevance": "Active Iranian drone activity in Strait maintains supply disruption risk; prices remain constrained by supply uncertainty"
-        }
-      ]
-    },
-    {
       "variable": "straitControl",
-      "current_assessment": "Iran contested control via drone activity; Strait access disrupted but not fully blocked",
-      "proposed_direction": "decrease",
-      "confidence": "high",
-      "rationale": "Citrini research reports confirmed Iranian drone operations in Strait of Hormuz creating contested waterway environment. Iran's 45-day ceasefire proposal explicitly conditions on opening strait, indicating Iran retains de facto disruption capability. Trump deadline and human chain positioning suggest Iran can maintain chokepoint leverage despite military pressure.",
+      "current_assessment": "Iran maintaining defensive posture (human chains around power plants April 7) but no confirmed blockade. Threats persist but operational control unclear.",
+      "proposed_direction": "increase",
+      "confidence": "medium",
+      "rationale": "Multiple indicators of Iranian escalation preparation: human chains defensive response (April 7), Mojtaba Khamenei's first message emphasizes 'continued military resistance via Strait of Hormuz pressure' (March 12), IAEA confirms nuclear facilities increasingly inaccessible (April 6). Cumulative pattern suggests deliberate escalation toward physical Strait control as retaliation for strikes.",
       "evidence_chain": [
         {
           "date": "2026-04-07",
-          "source": "Business Insider",
-          "headline": "Viral research firm Citrini sent an analyst to the Strait of Hormuz. From smugglers to Iranian drones, here's what they found.",
-          "relevance": "Direct field evidence of Iranian drone presence and activity; confirms Iran maintains operational control mechanisms"
+          "source": "CBS News",
+          "headline": "Iran forms human chains to protect power plants ahead of Trump deadline",
+          "relevance": "Defensive mobilization indicates preparation for strikes; likely precursor to offensive Strait action"
+        },
+        {
+          "date": "2026-03-12",
+          "source": "Iran International",
+          "headline": "New Supreme Leader Mojtaba Khamenei issues first message calling for continued military resistance via Strait of Hormuz pressure",
+          "relevance": "Explicit Supreme Leader directive to use Strait as pressure mechanism; indicates strategic commitment"
         },
         {
           "date": "2026-04-06",
-          "source": "Iran International",
-          "headline": "Iran offers potential 45-day ceasefire with U.S. mediated by Pakistan",
-          "relevance": "Iran conditions ceasefire on opening strait, indicating willingness to maintain closure leverage in negotiations"
-        },
-        {
-          "date": "2026-04-07",
-          "source": "Freerepublic.com",
-          "headline": "Pakistan PM asks Trump to extend Iran deadline by 2 weeks, calls on Tehran to open strait during that period",
-          "relevance": "Ceasefire negotiations still require specific demand to open strait; indicates Iran retains control through ceasefire period"
+          "source": "American Nuclear Society",
+          "headline": "IAEA Director General confirms Iran nuclear facilities increasingly inaccessible",
+          "relevance": "Physical hardening of nuclear sites suggests preparation for sustained conflict; correlates with Strait control escalation"
         }
       ]
     },
     {
       "variable": "nuclearSignalling",
-      "current_assessment": "Elevated across multiple actors: Pakistan nuclear threats, Xi acceleration, Iran facility hardening",
+      "current_assessment": "Multiple nuclear powers signalling escalation: Trump deadline on Iran, Pakistan nuclear threats, China nuclear expansion, Israel strikes on nuclear sites. Signalling frequency and intensity elevated.",
       "proposed_direction": "increase",
       "confidence": "high",
-      "rationale": "Three distinct nuclear signaling escalations documented: Pakistan's Field Marshal Munir issues nuclear threats signaling doctrine shift; Xi accelerates nuclear expansion without international coordination; Iran hardens nuclear facilities beyond IAEA monitoring. This represents coordinated escalation in nuclear messaging rather than isolated incidents.",
+      "rationale": "Sustained cascade of nuclear-related signalling across four nuclear powers in 6-month window: Asim Munir nuclear retaliation threat (October 2025), Xi Jinping 983,000 official purge ahead of 2027 Taiwan nuclear deadline (April 2026), China secretly expanding nuclear infrastructure (April 2026), Pakistan doctrine shift to nuclear escalation (April 2026), Israel strikes Iranian nuclear sites (April 2026). Frequency and coordination suggest new equilibrium of nuclear brinkmanship.",
       "evidence_chain": [
+        {
+          "date": "2025-10-18",
+          "source": "WION News",
+          "headline": "Pakistan Army Chief Asim Munir threatens nuclear retaliation against India, warns of shattered immunity",
+          "relevance": "Pakistan explicit nuclear threat raises regional nuclear temperature"
+        },
         {
           "date": "2026-04-07",
           "source": "ThePrint",
           "headline": "Field Marshal Asim Munir's Nuclear Threat Signals Pakistan Escalation Doctrine Shift",
-          "relevance": "Pakistan explicitly signals nuclear weapon use in regional conflict context; represents escalatory messaging shift"
-        },
-        {
-          "date": "2026-04-01",
-          "source": "CNN",
-          "headline": "Xi Jinping Accelerates Nuclear Expansion in Response to Iran War",
-          "relevance": "Xi uses Iran conflict as pretext for accelerated nuclear expansion; demonstrates nuclear signaling as geopolitical response"
-        },
-        {
-          "date": "2026-04-06",
-          "source": "American Nuclear Society",
-          "headline": "IAEA Director General confirms Iran nuclear facilities increasingly inaccessible",
-          "relevance": "Iran deliberately removes nuclear facilities from international monitoring; hardening against potential strikes and international oversight"
-        }
-      ]
-    },
-    {
-      "variable": "armsControlArchitecture",
-      "current_assessment": "Degraded: Iran hides nuclear facilities, Xi expands without oversight, Pakistan escalates doctrine",
-      "proposed_direction": "decrease",
-      "confidence": "high",
-      "rationale": "Multiple actors simultaneously dismantling arms control mechanisms: Iran removes nuclear facilities from IAEA oversight; Xi accelerates nuclear expansion without international coordination; Pakistan shifts doctrine to explicit nuclear signaling. IAEA loses access and verification capacity; no countervailing institutional reinforcement evident.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-06",
-          "source": "American Nuclear Society",
-          "headline": "IAEA Director General confirms Iran nuclear facilities increasingly inaccessible",
-          "relevance": "IAEA explicitly loses monitoring access to Iranian nuclear infrastructure; direct architecture degradation"
-        },
-        {
-          "date": "2026-04-01",
-          "source": "CNN",
-          "headline": "Xi Jinping Accelerates Nuclear Expansion in Response to Iran War",
-          "relevance": "Xi expansion occurs without IAEA coordination or transparency; bypasses arms control oversight"
-        },
-        {
-          "date": "2026-02-27",
-          "source": "American Enterprise Institute",
-          "bloc": "institutional",
-          "headline": "IAEA Reports 440kg of Iranian Enriched Uranium Status Unknown Since War Began",
-          "relevance": "IAEA loses track of weapons-grade uranium; verification mechanisms completely degraded"
-        }
-      ]
-    },
-    {
-      "variable": "diplomaticChannels",
-      "current_assessment": "Strained but functional: Pakistan mediation attempts, Pakistan-US communication on deadline extension",
-      "proposed_direction": "hold",
-      "confidence": "medium",
-      "rationale": "Evidence shows diplomatic channels remain operational (Pakistan mediating 45-day ceasefire proposal, Pakistan PM requesting deadline extension from Trump, China-Pakistan joint peace plan) but channels are strained and reactive rather than proactive. No evidence of breakdown, but also no evidence of renewed strategic dialogue.",
-      "evidence_chain": [
-        {
-          "date": "2026-04-06",
-          "source": "Iran International",
-          "headline": "Iran offers potential 45-day ceasefire with U.S. mediated by Pakistan",
-          "relevance": "Pakistan actively mediating ceasefire; diplomatic channels functional through third-party intermediary"
+          "relevance": "Doctrine shift toward nuclear signalling as routine policy tool"
         },
         {
           "date": "2026-04-07",
-          "source": "Freerepublic.com",
-          "headline": "Pakistan PM asks Trump to extend Iran deadline by 2 weeks, calls on Tehran to open strait during that period",
-          "relevance": "Direct diplomatic communication between Pakistan and Trump; channels operational but reactive to deadline pressure"
+          "source": "Just The News",
+          "headline": "Taiwan Intelligence: Xi Jinping Purges 983,000 Officials Ahead of 2027 Taiwan Deadline",
+          "relevance": "Xi eliminates dissent ahead of explicit nuclear deadline; demonstrates nuclear timeline binding decision-making"
         },
         {
-          "date": "2026-03-31",
-          "source": "American Enterprise Institute",
-          "headline": "China-Pakistan Joint Peace Plan for Iran War Aims to Project Regional Influence",
-          "relevance": "Multilateral diplomatic initiative attempted; channels exist but ineffectual in stopping conflict escalation"
-        }
-      ]
-    },
-    {
-      "variable": "netanyahuLegalJeopardy",
-      "current_assessment": "Sustained: ICC arrest warrant maintained despite Israeli legal challenge",
-      "proposed_direction": "hold",
-      "confidence": "medium",
-      "rationale": "ICC warrant remains in effect and unresolved; Netanyahu continues to operate despite legal jeopardy but no evidence of warrant enforcement or escalation of legal pressure. Status quo maintained with Netanyahu operating around constraint but constraint itself unchanged.",
-      "evidence_chain": [
+          "date": "2026-04-01",
+          "source": "CNN",
+          "headline": "China secretly expanding nuclear weapons infrastructure amid US-Israeli Iran operations",
+          "relevance": "Secret expansion demonstrates active nuclear escalation in response to Iran war dynamics"
+        },
         {
-          "date": "2025-12-16",
-          "source": "The Times of Israel",
-          "headline": "ICC Maintains Netanyahu Arrest Warrant Despite Israeli Challenge",
-          "relevance": "Warrant is sustained institutional mechanism; no evidence of resolution or escalation"
+          "date": "2026-04-06",
+          "source": "American Nuclear Society",
+          "headline": "Israeli Strikes Hit Iranian Nuclear Sites Including Ardakan Yellowcake Facility",
+          "relevance": "Israel nuclear-focused strikes directly trigger retaliation signalling from Iran and allies"
         }
       ]
     },
     {
       "variable": "iranRegimeCohesion",
-      "current_assessment": "Strained: IRGC intelligence chief killed in strikes; regime messaging on leadership continuity suggests internal vulnerability",
+      "current_assessment": "New Supreme Leader Mojtaba Khamenei elected/coerced into power (March 2026). Regime continues military messaging but faces international isolation and Israeli strikes on nuclear infrastructure.",
       "proposed_direction": "decrease",
       "confidence": "medium",
-      "rationale": "IRGC intelligence chief Majid Khademi killed in Tehran strikes represents loss of senior security leadership and potential intelligence disruption. Mojtaba Khamenei's urgent messaging confirming new Supreme Leader alive suggests regime internal fragility and succession concerns. Defensive human chain mobilization indicates mobilization of population for existential defense.",
+      "rationale": "Three indicators of cohesion erosion: (1) IRGC intelligence required to coerce Assembly of Experts families to secure Mojtaba's election (March 8)—suggests internal resistance to succession; (2) New Supreme Leader must immediately assert military resistance doctrine (March 12) rather than establish political legitimacy—indicates weak institutional position; (3) Ceasefire negotiations accepted (April 8) suggest pragmatic forces constraining hardline military decisions, indicating internal debate.",
       "evidence_chain": [
         {
-          "date": "2026-04-06",
+          "date": "2026-03-08",
+          "source": "IranWire",
+          "headline": "Iran International reports IRGC intelligence threatened Assembly of Experts families to secure Mojtaba Khamenei election",
+          "relevance": "Coercion requirement indicates lack of consensus legitimacy for new Supreme Leader"
+        },
+        {
+          "date": "2026-03-12",
           "source": "Iran International",
-          "headline": "IRGC intelligence chief Majid Khademi killed in Tehran strikes",
-          "relevance": "Senior IRGC intelligence leadership decapitated; represents loss of organizational coherence and institutional knowledge"
+          "headline": "New Supreme Leader Mojtaba Khamenei issues first message calling for continued military resistance via Strait of Hormuz pressure",
+          "relevance": "Immediate military messaging suggests need to establish authority via hardline posture rather than institutional consensus"
         },
         {
           "date": "2026-04-08",
           "source": "Fortune",
           "headline": "Mojtaba Khamenei Confirms Iran's New Supreme Leader Alive After Ceasefire Deal",
-          "relevance": "Urgent messaging confirming leadership alive; suggests internal vulnerability to rumors and succession concerns"
+          "relevance": "Ceasefire acceptance indicates pragmatic internal forces constraining pure military escalation"
+        }
+      ]
+    },
+    {
+      "variable": "congressConstraint",
+      "current_assessment": "Trump faces record high impeachment odds (April 9); House Democrat impeachment push over Iran war conduct (April 6). Constraint level rising.",
+      "proposed_direction": "increase",
+      "confidence": "high",
+      "rationale": "Congressional accountability mechanisms activating against Trump war authority: Newsweek reports impeachment odds at record high (April 9) amid Iran war threats; House Democrats announce formal impeachment push over Pete Hegseth Iran war conduct (April 6); approval rating drops to 42.9% (April 9). Multiple constraint vectors (impeachment threat, leadership criticism, public opposition) converging simultaneously—Congress moving from passive to active constraint.",
+      "evidence_chain": [
+        {
+          "date": "2026-04-09",
+          "source": "Newsweek",
+          "headline": "Trump impeachment odds hit record high amid Iran war threats, approval rating at 42.9%",
+          "relevance": "Record-high impeachment odds represent institutional activation of constitutional constraint"
+        },
+        {
+          "date": "2026-04-06",
+          "source": "Axios",
+          "headline": "House Democrat announces impeachment push against Pete Hegseth over Iran war conduct",
+          "relevance": "Formal impeachment announcement by House Democrats indicates institutional mechanism engagement"
         },
         {
           "date": "2026-04-07",
-          "source": "CBS News",
-          "headline": "Iran forms human chains to protect power plants ahead of Trump deadline",
-          "relevance": "Population mobilization for critical infrastructure defense; indicates regime sees internal stability as threatened"
+          "source": "Pew Research Center",
+          "headline": "Negative views of Israel, Netanyahu continue to rise among Americans – especially young people",
+          "relevance": "Public opinion erosion (especially youth) constrains Trump's political capital for continued Iran war"
         }
       ]
     }
   ],
-  "no_change_assessment": "Narendra Modi, Vladimir Putin, Kim Jong-un, Volodymyr Zelensky, Recep Tayyip Erdogan, and Mohammed bin Salman have insufficient sustained pattern evidence meeting thresholds. Modi's single survival-focused declaration lacks supporting incidents. Erdogan and Putin do not appear in sufficient recent evidence (2+ weeks). Zelensky NABU grain corruption finding is too recent and singular. Kim Jong-un absent from current conflict evidence. MBS appears in oil-related analysis but lacks personal behavioral pattern evidence in accumulated history.",
-  "generated_at": "2026-04-08T20:12:32.122Z"
+  "no_change_assessment": "Narendra Modi shows insufficient evidence for dimension changes—single declaration on nuclear blackmail (April 7) does not constitute sustained pattern. Vladimir Putin shows one accountability item (court sentencing of ICC leadership) insufficient to meet threshold. Volodymyr Zelensky shows one corruption exposure (April 3) insufficient to establish sustained accountability pattern change. Recep Tayyip Erdogan absent from recent record. Mohammed bin Salman absent from recent record. Kim Jong-un absent from recent record.",
+  "generated_at": "2026-04-09T01:29:41.727Z"
 }
