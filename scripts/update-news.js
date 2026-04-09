@@ -638,7 +638,7 @@ async function sendEmailDigest(allItems, liveVars, brentPrice, analysis) {
       method: 'POST',
       headers: { 'Content-Type':'application/json', 'Authorization':`Bearer ${RESEND_KEY}` },
       body: JSON.stringify({
-        from:    'AGRA <agra@accidentalgeopoliticaltracker.com>',
+        from:    'AGRA <onboarding@resend.dev>',
         to:      [NOTIFY_EMAIL],
         subject: `AGRA · ${highEsc.length} high-esc · ${leaderProposalCount} dim proposals · Brent ${brentPrice ? '$'+brentPrice.toFixed(0) : 'N/A'}`,
         html

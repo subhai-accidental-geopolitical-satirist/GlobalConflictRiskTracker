@@ -242,7 +242,7 @@ async function sendEmailDigest() {
 
   try {
     const payload = JSON.stringify({
-      from: 'Accidental Geopolitical Tracker <watch@accidentalgeopoliticaltracker.com>',
+      from: 'Accidental Geopolitical Tracker <onboarding@resend.dev>',
       to: ['subhaimtiaz@gmail.com'],
       subject: `Assessment Watch — ${lines.length > 3 ? 'Multiple Flags' : 'Review Required'} · ${new Date().toLocaleDateString('en-SG')}`,
       html
