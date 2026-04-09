@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-09T06:08:59.058Z",
+  "ts": "2026-04-09T16:50:57.949Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -8,19 +8,97 @@
     "claude": true
   },
   "live_variables": {
-    "oilPrice": 97,
-    "oilStress": 48,
-    "updatedAt": "2026-04-09T06:08:59.058Z"
+    "oilPrice": 96,
+    "oilStress": 45,
+    "updatedAt": "2026-04-09T16:50:57.949Z"
   },
   "items": [
     {
-      "headline": "Russia, China Veto UN Resolution on Strait of Hormuz, Citing Escalation Risk",
-      "summary": "UN Resolution Vetoed, Tensions Rise Over Key Shipping Lane Russia and China exercised their veto power at the United Nations Security Council on Tuesday, blocking a resolution that sought to reopen the Strait of Hormuz for international maritime traffic. The …",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-08-russia-china-veto-un-resolution-on-hormuz.html",
+      "headline": "Trump Bullish on Iran Deal, but Uncertainty Remains",
+      "summary": "President Donald Trump and his administration hailed a ceasefire with Iran on Wednesday morning—despite uncertainty about the terms and durability of the peace. “The United... Read More\nThe post Trump Bullish on Iran Deal, but Uncertainty Remains appeared fir…",
+      "source": "Daily Signal",
+      "url": "https://www.dailysignal.com/2026/04/08/trump-bullish-on-iran-deal-but-uncertainty-remains/",
       "bloc": "western",
       "date": "2026-04-08",
-      "datetime": "2026-04-08T06:00:00Z",
+      "datetime": "2026-04-08T16:34:35Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "How Pakistan managed to get the US and Iran to a ceasefire",
+      "summary": "Backchannel talks led by Pakistan result in temporary ceasefire after weeks of fighting.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/features/2026/4/8/how-pakistan-managed-to-get-the-us-and-iran-to-a-ceasefire",
+      "bloc": "regional",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T15:49:03Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Splinter: This Is Who We Are to the World",
+      "summary": "Genocide has never been a red line for the American government, whether it benefits us or not has been the key question ever since the days of Manifest Destiny.",
+      "source": "Jezebel",
+      "url": "https://www.jezebel.com/this-is-who-we-are-to-the-world",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T15:46:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran shuts Strait of Hormuz in retaliation for Israeli strikes on Hezbollah - report",
+      "summary": "Iran has once again closed the Strait of Hormuz, blocking oil tankers from transiting the waterway, in retaliation for Israeli strikes on Hezbollah, Islamic Revolutionary Guard Corps-tied outlet Fars News reported on Wednesday. Oil tankers attempting to trans…",
+      "source": "Freerepublic.com",
+      "url": "https://freerepublic.com/focus/f-news/4374116/posts",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T15:39:41Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,105 +118,27 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump Surrenders to Iran on ‘TACO Tuesday’",
-      "summary": "The Unvarnished Truth: This Is a Capitulation Let’s be blunt. In the last hours before his deadline expired, President Donald Trump announced a two-week ceasefire with Iran, framing it as a ‘two-way ceasefire’ [1]. But I believe this is not a diplomatic trium…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-08-trump-surrenders-to-iran-on-taco-tuesday.html",
+      "headline": "Is Strait of Hormuz Open Now? Strait of Hormuz Partially Reopens Under Fragile US-Iran Ceasefire",
+      "summary": "DUBAI, United Arab Emirates (AP) — The Strait of Hormuz, the narrow chokepoint that carries roughly one-fifth of the world's oil and liquefied natural gas, is no longer fully closed but remains heavily restricted as a two-week ceasefire between the United Sta…",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/strait-hormuz-open-now-strait-hormuz-partially-reopens-under-fragile-us-iran-ceasefire-1865790",
       "bloc": "western",
       "date": "2026-04-08",
-      "datetime": "2026-04-08T06:00:00Z",
+      "datetime": "2026-04-08T10:53:33Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Report: 75 Energy Assets Damaged in Gulf Region Conflicts",
-      "summary": "75 Energy Assets Damaged in Gulf Region Conflicts A new analysis indicates that 75 critical energy assets have been damaged or destroyed in hostilities across the Gulf region, according to a report cited by energy sector observers. The findings were released …",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-08-energy-assets-damaged-in-gulf-region-conflicts.html",
-      "bloc": "western",
-      "date": "2026-04-08",
-      "datetime": "2026-04-08T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Two-Week Ceasefire Declared in U.S.-Iran Standoff Following Pakistani Mediation",
-      "summary": "Introduction U.S. President Donald Trump announced a two-week suspension of planned U.S. airstrikes on Iran late Tuesday, April 7, just hours before a deadline he had set for Tehran to reopen the Strait of Hormuz. According to a post on his social media platf…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-08-ceasefire-declared-us-iran-following-pakistani-mediation.html",
-      "bloc": "western",
-      "date": "2026-04-08",
-      "datetime": "2026-04-08T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Israel backs temporary US-Iran ceasefire but says it does not include Lebanon",
-      "summary": "Israel’s statement contradicts an earlier announcement by Pakistan’s Prime Minister Shehbaz Sharif, who has acted as a mediator in the conflict.",
-      "source": "TheJournal.ie",
-      "url": "https://www.thejournal.ie/israel-backs-temporary-us-iran-ceasefire-but-says-it-does-not-include-lebanon-7006154-Apr2026/",
-      "bloc": "western",
-      "date": "2026-04-08",
-      "datetime": "2026-04-08T05:52:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -248,32 +248,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump's shipping waiver does not boost oil flows within US; fuel exports soar",
-      "summary": "Last month, Trump waived Jones Act limitations for 60 days starting March 17, hoping the move would help tame the ‌surge in fuel prices caused by the Iran war by increasing shipments from the US Gulf Coast to other coastal markets in the country",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/economy/logistics/trumps-shipping-waiver-does-not-boost-oil-flows-within-us-fuel-exports-soar/article70832823.ece",
-      "bloc": "western",
-      "date": "2026-04-07",
-      "datetime": "2026-04-07T04:54:53Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "Ambition will not counteract ambition",
       "summary": "I have no objection per se to invoking impeachment and the 25th Amendment in the context of Trump’s genocidal threats — telling the truth can be its own justification even without an immediate practical remedy, and the political context might change down the …",
       "source": "Lawyersgunsmoneyblog.com",
@@ -314,6 +288,31 @@
       "dimensions": [
         "survival",
         "accountability",
+        "narcissism"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "JD Vance Proves Irony Is Dead as He Calls Out “Preposterous” Behavior",
+      "summary": "On Wednesday, Vice President JD Vance declared that it would be “scandalous,” “preposterous,” and “unacceptable” to threaten the leadership of an allied nation—something President Trump has done multiple times in his second term. Vance was commenting on a fli…",
+      "source": "The New Republic",
+      "url": "https://newrepublic.com/post/208776/jd-vance-irony-dead-preposterous-behavior-hungary-speech",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T16:20:13Z",
+      "leaders": [
+        "Vladimir Putin"
+      ],
+      "watch_terms": [
+        "Putin Ukraine ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
         "narcissism"
       ],
       "variable_key": null,
@@ -395,6 +394,58 @@
       "_from": "newsapi"
     },
     {
+      "headline": "FTSE 100 Surges Nearly 3% to One-Month High on US-Iran Ceasefire Relief Rally",
+      "summary": "LONDON — The FTSE 100 index jumped sharply Wednesday, climbing more than 300 points or nearly 3% to trade around 10,666 as investors cheered a surprise two-week ceasefire between the United States and Iran that raised hopes for a partial reopening of the Stra…",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/ftse-100-surges-nearly-3-one-month-high-us-iran-ceasefire-relief-rally-1865803",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T13:25:37Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran ceasefire, Delta earnings, the Navy's retail woes and more in Morning Squawk",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/08/5-things-to-know-before-the-market-opens.html",
+      "bloc": "western",
+      "date": "2026-04-08",
+      "datetime": "2026-04-08T12:22:13Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "American Families Will Be Paying Price Of Iran War For Years To Come",
       "summary": "Whether the Iran War ends in two weeks or two months, global markets may not stabilize for years.",
       "source": "The Daily Caller",
@@ -428,58 +479,6 @@
       "bloc": "western",
       "date": "2026-04-07",
       "datetime": "2026-04-07T16:00:00Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "'Painful' interest rates are looming with the world facing a new wave of inflationary pressure, Harvard economist says",
-      "summary": "Kenneth Rogoff said the latest oil-price spike is adding to a host of inflationary pressures facing the global economy.",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/interest-rates-painful-iran-war-inflation-outlook-harvard-economist-2026-4",
-      "bloc": "western",
-      "date": "2026-04-07",
-      "datetime": "2026-04-07T15:20:38Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Australia Fuel Prices Ease Slightly to ~$2.40/L After Excise Cuts, But Diesel Soars Amid Iran War Fallout",
-      "summary": "SYDNEY — Australian fuel prices have begun to moderate in early April 2026 after the federal government's temporary halving of the fuel excise and an additional cut funded by GST revenue, yet they remain significantly higher than pre-conflict levels due to on…",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/australia-fuel-prices-ease-slightly-240-l-after-excise-cuts-diesel-soars-amid-iran-war-fallout-1865668",
-      "bloc": "western",
-      "date": "2026-04-07",
-      "datetime": "2026-04-07T11:14:33Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
