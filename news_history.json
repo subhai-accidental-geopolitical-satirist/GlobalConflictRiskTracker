@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-11T08:02:51.302Z",
+  "updated": "2026-04-11T14:07:32.884Z",
   "retention_days": 30,
   "items": [
     {
@@ -10010,7 +10010,175 @@
       "_from": "newsapi",
       "first_seen": "2026-04-11T08:02:51.302Z",
       "run_id": "2026-04-11T08:02"
+    },
+    {
+      "headline": "Israel blocks Spain from US-led center monitoring Gaza truce",
+      "summary": "Israel said on Friday it had blocked Spain from participating in the work of a U.S.-led centre established to help stabilise post-war Gaza following the ceasefire between Israel and Hamas.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/israel-blocks-spain-from-us-led-center-monitoring-gaza-truce-220882",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T13:47:11Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T14:07:32.884Z",
+      "run_id": "2026-04-11T14:07"
+    },
+    {
+      "headline": "Iran war: JD Vance hoping for 'positive' talks in Pakistan",
+      "summary": "Donald Trump has tasked his vice president JD Vance with shoring up a shaky ceasefire at the high-level talks with Iran in Islamabad. Iran has threatened to break the truce over Israel's strikes on Lebanon. DW has more. Israel and Hezbollah continue exchangin…",
+      "source": "DW (English)",
+      "url": "https://www.dw.com/en/iran-war-jd-vance-heads-to-pakistan-for-talks-with-tehran-over-fragile-ceasefire/live-76729523",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T13:41:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T14:07:32.884Z",
+      "run_id": "2026-04-11T14:07"
+    },
+    {
+      "headline": "‘Neither war nor peace’: What Gaza looks like six months into ‘ceasefire’",
+      "summary": "Following October 2025 agreement, attacks continue, aid is insufficient and regional conflicts deepen instability.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/4/10/neither-war-nor-peace-what-gaza-looks-like-six-months-into-ceasefire",
+      "bloc": "regional",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T13:17:37Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T14:07:32.884Z",
+      "run_id": "2026-04-11T14:07"
+    },
+    {
+      "headline": "'Fingers on trigger': Iran warns US, Israel against any ceasefire violation",
+      "summary": "Iran's highest operational command says the country's Armed Forces remain in a state of full readiness, with their \"fingers on the trigger,\" to respond to any violation of the two-week ceasefire by the enemies.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260410-presstv04.htm",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T14:07:32.884Z",
+      "run_id": "2026-04-11T14:07"
+    },
+    {
+      "headline": "No talks with US without Lebanon ceasefire and unfrozen assets: Qalibaf",
+      "summary": "Iranian Parliament Speaker Mohammad Baqer Qalibaf says a ceasefire in Lebanon and the release of Iran's blocked assets are requisite to the commencement of negotiations with the United States in the Pakistani capital of Islamabad.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260410-presstv05.htm",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T14:07:32.884Z",
+      "run_id": "2026-04-11T14:07"
+    },
+    {
+      "headline": "Dow Jones Surges Past 48,000 as Iran Ceasefire Sparks Massive Wall Street Rally",
+      "summary": "NEW YORK — The Dow Jones Industrial Average blasted through the 48,000 milestone Friday morning, climbing more than 280 points in early trading on April 10, 2026, as investors cheered the fragile U.S.-Iran ceasefire and anticipated lower energy prices and red…",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/dow-jones-surges-past-48000-iran-ceasefire-sparks-massive-wall-street-rally-1866072",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T13:32:46Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T14:07:32.884Z",
+      "run_id": "2026-04-11T14:07"
     }
   ],
-  "total_items_ever": 412
+  "total_items_ever": 418
 }
