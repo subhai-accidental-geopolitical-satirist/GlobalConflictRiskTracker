@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-11T05:22:00.894Z",
+  "ts": "2026-04-11T08:03:56.446Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 95,
     "oilStress": 45,
-    "updatedAt": "2026-04-11T05:22:00.894Z"
+    "updatedAt": "2026-04-11T08:03:56.446Z"
   },
   "items": [
     {
-      "headline": "Vance sets off to Pakistan to lead talks with Iran as war’s ceasefire remains shaky",
-      "summary": "President Donald Trump is tasking the member of his inner circle who has seemed to be the most reluctant defender of the conflict with Iran to now find a resolution to the war that began six weeks ago and stave off the US president's astonishing threat to wip…",
+      "headline": "US, Iran prepare for ceasefire talks as Netanyahu authorises negotiations with Lebanon",
+      "summary": "US and Iran prepare for ceasefire talks, while Israel engages Lebanon to address Hezbollah amidst ongoing regional tensions.",
       "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/vance-sets-off-to-pakistan-to-lead-talks-with-iran-as-wars-ceasefire-remains-shaky/article70846021.ece",
+      "url": "https://www.thehindubusinessline.com/news/world/us-iran-prepare-for-ceasefire-talks-as-netanyahu-authorises-negotiations-with-lebanon/article70846510.ece",
       "bloc": "western",
       "date": "2026-04-10",
-      "datetime": "2026-04-10T05:11:21Z",
+      "datetime": "2026-04-10T07:54:52Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Feature: Israel, God’s Chosen People – And Others",
-      "summary": "“The government of Spain will not applaud those who set the world on fire just because they show up with a bucket” – Pedro Sanchez, President of Spain (08/04/2026) Why do we read History? Why read Geography? What about Religion? All these subjects have fascin…",
-      "source": "Thechronicle.com.gh",
-      "url": "https://thechronicle.com.gh/feature-israel-gods-chosen-people-and-others/",
+      "headline": "Iran’s Other Front: The War Over the Internet",
+      "summary": "For a long time, the Iranian government has treated free internet access as a privilege that is extended by the state to those willing to carry its message and withheld from everyone else. Around four hours after Israeli and American strikes began, internet t…",
+      "source": "War on the Rocks",
+      "url": "https://warontherocks.com/2026/04/irans-other-front-the-war-over-the-internet/",
       "bloc": "western",
       "date": "2026-04-10",
-      "datetime": "2026-04-10T05:07:01Z",
+      "datetime": "2026-04-10T07:15:40Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,53 +66,79 @@
       "_from": "newsapi"
     },
     {
-      "headline": "How vulnerable is Ireland’s economy to global unrest and oil-price shocks?",
-      "summary": "Economists argue for targeted fuel supports and spending our taxation largesse on infrastructure to eliminate bottlenecks",
+      "headline": "Today in Germany: A roundup of the latest news on Friday",
+      "summary": "Flight attendants majorly disrupt Lufthansa operations as strike begins, cartel watchdog urges rapid fuel price cuts, asparagus season opens in Hesse and more news from around Germany on Friday, April 10th.",
+      "source": "The Local Germany",
+      "url": "https://www.thelocal.de/20260410/today-in-germany-a-roundup-of-the-latest-news-on-friday-119",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T06:34:01Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran Announces Acceptance of Bitcoin for Strait of Hormuz Transit Fees",
+      "summary": "Iran to Accept Bitcoin for Strait of Hormuz Transit as Ceasefire Takes Hold Iranian authorities announced on April 8, 2026, a new policy to accept Bitcoin for transit fees from commercial vessels passing through the Strait of Hormuz, according to a report fro…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-10-iran-to-accept-bitcoin-for-hormuz-transit.html",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump criticises Iran over continued blockade of Strait of Hormuz; oil prices rise again",
+      "summary": "Oil ‌prices climbed in early trade due to anxiety as tanker traffic through the strait remained largely frozen",
       "source": "The Irish Times",
-      "url": "https://www.irishtimes.com/business/2026/04/10/how-vulnerable-is-irelands-economy-to-global-unrest-and-oil-price-shocks/",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/04/10/trump-criticises-iran-over-continued-blockade-of-strait-of-hormuz-oil-prices-rise-again/",
       "bloc": "western",
       "date": "2026-04-10",
-      "datetime": "2026-04-10T05:00:00Z",
+      "datetime": "2026-04-10T06:05:08Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "M-East crisis: Calls grow for inclusion of Lebanon in peace deal",
-      "summary": "By Nkiruka Nnorom with agencies report More countries, including Australia, France, United Kingdom and Iran allies – Russia and Turkey, yesterday, joined in calling for the inclusion of Lebanon in the two-week ceasefire deal agreed by the United States and Ir…",
-      "source": "Vanguard",
-      "url": "https://www.vanguardngr.com/2026/04/m-east-crisis-calls-grow-for-inclusion-of-lebanon-in-peace-deal/",
-      "bloc": "western",
-      "date": "2026-04-10",
-      "datetime": "2026-04-10T04:10:20Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -177,32 +203,6 @@
       "bloc": "western",
       "date": "2026-04-09",
       "datetime": "2026-04-09T08:28:24Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Is Hormuz open or closed? Shiptracking data reveals true picture",
-      "summary": "Ship traffic through the Strait of Hormuz has remained at an effective standstill in the 24 hours since Iran conditionally lifted its blockade on the critical shipping lane, amid a fragile ceasefire with the US and Israel.",
-      "source": "ABC News (AU)",
-      "url": "https://www.abc.net.au/news/2026-04-09/is-the-strait-of-hormuz-open-oil-ships-iran-war/106542010",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T00:12:18Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -498,6 +498,29 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Saudi Pipeline Attack Removes 700,000 Barrels Daily from Oil Exports",
+      "summary": "Introduction: Pipeline Damage Confirmed The Saudi energy ministry confirmed on Thursday that Iranian strikes on the kingdom’s East-West pipeline have reduced its export capacity by approximately 700,000 barrels per day (bpd). The ministry stated the attacks h…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-10-saudi-pipeline-attack-removes-700k-bpd-oil-exports.html",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T06:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Russia Expands Gasoline Export Ban, Faces Major Oil Outages Due to Drone Strikes",
       "summary": "The Russian government has expanded a ban on gasoline exports to include producers of the fuel, according to a report from Interfax news agency [1]. The ban, which now includes all gasoline producers, is scheduled to remain in effect until July 31. It expands…",
       "source": "Shtfplan.com",
@@ -563,29 +586,6 @@
       "variable_key": null,
       "event_type": "infrastructure_attack",
       "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Three killed in Russian strike on Odesa as Ukraine hits Russian oil sites",
-      "summary": "Russian drone strikes in Odesa claimed civilian lives including a toddler. Ukrainian drones retaliated targeting Russia's oil export ports.  The attacks damaged infrastructure and injured civilians. Ukraine faces ongoing challenges with air defense.  Russia c…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/defence/three-killed-in-russian-strike-on-odesa-as-ukraine-hits-russian-oil-sites/articleshow/130056296.cms",
-      "bloc": "regional",
-      "date": "2026-04-06",
-      "datetime": "2026-04-06T09:01:29Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 4,
       "persian_only": false,
       "_from": "newsapi"
     },

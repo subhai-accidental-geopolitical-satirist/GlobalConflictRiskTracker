@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-11T05:20:55.750Z",
+  "updated": "2026-04-11T08:02:51.302Z",
   "retention_days": 30,
   "items": [
     {
@@ -9845,7 +9845,172 @@
       "_from": "newsapi",
       "first_seen": "2026-04-11T05:20:55.750Z",
       "run_id": "2026-04-11T05:20"
+    },
+    {
+      "headline": "US, Iran prepare for ceasefire talks as Netanyahu authorises negotiations with Lebanon",
+      "summary": "US and Iran prepare for ceasefire talks, while Israel engages Lebanon to address Hezbollah amidst ongoing regional tensions.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/us-iran-prepare-for-ceasefire-talks-as-netanyahu-authorises-negotiations-with-lebanon/article70846510.ece",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T07:54:52Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T08:02:51.302Z",
+      "run_id": "2026-04-11T08:02"
+    },
+    {
+      "headline": "Iran’s Other Front: The War Over the Internet",
+      "summary": "For a long time, the Iranian government has treated free internet access as a privilege that is extended by the state to those willing to carry its message and withheld from everyone else. Around four hours after Israeli and American strikes began, internet t…",
+      "source": "War on the Rocks",
+      "url": "https://warontherocks.com/2026/04/irans-other-front-the-war-over-the-internet/",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T07:15:40Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T08:02:51.302Z",
+      "run_id": "2026-04-11T08:02"
+    },
+    {
+      "headline": "Today in Germany: A roundup of the latest news on Friday",
+      "summary": "Flight attendants majorly disrupt Lufthansa operations as strike begins, cartel watchdog urges rapid fuel price cuts, asparagus season opens in Hesse and more news from around Germany on Friday, April 10th.",
+      "source": "The Local Germany",
+      "url": "https://www.thelocal.de/20260410/today-in-germany-a-roundup-of-the-latest-news-on-friday-119",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T06:34:01Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T08:02:51.302Z",
+      "run_id": "2026-04-11T08:02"
+    },
+    {
+      "headline": "Iran Announces Acceptance of Bitcoin for Strait of Hormuz Transit Fees",
+      "summary": "Iran to Accept Bitcoin for Strait of Hormuz Transit as Ceasefire Takes Hold Iranian authorities announced on April 8, 2026, a new policy to accept Bitcoin for transit fees from commercial vessels passing through the Strait of Hormuz, according to a report fro…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-10-iran-to-accept-bitcoin-for-hormuz-transit.html",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T08:02:51.302Z",
+      "run_id": "2026-04-11T08:02"
+    },
+    {
+      "headline": "Trump criticises Iran over continued blockade of Strait of Hormuz; oil prices rise again",
+      "summary": "Oil ‌prices climbed in early trade due to anxiety as tanker traffic through the strait remained largely frozen",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/04/10/trump-criticises-iran-over-continued-blockade-of-strait-of-hormuz-oil-prices-rise-again/",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T06:05:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T08:02:51.302Z",
+      "run_id": "2026-04-11T08:02"
+    },
+    {
+      "headline": "Saudi Pipeline Attack Removes 700,000 Barrels Daily from Oil Exports",
+      "summary": "Introduction: Pipeline Damage Confirmed The Saudi energy ministry confirmed on Thursday that Iranian strikes on the kingdom’s East-West pipeline have reduced its export capacity by approximately 700,000 barrels per day (bpd). The ministry stated the attacks h…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-10-saudi-pipeline-attack-removes-700k-bpd-oil-exports.html",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T06:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T08:02:51.302Z",
+      "run_id": "2026-04-11T08:02"
     }
   ],
-  "total_items_ever": 406
+  "total_items_ever": 412
 }
