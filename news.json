@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-11T14:08:38.038Z",
+  "ts": "2026-04-11T19:53:27.824Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 95,
     "oilStress": 45,
-    "updatedAt": "2026-04-11T14:08:38.038Z"
+    "updatedAt": "2026-04-11T19:53:27.824Z"
   },
   "items": [
     {
-      "headline": "Israel blocks Spain from US-led center monitoring Gaza truce",
-      "summary": "Israel said on Friday it had blocked Spain from participating in the work of a U.S.-led centre established to help stabilise post-war Gaza following the ceasefire between Israel and Hamas.",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/israel-blocks-spain-from-us-led-center-monitoring-gaza-truce-220882",
+      "headline": "F-15 Pilot Rescue Or Failed Uranium Heist?",
+      "summary": "Some are suggesting that the rescue operation was the result of a botched uranium heist.",
+      "source": "The Daily Caller",
+      "url": "https://dailycaller.com/2026/04/10/f-15-pilot-rescue-or-failed-uranium-heist-iran/",
       "bloc": "western",
       "date": "2026-04-10",
-      "datetime": "2026-04-10T13:47:11Z",
+      "datetime": "2026-04-10T19:10:31Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran war: JD Vance hoping for 'positive' talks in Pakistan",
-      "summary": "Donald Trump has tasked his vice president JD Vance with shoring up a shaky ceasefire at the high-level talks with Iran in Islamabad. Iran has threatened to break the truce over Israel's strikes on Lebanon. DW has more. Israel and Hezbollah continue exchangin…",
-      "source": "DW (English)",
-      "url": "https://www.dw.com/en/iran-war-jd-vance-heads-to-pakistan-for-talks-with-tehran-over-fragile-ceasefire/live-76729523",
+      "headline": "Trump issues new 24 hour ultimatum to Iran as he threatens to use 'best weapons ever made'",
+      "summary": "Donald Trump issues a new 24 hour ultimatum to Iran as he threatens to use the 'best weapons ever made'",
+      "source": "LADbible",
+      "url": "https://www.ladbible.com/news/world-news/donald-trump-ultimatum-iran-war-world-news-210922-20260410",
       "bloc": "western",
       "date": "2026-04-10",
-      "datetime": "2026-04-10T13:41:00Z",
+      "datetime": "2026-04-10T17:48:02Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US ceasefire with Iran: What’s next? A former diplomat explains 3 possible scenarios",
+      "summary": "Both countries seem tired of the costs of war and ongoing risks, but successful negotiations will have to overcome deep distrust by both sides.",
+      "source": "The Conversation Africa",
+      "url": "https://theconversation.com/us-ceasefire-with-iran-whats-next-a-former-diplomat-explains-3-possible-scenarios-280232",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T16:31:23Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "‘Neither war nor peace’: What Gaza looks like six months into ‘ceasefire’",
-      "summary": "Following October 2025 agreement, attacks continue, aid is insufficient and regional conflicts deepen instability.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/4/10/neither-war-nor-peace-what-gaza-looks-like-six-months-into-ceasefire",
-      "bloc": "regional",
+      "headline": "Vatican Issues Rare Public Rebuke Of ‘Completely Untrue’ Media Reports About Relationship With Trump Admin",
+      "summary": "The Vatican rebuked reports depicting Pentagon officials having had a hostile meeting with a Catholic Church official in January as “completely untrue.”",
+      "source": "The Daily Caller",
+      "url": "https://dailycaller.com/2026/04/10/vatican-pentagon-reports-jd-vance-hostile-catholic/",
+      "bloc": "western",
       "date": "2026-04-10",
-      "datetime": "2026-04-10T13:17:37Z",
+      "datetime": "2026-04-10T15:52:04Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "'Fingers on trigger': Iran warns US, Israel against any ceasefire violation",
-      "summary": "Iran's highest operational command says the country's Armed Forces remain in a state of full readiness, with their \"fingers on the trigger,\" to respond to any violation of the two-week ceasefire by the enemies.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260410-presstv04.htm",
+      "headline": "Five of Trump's Most Recent Notable Quotes on the Iran Situation \"A whole civilization will die tonight\"",
+      "summary": "WASHINGTON — President Donald Trump issued a series of increasingly stark warnings to Iran this week as the United States sought to pressure Tehran into reopening the Strait of Hormuz and accepting a fragile ceasefire in the ongoing Middle East conflict, blen…",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/five-trumps-most-recent-notable-quotes-iran-situation-whole-civilization-will-die-tonight-1866098",
       "bloc": "western",
       "date": "2026-04-10",
-      "datetime": "2026-04-10T12:00:00Z",
+      "datetime": "2026-04-10T15:45:10Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,28 +144,28 @@
       "_from": "newsapi"
     },
     {
-      "headline": "No talks with US without Lebanon ceasefire and unfrozen assets: Qalibaf",
-      "summary": "Iranian Parliament Speaker Mohammad Baqer Qalibaf says a ceasefire in Lebanon and the release of Iran's blocked assets are requisite to the commencement of negotiations with the United States in the Pakistani capital of Islamabad.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260410-presstv05.htm",
+      "headline": "How serious is the Iranian sea mine threat in the Strait of Hormuz?",
+      "summary": "Iran claims to have littered a central shipping passage in the Strait of Hormuz with sea mines, in a move analysts say could be a \"coercive threat\" to maintain its grip on the crucial waterway.",
+      "source": "ABC News (AU)",
+      "url": "https://www.abc.net.au/news/2026-04-11/how-serious-is-iranian-sea-mine-threat-strait-of-hormuz/106550020",
       "bloc": "western",
       "date": "2026-04-10",
-      "datetime": "2026-04-10T12:00:00Z",
+      "datetime": "2026-04-10T18:56:16Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -218,32 +244,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The resurrection of the markets, the quarrel and OPEKEPE’s broken Wi-Fi, and the glorification of… indicted MPs, the invisible (and costly) hand in Hormuz",
-      "summary": "///\nThe post The resurrection of the markets, the quarrel and OPEKEPE’s broken Wi-Fi, and the glorification of… indicted MPs, the invisible (and costly) hand in Hormuz appeared first on ProtoThema English.",
-      "source": "Protothema.gr",
-      "url": "https://en.protothema.gr/2026/04/09/the-resurrection-of-the-markets-the-quarrel-and-opekepes-broken-wi-fi-and-the-glorification-of-indicted-mps-the-invisible-and-costly-hand-in-hormuz/",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T08:28:24Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -524,6 +524,29 @@
       "_from": "newsapi"
     },
     {
+      "headline": "The Emirates on the Tightrope",
+      "summary": "On Sunday, March 22, the United Arab Emirates’ foreign minister, Abdullah bin Zayed al Nahyan, maternal brother of UAE President Mohamed bin Zayed al Nahyan, put on a brave face. The evening prior, President Donald Trump declared that if the Strait of Hormuz …",
+      "source": "The New York Review of Books",
+      "url": "https://www.nybooks.com/online/2026/04/10/the-emirates-on-the-tightrope/",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T15:27:39Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Saudi Pipeline Attack Removes 700,000 Barrels Daily from Oil Exports",
       "summary": "Introduction: Pipeline Damage Confirmed The Saudi energy ministry confirmed on Thursday that Iranian strikes on the kingdom’s East-West pipeline have reduced its export capacity by approximately 700,000 barrels per day (bpd). The ministry stated the attacks h…",
       "source": "Naturalnews.com",
@@ -577,29 +600,6 @@
       "bloc": "western",
       "date": "2026-04-07",
       "datetime": "2026-04-07T08:10:59Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Ukraine Steps Up Drone Attacks on Russian Oil Infrastructure",
-      "summary": "The key Russian oil export terminal at Novorossiysk was on fire early on Monday following an overnight drone attack, as Ukraine intensifies strikes on Russia’s oil infrastructure to reduce its export capabilities amid surging oil prices. The area at the port …",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Steps-Up-Drone-Attacks-on-Russian-Oil-Infrastructure.html",
-      "bloc": "western",
-      "date": "2026-04-06",
-      "datetime": "2026-04-06T14:29:00Z",
       "leaders": [],
       "watch_terms": [
         "oil refinery port"

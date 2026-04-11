@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-11T14:07:32.884Z",
+  "updated": "2026-04-11T19:52:22.738Z",
   "retention_days": 30,
   "items": [
     {
@@ -10178,7 +10178,200 @@
       "_from": "newsapi",
       "first_seen": "2026-04-11T14:07:32.884Z",
       "run_id": "2026-04-11T14:07"
+    },
+    {
+      "headline": "F-15 Pilot Rescue Or Failed Uranium Heist?",
+      "summary": "Some are suggesting that the rescue operation was the result of a botched uranium heist.",
+      "source": "The Daily Caller",
+      "url": "https://dailycaller.com/2026/04/10/f-15-pilot-rescue-or-failed-uranium-heist-iran/",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T19:10:31Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T19:52:22.738Z",
+      "run_id": "2026-04-11T19:52"
+    },
+    {
+      "headline": "Trump issues new 24 hour ultimatum to Iran as he threatens to use 'best weapons ever made'",
+      "summary": "Donald Trump issues a new 24 hour ultimatum to Iran as he threatens to use the 'best weapons ever made'",
+      "source": "LADbible",
+      "url": "https://www.ladbible.com/news/world-news/donald-trump-ultimatum-iran-war-world-news-210922-20260410",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T17:48:02Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T19:52:22.738Z",
+      "run_id": "2026-04-11T19:52"
+    },
+    {
+      "headline": "US ceasefire with Iran: What’s next? A former diplomat explains 3 possible scenarios",
+      "summary": "Both countries seem tired of the costs of war and ongoing risks, but successful negotiations will have to overcome deep distrust by both sides.",
+      "source": "The Conversation Africa",
+      "url": "https://theconversation.com/us-ceasefire-with-iran-whats-next-a-former-diplomat-explains-3-possible-scenarios-280232",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T16:31:23Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T19:52:22.738Z",
+      "run_id": "2026-04-11T19:52"
+    },
+    {
+      "headline": "Vatican Issues Rare Public Rebuke Of ‘Completely Untrue’ Media Reports About Relationship With Trump Admin",
+      "summary": "The Vatican rebuked reports depicting Pentagon officials having had a hostile meeting with a Catholic Church official in January as “completely untrue.”",
+      "source": "The Daily Caller",
+      "url": "https://dailycaller.com/2026/04/10/vatican-pentagon-reports-jd-vance-hostile-catholic/",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T15:52:04Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T19:52:22.738Z",
+      "run_id": "2026-04-11T19:52"
+    },
+    {
+      "headline": "Five of Trump's Most Recent Notable Quotes on the Iran Situation \"A whole civilization will die tonight\"",
+      "summary": "WASHINGTON — President Donald Trump issued a series of increasingly stark warnings to Iran this week as the United States sought to pressure Tehran into reopening the Strait of Hormuz and accepting a fragile ceasefire in the ongoing Middle East conflict, blen…",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/five-trumps-most-recent-notable-quotes-iran-situation-whole-civilization-will-die-tonight-1866098",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T15:45:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T19:52:22.738Z",
+      "run_id": "2026-04-11T19:52"
+    },
+    {
+      "headline": "How serious is the Iranian sea mine threat in the Strait of Hormuz?",
+      "summary": "Iran claims to have littered a central shipping passage in the Strait of Hormuz with sea mines, in a move analysts say could be a \"coercive threat\" to maintain its grip on the crucial waterway.",
+      "source": "ABC News (AU)",
+      "url": "https://www.abc.net.au/news/2026-04-11/how-serious-is-iranian-sea-mine-threat-strait-of-hormuz/106550020",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T18:56:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T19:52:22.738Z",
+      "run_id": "2026-04-11T19:52"
+    },
+    {
+      "headline": "The Emirates on the Tightrope",
+      "summary": "On Sunday, March 22, the United Arab Emirates’ foreign minister, Abdullah bin Zayed al Nahyan, maternal brother of UAE President Mohamed bin Zayed al Nahyan, put on a brave face. The evening prior, President Donald Trump declared that if the Strait of Hormuz …",
+      "source": "The New York Review of Books",
+      "url": "https://www.nybooks.com/online/2026/04/10/the-emirates-on-the-tightrope/",
+      "bloc": "western",
+      "date": "2026-04-10",
+      "datetime": "2026-04-10T15:27:39Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-11T19:52:22.738Z",
+      "run_id": "2026-04-11T19:52"
     }
   ],
-  "total_items_ever": 418
+  "total_items_ever": 425
 }
