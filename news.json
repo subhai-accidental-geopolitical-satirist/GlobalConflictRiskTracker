@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-13T16:42:18.734Z",
+  "ts": "2026-04-13T21:11:41.472Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -8,19 +8,19 @@
     "claude": true
   },
   "live_variables": {
-    "oilPrice": 101,
-    "oilStress": 54,
-    "updatedAt": "2026-04-13T16:42:18.734Z"
+    "oilPrice": 98,
+    "oilStress": 49,
+    "updatedAt": "2026-04-13T21:11:41.472Z"
   },
   "items": [
     {
-      "headline": "How the Strait of Hormuz Blockade Handed China a Clean Energy Windfall",
-      "summary": "There is great uncertainty as to whether and to what extent the Strait of Hormuz is reopening the flow of global oil and gas trade against the backdrop of a fragile ceasefire. What is certain, however, is that the global energy sector will see far-reaching co…",
+      "headline": "How the Iran War Is Disrupting Gulf Economies: 5 Key Effects",
+      "summary": "On Wednesday, the United States and Iran agreed to a two-week ceasefire, pausing the 42-day military campaign by the U.S. and Israel against multiple Iranian military and civilian targets. The Pakistan-brokered deal is, however, already being severely tested:…",
       "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/How-the-Strait-of-Hormuz-Blockade-Handed-China-a-Clean-Energy-Windfall.html",
+      "url": "https://oilprice.com/Energy/Energy-General/How-the-Iran-War-Is-Disrupting-Gulf-Economies-5-Key-Effects.html",
       "bloc": "western",
       "date": "2026-04-12",
-      "datetime": "2026-04-12T15:00:00Z",
+      "datetime": "2026-04-12T21:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Strait of Hormuz Still Restricted Today: Fragile Ceasefire Leaves Vital Oil Route Near Standstill",
-      "summary": "DUBAI, United Arab Emirates — The Strait of Hormuz, the narrow chokepoint through which nearly one-fifth of global oil supplies normally flow, remained effectively restricted Sunday as a fragile two-week ceasefire between the United States and Iran failed to …",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/strait-hormuz-still-restricted-today-fragile-ceasefire-leaves-vital-oil-route-near-standstill-1866267",
+      "headline": "‘No other way’: Middle East prepares for more fighting as talks fail",
+      "summary": "Elsewhere in the Middle East, the negotiations' failure only seemed to guarantee more uncertainty.\nThe post ‘No other way’: Middle East prepares for more fighting as talks fail appeared first on Vanguard News.",
+      "source": "Vanguard",
+      "url": "https://www.vanguardngr.com/2026/04/no-other-way-middle-east-prepares-for-more-fighting-as-talks-fail/",
       "bloc": "western",
       "date": "2026-04-12",
-      "datetime": "2026-04-12T12:39:31Z",
+      "datetime": "2026-04-12T18:57:35Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "'Zero lessons earned': Iran FM says US maximalism blocked progress at Islamabad talks",
-      "summary": "Iran's foreign minister said the United States' \"maximalism, shifting goalposts, and blockade\" derailed what was just inches away from becoming the \"Islamabad MoU,\" as high-level talks between the two countries failed to produce a breakthrough after 21 hours …",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260412-presstv05.htm",
+      "headline": "Full transcript of \"Face the Nation with Margaret Brennan,\" April 12, 2026",
+      "summary": "On this \"Face the Nation with Margaret Brennan\" broadcast, Israeli Ambassador to the U.S. Michael Leiter and Democratic Sen. Mark Warner of Virginia join Margaret Brennan.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-04-12-2026/",
       "bloc": "western",
       "date": "2026-04-12",
-      "datetime": "2026-04-12T12:00:00Z",
+      "datetime": "2026-04-12T18:22:10Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran turned enemy's 'regime change' dream into 'change of governing regime in Hormuz'",
-      "summary": "Iranian government spokeswoman Fatemeh Mohajerani says the Islamic Republic has turned the enemy's \"regime change\" dream into a \"change in Iran's governing regime over the Strait of Hormuz.\"",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260412-presstv10.htm",
+      "headline": "Transcript: Israeli Ambassador Michael Leiter on \"Face the Nation with Margaret Brennan\"",
+      "summary": "The following is the transcript of the interview with Israeli Ambassador to the U.S. Michael Leiter that aired on \"Face the Nation with Margaret Brennan\" on April 12, 2026.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/michael-leiter-transcript-face-the-nation-04-12-2026/",
       "bloc": "western",
       "date": "2026-04-12",
-      "datetime": "2026-04-12T12:00:00Z",
+      "datetime": "2026-04-12T17:10:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,13 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran begins rebuilding oil facilities hit by US-Israeli strikes; targets 80% capacity in 2 months",
-      "summary": "Iran has launched reconstruction efforts at oil infrastructure sites immediately following strikes by the US and Israel, says a senior energy official.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260412-presstv11.htm",
-      "bloc": "western",
+      "headline": "Iranian authorities remain defiant, urge supporters to stay in streets",
+      "summary": "Mohammad Bagher Ghalibaf, who led Iran's delegation in talks to end the war, said US delegation 'failed to gain trust'.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/4/12/iranian-authorities-remain-defiant-urge-supporters-to-stay-in",
+      "bloc": "regional",
       "date": "2026-04-12",
-      "datetime": "2026-04-12T12:00:00Z",
+      "datetime": "2026-04-12T16:51:29Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -139,7 +139,7 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
-      "escalation": 3,
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -395,6 +395,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Here’s how a U.S. naval blockade of the Strait of Hormuz could work. ‘This is a big task, and it’s a big gamble’",
+      "summary": "\"It puts economic pressure on Tehran without destroying the oil facilities, which you should want to preserve into the future.\"",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/04/12/us-naval-blockade-strait-of-hormuz-number-warships-oil-exports-iran-economy/",
+      "bloc": "western",
+      "date": "2026-04-12",
+      "datetime": "2026-04-12T17:14:13Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Markets’ dilemma: Trust the bark or wag of oil prices",
       "summary": "Split signals. Surge in physical oil prices alongside a steep fall in futures underscores a stark divergence, with the gap between the two widening to historic highs",
       "source": "BusinessLine",
@@ -480,32 +506,6 @@
       "bloc": "western",
       "date": "2026-04-09",
       "datetime": "2026-04-09T16:30:49Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran Conflict Disrupts Critical Helium, Aluminum Supplies with Global Economic Impact",
-      "summary": "A military conflict between the United States, Israel, and Iran is causing severe disruptions to global supplies of helium and aluminum, threatening semiconductor manufacturing, medical equipment production, and a wide range of consumer goods, according to in…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-09-iran-conflict-disrupts-critical-helium-aluminum-supplies.html",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T06:00:00Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
