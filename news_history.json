@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-15T06:22:11.143Z",
+  "updated": "2026-04-15T15:55:26.461Z",
   "retention_days": 30,
   "items": [
     {
@@ -12186,7 +12186,340 @@
       "_from": "newsapi",
       "first_seen": "2026-04-15T06:22:11.143Z",
       "run_id": "2026-04-15T06:22"
+    },
+    {
+      "headline": "Why is Trump making the global energy crisis worse?",
+      "summary": "The US has announced a naval blockade of Iran after inconclusive peace talks, further disrupting global energy trade Read Full Article at RT.com",
+      "source": "RT",
+      "url": "https://www.rt.com/news/638398-us-naval-blockade-iran/",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T14:57:04Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "'Talk Is Cheap': 100 Arrested at Sit-In Demanding Schumer, Gillibrand Vote No on More Arms for Israel",
+      "summary": "Whistleblower Chelsea Manning, MPower Change founder Linda Sarsour, and actor Hari Nef were three of around 100 people who were arrested outside the New York City offices of Senate Minority Leader Chuck Schumer and Sen. Kirsten Gillibrand on Monday after the …",
+      "source": "Common Dreams",
+      "url": "https://www.commondreams.org/news/anti-israel-protesters-arrested",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T14:30:07Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "Lebanon And Israel To Hold First Direct Diplomatic Talks In Decades In Washington",
+      "summary": "U.S. Secretary of State Marco Rubio will take part in the talks in Washington.",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/lebano-israel-hold-first-direct-diplomatic-talks-decades-washington_n_69de4d6ce4b0ceb9529728a8",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T14:27:05Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "Failed peace deal: The Iran war has inflicted a cascade of losses that may never be recovered",
+      "summary": "For a country that built the post-1945 rules-based order, the United States now needs to be rescued from its own war by the very nations it once lectured on governance and peace.",
+      "source": "The Conversation Africa",
+      "url": "https://theconversation.com/failed-peace-deal-the-iran-war-has-inflicted-a-cascade-of-losses-that-may-never-be-recovered-280313",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T13:59:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "Lebanon: Joint Foreign Ministers' Statement, 14 April 2026",
+      "summary": "Statement on Lebanon by the Foreign Ministers of Australia, Belgium, Croatia, Cyprus, Denmark, Finland, France, Greece, Iceland, Luxembourg, Malta, the Netherlands, Norway, Portugal, Slovenia, Spain, Sweden, and the United Kingdom.",
+      "source": "Www.gov.uk",
+      "url": "https://www.gov.uk/government/news/lebanon-joint-foreign-ministers-statement-14-april-2026",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T13:41:56Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "China defies Trump: Chinese tanker travels through Strait of Hormuz after Beijing declares US blockade 'dangerous and irresponsible'",
+      "summary": "A Chinese tanker under US sanctions passed though the Strait of Hormuz on Tuesday, defying Washington's naval blockade that began on Monday. After circling the area late on Monday and initially turning back, the 600ft long vessel passed through the waterway o…",
+      "source": "Freerepublic.com",
+      "url": "https://freerepublic.com/focus/f-backroom/4374869/posts",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T15:51:12Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "Trump deploys 10,000 troops, over 12 warships & more for Hormuz blockade; no ships cross in first 24 hours, says US Central Command",
+      "summary": "America has initiated a naval blockade around Iranian ports. Over ten thousand American personnel, warships, and aircraft are part of this operation. The mission aims to restrict ships going to and from Iranian ports. In the first day, no ships passed the blo…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/trump-deploys-10000-troops-over-12-warships-more-for-hormuz-blockade-no-ships-cross-in-first-24-hours-says-us-central-command/articleshow/130262658.cms",
+      "bloc": "regional",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T15:10:07Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "Iran-linked ships transit through Strait of Hormuz — in defiance of President Trump’s blockade",
+      "summary": "At least four Iran-linked ships, including a Chinese tanker, were seen transiting the Strait of Hormuz on Tuesday -- nearly 24 hours after President Trump's blockage came into effect, tracking data shows.",
+      "source": "New York Post",
+      "url": "https://nypost.com/2026/04/14/world-news/iran-linked-ships-transit-through-strait-of-hormuz-in-defiance-of-president-trumps-blockade/",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T14:21:40Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "Oil prices hit record high in March as refiners try to replace West Asian grades: IEA",
+      "summary": "Oil prices soared to a record $130 per barrel as refiners seek alternatives amid West Asian supply disruptions, IEA reports.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/commodities/oil-prices-hit-record-high-in-march-as-refiners-try-to-replace-west-asian-grades-iea/article70861484.ece",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T14:21:19Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "Oil Markets on Edge as U.S. Blockade Takes Effect",
+      "summary": "A US naval blockade on ships entering Iranian ports and coastal areas has come into effect, following failed peace talks between US and Iranian negotiators over the weekend. And it already poses a dilemma: risk attack from Iranian assets near the Strait of Ho…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Markets-on-Edge-as-US-Blockade-Takes-Effect.html",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T14:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "Tuesday: Hili dialogue",
+      "summary": "Welcome to Tuesday, April 14, 2026, and it’s International Laverbread Day. What’s that?, you ask. It turns out that it’s not bread at all but seaweed mush. From: Laverbread . . . is a food product made from laver, an edible seaweed (littoral alga) consumed ma…",
+      "source": "Whyevolutionistrue.com",
+      "url": "https://whyevolutionistrue.com/2026/04/14/tuesday-hili-dialogue-575/",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T11:45:06Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
+    },
+    {
+      "headline": "The Bromine Chokepoint: How Strife in the Middle East Could Halt Production of the World’s Memory Chips",
+      "summary": "The U.S.-Israeli war with Iran, now in an unstable ceasefire, has exposed a structural failure in the global semiconductor memory supply chain, and it is not the one analysts seem to be tracking. The story receiving attention is helium: Qatar’s Ras Laffan fac…",
+      "source": "War on the Rocks",
+      "url": "https://warontherocks.com/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T08:00:09Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-15T15:55:26.461Z",
+      "run_id": "2026-04-15T15:55"
     }
   ],
-  "total_items_ever": 504
+  "total_items_ever": 516
 }
