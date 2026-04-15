@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-15T15:56:31.668Z",
+  "ts": "2026-04-15T20:33:13.928Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -8,19 +8,19 @@
     "claude": true
   },
   "live_variables": {
-    "oilPrice": 96,
-    "oilStress": 46,
-    "updatedAt": "2026-04-15T15:56:31.668Z"
+    "oilPrice": 95,
+    "oilStress": 44,
+    "updatedAt": "2026-04-15T20:33:13.928Z"
   },
   "items": [
     {
-      "headline": "Why is Trump making the global energy crisis worse?",
-      "summary": "The US has announced a naval blockade of Iran after inconclusive peace talks, further disrupting global energy trade Read Full Article at RT.com",
-      "source": "RT",
-      "url": "https://www.rt.com/news/638398-us-naval-blockade-iran/",
+      "headline": "Trump Reports More to Netanyahu Than to the US on Iran War, Lawmaker Says",
+      "summary": "Netanyahu said that JD Vance updated him on Sunday “in detail, as this administration does every day.”…",
+      "source": "Truthout",
+      "url": "https://truthout.org/articles/trump-reports-more-to-netanyahu-than-to-the-us-on-iran-war-lawmaker-says/",
       "bloc": "western",
       "date": "2026-04-14",
-      "datetime": "2026-04-14T14:57:04Z",
+      "datetime": "2026-04-14T20:25:36Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "'Talk Is Cheap': 100 Arrested at Sit-In Demanding Schumer, Gillibrand Vote No on More Arms for Israel",
-      "summary": "Whistleblower Chelsea Manning, MPower Change founder Linda Sarsour, and actor Hari Nef were three of around 100 people who were arrested outside the New York City offices of Senate Minority Leader Chuck Schumer and Sen. Kirsten Gillibrand on Monday after the …",
-      "source": "Common Dreams",
-      "url": "https://www.commondreams.org/news/anti-israel-protesters-arrested",
-      "bloc": "western",
+      "headline": "Over-sold and under-delivered: Israel’s Netanyahu faces ceasefire backlash",
+      "summary": "Polls show Israeli public frustration over a showdown that did not fully defeat Iran.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/4/14/over-sold-and-under-delivered-israels-netanyahu-faces-ceasefire-backlash",
+      "bloc": "regional",
       "date": "2026-04-14",
-      "datetime": "2026-04-14T14:30:07Z",
+      "datetime": "2026-04-14T18:39:47Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Lebanon And Israel To Hold First Direct Diplomatic Talks In Decades In Washington",
-      "summary": "U.S. Secretary of State Marco Rubio will take part in the talks in Washington.",
-      "source": "HuffPost",
-      "url": "https://www.huffpost.com/entry/lebano-israel-hold-first-direct-diplomatic-talks-decades-washington_n_69de4d6ce4b0ceb9529728a8",
+      "headline": "Diplomats try to arrange second round of US-Iran talks during first full day of American blockade",
+      "summary": "Diplomats worked through backchannels to arrange a new round of talks between the United States and Iran. As Washington enacted its blockade of Iranian ports, Tehran threatened to strike targets across the war-weary region. Though last week’s ceasefire appear…",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/us-iran-war-lebanon-israel-talks-hormuz-14-april-2026-24655d40b2d968c39949e5ec2e01535b",
       "bloc": "western",
       "date": "2026-04-14",
-      "datetime": "2026-04-14T14:27:05Z",
+      "datetime": "2026-04-14T18:01:25Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Failed peace deal: The Iran war has inflicted a cascade of losses that may never be recovered",
-      "summary": "For a country that built the post-1945 rules-based order, the United States now needs to be rescued from its own war by the very nations it once lectured on governance and peace.",
+      "headline": "The Islamabad talks were doomed to failure – and Hormuz blockade has thrown another obstacle to any Iran-US deal",
+      "summary": "A lack of trust, failure to agree to the grounds on which discussion is taking place and Israel’s de facto veto provide insurmountable barriers.",
       "source": "The Conversation Africa",
-      "url": "https://theconversation.com/failed-peace-deal-the-iran-war-has-inflicted-a-cascade-of-losses-that-may-never-be-recovered-280313",
+      "url": "https://theconversation.com/the-islamabad-talks-were-doomed-to-failure-and-hormuz-blockade-has-thrown-another-obstacle-to-any-iran-us-deal-280553",
       "bloc": "western",
       "date": "2026-04-14",
-      "datetime": "2026-04-14T13:59:16Z",
+      "datetime": "2026-04-14T17:21:39Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,27 +118,105 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Lebanon: Joint Foreign Ministers' Statement, 14 April 2026",
-      "summary": "Statement on Lebanon by the Foreign Ministers of Australia, Belgium, Croatia, Cyprus, Denmark, Finland, France, Greece, Iceland, Luxembourg, Malta, the Netherlands, Norway, Portugal, Slovenia, Spain, Sweden, and the United Kingdom.",
-      "source": "Www.gov.uk",
-      "url": "https://www.gov.uk/government/news/lebanon-joint-foreign-ministers-statement-14-april-2026",
+      "headline": "Chinese oil tanker breaks US blockade in Strait of Hormuz",
+      "summary": "World leaders say that the U.S. blockade will only deepen economic woes worldwide.",
+      "source": "Salon",
+      "url": "https://www.salon.com/2026/04/14/chinese-oil-tanker-breaks-us-blockade-in-strait-of-hormuz/",
       "bloc": "western",
       "date": "2026-04-14",
-      "datetime": "2026-04-14T13:41:56Z",
+      "datetime": "2026-04-14T20:25:08Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Rival Vessel Passes Through Strait of Hormuz Despite Trump’s Blockade",
+      "summary": "A vessel owned by China passed through the Strait of Hormuz in spite of the blockade by the United States Navy under orders of President Donald Trump. The sanctioned Chinese-owned oil and chemical tanker Rich Starry successfully transited the vital waterway o…",
+      "source": "Shtfplan.com",
+      "url": "https://www.shtfplan.com/headline-news/rival-vessel-passes-through-strait-of-hormuz-despite-trumps-blockade",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T20:00:03Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Pakistan proposes second round of U.S.-Iran talks as standoff deepens",
+      "summary": "Though last week's ceasefire appeared to hold, the showdown over the Strait of Hormuz risked reigniting hostilities and deepening the regional war's economic fallout.",
+      "source": "PBS",
+      "url": "https://www.pbs.org/newshour/world/pakistan-proposes-second-round-of-u-s-iran-talks-as-standoff-deepens",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T17:29:23Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran war: Strait of Hormuz traffic barely affected on first day of US blockade, data shows",
+      "summary": "US-Iran war news: Traffic through the Strait of Hormuz remained limited on the first full day of a U.S. blockade of Iranian ports, despite some vessels transiting. Announced by Donald Trump, the move has heightened uncertainty for global shipping, oil flows a…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-war-strait-of-hormuz-traffic-barely-affected-on-first-day-of-us-blockade-data-shows/articleshow/130264333.cms",
+      "bloc": "regional",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T17:21:51Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -151,110 +229,6 @@
       "bloc": "western",
       "date": "2026-04-14",
       "datetime": "2026-04-14T15:51:12Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump deploys 10,000 troops, over 12 warships & more for Hormuz blockade; no ships cross in first 24 hours, says US Central Command",
-      "summary": "America has initiated a naval blockade around Iranian ports. Over ten thousand American personnel, warships, and aircraft are part of this operation. The mission aims to restrict ships going to and from Iranian ports. In the first day, no ships passed the blo…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/defence/trump-deploys-10000-troops-over-12-warships-more-for-hormuz-blockade-no-ships-cross-in-first-24-hours-says-us-central-command/articleshow/130262658.cms",
-      "bloc": "regional",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T15:10:07Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran-linked ships transit through Strait of Hormuz — in defiance of President Trump’s blockade",
-      "summary": "At least four Iran-linked ships, including a Chinese tanker, were seen transiting the Strait of Hormuz on Tuesday -- nearly 24 hours after President Trump's blockage came into effect, tracking data shows.",
-      "source": "New York Post",
-      "url": "https://nypost.com/2026/04/14/world-news/iran-linked-ships-transit-through-strait-of-hormuz-in-defiance-of-president-trumps-blockade/",
-      "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T14:21:40Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Oil prices hit record high in March as refiners try to replace West Asian grades: IEA",
-      "summary": "Oil prices soared to a record $130 per barrel as refiners seek alternatives amid West Asian supply disruptions, IEA reports.",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/oil-prices-hit-record-high-in-march-as-refiners-try-to-replace-west-asian-grades-iea/article70861484.ece",
-      "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T14:21:19Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Oil Markets on Edge as U.S. Blockade Takes Effect",
-      "summary": "A US naval blockade on ships entering Iranian ports and coastal areas has come into effect, following failed peace talks between US and Iranian negotiators over the weekend. And it already poses a dilemma: risk attack from Iranian assets near the Strait of Ho…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Oil-Markets-on-Edge-as-US-Blockade-Takes-Effect.html",
-      "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T14:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -391,6 +365,31 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump squeezed between Israel and Turkey as Netanyahu, Erdogan escalate feud",
+      "summary": "Israel-Turkey tensions escalate sharply as Netanyahu and Erdogan clash over Gaza, Iran and regional influence, creating a diplomatic challenge for Trump.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/world/trump-squeezed-between-israel-turkey-netanyahu-erdogan-escalate-feud",
+      "bloc": "western",
+      "date": "2026-04-14",
+      "datetime": "2026-04-14T16:03:10Z",
+      "leaders": [
+        "Recep Tayyip Erdogan"
+      ],
+      "watch_terms": [
+        "Erdogan Turkey Iran"
+      ],
+      "dimensions": [
+        "survival",
+        "values",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
