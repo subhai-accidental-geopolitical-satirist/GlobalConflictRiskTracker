@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-16T16:58:25.613Z",
+  "ts": "2026-04-16T20:12:43.381Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -8,19 +8,19 @@
     "claude": true
   },
   "live_variables": {
-    "oilPrice": 99,
-    "oilStress": 51,
-    "updatedAt": "2026-04-16T16:58:25.613Z"
+    "oilPrice": 98,
+    "oilStress": 49,
+    "updatedAt": "2026-04-16T20:12:43.381Z"
   },
   "items": [
     {
-      "headline": "U.S.-Britain political ties under significant strain with King Charles's state visit looming",
-      "summary": "British Finance Minister Rachel Reeves was not backing away from her criticism of the Iran war as \"folly,\" even as she prepared to meet Treasury Secretary Scott Bessent and other U.S. officials in Washington on Wednesday.",
-      "source": "CBC News",
-      "url": "https://www.cbc.ca/news/world/us-uk-tensions-charles-visit-9.7164234",
+      "headline": "Senate again votes against ending Iran war, but tougher votes are coming",
+      "summary": "It marked the beginning of a new phase in Democrats' pressure campaign in Congress to pull U.S. forces from the Middle East war.",
+      "source": "Roanoke Times",
+      "url": "https://roanoke.com/news/nation-world/government-politics/article_8709d35c-dbe6-56e1-bdde-7a6ea72644f4.html",
       "bloc": "western",
       "date": "2026-04-15",
-      "datetime": "2026-04-15T14:23:08Z",
+      "datetime": "2026-04-15T19:15:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran: Hundreds of thousands of jobs lost due to war",
-      "summary": "After six weeks of war, job losses are growing in Iran. Destroyed industrial facilities have brought production in many sectors to a standstill, hitting Iranian workers particularly hard.",
+      "headline": "Pakistani Delegation Arrives In Tehran In Move To Ease Tensions And Arrange More U.S.-Iran Talks",
+      "summary": "Meanwhile, U.S. Treasury Secretary Scott Bessent warned that the U.S. will ramp up its infliction of economic pain on Iran.",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/pakistani-delegation-arrives-tehran-move-ease-tensions-arrange-more-us-iran-talks_n_69dfd7e1e4b0f26bda635c20",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T18:31:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Can Trump get a better Iran deal than Obama?",
+      "summary": "The 2015 Iran deal curbed Tehran's nuclear program until the US pulled out. After years of failed diplomacy and 40 days of war, talks are back on. Donald Trump has said he can strike a \"better\" deal than Barack Obama.",
       "source": "DW (English)",
-      "url": "https://www.dw.com/en/iran-hundreds-of-thousands-of-jobs-lost-due-to-war/a-76794860",
+      "url": "https://www.dw.com/en/can-trump-get-a-better-iran-deal-than-obama/a-76798388",
       "bloc": "western",
       "date": "2026-04-15",
-      "datetime": "2026-04-15T14:07:00Z",
+      "datetime": "2026-04-15T17:46:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran sees hundreds of thousands of jobs lost due to war",
-      "summary": "After six weeks of war, job losses are growing in Iran. Destroyed industrial facilities have brought production in many sectors to a standstill, hitting Iranian workers particularly hard. More than 93 million people in Iran are living in the shadow of a war t…",
-      "source": "DW (English)",
-      "url": "https://www.dw.com/en/iran-sees-hundreds-of-thousands-of-jobs-lost-due-to-war/a-76794860",
+      "headline": "S&P 500 hits new all-time high as investors shrug off Iran war oil price spike",
+      "summary": "The S&P 500 hit a new all-time high Wednesday, a remarkable turnaround for stocks while the war with Iran drives up energy prices and cuts into global growth.",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/business/markets/sp-500-hits-new-high-iran-war-rcna331900",
       "bloc": "western",
       "date": "2026-04-15",
-      "datetime": "2026-04-15T14:07:00Z",
+      "datetime": "2026-04-15T17:37:41Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,65 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Joint Statement from Finance Ministers on the Middle East: 15 April 2026",
-      "summary": "Joint statement from the Finance Ministers of the United Kingdom, Australia, Japan, Sweden, Netherlands, Finland, Spain, Norway, Republic of Ireland, Poland and New Zealand on the Middle East.",
-      "source": "Www.gov.uk",
-      "url": "https://www.gov.uk/government/news/joint-statement-from-finance-ministers-on-the-middle-east-15-april-2026",
-      "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T13:12:49Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Oil steady as Hormuz shipping constraints counter US-Iran peace hopes",
-      "summary": "NEW YORK: Oil prices were little changed on Wednesday (Apr 15) after US President Donald Trump said the war with Iran could end soon, telling the world to watch out for an \"amazing two day",
-      "source": "CNA",
-      "url": "https://www.channelnewsasia.com/world/oil-prices-markets-stocks-trump-blockade-hormuz-iran-6058971",
-      "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T16:26:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "A few tankers and ships are going through the Strait of Hormuz. Here's the latest traffic",
-      "summary": "Tanker transits Tuesday were 90% below traffic before the U.S. and Israel attacked Iran, according to shipping deata.",
+      "headline": "U.S. and Iran could meet in Pakistan for peace talks next week: MS NOW",
+      "summary": "Oil tanker traffic through the Strait of Hormuz remains at a trickle as the U.S. enforces a retaliatory blockade of Iranian ports.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/15/a-few-tankers-and-ships-are-going-through-the-strait-of-hormuz-heres-the-latest-traffic.html",
+      "url": "https://www.cnbc.com/2026/04/15/trump-iran-war-peace-talks-pakistan.html",
       "bloc": "western",
       "date": "2026-04-15",
-      "datetime": "2026-04-15T15:18:16Z",
+      "datetime": "2026-04-15T19:09:48Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -170,13 +144,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "US blockade of Strait of Hormuz ratchets up tensions with China ahead of Trump visit to Beijing",
-      "summary": "An episode where a China-linked vessel appeared to challenge the blockade shows how explosive this situation could be.",
-      "source": "The Conversation Africa",
-      "url": "https://theconversation.com/us-blockade-of-strait-of-hormuz-ratchets-up-tensions-with-china-ahead-of-trump-visit-to-beijing-280674",
+      "headline": "Chinese oil tanker’s retreat from the Strait of Hormuz shows how Trump’s blockade is working",
+      "summary": "The sanctioned Chinese oil tanker that appeared to have crossed the Strait of Hormuz after the US blockade was implemented had been stopped and forced to dock in Iran, new tracking data shows.",
+      "source": "New York Post",
+      "url": "https://nypost.com/2026/04/15/world-news/chinese-tankers-retreat-from-the-strait-of-hormuz-shows-how-trumps-blockade-is-working/",
       "bloc": "western",
       "date": "2026-04-15",
-      "datetime": "2026-04-15T15:03:58Z",
+      "datetime": "2026-04-15T18:53:10Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +170,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump Signals Imminent Iran Talks as Hormuz Blockade Holds",
-      "summary": "US President Donald Trump suggested that talks with Iran could resume in a day or two, while the US military said that no ships slipped through a naval blockade targeting vessels headed to or from Iranian ports in the first 24 hours of the restrictive measure…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Trump-Signals-Imminent-Iran-Talks-as-Hormuz-Blockade-Holds.html",
-      "bloc": "western",
+      "headline": "Hormuz shipping muted as US blockade takes hold: Tracking data",
+      "summary": "A trickle of ships crossed the Strait of Hormuz Tuesday and Wednesday as a US blockade appeared to further curb traffic in the trade route already paralysed by Iranian forces, marine tracking data showed. Here are the latest developments in the strait, - US b…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/hormuz-shipping-muted-as-us-blockade-takes-hold-tracking-data/articleshow/130290045.cms",
+      "bloc": "regional",
       "date": "2026-04-15",
-      "datetime": "2026-04-15T14:00:00Z",
+      "datetime": "2026-04-15T17:20:14Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -213,6 +187,56 @@
       ],
       "dimensions": [
         "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Commercial Ships Transit Strait of Hormuz as U.S. Blockades Iran’s Ports - WSJ",
+      "summary": "Commercial Ships Transit Strait of Hormuz as U.S. Blockades Iran’s PortsWSJ Blockade completely halts Iran shipping, US military says. So why are some ships going through Strait of Hormuz?CNN Iran warns US naval blockade threatens ceasefireAl Jazeera US destr…",
+      "source": "Slashdot.org",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=181719892",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T17:13:11Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "GOP holds with Trump on Iran war, but cracks emerge as deadline nears",
+      "summary": "Senate Republicans block a fourth war powers resolution on Trump's Iran war, but questions grow as the 60-day congressional deadline approaches.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/politics/gop-holds-trump-iran-war-cracks-emerge-deadline-nears",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T18:54:03Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
         "impulsivity"
       ],
       "variable_key": null,
@@ -453,32 +477,6 @@
       "bloc": "western",
       "date": "2026-04-14",
       "datetime": "2026-04-14T06:00:00Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Goldman Sachs warning on consumers: Gas price spike will be felt",
-      "summary": "Consumers can't outrun higher gas prices forever.",
-      "source": "Yahoo Entertainment",
-      "url": "https://finance.yahoo.com/news/goldman-sachs-warning-on-consumers-gas-price-spike-will-be-felt-145418482.html",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T14:54:18Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
