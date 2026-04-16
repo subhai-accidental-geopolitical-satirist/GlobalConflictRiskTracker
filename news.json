@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-15T20:33:13.928Z",
+  "ts": "2026-04-16T06:24:55.353Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 95,
     "oilStress": 44,
-    "updatedAt": "2026-04-15T20:33:13.928Z"
+    "updatedAt": "2026-04-16T06:24:55.353Z"
   },
   "items": [
     {
-      "headline": "Trump Reports More to Netanyahu Than to the US on Iran War, Lawmaker Says",
-      "summary": "Netanyahu said that JD Vance updated him on Sunday “in detail, as this administration does every day.”…",
-      "source": "Truthout",
-      "url": "https://truthout.org/articles/trump-reports-more-to-netanyahu-than-to-the-us-on-iran-war-lawmaker-says/",
+      "headline": "China Criticizes Reported U.S. Proposals for Hormuz Blockade, Cites International Law Concerns",
+      "summary": "Beijing Denounces U.S. Plan as Threat to Global Trade China has condemned a reported United States plan to impose a naval blockade of Iranian ports in the Strait of Hormuz, labeling the action as ‘irresponsible and dangerous’ in an official statement from its…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-15-china-criticizes-reported-us-proposals-hormuz-blockade.html",
       "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T20:25:36Z",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Over-sold and under-delivered: Israel’s Netanyahu faces ceasefire backlash",
-      "summary": "Polls show Israeli public frustration over a showdown that did not fully defeat Iran.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/4/14/over-sold-and-under-delivered-israels-netanyahu-faces-ceasefire-backlash",
-      "bloc": "regional",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T18:39:47Z",
+      "headline": "Trump says Iran talks may resume as Israel and Lebanon open direct negotiations",
+      "summary": "Trump this morning told Fox News that the war with Iran is ‘very close to over’.",
+      "source": "TheJournal.ie",
+      "url": "https://www.thejournal.ie/trump-says-iran-talks-may-resume-as-israel-and-lebanon-open-direct-negotiations-7013094-Apr2026/",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T05:52:26Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Diplomats try to arrange second round of US-Iran talks during first full day of American blockade",
-      "summary": "Diplomats worked through backchannels to arrange a new round of talks between the United States and Iran. As Washington enacted its blockade of Iranian ports, Tehran threatened to strike targets across the war-weary region. Though last week’s ceasefire appear…",
-      "source": "Associated Press",
-      "url": "https://apnews.com/article/us-iran-war-lebanon-israel-talks-hormuz-14-april-2026-24655d40b2d968c39949e5ec2e01535b",
+      "headline": "Russian Philosopher Alexander Dugin Offers a Brilliant Analysis of Today’s World Crisis",
+      "summary": "…\nThe post Russian Philosopher Alexander Dugin Offers a Brilliant Analysis of Today’s World Crisis appeared first on Global Research.",
+      "source": "Substack.com",
+      "url": "https://montanarcc.substack.com/p/russian-philosopher-alexander-dugin",
       "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T18:01:25Z",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T05:26:05Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "The Islamabad talks were doomed to failure – and Hormuz blockade has thrown another obstacle to any Iran-US deal",
-      "summary": "A lack of trust, failure to agree to the grounds on which discussion is taking place and Israel’s de facto veto provide insurmountable barriers.",
-      "source": "The Conversation Africa",
-      "url": "https://theconversation.com/the-islamabad-talks-were-doomed-to-failure-and-hormuz-blockade-has-thrown-another-obstacle-to-any-iran-us-deal-280553",
+      "headline": "US-Iran peace talks could resume within next two days, Trump says",
+      "summary": "Tehran says there is ‘no information’ about a second meeting with US negotiators",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/04/15/live-coverage-us-iran-war-peace-talks-donald-trump-oil-prices/",
       "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T17:21:39Z",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T05:24:05Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,13 +118,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Chinese oil tanker breaks US blockade in Strait of Hormuz",
-      "summary": "World leaders say that the U.S. blockade will only deepen economic woes worldwide.",
-      "source": "Salon",
-      "url": "https://www.salon.com/2026/04/14/chinese-oil-tanker-breaks-us-blockade-in-strait-of-hormuz/",
+      "headline": "US shuts down Iran’s maritime trade despite optimism for more talks",
+      "summary": "More vessels are being turned back under the US blockade on Iranian ports, including a US-sanctioned and Chinese-owned tanker Rich Starry that was making its way back to the Strait of Hormuz after exiting the Persian Gulf",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/us-shuts-down-irans-maritime-trade-despite-optimism-for-more-talks/article70863863.ece",
       "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T20:25:08Z",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T05:02:26Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Saudi Arabia urges U.S. to lift Hormuz blockade amid fears of escalation in Bab al-Mandab",
+      "summary": "Saudi officials urge the U.S. to lift its naval blockade of the Strait of Hormuz and resume negotiations with Iran. Riyadh fears Iran could retaliate by closing the Bab al-Mandab Strait (via Houthi allies), disrupting Saudi oil exports through the Red Sea. St…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-15-saudi-arabia-urges-us-to-lift-hormuz-blockade.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -139,70 +165,18 @@
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
-      "escalation": 2,
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Rival Vessel Passes Through Strait of Hormuz Despite Trump’s Blockade",
-      "summary": "A vessel owned by China passed through the Strait of Hormuz in spite of the blockade by the United States Navy under orders of President Donald Trump. The sanctioned Chinese-owned oil and chemical tanker Rich Starry successfully transited the vital waterway o…",
-      "source": "Shtfplan.com",
-      "url": "https://www.shtfplan.com/headline-news/rival-vessel-passes-through-strait-of-hormuz-despite-trumps-blockade",
-      "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T20:00:03Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Pakistan proposes second round of U.S.-Iran talks as standoff deepens",
-      "summary": "Though last week's ceasefire appeared to hold, the showdown over the Strait of Hormuz risked reigniting hostilities and deepening the regional war's economic fallout.",
-      "source": "PBS",
-      "url": "https://www.pbs.org/newshour/world/pakistan-proposes-second-round-of-u-s-iran-talks-as-standoff-deepens",
-      "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T17:29:23Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran war: Strait of Hormuz traffic barely affected on first day of US blockade, data shows",
-      "summary": "US-Iran war news: Traffic through the Strait of Hormuz remained limited on the first full day of a U.S. blockade of Iranian ports, despite some vessels transiting. Announced by Donald Trump, the move has heightened uncertainty for global shipping, oil flows a…",
+      "headline": "Oil tankers transiting Strait of Hormuz since start of Iran war",
+      "summary": "Oil tankers are successfully transiting the Strait of Hormuz. Vessels from various nations are carrying crude oil and refined products to destinations including Vietnam, Malaysia, China, India, Pakistan, and Thailand. These movements occur despite ongoing ten…",
       "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-war-strait-of-hormuz-traffic-barely-affected-on-first-day-of-us-blockade-data-shows/articleshow/130264333.cms",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/oil-tankers-transiting-strait-of-hormuz-since-start-of-iran-war/articleshow/130272642.cms",
       "bloc": "regional",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T17:21:51Z",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T04:15:12Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -222,13 +196,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "China defies Trump: Chinese tanker travels through Strait of Hormuz after Beijing declares US blockade 'dangerous and irresponsible'",
-      "summary": "A Chinese tanker under US sanctions passed though the Strait of Hormuz on Tuesday, defying Washington's naval blockade that began on Monday. After circling the area late on Monday and initially turning back, the 600ft long vessel passed through the waterway o…",
+      "headline": "U.S. Blockade of Hormuz Holds Firm Under Pressure",
+      "summary": "The U.S. blockade of the Strait of Hormuz appears to have passed its first real test, with the U.S. successfully turning back all vessels that attempted to break through. Shipping data on Wednesday showed the Rich Starry, a Chinese-owned medium-range tanker, …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Blockade-of-Hormuz-Holds-Firm-Under-Pressure.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T03:02:39Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US destroyer interdicts two oil tankers attempting to leave Iran, official says",
+      "summary": "A US destroyer interdicted two oil tankers attempting to leave Iran on Tuesday, a day after US President Donald Trump's blockade went into effect, and instructed them to turn around, a US official said, speaking on condition of anonymity. The ships had left C…",
       "source": "Freerepublic.com",
-      "url": "https://freerepublic.com/focus/f-backroom/4374869/posts",
+      "url": "https://freerepublic.com/focus/f-news/4374966/posts",
       "bloc": "western",
-      "date": "2026-04-14",
-      "datetime": "2026-04-14T15:51:12Z",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T02:30:57Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -240,31 +240,6 @@
       "dimensions": [
         "survival",
         "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "JD Vance Proves Irony Is Dead as He Calls Out “Preposterous” Behavior",
-      "summary": "On Wednesday, Vice President JD Vance declared that it would be “scandalous,” “preposterous,” and “unacceptable” to threaten the leadership of an allied nation—something President Trump has done multiple times in his second term. Vance was commenting on a fli…",
-      "source": "The New Republic",
-      "url": "https://newrepublic.com/post/208776/jd-vance-irony-dead-preposterous-behavior-hungary-speech",
-      "bloc": "western",
-      "date": "2026-04-08",
-      "datetime": "2026-04-08T16:20:13Z",
-      "leaders": [
-        "Vladimir Putin"
-      ],
-      "watch_terms": [
-        "Putin Ukraine ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "narcissism"
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
@@ -394,6 +369,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "The Coming Oil Collision: Why Paper Prices Are a Dangerous Illusion",
+      "summary": "You Can Only Paper Over Physical Scarcity For So Long… I’m watching the numbers flicker on the screen — Brent crude at $92, WTI hovering near $97 — and I feel a profound sense of dread. This isn’t a market; it’s a meticulously crafted fiction. We are being li…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-15-coming-oil-collision-paper-costs-dangerous-illusion.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T06:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Tuesday: Hili dialogue",
       "summary": "Welcome to Tuesday, April 14, 2026, and it’s International Laverbread Day. What’s that?, you ask. It turns out that it’s not bread at all but seaweed mush. From: Laverbread . . . is a food product made from laver, an edible seaweed (littoral alga) consumed ma…",
       "source": "Whyevolutionistrue.com",
@@ -498,25 +499,25 @@
       "_from": "newsapi"
     },
     {
-      "headline": "How Pakistan managed to get the US and Iran to a ceasefire",
-      "summary": "Backchannel talks led by Pakistan result in temporary ceasefire after weeks of fighting.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/features/2026/4/8/how-pakistan-managed-to-get-the-us-and-iran-to-a-ceasefire",
-      "bloc": "regional",
-      "date": "2026-04-08",
-      "datetime": "2026-04-08T15:49:03Z",
+      "headline": "Trump Declares ‘Decisive’ Victory, but Who Really Won the Iran War?",
+      "summary": "If the US accepts Iran’s 10 demands, Trump reportedly has, including a toll booth, Iran will have won. Trump’s Statement Truth Social: The United States will work closely with Iran, which we have determined has gone through what will be a very productive Regi…",
+      "source": "Activistpost.com",
+      "url": "https://www.activistpost.com/trump-declares-decisive-victory-but-who-really-won-the-iran-war/",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T00:02:00Z",
       "leaders": [
-        "Donald J. Trump",
-        "Mojtaba Khamenei"
+        "Vladimir Putin",
+        "Donald J. Trump"
       ],
       "watch_terms": [
-        "Iran US diplomacy"
+        "arms control New"
       ],
       "dimensions": [
-        "values",
-        "survival"
+        "accountability",
+        "values"
       ],
-      "variable_key": "diplomaticChannels",
+      "variable_key": "armsControlArchitecture",
       "event_type": "static_variable",
       "escalation": 2,
       "persian_only": false,

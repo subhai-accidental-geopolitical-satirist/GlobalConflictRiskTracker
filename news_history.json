@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-15T20:32:08.701Z",
+  "updated": "2026-04-16T06:23:50.133Z",
   "retention_days": 30,
   "items": [
     {
@@ -12770,7 +12770,314 @@
       "_from": "newsapi",
       "first_seen": "2026-04-15T20:32:08.701Z",
       "run_id": "2026-04-15T20:32"
+    },
+    {
+      "headline": "China Criticizes Reported U.S. Proposals for Hormuz Blockade, Cites International Law Concerns",
+      "summary": "Beijing Denounces U.S. Plan as Threat to Global Trade China has condemned a reported United States plan to impose a naval blockade of Iranian ports in the Strait of Hormuz, labeling the action as ‘irresponsible and dangerous’ in an official statement from its…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-15-china-criticizes-reported-us-proposals-hormuz-blockade.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "Trump says Iran talks may resume as Israel and Lebanon open direct negotiations",
+      "summary": "Trump this morning told Fox News that the war with Iran is ‘very close to over’.",
+      "source": "TheJournal.ie",
+      "url": "https://www.thejournal.ie/trump-says-iran-talks-may-resume-as-israel-and-lebanon-open-direct-negotiations-7013094-Apr2026/",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T05:52:26Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "Russian Philosopher Alexander Dugin Offers a Brilliant Analysis of Today’s World Crisis",
+      "summary": "…\nThe post Russian Philosopher Alexander Dugin Offers a Brilliant Analysis of Today’s World Crisis appeared first on Global Research.",
+      "source": "Substack.com",
+      "url": "https://montanarcc.substack.com/p/russian-philosopher-alexander-dugin",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T05:26:05Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "US-Iran peace talks could resume within next two days, Trump says",
+      "summary": "Tehran says there is ‘no information’ about a second meeting with US negotiators",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/04/15/live-coverage-us-iran-war-peace-talks-donald-trump-oil-prices/",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T05:24:05Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "US shuts down Iran’s maritime trade despite optimism for more talks",
+      "summary": "More vessels are being turned back under the US blockade on Iranian ports, including a US-sanctioned and Chinese-owned tanker Rich Starry that was making its way back to the Strait of Hormuz after exiting the Persian Gulf",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/us-shuts-down-irans-maritime-trade-despite-optimism-for-more-talks/article70863863.ece",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T05:02:26Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "Saudi Arabia urges U.S. to lift Hormuz blockade amid fears of escalation in Bab al-Mandab",
+      "summary": "Saudi officials urge the U.S. to lift its naval blockade of the Strait of Hormuz and resume negotiations with Iran. Riyadh fears Iran could retaliate by closing the Bab al-Mandab Strait (via Houthi allies), disrupting Saudi oil exports through the Red Sea. St…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-15-saudi-arabia-urges-us-to-lift-hormuz-blockade.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "Oil tankers transiting Strait of Hormuz since start of Iran war",
+      "summary": "Oil tankers are successfully transiting the Strait of Hormuz. Vessels from various nations are carrying crude oil and refined products to destinations including Vietnam, Malaysia, China, India, Pakistan, and Thailand. These movements occur despite ongoing ten…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/oil-tankers-transiting-strait-of-hormuz-since-start-of-iran-war/articleshow/130272642.cms",
+      "bloc": "regional",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T04:15:12Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "U.S. Blockade of Hormuz Holds Firm Under Pressure",
+      "summary": "The U.S. blockade of the Strait of Hormuz appears to have passed its first real test, with the U.S. successfully turning back all vessels that attempted to break through. Shipping data on Wednesday showed the Rich Starry, a Chinese-owned medium-range tanker, …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Blockade-of-Hormuz-Holds-Firm-Under-Pressure.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T03:02:39Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "US destroyer interdicts two oil tankers attempting to leave Iran, official says",
+      "summary": "A US destroyer interdicted two oil tankers attempting to leave Iran on Tuesday, a day after US President Donald Trump's blockade went into effect, and instructed them to turn around, a US official said, speaking on condition of anonymity. The ships had left C…",
+      "source": "Freerepublic.com",
+      "url": "https://freerepublic.com/focus/f-news/4374966/posts",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T02:30:57Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "The Coming Oil Collision: Why Paper Prices Are a Dangerous Illusion",
+      "summary": "You Can Only Paper Over Physical Scarcity For So Long… I’m watching the numbers flicker on the screen — Brent crude at $92, WTI hovering near $97 — and I feel a profound sense of dread. This isn’t a market; it’s a meticulously crafted fiction. We are being li…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-15-coming-oil-collision-paper-costs-dangerous-illusion.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T06:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "Trump Declares ‘Decisive’ Victory, but Who Really Won the Iran War?",
+      "summary": "If the US accepts Iran’s 10 demands, Trump reportedly has, including a toll booth, Iran will have won. Trump’s Statement Truth Social: The United States will work closely with Iran, which we have determined has gone through what will be a very productive Regi…",
+      "source": "Activistpost.com",
+      "url": "https://www.activistpost.com/trump-declares-decisive-victory-but-who-really-won-the-iran-war/",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T00:02:00Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T06:23:50.133Z",
+      "run_id": "2026-04-16T06:23"
     }
   ],
-  "total_items_ever": 525
+  "total_items_ever": 536
 }
