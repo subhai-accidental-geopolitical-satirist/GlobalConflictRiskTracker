@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-16T06:23:50.133Z",
+  "updated": "2026-04-16T16:57:20.411Z",
   "retention_days": 30,
   "items": [
     {
@@ -13077,7 +13077,286 @@
       "_from": "newsapi",
       "first_seen": "2026-04-16T06:23:50.133Z",
       "run_id": "2026-04-16T06:23"
+    },
+    {
+      "headline": "U.S.-Britain political ties under significant strain with King Charles's state visit looming",
+      "summary": "British Finance Minister Rachel Reeves was not backing away from her criticism of the Iran war as \"folly,\" even as she prepared to meet Treasury Secretary Scott Bessent and other U.S. officials in Washington on Wednesday.",
+      "source": "CBC News",
+      "url": "https://www.cbc.ca/news/world/us-uk-tensions-charles-visit-9.7164234",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T14:23:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "Iran: Hundreds of thousands of jobs lost due to war",
+      "summary": "After six weeks of war, job losses are growing in Iran. Destroyed industrial facilities have brought production in many sectors to a standstill, hitting Iranian workers particularly hard.",
+      "source": "DW (English)",
+      "url": "https://www.dw.com/en/iran-hundreds-of-thousands-of-jobs-lost-due-to-war/a-76794860",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T14:07:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "Iran sees hundreds of thousands of jobs lost due to war",
+      "summary": "After six weeks of war, job losses are growing in Iran. Destroyed industrial facilities have brought production in many sectors to a standstill, hitting Iranian workers particularly hard. More than 93 million people in Iran are living in the shadow of a war t…",
+      "source": "DW (English)",
+      "url": "https://www.dw.com/en/iran-sees-hundreds-of-thousands-of-jobs-lost-due-to-war/a-76794860",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T14:07:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "Joint Statement from Finance Ministers on the Middle East: 15 April 2026",
+      "summary": "Joint statement from the Finance Ministers of the United Kingdom, Australia, Japan, Sweden, Netherlands, Finland, Spain, Norway, Republic of Ireland, Poland and New Zealand on the Middle East.",
+      "source": "Www.gov.uk",
+      "url": "https://www.gov.uk/government/news/joint-statement-from-finance-ministers-on-the-middle-east-15-april-2026",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T13:12:49Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "Oil steady as Hormuz shipping constraints counter US-Iran peace hopes",
+      "summary": "NEW YORK: Oil prices were little changed on Wednesday (Apr 15) after US President Donald Trump said the war with Iran could end soon, telling the world to watch out for an \"amazing two day",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/world/oil-prices-markets-stocks-trump-blockade-hormuz-iran-6058971",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T16:26:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "A few tankers and ships are going through the Strait of Hormuz. Here's the latest traffic",
+      "summary": "Tanker transits Tuesday were 90% below traffic before the U.S. and Israel attacked Iran, according to shipping deata.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/15/a-few-tankers-and-ships-are-going-through-the-strait-of-hormuz-heres-the-latest-traffic.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T15:18:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "US blockade of Strait of Hormuz ratchets up tensions with China ahead of Trump visit to Beijing",
+      "summary": "An episode where a China-linked vessel appeared to challenge the blockade shows how explosive this situation could be.",
+      "source": "The Conversation Africa",
+      "url": "https://theconversation.com/us-blockade-of-strait-of-hormuz-ratchets-up-tensions-with-china-ahead-of-trump-visit-to-beijing-280674",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T15:03:58Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "Trump Signals Imminent Iran Talks as Hormuz Blockade Holds",
+      "summary": "US President Donald Trump suggested that talks with Iran could resume in a day or two, while the US military said that no ships slipped through a naval blockade targeting vessels headed to or from Iranian ports in the first 24 hours of the restrictive measure…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Trump-Signals-Imminent-Iran-Talks-as-Hormuz-Blockade-Holds.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T14:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "North Korea showing 'serious ability' over nuclear weapon",
+      "summary": "North Korea is showing a \"very serious increase\" in its ability to produce nuclear weapons, the head of the International Atomic Energy Agency has said.",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/world/2026/0415/1568292-north-korea/",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T07:01:54Z",
+      "leaders": [
+        "Kim Jong-un"
+      ],
+      "watch_terms": [
+        "Kim Jong-un North"
+      ],
+      "dimensions": [
+        "impulsivity",
+        "narcissism",
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
+    },
+    {
+      "headline": "Why BLTs and salad just got more expensive — tariffs, war send tomato prices soaring",
+      "summary": "Tomato prices have risen sharply in recent months, driven largely by trade policy, economists said.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/15/tomato-prices.html",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T12:15:01Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-16T16:57:20.411Z",
+      "run_id": "2026-04-16T16:57"
     }
   ],
-  "total_items_ever": 536
+  "total_items_ever": 546
 }
