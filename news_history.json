@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-17T15:42:04.887Z",
+  "updated": "2026-04-17T20:09:54.419Z",
   "retention_days": 30,
   "items": [
     {
@@ -14219,7 +14219,91 @@
       "_from": "newsapi",
       "first_seen": "2026-04-17T15:42:04.887Z",
       "run_id": "2026-04-17T15:42"
+    },
+    {
+      "headline": "Congress Declines Again To Rein in Trump's Iran War",
+      "summary": "Republicans can’t decide whether the war is too early to stop, too late to stop, or nonexistent in the first place.",
+      "source": "Reason",
+      "url": "https://reason.com/2026/04/16/congress-declines-again-to-rein-in-trumps-iran-war/",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T17:08:30Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T20:09:54.419Z",
+      "run_id": "2026-04-17T20:09"
+    },
+    {
+      "headline": "10-day ceasefire between Israel, Lebanon goes into effect",
+      "summary": "The temporary ceasefire came after US President Trump spoke with Lebanese President Aoun and Israeli Prime Minister Netanyahu. Hezbollah says its commitment to the truce depends on Israel stopping attacks. DW has more. A temporary ceasefire between Israel and…",
+      "source": "DW (English)",
+      "url": "https://www.dw.com/en/10-day-ceasefire-between-israel-lebanon-goes-into-effect/live-76802532",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T15:50:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T20:09:54.419Z",
+      "run_id": "2026-04-17T20:09"
+    },
+    {
+      "headline": "Jet fuel shortage: Why Iran war could ground flights in Europe",
+      "summary": "Europe's aviation faces fuel shortages as Hormuz tensions threaten travel at the start of the summer season.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/4/16/jet-fuel-shortage-why-iran-war-could-ground-flights-in-europe",
+      "bloc": "regional",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T15:44:23Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T20:09:54.419Z",
+      "run_id": "2026-04-17T20:09"
     }
   ],
-  "total_items_ever": 577
+  "total_items_ever": 580
 }
