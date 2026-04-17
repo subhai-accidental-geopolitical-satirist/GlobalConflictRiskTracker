@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-16T20:11:38.245Z",
+  "updated": "2026-04-17T06:24:34.292Z",
   "retention_days": 30,
   "items": [
     {
@@ -13606,7 +13606,231 @@
       "_from": "newsapi",
       "first_seen": "2026-04-16T20:11:38.245Z",
       "run_id": "2026-04-16T20:11"
+    },
+    {
+      "headline": "Trump says Israel, Lebanon leaders to hold talks",
+      "summary": "U.S. President Donald Trump has said that leaders of Israel and Lebanon will speak on April 16, as Washington pushes to ease hostilities after the rivals' first direct talks in decades.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-says-israel-lebanon-leaders-to-hold-talks-221088",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T06:11:34Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T06:24:34.292Z",
+      "run_id": "2026-04-17T06:24"
+    },
+    {
+      "headline": "US optimistic about reaching peace deal with Iran",
+      "summary": "The United States is discussing a possible second round of peace talks with Iran in Pakistan and is optimistic about reaching a deal, U.S. officials said Wednesday, as Tehran threatened to shut down Red Sea trade unless Washington lifted a naval blockade of i…",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/us-optimistic-about-reaching-peace-deal-with-iran-221087",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T06:09:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T06:24:34.292Z",
+      "run_id": "2026-04-17T06:24"
+    },
+    {
+      "headline": "U.S. and Iran Report Progress on Ceasefire Framework as Naval Blockade Continues",
+      "summary": "U.S. President Donald Trump stated on Wednesday, April 15, that the war with Iran is “very close to over,” citing U.S. military dominance. “We’ve beaten them militarily, totally,” Trump told Fox Business in a prerecorded interview, adding, “I think it’s close…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-16-us-iran-report-progress-on-ceasefire-framework.html",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T06:24:34.292Z",
+      "run_id": "2026-04-17T06:24"
+    },
+    {
+      "headline": "Trump says Israel and Lebanon leaders will hold talks today",
+      "summary": "Meanwhile, Pakistan’s army chief is set to meet with Iranian officials in Tehran in a bid to arrange a second round of negotiations between the US and Iran.",
+      "source": "TheJournal.ie",
+      "url": "https://www.thejournal.ie/trump-says-israel-and-lebanon-leaders-will-hold-talks-today-7014113-Apr2026/",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T05:45:06Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T06:24:34.292Z",
+      "run_id": "2026-04-17T06:24"
+    },
+    {
+      "headline": "Iran-Linked Ships Take New Path To Trickle Into the Persian Gulf",
+      "summary": "At least two US-sanctioned, Iran-linked vessels made their way through the Strait of Hormuz and into the Persian Gulf on Thursday, taking what may be a new route from the United Arab Emirates even as a US blockade enters its third day.",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/iran-linked-ships-take-new-path-to-trickle-into-the-persian-gulf",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T05:50:39Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T06:24:34.292Z",
+      "run_id": "2026-04-17T06:24"
+    },
+    {
+      "headline": "Live updates: Optimism grows over US-Iran peace talks; Europe faces higher gas prices ‘for years’",
+      "summary": "Live updates as talks to end the war in the Middle East continue",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/04/16/us-iran-war-news-updates-latest-live/",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T05:20:18Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T06:24:34.292Z",
+      "run_id": "2026-04-17T06:24"
+    },
+    {
+      "headline": "How US blockade on Iran sanctioned ships turning around",
+      "summary": "The terms of the US naval blockade of the Iranian coast have contributed to difficulty for outsiders of ascertaining the state of ship traffic",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/how-us-blockade-on-iran-sanctioned-ships-turning-around/article70867606.ece",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T04:46:52Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T06:24:34.292Z",
+      "run_id": "2026-04-17T06:24"
+    },
+    {
+      "headline": "US-sanctioned supertankers enter Gulf despite blockade",
+      "summary": "A second U.S.-sanctioned supertanker has entered the Strait of Hormuz despite Washington’s blockade on vessels linked to Iranian ports, raising questions over enforcement. The move comes amid stalled U.S.-Iran talks, with Iran continuing crude exports near re…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-sanctioned-supertankers-enter-gulf-despite-blockade/articleshow/130297014.cms",
+      "bloc": "regional",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T03:31:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-17T06:24:34.292Z",
+      "run_id": "2026-04-17T06:24"
     }
   ],
-  "total_items_ever": 555
+  "total_items_ever": 563
 }

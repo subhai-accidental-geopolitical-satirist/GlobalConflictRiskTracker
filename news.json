@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-16T20:12:43.381Z",
+  "ts": "2026-04-17T06:25:39.414Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -9,18 +9,18 @@
   },
   "live_variables": {
     "oilPrice": 98,
-    "oilStress": 49,
-    "updatedAt": "2026-04-16T20:12:43.381Z"
+    "oilStress": 50,
+    "updatedAt": "2026-04-17T06:25:39.414Z"
   },
   "items": [
     {
-      "headline": "Senate again votes against ending Iran war, but tougher votes are coming",
-      "summary": "It marked the beginning of a new phase in Democrats' pressure campaign in Congress to pull U.S. forces from the Middle East war.",
-      "source": "Roanoke Times",
-      "url": "https://roanoke.com/news/nation-world/government-politics/article_8709d35c-dbe6-56e1-bdde-7a6ea72644f4.html",
+      "headline": "Trump says Israel, Lebanon leaders to hold talks",
+      "summary": "U.S. President Donald Trump has said that leaders of Israel and Lebanon will speak on April 16, as Washington pushes to ease hostilities after the rivals' first direct talks in decades.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-says-israel-lebanon-leaders-to-hold-talks-221088",
       "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T19:15:00Z",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T06:11:34Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Pakistani Delegation Arrives In Tehran In Move To Ease Tensions And Arrange More U.S.-Iran Talks",
-      "summary": "Meanwhile, U.S. Treasury Secretary Scott Bessent warned that the U.S. will ramp up its infliction of economic pain on Iran.",
-      "source": "HuffPost",
-      "url": "https://www.huffpost.com/entry/pakistani-delegation-arrives-tehran-move-ease-tensions-arrange-more-us-iran-talks_n_69dfd7e1e4b0f26bda635c20",
+      "headline": "US optimistic about reaching peace deal with Iran",
+      "summary": "The United States is discussing a possible second round of peace talks with Iran in Pakistan and is optimistic about reaching a deal, U.S. officials said Wednesday, as Tehran threatened to shut down Red Sea trade unless Washington lifted a naval blockade of i…",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/us-optimistic-about-reaching-peace-deal-with-iran-221087",
       "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T18:31:16Z",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T06:09:10Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Can Trump get a better Iran deal than Obama?",
-      "summary": "The 2015 Iran deal curbed Tehran's nuclear program until the US pulled out. After years of failed diplomacy and 40 days of war, talks are back on. Donald Trump has said he can strike a \"better\" deal than Barack Obama.",
-      "source": "DW (English)",
-      "url": "https://www.dw.com/en/can-trump-get-a-better-iran-deal-than-obama/a-76798388",
+      "headline": "U.S. and Iran Report Progress on Ceasefire Framework as Naval Blockade Continues",
+      "summary": "U.S. President Donald Trump stated on Wednesday, April 15, that the war with Iran is “very close to over,” citing U.S. military dominance. “We’ve beaten them militarily, totally,” Trump told Fox Business in a prerecorded interview, adding, “I think it’s close…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-16-us-iran-report-progress-on-ceasefire-framework.html",
       "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T17:46:00Z",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "S&P 500 hits new all-time high as investors shrug off Iran war oil price spike",
-      "summary": "The S&P 500 hit a new all-time high Wednesday, a remarkable turnaround for stocks while the war with Iran drives up energy prices and cuts into global growth.",
-      "source": "NBC News",
-      "url": "https://www.nbcnews.com/business/markets/sp-500-hits-new-high-iran-war-rcna331900",
+      "headline": "Trump says Israel and Lebanon leaders will hold talks today",
+      "summary": "Meanwhile, Pakistan’s army chief is set to meet with Iranian officials in Tehran in a bid to arrange a second round of negotiations between the US and Iran.",
+      "source": "TheJournal.ie",
+      "url": "https://www.thejournal.ie/trump-says-israel-and-lebanon-leaders-will-hold-talks-today-7014113-Apr2026/",
       "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T17:37:41Z",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T05:45:06Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,13 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "U.S. and Iran could meet in Pakistan for peace talks next week: MS NOW",
-      "summary": "Oil tanker traffic through the Strait of Hormuz remains at a trickle as the U.S. enforces a retaliatory blockade of Iranian ports.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/15/trump-iran-war-peace-talks-pakistan.html",
+      "headline": "Iran-Linked Ships Take New Path To Trickle Into the Persian Gulf",
+      "summary": "At least two US-sanctioned, Iran-linked vessels made their way through the Strait of Hormuz and into the Persian Gulf on Thursday, taking what may be a new route from the United Arab Emirates even as a US blockade enters its third day.",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/iran-linked-ships-take-new-path-to-trickle-into-the-persian-gulf",
       "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T19:09:48Z",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T05:50:39Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -144,13 +144,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Chinese oil tanker’s retreat from the Strait of Hormuz shows how Trump’s blockade is working",
-      "summary": "The sanctioned Chinese oil tanker that appeared to have crossed the Strait of Hormuz after the US blockade was implemented had been stopped and forced to dock in Iran, new tracking data shows.",
-      "source": "New York Post",
-      "url": "https://nypost.com/2026/04/15/world-news/chinese-tankers-retreat-from-the-strait-of-hormuz-shows-how-trumps-blockade-is-working/",
+      "headline": "Live updates: Optimism grows over US-Iran peace talks; Europe faces higher gas prices ‘for years’",
+      "summary": "Live updates as talks to end the war in the Middle East continue",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/04/16/us-iran-war-news-updates-latest-live/",
       "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T18:53:10Z",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T05:20:18Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -170,13 +170,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Hormuz shipping muted as US blockade takes hold: Tracking data",
-      "summary": "A trickle of ships crossed the Strait of Hormuz Tuesday and Wednesday as a US blockade appeared to further curb traffic in the trade route already paralysed by Iranian forces, marine tracking data showed. Here are the latest developments in the strait, - US b…",
+      "headline": "How US blockade on Iran sanctioned ships turning around",
+      "summary": "The terms of the US naval blockade of the Iranian coast have contributed to difficulty for outsiders of ascertaining the state of ship traffic",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/how-us-blockade-on-iran-sanctioned-ships-turning-around/article70867606.ece",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T04:46:52Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US-sanctioned supertankers enter Gulf despite blockade",
+      "summary": "A second U.S.-sanctioned supertanker has entered the Strait of Hormuz despite Washington’s blockade on vessels linked to Iranian ports, raising questions over enforcement. The move comes amid stalled U.S.-Iran talks, with Iran continuing crude exports near re…",
       "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/hormuz-shipping-muted-as-us-blockade-takes-hold-tracking-data/articleshow/130290045.cms",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-sanctioned-supertankers-enter-gulf-despite-blockade/articleshow/130297014.cms",
       "bloc": "regional",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T17:20:14Z",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T03:31:16Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -191,33 +217,7 @@
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Commercial Ships Transit Strait of Hormuz as U.S. Blockades Iran’s Ports - WSJ",
-      "summary": "Commercial Ships Transit Strait of Hormuz as U.S. Blockades Iran’s PortsWSJ Blockade completely halts Iran shipping, US military says. So why are some ships going through Strait of Hormuz?CNN Iran warns US naval blockade threatens ceasefireAl Jazeera US destr…",
-      "source": "Slashdot.org",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=181719892",
-      "bloc": "western",
-      "date": "2026-04-15",
-      "datetime": "2026-04-15T17:13:11Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -388,6 +388,32 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "S&P 500 hits new all-time high as investors shrug off Iran war oil price spike",
+      "summary": "The S&P 500 hit a new all-time high Wednesday, a remarkable turnaround for stocks while the war with Iran drives up energy prices and cuts into global growth.",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/business/markets/sp-500-hits-new-high-iran-war-rcna331900",
+      "bloc": "western",
+      "date": "2026-04-15",
+      "datetime": "2026-04-15T17:37:41Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
