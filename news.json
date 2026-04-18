@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-17T20:10:59.826Z",
+  "ts": "2026-04-18T05:54:06.501Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 123,
     "oilStress": 89,
-    "updatedAt": "2026-04-17T20:10:59.826Z"
+    "updatedAt": "2026-04-18T05:54:06.501Z"
   },
   "items": [
     {
-      "headline": "Congress Declines Again To Rein in Trump's Iran War",
-      "summary": "Republicans can’t decide whether the war is too early to stop, too late to stop, or nonexistent in the first place.",
-      "source": "Reason",
-      "url": "https://reason.com/2026/04/16/congress-declines-again-to-rein-in-trumps-iran-war/",
+      "headline": "Gold holds steady, eyes fourth weekly gain on US-Iran peace deal hopes",
+      "summary": "Gold remains steady, aiming for a fourth weekly gain amid US-Iran peace deal hopes and Indian import restrictions.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/gold/gold-holds-steady-eyes-fourth-weekly-gain-on-us-iran-peace-deal-hopes/article70872364.ece",
       "bloc": "western",
-      "date": "2026-04-16",
-      "datetime": "2026-04-16T17:08:30Z",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T05:07:03Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "10-day ceasefire between Israel, Lebanon goes into effect",
-      "summary": "The temporary ceasefire came after US President Trump spoke with Lebanese President Aoun and Israeli Prime Minister Netanyahu. Hezbollah says its commitment to the truce depends on Israel stopping attacks. DW has more. A temporary ceasefire between Israel and…",
-      "source": "DW (English)",
-      "url": "https://www.dw.com/en/10-day-ceasefire-between-israel-lebanon-goes-into-effect/live-76802532",
-      "bloc": "western",
-      "date": "2026-04-16",
-      "datetime": "2026-04-16T15:50:00Z",
+      "headline": "Silver gains Rs 1,500, gold at Rs 1.53 lakh as investors eye Iran war peace talks. Key levels to watch today",
+      "summary": "Gold and silver prices opened higher on MCX as easing geopolitical tensions and US-Iran peace talk hopes influenced sentiment. Silver gained sharply while gold held near record levels. Analysts expect volatility ahead, with key support and resistance levels i…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-gains-rs-1500-gold-at-rs-1-53-lakh-as-investors-eye-iran-war-peace-talks-key-levels-to-watch-today/articleshow/130322711.cms",
+      "bloc": "regional",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T04:22:58Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Qalibaf: Ceasefire in Lebanon as important as ceasefire in Iran",
-      "summary": "Iran's Parliament Speaker Mohammad Baqer Qalibaf says Tehran considers a ceasefire in Lebanon as important as a ceasefire in Iran, stressing that Iranians have never forgotten their Lebanese brothers.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260416-presstv04.htm",
+      "headline": "An unholy silence",
+      "summary": "The pope’s genuflection to Islam spells disaster for Western civilization. Opinion.",
+      "source": "Israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/425634",
       "bloc": "western",
-      "date": "2026-04-16",
-      "datetime": "2026-04-16T12:00:00Z",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T03:31:55Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Israeli evacuation orders, housing destruction in Lebanon consistent with Gaza domicide: UN experts",
-      "summary": "UN experts have censured the Israeli evacuation orders, besides the destruction of residences that civilians have returned to in southern Lebanon, as consistent with the regime's pattern of domicide during its genocidal war on Gaza.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260416-presstv06.htm",
+      "headline": "100 bombs in 10 minutes: Mapping Lebanon's 'Black Wednesday'",
+      "summary": "The Israeli Defense Forces labelled it Operation Eternal Darkness. Inside Lebanon, it's now called Black Wednesday. ABC NEWS Verify has geolocated the explosions across 10 minutes of chaos.",
+      "source": "ABC News (AU)",
+      "url": "https://www.abc.net.au/news/2026-04-17/ten-minutes-black-wednesday-lebanon-verify/106564594",
       "bloc": "western",
-      "date": "2026-04-16",
-      "datetime": "2026-04-16T12:00:00Z",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T02:03:26Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -113,6 +113,84 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "10-day ceasefire begins in Lebanon amid Israel-Hezbollah conflict",
+      "summary": "Announced by Donald Trump, the truce has sparked cautious optimism, though uncertainties remain as Israel plans to retain troops in southern Lebanon and Hezbollah signals possible retaliation",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/10-day-ceasefire-begins-in-lebanon-amid-israel-hezbollah-conflict/article70871228.ece",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T23:58:32Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "What’s Next for Oil Prices?",
+      "summary": "Oil prices have held steady below $100 per barrel since the U.S. on Monday initiated a naval blockade to deter Iran-linked ships from passing through the Strait of Hormuz. The three days of calmer oil futures markets so far this week aren’t expected to last l…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Oil-Prices/Whats-Next-for-Oil-Prices44114.html",
+      "bloc": "western",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump Dodges Key Question on Strait of Hormuz Blockade",
+      "summary": "The U.S. seems ready to block Iran’s primary oil tradeway “indefinitely.”Donald Trump dodged questions Thursday about a lack of progress at the Strait of Hormuz, instead claiming that “no ship” was passing the blockade that the U.S. had imposed on the waterwa…",
+      "source": "The New Republic",
+      "url": "https://newrepublic.com/post/209180/donald-trump-key-question-strait-hormuz-blockade",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T20:46:28Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -151,84 +229,6 @@
       "bloc": "western",
       "date": "2026-04-16",
       "datetime": "2026-04-16T13:59:30Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Why a U.S. blockade on Iran seems to be working",
-      "summary": "Iran-linked or sanctioned vessels that have left the Persian Gulf through the Strait of Hormuz have stopped or turned around, shipping data firms say. They appear to have jammed or faked their locations in some instances, complicating an uncertain and risky s…",
-      "source": "PBS",
-      "url": "https://www.pbs.org/newshour/world/why-a-u-s-blockade-on-iran-seems-to-be-working",
-      "bloc": "western",
-      "date": "2026-04-16",
-      "datetime": "2026-04-16T13:15:06Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Hormuz Crisis \"Only Going to Get More Horrific Before It Gets Any Better\": Prof. Laleh Khalili",
-      "summary": "Amid the ongoing crisis in the Strait of Hormuz, we speak with Laleh Khalili, a professor of Gulf studies who researches the shipping and logistics industry and its impact on the global economy. \nThe U.S. implemented a naval blockade on Iran earlier this week…",
-      "source": "Democracy Now!",
-      "url": "https://www.democracynow.org/2026/4/16/global_crises_iran_war",
-      "bloc": "western",
-      "date": "2026-04-16",
-      "datetime": "2026-04-16T12:11:51Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "What does the US blockade of Iran shipping mean for gas prices?",
-      "summary": "The move comes as Americans grapple with a surge in gasoline prices.",
-      "source": "Abcnews.com",
-      "url": "https://abcnews.com/Business/us-blockade-iran-shipping-gas-prices/story?id=131988004",
-      "bloc": "western",
-      "date": "2026-04-16",
-      "datetime": "2026-04-16T12:05:32Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -548,6 +548,31 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Fact check: Trump falsely claims Pope Leo said Iran can have a nuclear weapon | CNN Politics",
+      "summary": "President Donald Trump continued his criticism of Pope Leo XIV on Thursday – in part by making a false claim about the pope’s stance on nuclear weapons.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/04/16/politics/fact-check-trump-pope-iran",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T20:46:13Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Trump Declares ‘Decisive’ Victory, but Who Really Won the Iran War?",
       "summary": "If the US accepts Iran’s 10 demands, Trump reportedly has, including a toll booth, Iran will have won. Trump’s Statement Truth Social: The United States will work closely with Iran, which we have determined has gone through what will be a very productive Regi…",
       "source": "Activistpost.com",
@@ -594,6 +619,52 @@
       "variable_key": "armsControlArchitecture",
       "event_type": "static_variable",
       "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "5 Things I Wish I Knew About Iran",
+      "summary": "In the war’s aftermath, key details about the regime remain opaque.",
+      "source": "Foreign Policy",
+      "url": "http://foreignpolicy.com/2026/04/16/iran-israel-trump-khamenei-revolutionary-guard-hormuz/",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T20:18:05Z",
+      "leaders": [],
+      "watch_terms": [
+        "general commander killed"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "narcissism"
+      ],
+      "variable_key": null,
+      "event_type": "personnel_killed",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Russian strikes kill 17 across Ukraine in worst attack this year",
+      "summary": "Russia unleashed its deadliest attack so far this year on the Ukrainian capital Kyiv and other cities overnight, killing at least 17 people, including a 12-year-old child, and wounding scores, in ‌drone and missile strikes, officials said on Thursday. In Russ…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/russian-strikes-kill-17-across-ukraine-in-worst-attack-this-year",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T21:41:32Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -651,29 +722,6 @@
       "bloc": "western",
       "date": "2026-04-11",
       "datetime": "2026-04-11T17:00:55Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The Emirates on the Tightrope",
-      "summary": "On Sunday, March 22, the United Arab Emirates’ foreign minister, Abdullah bin Zayed al Nahyan, maternal brother of UAE President Mohamed bin Zayed al Nahyan, put on a brave face. The evening prior, President Donald Trump declared that if the Strait of Hormuz …",
-      "source": "The New York Review of Books",
-      "url": "https://www.nybooks.com/online/2026/04/10/the-emirates-on-the-tightrope/",
-      "bloc": "western",
-      "date": "2026-04-10",
-      "datetime": "2026-04-10T15:27:39Z",
       "leaders": [],
       "watch_terms": [
         "oil refinery port"

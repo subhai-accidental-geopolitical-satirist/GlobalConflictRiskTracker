@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-17T20:09:54.419Z",
+  "updated": "2026-04-18T05:53:01.364Z",
   "retention_days": 30,
   "items": [
     {
@@ -14303,7 +14303,280 @@
       "_from": "newsapi",
       "first_seen": "2026-04-17T20:09:54.419Z",
       "run_id": "2026-04-17T20:09"
+    },
+    {
+      "headline": "Gold holds steady, eyes fourth weekly gain on US-Iran peace deal hopes",
+      "summary": "Gold remains steady, aiming for a fourth weekly gain amid US-Iran peace deal hopes and Indian import restrictions.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/gold/gold-holds-steady-eyes-fourth-weekly-gain-on-us-iran-peace-deal-hopes/article70872364.ece",
+      "bloc": "western",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T05:07:03Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "Silver gains Rs 1,500, gold at Rs 1.53 lakh as investors eye Iran war peace talks. Key levels to watch today",
+      "summary": "Gold and silver prices opened higher on MCX as easing geopolitical tensions and US-Iran peace talk hopes influenced sentiment. Silver gained sharply while gold held near record levels. Analysts expect volatility ahead, with key support and resistance levels i…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-gains-rs-1500-gold-at-rs-1-53-lakh-as-investors-eye-iran-war-peace-talks-key-levels-to-watch-today/articleshow/130322711.cms",
+      "bloc": "regional",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T04:22:58Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "An unholy silence",
+      "summary": "The pope’s genuflection to Islam spells disaster for Western civilization. Opinion.",
+      "source": "Israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/425634",
+      "bloc": "western",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T03:31:55Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "100 bombs in 10 minutes: Mapping Lebanon's 'Black Wednesday'",
+      "summary": "The Israeli Defense Forces labelled it Operation Eternal Darkness. Inside Lebanon, it's now called Black Wednesday. ABC NEWS Verify has geolocated the explosions across 10 minutes of chaos.",
+      "source": "ABC News (AU)",
+      "url": "https://www.abc.net.au/news/2026-04-17/ten-minutes-black-wednesday-lebanon-verify/106564594",
+      "bloc": "western",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T02:03:26Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "10-day ceasefire begins in Lebanon amid Israel-Hezbollah conflict",
+      "summary": "Announced by Donald Trump, the truce has sparked cautious optimism, though uncertainties remain as Israel plans to retain troops in southern Lebanon and Hezbollah signals possible retaliation",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/10-day-ceasefire-begins-in-lebanon-amid-israel-hezbollah-conflict/article70871228.ece",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T23:58:32Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "What’s Next for Oil Prices?",
+      "summary": "Oil prices have held steady below $100 per barrel since the U.S. on Monday initiated a naval blockade to deter Iran-linked ships from passing through the Strait of Hormuz. The three days of calmer oil futures markets so far this week aren’t expected to last l…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Oil-Prices/Whats-Next-for-Oil-Prices44114.html",
+      "bloc": "western",
+      "date": "2026-04-17",
+      "datetime": "2026-04-17T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "Trump Dodges Key Question on Strait of Hormuz Blockade",
+      "summary": "The U.S. seems ready to block Iran’s primary oil tradeway “indefinitely.”Donald Trump dodged questions Thursday about a lack of progress at the Strait of Hormuz, instead claiming that “no ship” was passing the blockade that the U.S. had imposed on the waterwa…",
+      "source": "The New Republic",
+      "url": "https://newrepublic.com/post/209180/donald-trump-key-question-strait-hormuz-blockade",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T20:46:28Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "Fact check: Trump falsely claims Pope Leo said Iran can have a nuclear weapon | CNN Politics",
+      "summary": "President Donald Trump continued his criticism of Pope Leo XIV on Thursday – in part by making a false claim about the pope’s stance on nuclear weapons.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/04/16/politics/fact-check-trump-pope-iran",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T20:46:13Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "5 Things I Wish I Knew About Iran",
+      "summary": "In the war’s aftermath, key details about the regime remain opaque.",
+      "source": "Foreign Policy",
+      "url": "http://foreignpolicy.com/2026/04/16/iran-israel-trump-khamenei-revolutionary-guard-hormuz/",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T20:18:05Z",
+      "leaders": [],
+      "watch_terms": [
+        "general commander killed"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "narcissism"
+      ],
+      "variable_key": null,
+      "event_type": "personnel_killed",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
+    },
+    {
+      "headline": "Russian strikes kill 17 across Ukraine in worst attack this year",
+      "summary": "Russia unleashed its deadliest attack so far this year on the Ukrainian capital Kyiv and other cities overnight, killing at least 17 people, including a 12-year-old child, and wounding scores, in ‌drone and missile strikes, officials said on Thursday. In Russ…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/russian-strikes-kill-17-across-ukraine-in-worst-attack-this-year",
+      "bloc": "western",
+      "date": "2026-04-16",
+      "datetime": "2026-04-16T21:41:32Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-18T05:53:01.364Z",
+      "run_id": "2026-04-18T05:53"
     }
   ],
-  "total_items_ever": 580
+  "total_items_ever": 590
 }
