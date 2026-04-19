@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-04-19T03:21:03.080Z",
+  "updated": "2026-04-19T07:26:05.814Z",
   "retention_days": 30,
   "items": [
     {
@@ -15350,7 +15350,175 @@
       "_from": "newsapi",
       "first_seen": "2026-04-19T03:21:03.080Z",
       "run_id": "2026-04-19T03:21"
+    },
+    {
+      "headline": "Hegseth Says U.S. Prepared to Target Iranian Power Infrastructure",
+      "summary": "U.S. Secretary of War Pete Hegseth stated on Thursday, April 16, that American military forces are prepared to strike Iran’s energy infrastructure, including power plants and oil refineries, if ongoing conflict resumes. The remarks were made during a press co…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-18-hegseth-us-prepared-target-iranian-power-infrastructure.html",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-19T07:26:05.813Z",
+      "run_id": "2026-04-19T07:26"
+    },
+    {
+      "headline": "The Latest: Trump hints at resuming attacks if ceasefire with Iran expires without a deal",
+      "summary": "Iran has reversed course on reopening the Strait of Hormuz and fired on a tanker attempting to pass the waterway. It said it will continue blocking transit as long as the U.S. blockade of Iranian...",
+      "source": "Middletown Press",
+      "url": "https://www.middletownpress.com/business/article/the-latest-trump-hints-at-resuming-attacks-if-22213238.php",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T05:35:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-19T07:26:05.813Z",
+      "run_id": "2026-04-19T07:26"
+    },
+    {
+      "headline": "Next round of US-Iran talks likely to be held in Pakistan on Monday: Iranian sources",
+      "summary": "US-Iran talks expected in Pakistan on Monday, with delegations arriving Sunday amid renewed diplomatic efforts to ease tensions.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/next-round-of-us-iran-talks-likely-to-be-held-in-pakistan-on-monday-iranian-sources/article70876451.ece",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T05:21:14Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-19T07:26:05.813Z",
+      "run_id": "2026-04-19T07:26"
+    },
+    {
+      "headline": "We spoke to dozens of central bankers, policymakers and politicians about the Iran war — These are their biggest fears for the global economy",
+      "summary": "From stagflation to energy security, policymakers spoke to CNBC about the biggest risks arising from the ongoing U.S.-Iran war.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/iran-war-inflation-prices-energy-trump-economy-end.html",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T05:00:01Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-19T07:26:05.813Z",
+      "run_id": "2026-04-19T07:26"
+    },
+    {
+      "headline": "U.S. Announces Global Pursuit of Iran-Linked Vessels, Extends Hormuz Blockade",
+      "summary": "Introduction The United States has expanded its naval blockade of the Strait of Hormuz into a worldwide campaign against Iranian shipping, the chairman of the Joint Chiefs of Staff announced on April 16, 2026. General Dan Caine stated that U.S. forces will no…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-18-us-announces-global-pursuit-iran-linked-vessels.html",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-19T07:26:05.813Z",
+      "run_id": "2026-04-19T07:26"
+    },
+    {
+      "headline": "Bitcoin falls back to $76,000 as Iran shuts Hormuz again",
+      "summary": "One of the biggest short liquidations 2026 wiped $593 million in bearish bets overnight. Saturday afternoon as Iran reportedly reversed the Hormuz reopening.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/18/bearish-bets-lose-usd593-million-as-bitcoin-jumps-with-iran-fully-opening-hormuz",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T05:04:12Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-04-19T07:26:05.813Z",
+      "run_id": "2026-04-19T07:26"
     }
   ],
-  "total_items_ever": 620
+  "total_items_ever": 626
 }

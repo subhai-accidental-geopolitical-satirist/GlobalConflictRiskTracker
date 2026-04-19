@@ -1,5 +1,5 @@
 {
-  "ts": "2026-04-19T03:22:08.288Z",
+  "ts": "2026-04-19T07:27:10.941Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,165 @@
   "live_variables": {
     "oilPrice": 123,
     "oilStress": 89,
-    "updatedAt": "2026-04-19T03:22:08.288Z"
+    "updatedAt": "2026-04-19T07:27:10.941Z"
   },
   "items": [
+    {
+      "headline": "Hegseth Says U.S. Prepared to Target Iranian Power Infrastructure",
+      "summary": "U.S. Secretary of War Pete Hegseth stated on Thursday, April 16, that American military forces are prepared to strike Iran’s energy infrastructure, including power plants and oil refineries, if ongoing conflict resumes. The remarks were made during a press co…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-18-hegseth-us-prepared-target-iranian-power-infrastructure.html",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "The Latest: Trump hints at resuming attacks if ceasefire with Iran expires without a deal",
+      "summary": "Iran has reversed course on reopening the Strait of Hormuz and fired on a tanker attempting to pass the waterway. It said it will continue blocking transit as long as the U.S. blockade of Iranian...",
+      "source": "Middletown Press",
+      "url": "https://www.middletownpress.com/business/article/the-latest-trump-hints-at-resuming-attacks-if-22213238.php",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T05:35:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Next round of US-Iran talks likely to be held in Pakistan on Monday: Iranian sources",
+      "summary": "US-Iran talks expected in Pakistan on Monday, with delegations arriving Sunday amid renewed diplomatic efforts to ease tensions.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/next-round-of-us-iran-talks-likely-to-be-held-in-pakistan-on-monday-iranian-sources/article70876451.ece",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T05:21:14Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "We spoke to dozens of central bankers, policymakers and politicians about the Iran war — These are their biggest fears for the global economy",
+      "summary": "From stagflation to energy security, policymakers spoke to CNBC about the biggest risks arising from the ongoing U.S.-Iran war.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/18/iran-war-inflation-prices-energy-trump-economy-end.html",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T05:00:01Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "U.S. Announces Global Pursuit of Iran-Linked Vessels, Extends Hormuz Blockade",
+      "summary": "Introduction The United States has expanded its naval blockade of the Strait of Hormuz into a worldwide campaign against Iranian shipping, the chairman of the Joint Chiefs of Staff announced on April 16, 2026. General Dan Caine stated that U.S. forces will no…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-04-18-us-announces-global-pursuit-iran-linked-vessels.html",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Bitcoin falls back to $76,000 as Iran shuts Hormuz again",
+      "summary": "One of the biggest short liquidations 2026 wiped $593 million in bearish bets overnight. Saturday afternoon as Iran reportedly reversed the Hormuz reopening.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/04/18/bearish-bets-lose-usd593-million-as-bitcoin-jumps-with-iran-fully-opening-hormuz",
+      "bloc": "western",
+      "date": "2026-04-18",
+      "datetime": "2026-04-18T05:04:12Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Reopening the Strait of Hormuz is easier said than done. Here's why",
       "summary": "Not for the first time in the past seven weeks of war and tenuous ceasefire, the details of developments concerning the Strait of Hormuz have been sparse, creating unease and anxiety among the shipping companies and crews whose tankers and containers slowly c…",
@@ -21,162 +177,6 @@
       "bloc": "western",
       "date": "2026-04-18",
       "datetime": "2026-04-18T01:02:10Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The truce in Lebanon is key to ending the wider Iran war, but challenges remain",
-      "summary": "A truce took hold Friday between Israel and Lebanon's Hezbollah, providing relief on both sides of the border and an opening for Iran and the United States to reach a deal to end the wider war. The ceasefire appears to have led Iran to reopen the Strait of Ho…",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/world/the-truce-in-lebanon-is-key-to-ending-the-wider-iran-war-but-challenges-remain",
-      "bloc": "western",
-      "date": "2026-04-17",
-      "datetime": "2026-04-17T20:45:26Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran says Strait of Hormuz open as Trump sees deal 'soon' to end war",
-      "summary": "Iranian Foreign Minister Abbas Araqchi said on Friday the Strait of Hormuz was open following a ceasefire agreement in Lebanon, while U.S. President Donald Trump said talks could take place this weekend and he believed a deal to end the Iran war would ‌come &…",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/world/iran-says-strait-of-hormuz-open-as-trump-sees-deal-%27soon%27-to-end-war1",
-      "bloc": "western",
-      "date": "2026-04-17",
-      "datetime": "2026-04-17T20:45:08Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "France, UK to lead 'defensive' force for Hormuz - Breitbart",
-      "summary": "France and Britain said Friday they will lead a multinational mission to ensure freedom of navigation in the Strait of Hormuz, while emphasising the force would be entirely defensive and only deployed once lasting peace in the region was agreed. British Prime…",
-      "source": "Freerepublic.com",
-      "url": "https://freerepublic.com/focus/f-news/4375298/posts",
-      "bloc": "western",
-      "date": "2026-04-17",
-      "datetime": "2026-04-17T17:43:06Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Video shows ships turning away from the Strait of Hormuz as confusion persists over whether sea lane is really open",
-      "summary": "The Strait of Hormuz remained effectively closed despite Iran's declaration Friday that it is open, maritime freight and oil analysts told CNBC.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/04/17/iran-trump-strait-hormuz-oil-tanker-traffic.html",
-      "bloc": "western",
-      "date": "2026-04-17",
-      "datetime": "2026-04-17T22:34:34Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran: Strait of Hormuz open during ceasefire",
-      "summary": "President Trump and Iranian officials have said the Strait of Hormuz is open to all commercial vessels, although shipping firms say they're remaining cautious. Iran's foreign minister, Abbas Araghchi, said the vital waterway would be navigable while the Leban…",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/programmes/w1730bmynddkcz9",
-      "bloc": "western",
-      "date": "2026-04-17",
-      "datetime": "2026-04-17T21:52:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Polymarket odds of Hormuz Strait traffic normalizing by end of May spike to 73%",
-      "summary": "Polymarket traders forecast when oil tanker traffic traveling through the Strait of Hormuz, a critical oil shipping waterway, will return to normal.",
-      "source": "Cointelegraph",
-      "url": "https://cointelegraph.com/news/polymarket-strait-hormuz-return-normal-may-73",
-      "bloc": "western",
-      "date": "2026-04-17",
-      "datetime": "2026-04-17T21:12:19Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
