@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-06T14:25:28.697Z",
+  "ts": "2026-05-06T19:52:44.700Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -8,11 +8,89 @@
     "claude": true
   },
   "live_variables": {
-    "oilPrice": 114,
-    "oilStress": 74,
-    "updatedAt": "2026-05-06T14:25:28.697Z"
+    "oilPrice": null,
+    "oilStress": null,
+    "updatedAt": "2026-05-06T19:52:44.700Z"
   },
   "items": [
+    {
+      "headline": "US-backed pipeline proposal targets global reliance on Strait of Hormuz amid Iran threats",
+      "summary": "The Strait of Hormuz crisis is pushing Gulf states and the U.S. to develop alternative energy routes, reducing dependence on one vulnerable choke point.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/world/us-backed-pipeline-proposal-targets-global-reliance-strait-hormuz-amid-iran-threats",
+      "bloc": "western",
+      "date": "2026-05-05",
+      "datetime": "2026-05-05T18:32:18Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump comments dampen US-Iran diplomatic meeting prospects",
+      "summary": "Trump's comments may exacerbate US-Iran tensions, potentially hindering diplomatic progress and impacting global oil markets and regional stability.\nThe post Trump comments dampen US-Iran diplomatic meeting prospects appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/trump-comments-dampen-us-iran-diplomatic-meeting-prospects/",
+      "bloc": "western",
+      "date": "2026-05-05",
+      "datetime": "2026-05-05T18:20:45Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran’s judiciary vows action against ‘enemy’s mercenaries’ amid executions",
+      "summary": "Authorities target accused foreign agents, citing national security, as executions and confiscation of assets intensify.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/5/irans-judiciary-vows-action-against-enemys-mercenaries-amid-executions",
+      "bloc": "regional",
+      "date": "2026-05-05",
+      "datetime": "2026-05-05T16:25:40Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "US threatens 'devastating' response to any Iran attack on shipping through Strait of Hormuz",
       "summary": "Oil prices climbed further after a new attack on the UAE, with the benchmark international contract Brent crude for July delivery jumping more than 5%.",
@@ -40,91 +118,65 @@
       "_from": "newsapi"
     },
     {
-      "headline": "The Latest: Hegseth and Caine say ceasefire between the US and Iran is not over",
-      "summary": "U.S. forces are pressing ahead Tuesday with an effort to guide commercial ships through the Strait of Hormuz, but so far only two vessels, both of them...",
-      "source": "Yahoo Entertainment",
-      "url": "https://www.yahoo.com/news/articles/latest-hegseth-caine-ceasefire-between-124930589.html",
+      "headline": "US attempt to open the Strait of Hormuz tests Iran war’s fragile ceasefire",
+      "summary": "DUBAI, May 5: The Iran war risked reigniting after the US tried to force open the Strait of Hormuz for commercial shipping, though a ceasefire seemed to be holding Tuesday even after the United Arab Emirates said Iran fired missiles and drones at it. Iran’s p…",
+      "source": "Thehillstimes.in",
+      "url": "https://thehillstimes.in/international/us-attempt-to-open-the-strait-of-hormuz-tests-iran-wars-fragile-ceasefire",
       "bloc": "western",
       "date": "2026-05-05",
-      "datetime": "2026-05-05T12:49:30Z",
+      "datetime": "2026-05-05T19:30:00Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Secretary of State Marco Rubio Remarks to Press",
-      "summary": "\"The operation is over. Epic Fury is - the President notified Congress we're done with that stage of it, okay? We're now on to this Project Freedom. As far as a negotiation is concerned, I think the President's been clear that part of the negotiation process …",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260505-state02.htm",
+      "headline": "Iran war: Will tensions escalate in the Strait of Hormuz?",
+      "summary": "Could US President Trump's \"Project Freedom\" clear the congestion in the Strait of Hormuz? Or could it lead to an escalation of hostilities? Questions and answers. Is a secure escort of tankers and merchant ships by US forces in the Strait of Hormuz possible?…",
+      "source": "DW (English)",
+      "url": "https://www.dw.com/en/iran-war-will-tensions-escalate-in-the-strait-of-hormuz/a-77057831",
       "bloc": "western",
       "date": "2026-05-05",
-      "datetime": "2026-05-05T12:00:00Z",
+      "datetime": "2026-05-05T18:37:00Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Exclusive: Iran launches new maritime mechanism for vessels transiting Strait of Hormuz",
-      "summary": "Iran has officially launched a new mechanism for governing maritime traffic through the strategic Strait of Hormuz, Press TV has learned.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260505-presstv09.htm",
-      "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Map of dominance: Why Iran can’t afford to give up Hormuz control",
-      "summary": "The vital passageway is key for Tehran as it seeks to leverage in negotiations with Washington.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/5/5/map-of-dominance-why-iran-cant-afford-to-give-up-hormuz-control",
+      "headline": "The red, white and blue dome: Trump makes risky move to free Hormuz",
+      "summary": "In a pivotal development, the United States has launched 'Operation Freedom', aimed at safeguarding the vital shipping lanes of the Strait of Hormuz. This initiative is designed to maintain uninterrupted global energy supplies; however, it has provoked a seri…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/the-red-white-and-blue-dome-trump-makes-risky-move-to-free-hormuz/articleshow/130834450.cms",
       "bloc": "regional",
       "date": "2026-05-05",
-      "datetime": "2026-05-05T14:19:39Z",
+      "datetime": "2026-05-05T16:45:45Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -144,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran war's fragile ceasefire tested in U.S. attempt to open the Strait of Hormuz",
-      "summary": "The Iran war risked reigniting after the U.S. tried to force open the Strait of Hormuz for commercial shipping, though a ceasefire seemed to be holding Tuesday even after the United Arab Emirates said Iran fired missiles and drones at it.",
-      "source": "PBS",
-      "url": "https://www.pbs.org/newshour/world/iran-wars-fragile-ceasefire-tested-in-u-s-attempt-to-open-the-strait-of-hormuz",
+      "headline": "Experts sound alarm as 'last shipment' from Hormuz reaches US: 'Going to be painful'",
+      "summary": "The final oil shipment out of the Strait of Hormuz arrived in California on Monday, sparking a major turning point for gas prices in the United States, several analysts and experts warned.\"The war in Iran and the closing of the Strait of Hormuz has actually b…",
+      "source": "Raw Story",
+      "url": "https://www.rawstory.com/gas-prices-2676852986/",
       "bloc": "western",
       "date": "2026-05-05",
-      "datetime": "2026-05-05T13:18:46Z",
+      "datetime": "2026-05-05T14:53:26Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -170,39 +222,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Transcript: Secretary of War Pete Hegseth and Chairman of the Joint Chiefs of Staff Gen. Dan Caine Hold a Press Briefing",
-      "summary": "SECRETARY OF WAR PETE HEGSETH: Well, as you know, President Trump has directed U.S. Central Command to restart the free flow of commerce through the Strait of Hormuz under the umbrella of Project Freedom. To be clear, this operation is separate and distinct f…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260505-dod01.htm",
+      "headline": "Global oil shortages to hit within weeks – Chevron CEO",
+      "summary": "Physical oil shortages could emerge globally within weeks due to the closure of the Strait of Hormuz, Chevron CEO Mike Wirth has warned Read Full Article at RT.com",
+      "source": "RT",
+      "url": "https://www.rt.com/news/639461-global-oil-shortages-chevron/",
       "bloc": "western",
       "date": "2026-05-05",
-      "datetime": "2026-05-05T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "WATCH LIVE: Hegseth and Caine hold briefing a day after new U.S. effort in Strait of Hormuz begins",
-      "summary": "The U.S. military said it fired on Iranian forces and sank six small boats targeting civilian ships as it moved to reopen the Strait of Hormuz on Monday.",
-      "source": "PBS",
-      "url": "https://www.pbs.org/newshour/world/watch-live-hegseth-and-caine-hold-briefing-a-day-after-new-u-s-effort-in-strait-of-hormuz-begins",
-      "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T11:55:04Z",
+      "datetime": "2026-05-05T14:27:19Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
