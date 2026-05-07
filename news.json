@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-07T14:25:31.474Z",
+  "ts": "2026-05-07T19:47:56.713Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-07T14:25:31.474Z"
+    "updatedAt": "2026-05-07T19:47:56.713Z"
   },
   "items": [
     {
-      "headline": "Iran ready for diplomacy to end war, but will uphold national rights, Pezeshkian tells Macron",
-      "summary": "President Masoud Pezeshkian of Iran has told his French counterpart Emmanuel Macron that the Islamic Republic is ready to pursue in earnest diplomatic channels to end the war, but insists on securing the rights of the Iranian nation.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv03.htm",
-      "bloc": "western",
+      "headline": "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point deal report — was someone trading on inside information?",
+      "summary": "Oil prices crash today: Nearly $920 million in crude oil shorts entered the market just 70 minutes before reports claimed the US and Iran were nearing a 14-point war deal. Oil prices then crashed over 12%, creating massive profits within hours. The timing sho…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/us/why-did-oil-prices-crash-today-920-million-crude-oil-short-placed-70-minutes-before-us-iran-14-point-deal-report-was-someone-trading-on-inside-information/articleshow/130859559.cms",
+      "bloc": "regional",
       "date": "2026-05-06",
-      "datetime": "2026-05-06T12:00:00Z",
+      "datetime": "2026-05-06T14:26:10Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,10 +40,10 @@
       "_from": "newsapi"
     },
     {
-      "headline": "China blasts 'illegitimate' war on Iran as it hosts FM Araghchi",
-      "summary": "China has hosted Iran's Foreign Minister Abbas Araghchi for talks in Beijing, with Chinese Foreign Minister Wang Yi calling the US-Israeli war on Tehran \"illegitimate\" and urging a complete ceasefire.",
+      "headline": "Iran ready for diplomacy to end war, but will uphold national rights, Pezeshkian tells Macron",
+      "summary": "President Masoud Pezeshkian of Iran has told his French counterpart Emmanuel Macron that the Islamic Republic is ready to pursue in earnest diplomatic channels to end the war, but insists on securing the rights of the Iranian nation.",
       "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv11.htm",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv03.htm",
       "bloc": "western",
       "date": "2026-05-06",
       "datetime": "2026-05-06T12:00:00Z",
@@ -118,13 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Wednesday: Hili dialogue",
-      "summary": "Welcome to a Hump Day (“Latha a’ Chnuic” in Scots Gaelic): May 5, 2026, and Great American Grump Day. Here’s one—posted right now, and before coffee: After coffee (note Hili on the cup drinking milk from a mug that her picture is on): It’s also National No Di…",
-      "source": "Whyevolutionistrue.com",
-      "url": "https://whyevolutionistrue.com/2026/05/06/wednesday-hili-dialogue-580/",
+      "headline": "China blasts 'illegitimate' war on Iran as it hosts FM Araghchi",
+      "summary": "China has hosted Iran's Foreign Minister Abbas Araghchi for talks in Beijing, with Chinese Foreign Minister Wang Yi calling the US-Israeli war on Tehran \"illegitimate\" and urging a complete ceasefire.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv11.htm",
       "bloc": "western",
       "date": "2026-05-06",
-      "datetime": "2026-05-06T11:08:38Z",
+      "datetime": "2026-05-06T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -144,13 +144,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran Sets Out Process for Hormuz Transit, Shipowners Wary",
-      "summary": "Iran has laid out an updated process for ships seeking to transit Hormuz, but several shipowners said they remained cautious about sending their vessels through until there are more details.",
-      "source": "Rigzone",
-      "url": "https://www.rigzone.com/news/wire/iran_sets_out_process_for_hormuz_transit_shipowners_wary-06-may-2026-183623-article/",
+      "headline": "Israel strike hits Beirut’s ‌suburbs for first time since Lebanon ceasefire began last month",
+      "summary": "US attacks Iranian-flagged ship as France says maritime group ready to escort vessels in Hormuz",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/05/06/israel-strike-hits-beiruts-suburbs-for-first-time-since-lebanon-ceasefire-began-last-month/",
       "bloc": "western",
       "date": "2026-05-06",
-      "datetime": "2026-05-06T13:41:48Z",
+      "datetime": "2026-05-06T19:08:13Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "U.S. Navy F/A-18 Super Hornet Disables Iranian-Flagged Tanker",
+      "summary": "CENTCOM says the jet targeted the rudder of M/T Hasna in the Gulf of Oman with its M61 Vulcan cannon to prevent it from reaching Iran as part of the U.S. blockade.  According to the official statement from U.S. Central Command (CENTCOM), the engagement took p…",
+      "source": "Theaviationist.com",
+      "url": "https://theaviationist.com/2026/05/06/u-s-navy-f-a-18-super-hornet-disables-iranian-flagged-tanker/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T18:46:37Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -170,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran Is Using Alternative Routes To Bypass US Naval Blockade",
-      "summary": "The United States and Israel's bombing campaign has left much of Iran's infrastructure and industries in tatters, disrupting domestic production and hiking prices for basic food items.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-rferl02.htm",
+      "headline": "5 ways the Iran standoff could end",
+      "summary": "Despite the US and Iran exchanging fire and new missile attacks aimed at the United Arab Emirates this week, the Trump administration maintains that the ceasefire that began in early April is still in effect. Iran’s attacks on commercial and US Navy ships are…",
+      "source": "Vox",
+      "url": "https://www.vox.com/politics/487934/iran-hormuz-ceasefire-end-five-scenarios",
       "bloc": "western",
       "date": "2026-05-06",
-      "datetime": "2026-05-06T12:00:00Z",
+      "datetime": "2026-05-06T18:30:02Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,65 +222,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Final Persian Gulf Oil Shipment Reaches California Amid Supply Fears",
-      "summary": "What happens when virtue signaling is mistaken for an energy policy\nThe post Final Persian Gulf Oil Shipment Reaches California Amid Supply Fears first appeared on Le·gal In·sur·rec·tion.",
-      "source": "Legalinsurrection.com",
-      "url": "https://legalinsurrection.com/2026/05/final-persian-gulf-oil-shipment-reaches-california-amid-supply-fears/",
+      "headline": "Shipping firms are being whipsawed by changing stances and risks as they wait for Hormuz to reopen",
+      "summary": "With hundreds of vessels still stuck in the Persian Gulf and costs piling up, shipping companies are being whipsawed by uncertainty over how and when the Strait of Hormuz might reopen more than two months into the Iran war",
+      "source": "Abcnews.com",
+      "url": "https://abcnews.com/US/wireStory/shipping-firms-whipsawed-changing-stances-risks-wait-hormuz-132716869",
       "bloc": "western",
       "date": "2026-05-06",
-      "datetime": "2026-05-06T11:00:12Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump Risks a Greater Catastrophe in the Iran Conflict",
-      "summary": "Michael T. Klare\n\n\n\nConsidering the costs so far as we wait on the precipice of another round of fighting.\r\n\n\r\n\n\nThe post Trump Risks a Greater Catastrophe in the Iran Conflict appeared first on The Nation.",
-      "source": "Thenation.com",
-      "url": "https://www.thenation.com/?post_type=article&p=596477",
-      "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T09:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The Closure of the Strait of Hormuz by Iran: Considerations over the Law of the Sea and Law of Naval Warfare",
-      "summary": "[Konstantinos Deligiannis-Virvos is a PhD Research Fellow with the Norwegian Centre for the Law of the Sea (NCLOS) at the Law Faculty of UiT-The Arctic University of Norway] The illegal armed attack against Iran by Israel and the US on February 28, 2026 promp…",
-      "source": "Opiniojuris.org",
-      "url": "http://opiniojuris.org/2026/05/06/the-closure-of-the-strait-of-hormuz-by-iran-considerations-over-the-law-of-the-sea-and-law-of-naval-warfare/",
-      "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T08:00:47Z",
+      "datetime": "2026-05-06T17:38:11Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -394,6 +368,31 @@
       "_from": "newsapi"
     },
     {
+      "headline": "India–Pakistan May 2025 War Shows Limitations of Air Power",
+      "summary": "On the night of May 6 and 7, 2025, the Indian Air Force (IAF) faced an unprecedented setback: The Pakistan Air Force (PAF) reportedly downed seven Indian aircraft during a high-intensity aerial engagement. This included the state-of-the-art Rafale fighters, r…",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/region/central_south_asia/india-pakistan-may-2025-war-shows-limitations-of-air-power/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T14:09:52Z",
+      "leaders": [
+        "General Asim Munir",
+        "Narendra Modi"
+      ],
+      "watch_terms": [
+        "Pakistan India LoC"
+      ],
+      "dimensions": [
+        "impulsivity",
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "May 2025 Air War: From Assumed Superiority to Operational Shock",
       "summary": "On the night of May 6 and 7, 2025, the Indian Air Force (IAF) faced an unprecedented setback: The Pakistan Air Force (PAF) downed seven Indian aircraft during a high-intensity aerial engagement. This included the state-of-the-art Rafale fighters, regarded as …",
       "source": "Fair Observer",
@@ -465,6 +464,30 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Analysis: Why Trump wants to end the war with Iran “here and now”, the Chinese factor behind the pressure for a deal",
+      "summary": "The visit to Beijing on May 14 and 15, the Strait of Hormuz, and the fear that the US President will appear weakened before Chinese President Xi Jinping\nThe post Analysis: Why Trump wants to end the war with Iran “here and now”, the Chinese factor behind the …",
+      "source": "Protothema.gr",
+      "url": "https://en.protothema.gr/2026/05/06/analysis-why-trump-wants-to-end-the-war-with-iran-here-and-now-the-chinese-factor-behind-the-pressure-for-a-deal/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T16:46:18Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -561,30 +584,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "U.S. lawmakers propose China threat resolution ahead of Trump-Xi summit",
-      "summary": "U.S. lawmakers across party lines on Friday introduced a resolution to express their concerns over China's threats toward Taiwan, with peace and stability across the Taiwan Strait as its stated focus, ahead of a planned summit between U.S. President Donald Tr…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/china/2026/05/china-260502-cna01.htm",
-      "bloc": "western",
-      "date": "2026-05-02",
-      "datetime": "2026-05-02T12:00:00Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },

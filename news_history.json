@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-07T14:24:26.285Z",
+  "updated": "2026-05-07T19:46:51.550Z",
   "retention_days": 30,
   "items": [
     {
@@ -23349,7 +23349,200 @@
       "_from": "newsapi",
       "first_seen": "2026-05-07T14:24:26.285Z",
       "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point deal report — was someone trading on inside information?",
+      "summary": "Oil prices crash today: Nearly $920 million in crude oil shorts entered the market just 70 minutes before reports claimed the US and Iran were nearing a 14-point war deal. Oil prices then crashed over 12%, creating massive profits within hours. The timing sho…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/us/why-did-oil-prices-crash-today-920-million-crude-oil-short-placed-70-minutes-before-us-iran-14-point-deal-report-was-someone-trading-on-inside-information/articleshow/130859559.cms",
+      "bloc": "regional",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T14:26:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T19:46:51.549Z",
+      "run_id": "2026-05-07T19:46"
+    },
+    {
+      "headline": "Israel strike hits Beirut’s ‌suburbs for first time since Lebanon ceasefire began last month",
+      "summary": "US attacks Iranian-flagged ship as France says maritime group ready to escort vessels in Hormuz",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/05/06/israel-strike-hits-beiruts-suburbs-for-first-time-since-lebanon-ceasefire-began-last-month/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T19:08:13Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T19:46:51.549Z",
+      "run_id": "2026-05-07T19:46"
+    },
+    {
+      "headline": "U.S. Navy F/A-18 Super Hornet Disables Iranian-Flagged Tanker",
+      "summary": "CENTCOM says the jet targeted the rudder of M/T Hasna in the Gulf of Oman with its M61 Vulcan cannon to prevent it from reaching Iran as part of the U.S. blockade.  According to the official statement from U.S. Central Command (CENTCOM), the engagement took p…",
+      "source": "Theaviationist.com",
+      "url": "https://theaviationist.com/2026/05/06/u-s-navy-f-a-18-super-hornet-disables-iranian-flagged-tanker/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T18:46:37Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T19:46:51.549Z",
+      "run_id": "2026-05-07T19:46"
+    },
+    {
+      "headline": "5 ways the Iran standoff could end",
+      "summary": "Despite the US and Iran exchanging fire and new missile attacks aimed at the United Arab Emirates this week, the Trump administration maintains that the ceasefire that began in early April is still in effect. Iran’s attacks on commercial and US Navy ships are…",
+      "source": "Vox",
+      "url": "https://www.vox.com/politics/487934/iran-hormuz-ceasefire-end-five-scenarios",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T18:30:02Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T19:46:51.549Z",
+      "run_id": "2026-05-07T19:46"
+    },
+    {
+      "headline": "Shipping firms are being whipsawed by changing stances and risks as they wait for Hormuz to reopen",
+      "summary": "With hundreds of vessels still stuck in the Persian Gulf and costs piling up, shipping companies are being whipsawed by uncertainty over how and when the Strait of Hormuz might reopen more than two months into the Iran war",
+      "source": "Abcnews.com",
+      "url": "https://abcnews.com/US/wireStory/shipping-firms-whipsawed-changing-stances-risks-wait-hormuz-132716869",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T17:38:11Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T19:46:51.549Z",
+      "run_id": "2026-05-07T19:46"
+    },
+    {
+      "headline": "India–Pakistan May 2025 War Shows Limitations of Air Power",
+      "summary": "On the night of May 6 and 7, 2025, the Indian Air Force (IAF) faced an unprecedented setback: The Pakistan Air Force (PAF) reportedly downed seven Indian aircraft during a high-intensity aerial engagement. This included the state-of-the-art Rafale fighters, r…",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/region/central_south_asia/india-pakistan-may-2025-war-shows-limitations-of-air-power/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T14:09:52Z",
+      "leaders": [
+        "General Asim Munir",
+        "Narendra Modi"
+      ],
+      "watch_terms": [
+        "Pakistan India LoC"
+      ],
+      "dimensions": [
+        "impulsivity",
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T19:46:51.549Z",
+      "run_id": "2026-05-07T19:46"
+    },
+    {
+      "headline": "Analysis: Why Trump wants to end the war with Iran “here and now”, the Chinese factor behind the pressure for a deal",
+      "summary": "The visit to Beijing on May 14 and 15, the Strait of Hormuz, and the fear that the US President will appear weakened before Chinese President Xi Jinping\nThe post Analysis: Why Trump wants to end the war with Iran “here and now”, the Chinese factor behind the …",
+      "source": "Protothema.gr",
+      "url": "https://en.protothema.gr/2026/05/06/analysis-why-trump-wants-to-end-the-war-with-iran-here-and-now-the-chinese-factor-behind-the-pressure-for-a-deal/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T16:46:18Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T19:46:51.549Z",
+      "run_id": "2026-05-07T19:46"
     }
   ],
-  "total_items_ever": 1157
+  "total_items_ever": 1164
 }
