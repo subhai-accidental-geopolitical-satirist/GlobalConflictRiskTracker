@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-07T08:41:23.788Z",
+  "ts": "2026-05-07T14:25:31.474Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-07T08:41:23.788Z"
+    "updatedAt": "2026-05-07T14:25:31.474Z"
   },
   "items": [
     {
-      "headline": "Trump Pauses Effort to Escort Ships in Strait of Hormuz, Citing Deal Progress",
-      "summary": "U.S. President Donald Trump said on Tuesday he would briefly pause an operation to help escort ships through the Strait of Hormuz, citing “great progress” toward a comprehensive agreement with Iran. Hours earlier, U.S. Secretary of State Marco Rubio had …",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/05/06/868693.htm",
+      "headline": "Iran ready for diplomacy to end war, but will uphold national rights, Pezeshkian tells Macron",
+      "summary": "President Masoud Pezeshkian of Iran has told his French counterpart Emmanuel Macron that the Islamic Republic is ready to pursue in earnest diplomatic channels to end the war, but insists on securing the rights of the Iranian nation.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv03.htm",
       "bloc": "western",
       "date": "2026-05-06",
-      "datetime": "2026-05-06T07:56:25Z",
+      "datetime": "2026-05-06T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran’s Foreign Minister Rules Out Military Solution to Hormuz Crisis",
-      "summary": "Iranian Foreign Minister Abbas Araghchi stated on Monday, May 4, that there is no military solution to the ongoing crisis in the Strait of Hormuz. He also warned the United States and the United Arab Emirates (UAE) against being drawn into a conflict with no …",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-06-iran-fm-rules-out-military-solution-hormuz-crisis.html",
+      "headline": "China blasts 'illegitimate' war on Iran as it hosts FM Araghchi",
+      "summary": "China has hosted Iran's Foreign Minister Abbas Araghchi for talks in Beijing, with Chinese Foreign Minister Wang Yi calling the US-Israeli war on Tehran \"illegitimate\" and urging a complete ceasefire.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv11.htm",
       "bloc": "western",
       "date": "2026-05-06",
-      "datetime": "2026-05-06T06:00:00Z",
+      "datetime": "2026-05-06T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump pauses US operation to escort ships through Strait of Hormuz as he seeks Iran deal",
-      "summary": "The US president said “great progress” has been made towards a deal to end the war in Iran.",
-      "source": "TheJournal.ie",
-      "url": "https://www.thejournal.ie/trump-pause-us-operation-strait-of-hormuz-iran-7031938-May2026/",
+      "headline": "May 6: Iran consolidates diplomatic, military leverage as Trump pulls plug on 'Project Freedom'",
+      "summary": "In another humiliating retreat, US President Donald Trump announced the \"pause\" in so-called \"Project Freedom\" to force open the Strait of Hormuz after facing asymmetric Iranian deterrence.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv01.htm",
       "bloc": "western",
       "date": "2026-05-06",
-      "datetime": "2026-05-06T05:49:08Z",
+      "datetime": "2026-05-06T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran war: Trump says Project Freedom 'paused'",
-      "summary": "US President Trump says the US effort to escort ships through the Strait of Hormuz, is on pause amid a push for an Iran deal. The US says it will now only operate defensively to enforce a naval blockade. DW has more. Rubio: Offensive operations against Iran a…",
-      "source": "DW (English)",
-      "url": "https://www.dw.com/en/iran-war-trump-says-project-freedom-paused/live-77059422",
+      "headline": "Iran rejects 'flawed' US resolution on Hormuz, says only viable solution is end of war",
+      "summary": "Iran's permanent mission to the United Nations has reiterated that the only viable solution in the strategic Strait of Hormuz is a permanent end of hostilities against the Islamic Republic.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv04.htm",
       "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T22:38:00Z",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,13 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "U.S. says Iran ceasefire holds despite exchange of fire; UAE under attack",
-      "summary": "The United Arab Emirates said it was under attack from Iranian missiles and drones on Tuesday, even as Washington said a shaky ceasefire was intact despite an exchange of fire the previous day as U.S. forces attempted to force ‌open the Strait of Hormuz. The …",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/world/us-says-iran-ceasefire-holds-despite-exchange-of-fire-uae-under-attack1",
+      "headline": "Wednesday: Hili dialogue",
+      "summary": "Welcome to a Hump Day (“Latha a’ Chnuic” in Scots Gaelic): May 5, 2026, and Great American Grump Day. Here’s one—posted right now, and before coffee: After coffee (note Hili on the cup drinking milk from a mug that her picture is on): It’s also National No Di…",
+      "source": "Whyevolutionistrue.com",
+      "url": "https://whyevolutionistrue.com/2026/05/06/wednesday-hili-dialogue-580/",
       "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T21:22:40Z",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T11:08:38Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -139,7 +139,111 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
-      "escalation": 3,
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran Sets Out Process for Hormuz Transit, Shipowners Wary",
+      "summary": "Iran has laid out an updated process for ships seeking to transit Hormuz, but several shipowners said they remained cautious about sending their vessels through until there are more details.",
+      "source": "Rigzone",
+      "url": "https://www.rigzone.com/news/wire/iran_sets_out_process_for_hormuz_transit_shipowners_wary-06-may-2026-183623-article/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T13:41:48Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran Is Using Alternative Routes To Bypass US Naval Blockade",
+      "summary": "The United States and Israel's bombing campaign has left much of Iran's infrastructure and industries in tatters, disrupting domestic production and hiking prices for basic food items.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-rferl02.htm",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Final Persian Gulf Oil Shipment Reaches California Amid Supply Fears",
+      "summary": "What happens when virtue signaling is mistaken for an energy policy\nThe post Final Persian Gulf Oil Shipment Reaches California Amid Supply Fears first appeared on Le·gal In·sur·rec·tion.",
+      "source": "Legalinsurrection.com",
+      "url": "https://legalinsurrection.com/2026/05/final-persian-gulf-oil-shipment-reaches-california-amid-supply-fears/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T11:00:12Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump Risks a Greater Catastrophe in the Iran Conflict",
+      "summary": "Michael T. Klare\n\n\n\nConsidering the costs so far as we wait on the precipice of another round of fighting.\r\n\n\r\n\n\nThe post Trump Risks a Greater Catastrophe in the Iran Conflict appeared first on The Nation.",
+      "source": "Thenation.com",
+      "url": "https://www.thenation.com/?post_type=article&p=596477",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T09:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -151,110 +255,6 @@
       "bloc": "western",
       "date": "2026-05-06",
       "datetime": "2026-05-06T08:00:47Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Hormuz and the end of the old oil order",
-      "summary": "The Middle East conflict makes clear that great‑power politics now matter as much as OPEC quotas and output Read Full Article at RT.com",
-      "source": "RT",
-      "url": "https://www.rt.com/india/639498-hormuz-and-end-of-old/",
-      "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T06:26:48Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US attempt to open the Strait of Hormuz tests Iran war’s fragile ceasefire",
-      "summary": "DUBAI, May 5: The Iran war risked reigniting after the US tried to force open the Strait of Hormuz for commercial shipping, though a ceasefire seemed to be holding Tuesday even after the United Arab Emirates said Iran fired missiles and drones at it. Iran’s p…",
-      "source": "Thehillstimes.in",
-      "url": "https://thehillstimes.in/international/us-attempt-to-open-the-strait-of-hormuz-tests-iran-wars-fragile-ceasefire",
-      "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T19:30:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran war: Will tensions escalate in the Strait of Hormuz?",
-      "summary": "Could US President Trump's \"Project Freedom\" clear the congestion in the Strait of Hormuz? Or could it lead to an escalation of hostilities? Questions and answers. Is a secure escort of tankers and merchant ships by US forces in the Strait of Hormuz possible?…",
-      "source": "DW (English)",
-      "url": "https://www.dw.com/en/iran-war-will-tensions-escalate-in-the-strait-of-hormuz/a-77057831",
-      "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T18:37:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The red, white and blue dome: Trump makes risky move to free Hormuz",
-      "summary": "In a pivotal development, the United States has launched 'Operation Freedom', aimed at safeguarding the vital shipping lanes of the Strait of Hormuz. This initiative is designed to maintain uninterrupted global energy supplies; however, it has provoked a seri…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/defence/the-red-white-and-blue-dome-trump-makes-risky-move-to-free-hormuz/articleshow/130834450.cms",
-      "bloc": "regional",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T16:45:45Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -386,6 +386,31 @@
       "dimensions": [
         "accountability",
         "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "May 2025 Air War: From Assumed Superiority to Operational Shock",
+      "summary": "On the night of May 6 and 7, 2025, the Indian Air Force (IAF) faced an unprecedented setback: The Pakistan Air Force (PAF) downed seven Indian aircraft during a high-intensity aerial engagement. This included the state-of-the-art Rafale fighters, regarded as …",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/region/central_south_asia/may-2025-air-war-from-assumed-superiority-to-operational-shock/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T14:09:52Z",
+      "leaders": [
+        "General Asim Munir",
+        "Narendra Modi"
+      ],
+      "watch_terms": [
+        "Pakistan India LoC"
+      ],
+      "dimensions": [
+        "impulsivity",
+        "survival"
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
@@ -718,6 +743,31 @@
       "variable_key": "nuclearSignalling",
       "event_type": "static_variable",
       "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US Navy Escorts More Tankers Through Strait of Hormuz as Tensions Ease Slightly",
+      "summary": "DUBAI, United Arab Emirates — U.S. naval forces successfully escorted three additional commercial tankers through the Strait of Hormuz on Wednesday, marking the most significant transit under Project Freedom since the operation began last week, as diplomatic …",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/us-navy-escorts-more-tankers-through-strait-hormuz-tensions-ease-slightly-1868300",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T13:09:54Z",
+      "leaders": [
+        "Donald J. Trump",
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Iran US diplomacy"
+      ],
+      "dimensions": [
+        "values",
+        "survival"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },

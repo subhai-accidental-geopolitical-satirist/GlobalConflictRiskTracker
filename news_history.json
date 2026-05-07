@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-07T08:40:18.542Z",
+  "updated": "2026-05-07T14:24:26.285Z",
   "retention_days": 30,
   "items": [
     {
@@ -23043,7 +23043,313 @@
       "_from": "newsapi",
       "first_seen": "2026-05-07T08:40:18.542Z",
       "run_id": "2026-05-07T08:40"
+    },
+    {
+      "headline": "Iran ready for diplomacy to end war, but will uphold national rights, Pezeshkian tells Macron",
+      "summary": "President Masoud Pezeshkian of Iran has told his French counterpart Emmanuel Macron that the Islamic Republic is ready to pursue in earnest diplomatic channels to end the war, but insists on securing the rights of the Iranian nation.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv03.htm",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "China blasts 'illegitimate' war on Iran as it hosts FM Araghchi",
+      "summary": "China has hosted Iran's Foreign Minister Abbas Araghchi for talks in Beijing, with Chinese Foreign Minister Wang Yi calling the US-Israeli war on Tehran \"illegitimate\" and urging a complete ceasefire.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv11.htm",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "May 6: Iran consolidates diplomatic, military leverage as Trump pulls plug on 'Project Freedom'",
+      "summary": "In another humiliating retreat, US President Donald Trump announced the \"pause\" in so-called \"Project Freedom\" to force open the Strait of Hormuz after facing asymmetric Iranian deterrence.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv01.htm",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "Iran rejects 'flawed' US resolution on Hormuz, says only viable solution is end of war",
+      "summary": "Iran's permanent mission to the United Nations has reiterated that the only viable solution in the strategic Strait of Hormuz is a permanent end of hostilities against the Islamic Republic.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-presstv04.htm",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "Wednesday: Hili dialogue",
+      "summary": "Welcome to a Hump Day (“Latha a’ Chnuic” in Scots Gaelic): May 5, 2026, and Great American Grump Day. Here’s one—posted right now, and before coffee: After coffee (note Hili on the cup drinking milk from a mug that her picture is on): It’s also National No Di…",
+      "source": "Whyevolutionistrue.com",
+      "url": "https://whyevolutionistrue.com/2026/05/06/wednesday-hili-dialogue-580/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T11:08:38Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "Iran Sets Out Process for Hormuz Transit, Shipowners Wary",
+      "summary": "Iran has laid out an updated process for ships seeking to transit Hormuz, but several shipowners said they remained cautious about sending their vessels through until there are more details.",
+      "source": "Rigzone",
+      "url": "https://www.rigzone.com/news/wire/iran_sets_out_process_for_hormuz_transit_shipowners_wary-06-may-2026-183623-article/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T13:41:48Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "Iran Is Using Alternative Routes To Bypass US Naval Blockade",
+      "summary": "The United States and Israel's bombing campaign has left much of Iran's infrastructure and industries in tatters, disrupting domestic production and hiking prices for basic food items.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260506-rferl02.htm",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "Final Persian Gulf Oil Shipment Reaches California Amid Supply Fears",
+      "summary": "What happens when virtue signaling is mistaken for an energy policy\nThe post Final Persian Gulf Oil Shipment Reaches California Amid Supply Fears first appeared on Le·gal In·sur·rec·tion.",
+      "source": "Legalinsurrection.com",
+      "url": "https://legalinsurrection.com/2026/05/final-persian-gulf-oil-shipment-reaches-california-amid-supply-fears/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T11:00:12Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "Trump Risks a Greater Catastrophe in the Iran Conflict",
+      "summary": "Michael T. Klare\n\n\n\nConsidering the costs so far as we wait on the precipice of another round of fighting.\r\n\n\r\n\n\nThe post Trump Risks a Greater Catastrophe in the Iran Conflict appeared first on The Nation.",
+      "source": "Thenation.com",
+      "url": "https://www.thenation.com/?post_type=article&p=596477",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T09:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "May 2025 Air War: From Assumed Superiority to Operational Shock",
+      "summary": "On the night of May 6 and 7, 2025, the Indian Air Force (IAF) faced an unprecedented setback: The Pakistan Air Force (PAF) downed seven Indian aircraft during a high-intensity aerial engagement. This included the state-of-the-art Rafale fighters, regarded as …",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/region/central_south_asia/may-2025-air-war-from-assumed-superiority-to-operational-shock/",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T14:09:52Z",
+      "leaders": [
+        "General Asim Munir",
+        "Narendra Modi"
+      ],
+      "watch_terms": [
+        "Pakistan India LoC"
+      ],
+      "dimensions": [
+        "impulsivity",
+        "survival"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
+    },
+    {
+      "headline": "US Navy Escorts More Tankers Through Strait of Hormuz as Tensions Ease Slightly",
+      "summary": "DUBAI, United Arab Emirates — U.S. naval forces successfully escorted three additional commercial tankers through the Strait of Hormuz on Wednesday, marking the most significant transit under Project Freedom since the operation began last week, as diplomatic …",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/us-navy-escorts-more-tankers-through-strait-hormuz-tensions-ease-slightly-1868300",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T13:09:54Z",
+      "leaders": [
+        "Donald J. Trump",
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Iran US diplomacy"
+      ],
+      "dimensions": [
+        "values",
+        "survival"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-07T14:24:26.285Z",
+      "run_id": "2026-05-07T14:24"
     }
   ],
-  "total_items_ever": 1146
+  "total_items_ever": 1157
 }
