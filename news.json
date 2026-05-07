@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-06T19:52:44.700Z",
+  "ts": "2026-05-07T03:34:50.524Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -8,11 +8,63 @@
     "claude": true
   },
   "live_variables": {
-    "oilPrice": null,
-    "oilStress": null,
-    "updatedAt": "2026-05-06T19:52:44.700Z"
+    "oilPrice": 118,
+    "oilStress": 81,
+    "updatedAt": "2026-05-07T03:34:50.524Z"
   },
   "items": [
+    {
+      "headline": "Iran war: Trump says Project Freedom 'paused'",
+      "summary": "US President Trump says the US effort to escort ships through the Strait of Hormuz, is on pause amid a push for an Iran deal. The US says it will now only operate defensively to enforce a naval blockade. DW has more. Rubio: Offensive operations against Iran a…",
+      "source": "DW (English)",
+      "url": "https://www.dw.com/en/iran-war-trump-says-project-freedom-paused/live-77059422",
+      "bloc": "western",
+      "date": "2026-05-05",
+      "datetime": "2026-05-05T22:38:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "U.S. says Iran ceasefire holds despite exchange of fire; UAE under attack",
+      "summary": "The United Arab Emirates said it was under attack from Iranian missiles and drones on Tuesday, even as Washington said a shaky ceasefire was intact despite an exchange of fire the previous day as U.S. forces attempted to force ‌open the Strait of Hormuz. The …",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/us-says-iran-ceasefire-holds-despite-exchange-of-fire-uae-under-attack1",
+      "bloc": "western",
+      "date": "2026-05-05",
+      "datetime": "2026-05-05T21:22:40Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "US-backed pipeline proposal targets global reliance on Strait of Hormuz amid Iran threats",
       "summary": "The Strait of Hormuz crisis is pushing Gulf states and the U.S. to develop alternative energy routes, reducing dependence on one vulnerable choke point.",
@@ -88,32 +140,6 @@
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US threatens 'devastating' response to any Iran attack on shipping through Strait of Hormuz",
-      "summary": "Oil prices climbed further after a new attack on the UAE, with the benchmark international contract Brent crude for July delivery jumping more than 5%.",
-      "source": "TheJournal.ie",
-      "url": "https://www.thejournal.ie/strait-of-hormuz-iran-us-7031089-May2026/",
-      "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T13:50:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -418,31 +444,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "\"Political Disaster for Donald Trump\": Jeremy Scahill on Stalled U.S.-Iran Talks",
-      "summary": "Negotiations between the United States and Iran to end the war are at an impasse as the conflict enters its third month. The Wall Street Journal reported late Tuesday that Trump has told aides to prepare for an extended blockade of Iranian ports to ramp up th…",
-      "source": "Democracy Now!",
-      "url": "https://www.democracynow.org/2026/4/29/jeremy_scahill_iran_us_negotiations_impasse",
-      "bloc": "western",
-      "date": "2026-04-29",
-      "datetime": "2026-04-29T12:13:45Z",
-      "leaders": [
-        "Vladimir Putin"
-      ],
-      "watch_terms": [
-        "Putin Ukraine ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "narcissism"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "China Watch: The Rise of a New Global Order Amidst the Persian Gulf War",
       "summary": "If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained, you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every …",
       "source": "Fair Observer",
@@ -563,6 +564,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Oil Futures Markets Still Too Complacent About Supply Shock",
+      "summary": "The oil futures market appears not to have caught up with the massive supply disruption from the Middle East yet—a supply shock that is now in its third month and lasting more than anyone expected in early March. Brent and WTI crude futures this week are trad…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Futures-Markets-Still-Too-Complacent-About-Supply-Shock.html",
+      "bloc": "western",
+      "date": "2026-05-06",
+      "datetime": "2026-05-06T00:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "GlobalData Identifies 'Top' Oil, Gas Themes for 2026",
       "summary": "GlobalData has identified the 'top' themes that will impact the oil and gas industry this year in a new strategic intelligence report.",
       "source": "Rigzone",
@@ -622,58 +649,6 @@
       "bloc": "western",
       "date": "2026-05-04",
       "datetime": "2026-05-04T12:48:11Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US-Iran war: FG earns N5tn oil windfall amid rising fuel hardship",
-      "summary": "Nigeria gains a N5.13tn oil windfall from the US-Iran conflict, boosting government revenue but leading to higher domestic fuel prices and public hardship.\n\nRead More: https://punchng.com/us-iran-war-fg-earns-n5tn-oil-windfall-amid-rising-fuel-hardship/",
-      "source": "The Punch",
-      "url": "https://punchng.com/us-iran-war-fg-earns-n5tn-oil-windfall-amid-rising-fuel-hardship/",
-      "bloc": "western",
-      "date": "2026-05-03",
-      "datetime": "2026-05-03T00:00:21Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Spirit Airlines Shuts Down, Cancels All Flights & Ends Era of Low Cost Airfare to Disney World",
-      "summary": "America’s largest ultra-low cost carrier Spirit Airlines announced an end to more than three decades of cheap flights after the company and federal government failed to reach a bailout agreement. This covers the shutdown, its immediate impact on travelers, an…",
-      "source": "Disneytouristblog.com",
-      "url": "https://www.disneytouristblog.com/spirit-airlines-shuts-down-cancels-all-flights-ends-era-of-low-cost-trips-to-disney-world/",
-      "bloc": "western",
-      "date": "2026-05-02",
-      "datetime": "2026-05-02T14:04:50Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
