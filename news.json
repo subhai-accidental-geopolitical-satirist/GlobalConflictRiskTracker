@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-08T14:01:02.925Z",
+  "ts": "2026-05-08T19:26:01.650Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,87 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-08T14:01:02.925Z"
+    "updatedAt": "2026-05-08T19:26:01.650Z"
   },
   "items": [
+    {
+      "headline": "Is the Iranian regime really in a \"state of collapse\" as Trump claims?",
+      "summary": "As Trump pushes for a deal with an Iranian regime he portrays as deeply fractured, analysts say power in Tehran may be shifting, but that doesn't mean disarray.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/trump-iran-government-state-of-collapse-analysts-evolution-not-fractures/",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T17:45:42Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Show HN: Daily AI-guessed odds of an Iran peace deal, vs. oil/gas prices",
+      "summary": "Iran reviewing US peace proposal as both sides inch toward one-page deal memo Daily analysis of Iran ceasefire and peace deal prospects.",
+      "source": "Iranpeacedeal.com",
+      "url": "https://iranpeacedeal.com/",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T16:23:32Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran’s Oil Industry Under Pressure as U.S. Naval Blockade Begins to Bite",
+      "summary": "An Iranian energy official just conceded something in a surprise admission that the US naval blockade has begun to bite the Islamic Republic's oil industry. According to new reporting in the NY Times: The blockade has halted Iran’s oil exports, choking off cr…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Irans-Oil-Industry-Under-Pressure-as-US-Naval-Blockade-Begins-to-Bite.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T14:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Hamas: Israel adheres to no obligations, ceasefire talks at standstill over broken commitments",
       "summary": "The leader of the Hamas resistance movement in the Gaza Strip says the occupying Israeli regime adheres to no obligations and reneges on all agreements it has already signed.",
@@ -66,91 +144,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Turkiye unveils its first intercontinental ballistic missile: What we know",
-      "summary": "The Yildirimhan ICBM has a range 6,000km, with a maximum speed of Mach 25 and a payload capacity of 3,000kg.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/5/7/turkiye-unveils-its-first-intercontinental-ballistic-missile-what-we-know",
-      "bloc": "regional",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T11:40:38Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran War: Iran Pushes Back Against Trump “Deal Is Nigh” as More Evidence of US Failure Emerges, Including Gulf State Mini-Revolt, Even More US Base Destruction, Jet Fuel Price Rise Damage, Conservative Opposition to Trump Climbdown",
-      "summary": "Today's Iran war news: The US again engages in market-manipulating deal head-fakery as more evidence of its weak position accumulates.",
-      "source": "Nakedcapitalism.com",
-      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-iran-pushes-back-against-trump-deal-is-nigh-as-more-evidence-of-us-failure-emerges-including-gulf-state-mini-revolt-even-more-us-base-destruction-jet-fuel-price-rise-damage-conserva.html",
+      "headline": "UAE Running Ghost Tankers Through Hormuz to Escape Iran’s Blockade",
+      "summary": "While conventional wisdom, especially after Trump’s counter-blockade of Iran’s blockade, holds that the Strait of Hormuz is completely blocked, the reality is that the UAE is now running loaded crude tankers through the Iranian-controlled Strait of Hormuz wit…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/UAE-Running-Ghost-Tankers-Through-Hormuz-to-Escape-Irans-Blockade.html",
       "bloc": "western",
       "date": "2026-05-07",
-      "datetime": "2026-05-07T09:30:33Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Why disarming Hezbollah is about much more than guns and rockets",
-      "summary": "Facing an existential breaking point, Lebanon’s government is attempting to disarm Hezbollah and assert state sovereignty following a fragile, often-violated April ceasefire with Israel. The path forward remains a dangerous gamble.",
-      "source": "CBC News",
-      "url": "https://www.cbc.ca/news/world/lebanon-hezbollah-disarm-9.7189327",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T08:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Exclusive-Hungry to sell, UAE slips hidden oil tankers through Strait of Hormuz",
-      "summary": "SINGAPORE/LONDON, May 7 (Reuters) - With their location trackers shut off to avoid Iranian attacks, the United Arab Emirates and buyers have recently sailed ...",
-      "source": "Yahoo Entertainment",
-      "url": "https://finance.yahoo.com/news/exclusive-hungry-sell-uae-slips-104739397.html",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T10:58:35Z",
+      "datetime": "2026-05-07T17:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -170,13 +170,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran reviewing US proposal as Trump pressures Tehran for agreement on deal to end war",
-      "summary": "Iran is reviewing US proposals to end the war, amid Trump's threats of bombing if a deal isn't reached.",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/iran-reviewing-us-proposal-as-trump-pressures-tehran-for-agreement-on-deal-to-end-war/article70950319.ece",
+      "headline": "U.S. intelligence says Iran can outlast Trump's Hormuz blockade for months...",
+      "summary": "A confidential CIA analysis delivered to administration policymakers this week concludes that Iran can survive the U.S. naval blockade for",
+      "source": "Dnyuz.com",
+      "url": "https://dnyuz.com/2026/05/07/u-s-intelligence-says-iran-can-outlast-trumps-hormuz-blockade-for-months/",
       "bloc": "western",
       "date": "2026-05-07",
-      "datetime": "2026-05-07T09:26:36Z",
+      "datetime": "2026-05-07T16:00:13Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran Sets Out Process for Hormuz Transit But Shipowners Are Wary",
-      "summary": "Iran has laid out an updated process for ships seeking to transit Hormuz, but several shipowners said they remained cautious about sending their vessels through until there are more details about the conditions that may be imposed. Iran’s Islamic Revolutionar…",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/05/07/868868.htm",
+      "headline": "Iran reviewing U.S. proposal as Trump pressures Tehran for agreement on deal to end war",
+      "summary": "Iran said it was reviewing the latest American proposals to end the war after U.S. President Donald Trump threatened the country with a new wave of bombing unless a deal is reached that includes reopening the crucial Strait of Hormuz to international shipping.",
+      "source": "PBS",
+      "url": "https://www.pbs.org/newshour/world/iran-reviewing-u-s-proposal-as-trump-pressures-tehran-for-agreement-on-deal-to-end-war",
       "bloc": "western",
       "date": "2026-05-07",
-      "datetime": "2026-05-07T09:02:02Z",
+      "datetime": "2026-05-07T15:13:23Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -222,13 +222,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran Reviewing U.S. Proposal As Trump Pressures Tehran To Agree To Peace Deal",
-      "summary": "Hope that the two-month conflict could soon end buoyed international markets on Thursday.",
-      "source": "HuffPost",
-      "url": "https://www.huffpost.com/entry/iran-war-negotiations_n_69fc4cfbe4b065a1677c26e9",
+      "headline": "How Iran Is Bypassing the Strait of Hormuz Blockade",
+      "summary": "The United States and Israel’s bombing campaign has left much of Iran’s infrastructure and industries in tatters, disrupting domestic production and hiking prices for basic food items.A US sea blockade has intensified the economic pressure on Iran, hampering …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/How-Iran-Is-Bypassing-the-Strait-of-Hormuz-Blockade.html",
       "bloc": "western",
       "date": "2026-05-07",
-      "datetime": "2026-05-07T08:39:16Z",
+      "datetime": "2026-05-07T15:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",

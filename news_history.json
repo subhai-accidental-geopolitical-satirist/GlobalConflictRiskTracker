@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-08T13:59:57.759Z",
+  "updated": "2026-05-08T19:24:56.433Z",
   "retention_days": 30,
   "items": [
     {
@@ -23142,7 +23142,203 @@
       "_from": "newsapi",
       "first_seen": "2026-05-08T13:59:57.758Z",
       "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Is the Iranian regime really in a \"state of collapse\" as Trump claims?",
+      "summary": "As Trump pushes for a deal with an Iranian regime he portrays as deeply fractured, analysts say power in Tehran may be shifting, but that doesn't mean disarray.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/trump-iran-government-state-of-collapse-analysts-evolution-not-fractures/",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T17:45:42Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T19:24:56.433Z",
+      "run_id": "2026-05-08T19:24"
+    },
+    {
+      "headline": "Show HN: Daily AI-guessed odds of an Iran peace deal, vs. oil/gas prices",
+      "summary": "Iran reviewing US peace proposal as both sides inch toward one-page deal memo Daily analysis of Iran ceasefire and peace deal prospects.",
+      "source": "Iranpeacedeal.com",
+      "url": "https://iranpeacedeal.com/",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T16:23:32Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T19:24:56.433Z",
+      "run_id": "2026-05-08T19:24"
+    },
+    {
+      "headline": "Iran’s Oil Industry Under Pressure as U.S. Naval Blockade Begins to Bite",
+      "summary": "An Iranian energy official just conceded something in a surprise admission that the US naval blockade has begun to bite the Islamic Republic's oil industry. According to new reporting in the NY Times: The blockade has halted Iran’s oil exports, choking off cr…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Irans-Oil-Industry-Under-Pressure-as-US-Naval-Blockade-Begins-to-Bite.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T14:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T19:24:56.433Z",
+      "run_id": "2026-05-08T19:24"
+    },
+    {
+      "headline": "UAE Running Ghost Tankers Through Hormuz to Escape Iran’s Blockade",
+      "summary": "While conventional wisdom, especially after Trump’s counter-blockade of Iran’s blockade, holds that the Strait of Hormuz is completely blocked, the reality is that the UAE is now running loaded crude tankers through the Iranian-controlled Strait of Hormuz wit…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/UAE-Running-Ghost-Tankers-Through-Hormuz-to-Escape-Irans-Blockade.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T17:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T19:24:56.433Z",
+      "run_id": "2026-05-08T19:24"
+    },
+    {
+      "headline": "U.S. intelligence says Iran can outlast Trump's Hormuz blockade for months...",
+      "summary": "A confidential CIA analysis delivered to administration policymakers this week concludes that Iran can survive the U.S. naval blockade for",
+      "source": "Dnyuz.com",
+      "url": "https://dnyuz.com/2026/05/07/u-s-intelligence-says-iran-can-outlast-trumps-hormuz-blockade-for-months/",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T16:00:13Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T19:24:56.433Z",
+      "run_id": "2026-05-08T19:24"
+    },
+    {
+      "headline": "Iran reviewing U.S. proposal as Trump pressures Tehran for agreement on deal to end war",
+      "summary": "Iran said it was reviewing the latest American proposals to end the war after U.S. President Donald Trump threatened the country with a new wave of bombing unless a deal is reached that includes reopening the crucial Strait of Hormuz to international shipping.",
+      "source": "PBS",
+      "url": "https://www.pbs.org/newshour/world/iran-reviewing-u-s-proposal-as-trump-pressures-tehran-for-agreement-on-deal-to-end-war",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T15:13:23Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T19:24:56.433Z",
+      "run_id": "2026-05-08T19:24"
+    },
+    {
+      "headline": "How Iran Is Bypassing the Strait of Hormuz Blockade",
+      "summary": "The United States and Israel’s bombing campaign has left much of Iran’s infrastructure and industries in tatters, disrupting domestic production and hiking prices for basic food items.A US sea blockade has intensified the economic pressure on Iran, hampering …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/How-Iran-Is-Bypassing-the-Strait-of-Hormuz-Blockade.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T15:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T19:24:56.433Z",
+      "run_id": "2026-05-08T19:24"
     }
   ],
-  "total_items_ever": 1190
+  "total_items_ever": 1197
 }
