@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-08T03:29:13.970Z",
+  "updated": "2026-05-08T07:47:02.232Z",
   "retention_days": 30,
   "items": [
     {
@@ -22615,7 +22615,202 @@
       "_from": "newsapi",
       "first_seen": "2026-05-08T03:29:13.970Z",
       "run_id": "2026-05-08T03:29"
+    },
+    {
+      "headline": "U.S.-Iran Ceasefire Holds Despite Strait of Hormuz Standoff, Pentagon Chief Says",
+      "summary": "U.S.-Iran Ceasefire Remains Intact, Hegseth Says The ceasefire between the United States and Iran remains in place, Pentagon chief Pete Hegseth told reporters on Tuesday, even after the highest level of hostilities since the truce took effect on April 8. Hegs…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-07-ceasefire-holds-despite-strait-of-hormuz-standoff.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T07:47:02.232Z",
+      "run_id": "2026-05-08T07:47"
+    },
+    {
+      "headline": "Trump says Iran deal 'very possible' but threatens strikes if talks fail",
+      "summary": "U.S. President Donald Trump said Wednesday he believed a deal with Iran was \"very possible\" but threatened to again bomb the country if negotiations fell apart.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-says-iran-deal-very-possible-but-threatens-strikes-if-talks-fail-221899",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T06:42:55Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T07:47:02.232Z",
+      "run_id": "2026-05-08T07:47"
+    },
+    {
+      "headline": "Pakistan brokers fragile truce: U.S. and Iran edge toward 30-day ceasefire",
+      "summary": "A fragile one-page U.S.-Iran memorandum could temporarily halt hostilities in the Strait of Hormuz while triggering 30 days of negotiations. Iran’s uranium enrichment moratorium and U.S. sanctions relief are central to the deal, but Tehran remains skeptical o…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-07-pakistan-truce-iran-ceasefire.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T07:47:02.232Z",
+      "run_id": "2026-05-08T07:47"
+    },
+    {
+      "headline": "News24 | Trump hints at end of Iran war: ‘We’ve had very good talks’, but key US demands unresolved",
+      "summary": "US President Donald Trump predicted a swift end to the war with Iran as Tehran considered a US peace proposal that sources said would formally end the conflict while leaving unresolved key US demands that Iran ‌suspend its nuclear programme and reopen the Str…",
+      "source": "News24",
+      "url": "https://www.news24.com/world/trump-hints-at-end-of-iran-war-weve-had-very-good-talks-but-key-us-demands-unresolved-20260507-0300",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T05:00:32Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T07:47:02.232Z",
+      "run_id": "2026-05-08T07:47"
+    },
+    {
+      "headline": "Malaysia’s Hotline to Tehran",
+      "summary": "When Malaysian oil tankers became stranded in the Persian Gulf, Prime Minister Anwar Ibrahim phoned a friend.",
+      "source": "The Diplomat",
+      "url": "https://thediplomat.com/2026/05/malaysias-hotline-to-tehran/",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T04:28:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T07:47:02.232Z",
+      "run_id": "2026-05-08T07:47"
+    },
+    {
+      "headline": "Trump sees swift end to war as Iran reviews US peace deal",
+      "summary": "US President Donald Trump predicted a swift end to the war with Iran as Tehran considers a US peace proposal that ⁠sources said would formally end the conflict while leaving unresolved key US demands that Iran suspend its nuclear programme and reopen the Stra…",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/middle-east/2026/0507/1572082-middle-east-iran-us/",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T04:16:53Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T07:47:02.232Z",
+      "run_id": "2026-05-08T07:47"
+    },
+    {
+      "headline": "Germany’s new militarization: Revival of the spirit or blatant revanchism? (by Dmitry Medvedev)",
+      "summary": "On the eve of Victory Day Read Full Article at RT.com",
+      "source": "RT",
+      "url": "https://www.rt.com/news/639537-germanys-new-militarization-revanchism/",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T05:20:18Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T07:47:02.232Z",
+      "run_id": "2026-05-08T07:47"
     }
   ],
-  "total_items_ever": 1171
+  "total_items_ever": 1178
 }
