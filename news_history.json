@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-08T07:47:02.232Z",
+  "updated": "2026-05-08T13:59:57.759Z",
   "retention_days": 30,
   "items": [
     {
@@ -22810,7 +22810,339 @@
       "_from": "newsapi",
       "first_seen": "2026-05-08T07:47:02.232Z",
       "run_id": "2026-05-08T07:47"
+    },
+    {
+      "headline": "Hamas: Israel adheres to no obligations, ceasefire talks at standstill over broken commitments",
+      "summary": "The leader of the Hamas resistance movement in the Gaza Strip says the occupying Israeli regime adheres to no obligations and reneges on all agreements it has already signed.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260507-presstv04.htm",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Living Nostradamus makes terrifying prediction about when Iran conflict will end",
+      "summary": "Athos Salomé has made a name for himself in the world of clairvoyance in recent years.",
+      "source": "LADbible",
+      "url": "https://www.ladbible.com/news/living-nostradamus-athos-salome-iran-conflict-end-515211-20260507",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T11:47:04Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Turkiye unveils its first intercontinental ballistic missile: What we know",
+      "summary": "The Yildirimhan ICBM has a range 6,000km, with a maximum speed of Mach 25 and a payload capacity of 3,000kg.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/7/turkiye-unveils-its-first-intercontinental-ballistic-missile-what-we-know",
+      "bloc": "regional",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T11:40:38Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Iran War: Iran Pushes Back Against Trump “Deal Is Nigh” as More Evidence of US Failure Emerges, Including Gulf State Mini-Revolt, Even More US Base Destruction, Jet Fuel Price Rise Damage, Conservative Opposition to Trump Climbdown",
+      "summary": "Today's Iran war news: The US again engages in market-manipulating deal head-fakery as more evidence of its weak position accumulates.",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-iran-pushes-back-against-trump-deal-is-nigh-as-more-evidence-of-us-failure-emerges-including-gulf-state-mini-revolt-even-more-us-base-destruction-jet-fuel-price-rise-damage-conserva.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T09:30:33Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Why disarming Hezbollah is about much more than guns and rockets",
+      "summary": "Facing an existential breaking point, Lebanon’s government is attempting to disarm Hezbollah and assert state sovereignty following a fragile, often-violated April ceasefire with Israel. The path forward remains a dangerous gamble.",
+      "source": "CBC News",
+      "url": "https://www.cbc.ca/news/world/lebanon-hezbollah-disarm-9.7189327",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T08:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Exclusive-Hungry to sell, UAE slips hidden oil tankers through Strait of Hormuz",
+      "summary": "SINGAPORE/LONDON, May 7 (Reuters) - With their location trackers shut off to avoid Iranian attacks, the United Arab Emirates and buyers have recently sailed ...",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/exclusive-hungry-sell-uae-slips-104739397.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T10:58:35Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Iran reviewing US proposal as Trump pressures Tehran for agreement on deal to end war",
+      "summary": "Iran is reviewing US proposals to end the war, amid Trump's threats of bombing if a deal isn't reached.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/iran-reviewing-us-proposal-as-trump-pressures-tehran-for-agreement-on-deal-to-end-war/article70950319.ece",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T09:26:36Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Iran Sets Out Process for Hormuz Transit But Shipowners Are Wary",
+      "summary": "Iran has laid out an updated process for ships seeking to transit Hormuz, but several shipowners said they remained cautious about sending their vessels through until there are more details about the conditions that may be imposed. Iran’s Islamic Revolutionar…",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/international/2026/05/07/868868.htm",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T09:02:02Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Iran Reviewing U.S. Proposal As Trump Pressures Tehran To Agree To Peace Deal",
+      "summary": "Hope that the two-month conflict could soon end buoyed international markets on Thursday.",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/iran-war-negotiations_n_69fc4cfbe4b065a1677c26e9",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T08:39:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Shipping giant boss warns Iran war will have bigger impact in coming months as customers face price hikes",
+      "summary": "Maersk said the Iran war had introduced an \"additional layer of uncertainty\" as it reported first-quarter earnings on Thursday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/07/maersk-ceo-warns-iran-war-will-have-bigger-impact-in-coming-months.html",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T08:36:48Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "The Climate Reckoning That the Nuclear Arms Control Can’t Ignore",
+      "summary": "At 8:15 AM on August 6, 1945, a 9,000-pound atomic bomb detonated 1,900 feet above Hiroshima\r\n, instantly killing 70,000 people. Three days later, a second bomb exploded over Nagasaki, killing another 40,000.The sheer scale of destruction—that humans could an…",
+      "source": "Common Dreams",
+      "url": "https://www.commondreams.org/opinion/nuclear-weapons-climate-change",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T12:35:01Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
+    },
+    {
+      "headline": "Drone Strikes, Deep Strikes: How Ukraine's Long-Range Air Attacks Are Hurting Russia",
+      "summary": "Russia's Leningrad Oblast lies some 600 kilometers from the closest corner of Ukraine.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/05/ukraine-260507-rferl03.htm",
+      "bloc": "western",
+      "date": "2026-05-07",
+      "datetime": "2026-05-07T12:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-08T13:59:57.758Z",
+      "run_id": "2026-05-08T13:59"
     }
   ],
-  "total_items_ever": 1178
+  "total_items_ever": 1190
 }
