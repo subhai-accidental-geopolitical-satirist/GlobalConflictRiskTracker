@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-09T03:29:31.269Z",
+  "ts": "2026-05-09T08:02:29.909Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,87 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-09T03:29:31.269Z"
+    "updatedAt": "2026-05-09T08:02:29.909Z"
   },
   "items": [
+    {
+      "headline": "Trumpâs War Trap: How His Ego Is Burning the World",
+      "summary": "Introduction: The Escalation Trap I have spent decades watching the machinery of geopolitical power, and I have never seen a more obvious escalation trap than the one Donald Trump has walked into with Iran. Each time he claims victory, the situation deteriora…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-08-trumps-war-trap-ego-burning-the-world.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "France Deploys Aircraft Carrier to Red Sea as Diplomatic Push Intensifies Over Strait of Hormuz Crisis",
+      "summary": "France has deployed its only aircraft carrier, the Charles de Gaulle, to the Red Sea, officials said Wednesday. The carrier group crossed the Suez Canal on May 6 and is expected to reach its operating area in the coming days, according to a statement from the…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-08-france-deploys-aircraft-carier-to-red-sea.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "UAE reports drone, missile attack as Iran war ceasefire is challenged",
+      "summary": "UAE responds to missile and drone attacks as Iran war ceasefire faces new challenges amid US military interventions.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/uae-reports-drone-missile-attack-as-iran-war-ceasefire-is-challenged/article70953823.ece",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T04:47:28Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Iran creates new Strait of Hormuz shipping authority amid US tensions",
       "summary": "The move comes as Tehran reviews fresh US proposals aimed at ending the conflict, while sporadic exchanges of fire and explosions near key Iranian locations underline the fragility of the ceasefire",
@@ -66,79 +144,53 @@
       "_from": "newsapi"
     },
     {
-      "headline": "After Beirut strike, Netanyahu says 'no immunity' for militants",
-      "summary": "Prime Minister Benjamin Netanyahu said on Thursday there was no &quot;immunity&quot; for Israel's enemies, a day after the Israeli military targeted a Hezbollah commander in its first strike on Beirut's southern suburbs since ‌a ceasefire declared last month.…",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/world/after-beirut-strike-netanyahu-says-%27no-immunity%27-for-militants1",
+      "headline": "Could Russia Follow the “Hormuz Playbook” in the Baltic and Black Seas?",
+      "summary": "On the eve of the U.S.-Israeli strikes on Iran, 56 tankers sailed through the Strait of Hormuz. Two days later, Lloyd’s List, the maritime industry’s journal of record, counted just seven tankers and a single gas carrier — all small and three of them shadow-f…",
+      "source": "War on the Rocks",
+      "url": "https://warontherocks.com/could-russia-follow-the-hormuz-playbook-in-the-baltic-and-black-seas/",
       "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T21:38:29Z",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T07:15:22Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Is the Iranian regime really in a \"state of collapse\" as Trump claims?",
-      "summary": "As Trump pushes for a deal with an Iranian regime he portrays as deeply fractured, analysts say power in Tehran may be shifting, but that doesn't mean disarray.",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/news/trump-iran-government-state-of-collapse-analysts-evolution-not-fractures/",
+      "headline": "Global oil markets rally as U.S.-Iran peace talks signal potential reopening of Strait of Hormuz",
+      "summary": "Brent crude oil prices plunged nearly 11% to below $98 per barrel on Wednesday May 6 as reports emerged that the United States and Iran are nearing a peace agreement to end hostilities and reopen the Strait of Hormuz. President Donald Trump announced he was p…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-08-global-oil-markets-rally-us-iran-peace-talks.html",
       "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T17:45:42Z",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Show HN: Daily AI-guessed odds of an Iran peace deal, vs. oil/gas prices",
-      "summary": "Iran reviewing US peace proposal as both sides inch toward one-page deal memo Daily analysis of Iran ceasefire and peace deal prospects.",
-      "source": "Iranpeacedeal.com",
-      "url": "https://iranpeacedeal.com/",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T16:23:32Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -192,58 +244,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran accuses US of attacking vessels in Strait of Hormuz in breach of ceasefire",
-      "summary": "Trump has threatened Iran with an intensified bombing campaign as 1,500 ships remain trapped by the blockade.",
-      "source": "TheJournal.ie",
-      "url": "https://www.thejournal.ie/iran-us-ceasefire-strait-of-hormuz-blockade-7033878-May2026/",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T21:52:34Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Adnoc LNG Tankers Go Dark to Get Gas Through Hormuz",
-      "summary": "Abu Dhabi National Oil Co. has managed to keep a trickle of liquefied natural gas exports moving through the Strait of Hormuz by concealing tanker locations.",
-      "source": "Rigzone",
-      "url": "https://www.rigzone.com/news/wire/adnoc_lng_tankers_go_dark_to_get_gas_through_hormuz-07-may-2026-183636-article/",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T20:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -342,6 +342,31 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Russia downs 264 Ukrainian drones during Victory Day ceasefire, warns of retaliation",
+      "summary": "Russia intercepted 264 Ukrainian drones overnight despite declaring a 72-hour Victory Day ceasefire. Ukraine targeted 16 Russian regions, dismissing the truce as a propaganda move while damaging strategic sites. Russia threatened massive retaliation against K…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-08-russia-downs-ukrainian-drones-victory-ceasefire.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T06:00:00Z",
+      "leaders": [
+        "Vladimir Putin"
+      ],
+      "watch_terms": [
+        "Putin Ukraine ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "narcissism"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
