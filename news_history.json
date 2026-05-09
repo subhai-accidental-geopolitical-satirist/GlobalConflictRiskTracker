@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-09T08:01:24.732Z",
+  "updated": "2026-05-09T13:25:29.649Z",
   "retention_days": 30,
   "items": [
     {
@@ -22993,7 +22993,203 @@
       "_from": "newsapi",
       "first_seen": "2026-05-09T08:01:24.732Z",
       "run_id": "2026-05-09T08:01"
+    },
+    {
+      "headline": "Links 5/8/2026",
+      "summary": "Our daily links: WHO and CDC sow Hantavirus confusion, Ukraine ignores Russian ceasefire warnings, US attacks Iran again, and reverse empire dysmorphia.",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/links-5-8-2026.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T10:59:58Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T13:25:29.649Z",
+      "run_id": "2026-05-09T13:25"
+    },
+    {
+      "headline": "UAE comes under attack from Iranian drones as oil prices go back up over $100 a barrel despite Trump insisting ceasefire is still on",
+      "summary": "The United Arab Emirates responded to a missile and drone attack early this morning, which further strained the fragile ceasefire between the US and Iran.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15800877/UAE-Iranian-drones-oil-prices-Trump-ceasefire-on.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T10:31:25Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T13:25:29.649Z",
+      "run_id": "2026-05-09T13:25"
+    },
+    {
+      "headline": "Iran War: Lull Before Expected Big Strikes or Is Trump Stuck?",
+      "summary": "Today's Iran war news: More dithering and skirmishes. The calm before a big storm or a move to an end with a whimper, not a bang?",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-lull-before-expected-big-strikes-or-is-trump-stuck.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T09:53:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T13:25:29.649Z",
+      "run_id": "2026-05-09T13:25"
+    },
+    {
+      "headline": "Iran seizes US-sanctioned oil tanker in Sea of Oman",
+      "summary": "Iran said on Friday it redirected a US-sanctioned oil tanker carrying Iranian oil back to its shores, though it was unclear from its statement why it would have returned it.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15801203/Iran-seizes-US-sanctioned-oil-tanker-Sea-Oman.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T11:08:07Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T13:25:29.649Z",
+      "run_id": "2026-05-09T13:25"
+    },
+    {
+      "headline": "Iran captures tanker in Gulf of Oman amid US maritime tensions",
+      "summary": "Increased US-Iran tensions may disrupt Strait of Hormuz shipping, impacting global oil markets and prompting diplomatic or military responses.\nThe post Iran captures tanker in Gulf of Oman amid US maritime tensions appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/iran-captures-tanker-in-gulf-of-oman-amid-us-maritime-tensions/",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T10:20:42Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T13:25:29.649Z",
+      "run_id": "2026-05-09T13:25"
+    },
+    {
+      "headline": "Strait of Hormuz Remains Heavily Restricted Amid US-Iran Clashes, With Only 5% of Normal Traffic Flowing",
+      "summary": "DUBAI, United Arab Emirates — The Strait of Hormuz, the critical chokepoint through which about 20% of global oil and liquefied natural gas typically passes, stayed under severe restriction Thursday as fresh US-Iran naval clashes threatened a fragile ceasefir…",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/strait-hormuz-remains-heavily-restricted-amid-us-iran-clashes-only-5-normal-traffic-flowing-1868411",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T09:43:35Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T13:25:29.649Z",
+      "run_id": "2026-05-09T13:25"
+    },
+    {
+      "headline": "Sensex today | Stock Market Highlights: Benchmark indices end lower; Sensex drops 516 pts to 77,328, Nifty closes at 24,176 amid West Asia tensions",
+      "summary": "Sensex, Nifty, Share Prices: Indian equity markets continued to trade lower on Friday as escalating US-Iran tensions near the Strait of Hormuz rattled global sentiment, while sustained foreign investor selling and rising geopolitical uncertainty kept traders …",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-8th-may-2026/article70953659.ece",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T10:52:49Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T13:25:29.649Z",
+      "run_id": "2026-05-09T13:25"
     }
   ],
-  "total_items_ever": 1211
+  "total_items_ever": 1218
 }

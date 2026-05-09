@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-09T08:02:29.909Z",
+  "ts": "2026-05-09T13:26:34.804Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,87 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-09T08:02:29.909Z"
+    "updatedAt": "2026-05-09T13:26:34.804Z"
   },
   "items": [
+    {
+      "headline": "Links 5/8/2026",
+      "summary": "Our daily links: WHO and CDC sow Hantavirus confusion, Ukraine ignores Russian ceasefire warnings, US attacks Iran again, and reverse empire dysmorphia.",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/links-5-8-2026.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T10:59:58Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "UAE comes under attack from Iranian drones as oil prices go back up over $100 a barrel despite Trump insisting ceasefire is still on",
+      "summary": "The United Arab Emirates responded to a missile and drone attack early this morning, which further strained the fragile ceasefire between the US and Iran.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15800877/UAE-Iranian-drones-oil-prices-Trump-ceasefire-on.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T10:31:25Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran War: Lull Before Expected Big Strikes or Is Trump Stuck?",
+      "summary": "Today's Iran war news: More dithering and skirmishes. The calm before a big storm or a move to an end with a whimper, not a bang?",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-lull-before-expected-big-strikes-or-is-trump-stuck.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T09:53:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Trumpâs War Trap: How His Ego Is Burning the World",
       "summary": "Introduction: The Escalation Trap I have spent decades watching the machinery of geopolitical power, and I have never seen a more obvious escalation trap than the one Donald Trump has walked into with Iran. Each time he claims victory, the situation deteriora…",
@@ -66,80 +144,80 @@
       "_from": "newsapi"
     },
     {
-      "headline": "UAE reports drone, missile attack as Iran war ceasefire is challenged",
-      "summary": "UAE responds to missile and drone attacks as Iran war ceasefire faces new challenges amid US military interventions.",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/uae-reports-drone-missile-attack-as-iran-war-ceasefire-is-challenged/article70953823.ece",
+      "headline": "Iran seizes US-sanctioned oil tanker in Sea of Oman",
+      "summary": "Iran said on Friday it redirected a US-sanctioned oil tanker carrying Iranian oil back to its shores, though it was unclear from its statement why it would have returned it.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15801203/Iran-seizes-US-sanctioned-oil-tanker-Sea-Oman.html",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T04:47:28Z",
+      "datetime": "2026-05-08T11:08:07Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Iran creates new Strait of Hormuz shipping authority amid US tensions",
-      "summary": "The move comes as Tehran reviews fresh US proposals aimed at ending the conflict, while sporadic exchanges of fire and explosions near key Iranian locations underline the fragility of the ceasefire",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/economy/logistics/iran-creates-new-strait-of-hormuz-shipping-authority-amid-us-tensions/article70953671.ece",
+      "headline": "Iran captures tanker in Gulf of Oman amid US maritime tensions",
+      "summary": "Increased US-Iran tensions may disrupt Strait of Hormuz shipping, impacting global oil markets and prompting diplomatic or military responses.\nThe post Iran captures tanker in Gulf of Oman amid US maritime tensions appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/iran-captures-tanker-in-gulf-of-oman-amid-us-maritime-tensions/",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T02:31:50Z",
+      "datetime": "2026-05-08T10:20:42Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "US military intercepts Iranian attacks as Strait of Hormuz crisis deepens",
-      "summary": "US and Iran tensions flare in Strait of Hormuz after naval clashes, with US claiming self-defence strikes amid fragile ceasefire and rising global concerns.",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/us-military-intercepts-iranian-attacks-as-strait-of-hormuz-crisis-deepens/article70953664.ece",
+      "headline": "Strait of Hormuz Remains Heavily Restricted Amid US-Iran Clashes, With Only 5% of Normal Traffic Flowing",
+      "summary": "DUBAI, United Arab Emirates — The Strait of Hormuz, the critical chokepoint through which about 20% of global oil and liquefied natural gas typically passes, stayed under severe restriction Thursday as fresh US-Iran naval clashes threatened a fragile ceasefir…",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/strait-hormuz-remains-heavily-restricted-amid-us-iran-clashes-only-5-normal-traffic-flowing-1868411",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T01:27:07Z",
+      "datetime": "2026-05-08T09:43:35Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -192,58 +270,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US, Iran Trade Missile, Drone Strikes Near Strait",
-      "summary": "US and Iranian forces traded fire Thursday near the Strait of Hormuz after an Iranian barrage targeting American warships drew retaliatory strikes, military officials from both sides said, despite a ceasefire officially remaining in effect. The exchange marke…",
-      "source": "Newser",
-      "url": "https://www.newser.com/story/388764/us-iran-trade-missile-drone-strikes-near-strait.html",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T00:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran accuses US of violating ceasefire after new attacks. Trump calls strikes a ‘love tap’",
-      "summary": "Israel and Lebanon to hold fresh talks but Iranian officials sceptical over Washington’s plan to end wider regional conflict",
-      "source": "The Irish Times",
-      "url": "https://www.irishtimes.com/world/2026/05/07/iran-accuses-us-of-violating-ceasefire-following-new-attacks-on-ships-and-civilian-areas/",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T22:35:30Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -541,6 +567,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Sensex today | Stock Market Highlights: Benchmark indices end lower; Sensex drops 516 pts to 77,328, Nifty closes at 24,176 amid West Asia tensions",
+      "summary": "Sensex, Nifty, Share Prices: Indian equity markets continued to trade lower on Friday as escalating US-Iran tensions near the Strait of Hormuz rattled global sentiment, while sustained foreign investor selling and rising geopolitical uncertainty kept traders …",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-8th-may-2026/article70953659.ece",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T10:52:49Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Shipping giant boss warns Iran war will have bigger impact in coming months as customers face price hikes",
       "summary": "Maersk said the Iran war had introduced an \"additional layer of uncertainty\" as it reported first-quarter earnings on Thursday.",
       "source": "CNBC",
@@ -600,32 +652,6 @@
       "bloc": "western",
       "date": "2026-05-05",
       "datetime": "2026-05-05T09:25:01Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US stock market crashes today: What’s happening with Dow Jones, S&P 500 and Nasdaq as $200 billion vanishes in minutes from US stocks - Dow plunges 565 points, all sectors sink while oil surges with WTI up 3.4% and Brent jumping 5%",
-      "summary": "US stock market crashes today. Investors are asking what’s happening with the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite. Nearly $200 billion vanished in minutes. The Dow fell 565 points. The S&P 500 and Nasdaq slipped as well. Every sector t…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-crashes-today-whats-happening-with-dow-jones-sp-500-and-nasdaq-as-200-billion-vanishes-in-minutes-from-us-stocks-dow-plunges-565-points-all-sectors-sink-while-oil-surges-with-wti-up-3-4-and-brent-jumping-5/articleshow/130808983.cms",
-      "bloc": "regional",
-      "date": "2026-05-04",
-      "datetime": "2026-05-04T18:13:37Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
