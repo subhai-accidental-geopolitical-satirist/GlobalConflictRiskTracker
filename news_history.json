@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-09T13:25:29.649Z",
+  "updated": "2026-05-09T19:09:12.682Z",
   "retention_days": 30,
   "items": [
     {
@@ -23189,7 +23189,147 @@
       "_from": "newsapi",
       "first_seen": "2026-05-09T13:25:29.649Z",
       "run_id": "2026-05-09T13:25"
+    },
+    {
+      "headline": "Moment US forces strike two Iranian oil tankers as tenuous ceasefire moves closer to collapse",
+      "summary": "The US conducted airstrikes in Iran today, targeting oil tankers attempting to breach President Donald Trump's blockade.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15802375/Moment-US-forces-strike-two-Iranian-oil-tankers.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T18:35:56Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T19:09:12.681Z",
+      "run_id": "2026-05-09T19:09"
+    },
+    {
+      "headline": "Strait of Hormuz closure disrupts global jet fuel supply, Europe faces shortages",
+      "summary": "The closure exacerbates global energy insecurity, highlighting vulnerabilities in supply chains and prompting urgent geopolitical negotiations.\nThe post Strait of Hormuz closure disrupts global jet fuel supply, Europe faces shortages appeared first on Crypto …",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/strait-of-hormuz-closure-disrupts-global-jet-fuel-supply-europe-faces-shortages/",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T18:25:51Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T19:09:12.682Z",
+      "run_id": "2026-05-09T19:09"
+    },
+    {
+      "headline": "News24 | US fires on Iran tankers as talks hang in balance",
+      "summary": "A US warplane disabled two Iranian tankers to enforce a port blockade on Friday, after Washington’s top diplomat said he was awaiting Tehran’s response to the latest proposed deal to end the Gulf conflict.",
+      "source": "News24",
+      "url": "https://www.news24.com/world/us-fires-on-iran-tankers-as-talks-hang-in-balance-20260508-1087",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T18:07:58Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T19:09:12.682Z",
+      "run_id": "2026-05-09T19:09"
+    },
+    {
+      "headline": "How are US forces targeting Iranian tankers? #world",
+      "summary": "U.S. strikes disrupt Iranian flagged oil tanker attempts U.S. military actions in the Gulf of Oman focused on stopping Iranian flagged oil tankers from entering ports and violating U.S. blockade efforts. According to U.S. Central Command, the U.S. disabled tw…",
+      "source": "Alltoc.com",
+      "url": "https://alltoc.com/world/how-are-us-forces-targeting-iranian-tankers",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T18:03:17Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T19:09:12.682Z",
+      "run_id": "2026-05-09T19:09"
+    },
+    {
+      "headline": "US Hits Iran-Flagged Oil Tankers While Peace Talks Continue",
+      "summary": "U.S. forces struck two empty Iranian-flagged oil tankers in the Gulf of Oman on Friday, escalating pressure on Tehran’s shipping network even as Washington says a potential deal to halt the war could be close. U.S. Central Command said the vessels were attemp…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Hits-Iran-Flagged-Oil-Tankers-While-Peace-Talks-Continue.html",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T16:30:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-09T19:09:12.682Z",
+      "run_id": "2026-05-09T19:09"
     }
   ],
-  "total_items_ever": 1218
+  "total_items_ever": 1223
 }

@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-09T13:26:34.804Z",
+  "ts": "2026-05-09T19:10:17.889Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-09T13:26:34.804Z"
+    "updatedAt": "2026-05-09T19:10:17.889Z"
   },
   "items": [
     {
@@ -144,13 +144,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran seizes US-sanctioned oil tanker in Sea of Oman",
-      "summary": "Iran said on Friday it redirected a US-sanctioned oil tanker carrying Iranian oil back to its shores, though it was unclear from its statement why it would have returned it.",
+      "headline": "Moment US forces strike two Iranian oil tankers as tenuous ceasefire moves closer to collapse",
+      "summary": "The US conducted airstrikes in Iran today, targeting oil tankers attempting to breach President Donald Trump's blockade.",
       "source": "Dailymail.com",
-      "url": "https://www.dailymail.com/news/article-15801203/Iran-seizes-US-sanctioned-oil-tanker-Sea-Oman.html",
+      "url": "https://www.dailymail.com/news/article-15802375/Moment-US-forces-strike-two-Iranian-oil-tankers.html",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T11:08:07Z",
+      "datetime": "2026-05-08T18:35:56Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -165,18 +165,18 @@
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
-      "escalation": 3,
+      "escalation": 4,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Iran captures tanker in Gulf of Oman amid US maritime tensions",
-      "summary": "Increased US-Iran tensions may disrupt Strait of Hormuz shipping, impacting global oil markets and prompting diplomatic or military responses.\nThe post Iran captures tanker in Gulf of Oman amid US maritime tensions appeared first on Crypto Briefing.",
+      "headline": "Strait of Hormuz closure disrupts global jet fuel supply, Europe faces shortages",
+      "summary": "The closure exacerbates global energy insecurity, highlighting vulnerabilities in supply chains and prompting urgent geopolitical negotiations.\nThe post Strait of Hormuz closure disrupts global jet fuel supply, Europe faces shortages appeared first on Crypto …",
       "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/iran-captures-tanker-in-gulf-of-oman-amid-us-maritime-tensions/",
+      "url": "https://cryptobriefing.com/strait-of-hormuz-closure-disrupts-global-jet-fuel-supply-europe-faces-shortages/",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T10:20:42Z",
+      "datetime": "2026-05-08T18:25:51Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Strait of Hormuz Remains Heavily Restricted Amid US-Iran Clashes, With Only 5% of Normal Traffic Flowing",
-      "summary": "DUBAI, United Arab Emirates — The Strait of Hormuz, the critical chokepoint through which about 20% of global oil and liquefied natural gas typically passes, stayed under severe restriction Thursday as fresh US-Iran naval clashes threatened a fragile ceasefir…",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/strait-hormuz-remains-heavily-restricted-amid-us-iran-clashes-only-5-normal-traffic-flowing-1868411",
+      "headline": "News24 | US fires on Iran tankers as talks hang in balance",
+      "summary": "A US warplane disabled two Iranian tankers to enforce a port blockade on Friday, after Washington’s top diplomat said he was awaiting Tehran’s response to the latest proposed deal to end the Gulf conflict.",
+      "source": "News24",
+      "url": "https://www.news24.com/world/us-fires-on-iran-tankers-as-talks-hang-in-balance-20260508-1087",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T09:43:35Z",
+      "datetime": "2026-05-08T18:07:58Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -222,13 +222,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Could Russia Follow the “Hormuz Playbook” in the Baltic and Black Seas?",
-      "summary": "On the eve of the U.S.-Israeli strikes on Iran, 56 tankers sailed through the Strait of Hormuz. Two days later, Lloyd’s List, the maritime industry’s journal of record, counted just seven tankers and a single gas carrier — all small and three of them shadow-f…",
-      "source": "War on the Rocks",
-      "url": "https://warontherocks.com/could-russia-follow-the-hormuz-playbook-in-the-baltic-and-black-seas/",
+      "headline": "How are US forces targeting Iranian tankers? #world",
+      "summary": "U.S. strikes disrupt Iranian flagged oil tanker attempts U.S. military actions in the Gulf of Oman focused on stopping Iranian flagged oil tankers from entering ports and violating U.S. blockade efforts. According to U.S. Central Command, the U.S. disabled tw…",
+      "source": "Alltoc.com",
+      "url": "https://alltoc.com/world/how-are-us-forces-targeting-iranian-tankers",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T07:15:22Z",
+      "datetime": "2026-05-08T18:03:17Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -248,13 +248,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Global oil markets rally as U.S.-Iran peace talks signal potential reopening of Strait of Hormuz",
-      "summary": "Brent crude oil prices plunged nearly 11% to below $98 per barrel on Wednesday May 6 as reports emerged that the United States and Iran are nearing a peace agreement to end hostilities and reopen the Strait of Hormuz. President Donald Trump announced he was p…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-08-global-oil-markets-rally-us-iran-peace-talks.html",
+      "headline": "US Hits Iran-Flagged Oil Tankers While Peace Talks Continue",
+      "summary": "U.S. forces struck two empty Iranian-flagged oil tankers in the Gulf of Oman on Friday, escalating pressure on Tehran’s shipping network even as Washington says a potential deal to halt the war could be close. U.S. Central Command said the vessels were attemp…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Hits-Iran-Flagged-Oil-Tankers-While-Peace-Talks-Continue.html",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T06:00:00Z",
+      "datetime": "2026-05-08T16:30:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
