@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-10T13:27:24.493Z",
+  "updated": "2026-05-10T19:10:47.361Z",
   "retention_days": 30,
   "items": [
     {
@@ -23294,7 +23294,35 @@
       "_from": "newsapi",
       "first_seen": "2026-05-10T13:27:24.493Z",
       "run_id": "2026-05-10T13:27"
+    },
+    {
+      "headline": "Inside the US military playbook to cripple Iran if nuclear talks collapse",
+      "summary": "Deep mistrust between the U.S. and Iran leaves nuclear talks fragile, with analysts warning of a phased military campaign if diplomacy fails entirely.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/politics/inside-us-military-playbook-cripple-iran-nuclear-talks-collapse",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T14:13:53Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T19:10:47.361Z",
+      "run_id": "2026-05-10T19:10"
     }
   ],
-  "total_items_ever": 1239
+  "total_items_ever": 1240
 }

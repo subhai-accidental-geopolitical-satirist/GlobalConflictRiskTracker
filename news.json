@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-10T13:28:29.841Z",
+  "ts": "2026-05-10T19:11:52.531Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-10T13:28:29.841Z"
+    "updatedAt": "2026-05-10T19:11:52.531Z"
   },
   "items": [
     {
@@ -144,6 +144,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Inside the US military playbook to cripple Iran if nuclear talks collapse",
+      "summary": "Deep mistrust between the U.S. and Iran leaves nuclear talks fragile, with analysts warning of a phased military campaign if diplomacy fails entirely.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/politics/inside-us-military-playbook-cripple-iran-nuclear-talks-collapse",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T14:13:53Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "US and Iran no closer to ending war as Gulf clashes flare",
       "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
       "source": "Independent.ie",
@@ -203,32 +229,6 @@
       "bloc": "western",
       "date": "2026-05-09",
       "datetime": "2026-05-09T06:25:25Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "U.S. Destroyers come under fire in Strait of Hormuz, but Trump reaffirms ceasefire agreement",
-      "summary": "The fragile ceasefire between the United States and Iran appears to be unraveling at sea, with President Donald Trump insisting the agreement still holds even as he confirmed American destroyers came under missile and drone attack in the Strait of Hormuz. Tru…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-09-us-destroyers-come-under-fire-strait-of-hormuz.html",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
