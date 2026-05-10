@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-09T19:10:17.889Z",
+  "ts": "2026-05-10T03:41:47.565Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,113 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-09T19:10:17.889Z"
+    "updatedAt": "2026-05-10T03:41:47.565Z"
   },
   "items": [
+    {
+      "headline": "Iran Says Ceasefire Broken After U.S. ‘Love Tap,’ IRGC to Launch Attacks",
+      "summary": "A spokesman for Iran’s terrorist Islamic Revolutionary Guard Corps (IRGC) condemned the United States on Friday for conducting what U.S. Central Command referred to as “self-defense strikes” to protect American assets in the region, claiming that it had respo…",
+      "source": "Freerepublic.com",
+      "url": "https://freerepublic.com/focus/f-news/4378404/posts",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T00:06:18Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US fires on and disables two more Iranian tankers as Strait of Hormuz tensions rise",
+      "summary": "US forces struck Iranian oil tankers in the Strait of Hormuz, raising fears over global oil supply, shipping disruption and ceasefire collapse.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/us-fires-on-and-disables-two-more-iranian-tankers-as-strait-of-hormuz-tensions-rise/article70957194.ece",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T23:21:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Economist: Don't Listen to Hegseth, Trump's Iran War Will Cost 'Very Possibly Trillions'",
+      "summary": "University of Michigan professor Justin Wolfers on Friday joined a growing number of economists and other critics casting down on what he called \"the Pentagon's lowball $25 billion estimate\" for the cost of President Donald Trump's illegal war on Iran.While t…",
+      "source": "Common Dreams",
+      "url": "https://www.commondreams.org/news/cost-of-iran-war",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T23:04:11Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Israeli airstrikes kill 5 in southern Lebanon as Hezbollah rockets hit open areas in Israel",
+      "summary": "Israeli airstrikes on southern Lebanon killed at least five people Friday, while the Iran-backed Hezbollah militant group fired rockets on northern Israel without inflicting any casualties. The Health Ministry in Lebanon said that an Israeli airstrike on the …",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/israeli-airstrikes-kill-5-in-southern-lebanon-as-hezbollah-rockets-hit-open-areas-in-israel",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T20:54:21Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Links 5/8/2026",
       "summary": "Our daily links: WHO and CDC sow Hantavirus confusion, Ukraine ignores Russian ceasefire warnings, US attacks Iran again, and reverse empire dysmorphia.",
@@ -40,143 +144,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "UAE comes under attack from Iranian drones as oil prices go back up over $100 a barrel despite Trump insisting ceasefire is still on",
-      "summary": "The United Arab Emirates responded to a missile and drone attack early this morning, which further strained the fragile ceasefire between the US and Iran.",
-      "source": "Dailymail.com",
-      "url": "https://www.dailymail.com/news/article-15800877/UAE-Iranian-drones-oil-prices-Trump-ceasefire-on.html",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T10:31:25Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran War: Lull Before Expected Big Strikes or Is Trump Stuck?",
-      "summary": "Today's Iran war news: More dithering and skirmishes. The calm before a big storm or a move to an end with a whimper, not a bang?",
-      "source": "Nakedcapitalism.com",
-      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-lull-before-expected-big-strikes-or-is-trump-stuck.html",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T09:53:10Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trumpâs War Trap: How His Ego Is Burning the World",
-      "summary": "Introduction: The Escalation Trap I have spent decades watching the machinery of geopolitical power, and I have never seen a more obvious escalation trap than the one Donald Trump has walked into with Iran. Each time he claims victory, the situation deteriora…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-08-trumps-war-trap-ego-burning-the-world.html",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "France Deploys Aircraft Carrier to Red Sea as Diplomatic Push Intensifies Over Strait of Hormuz Crisis",
-      "summary": "France has deployed its only aircraft carrier, the Charles de Gaulle, to the Red Sea, officials said Wednesday. The carrier group crossed the Suez Canal on May 6 and is expected to reach its operating area in the coming days, according to a statement from the…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-08-france-deploys-aircraft-carier-to-red-sea.html",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Moment US forces strike two Iranian oil tankers as tenuous ceasefire moves closer to collapse",
-      "summary": "The US conducted airstrikes in Iran today, targeting oil tankers attempting to breach President Donald Trump's blockade.",
-      "source": "Dailymail.com",
-      "url": "https://www.dailymail.com/news/article-15802375/Moment-US-forces-strike-two-Iranian-oil-tankers.html",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T18:35:56Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Strait of Hormuz closure disrupts global jet fuel supply, Europe faces shortages",
-      "summary": "The closure exacerbates global energy insecurity, highlighting vulnerabilities in supply chains and prompting urgent geopolitical negotiations.\nThe post Strait of Hormuz closure disrupts global jet fuel supply, Europe faces shortages appeared first on Crypto …",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/strait-of-hormuz-closure-disrupts-global-jet-fuel-supply-europe-faces-shortages/",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T18:25:51Z",
+      "headline": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
+      "summary": "U.S. forces disabled two Iranian oil tankers after exchanging fire in the Strait of Hormuz, while the UAE reported an Iranian missile and drone attack. These incidents cast doubt on a fragile ceasefire as Washington awaits Iran's response to a proposal aimed …",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/us-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz/articleshow/130969799.cms",
+      "bloc": "regional",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T02:43:45Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +170,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "News24 | US fires on Iran tankers as talks hang in balance",
-      "summary": "A US warplane disabled two Iranian tankers to enforce a port blockade on Friday, after Washington’s top diplomat said he was awaiting Tehran’s response to the latest proposed deal to end the Gulf conflict.",
-      "source": "News24",
-      "url": "https://www.news24.com/world/us-fires-on-iran-tankers-as-talks-hang-in-balance-20260508-1087",
+      "headline": "Hormuz akin to ‘atomic bomb’ – Iranian supreme leader’s adviser",
+      "summary": "The US military has attacked two more Iranian-flagged oil tankers as Washington presses ahead with a naval blockade, while Tehran has compared control of the Strait of Hormuz to possessing an “atomic bomb”",
+      "source": "RT",
+      "url": "https://www.rt.com/news/639717-iran-hormuz-atomic-bomb/",
       "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T18:07:58Z",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T01:18:50Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -222,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "How are US forces targeting Iranian tankers? #world",
-      "summary": "U.S. strikes disrupt Iranian flagged oil tanker attempts U.S. military actions in the Gulf of Oman focused on stopping Iranian flagged oil tankers from entering ports and violating U.S. blockade efforts. According to U.S. Central Command, the U.S. disabled tw…",
-      "source": "Alltoc.com",
-      "url": "https://alltoc.com/world/how-are-us-forces-targeting-iranian-tankers",
+      "headline": "U.S. fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
+      "summary": "The attacks cast more doubt on a tenuous month-old ceasefire that the United States has insisted is still in effect.",
+      "source": "PBS",
+      "url": "https://www.pbs.org/newshour/world/u-s-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T18:03:17Z",
+      "datetime": "2026-05-08T21:39:12Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -248,13 +222,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "US Hits Iran-Flagged Oil Tankers While Peace Talks Continue",
-      "summary": "U.S. forces struck two empty Iranian-flagged oil tankers in the Gulf of Oman on Friday, escalating pressure on Tehran’s shipping network even as Washington says a potential deal to halt the war could be close. U.S. Central Command said the vessels were attemp…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Hits-Iran-Flagged-Oil-Tankers-While-Peace-Talks-Continue.html",
+      "headline": "U.S. expects Iranian response to peace proposal on Friday, fighting flares in Gulf",
+      "summary": "The United States said it expected an Iranian response as soon as later on Friday to its latest proposal to end the war in the Gulf, even as U.S. and Iranian forces traded fire in the region and ‌the United Arab Emirates came under renewed attack. Recent days…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/us-expects-iranian-response-to-peace-proposal-on-friday-fighting-flares-in-gulf2",
       "bloc": "western",
       "date": "2026-05-08",
-      "datetime": "2026-05-08T16:30:00Z",
+      "datetime": "2026-05-08T20:53:20Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",

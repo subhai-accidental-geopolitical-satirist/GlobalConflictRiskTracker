@@ -1,491 +1,8 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-09T19:09:12.682Z",
+  "updated": "2026-05-10T03:40:42.354Z",
   "retention_days": 30,
   "items": [
-    {
-      "headline": "Trump impeachment odds hit record high amid Iran war threats, approval rating at 42.9%",
-      "summary": "Impeachment and removal odds for President Trump reached 27% on prediction markets amid his threats against Iran including Tuesday night Strait of Hormuz deadline. Presidential approval rating declined to 42.9% with 54.4% disapproval.",
-      "source": "Newsweek",
-      "url": "https://www.newsweek.com/donald-trump-impeachment-and-removal-odds-hit-new-record-high-11795216",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T00:00:00Z",
-      "leaders": [
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "Trump impeach",
-        "approval rating",
-        "Iran ceasefire"
-      ],
-      "dimensions": [
-        "accountability",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 5,
-      "persian_only": false,
-      "dimension_signal": {
-        "leader": "Donald J. Trump",
-        "dimension": "impulsivity",
-        "proposed_delta": 3,
-        "rationale": "Posting threats about whole civilization dying and setting ultimatums demonstrates escalating impulsive behavior",
-        "confidence": "high"
-      },
-      "_from": "claude",
-      "first_seen": "2026-04-09T01:27:58.574Z",
-      "run_id": "2026-04-09T01:27"
-    },
-    {
-      "headline": "Iranian Officials: Ceasefire Must Include Cessation of Israeli Strikes in Lebanon",
-      "summary": "Introduction On Wednesday, April 8, Iranian officials stated that any ceasefire agreement to halt fighting between Tehran and Washington must explicitly include an end to Israeli military attacks in Lebanon. This condition was articulated by the Iranian Forei…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-09-iranian-official-ceasefire-must-include-lebanon-strikes.html",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T06:21:05.203Z",
-      "run_id": "2026-04-10T06:21"
-    },
-    {
-      "headline": "I don’t know who'll win the war. But I am sure that Europe lost it",
-      "summary": "Resistance to Islamic totalitarianism is not supported by Western public opinion, especially not by apathetic France. The protesting Iranians remain forgotten. Opinion.",
-      "source": "Israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/425222",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T05:49:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T06:21:05.203Z",
-      "run_id": "2026-04-10T06:21"
-    },
-    {
-      "headline": "Chart shows Iran may have put sea mines in Strait of Hormuz",
-      "summary": "he chart showed a large circle marked “danger zone” in Farsi over the Traffic Separation Scheme, which was the route ships used to take through the strait. That was where the Guard allegedly put the mines.",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/chart-shows-iran-may-have-put-sea-mines-in-strait-of-hormuz/article70841278.ece",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T05:04:50Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T06:21:05.203Z",
-      "run_id": "2026-04-10T06:21"
-    },
-    {
-      "headline": "Is Hormuz open or closed? Shiptracking data reveals true picture",
-      "summary": "Ship traffic through the Strait of Hormuz has remained at an effective standstill in the 24 hours since Iran conditionally lifted its blockade on the critical shipping lane, amid a fragile ceasefire with the US and Israel.",
-      "source": "ABC News (AU)",
-      "url": "https://www.abc.net.au/news/2026-04-09/is-the-strait-of-hormuz-open-oil-ships-iran-war/106542010",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T00:12:18Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T06:21:05.203Z",
-      "run_id": "2026-04-10T06:21"
-    },
-    {
-      "headline": "Iran Conflict Disrupts Critical Helium, Aluminum Supplies with Global Economic Impact",
-      "summary": "A military conflict between the United States, Israel, and Iran is causing severe disruptions to global supplies of helium and aluminum, threatening semiconductor manufacturing, medical equipment production, and a wide range of consumer goods, according to in…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-09-iran-conflict-disrupts-critical-helium-aluminum-supplies.html",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T06:00:00Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T06:21:05.203Z",
-      "run_id": "2026-04-10T06:21"
-    },
-    {
-      "headline": "Four Major Reasons to Doubt the U.S.–Iran Ceasefire",
-      "summary": "A ceasefire hailed as victory masks deep uncertainty—fragmented leadership, conflicting terms, and Iran’s track record all suggest the pause may only delay the next escalation. On Tuesday evening, with less than two hours remaining before U.S. President Donal…",
-      "source": "Freerepublic.com",
-      "url": "https://freerepublic.com/focus/f-chat/4374226/posts",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T14:25:33Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T14:44:03.168Z",
-      "run_id": "2026-04-10T14:44"
-    },
-    {
-      "headline": "Fragile Iran Cease-Fire Comes Under Pressure From Lebanon Strikes",
-      "summary": "The fragile cease-fire between the United States and Iran could hang in the balance over what Washington has labeled a \"misunderstanding\" over whether the truce includes Israel’s offensive against Tehran-backed Hezbollah assets in Lebanon. US Vice President J…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Fragile-Iran-Ceasefire-Under-Pressure-From-Lebanon-Strikes.html",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T14:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T14:44:03.168Z",
-      "run_id": "2026-04-10T14:44"
-    },
-    {
-      "headline": "Israel dismisses calls to add Lebanon to US-Iran ceasefire",
-      "summary": "Israel vowed more strikes against Hezbollah on Thursday, dismissing mounting international demands that the fragile truce between the United States and Iran in the Gulf be expanded to cover the war in Lebanon.\nThe post Israel dismisses calls to add Lebanon to…",
-      "source": "Vanguard",
-      "url": "https://www.vanguardngr.com/2026/04/israel-dismisses-calls-to-add-lebanon-to-us-iran-ceasefire/",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T13:39:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T14:44:03.168Z",
-      "run_id": "2026-04-10T14:44"
-    },
-    {
-      "headline": "'Truly Insane': Pentagon Threatened Pope After He Condemned Trump's Military Attacks",
-      "summary": "Pope Leo, the first American to be named the head of the worldwide Catholic Church, has spoken out against President Donald Trump's policies frequently this year as the US has invaded Venezuela and Iran and threatened Cuba's 10 million people with an oil bloc…",
-      "source": "Common Dreams",
-      "url": "https://www.commondreams.org/news/pope-leo-and-trump",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T12:21:06Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T14:44:03.168Z",
-      "run_id": "2026-04-10T14:44"
-    },
-    {
-      "headline": "Israeli Strikes on Lebanon Jeopardize Iran Truce; Talks Planned but Strait Still Shut",
-      "summary": "Israel bombed more targets in Lebanon on Thursday, putting the U.S.-Iran ceasefire into further jeopardy after the biggest Israeli attacks on its neighbor of the war killed more than 250 people and threatened to torpedo Donald Trump’s truce. In Pakistan, …",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/04/09/865113.htm",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T14:01:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T14:44:03.168Z",
-      "run_id": "2026-04-10T14:44"
-    },
-    {
-      "headline": "The resurrection of the markets, the quarrel and OPEKEPE’s broken Wi-Fi, and the glorification of… indicted MPs, the invisible (and costly) hand in Hormuz",
-      "summary": "///\nThe post The resurrection of the markets, the quarrel and OPEKEPE’s broken Wi-Fi, and the glorification of… indicted MPs, the invisible (and costly) hand in Hormuz appeared first on ProtoThema English.",
-      "source": "Protothema.gr",
-      "url": "https://en.protothema.gr/2026/04/09/the-resurrection-of-the-markets-the-quarrel-and-opekepes-broken-wi-fi-and-the-glorification-of-indicted-mps-the-invisible-and-costly-hand-in-hormuz/",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T08:28:24Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T14:44:03.168Z",
-      "run_id": "2026-04-10T14:44"
-    },
-    {
-      "headline": "U.S. officials continue to defend Iranian conflict amid criticism from top Catholic leaders",
-      "summary": "The government allegedly demanded earlier in the year that the Vatican throw support behind U.S. military actions.",
-      "source": "Ewtnnews.com",
-      "url": "https://www.ewtnnews.com/world/us/u-s-officials-continue-to-defend-iranian-conflict-amid-criticism-from-top-catholic-leaders",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T18:11:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T19:59:25.522Z",
-      "run_id": "2026-04-10T19:59"
-    },
-    {
-      "headline": "Trump's Unlikely Suggestion of a Joint U.S.-Iran Shipping Tax",
-      "summary": "President Trump has floated the prospect of a “joint venture” with the Iranian leadership on administering a tax on ships passing through the Strait of Hormuz in a new peace deal for the region. Trump said both the US and Iran could jointly tax ships passing …",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Trumps-Unlikely-Suggestion-of-a-Joint-US-Iran-Shipping-Tax.html",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T18:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T19:59:25.522Z",
-      "run_id": "2026-04-10T19:59"
-    },
-    {
-      "headline": "Trump Family Takes Over Disneyland Paris, Smiles Ensue as U.S. War Looms",
-      "summary": "Disney parks have a way of showing up in the news when political figures decide they need a vacation. The most magical places on earth do not discriminate by party affiliation or approval rating, and the contrast between the business of government and the bus…",
-      "source": "Inside the Magic",
-      "url": "https://insidethemagic.net/2026/04/trump-family-takes-over-disneyland-paris-celebrations-ensue-as-hostile-war-looms-ad1/",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T17:54:20Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T19:59:25.522Z",
-      "run_id": "2026-04-10T19:59"
-    },
-    {
-      "headline": "How the Iran war energy crisis is echoing across Canada",
-      "summary": "The global energy crisis sparked by the Iran war is shaking up Canada coast to coast and could have a lasting legacy. Read more",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/feature/iran-war-energy-crisis-shaking-up-canada",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T16:30:49Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T19:59:25.522Z",
-      "run_id": "2026-04-10T19:59"
-    },
-    {
-      "headline": "Why is Israel continuing to attack Lebanon, despite the ceasefire? Expert Q&A",
-      "summary": "Israel has upped the intensity of its campaign in Lebanon, despite the signing of a ceasefire in the Middle East.",
-      "source": "The Conversation Africa",
-      "url": "https://theconversation.com/why-is-israel-continuing-to-attack-lebanon-despite-the-ceasefire-expert-qanda-280302",
-      "bloc": "western",
-      "date": "2026-04-09",
-      "datetime": "2026-04-09T15:53:04Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-10T19:59:25.522Z",
-      "run_id": "2026-04-10T19:59"
-    },
     {
       "headline": "Vance sets off to Pakistan to lead talks with Iran as war’s ceasefire remains shaky",
       "summary": "President Donald Trump is tasking the member of his inner circle who has seemed to be the most reluctant defender of the conflict with Iran to now find a resolution to the war that began six weeks ago and stave off the US president's astonishing threat to wip…",
@@ -23329,7 +22846,231 @@
       "_from": "newsapi",
       "first_seen": "2026-05-09T19:09:12.682Z",
       "run_id": "2026-05-09T19:09"
+    },
+    {
+      "headline": "Iran Says Ceasefire Broken After U.S. ‘Love Tap,’ IRGC to Launch Attacks",
+      "summary": "A spokesman for Iran’s terrorist Islamic Revolutionary Guard Corps (IRGC) condemned the United States on Friday for conducting what U.S. Central Command referred to as “self-defense strikes” to protect American assets in the region, claiming that it had respo…",
+      "source": "Freerepublic.com",
+      "url": "https://freerepublic.com/focus/f-news/4378404/posts",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T00:06:18Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T03:40:42.354Z",
+      "run_id": "2026-05-10T03:40"
+    },
+    {
+      "headline": "US fires on and disables two more Iranian tankers as Strait of Hormuz tensions rise",
+      "summary": "US forces struck Iranian oil tankers in the Strait of Hormuz, raising fears over global oil supply, shipping disruption and ceasefire collapse.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/us-fires-on-and-disables-two-more-iranian-tankers-as-strait-of-hormuz-tensions-rise/article70957194.ece",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T23:21:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T03:40:42.354Z",
+      "run_id": "2026-05-10T03:40"
+    },
+    {
+      "headline": "Economist: Don't Listen to Hegseth, Trump's Iran War Will Cost 'Very Possibly Trillions'",
+      "summary": "University of Michigan professor Justin Wolfers on Friday joined a growing number of economists and other critics casting down on what he called \"the Pentagon's lowball $25 billion estimate\" for the cost of President Donald Trump's illegal war on Iran.While t…",
+      "source": "Common Dreams",
+      "url": "https://www.commondreams.org/news/cost-of-iran-war",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T23:04:11Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T03:40:42.354Z",
+      "run_id": "2026-05-10T03:40"
+    },
+    {
+      "headline": "Israeli airstrikes kill 5 in southern Lebanon as Hezbollah rockets hit open areas in Israel",
+      "summary": "Israeli airstrikes on southern Lebanon killed at least five people Friday, while the Iran-backed Hezbollah militant group fired rockets on northern Israel without inflicting any casualties. The Health Ministry in Lebanon said that an Israeli airstrike on the …",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/israeli-airstrikes-kill-5-in-southern-lebanon-as-hezbollah-rockets-hit-open-areas-in-israel",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T20:54:21Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T03:40:42.354Z",
+      "run_id": "2026-05-10T03:40"
+    },
+    {
+      "headline": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
+      "summary": "U.S. forces disabled two Iranian oil tankers after exchanging fire in the Strait of Hormuz, while the UAE reported an Iranian missile and drone attack. These incidents cast doubt on a fragile ceasefire as Washington awaits Iran's response to a proposal aimed …",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/us-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz/articleshow/130969799.cms",
+      "bloc": "regional",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T02:43:45Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T03:40:42.354Z",
+      "run_id": "2026-05-10T03:40"
+    },
+    {
+      "headline": "Hormuz akin to ‘atomic bomb’ – Iranian supreme leader’s adviser",
+      "summary": "The US military has attacked two more Iranian-flagged oil tankers as Washington presses ahead with a naval blockade, while Tehran has compared control of the Strait of Hormuz to possessing an “atomic bomb”",
+      "source": "RT",
+      "url": "https://www.rt.com/news/639717-iran-hormuz-atomic-bomb/",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T01:18:50Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T03:40:42.354Z",
+      "run_id": "2026-05-10T03:40"
+    },
+    {
+      "headline": "U.S. fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
+      "summary": "The attacks cast more doubt on a tenuous month-old ceasefire that the United States has insisted is still in effect.",
+      "source": "PBS",
+      "url": "https://www.pbs.org/newshour/world/u-s-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T21:39:12Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T03:40:42.354Z",
+      "run_id": "2026-05-10T03:40"
+    },
+    {
+      "headline": "U.S. expects Iranian response to peace proposal on Friday, fighting flares in Gulf",
+      "summary": "The United States said it expected an Iranian response as soon as later on Friday to its latest proposal to end the war in the Gulf, even as U.S. and Iranian forces traded fire in the region and ‌the United Arab Emirates came under renewed attack. Recent days…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/us-expects-iranian-response-to-peace-proposal-on-friday-fighting-flares-in-gulf2",
+      "bloc": "western",
+      "date": "2026-05-08",
+      "datetime": "2026-05-08T20:53:20Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T03:40:42.354Z",
+      "run_id": "2026-05-10T03:40"
     }
   ],
-  "total_items_ever": 1223
+  "total_items_ever": 1231
 }
