@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-10T08:12:38.616Z",
+  "updated": "2026-05-10T13:27:24.493Z",
   "retention_days": 30,
   "items": [
     {
@@ -23210,7 +23210,91 @@
       "_from": "newsapi",
       "first_seen": "2026-05-10T08:12:38.616Z",
       "run_id": "2026-05-10T08:12"
+    },
+    {
+      "headline": "A Fragile Ceasefire Holds As U.S. Awaits Iran Response",
+      "summary": "Attacks Friday cast doubt on the tenuous month-old ceasefire that the United States has insisted is still in effect.",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/fragile-ceasefire-holds-united-states-awaits-iran-response_n_69ff27fee4b065a1677e56d7",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T12:33:05Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T13:27:24.492Z",
+      "run_id": "2026-05-10T13:27"
+    },
+    {
+      "headline": "May 9: Iran reaffirms its red lines, vowing decisive response to any new US attack in Persian Gulf",
+      "summary": "Senior Iranian military and political officials have warned the United States that any further acts of aggression in the Persian Gulf would trigger direct and decisive strikes against American bases and warships across the region.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260509-presstv02.htm",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T13:27:24.493Z",
+      "run_id": "2026-05-10T13:27"
+    },
+    {
+      "headline": "The Praxian Genocidal Kill Chain – Part 1",
+      "summary": "In this two-part article series, Iain Davis examines how a class of Silicon Valley oligarchs have set about destabilising the planet in order to achieve their goal of a multipolar world of interconnected smart-city states; that is, a regionalised world that t…",
+      "source": "Activistpost.com",
+      "url": "https://www.activistpost.com/the-praxian-genocidal-kill-chain-part-1/",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T10:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T13:27:24.493Z",
+      "run_id": "2026-05-10T13:27"
     }
   ],
-  "total_items_ever": 1236
+  "total_items_ever": 1239
 }
