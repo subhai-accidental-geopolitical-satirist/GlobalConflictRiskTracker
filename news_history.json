@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-10T03:40:42.354Z",
+  "updated": "2026-05-10T08:12:38.616Z",
   "retention_days": 30,
   "items": [
     {
@@ -23070,7 +23070,147 @@
       "_from": "newsapi",
       "first_seen": "2026-05-10T03:40:42.354Z",
       "run_id": "2026-05-10T03:40"
+    },
+    {
+      "headline": "Trump threatens to resume military action if Iran deal not sealed",
+      "summary": "U.S. President Donald Trump warned that Washington may escalate its military posture in the Strait of Hormuz if a deal with Iran is not finalized, threatening to revive and expand the paused \"Project Freedom\" operation.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-threatens-to-resume-military-action-if-iran-deal-not-sealed-221967",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:56:27Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T08:12:38.616Z",
+      "run_id": "2026-05-10T08:12"
+    },
+    {
+      "headline": "US and Iran no closer to ending war as Gulf clashes flare",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/us-and-iran-no-closer-to-ending-war-as-gulf-clashes-flare/a2131789708.html",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T08:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T08:12:38.616Z",
+      "run_id": "2026-05-10T08:12"
+    },
+    {
+      "headline": "US attacks spark Iran reprisals as deal hangs in balance",
+      "summary": "A US fighter jet disabled two Iranian-flagged tankers, prompting retaliatory attacks and rattling a shaky truce as US President Donald Trump said overnight that he was awaiting Iran's reply to his latest proposal to end the Middle East war.",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/middle-east/2026/0509/1572475-us-iran/",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:46:15Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T08:12:38.616Z",
+      "run_id": "2026-05-10T08:12"
+    },
+    {
+      "headline": "US fires on two Iranian tankers as Trump awaits Tehran's response to truce proposal",
+      "summary": "Iranian officials accused the US of violating the ceasefire with the tanker strikes and hampering diplomatic efforts to end the conflict.",
+      "source": "TheJournal.ie",
+      "url": "https://www.thejournal.ie/us-fires-on-iranian-tankers-trump-awaits-response-truce-proposal-7034958-May2026/",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:25:25Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T08:12:38.616Z",
+      "run_id": "2026-05-10T08:12"
+    },
+    {
+      "headline": "U.S. Destroyers come under fire in Strait of Hormuz, but Trump reaffirms ceasefire agreement",
+      "summary": "The fragile ceasefire between the United States and Iran appears to be unraveling at sea, with President Donald Trump insisting the agreement still holds even as he confirmed American destroyers came under missile and drone attack in the Strait of Hormuz. Tru…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-09-us-destroyers-come-under-fire-strait-of-hormuz.html",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-10T08:12:38.616Z",
+      "run_id": "2026-05-10T08:12"
     }
   ],
-  "total_items_ever": 1231
+  "total_items_ever": 1236
 }

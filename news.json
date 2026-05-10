@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-10T03:41:47.565Z",
+  "ts": "2026-05-10T08:13:43.758Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,35 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-10T03:41:47.565Z"
+    "updatedAt": "2026-05-10T08:13:43.758Z"
   },
   "items": [
+    {
+      "headline": "Trump threatens to resume military action if Iran deal not sealed",
+      "summary": "U.S. President Donald Trump warned that Washington may escalate its military posture in the Strait of Hormuz if a deal with Iran is not finalized, threatening to revive and expand the paused \"Project Freedom\" operation.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-threatens-to-resume-military-action-if-iran-deal-not-sealed-221967",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:56:27Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Iran Says Ceasefire Broken After U.S. ‘Love Tap,’ IRGC to Launch Attacks",
       "summary": "A spokesman for Iran’s terrorist Islamic Revolutionary Guard Corps (IRGC) condemned the United States on Friday for conducting what U.S. Central Command referred to as “self-defense strikes” to protect American assets in the region, claiming that it had respo…",
@@ -118,65 +144,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Links 5/8/2026",
-      "summary": "Our daily links: WHO and CDC sow Hantavirus confusion, Ukraine ignores Russian ceasefire warnings, US attacks Iran again, and reverse empire dysmorphia.",
-      "source": "Nakedcapitalism.com",
-      "url": "https://www.nakedcapitalism.com/2026/05/links-5-8-2026.html",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T10:59:58Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
-      "summary": "U.S. forces disabled two Iranian oil tankers after exchanging fire in the Strait of Hormuz, while the UAE reported an Iranian missile and drone attack. These incidents cast doubt on a fragile ceasefire as Washington awaits Iran's response to a proposal aimed …",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/defence/us-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz/articleshow/130969799.cms",
-      "bloc": "regional",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T02:43:45Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Hormuz akin to ‘atomic bomb’ – Iranian supreme leader’s adviser",
-      "summary": "The US military has attacked two more Iranian-flagged oil tankers as Washington presses ahead with a naval blockade, while Tehran has compared control of the Strait of Hormuz to possessing an “atomic bomb”",
-      "source": "RT",
-      "url": "https://www.rt.com/news/639717-iran-hormuz-atomic-bomb/",
+      "headline": "US and Iran no closer to ending war as Gulf clashes flare",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/us-and-iran-no-closer-to-ending-war-as-gulf-clashes-flare/a2131789708.html",
       "bloc": "western",
       "date": "2026-05-09",
-      "datetime": "2026-05-09T01:18:50Z",
+      "datetime": "2026-05-09T08:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +170,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "U.S. fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz",
-      "summary": "The attacks cast more doubt on a tenuous month-old ceasefire that the United States has insisted is still in effect.",
-      "source": "PBS",
-      "url": "https://www.pbs.org/newshour/world/u-s-fires-on-and-disables-2-more-iranian-tankers-as-tensions-rise-in-the-strait-of-hormuz",
+      "headline": "US attacks spark Iran reprisals as deal hangs in balance",
+      "summary": "A US fighter jet disabled two Iranian-flagged tankers, prompting retaliatory attacks and rattling a shaky truce as US President Donald Trump said overnight that he was awaiting Iran's reply to his latest proposal to end the Middle East war.",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/middle-east/2026/0509/1572475-us-iran/",
       "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T21:39:12Z",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:46:15Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US fires on two Iranian tankers as Trump awaits Tehran's response to truce proposal",
+      "summary": "Iranian officials accused the US of violating the ceasefire with the tanker strikes and hampering diplomatic efforts to end the conflict.",
+      "source": "TheJournal.ie",
+      "url": "https://www.thejournal.ie/us-fires-on-iranian-tankers-trump-awaits-response-truce-proposal-7034958-May2026/",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:25:25Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -222,13 +222,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "U.S. expects Iranian response to peace proposal on Friday, fighting flares in Gulf",
-      "summary": "The United States said it expected an Iranian response as soon as later on Friday to its latest proposal to end the war in the Gulf, even as U.S. and Iranian forces traded fire in the region and ‌the United Arab Emirates came under renewed attack. Recent days…",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/world/us-expects-iranian-response-to-peace-proposal-on-friday-fighting-flares-in-gulf2",
+      "headline": "U.S. Destroyers come under fire in Strait of Hormuz, but Trump reaffirms ceasefire agreement",
+      "summary": "The fragile ceasefire between the United States and Iran appears to be unraveling at sea, with President Donald Trump insisting the agreement still holds even as he confirmed American destroyers came under missile and drone attack in the Strait of Hormuz. Tru…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-09-us-destroyers-come-under-fire-strait-of-hormuz.html",
       "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T20:53:20Z",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
