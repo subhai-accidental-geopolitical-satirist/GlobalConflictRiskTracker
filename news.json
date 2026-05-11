@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-10T19:11:52.531Z",
+  "ts": "2026-05-11T03:55:42.879Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,43 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-10T19:11:52.531Z"
+    "updatedAt": "2026-05-11T03:55:42.879Z"
   },
   "items": [
     {
-      "headline": "A Fragile Ceasefire Holds As U.S. Awaits Iran Response",
-      "summary": "Attacks Friday cast doubt on the tenuous month-old ceasefire that the United States has insisted is still in effect.",
-      "source": "HuffPost",
-      "url": "https://www.huffpost.com/entry/fragile-ceasefire-holds-united-states-awaits-iran-response_n_69ff27fee4b065a1677e56d7",
+      "headline": "Nigeria risks hike in condom prices over escalating US-Iran war",
+      "summary": "Health experts warn condom prices in Nigeria could rise due to global supply disruptions from the US-Iran conflict, impacting public health.\n\nRead More: https://punchng.com/nigeria-risks-hike-in-condom-prices-over-escalating-us-iran-war/",
+      "source": "The Punch",
+      "url": "https://punchng.com/nigeria-risks-hike-in-condom-prices-over-escalating-us-iran-war/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T03:24:49Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran fears captain may be denied entry to US for World Cup",
+      "summary": "Iran demands assurances that team members who served in the Revolutionary Guard, including skipper Mehdi Taremi, will be able to get visas for the FIFA World Cup.",
+      "source": "ABC News (AU)",
+      "url": "https://www.abc.net.au/news/2026-05-10/iran-will-definitely-compete-in-fifa-world-cup-visa-demands/106662988",
       "bloc": "western",
       "date": "2026-05-09",
-      "datetime": "2026-05-09T12:33:05Z",
+      "datetime": "2026-05-09T23:10:41Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "May 9: Iran reaffirms its red lines, vowing decisive response to any new US attack in Persian Gulf",
-      "summary": "Senior Iranian military and political officials have warned the United States that any further acts of aggression in the Persian Gulf would trigger direct and decisive strikes against American bases and warships across the region.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260509-presstv02.htm",
+      "headline": "Iran War Threatens Gulf Investment Boom in Central Asia",
+      "summary": "The 2026 U.S.-Israel war on Iran, the Ramadan War, which began with airstrikes on 28 February 2026 and involved Iranian retaliation via missiles, drones, and a blockade of the Strait of Hormuz, has indirectly but significantly constrained investment plans by …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Geopolitics/Asia/Iran-War-Threatens-Gulf-Investment-Boom-in-Central-Asia.html",
       "bloc": "western",
       "date": "2026-05-09",
-      "datetime": "2026-05-09T12:00:00Z",
+      "datetime": "2026-05-09T21:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "The Praxian Genocidal Kill Chain – Part 1",
-      "summary": "In this two-part article series, Iain Davis examines how a class of Silicon Valley oligarchs have set about destabilising the planet in order to achieve their goal of a multipolar world of interconnected smart-city states; that is, a regionalised world that t…",
-      "source": "Activistpost.com",
-      "url": "https://www.activistpost.com/the-praxian-genocidal-kill-chain-part-1/",
+      "headline": "Iran wants team members who served in the Revolutionary Guard to get visas for the World Cup",
+      "summary": "Iran's soccer federation said on Saturday the country “definitely” will participate in the 2026 FIFA World Cup and insisted that tournament hosts — the United States, Canada and Mexico — consider Tehran's concerns around the team’s travel and how it will be t…",
+      "source": "Yahoo Entertainment",
+      "url": "https://sports.yahoo.com/articles/iran-wants-team-members-served-202043352.html",
       "bloc": "western",
       "date": "2026-05-09",
-      "datetime": "2026-05-09T10:00:00Z",
+      "datetime": "2026-05-09T20:20:43Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,54 +118,28 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump threatens to resume military action if Iran deal not sealed",
-      "summary": "U.S. President Donald Trump warned that Washington may escalate its military posture in the Strait of Hormuz if a deal with Iran is not finalized, threatening to revive and expand the paused \"Project Freedom\" operation.",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/trump-threatens-to-resume-military-action-if-iran-deal-not-sealed-221967",
+      "headline": "U.S., Iran no closer to ending war as Qatari tanker sails toward Strait of Hormuz",
+      "summary": "A state of relative calm prevailed around the Strait of Hormuz on Saturday, after days of sporadic flare-ups, as the United States waited for Iran's response to its latest proposals to end ‌more than two months of fighting and begin peace talks. U.S. Secretar…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/us-iran-no-closer-to-ending-war-as-qatari-tanker-sails-toward-strait-of-hormuz",
       "bloc": "western",
       "date": "2026-05-09",
-      "datetime": "2026-05-09T06:56:27Z",
+      "datetime": "2026-05-09T20:39:57Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran Says Ceasefire Broken After U.S. ‘Love Tap,’ IRGC to Launch Attacks",
-      "summary": "A spokesman for Iran’s terrorist Islamic Revolutionary Guard Corps (IRGC) condemned the United States on Friday for conducting what U.S. Central Command referred to as “self-defense strikes” to protect American assets in the region, claiming that it had respo…",
-      "source": "Freerepublic.com",
-      "url": "https://freerepublic.com/focus/f-news/4378404/posts",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T00:06:18Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -196,6 +196,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Trump threatens to resume military action if Iran deal not sealed",
+      "summary": "U.S. President Donald Trump warned that Washington may escalate its military posture in the Strait of Hormuz if a deal with Iran is not finalized, threatening to revive and expand the paused \"Project Freedom\" operation.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-threatens-to-resume-military-action-if-iran-deal-not-sealed-221967",
+      "bloc": "western",
+      "date": "2026-05-09",
+      "datetime": "2026-05-09T06:56:27Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "US attacks spark Iran reprisals as deal hangs in balance",
       "summary": "A US fighter jet disabled two Iranian-flagged tankers, prompting retaliatory attacks and rattling a shaky truce as US President Donald Trump said overnight that he was awaiting Iran's reply to his latest proposal to end the Middle East war.",
       "source": "RTE",
@@ -218,32 +244,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US fires on two Iranian tankers as Trump awaits Tehran's response to truce proposal",
-      "summary": "Iranian officials accused the US of violating the ceasefire with the tanker strikes and hampering diplomatic efforts to end the conflict.",
-      "source": "TheJournal.ie",
-      "url": "https://www.thejournal.ie/us-fires-on-iranian-tankers-trump-awaits-response-truce-proposal-7034958-May2026/",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T06:25:25Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -500,30 +500,6 @@
       "bloc": "western",
       "date": "2026-05-04",
       "datetime": "2026-05-04T14:13:02Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump insists China trip will go on as planned; analysts say leaders' summit crucial to manage risks",
-      "summary": "United States President Donald Trump says his upcoming visit will be an “amazing event”, while Chinese observers say both sides need to prioritise risk management in the face of rising uncertainty worldwide.",
-      "source": "CNA",
-      "url": "https://www.channelnewsasia.com/east-asia/trump-china-visit-summit-amazing-analysts-manage-risks-6096631",
-      "bloc": "western",
-      "date": "2026-05-03",
-      "datetime": "2026-05-03T02:27:00Z",
       "leaders": [
         "Xi Jinping"
       ],
