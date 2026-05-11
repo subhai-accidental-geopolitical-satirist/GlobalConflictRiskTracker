@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-11T03:54:37.517Z",
+  "updated": "2026-05-11T09:48:24.932Z",
   "retention_days": 30,
   "items": [
     {
@@ -22768,7 +22768,285 @@
       "_from": "newsapi",
       "first_seen": "2026-05-11T03:54:37.517Z",
       "run_id": "2026-05-11T03:54"
+    },
+    {
+      "headline": "Iran war day 72: Tehran yet to reply to US plan; Israel bombs Lebanon",
+      "summary": "Israel kills at least 24 people in Lebanon in one day as Tehran's response to US proposal to end the war is awaited.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/10/iran-war-day-72-tehran-yet-to-reply-to-us-plan-israel-bombs-lebanon",
+      "bloc": "regional",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T08:18:23Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "British military says ship caught fire after being hit off coast of Qatar",
+      "summary": "Iran has sent its response to the latest U.S. ceasefire proposal to Pakistani mediators, focusing on permanently ending the war",
+      "source": "WHIO",
+      "url": "https://www.whio.com/news/business/british-military/S53FOAG2QA7F7NZJMAE376LLBU/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T06:17:55Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "Iran threatens to obliterate US ships as peace deal hangs in the balance... and experts say Tehran has enough plutonium reserves for 200 nuclear bombs",
+      "summary": "Donald Trump has yet to receive an answer on Iranian peace agreements amid an increasingly contentious ceasefire.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15804797/Iran-threatens-US-ships-peace-deal-trump.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T05:30:09Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "Q4 earnings, crude oil, FII action among 8 factors to steer D-Street this week",
+      "summary": "Indian stock markets are set for a busy week. Key events like Q4 earnings announcements for many companies will influence trading. Foreign institutional investors' selling continues to be a concern. Geopolitical tensions in the Middle East and US market movem…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/q4-earnings-crude-oil-fii-action-among-8-factors-to-steer-d-street-this-week/articleshow/130986066.cms",
+      "bloc": "regional",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T04:06:54Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "US Awaits Iran Reply as Aramco Says Hormuz Opening No Quick Fix",
+      "summary": "The wait stretched on for Iran’s response to a US proposal to end 10 weeks of war, as the world’s largest oil company warned it would take months for the market to return to normal even if the Strait of Hormuz reopened immediately.",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/us-awaits-iran-reply-as-aramco-says-hormuz-opening-no-quick-fix",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T08:22:25Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "US and Iran no closer to ending war as oil giant warns a billion barrels of oil have been lost",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/us-and-iran-no-closer-to-ending-war-as-oil-giant-warns-a-billion-barrels-of-oil-have-been-lost/a2131789708.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T08:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "Iran says it has sent response to US peace proposal",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/iran-says-it-has-sent-response-to-us-peace-proposal/a2131789708.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T08:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "Iran War: Momentary Quiet as Iran Withholds Answer on US Proposal; Iran Asserts Control Over Persian Gulf Cables; Debate Over US Destruction of Iran Tankers, Iran Destroyer Attacks",
+      "summary": "Today's Iran war update: The US and Iran stare at and skirmish with each other as the economy continues to bleed out .",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-momentary-quiet-as-iran-withholds-answer-on-us-proposal-iran-asserts-control-over-persian-gulf-cables-debate-over-us-destruction-of-iran-tankers-iran-destroyer-attacks.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T07:34:46Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "What does the Trump-Xi summit mean for the rest of us?",
+      "summary": "It's worth paying close attention when the leaders of the two most powerful countries on the planet meet next week. Because what China's Xi Jinping and America's Donald Trump decide in Beijing could have major implications for us all, writes Yvonne Murray.",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/analysis-and-comment/2026/0510/1572446-donald-trump-xi-jinping/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T06:10:12Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "Oil Falls Below $100 a Barrel on Renewed Hopes of U.S.-Iran Peace Deal",
+      "summary": "Brent crude oil fell 4.3% to $96.96 per barrel on May 7, 2026, during volatile trading, as renewed hopes of a U.S.-Iran peace deal emerged, according to market analysts. The benchmark slipped $4.31 from its May 6 close, with intraday fluctuations of up to 4.6…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-10-oil-price-drops-renewed-hopes-peace-deal.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T06:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T09:48:24.932Z",
+      "run_id": "2026-05-11T09:48"
     }
   ],
-  "total_items_ever": 1245
+  "total_items_ever": 1255
 }

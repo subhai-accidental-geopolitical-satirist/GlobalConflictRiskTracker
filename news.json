@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-11T03:55:42.879Z",
+  "ts": "2026-05-11T09:49:30.121Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,43 +10,17 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-11T03:55:42.879Z"
+    "updatedAt": "2026-05-11T09:49:30.121Z"
   },
   "items": [
     {
-      "headline": "Nigeria risks hike in condom prices over escalating US-Iran war",
-      "summary": "Health experts warn condom prices in Nigeria could rise due to global supply disruptions from the US-Iran conflict, impacting public health.\n\nRead More: https://punchng.com/nigeria-risks-hike-in-condom-prices-over-escalating-us-iran-war/",
-      "source": "The Punch",
-      "url": "https://punchng.com/nigeria-risks-hike-in-condom-prices-over-escalating-us-iran-war/",
-      "bloc": "western",
+      "headline": "Iran war day 72: Tehran yet to reply to US plan; Israel bombs Lebanon",
+      "summary": "Israel kills at least 24 people in Lebanon in one day as Tehran's response to US proposal to end the war is awaited.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/10/iran-war-day-72-tehran-yet-to-reply-to-us-plan-israel-bombs-lebanon",
+      "bloc": "regional",
       "date": "2026-05-10",
-      "datetime": "2026-05-10T03:24:49Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran fears captain may be denied entry to US for World Cup",
-      "summary": "Iran demands assurances that team members who served in the Revolutionary Guard, including skipper Mehdi Taremi, will be able to get visas for the FIFA World Cup.",
-      "source": "ABC News (AU)",
-      "url": "https://www.abc.net.au/news/2026-05-10/iran-will-definitely-compete-in-fifa-world-cup-visa-demands/106662988",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T23:10:41Z",
+      "datetime": "2026-05-10T08:18:23Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran War Threatens Gulf Investment Boom in Central Asia",
-      "summary": "The 2026 U.S.-Israel war on Iran, the Ramadan War, which began with airstrikes on 28 February 2026 and involved Iranian retaliation via missiles, drones, and a blockade of the Strait of Hormuz, has indirectly but significantly constrained investment plans by …",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Geopolitics/Asia/Iran-War-Threatens-Gulf-Investment-Boom-in-Central-Asia.html",
+      "headline": "British military says ship caught fire after being hit off coast of Qatar",
+      "summary": "Iran has sent its response to the latest U.S. ceasefire proposal to Pakistani mediators, focusing on permanently ending the war",
+      "source": "WHIO",
+      "url": "https://www.whio.com/news/business/british-military/S53FOAG2QA7F7NZJMAE376LLBU/",
       "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T21:00:00Z",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T06:17:55Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -87,18 +61,44 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
-      "escalation": 3,
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran threatens to obliterate US ships as peace deal hangs in the balance... and experts say Tehran has enough plutonium reserves for 200 nuclear bombs",
+      "summary": "Donald Trump has yet to receive an answer on Iranian peace agreements amid an increasingly contentious ceasefire.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15804797/Iran-threatens-US-ships-peace-deal-trump.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T05:30:09Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 4,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
       "headline": "Iran wants team members who served in the Revolutionary Guard to get visas for the World Cup",
-      "summary": "Iran's soccer federation said on Saturday the country “definitely” will participate in the 2026 FIFA World Cup and insisted that tournament hosts — the United States, Canada and Mexico — consider Tehran's concerns around the team’s travel and how it will be t…",
-      "source": "Yahoo Entertainment",
-      "url": "https://sports.yahoo.com/articles/iran-wants-team-members-served-202043352.html",
+      "summary": "Iran's soccer federation says the country will participate in the 2026 FIFA World Cup",
+      "source": "Abcnews.com",
+      "url": "https://abcnews.com/International/wireStory/iran-team-members-served-revolutionary-guard-visas-world-132816578",
       "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T20:20:43Z",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T04:47:50Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -114,6 +114,136 @@
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
       "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Q4 earnings, crude oil, FII action among 8 factors to steer D-Street this week",
+      "summary": "Indian stock markets are set for a busy week. Key events like Q4 earnings announcements for many companies will influence trading. Foreign institutional investors' selling continues to be a concern. Geopolitical tensions in the Middle East and US market movem…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/q4-earnings-crude-oil-fii-action-among-8-factors-to-steer-d-street-this-week/articleshow/130986066.cms",
+      "bloc": "regional",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T04:06:54Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US Awaits Iran Reply as Aramco Says Hormuz Opening No Quick Fix",
+      "summary": "The wait stretched on for Iran’s response to a US proposal to end 10 weeks of war, as the world’s largest oil company warned it would take months for the market to return to normal even if the Strait of Hormuz reopened immediately.",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/us-awaits-iran-reply-as-aramco-says-hormuz-opening-no-quick-fix",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T08:22:25Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US and Iran no closer to ending war as oil giant warns a billion barrels of oil have been lost",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/us-and-iran-no-closer-to-ending-war-as-oil-giant-warns-a-billion-barrels-of-oil-have-been-lost/a2131789708.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T08:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran says it has sent response to US peace proposal",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/iran-says-it-has-sent-response-to-us-peace-proposal/a2131789708.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T08:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran War: Momentary Quiet as Iran Withholds Answer on US Proposal; Iran Asserts Control Over Persian Gulf Cables; Debate Over US Destruction of Iran Tankers, Iran Destroyer Attacks",
+      "summary": "Today's Iran war update: The US and Iran stare at and skirmish with each other as the economy continues to bleed out .",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-momentary-quiet-as-iran-withholds-answer-on-us-proposal-iran-asserts-control-over-persian-gulf-cables-debate-over-us-destruction-of-iran-tankers-iran-destroyer-attacks.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T07:34:46Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -140,110 +270,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Inside the US military playbook to cripple Iran if nuclear talks collapse",
-      "summary": "Deep mistrust between the U.S. and Iran leaves nuclear talks fragile, with analysts warning of a phased military campaign if diplomacy fails entirely.",
-      "source": "Fox News",
-      "url": "https://www.foxnews.com/politics/inside-us-military-playbook-cripple-iran-nuclear-talks-collapse",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T14:13:53Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US and Iran no closer to ending war as Gulf clashes flare",
-      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
-      "source": "Independent.ie",
-      "url": "https://www.independent.ie/world-news/middle-east/us-and-iran-no-closer-to-ending-war-as-gulf-clashes-flare/a2131789708.html",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T08:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump threatens to resume military action if Iran deal not sealed",
-      "summary": "U.S. President Donald Trump warned that Washington may escalate its military posture in the Strait of Hormuz if a deal with Iran is not finalized, threatening to revive and expand the paused \"Project Freedom\" operation.",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/trump-threatens-to-resume-military-action-if-iran-deal-not-sealed-221967",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T06:56:27Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US attacks spark Iran reprisals as deal hangs in balance",
-      "summary": "A US fighter jet disabled two Iranian-flagged tankers, prompting retaliatory attacks and rattling a shaky truce as US President Donald Trump said overnight that he was awaiting Iran's reply to his latest proposal to end the Middle East war.",
-      "source": "RTE",
-      "url": "https://www.rte.ie/news/middle-east/2026/0509/1572475-us-iran/",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T06:46:15Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -421,6 +447,30 @@
       "_from": "newsapi"
     },
     {
+      "headline": "What does the Trump-Xi summit mean for the rest of us?",
+      "summary": "It's worth paying close attention when the leaders of the two most powerful countries on the planet meet next week. Because what China's Xi Jinping and America's Donald Trump decide in Beijing could have major implications for us all, writes Yvonne Murray.",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/analysis-and-comment/2026/0510/1572446-donald-trump-xi-jinping/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T06:10:12Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Analysis: Why Trump wants to end the war with Iran “here and now”, the Chinese factor behind the pressure for a deal",
       "summary": "The visit to Beijing on May 14 and 15, the Strait of Hormuz, and the fear that the US President will appear weakened before Chinese President Xi Jinping\nThe post Analysis: Why Trump wants to end the war with Iran “here and now”, the Chinese factor behind the …",
       "source": "Protothema.gr",
@@ -517,6 +567,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Oil Falls Below $100 a Barrel on Renewed Hopes of U.S.-Iran Peace Deal",
+      "summary": "Brent crude oil fell 4.3% to $96.96 per barrel on May 7, 2026, during volatile trading, as renewed hopes of a U.S.-Iran peace deal emerged, according to market analysts. The benchmark slipped $4.31 from its May 6 close, with intraday fluctuations of up to 4.6…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-10-oil-price-drops-renewed-hopes-peace-deal.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T06:00:00Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Sensex today | Stock Market Highlights: Benchmark indices end lower; Sensex drops 516 pts to 77,328, Nifty closes at 24,176 amid West Asia tensions",
       "summary": "Sensex, Nifty, Share Prices: Indian equity markets continued to trade lower on Friday as escalating US-Iran tensions near the Strait of Hormuz rattled global sentiment, while sustained foreign investor selling and rising geopolitical uncertainty kept traders …",
       "source": "BusinessLine",
@@ -576,32 +652,6 @@
       "bloc": "western",
       "date": "2026-05-06",
       "datetime": "2026-05-06T00:00:00Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "GlobalData Identifies 'Top' Oil, Gas Themes for 2026",
-      "summary": "GlobalData has identified the 'top' themes that will impact the oil and gas industry this year in a new strategic intelligence report.",
-      "source": "Rigzone",
-      "url": "https://www.rigzone.com/news/globaldata_identifies_top_oil_gas_themes_for_2026-05-may-2026-183607-article/",
-      "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T09:25:01Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
