@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-11T15:20:02.111Z",
+  "updated": "2026-05-11T19:53:36.464Z",
   "retention_days": 30,
   "items": [
     {
@@ -23242,7 +23242,172 @@
       "_from": "newsapi",
       "first_seen": "2026-05-11T15:20:02.111Z",
       "run_id": "2026-05-11T15:20"
+    },
+    {
+      "headline": "Full transcript of \"Face the Nation with Margaret Brennan,\" May 10, 2026",
+      "summary": "On this \"Face the Nation with Margaret Brennan\" broadcast, Energy Secretary Chris Wright and Sen. Mark Kelly join Margaret Brennan.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-05-10-2026/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T18:50:26Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T19:53:36.464Z",
+      "run_id": "2026-05-11T19:53"
+    },
+    {
+      "headline": "Netanyahu Tells 60 Minutes the Iran War Is ‘Not Over’",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu said his country and the United States have accomplished a \"great deal\" in the Iran war, \"but it's not over.\"\nThe post Netanyahu Tells 60 Minutes the Iran War Is ‘Not Over’ first appeared on Mediaite.",
+      "source": "Mediaite",
+      "url": "https://www.mediaite.com/politics/netanyahu-tells-60-minutes-the-iran-war-is-not-over/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T18:16:48Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T19:53:36.464Z",
+      "run_id": "2026-05-11T19:53"
+    },
+    {
+      "headline": "US, Iran no closer to ending war as Qatari tanker sails toward Strait of Hormuz",
+      "summary": "The Strait of Hormuz is calm after recent clashes. The United States awaits Iran's response to peace proposals. Meanwhile, the US has expanded sanctions on Iran-linked entities. A Qatari LNG tanker is heading towards the strait. International efforts continue…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-iran-no-closer-to-ending-war-as-qatari-tanker-sails-toward-strait-of-hormuz/articleshow/130998526.cms",
+      "bloc": "regional",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T19:16:59Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T19:53:36.464Z",
+      "run_id": "2026-05-11T19:53"
+    },
+    {
+      "headline": "Oil Giant's Profits Surge 25%",
+      "summary": "Saudi Aramco's earnings jumped 25% in the first quarter as the company shifted more crude through a major domestic pipeline to work around war-related disruptions at a key shipping chokepoint. The Saudi Arabia-controlled producer on Sunday reported net income…",
+      "source": "Newser",
+      "url": "https://www.newser.com/story/388862/oil-giants-profits-surge-25.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T17:30:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T19:53:36.464Z",
+      "run_id": "2026-05-11T19:53"
+    },
+    {
+      "headline": "Iran claims new Supreme Leader Khamenei is fully healed from 'scratch behind the ear' - as country responds to US peace talks proposal",
+      "summary": "The Middle Eastern nation previously said Mojtaba Khamenei was suffering from a 'small scratch behind the ear' despite reports claiming he had undergone facial surgery.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15805687/Iran-claims-new-Supreme-Leader-Khamenei-fully-healed-scratch-ear-country-responds-US-peace-talks-proposal.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T15:53:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T19:53:36.464Z",
+      "run_id": "2026-05-11T19:53"
+    },
+    {
+      "headline": "Ukraine’s Drone War Is Reaching Deep Into Russia’s Oil Heartland",
+      "summary": "Russia’s Leningrad Oblast lies some 600 kilometers from the closest corner of Ukraine. But on April 15, its governor declared it a “frontline” region. Part of his explanation: From January through March, a total of 243 Ukrainian drones were shot down over the…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Ukraines-Drone-War-Is-Reaching-Deep-Into-Russias-Oil-Heartland.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T17:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T19:53:36.464Z",
+      "run_id": "2026-05-11T19:53"
     }
   ],
-  "total_items_ever": 1262
+  "total_items_ever": 1268
 }

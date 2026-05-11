@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-11T15:21:07.335Z",
+  "ts": "2026-05-11T19:54:41.652Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,61 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-11T15:21:07.335Z"
+    "updatedAt": "2026-05-11T19:54:41.652Z"
   },
   "items": [
+    {
+      "headline": "Full transcript of \"Face the Nation with Margaret Brennan,\" May 10, 2026",
+      "summary": "On this \"Face the Nation with Margaret Brennan\" broadcast, Energy Secretary Chris Wright and Sen. Mark Kelly join Margaret Brennan.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-05-10-2026/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T18:50:26Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Netanyahu Tells 60 Minutes the Iran War Is ‘Not Over’",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu said his country and the United States have accomplished a \"great deal\" in the Iran war, \"but it's not over.\"\nThe post Netanyahu Tells 60 Minutes the Iran War Is ‘Not Over’ first appeared on Mediaite.",
+      "source": "Mediaite",
+      "url": "https://www.mediaite.com/politics/netanyahu-tells-60-minutes-the-iran-war-is-not-over/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T18:16:48Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "FO Exclusive: US–Iran Double Blockade of Hormuz Threatens Global Economy",
       "summary": "Editor-in-Chief Atul Singh and FOI Senior Partner Glenn Carle, a retired CIA officer who now advises companies, governments and organizations on geopolitical risk, examine a conflict that has spilled far beyond the battlefield. The US–Israel–Iran war, anchore…",
@@ -66,53 +118,79 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iranian air defense downs hostile drone in southwest, Army says",
-      "summary": "Iran's integrated air defense network destroyed an enemy reconnaissance drone over the southwestern region of the country, the Iranian Army's public relations office announced on Monday.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv01.htm",
-      "bloc": "western",
+      "headline": "US, Iran no closer to ending war as Qatari tanker sails toward Strait of Hormuz",
+      "summary": "The Strait of Hormuz is calm after recent clashes. The United States awaits Iran's response to peace proposals. Meanwhile, the US has expanded sanctions on Iran-linked entities. A Qatari LNG tanker is heading towards the strait. International efforts continue…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-iran-no-closer-to-ending-war-as-qatari-tanker-sails-toward-strait-of-hormuz/articleshow/130998526.cms",
+      "bloc": "regional",
       "date": "2026-05-10",
-      "datetime": "2026-05-10T12:00:00Z",
+      "datetime": "2026-05-10T19:16:59Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "'History repeats itself': Iran FM spox invokes historic Roman defeat to warn US, Israel",
-      "summary": "Iran's Foreign Ministry spokesman has invoked a famous ancient Persian victory over Rome to send a message to today's adversaries, warning that history repeats itself for those who refuse to learn its lessons.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv03.htm",
+      "headline": "Oil Giant's Profits Surge 25%",
+      "summary": "Saudi Aramco's earnings jumped 25% in the first quarter as the company shifted more crude through a major domestic pipeline to work around war-related disruptions at a key shipping chokepoint. The Saudi Arabia-controlled producer on Sunday reported net income…",
+      "source": "Newser",
+      "url": "https://www.newser.com/story/388862/oil-giants-profits-surge-25.html",
       "bloc": "western",
       "date": "2026-05-10",
-      "datetime": "2026-05-10T12:00:00Z",
+      "datetime": "2026-05-10T17:30:00Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran claims new Supreme Leader Khamenei is fully healed from 'scratch behind the ear' - as country responds to US peace talks proposal",
+      "summary": "The Middle Eastern nation previously said Mojtaba Khamenei was suffering from a 'small scratch behind the ear' despite reports claiming he had undergone facial surgery.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15805687/Iran-claims-new-Supreme-Leader-Khamenei-fully-healed-scratch-ear-country-responds-US-peace-talks-proposal.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T15:53:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -166,84 +244,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Tanker crosses Strait of Hormuz as U.S. awaits Iran response",
-      "summary": "The QatarEnergy-operated carrier Al Kharaitiyat passed safely through the strait and was heading for Pakistan, according to shipping analytics firm Kpler.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/10/tanker-crosses-strait-of-hormuz-as-us-awaits-iran-response-.html",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T10:51:31Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US Awaits Iran Reply as Aramco Says Hormuz Opening No Quick Fix",
-      "summary": "The wait stretched on for Iran’s response to a US proposal to end 10 weeks of war, as the world’s largest oil company warned it would take months for the market to return to normal even if the Strait of Hormuz reopened immediately.",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-pmn/us-awaits-iran-reply-as-aramco-says-hormuz-opening-no-quick-fix",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T08:22:25Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US and Iran no closer to ending war as oil giant warns a billion barrels of oil have been lost",
-      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
-      "source": "Independent.ie",
-      "url": "https://www.independent.ie/world-news/middle-east/us-and-iran-no-closer-to-ending-war-as-oil-giant-warns-a-billion-barrels-of-oil-have-been-lost/a2131789708.html",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T08:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -793,6 +793,29 @@
       "variable_key": "armsControlArchitecture",
       "event_type": "static_variable",
       "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Ukraine’s Drone War Is Reaching Deep Into Russia’s Oil Heartland",
+      "summary": "Russia’s Leningrad Oblast lies some 600 kilometers from the closest corner of Ukraine. But on April 15, its governor declared it a “frontline” region. Part of his explanation: From January through March, a total of 243 Ukrainian drones were shot down over the…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Ukraines-Drone-War-Is-Reaching-Deep-Into-Russias-Oil-Heartland.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T17:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
