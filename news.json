@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-11T09:49:30.121Z",
+  "ts": "2026-05-11T15:21:07.335Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,43 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-11T09:49:30.121Z"
+    "updatedAt": "2026-05-11T15:21:07.335Z"
   },
   "items": [
     {
-      "headline": "Iran war day 72: Tehran yet to reply to US plan; Israel bombs Lebanon",
-      "summary": "Israel kills at least 24 people in Lebanon in one day as Tehran's response to US proposal to end the war is awaited.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/5/10/iran-war-day-72-tehran-yet-to-reply-to-us-plan-israel-bombs-lebanon",
-      "bloc": "regional",
+      "headline": "FO Exclusive: US–Iran Double Blockade of Hormuz Threatens Global Economy",
+      "summary": "Editor-in-Chief Atul Singh and FOI Senior Partner Glenn Carle, a retired CIA officer who now advises companies, governments and organizations on geopolitical risk, examine a conflict that has spilled far beyond the battlefield. The US–Israel–Iran war, anchore…",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/world-news/fo-exclusive-us-iran-double-blockade-of-hormuz-threatens-global-economy/",
+      "bloc": "western",
       "date": "2026-05-10",
-      "datetime": "2026-05-10T08:18:23Z",
+      "datetime": "2026-05-10T12:36:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iranian Armed Forces have upper hand in region despite US provocations: General",
+      "summary": "A high-ranking military commander says Iranian Armed Forces have the upper hand in the region, despite US acts of aggression and mischief.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv10.htm",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +66,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "British military says ship caught fire after being hit off coast of Qatar",
-      "summary": "Iran has sent its response to the latest U.S. ceasefire proposal to Pakistani mediators, focusing on permanently ending the war",
-      "source": "WHIO",
-      "url": "https://www.whio.com/news/business/british-military/S53FOAG2QA7F7NZJMAE376LLBU/",
+      "headline": "Iranian air defense downs hostile drone in southwest, Army says",
+      "summary": "Iran's integrated air defense network destroyed an enemy reconnaissance drone over the southwestern region of the country, the Iranian Army's public relations office announced on Monday.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv01.htm",
       "bloc": "western",
       "date": "2026-05-10",
-      "datetime": "2026-05-10T06:17:55Z",
+      "datetime": "2026-05-10T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "'History repeats itself': Iran FM spox invokes historic Roman defeat to warn US, Israel",
+      "summary": "Iran's Foreign Ministry spokesman has invoked a famous ancient Persian victory over Rome to send a message to today's adversaries, warning that history repeats itself for those who refuse to learn its lessons.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv03.htm",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,79 +118,79 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran threatens to obliterate US ships as peace deal hangs in the balance... and experts say Tehran has enough plutonium reserves for 200 nuclear bombs",
-      "summary": "Donald Trump has yet to receive an answer on Iranian peace agreements amid an increasingly contentious ceasefire.",
-      "source": "Dailymail.com",
-      "url": "https://www.dailymail.com/news/article-15804797/Iran-threatens-US-ships-peace-deal-trump.html",
+      "headline": "Iran says it has sent response to US proposal for ending war to mediator Pakistan",
+      "summary": "Hostile drones detected over several Gulf countries, underlining threat still facing region despite month-old ceasefire",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/05/10/iran-says-it-has-sent-response-to-us-proposal-for-ending-war-to-mediator-pakistan/",
       "bloc": "western",
       "date": "2026-05-10",
-      "datetime": "2026-05-10T05:30:09Z",
+      "datetime": "2026-05-10T15:09:32Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran wants team members who served in the Revolutionary Guard to get visas for the World Cup",
-      "summary": "Iran's soccer federation says the country will participate in the 2026 FIFA World Cup",
-      "source": "Abcnews.com",
-      "url": "https://abcnews.com/International/wireStory/iran-team-members-served-revolutionary-guard-visas-world-132816578",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T04:47:50Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Q4 earnings, crude oil, FII action among 8 factors to steer D-Street this week",
-      "summary": "Indian stock markets are set for a busy week. Key events like Q4 earnings announcements for many companies will influence trading. Foreign institutional investors' selling continues to be a concern. Geopolitical tensions in the Middle East and US market movem…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/q4-earnings-crude-oil-fii-action-among-8-factors-to-steer-d-street-this-week/articleshow/130986066.cms",
-      "bloc": "regional",
+      "headline": "Iran warns against complying with US sanctions as Gulf attacks reported",
+      "summary": "The warning comes as a commercial vessel is hit off Qatar, and both the UAE and Kuwait report drone attacks.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "bloc": "western",
       "date": "2026-05-10",
-      "datetime": "2026-05-10T04:06:54Z",
+      "datetime": "2026-05-10T12:22:11Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Tanker crosses Strait of Hormuz as U.S. awaits Iran response",
+      "summary": "The QatarEnergy-operated carrier Al Kharaitiyat passed safely through the strait and was heading for Pakistan, according to shipping analytics firm Kpler.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/10/tanker-crosses-strait-of-hormuz-as-us-awaits-iran-response-.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T10:51:31Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -177,84 +229,6 @@
       "bloc": "western",
       "date": "2026-05-10",
       "datetime": "2026-05-10T08:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran says it has sent response to US peace proposal",
-      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
-      "source": "Independent.ie",
-      "url": "https://www.independent.ie/world-news/middle-east/iran-says-it-has-sent-response-to-us-peace-proposal/a2131789708.html",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T08:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran War: Momentary Quiet as Iran Withholds Answer on US Proposal; Iran Asserts Control Over Persian Gulf Cables; Debate Over US Destruction of Iran Tankers, Iran Destroyer Attacks",
-      "summary": "Today's Iran war update: The US and Iran stare at and skirmish with each other as the economy continues to bleed out .",
-      "source": "Nakedcapitalism.com",
-      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-momentary-quiet-as-iran-withholds-answer-on-us-proposal-iran-asserts-control-over-persian-gulf-cables-debate-over-us-destruction-of-iran-tankers-iran-destroyer-attacks.html",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T07:34:46Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "U.S., Iran no closer to ending war as Qatari tanker sails toward Strait of Hormuz",
-      "summary": "A state of relative calm prevailed around the Strait of Hormuz on Saturday, after days of sporadic flare-ups, as the United States waited for Iran's response to its latest proposals to end ‌more than two months of fighting and begin peace talks. U.S. Secretar…",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/world/us-iran-no-closer-to-ending-war-as-qatari-tanker-sails-toward-strait-of-hormuz",
-      "bloc": "western",
-      "date": "2026-05-09",
-      "datetime": "2026-05-09T20:39:57Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",

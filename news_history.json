@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-11T09:48:24.932Z",
+  "updated": "2026-05-11T15:20:02.111Z",
   "retention_days": 30,
   "items": [
     {
@@ -23046,7 +23046,203 @@
       "_from": "newsapi",
       "first_seen": "2026-05-11T09:48:24.932Z",
       "run_id": "2026-05-11T09:48"
+    },
+    {
+      "headline": "FO Exclusive: US–Iran Double Blockade of Hormuz Threatens Global Economy",
+      "summary": "Editor-in-Chief Atul Singh and FOI Senior Partner Glenn Carle, a retired CIA officer who now advises companies, governments and organizations on geopolitical risk, examine a conflict that has spilled far beyond the battlefield. The US–Israel–Iran war, anchore…",
+      "source": "Fair Observer",
+      "url": "https://www.fairobserver.com/world-news/fo-exclusive-us-iran-double-blockade-of-hormuz-threatens-global-economy/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T12:36:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T15:20:02.111Z",
+      "run_id": "2026-05-11T15:20"
+    },
+    {
+      "headline": "Iranian Armed Forces have upper hand in region despite US provocations: General",
+      "summary": "A high-ranking military commander says Iranian Armed Forces have the upper hand in the region, despite US acts of aggression and mischief.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv10.htm",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T15:20:02.111Z",
+      "run_id": "2026-05-11T15:20"
+    },
+    {
+      "headline": "Iranian air defense downs hostile drone in southwest, Army says",
+      "summary": "Iran's integrated air defense network destroyed an enemy reconnaissance drone over the southwestern region of the country, the Iranian Army's public relations office announced on Monday.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv01.htm",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T15:20:02.111Z",
+      "run_id": "2026-05-11T15:20"
+    },
+    {
+      "headline": "'History repeats itself': Iran FM spox invokes historic Roman defeat to warn US, Israel",
+      "summary": "Iran's Foreign Ministry spokesman has invoked a famous ancient Persian victory over Rome to send a message to today's adversaries, warning that history repeats itself for those who refuse to learn its lessons.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv03.htm",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T15:20:02.111Z",
+      "run_id": "2026-05-11T15:20"
+    },
+    {
+      "headline": "Iran says it has sent response to US proposal for ending war to mediator Pakistan",
+      "summary": "Hostile drones detected over several Gulf countries, underlining threat still facing region despite month-old ceasefire",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/05/10/iran-says-it-has-sent-response-to-us-proposal-for-ending-war-to-mediator-pakistan/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T15:09:32Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T15:20:02.111Z",
+      "run_id": "2026-05-11T15:20"
+    },
+    {
+      "headline": "Iran warns against complying with US sanctions as Gulf attacks reported",
+      "summary": "The warning comes as a commercial vessel is hit off Qatar, and both the UAE and Kuwait report drone attacks.",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T12:22:11Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T15:20:02.111Z",
+      "run_id": "2026-05-11T15:20"
+    },
+    {
+      "headline": "Tanker crosses Strait of Hormuz as U.S. awaits Iran response",
+      "summary": "The QatarEnergy-operated carrier Al Kharaitiyat passed safely through the strait and was heading for Pakistan, according to shipping analytics firm Kpler.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/10/tanker-crosses-strait-of-hormuz-as-us-awaits-iran-response-.html",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T10:51:31Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-11T15:20:02.111Z",
+      "run_id": "2026-05-11T15:20"
     }
   ],
-  "total_items_ever": 1255
+  "total_items_ever": 1262
 }
