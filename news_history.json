@@ -1,456 +1,8 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-11T19:53:36.464Z",
+  "updated": "2026-05-12T03:37:32.601Z",
   "retention_days": 30,
   "items": [
-    {
-      "headline": "Trump Threatens 50% Tariffs on Nations Supplying Weapons to Iran",
-      "summary": "Introduction On April 8, 2026, U.S. President Donald Trump announced a policy to impose immediate 50% tariffs on goods from any country found supplying military weapons to Iran. The announcement was made via a post on Truth Social, according to reports from s…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-11-trump-threatens-tariffs-on-nations-supplying-weapons-iran.html",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T06:12:30.519Z",
-      "run_id": "2026-04-12T06:12"
-    },
-    {
-      "headline": "Iran Limits Daily Vessel Transits Through Strait of Hormuz to 15 Under Ceasefire Terms: Report",
-      "summary": "Iran Limits Daily Vessel Transits Through Strait of Hormuz to 15 Under Ceasefire Terms: Report A new report claims Iran has agreed to a significant restriction on maritime traffic through the Strait of Hormuz as part of a broader ceasefire agreement with the …",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-11-iran-limits-daily-vessel-transits-through-hormuz.html",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T06:12:30.519Z",
-      "run_id": "2026-04-12T06:12"
-    },
-    {
-      "headline": "Israeli Strikes in Lebanon Continue Following Ceasefire, EU Says Iran Truce “Under Strain”",
-      "summary": "Introduction Israeli military strikes against Hezbollah targets in Lebanon have continued for the last two days following the announcement of a U.S.-Iran ceasefire, according to reports from regional authorities and international observers. The European Union…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-11-israeli-strikes-in-lebanon-continue-following-ceasefire.html",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T06:12:30.519Z",
-      "run_id": "2026-04-12T06:12"
-    },
-    {
-      "headline": "‘It’s as if there’s no ceasefire at all. Life is still terrible’ – Six months into Gaza truce, little has changed for civilians",
-      "summary": "It has been six months since Gaza’s ceasefire deal took effect, a milestone largely lost in the confusion over the new and even more fragile ceasefire in the Iran war.",
-      "source": "Independent.ie",
-      "url": "https://www.independent.ie/world-news/middle-east/its-as-if-theres-no-ceasefire-at-all-life-is-still-terrible-six-months-into-gaza-truce-little-has-changed-for-civilians/a1799003413.html",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T04:30:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T06:12:30.519Z",
-      "run_id": "2026-04-12T06:12"
-    },
-    {
-      "headline": "Why is Israel continuing to attack Lebanon, despite the ceasefire? Expert Q&A",
-      "summary": "There should be no confusion. Sharif’s social media post made clear that the ceasefire also applies to Israel’s campaign in Lebanon.",
-      "source": "Juancole.com",
-      "url": "https://www.juancole.com/2026/04/continuing-lebanon-ceasefire.html",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T04:06:46Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T06:12:30.519Z",
-      "run_id": "2026-04-12T06:12"
-    },
-    {
-      "headline": "Israeli strikes kill 10 people in southern Lebanon",
-      "summary": "The Lebanese health ministry says ten people, including three emergency workers, have been killed by Israeli air strikes in southern Lebanon, as the occupying regime continues its aggression across the region.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260411-presstv02.htm",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T14:11:34.823Z",
-      "run_id": "2026-04-12T14:11"
-    },
-    {
-      "headline": "Iran, US end third round of Pakistan-mediated negotiations; talks extended for another day",
-      "summary": "Iran and the United States have ended the third round of Pakistan-mediated ceasefire negotiations in Islamabad pending fresh resumption of the talks on Sunday.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260411-presstv04.htm",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T14:11:34.823Z",
-      "run_id": "2026-04-12T14:11"
-    },
-    {
-      "headline": "Drone crashed near US diplomats in Baghdad",
-      "summary": "‎A drone crashed near a group of US diplomats at Baghdad International Airport earlier this week, Iraqi officials said, as they were escorting an American journalist recently released by Kataeb Hezbollah resistance group.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iraq/2026/iraq-260411-presstv01.htm",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T14:11:34.823Z",
-      "run_id": "2026-04-12T14:11"
-    },
-    {
-      "headline": "Iran-US talks in Islamabad, mediated by Pakistan, enter expert-level phase",
-      "summary": "Iran and the United States have begun a first round of negotiations in the Pakistani capital of Islamabad aimed at permanently ending a US-Israeli war of aggression against the Islamic Republic.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260411-presstv09.htm",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T14:11:34.823Z",
-      "run_id": "2026-04-12T14:11"
-    },
-    {
-      "headline": "Pezeshkian: Iranian negotiators defending national interests in Islamabad talks",
-      "summary": "President Masoud Pezeshkian says Iran's senior negotiators are wholeheartedly defending national interests during the ongoing talks with the American side in the Pakistani capital of Islamabad aimed at putting a permanent end to a US-Israeli war of aggression…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260411-presstv05.htm",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T14:11:34.823Z",
-      "run_id": "2026-04-12T14:11"
-    },
-    {
-      "headline": "Iranian delegation arrives in Islamabad, sets preconditions for peace",
-      "summary": "Iranian delegation led by Parliament Speaker Ghalibaf arrives in Islamabad for US talks, demanding a Lebanon ceasefire and release of frozen assets first. US VP Vance warns Iran against playing games. An Iranian negotiating delegation, led by Parliament Speak…",
-      "source": "Freerepublic.com",
-      "url": "https://freerepublic.com/focus/f-news/4374525/posts",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T19:39:35Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T19:56:08.967Z",
-      "run_id": "2026-04-12T19:56"
-    },
-    {
-      "headline": "Pope Leo Denounces The 'Delusion Of Omnipotence' He Says Fuels The U.S.-Israeli War In Iran",
-      "summary": "Pope Leo called for all people of good will to pray for peace and demand an end to war from their political leaders.",
-      "source": "HuffPost",
-      "url": "https://www.huffpost.com/entry/pope-leo-denounces-delusion-omnipotence-fuels-iran-war_n_69da969de4b00247ba9b72ac",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T18:58:06Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T19:56:08.967Z",
-      "run_id": "2026-04-12T19:56"
-    },
-    {
-      "headline": "In the Gulf, states are 'paying the price' for a war they didn't start",
-      "summary": "When the Iran war ends, Gulf nations will not only have to repair the economic and physical damage caused by Iran's retaliatory campaign, but will also have to learn to live with a regime that analysts say is \"less predictable and more violent than it was two…",
-      "source": "ABC News (AU)",
-      "url": "https://www.abc.net.au/news/2026-04-12/gulf-states-paying-the-price-for-a-war-they-didn-t-start/106491586",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T18:54:47Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T19:56:08.967Z",
-      "run_id": "2026-04-12T19:56"
-    },
-    {
-      "headline": "Evangelicals amplify Trump's religious framing of Iran war",
-      "summary": "President Trump is using Christian rhetoric to rally core supporters behind the increasingly unpopular war with Iran, religious and political experts say.",
-      "source": "Richmond.com",
-      "url": "https://richmond.com/news/nation-world/government-politics/article_b1005640-1370-54d0-9e17-2da870c7ad02.html",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T18:30:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T19:56:08.967Z",
-      "run_id": "2026-04-12T19:56"
-    },
-    {
-      "headline": "Ceasefire brings some relief for Iranians but economic outlook remains grim",
-      "summary": "Activity picks up in Tehran's Grand Bazaar compared with before the ceasefire, but vendors say sales remain slow.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/4/11/ceasefire-brings-some-relief-for-iranians-but-economic-outlook-remains-grim",
-      "bloc": "regional",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T17:29:23Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T19:56:08.967Z",
-      "run_id": "2026-04-12T19:56"
-    },
-    {
-      "headline": "Markets’ dilemma: Trust the bark or wag of oil prices",
-      "summary": "Split signals. Surge in physical oil prices alongside a steep fall in futures underscores a stark divergence, with the gap between the two widening to historic highs",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/portfolio/markets-dilemma-trust-the-bark-or-wag-of-oil-prices/article70851920.ece",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T16:39:57Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-12T19:56:08.967Z",
-      "run_id": "2026-04-12T19:56"
-    },
     {
       "headline": "Peace talks between United States and Iran collapse without a deal",
       "summary": "The US and Iran failed to reach an agreement after marathon talks in Pakistan, raising doubts about whether they can find a lasting resolution to a six-week war that has killed thousands and disrupted energy supplies across the globe.",
@@ -564,34 +116,6 @@
       "run_id": "2026-04-13T07:28"
     },
     {
-      "headline": "Israeli strikes kill at least 18 people across southern Lebanon",
-      "summary": "Lebanon's Health Ministry says more than 2,000 people have been killed in Israeli attacks since March 2.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/4/11/israeli-strikes-kill-at-least-18-people-across-southern-lebanon",
-      "bloc": "regional",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T20:25:29Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-13T07:28:14.150Z",
-      "run_id": "2026-04-13T07:28"
-    },
-    {
       "headline": "Strait of Hormuz Transit Remains Limited to Iran-Aligned Vessels; Tankers Gather Near Entrance",
       "summary": "Transit through the critical Strait of Hormuz remains heavily restricted as of April 2026, with passage primarily limited to vessels flagged to or linked with nations Iran considers ‘friendly,’ including China and Russia. Despite a two-week ceasefire announce…",
       "source": "Naturalnews.com",
@@ -627,34 +151,6 @@
       "bloc": "regional",
       "date": "2026-04-12",
       "datetime": "2026-04-12T05:00:33Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-13T07:28:14.150Z",
-      "run_id": "2026-04-13T07:28"
-    },
-    {
-      "headline": "How Iran’s Dark Fleet Is Quietly Keeping Oil Markets Afloat",
-      "summary": "It almost looks like an eternal story or an Australian boomerang approach, but the global oil market is once again being misread, very badly. Headlines speak of disruption, paralysis, and the near closure of the Strait of Hormuz. International tanker trackers…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/How-Irans-Dark-Fleet-Is-Quietly-Keeping-Oil-Markets-Afloat.html",
-      "bloc": "western",
-      "date": "2026-04-11",
-      "datetime": "2026-04-11T23:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -23407,7 +22903,171 @@
       "_from": "newsapi",
       "first_seen": "2026-05-11T19:53:36.464Z",
       "run_id": "2026-05-11T19:53"
+    },
+    {
+      "headline": "Netanyahu demands Iran remove uranium, complicating US-Iran nuclear talks",
+      "summary": "Netanyahu's demands may hinder US-Iran nuclear negotiations, reducing chances for regional peace and complicating diplomatic efforts.\nThe post Netanyahu demands Iran remove uranium, complicating US-Iran nuclear talks appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/netanyahu-demands-iran-remove-uranium-complicating-us-iran-nuclear-talks/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T01:02:52Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T03:37:32.600Z",
+      "run_id": "2026-05-12T03:37"
+    },
+    {
+      "headline": "South Korea confirms external strikes caused fire on HMM Namu, sending ripples through crypto mining economics",
+      "summary": "The incident exacerbates energy costs, impacting Bitcoin mining profitability and potentially destabilizing geopolitical negotiations.\nThe post South Korea confirms external strikes caused fire on HMM Namu, sending ripples through crypto mining economics appe…",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/south-korea-hmm-namu-strike-crypto-mining/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T00:55:35Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T03:37:32.600Z",
+      "run_id": "2026-05-12T03:37"
+    },
+    {
+      "headline": "Full transcript of 60 Minutes' interview with Israel's Benjamin Netanyahu",
+      "summary": "Read the full transcript of Major Garrett's May 10, 2026 interview with Israeli Prime Minister Netanyahu here.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/read-the-full-transcript-of-major-garretts-interview-with-israeli-prime-minister-benjamin-netanyahu-here/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T23:00:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T03:37:32.600Z",
+      "run_id": "2026-05-12T03:37"
+    },
+    {
+      "headline": "The American allies who get it",
+      "summary": "'Despite everything that the United States has done for our NATO allies, they were not there for us'",
+      "source": "Wnd.com",
+      "url": "https://www.wnd.com/2026/05/american-allies-who-get-it/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T20:27:55Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T03:37:32.600Z",
+      "run_id": "2026-05-12T03:37"
+    },
+    {
+      "headline": "Taiwan to be key issue at Trump's summit with China's President Xi",
+      "summary": "Taiwan, one of the world's biggest diplomatic flashpoints, will be top of mind for President Xi when he meets with President Trump.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/taiwan-trump-summit-china-xi-jinping/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T01:09:43Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T03:37:32.601Z",
+      "run_id": "2026-05-12T03:37"
+    },
+    {
+      "headline": "Board Of Trade, Ahoy!",
+      "summary": "In my never-ending quest to connect U.S.-China relations to the cannon of popular (and often times obscure) music, it is sometimes tough to find a song to fit my commentary.",
+      "source": "Substack.com",
+      "url": "https://chinaarticles.substack.com/p/board-of-trade-ahoy",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T03:37:32.601Z",
+      "run_id": "2026-05-12T03:37"
     }
   ],
-  "total_items_ever": 1268
+  "total_items_ever": 1274
 }

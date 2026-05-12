@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-11T19:54:41.652Z",
+  "ts": "2026-05-12T03:38:37.729Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-11T19:54:41.652Z"
+    "updatedAt": "2026-05-12T03:38:37.729Z"
   },
   "items": [
     {
-      "headline": "Full transcript of \"Face the Nation with Margaret Brennan,\" May 10, 2026",
-      "summary": "On this \"Face the Nation with Margaret Brennan\" broadcast, Energy Secretary Chris Wright and Sen. Mark Kelly join Margaret Brennan.",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-05-10-2026/",
+      "headline": "Netanyahu demands Iran remove uranium, complicating US-Iran nuclear talks",
+      "summary": "Netanyahu's demands may hinder US-Iran nuclear negotiations, reducing chances for regional peace and complicating diplomatic efforts.\nThe post Netanyahu demands Iran remove uranium, complicating US-Iran nuclear talks appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/netanyahu-demands-iran-remove-uranium-complicating-us-iran-nuclear-talks/",
       "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T18:50:26Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T01:02:52Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -35,44 +35,18 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
-      "escalation": 2,
+      "escalation": 4,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Netanyahu Tells 60 Minutes the Iran War Is ‘Not Over’",
-      "summary": "Israeli Prime Minister Benjamin Netanyahu said his country and the United States have accomplished a \"great deal\" in the Iran war, \"but it's not over.\"\nThe post Netanyahu Tells 60 Minutes the Iran War Is ‘Not Over’ first appeared on Mediaite.",
-      "source": "Mediaite",
-      "url": "https://www.mediaite.com/politics/netanyahu-tells-60-minutes-the-iran-war-is-not-over/",
+      "headline": "South Korea confirms external strikes caused fire on HMM Namu, sending ripples through crypto mining economics",
+      "summary": "The incident exacerbates energy costs, impacting Bitcoin mining profitability and potentially destabilizing geopolitical negotiations.\nThe post South Korea confirms external strikes caused fire on HMM Namu, sending ripples through crypto mining economics appe…",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/south-korea-hmm-namu-strike-crypto-mining/",
       "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T18:16:48Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "FO Exclusive: US–Iran Double Blockade of Hormuz Threatens Global Economy",
-      "summary": "Editor-in-Chief Atul Singh and FOI Senior Partner Glenn Carle, a retired CIA officer who now advises companies, governments and organizations on geopolitical risk, examine a conflict that has spilled far beyond the battlefield. The US–Israel–Iran war, anchore…",
-      "source": "Fair Observer",
-      "url": "https://www.fairobserver.com/world-news/fo-exclusive-us-iran-double-blockade-of-hormuz-threatens-global-economy/",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T12:36:10Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T00:55:35Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +66,65 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iranian Armed Forces have upper hand in region despite US provocations: General",
-      "summary": "A high-ranking military commander says Iranian Armed Forces have the upper hand in the region, despite US acts of aggression and mischief.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260510-presstv10.htm",
+      "headline": "Full transcript of 60 Minutes' interview with Israel's Benjamin Netanyahu",
+      "summary": "Read the full transcript of Major Garrett's May 10, 2026 interview with Israeli Prime Minister Netanyahu here.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/read-the-full-transcript-of-major-garretts-interview-with-israeli-prime-minister-benjamin-netanyahu-here/",
       "bloc": "western",
       "date": "2026-05-10",
-      "datetime": "2026-05-10T12:00:00Z",
+      "datetime": "2026-05-10T23:00:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "The American allies who get it",
+      "summary": "'Despite everything that the United States has done for our NATO allies, they were not there for us'",
+      "source": "Wnd.com",
+      "url": "https://www.wnd.com/2026/05/american-allies-who-get-it/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T20:27:55Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Full transcript of \"Face the Nation with Margaret Brennan,\" May 10, 2026",
+      "summary": "On this \"Face the Nation with Margaret Brennan\" broadcast, Energy Secretary Chris Wright and Sen. Mark Kelly join Margaret Brennan.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-05-10-2026/",
+      "bloc": "western",
+      "date": "2026-05-10",
+      "datetime": "2026-05-10T18:50:26Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -272,30 +298,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Congress ignores key deadline as Republicans ready 'restraint' on Trump's war in Iran",
-      "summary": "Congress left D.C. without acting on the War Powers Act 60-day deadline for Trump's Iran war as Republicans remain divided on what comes next.",
-      "source": "Fox News",
-      "url": "https://www.foxnews.com/politics/congress-ignores-key-deadline-republicans-ready-restraint-trumps-war-iran",
-      "bloc": "western",
-      "date": "2026-05-04",
-      "datetime": "2026-05-04T14:44:36Z",
-      "leaders": [
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "Trump Iran war"
-      ],
-      "dimensions": [
-        "accountability",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "India–Pakistan May 2025 War Shows Limitations of Air Power",
       "summary": "On the night of May 6 and 7, 2025, the Indian Air Force (IAF) faced an unprecedented setback: The Pakistan Air Force (PAF) reportedly downed seven Indian aircraft during a high-intensity aerial engagement. This included the state-of-the-art Rafale fighters, r…",
       "source": "Fair Observer",
@@ -396,27 +398,50 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Medvedev warns of nuclear apocalypse amid Russia-NATO tensions",
-      "summary": "Medvedev's nuclear warning highlights escalating geopolitical tensions, increasing the risk of miscalculation and impacting global stability.\nThe post Medvedev warns of nuclear apocalypse amid Russia-NATO tensions appeared first on Crypto Briefing.",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/medvedev-warns-of-nuclear-apocalypse-amid-russia-nato-tensions/",
+      "headline": "Taiwan to be key issue at Trump's summit with China's President Xi",
+      "summary": "Taiwan, one of the world's biggest diplomatic flashpoints, will be top of mind for President Xi when he meets with President Trump.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/taiwan-trump-summit-china-xi-jinping/",
       "bloc": "western",
-      "date": "2026-05-04",
-      "datetime": "2026-05-04T01:40:14Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T01:09:43Z",
       "leaders": [
-        "Vladimir Putin"
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Putin Ukraine ceasefire"
+        "Xi Jinping China"
       ],
       "dimensions": [
         "survival",
-        "impulsivity",
-        "narcissism"
+        "impulsivity"
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
-      "escalation": 4,
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Board Of Trade, Ahoy!",
+      "summary": "In my never-ending quest to connect U.S.-China relations to the cannon of popular (and often times obscure) music, it is sometimes tough to find a song to fit my commentary.",
+      "source": "Substack.com",
+      "url": "https://chinaarticles.substack.com/p/board-of-trade-ahoy",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -476,54 +501,6 @@
       "bloc": "western",
       "date": "2026-05-05",
       "datetime": "2026-05-05T13:59:55Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US official says China is ‘funding’ Iran, urges Beijing to help open Hormuz",
-      "summary": "Scott Bessent says US has 'absolute control' of Hormuz, but calls on China to 'step up' with diplomacy to reopen strait.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/5/4/us-official-says-china-is-funding-iran-urges-beijing-to-help-open-hormuz",
-      "bloc": "regional",
-      "date": "2026-05-04",
-      "datetime": "2026-05-04T15:55:38Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The Chinese dragon’s double game: Xi Jinping awaits Trump in Beijing while keeping channels open with Iran",
-      "summary": "Beijing seeks de-escalation in the Persian Gulf - but not an American victory without cost. The Trump–Xi meeting on May 14 is turning into a critical test for the new global balance of power\nThe post The Chinese dragon’s double game: Xi Jinping awaits Trump i…",
-      "source": "Protothema.gr",
-      "url": "https://en.protothema.gr/2026/05/04/the-chinese-dragons-double-game-xi-jinping-awaits-trump-in-beijing-while-keeping-channels-open-with-iran/",
-      "bloc": "western",
-      "date": "2026-05-04",
-      "datetime": "2026-05-04T14:13:02Z",
       "leaders": [
         "Xi Jinping"
       ],
@@ -772,31 +749,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Karaganov: How Russia can win the new world war",
-      "summary": "Russia must sharpen nuclear deterrence, revise doctrine and defeat Kiev to avert a wider war with the West and NATO powers Read Full Article at RT.com",
-      "source": "RT",
-      "url": "https://www.rt.com/russia/639440-karaganov-how-russia-can-win/",
-      "bloc": "western",
-      "date": "2026-05-04",
-      "datetime": "2026-05-04T21:07:56Z",
-      "leaders": [
-        "Vladimir Putin",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "arms control New"
-      ],
-      "dimensions": [
-        "accountability",
-        "values"
-      ],
-      "variable_key": "armsControlArchitecture",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "Ukraine’s Drone War Is Reaching Deep Into Russia’s Oil Heartland",
       "summary": "Russia’s Leningrad Oblast lies some 600 kilometers from the closest corner of Ukraine. But on April 15, its governor declared it a “frontline” region. Part of his explanation: From January through March, a total of 243 Ukrainian drones were shot down over the…",
       "source": "OilPrice.com",
@@ -850,52 +802,6 @@
       "bloc": "western",
       "date": "2026-05-05",
       "datetime": "2026-05-05T13:30:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The Urals no longer a rear area: in April, Ukrainian deep strike operations hit 14 refineries and terminals, 2 plants, as well as russian vessels and aircraft",
-      "summary": "April 2026 marked another month of a systematic deep strike campaign by the Defence Forces of Ukraine against russia's military-economic infrastructure. Deep strike capabilities hit targets ranging from temporarily occupied Crimea to Perm, Ufa, Orsk, and Chel…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/05/ukraine-260504-ukraine-mod01.htm",
-      "bloc": "western",
-      "date": "2026-05-04",
-      "datetime": "2026-05-04T12:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Oil refineries are catching fire in war or by accident. How does this worsen the energy crunch?",
-      "summary": "Many oil refineries have caught fire recently. Whether caused by drone strike or accident, the result is the same: more pressure on shaky energy systems.",
-      "source": "The Conversation Africa",
-      "url": "https://theconversation.com/oil-refineries-are-catching-fire-in-war-or-by-accident-how-does-this-worsen-the-energy-crunch-281855",
-      "bloc": "western",
-      "date": "2026-05-04",
-      "datetime": "2026-05-04T05:51:11Z",
       "leaders": [],
       "watch_terms": [
         "oil refinery port"
