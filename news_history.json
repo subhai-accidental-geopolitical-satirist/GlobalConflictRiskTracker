@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-12T08:46:01.179Z",
+  "updated": "2026-05-12T14:33:39.544Z",
   "retention_days": 30,
   "items": [
     {
@@ -23347,7 +23347,257 @@
       "_from": "newsapi",
       "first_seen": "2026-05-12T08:46:01.179Z",
       "run_id": "2026-05-12T08:46"
+    },
+    {
+      "headline": "Iran War Ceasefire Grows Increasingly Shaky After Trump Rejects Tehran's Latest Proposal",
+      "summary": "Trump said Sunday that Iran’s response to his latest proposal was “TOTALLY UNACCEPTABLE!” Ending the U.S. blockade before discussing Iran’s nuclear program would eliminate a major point of leverage.",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/iran-war-ceasefire-grows-increasingly-shaky-trump-rejects-latest-proposal_n_6a01d167e4b0cb033e52cc64",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T13:05:43Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.543Z",
+      "run_id": "2026-05-12T14:33"
+    },
+    {
+      "headline": "Trump Dismisses Iran’s Offer, Oil Rises as Hormuz Closure Persists",
+      "summary": "President Donald Trump’s swift rejection of Iran’s response to a U.S. peace proposal pushed oil prices higher on Monday, fueling concerns that the 10-week-old conflict will drag on and continue to paralyze shipping through the Strait of Hormuz. Days after …",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/international/2026/05/11/869296.htm",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T12:45:26Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.544Z",
+      "run_id": "2026-05-12T14:33"
+    },
+    {
+      "headline": "Iran rejects U.S. ceasefire proposal, Trump deems it \"unacceptable\"",
+      "summary": "Iran rejected the latest U.S. proposal as tantamount to surrender, calling instead for an end to the war, the removal of sanctions and the lifting of the naval blockade in its response to the draft plan, which U.S. President Donald Trump described as \"totally…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260511-pdo02.htm",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.544Z",
+      "run_id": "2026-05-12T14:33"
+    },
+    {
+      "headline": "Lebanon's president to US envoy: Pressure Israel to end ceasefire violations",
+      "summary": "Lebanese President Joseph Aoun has called on the United States to pressure Israel into halting its recurrent violations of a ceasefire agreement with the Beirut government-- daily strikes against towns and villages in southern Lebanon and demolitions of resid…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260511-presstv05.htm",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.544Z",
+      "run_id": "2026-05-12T14:33"
+    },
+    {
+      "headline": "China’s Malacca Dilemma, After Hormuz",
+      "summary": "Western-dominated insurance premiums can choke off Beijing’s oil supplies more effectively than warships can.",
+      "source": "Foreign Policy",
+      "url": "http://foreignpolicy.com/2026/05/11/china-oil-economy-insurance-hormuz-strait-malacca-dilemma/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T13:52:14Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.544Z",
+      "run_id": "2026-05-12T14:33"
+    },
+    {
+      "headline": "The domino effect: How Iran-Israel tensions arm pirates",
+      "summary": "Amid the blockade of the Strait of Hormuz, the confrontation between Iran and Israel in the Red Sea is growing Read Full Article at RT.com",
+      "source": "RT",
+      "url": "https://www.rt.com/africa/639644-somali-pirates-houthis-ties-red-sea/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T09:24:20Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.544Z",
+      "run_id": "2026-05-12T14:33"
+    },
+    {
+      "headline": "China’s Best Friend? Donald Trump!",
+      "summary": "Our backward-looking president has dismantled our scientific supremacy and forced allies to view China as the more reliable hegemon.\nThe post China’s Best Friend? Donald Trump! appeared first on The American Prospect.",
+      "source": "The American Prospect",
+      "url": "http://prospect.org/2026/05/11/china-donald-trump-republicans-xi-communism-manufacture-wall-street/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T09:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.544Z",
+      "run_id": "2026-05-12T14:33"
+    },
+    {
+      "headline": "Current price of oil as of May 11, 2026",
+      "summary": "When oil prices change, it affects your energy costs—and even the price of everyday items. Here’s why.",
+      "source": "Fortune",
+      "url": "https://fortune.com/article/price-of-oil-05-11-2026/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T12:56:38Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.544Z",
+      "run_id": "2026-05-12T14:33"
+    },
+    {
+      "headline": "Sensex today | Stock Market Highlights: Sensex crashes 1,313 points, rupee hits record low amid US-Iran tensions",
+      "summary": "Sensex Today, Nifty 50 | Stock Market Highlights: Indian stock markets plunged on Monday as soaring crude oil prices and fading hopes of a US-Iran peace deal triggered heavy selling, with the Sensex crashing over 1,300 points amid rising fears over the prolon…",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-11th-may-2026/article70961997.ece",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T10:58:10Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-12T14:33:39.544Z",
+      "run_id": "2026-05-12T14:33"
     }
   ],
-  "total_items_ever": 1284
+  "total_items_ever": 1293
 }

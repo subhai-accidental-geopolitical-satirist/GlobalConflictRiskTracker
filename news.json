@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-12T08:47:06.344Z",
+  "ts": "2026-05-12T14:34:44.712Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-12T08:47:06.344Z"
+    "updatedAt": "2026-05-12T14:34:44.712Z"
   },
   "items": [
     {
-      "headline": "Geospatial Intelligence Expert Y. Nithiyanandam on Why the Hormuz Strait is No Longer a Neutral Global Common",
-      "summary": "“Access now depends on where you stand with Tehran, whether you are willing to comply with its rerouting demands, and whether you have quietly negotiated your place in the new order.”",
-      "source": "The Diplomat",
-      "url": "https://thediplomat.com/2026/05/geospatial-intelligence-expert-y-nithiyanandam-on-why-the-hormuz-strait-is-no-longer-a-neutral-global-common/",
+      "headline": "Iran War Ceasefire Grows Increasingly Shaky After Trump Rejects Tehran's Latest Proposal",
+      "summary": "Trump said Sunday that Iran’s response to his latest proposal was “TOTALLY UNACCEPTABLE!” Ending the U.S. blockade before discussing Iran’s nuclear program would eliminate a major point of leverage.",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/iran-war-ceasefire-grows-increasingly-shaky-trump-rejects-latest-proposal_n_6a01d167e4b0cb033e52cc64",
       "bloc": "western",
       "date": "2026-05-11",
-      "datetime": "2026-05-11T07:44:00Z",
+      "datetime": "2026-05-11T13:05:43Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,65 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump rejects Iran peace terms, Tehran warns of new attacks",
-      "summary": "U.S. President Donald Trump branded Iran's terms for ending the Middle East war \"totally unacceptable\", raising the possibility of fresh conflict and sending oil prices sharply higher in early Asia trade on Monday.",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/trump-rejects-iran-peace-terms-tehran-warns-of-new-attacks-222011",
+      "headline": "Trump Dismisses Iran’s Offer, Oil Rises as Hormuz Closure Persists",
+      "summary": "President Donald Trump’s swift rejection of Iran’s response to a U.S. peace proposal pushed oil prices higher on Monday, fueling concerns that the 10-week-old conflict will drag on and continue to paralyze shipping through the Strait of Hormuz. Days after …",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/international/2026/05/11/869296.htm",
       "bloc": "western",
       "date": "2026-05-11",
-      "datetime": "2026-05-11T07:04:30Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Pezeshkian: Iran Ready to Prove Peaceful Nature of Nuclear Program, Offers Assurance to Neighbors",
-      "summary": "Iranian President Masoud Pezeshkian told Iraqi Prime Minister-designate Ali al-Zaidi during a telephone call Tuesday, May 5, that Tehran is prepared to meet global standards to demonstrate the peaceful nature of its nuclear program, according to a statement f…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-11-pezeshkian-iran-ready-prove-peaceful-nuclear-program.html",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran Adviser Compares Strait of Hormuz to âAtomic Bombâ as US-Iran Clashes Continue",
-      "summary": "Mohammad Mokhber, a top adviser to Iran’s Supreme Leader, said the Strait of Hormuz represents a capability equivalent to an atomic bomb, according to a report from state-aligned Press TV. [RT] The statement came amid continued exchanges of fire between US an…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-11-iran-adviser-compares-hormuz-to-atomic-bomb.html",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T06:00:00Z",
+      "datetime": "2026-05-11T12:45:26Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "A Year After Operation Sindoor, Pakistan Is in Trouble at Home, Basks in Glory Abroad",
-      "summary": "Pakistan’s international profile has improved, aided by developments post-Operation Sindoor, its warm ties with Trump, and the churn in global geopolitics.",
-      "source": "The Diplomat",
-      "url": "https://thediplomat.com/2026/05/a-year-after-operation-sindoor-pakistan-is-in-trouble-at-home-basks-in-glory-abroad/",
+      "headline": "Iran rejects U.S. ceasefire proposal, Trump deems it \"unacceptable\"",
+      "summary": "Iran rejected the latest U.S. proposal as tantamount to surrender, calling instead for an end to the war, the removal of sanctions and the lifting of the naval blockade in its response to the draft plan, which U.S. President Donald Trump described as \"totally…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260511-pdo02.htm",
       "bloc": "western",
       "date": "2026-05-11",
-      "datetime": "2026-05-11T03:40:00Z",
+      "datetime": "2026-05-11T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -139,6 +87,84 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Lebanon's president to US envoy: Pressure Israel to end ceasefire violations",
+      "summary": "Lebanese President Joseph Aoun has called on the United States to pressure Israel into halting its recurrent violations of a ceasefire agreement with the Beirut government-- daily strikes against towns and villages in southern Lebanon and demolitions of resid…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260511-presstv05.htm",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "China’s Malacca Dilemma, After Hormuz",
+      "summary": "Western-dominated insurance premiums can choke off Beijing’s oil supplies more effectively than warships can.",
+      "source": "Foreign Policy",
+      "url": "http://foreignpolicy.com/2026/05/11/china-oil-economy-insurance-hormuz-strait-malacca-dilemma/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T13:52:14Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "The domino effect: How Iran-Israel tensions arm pirates",
+      "summary": "Amid the blockade of the Strait of Hormuz, the confrontation between Iran and Israel in the Red Sea is growing Read Full Article at RT.com",
+      "source": "RT",
+      "url": "https://www.rt.com/africa/639644-somali-pirates-houthis-ties-red-sea/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T09:24:20Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -170,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Oil Tankers Go Dark to Exit the Strait of Hormuz",
-      "summary": "Three supertankers laden with crude oil successfully exited the Strait of Hormuz last week, carrying Iraqi and Emirati oil, Reuters has reported, citing data from Kpler and LSEG. The vessels switched off their transponders to avoid detection. One of the tanke…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tankers-Go-Dark-to-Exit-the-Strait-of-Hormuz.html",
+      "headline": "Geospatial Intelligence Expert Y. Nithiyanandam on Why the Hormuz Strait is No Longer a Neutral Global Common",
+      "summary": "“Access now depends on where you stand with Tehran, whether you are willing to comply with its rerouting demands, and whether you have quietly negotiated your place in the new order.”",
+      "source": "The Diplomat",
+      "url": "https://thediplomat.com/2026/05/geospatial-intelligence-expert-y-nithiyanandam-on-why-the-hormuz-strait-is-no-longer-a-neutral-global-common/",
       "bloc": "western",
       "date": "2026-05-11",
-      "datetime": "2026-05-11T06:00:00Z",
+      "datetime": "2026-05-11T07:44:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +222,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "‘I don’t like it – totally unacceptable’ – Trump rejects Iran’s response to US proposal on peace talks",
-      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
-      "source": "Independent.ie",
-      "url": "https://www.independent.ie/world-news/middle-east/i-dont-like-it-totally-unacceptable-trump-rejects-irans-response-to-us-proposal-on-peace-talks/a1435406078.html",
+      "headline": "Oil Tankers Go Dark to Exit the Strait of Hormuz",
+      "summary": "Three supertankers laden with crude oil successfully exited the Strait of Hormuz last week, carrying Iraqi and Emirati oil, Reuters has reported, citing data from Kpler and LSEG. The vessels switched off their transponders to avoid detection. One of the tanke…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tankers-Go-Dark-to-Exit-the-Strait-of-Hormuz.html",
       "bloc": "western",
       "date": "2026-05-11",
-      "datetime": "2026-05-11T05:30:00Z",
+      "datetime": "2026-05-11T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -346,6 +372,30 @@
       "_from": "newsapi"
     },
     {
+      "headline": "China’s Best Friend? Donald Trump!",
+      "summary": "Our backward-looking president has dismantled our scientific supremacy and forced allies to view China as the more reliable hegemon.\nThe post China’s Best Friend? Donald Trump! appeared first on The American Prospect.",
+      "source": "The American Prospect",
+      "url": "http://prospect.org/2026/05/11/china-donald-trump-republicans-xi-communism-manufacture-wall-street/",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T09:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Taiwan to be key issue at Trump's summit with China's President Xi",
       "summary": "Taiwan, one of the world's biggest diplomatic flashpoints, will be top of mind for President Xi when he meets with President Trump.",
       "source": "CBS News",
@@ -418,49 +468,53 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Analysis: Why Trump wants to end the war with Iran “here and now”, the Chinese factor behind the pressure for a deal",
-      "summary": "The visit to Beijing on May 14 and 15, the Strait of Hormuz, and the fear that the US President will appear weakened before Chinese President Xi Jinping\nThe post Analysis: Why Trump wants to end the war with Iran “here and now”, the Chinese factor behind the …",
-      "source": "Protothema.gr",
-      "url": "https://en.protothema.gr/2026/05/06/analysis-why-trump-wants-to-end-the-war-with-iran-here-and-now-the-chinese-factor-behind-the-pressure-for-a-deal/",
+      "headline": "Current price of oil as of May 11, 2026",
+      "summary": "When oil prices change, it affects your energy costs—and even the price of everyday items. Here’s why.",
+      "source": "Fortune",
+      "url": "https://fortune.com/article/price-of-oil-05-11-2026/",
       "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T16:46:18Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T12:56:38Z",
       "leaders": [
-        "Xi Jinping"
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
       ],
       "watch_terms": [
-        "Xi Jinping China"
+        "oil Brent crude"
       ],
       "dimensions": [
         "survival",
-        "impulsivity"
+        "values"
       ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "China Watch: The Rise of a New Global Order Amidst the Persian Gulf War",
-      "summary": "If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained, you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every …",
-      "source": "Fair Observer",
-      "url": "https://www.fairobserver.com/politics/china-watch-the-rise-of-a-new-global-order-amidst-the-persian-gulf-war/",
+      "headline": "Sensex today | Stock Market Highlights: Sensex crashes 1,313 points, rupee hits record low amid US-Iran tensions",
+      "summary": "Sensex Today, Nifty 50 | Stock Market Highlights: Indian stock markets plunged on Monday as soaring crude oil prices and fading hopes of a US-Iran peace deal triggered heavy selling, with the Sensex crashing over 1,300 points amid rising fears over the prolon…",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-11th-may-2026/article70961997.ece",
       "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T13:59:55Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T10:58:10Z",
       "leaders": [
-        "Xi Jinping"
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
       ],
       "watch_terms": [
-        "Xi Jinping China"
+        "oil Brent crude"
       ],
       "dimensions": [
         "survival",
-        "impulsivity"
+        "values"
       ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -525,58 +579,6 @@
       "bloc": "western",
       "date": "2026-05-10",
       "datetime": "2026-05-10T06:00:00Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Sensex today | Stock Market Highlights: Benchmark indices end lower; Sensex drops 516 pts to 77,328, Nifty closes at 24,176 amid West Asia tensions",
-      "summary": "Sensex, Nifty, Share Prices: Indian equity markets continued to trade lower on Friday as escalating US-Iran tensions near the Strait of Hormuz rattled global sentiment, while sustained foreign investor selling and rising geopolitical uncertainty kept traders …",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-8th-may-2026/article70953659.ece",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T10:52:49Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Shipping giant boss warns Iran war will have bigger impact in coming months as customers face price hikes",
-      "summary": "Maersk said the Iran war had introduced an \"additional layer of uncertainty\" as it reported first-quarter earnings on Thursday.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/07/maersk-ceo-warns-iran-war-will-have-bigger-impact-in-coming-months.html",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T08:36:48Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
