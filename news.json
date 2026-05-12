@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-12T14:34:44.712Z",
+  "ts": "2026-05-12T19:59:51.717Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-12T14:34:44.712Z"
+    "updatedAt": "2026-05-12T19:59:51.717Z"
   },
   "items": [
     {
@@ -66,10 +66,10 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran rejects U.S. ceasefire proposal, Trump deems it \"unacceptable\"",
-      "summary": "Iran rejected the latest U.S. proposal as tantamount to surrender, calling instead for an end to the war, the removal of sanctions and the lifting of the naval blockade in its response to the draft plan, which U.S. President Donald Trump described as \"totally…",
+      "headline": "Lebanon's president to US envoy: Pressure Israel to end ceasefire violations",
+      "summary": "Lebanese President Joseph Aoun has called on the United States to pressure Israel into halting its recurrent violations of a ceasefire agreement with the Beirut government-- daily strikes against towns and villages in southern Lebanon and demolitions of resid…",
       "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260511-pdo02.htm",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260511-presstv05.htm",
       "bloc": "western",
       "date": "2026-05-11",
       "datetime": "2026-05-11T12:00:00Z",
@@ -92,10 +92,10 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Lebanon's president to US envoy: Pressure Israel to end ceasefire violations",
-      "summary": "Lebanese President Joseph Aoun has called on the United States to pressure Israel into halting its recurrent violations of a ceasefire agreement with the Beirut government-- daily strikes against towns and villages in southern Lebanon and demolitions of resid…",
+      "headline": "Iran rejects U.S. ceasefire proposal, Trump deems it \"unacceptable\"",
+      "summary": "Iran rejected the latest U.S. proposal as tantamount to surrender, calling instead for an end to the war, the removal of sanctions and the lifting of the naval blockade in its response to the draft plan, which U.S. President Donald Trump described as \"totally…",
       "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260511-presstv05.htm",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260511-pdo02.htm",
       "bloc": "western",
       "date": "2026-05-11",
       "datetime": "2026-05-11T12:00:00Z",
