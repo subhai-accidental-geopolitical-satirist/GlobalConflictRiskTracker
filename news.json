@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-12T03:38:37.729Z",
+  "ts": "2026-05-12T08:47:06.344Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,69 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-12T03:38:37.729Z"
+    "updatedAt": "2026-05-12T08:47:06.344Z"
   },
   "items": [
     {
-      "headline": "Netanyahu demands Iran remove uranium, complicating US-Iran nuclear talks",
-      "summary": "Netanyahu's demands may hinder US-Iran nuclear negotiations, reducing chances for regional peace and complicating diplomatic efforts.\nThe post Netanyahu demands Iran remove uranium, complicating US-Iran nuclear talks appeared first on Crypto Briefing.",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/netanyahu-demands-iran-remove-uranium-complicating-us-iran-nuclear-talks/",
+      "headline": "Geospatial Intelligence Expert Y. Nithiyanandam on Why the Hormuz Strait is No Longer a Neutral Global Common",
+      "summary": "“Access now depends on where you stand with Tehran, whether you are willing to comply with its rerouting demands, and whether you have quietly negotiated your place in the new order.”",
+      "source": "The Diplomat",
+      "url": "https://thediplomat.com/2026/05/geospatial-intelligence-expert-y-nithiyanandam-on-why-the-hormuz-strait-is-no-longer-a-neutral-global-common/",
       "bloc": "western",
       "date": "2026-05-11",
-      "datetime": "2026-05-11T01:02:52Z",
+      "datetime": "2026-05-11T07:44:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump rejects Iran peace terms, Tehran warns of new attacks",
+      "summary": "U.S. President Donald Trump branded Iran's terms for ending the Middle East war \"totally unacceptable\", raising the possibility of fresh conflict and sending oil prices sharply higher in early Asia trade on Monday.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-rejects-iran-peace-terms-tehran-warns-of-new-attacks-222011",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T07:04:30Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Pezeshkian: Iran Ready to Prove Peaceful Nature of Nuclear Program, Offers Assurance to Neighbors",
+      "summary": "Iranian President Masoud Pezeshkian told Iraqi Prime Minister-designate Ali al-Zaidi during a telephone call Tuesday, May 5, that Tehran is prepared to meet global standards to demonstrate the peaceful nature of its nuclear program, according to a statement f…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-11-pezeshkian-iran-ready-prove-peaceful-nuclear-program.html",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,39 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "South Korea confirms external strikes caused fire on HMM Namu, sending ripples through crypto mining economics",
-      "summary": "The incident exacerbates energy costs, impacting Bitcoin mining profitability and potentially destabilizing geopolitical negotiations.\nThe post South Korea confirms external strikes caused fire on HMM Namu, sending ripples through crypto mining economics appe…",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/south-korea-hmm-namu-strike-crypto-mining/",
+      "headline": "Iran Adviser Compares Strait of Hormuz to âAtomic Bombâ as US-Iran Clashes Continue",
+      "summary": "Mohammad Mokhber, a top adviser to Iran’s Supreme Leader, said the Strait of Hormuz represents a capability equivalent to an atomic bomb, according to a report from state-aligned Press TV. [RT] The statement came amid continued exchanges of fire between US an…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-11-iran-adviser-compares-hormuz-to-atomic-bomb.html",
       "bloc": "western",
       "date": "2026-05-11",
-      "datetime": "2026-05-11T00:55:35Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Full transcript of 60 Minutes' interview with Israel's Benjamin Netanyahu",
-      "summary": "Read the full transcript of Major Garrett's May 10, 2026 interview with Israeli Prime Minister Netanyahu here.",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/news/read-the-full-transcript-of-major-garretts-interview-with-israeli-prime-minister-benjamin-netanyahu-here/",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T23:00:16Z",
+      "datetime": "2026-05-11T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "The American allies who get it",
-      "summary": "'Despite everything that the United States has done for our NATO allies, they were not there for us'",
-      "source": "Wnd.com",
-      "url": "https://www.wnd.com/2026/05/american-allies-who-get-it/",
+      "headline": "A Year After Operation Sindoor, Pakistan Is in Trouble at Home, Basks in Glory Abroad",
+      "summary": "Pakistan’s international profile has improved, aided by developments post-Operation Sindoor, its warm ties with Trump, and the churn in global geopolitics.",
+      "source": "The Diplomat",
+      "url": "https://thediplomat.com/2026/05/a-year-after-operation-sindoor-pakistan-is-in-trouble-at-home-basks-in-glory-abroad/",
       "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T20:27:55Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T03:40:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,39 +144,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Full transcript of \"Face the Nation with Margaret Brennan,\" May 10, 2026",
-      "summary": "On this \"Face the Nation with Margaret Brennan\" broadcast, Energy Secretary Chris Wright and Sen. Mark Kelly join Margaret Brennan.",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-05-10-2026/",
+      "headline": "‘I don’t like it… totally unacceptable’ - says Trump but Iran describes its proposal to end war with US as generous",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/i-dont-like-it-totally-unacceptable-says-trump-but-iran-describes-its-proposal-to-end-war-with-us-as-generous/a1435406078.html",
       "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T18:50:26Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US, Iran no closer to ending war as Qatari tanker sails toward Strait of Hormuz",
-      "summary": "The Strait of Hormuz is calm after recent clashes. The United States awaits Iran's response to peace proposals. Meanwhile, the US has expanded sanctions on Iran-linked entities. A Qatari LNG tanker is heading towards the strait. International efforts continue…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-iran-no-closer-to-ending-war-as-qatari-tanker-sails-toward-strait-of-hormuz/articleshow/130998526.cms",
-      "bloc": "regional",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T19:16:59Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T08:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -170,13 +170,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Oil Giant's Profits Surge 25%",
-      "summary": "Saudi Aramco's earnings jumped 25% in the first quarter as the company shifted more crude through a major domestic pipeline to work around war-related disruptions at a key shipping chokepoint. The Saudi Arabia-controlled producer on Sunday reported net income…",
-      "source": "Newser",
-      "url": "https://www.newser.com/story/388862/oil-giants-profits-surge-25.html",
+      "headline": "Oil Tankers Go Dark to Exit the Strait of Hormuz",
+      "summary": "Three supertankers laden with crude oil successfully exited the Strait of Hormuz last week, carrying Iraqi and Emirati oil, Reuters has reported, citing data from Kpler and LSEG. The vessels switched off their transponders to avoid detection. One of the tanke…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tankers-Go-Dark-to-Exit-the-Strait-of-Hormuz.html",
       "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T17:30:00Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran claims new Supreme Leader Khamenei is fully healed from 'scratch behind the ear' - as country responds to US peace talks proposal",
-      "summary": "The Middle Eastern nation previously said Mojtaba Khamenei was suffering from a 'small scratch behind the ear' despite reports claiming he had undergone facial surgery.",
-      "source": "Dailymail.com",
-      "url": "https://www.dailymail.com/news/article-15805687/Iran-claims-new-Supreme-Leader-Khamenei-fully-healed-scratch-ear-country-responds-US-peace-talks-proposal.html",
+      "headline": "‘I don’t like it – totally unacceptable’ – Trump rejects Iran’s response to US proposal on peace talks",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/i-dont-like-it-totally-unacceptable-trump-rejects-irans-response-to-us-proposal-on-peace-talks/a1435406078.html",
       "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T15:53:10Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T05:30:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -218,58 +218,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran says it has sent response to US proposal for ending war to mediator Pakistan",
-      "summary": "Hostile drones detected over several Gulf countries, underlining threat still facing region despite month-old ceasefire",
-      "source": "The Irish Times",
-      "url": "https://www.irishtimes.com/world/middle-east/2026/05/10/iran-says-it-has-sent-response-to-us-proposal-for-ending-war-to-mediator-pakistan/",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T15:09:32Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran warns against complying with US sanctions as Gulf attacks reported",
-      "summary": "The warning comes as a commercial vessel is hit off Qatar, and both the UAE and Kuwait report drone attacks.",
-      "source": "BBC News",
-      "url": "https://www.bbc.com/news/articles/clypgz9e5pmo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T12:22:11Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -518,6 +466,58 @@
       "_from": "newsapi"
     },
     {
+      "headline": "After winning poll battles, Modi has picked up a new fight",
+      "summary": "Amidst rising crude oil prices and a weakening rupee, Prime Minister Modi has urged Indians to embrace austerity. His call to reduce fuel consumption, postpone gold purchases, and cut edible oil use aims to protect foreign exchange reserves and curb inflation…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/economy/policy/after-winning-poll-battles-modi-has-picked-up-a-new-fight/articleshow/131007459.cms",
+      "bloc": "regional",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T07:46:50Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Asia braces for second wave of energy shocks from Iran war",
+      "summary": "When the war started, governments scrambled to adapt to the closure of the Strait of Hormuz, a critical artery for energy flowing to Asia",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/asia-braces-for-second-wave-of-energy-shocks-from-iran-war/article70964565.ece",
+      "bloc": "western",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T06:29:05Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Oil Falls Below $100 a Barrel on Renewed Hopes of U.S.-Iran Peace Deal",
       "summary": "Brent crude oil fell 4.3% to $96.96 per barrel on May 7, 2026, during volatile trading, as renewed hopes of a U.S.-Iran peace deal emerged, according to market analysts. The benchmark slipped $4.31 from its May 6 close, with intraday fluctuations of up to 4.6…",
       "source": "Naturalnews.com",
@@ -577,32 +577,6 @@
       "bloc": "western",
       "date": "2026-05-07",
       "datetime": "2026-05-07T08:36:48Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Oil Futures Markets Still Too Complacent About Supply Shock",
-      "summary": "The oil futures market appears not to have caught up with the massive supply disruption from the Middle East yet—a supply shock that is now in its third month and lasting more than anyone expected in early March. Brent and WTI crude futures this week are trad…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Oil-Futures-Markets-Still-Too-Complacent-About-Supply-Shock.html",
-      "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T00:00:00Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
