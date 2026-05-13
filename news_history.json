@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-13T08:49:55.668Z",
+  "updated": "2026-05-13T14:43:57.239Z",
   "retention_days": 30,
   "items": [
     {
@@ -23461,7 +23461,311 @@
       "_from": "newsapi",
       "first_seen": "2026-05-13T08:49:55.668Z",
       "run_id": "2026-05-13T08:49"
+    },
+    {
+      "headline": "Oil Jumps As Trump Says Mulling Restart Of Project Freedom, Which Could Mean New Hormuz Clashes With Iran",
+      "summary": "Trump mulls restarting Project Freedom in Hormuz and says forcibly retrieving 'nuclear dust' is still on the table, oil jumps on the headline.",
+      "source": "Shtfplan.com",
+      "url": "https://www.shtfplan.com/war/oil-jumps-as-trump-says-mulling-restart-of-project-freedom-which-could-mean-new-hormuz-clashes-with-iran",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:30:19Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "Pakistan scrambles to salvage US-Iran diplomacy as ceasefire faces collapse",
+      "summary": "Pakistan rejects allegations of aiding Iran militarily while Trump says truce on 'life support'.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/12/pakistan-scrambles-to-salvage-us-iran-diplomacy-as-ceasefire-faces-collapse",
+      "bloc": "regional",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:17:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "US envoy admits Israel secretly sent Iron Dome to UAE during war on Iran",
+      "summary": "Israel secretly deployed Iron Dome missile-defense batteries and troops to the United Arab Emirates during the war against Iran, says the US ambassador to Israel, revealing deepening military cooperation between the occupying regime and the monarchy.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260512-presstv01.htm",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "May 12: Iran's strategic edge widens as top officials warn US against new military adventurism",
+      "summary": "Iran's strategic upper hand is becoming increasingly visible, as the United States finds itself in a ring of fire with no viable options or leverage to advance its agenda.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260512-presstv06.htm",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "Accept Iran's rights or face repeated military defeats: Defense Ministry",
+      "summary": "Iran's Defense Ministry says the American-Zionist enemy must accept the legitimate and definitive rights of the Iranian nation, or expect to suffer repeated defeats both on the diplomatic front and on the battlefield.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260512-presstv09.htm",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "Second Qatari LNG Tanker Crosses Strait of Hormuz",
+      "summary": "A second Qatari liquefied natural gas (LNG) tanker has successfully crossed the Strait of Hormuz under a special arrangement involving Iran and Pakistan, highlighting efforts to maintain energy shipments despite regional conflict risks.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260512-rferl05.htm",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "Trump Says USA-Iran Ceasefire is on 'Massive Life Support'",
+      "summary": "'I would say the ceasefire is on massive life support where the doctor walks in and says, 'sir, your loved one has approximately a one percent chance of living',' U.S. President Donald Trump said.",
+      "source": "Rigzone",
+      "url": "https://www.rigzone.com/news/trump_says_usairan_ceasefire_is_on_massive_life_support-12-may-2026-183665-article/",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T10:08:53Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "US releasing 53mn barrels from strategic oil reserve to mitigate fallout from war on Iran",
+      "summary": "The United States is releasing 53.3 million barrels of crude oil from its Strategic Petroleum Reserve to energy companies in an attempt to calm global markets shaken by the war against Iran and the disruption of shipping through the Strait of Hormuz.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260512-presstv02.htm",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T10:08:51Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "The secret hidden traps set for Trump as he meets Xi Jinping face-to-face in China amid Iran tensions…. and the phrase he MUST avoid or risk WWIII",
+      "summary": "President Donald Trump is set to arrive in Beijing this week for a high-stakes face-off with President Xi Jinping, a meeting shadowed by a deadlocked conflict with Iran.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15808057/secret-traps-Trump-Xi-Jinping-China-Iran-tensions-WWIII.html",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T11:17:19Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "What Trump Must Do To Make His Trip To China A Strategic Success",
+      "summary": "Here’s how President Trump can disabuse Xi Jinping of his dangerous fantasy that the U.S. no longer has what it takes to firmly lead the Free World.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/steveforbes/2026/05/12/what-trump-must-do-to-make-his-trip-to-china-a-strategic-success/",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T10:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "Here's the inflation breakdown for April 2026 — in one chart",
+      "summary": "The Iran war has pushed up gasoline, groceries and other prices for consumers.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/12/inflation-breakdown-for-april-2026-cpi-chart.html",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T13:44:15Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T14:43:57.239Z",
+      "run_id": "2026-05-13T14:43"
     }
   ],
-  "total_items_ever": 1309
+  "total_items_ever": 1320
 }

@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-13T08:51:00.824Z",
+  "ts": "2026-05-13T14:45:02.434Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-13T08:51:00.824Z"
+    "updatedAt": "2026-05-13T14:45:02.434Z"
   },
   "items": [
     {
-      "headline": "Trump brushes aside Taiwan concerns ahead of Xi meet",
-      "summary": "President Donald Trump said Monday he was ready to discuss U.S. arms sales to Taiwan during his visit this week to Beijing, as he suggested his personal chemistry with counterpart Xi Jinping would prevent a Chinese invasion of the island.",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/trump-brushes-aside-taiwan-concerns-ahead-of-xi-meet-222047",
+      "headline": "Oil Jumps As Trump Says Mulling Restart Of Project Freedom, Which Could Mean New Hormuz Clashes With Iran",
+      "summary": "Trump mulls restarting Project Freedom in Hormuz and says forcibly retrieving 'nuclear dust' is still on the table, oil jumps on the headline.",
+      "source": "Shtfplan.com",
+      "url": "https://www.shtfplan.com/war/oil-jumps-as-trump-says-mulling-restart-of-project-freedom-which-could-mean-new-hormuz-clashes-with-iran",
       "bloc": "western",
       "date": "2026-05-12",
-      "datetime": "2026-05-12T06:36:57Z",
+      "datetime": "2026-05-12T12:30:19Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump warns Mideast truce on 'life support', Iran says ready for any aggression",
-      "summary": "President Donald Trump warned the ceasefire in the Middle East war was on \"life support\" Monday after rejecting the latest counteroffer from Iran, which said its military stood ready to respond to any act of aggression.",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/trump-warns-mideast-truce-on-life-support-iran-says-ready-for-any-aggression-222045",
+      "headline": "Pakistan scrambles to salvage US-Iran diplomacy as ceasefire faces collapse",
+      "summary": "Pakistan rejects allegations of aiding Iran militarily while Trump says truce on 'life support'.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/12/pakistan-scrambles-to-salvage-us-iran-diplomacy-as-ceasefire-faces-collapse",
+      "bloc": "regional",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:17:08Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US envoy admits Israel secretly sent Iron Dome to UAE during war on Iran",
+      "summary": "Israel secretly deployed Iron Dome missile-defense batteries and troops to the United Arab Emirates during the war against Iran, says the US ambassador to Israel, revealing deepening military cooperation between the occupying regime and the monarchy.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260512-presstv01.htm",
       "bloc": "western",
       "date": "2026-05-12",
-      "datetime": "2026-05-12T05:50:25Z",
+      "datetime": "2026-05-12T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,13 +92,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Sovereignty as a Weapon: Iran's maritime lawfare and the flotilla farce",
-      "summary": "Iran cannot currently launch a missile campaign, but it can demand international vessels file paperwork. Hamas cannot currently rocket Tel Aviv, but it can sail toward a blockaded coast and let the cameras do the rest. Opinion.",
-      "source": "Israelnationalnews.com",
-      "url": "https://www.israelnationalnews.com/news/426935",
+      "headline": "May 12: Iran's strategic edge widens as top officials warn US against new military adventurism",
+      "summary": "Iran's strategic upper hand is becoming increasingly visible, as the United States finds itself in a ring of fire with no viable options or leverage to advance its agenda.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260512-presstv06.htm",
       "bloc": "western",
       "date": "2026-05-12",
-      "datetime": "2026-05-12T05:11:48Z",
+      "datetime": "2026-05-12T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Pakistan ‘allowed Iranian planes at airbases to shield them from US airstrikes’: report",
-      "summary": "A senior Pakistani official rejected the allegations, saying large aircraft movements at Nur Khan airbase would be publicly visible and difficult to concea",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/pakistan-allowed-iranian-planes-at-airbases-to-shield-them-from-us-airstrikes-report/article70968098.ece",
+      "headline": "Accept Iran's rights or face repeated military defeats: Defense Ministry",
+      "summary": "Iran's Defense Ministry says the American-Zionist enemy must accept the legitimate and definitive rights of the Iranian nation, or expect to suffer repeated defeats both on the diplomatic front and on the battlefield.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260512-presstv09.htm",
       "bloc": "western",
       "date": "2026-05-12",
-      "datetime": "2026-05-12T01:39:10Z",
+      "datetime": "2026-05-12T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -113,7 +139,85 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
-      "escalation": 3,
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Second Qatari LNG Tanker Crosses Strait of Hormuz",
+      "summary": "A second Qatari liquefied natural gas (LNG) tanker has successfully crossed the Strait of Hormuz under a special arrangement involving Iran and Pakistan, highlighting efforts to maintain energy shipments despite regional conflict risks.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260512-rferl05.htm",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump Says USA-Iran Ceasefire is on 'Massive Life Support'",
+      "summary": "'I would say the ceasefire is on massive life support where the doctor walks in and says, 'sir, your loved one has approximately a one percent chance of living',' U.S. President Donald Trump said.",
+      "source": "Rigzone",
+      "url": "https://www.rigzone.com/news/trump_says_usairan_ceasefire_is_on_massive_life_support-12-may-2026-183665-article/",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T10:08:53Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "US releasing 53mn barrels from strategic oil reserve to mitigate fallout from war on Iran",
+      "summary": "The United States is releasing 53.3 million barrels of crude oil from its Strategic Petroleum Reserve to energy companies in an attempt to calm global markets shaken by the war against Iran and the disruption of shipping through the Strait of Hormuz.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260512-presstv02.htm",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T10:08:51Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -125,110 +229,6 @@
       "bloc": "regional",
       "date": "2026-05-12",
       "datetime": "2026-05-12T08:18:14Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Peace Deal Hopes Fade After Trump Rejects ‘Garbage’ Iran Counterproposal",
-      "summary": "Hopes for a peace deal on Iran faded on Tuesday after Donald Trump said a ceasefire with Iran was “on life support” as Tehran rejected a U.S. proposal to end the conflict and stuck to a list of demands the …",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/05/12/869427.htm",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T07:09:58Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump says US-Iran ceasefire is on ‘massive life support’, as oil prices continue to rise",
-      "summary": "US president says while the ceasefire remains in place it is ‘unbelievably weak’",
-      "source": "The Irish Times",
-      "url": "https://www.irishtimes.com/world/middle-east/2026/05/12/live-us-iran-news-updates-war-middle-east-latest/",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T05:45:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran ceasefire ‘on life support’ after ‘stupid proposal’, says Trump – but here’s why he is in an Iran trap of his making",
-      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
-      "source": "Independent.ie",
-      "url": "https://www.independent.ie/world-news/middle-east/iran-ceasefire-on-life-support-after-stupid-proposal-says-trump-but-heres-why-he-is-in-an-iran-trap-of-his-making/a1379224230.html",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T05:15:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "News24 | Trump rejects ‘piece of garbage’ Iran demands, oil spikes as Hormuz remains closed",
-      "summary": "Hopes for a peace deal on Iran faded after US President Donald Trump said a ceasefire with Iran was “on life support” as Tehran rejected a US proposal to end the conflict and stuck to a list of ‌demands Trump described as “garbage”.",
-      "source": "News24",
-      "url": "https://www.news24.com/world/trump-rejects-piece-of-garbage-iran-demands-oil-spikes-as-hormuz-remains-closed-20260512-0271",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T05:00:06Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -347,6 +347,54 @@
       "_from": "newsapi"
     },
     {
+      "headline": "The secret hidden traps set for Trump as he meets Xi Jinping face-to-face in China amid Iran tensions…. and the phrase he MUST avoid or risk WWIII",
+      "summary": "President Donald Trump is set to arrive in Beijing this week for a high-stakes face-off with President Xi Jinping, a meeting shadowed by a deadlocked conflict with Iran.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15808057/secret-traps-Trump-Xi-Jinping-China-Iran-tensions-WWIII.html",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T11:17:19Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "What Trump Must Do To Make His Trip To China A Strategic Success",
+      "summary": "Here’s how President Trump can disabuse Xi Jinping of his dangerous fantasy that the U.S. no longer has what it takes to firmly lead the Free World.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/steveforbes/2026/05/12/what-trump-must-do-to-make-his-trip-to-china-a-strategic-success/",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T10:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "What's Old And New: Trump's First Visit To Beijing And This One",
       "summary": "As of 11 May, it looks like President Donald Trump’s visit to Beijing will go forward this week. The issues present during his visit to China in November 2017 are still live. They include the Chinese Communist Party’s (CCP’s) regional ambitions to subsume Tai…",
       "source": "Substack.com",
@@ -395,49 +443,27 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Taiwan to be key issue at Trump's summit with China's President Xi",
-      "summary": "Taiwan, one of the world's biggest diplomatic flashpoints, will be top of mind for President Xi when he meets with President Trump.",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/news/taiwan-trump-summit-china-xi-jinping/",
+      "headline": "Here's the inflation breakdown for April 2026 — in one chart",
+      "summary": "The Iran war has pushed up gasoline, groceries and other prices for consumers.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/12/inflation-breakdown-for-april-2026-cpi-chart.html",
       "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T01:09:43Z",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T13:44:15Z",
       "leaders": [
-        "Xi Jinping"
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
       ],
       "watch_terms": [
-        "Xi Jinping China"
+        "oil Brent crude"
       ],
       "dimensions": [
         "survival",
-        "impulsivity"
+        "values"
       ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Board Of Trade, Ahoy!",
-      "summary": "In my never-ending quest to connect U.S.-China relations to the cannon of popular (and often times obscure) music, it is sometimes tough to find a song to fit my commentary.",
-      "source": "Substack.com",
-      "url": "https://chinaarticles.substack.com/p/board-of-trade-ahoy",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T00:00:00Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -547,28 +573,29 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Oil Falls Below $100 a Barrel on Renewed Hopes of U.S.-Iran Peace Deal",
-      "summary": "Brent crude oil fell 4.3% to $96.96 per barrel on May 7, 2026, during volatile trading, as renewed hopes of a U.S.-Iran peace deal emerged, according to market analysts. The benchmark slipped $4.31 from its May 6 close, with intraday fluctuations of up to 4.6…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-10-oil-price-drops-renewed-hopes-peace-deal.html",
+      "headline": "Board Of Trade, Ahoy!",
+      "summary": "In my never-ending quest to connect U.S.-China relations to the cannon of popular (and often times obscure) music, it is sometimes tough to find a song to fit my commentary.",
+      "source": "Substack.com",
+      "url": "https://chinaarticles.substack.com/p/board-of-trade-ahoy",
       "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T06:00:00Z",
+      "date": "2026-05-11",
+      "datetime": "2026-05-11T00:00:00Z",
       "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
+        "Kim Jong-un",
+        "Vladimir Putin",
+        "General Asim Munir"
       ],
       "watch_terms": [
-        "oil Brent crude"
+        "nuclear signalling threat"
       ],
       "dimensions": [
+        "impulsivity",
         "survival",
-        "values"
+        "narcissism"
       ],
-      "variable_key": "oilPrice",
+      "variable_key": "nuclearSignalling",
       "event_type": "static_variable",
-      "escalation": 2,
+      "escalation": 4,
       "persian_only": false,
       "_from": "newsapi"
     },
