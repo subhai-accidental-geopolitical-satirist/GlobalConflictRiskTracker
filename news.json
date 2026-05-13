@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-12T19:59:51.717Z",
+  "ts": "2026-05-13T03:47:58.346Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,43 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-12T19:59:51.717Z"
+    "updatedAt": "2026-05-13T03:47:58.346Z"
   },
   "items": [
     {
-      "headline": "Iran War Ceasefire Grows Increasingly Shaky After Trump Rejects Tehran's Latest Proposal",
-      "summary": "Trump said Sunday that Iran’s response to his latest proposal was “TOTALLY UNACCEPTABLE!” Ending the U.S. blockade before discussing Iran’s nuclear program would eliminate a major point of leverage.",
-      "source": "HuffPost",
-      "url": "https://www.huffpost.com/entry/iran-war-ceasefire-grows-increasingly-shaky-trump-rejects-latest-proposal_n_6a01d167e4b0cb033e52cc64",
+      "headline": "Pakistan ‘allowed Iranian planes at airbases to shield them from US airstrikes’: report",
+      "summary": "A senior Pakistani official rejected the allegations, saying large aircraft movements at Nur Khan airbase would be publicly visible and difficult to concea",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/pakistan-allowed-iranian-planes-at-airbases-to-shield-them-from-us-airstrikes-report/article70968098.ece",
       "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T13:05:43Z",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T01:39:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump rejects Iran’s latest ceasefire proposal ahead of key China trip",
+      "summary": "A major sticking point in negotiations is Iran’s demand for war damages, which US officials reportedly fear could be interpreted as an admission of defeat.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/trump-rejects-irans-latest-ceasefire-proposal-ahead-of-key-china-trip/article70968100.ece",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T01:27:15Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +66,39 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump Dismisses Iran’s Offer, Oil Rises as Hormuz Closure Persists",
-      "summary": "President Donald Trump’s swift rejection of Iran’s response to a U.S. peace proposal pushed oil prices higher on Monday, fueling concerns that the 10-week-old conflict will drag on and continue to paralyze shipping through the Strait of Hormuz. Days after …",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/05/11/869296.htm",
+      "headline": "UAE Becomes Active Combatant in Iran War, Secretly Launching Strikes Against Islamic Regime",
+      "summary": "The United Arab Emirates (UAE) has been secretly carrying out attacks against Iran, according to The Wall Street Journal. The attacks included a strike on an oil refinery on Iran’s Lavan Island in early April, triggering a major fire and knocking much of the …",
+      "source": "Freerepublic.com",
+      "url": "https://freerepublic.com/focus/f-news/4378793/posts",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T01:01:38Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump says Iran ceasefire is 'on life support' as hopes for a deal fade",
+      "summary": "President Donald Trump said on Monday that a ceasefire with Iran was &quot;on life support&quot; after he rejected Tehran's response to a U.S. peace proposal, fueling concerns of a resumption of hostilities in the 10-week-old conflict that has killed ‌thousan…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/trump-says-iran-ceasefire-is-%27on-life-support%27-as-hopes-for-a-deal-fade",
       "bloc": "western",
       "date": "2026-05-11",
-      "datetime": "2026-05-11T12:45:26Z",
+      "datetime": "2026-05-11T21:30:30Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,53 +118,79 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Lebanon's president to US envoy: Pressure Israel to end ceasefire violations",
-      "summary": "Lebanese President Joseph Aoun has called on the United States to pressure Israel into halting its recurrent violations of a ceasefire agreement with the Beirut government-- daily strikes against towns and villages in southern Lebanon and demolitions of resid…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260511-presstv05.htm",
+      "headline": "Peace deal hopes fade after Trump rejects Iran proposal",
+      "summary": "Hopes for a peace deal on Iran faded after Donald Trump said a ceasefire with Iran was \"on life support\" as ⁠Tehran rejected a US proposal to end the conflict and stuck to a list of demands the US president described as \"garbage\".",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/middle-east/2026/0512/1572891-iran-us-trump/",
       "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T12:00:00Z",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T03:43:20Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Iran rejects U.S. ceasefire proposal, Trump deems it \"unacceptable\"",
-      "summary": "Iran rejected the latest U.S. proposal as tantamount to surrender, calling instead for an end to the war, the removal of sanctions and the lifting of the naval blockade in its response to the draft plan, which U.S. President Donald Trump described as \"totally…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260511-pdo02.htm",
+      "headline": "Hopes dim for deal as Trump slams 'garbage' Iran proposal",
+      "summary": "Hopes for a peace deal on Iran faded after US President Donald Trump said a ceasefire with Iran was \"on life support\" as ⁠Tehran rejected a US proposal to end the conflict and stuck to a list of demands Mr Trump described as \"garbage\".",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/middle-east/2026/0512/1572891-middle-east/",
       "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T12:00:00Z",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T03:43:20Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Peace deal hopes fade after Trump rejects 'garbage' Iran proposal",
+      "summary": "Hopes for an Iran peace deal have dimmed as President Trump stated a ceasefire is \"on life support\" following Tehran's rejection of a U.S. proposal. Iran presented a list of demands, including an end to the war on all fronts and compensation, which Trump dism…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/peace-deal-hopes-fade-after-trump-rejects-garbage-iran-proposal/articleshow/131027783.cms",
+      "bloc": "regional",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T03:41:43Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -125,110 +203,6 @@
       "bloc": "western",
       "date": "2026-05-11",
       "datetime": "2026-05-11T13:52:14Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The domino effect: How Iran-Israel tensions arm pirates",
-      "summary": "Amid the blockade of the Strait of Hormuz, the confrontation between Iran and Israel in the Red Sea is growing Read Full Article at RT.com",
-      "source": "RT",
-      "url": "https://www.rt.com/africa/639644-somali-pirates-houthis-ties-red-sea/",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T09:24:20Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "‘I don’t like it… totally unacceptable’ - says Trump but Iran describes its proposal to end war with US as generous",
-      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
-      "source": "Independent.ie",
-      "url": "https://www.independent.ie/world-news/middle-east/i-dont-like-it-totally-unacceptable-says-trump-but-iran-describes-its-proposal-to-end-war-with-us-as-generous/a1435406078.html",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T08:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Geospatial Intelligence Expert Y. Nithiyanandam on Why the Hormuz Strait is No Longer a Neutral Global Common",
-      "summary": "“Access now depends on where you stand with Tehran, whether you are willing to comply with its rerouting demands, and whether you have quietly negotiated your place in the new order.”",
-      "source": "The Diplomat",
-      "url": "https://thediplomat.com/2026/05/geospatial-intelligence-expert-y-nithiyanandam-on-why-the-hormuz-strait-is-no-longer-a-neutral-global-common/",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T07:44:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Oil Tankers Go Dark to Exit the Strait of Hormuz",
-      "summary": "Three supertankers laden with crude oil successfully exited the Strait of Hormuz last week, carrying Iraqi and Emirati oil, Reuters has reported, citing data from Kpler and LSEG. The vessels switched off their transponders to avoid detection. One of the tanke…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Tankers-Go-Dark-to-Exit-the-Strait-of-Hormuz.html",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -347,27 +321,26 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Russian attacks kill 22, ceasefire proposed by Kyiv nears",
-      "summary": "Russian attacks on Ukraine killed at least 22 people today, including 12 in one of the worst ⁠strikes so far this year, as the deadline approached for a proposal from Kyiv for an open-ended ceasefire to begin at midnight.",
-      "source": "RTE",
-      "url": "https://www.rte.ie/news/ukraine/2026/0505/1571723-ukraine-russia/",
+      "headline": "What's Old And New: Trump's First Visit To Beijing And This One",
+      "summary": "As of 11 May, it looks like President Donald Trump’s visit to Beijing will go forward this week. The issues present during his visit to China in November 2017 are still live. They include the Chinese Communist Party’s (CCP’s) regional ambitions to subsume Tai…",
+      "source": "Substack.com",
+      "url": "https://historywedontknow.substack.com/p/whats-old-and-new-trumps-first-visit",
       "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T04:07:57Z",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T00:00:00Z",
       "leaders": [
-        "Vladimir Putin"
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Putin Ukraine ceasefire"
+        "Xi Jinping China"
       ],
       "dimensions": [
         "survival",
-        "impulsivity",
-        "narcissism"
+        "impulsivity"
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
-      "escalation": 3,
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -427,30 +400,6 @@
       "bloc": "western",
       "date": "2026-05-11",
       "datetime": "2026-05-11T00:00:00Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "What does the Trump-Xi summit mean for the rest of us?",
-      "summary": "It's worth paying close attention when the leaders of the two most powerful countries on the planet meet next week. Because what China's Xi Jinping and America's Donald Trump decide in Beijing could have major implications for us all, writes Yvonne Murray.",
-      "source": "RTE",
-      "url": "https://www.rte.ie/news/analysis-and-comment/2026/0510/1572446-donald-trump-xi-jinping/",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T06:10:12Z",
       "leaders": [
         "Xi Jinping"
       ],
@@ -598,33 +547,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "War without borders: The rise of cyberattacks beyond the battlefield",
-      "summary": "Cyber conflict escalates beyond borders following US-Israeli strikes on Iran. Hacktivists and state-backed actors launch global attacks. This crisis fuels a cybercrime economy, creating cover and opportunity. Critical infrastructure like energy and aviation f…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/war-without-borders-the-rise-of-cyberattacks-beyond-the-battlefield/articleshow/130822082.cms",
-      "bloc": "regional",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T08:23:46Z",
-      "leaders": [
-        "Kim Jong-un",
-        "Vladimir Putin",
-        "General Asim Munir"
-      ],
-      "watch_terms": [
-        "nuclear signalling threat"
-      ],
-      "dimensions": [
-        "impulsivity",
-        "survival",
-        "narcissism"
-      ],
-      "variable_key": "nuclearSignalling",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "US Navy Escorts More Tankers Through Strait of Hormuz as Tensions Ease Slightly",
       "summary": "DUBAI, United Arab Emirates — U.S. naval forces successfully escorted three additional commercial tankers through the Strait of Hormuz on Wednesday, marking the most significant transit under Project Freedom since the operation began last week, as diplomatic …",
       "source": "Ibtimes.com.au",
@@ -755,29 +677,6 @@
       "bloc": "western",
       "date": "2026-05-07",
       "datetime": "2026-05-07T12:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Ukraine Hits 400,000 bpd Kirishi Refinery in Drone Attack Near St. Petersburg",
-      "summary": "One of Russia's largest oil refineries, the 400,000 barrels-per-day Kirishi refinery southeast of St. Petersburg, was on fire early on Tuesday following drone attacks overnight, Bloomberg reports, citing satellite images from NASA. According to satellite imag…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Hits-400000-bpd-Kirishi-Refinery-in-Drone-Attack-Near-St-Petersburg.html",
-      "bloc": "western",
-      "date": "2026-05-05",
-      "datetime": "2026-05-05T13:30:00Z",
       "leaders": [],
       "watch_terms": [
         "oil refinery port"
