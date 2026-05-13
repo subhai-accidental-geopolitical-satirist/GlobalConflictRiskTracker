@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-13T03:47:58.346Z",
+  "ts": "2026-05-13T08:51:00.824Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,87 @@
   "live_variables": {
     "oilPrice": 118,
     "oilStress": 81,
-    "updatedAt": "2026-05-13T03:47:58.346Z"
+    "updatedAt": "2026-05-13T08:51:00.824Z"
   },
   "items": [
+    {
+      "headline": "Trump brushes aside Taiwan concerns ahead of Xi meet",
+      "summary": "President Donald Trump said Monday he was ready to discuss U.S. arms sales to Taiwan during his visit this week to Beijing, as he suggested his personal chemistry with counterpart Xi Jinping would prevent a Chinese invasion of the island.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-brushes-aside-taiwan-concerns-ahead-of-xi-meet-222047",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T06:36:57Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump warns Mideast truce on 'life support', Iran says ready for any aggression",
+      "summary": "President Donald Trump warned the ceasefire in the Middle East war was on \"life support\" Monday after rejecting the latest counteroffer from Iran, which said its military stood ready to respond to any act of aggression.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-warns-mideast-truce-on-life-support-iran-says-ready-for-any-aggression-222045",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T05:50:25Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Sovereignty as a Weapon: Iran's maritime lawfare and the flotilla farce",
+      "summary": "Iran cannot currently launch a missile campaign, but it can demand international vessels file paperwork. Hamas cannot currently rocket Tel Aviv, but it can sail toward a blockaded coast and let the cameras do the rest. Opinion.",
+      "source": "Israelnationalnews.com",
+      "url": "https://www.israelnationalnews.com/news/426935",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T05:11:48Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Pakistan ‘allowed Iranian planes at airbases to shield them from US airstrikes’: report",
       "summary": "A senior Pakistani official rejected the allegations, saying large aircraft movements at Nur Khan airbase would be publicly visible and difficult to concea",
@@ -40,143 +118,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump rejects Iran’s latest ceasefire proposal ahead of key China trip",
-      "summary": "A major sticking point in negotiations is Iran’s demand for war damages, which US officials reportedly fear could be interpreted as an admission of defeat.",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/trump-rejects-irans-latest-ceasefire-proposal-ahead-of-key-china-trip/article70968100.ece",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T01:27:15Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "UAE Becomes Active Combatant in Iran War, Secretly Launching Strikes Against Islamic Regime",
-      "summary": "The United Arab Emirates (UAE) has been secretly carrying out attacks against Iran, according to The Wall Street Journal. The attacks included a strike on an oil refinery on Iran’s Lavan Island in early April, triggering a major fire and knocking much of the …",
-      "source": "Freerepublic.com",
-      "url": "https://freerepublic.com/focus/f-news/4378793/posts",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T01:01:38Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump says Iran ceasefire is 'on life support' as hopes for a deal fade",
-      "summary": "President Donald Trump said on Monday that a ceasefire with Iran was &quot;on life support&quot; after he rejected Tehran's response to a U.S. peace proposal, fueling concerns of a resumption of hostilities in the 10-week-old conflict that has killed ‌thousan…",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/world/trump-says-iran-ceasefire-is-%27on-life-support%27-as-hopes-for-a-deal-fade",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T21:30:30Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Peace deal hopes fade after Trump rejects Iran proposal",
-      "summary": "Hopes for a peace deal on Iran faded after Donald Trump said a ceasefire with Iran was \"on life support\" as ⁠Tehran rejected a US proposal to end the conflict and stuck to a list of demands the US president described as \"garbage\".",
-      "source": "RTE",
-      "url": "https://www.rte.ie/news/middle-east/2026/0512/1572891-iran-us-trump/",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T03:43:20Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Hopes dim for deal as Trump slams 'garbage' Iran proposal",
-      "summary": "Hopes for a peace deal on Iran faded after US President Donald Trump said a ceasefire with Iran was \"on life support\" as ⁠Tehran rejected a US proposal to end the conflict and stuck to a list of demands Mr Trump described as \"garbage\".",
-      "source": "RTE",
-      "url": "https://www.rte.ie/news/middle-east/2026/0512/1572891-middle-east/",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T03:43:20Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Peace deal hopes fade after Trump rejects 'garbage' Iran proposal",
-      "summary": "Hopes for an Iran peace deal have dimmed as President Trump stated a ceasefire is \"on life support\" following Tehran's rejection of a U.S. proposal. Iran presented a list of demands, including an end to the war on all fronts and compensation, which Trump dism…",
+      "headline": "Why are oil prices up today, and will Brent crude futures and US WTI rates rise sharply in near future? Oil rises as supply fears return",
+      "summary": "Why are oil prices up today, and will Brent crude futures and US WTI rates rise sharply in near future? Oil prices increased as hopes for a peace deal faded and supply fears returned. The Strait of Hormuz risk, lower OPEC output, falling US crude stocks, and …",
       "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/peace-deal-hopes-fade-after-trump-rejects-garbage-iran-proposal/articleshow/131027783.cms",
+      "url": "https://economictimes.indiatimes.com/news/international/us/why-are-oil-prices-up-today-and-will-brent-crude-futures-and-us-wti-rates-rise-sharply-in-near-future-oil-rises-as-supply-fears-return/articleshow/131033133.cms",
       "bloc": "regional",
       "date": "2026-05-12",
-      "datetime": "2026-05-12T03:41:43Z",
+      "datetime": "2026-05-12T08:18:14Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +144,91 @@
       "_from": "newsapi"
     },
     {
-      "headline": "China’s Malacca Dilemma, After Hormuz",
-      "summary": "Western-dominated insurance premiums can choke off Beijing’s oil supplies more effectively than warships can.",
-      "source": "Foreign Policy",
-      "url": "http://foreignpolicy.com/2026/05/11/china-oil-economy-insurance-hormuz-strait-malacca-dilemma/",
+      "headline": "Peace Deal Hopes Fade After Trump Rejects ‘Garbage’ Iran Counterproposal",
+      "summary": "Hopes for a peace deal on Iran faded on Tuesday after Donald Trump said a ceasefire with Iran was “on life support” as Tehran rejected a U.S. proposal to end the conflict and stuck to a list of demands the …",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/international/2026/05/12/869427.htm",
       "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T13:52:14Z",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T07:09:58Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump says US-Iran ceasefire is on ‘massive life support’, as oil prices continue to rise",
+      "summary": "US president says while the ceasefire remains in place it is ‘unbelievably weak’",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/05/12/live-us-iran-news-updates-war-middle-east-latest/",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T05:45:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran ceasefire ‘on life support’ after ‘stupid proposal’, says Trump – but here’s why he is in an Iran trap of his making",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/iran-ceasefire-on-life-support-after-stupid-proposal-says-trump-but-heres-why-he-is-in-an-iran-trap-of-his-making/a1379224230.html",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T05:15:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "News24 | Trump rejects ‘piece of garbage’ Iran demands, oil spikes as Hormuz remains closed",
+      "summary": "Hopes for a peace deal on Iran faded after US President Donald Trump said a ceasefire with Iran was “on life support” as Tehran rejected a US proposal to end the conflict and stuck to a list of ‌demands Trump described as “garbage”.",
+      "source": "News24",
+      "url": "https://www.news24.com/world/trump-rejects-piece-of-garbage-iran-demands-oil-spikes-as-hormuz-remains-closed-20260512-0271",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T05:00:06Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
