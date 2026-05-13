@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-13T14:43:57.239Z",
+  "updated": "2026-05-13T20:00:47.215Z",
   "retention_days": 30,
   "items": [
     {
@@ -23765,7 +23765,115 @@
       "_from": "newsapi",
       "first_seen": "2026-05-13T14:43:57.239Z",
       "run_id": "2026-05-13T14:43"
+    },
+    {
+      "headline": "Iran war hits home as gasoline prices fuel significant U.S. inflation jump",
+      "summary": "The Labor Department's consumer price index rose 3.8% from April 2025 and up from a 3.3% year-over-year gain in March.",
+      "source": "PBS",
+      "url": "https://www.pbs.org/newshour/economy/iran-war-hits-home-as-gasoline-prices-fuel-significant-u-s-inflation-jump",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T16:46:43Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T20:00:47.215Z",
+      "run_id": "2026-05-13T20:00"
+    },
+    {
+      "headline": "Vietnam Urges US Navy to Let Oil Tanker Through Its Blockade",
+      "summary": "Vietnam’s state oil company urged the US to let a supertanker pass through an American naval blockade outside of the Persian Gulf, saying the shipment is critical to the Asian country’s economy.",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/vietnam-urges-us-navy-to-let-oil-tanker-through-its-blockade",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T15:10:30Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T20:00:47.215Z",
+      "run_id": "2026-05-13T20:00"
+    },
+    {
+      "headline": "Murkowski Grills Hegseth About Getting Congressional Approval for Iran War: Law ‘Is Pretty Clear’",
+      "summary": "\"The War Powers Resolution is pretty clear here. It requires the president to terminate hostilities within 60 days absent congressional authorization.\"\nThe post Murkowski Grills Hegseth About Getting Congressional Approval for Iran War: Law ‘Is Pretty Clear’ …",
+      "source": "Mediaite",
+      "url": "https://www.mediaite.com/politics/murkowski-grills-hegseth-about-getting-congressional-approval-for-iran-war-law-is-pretty-clear/",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T18:34:56Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T20:00:47.215Z",
+      "run_id": "2026-05-13T20:00"
+    },
+    {
+      "headline": "Trump doesn't need Congress to restart Iran strikes: Hegseth",
+      "summary": "The Iran war, now well into its third month, has caused oil prices to soar globally as Iran continues to lock down the Strait of Hormuz.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/12/trump-congress-iran-war-hegseth.html",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T18:10:13Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-13T20:00:47.215Z",
+      "run_id": "2026-05-13T20:00"
     }
   ],
-  "total_items_ever": 1320
+  "total_items_ever": 1324
 }
