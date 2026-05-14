@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-14T03:45:41.187Z",
+  "updated": "2026-05-14T08:42:40.734Z",
   "retention_days": 30,
   "items": [
     {
@@ -23203,7 +23203,198 @@
       "_from": "newsapi",
       "first_seen": "2026-05-14T03:45:41.187Z",
       "run_id": "2026-05-14T03:45"
+    },
+    {
+      "headline": "Fire or ice: Why a ceasefire in the Gulf cannot hold",
+      "summary": "As the specter of renewed conflict between the US and Iran looms, the Strait of Hormuz stands at the center of this brewing storm. A fresh clash could erupt, either plunging the world into a major wartime scenario or extending a tense cold war. The repercussi…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/opinion/et-commentary/fire-or-ice-why-a-ceasefire-in-the-gulf-cannot-hold/articleshow/131058078.cms",
+      "bloc": "regional",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T07:15:44Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T08:42:40.734Z",
+      "run_id": "2026-05-14T08:42"
+    },
+    {
+      "headline": "Iranâs 14-point plan declared âonly path forwardâ as U.S.-Iran ceasefire hangs in balance",
+      "summary": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf declared Tehran’s 14-point peace proposal has “no alternative” for resolving the U.S.-Iran conflict. The proposal demands U.S. withdrawal from Iran’s periphery, sanctions lifting, war reparations and Iranian…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-13-irans-14-point-plan-declared-only-path-forward.html",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T08:42:40.734Z",
+      "run_id": "2026-05-14T08:42"
+    },
+    {
+      "headline": "The Insurance Weapon: How Commercial Risk Logic Became an Irregular Warfare Tool at Hormuz",
+      "summary": "Editor’s Note: this article is being republished with the permission of the Irregular Warfare Initiative as part of a republishing arrangement between IWI and SWJ. The original article was published on March 24, 2026 and is available here.  Before Iran laid m…",
+      "source": "Smallwarsjournal.com",
+      "url": "https://smallwarsjournal.com/2026/05/13/the-insurance-weapon/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T06:00:29Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T08:42:40.734Z",
+      "run_id": "2026-05-14T08:42"
+    },
+    {
+      "headline": "‘Not even a little bit’ – Trump says he does not think of Americans’ financial situation as war costs spiral",
+      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/middle-east/not-even-a-little-bit-trump-says-he-does-not-think-of-americans-financial-situation-as-war-costs-spiral/a61790098.html",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T05:30:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T08:42:40.734Z",
+      "run_id": "2026-05-14T08:42"
+    },
+    {
+      "headline": "The agenda at the Xi–Trump meeting: The semi-closed Strait of Hormuz, pressure on the White House, and China as the “responsible player”",
+      "summary": "“We cannot allow Iran to acquire nuclear weapons,” Trump said. As the ceasefire is being violated in the Straits, the POTUS is rushing to close the front, fearing he may appear weakened\nThe post The agenda at the Xi–Trump meeting: The semi-closed Strait of Ho…",
+      "source": "Protothema.gr",
+      "url": "https://en.protothema.gr/2026/05/13/the-agenda-at-the-xi-trump-meeting-the-semi-closed-strait-of-hormuz-pressure-on-the-white-house-and-china-as-the-responsible-player/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T07:51:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T08:42:40.734Z",
+      "run_id": "2026-05-14T08:42"
+    },
+    {
+      "headline": "Trump and Xi set to meet in Beijing as Iran war and trade tensions dominate agenda",
+      "summary": "The summit could redefine US-China relations, impacting global trade dynamics, geopolitical stability, and technological competition.\nThe post Trump and Xi set to meet in Beijing as Iran war and trade tensions dominate agenda appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/trump-xi-beijing-summit-iran-trade/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T04:00:35Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T08:42:40.734Z",
+      "run_id": "2026-05-14T08:42"
+    },
+    {
+      "headline": "Putin hails Russia’s test launch of ‘most powerful missile in the world’",
+      "summary": "Russian leader says the nuclear-capable Sarmat missile will enter combat service at the end of the year.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/13/putin-hails-russias-test-launch-of-most-powerful-missile-in-the-world",
+      "bloc": "regional",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T04:27:51Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T08:42:40.734Z",
+      "run_id": "2026-05-14T08:42"
     }
   ],
-  "total_items_ever": 1329
+  "total_items_ever": 1336
 }
