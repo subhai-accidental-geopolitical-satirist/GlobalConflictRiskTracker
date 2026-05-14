@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-14T08:43:45.883Z",
+  "ts": "2026-05-14T14:24:50.398Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-14T08:43:45.883Z"
+    "updatedAt": "2026-05-14T14:24:50.398Z"
   },
   "items": [
     {
-      "headline": "Fire or ice: Why a ceasefire in the Gulf cannot hold",
-      "summary": "As the specter of renewed conflict between the US and Iran looms, the Strait of Hormuz stands at the center of this brewing storm. A fresh clash could erupt, either plunging the world into a major wartime scenario or extending a tense cold war. The repercussi…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/opinion/et-commentary/fire-or-ice-why-a-ceasefire-in-the-gulf-cannot-hold/articleshow/131058078.cms",
+      "headline": "Amid US-Israel war on Iran, Arizona awaits Iranian team before World Cup",
+      "summary": "Sports facility and football fans in the city of Tucson want Iran's players to feel 'safe and welcome'.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/sports/2026/5/13/amid-us-israel-war-on-iran-arizona-awaits-iranian-team-before-world-cup",
       "bloc": "regional",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T07:15:44Z",
+      "datetime": "2026-05-13T14:05:49Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,39 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iranâs 14-point plan declared âonly path forwardâ as U.S.-Iran ceasefire hangs in balance",
-      "summary": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf declared Tehran’s 14-point peace proposal has “no alternative” for resolving the U.S.-Iran conflict. The proposal demands U.S. withdrawal from Iran’s periphery, sanctions lifting, war reparations and Iranian…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-13-irans-14-point-plan-declared-only-path-forward.html",
+      "headline": "Mossad chief made secret visits to UAE to coordinate attacks on Iran during war: Report",
+      "summary": "Israel's Mossad chief secretly travelled to the United Arab Emirates at least twice in recent months to coordinate military attacks against Iran, a new report reveals.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260513-presstv02.htm",
       "bloc": "western",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Saudi Arabia reportedly carried out secret strikes on Iran during West Asia war",
-      "summary": "Saudi Arabia reportedly carried out covert retaliatory strikes on Iran during the West Asia conflict before both sides moved to de-escalate tensions.",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/saudi-arabia-reportedly-carried-out-secret-strikes-on-iran-during-west-asia-war/article70972399.ece",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T01:41:29Z",
+      "datetime": "2026-05-13T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -92,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Why Is It So Difficult for Iran To Reach an Agreement With the United States?",
-      "summary": "The collapse of the Islamabad negotiations between Iran and United States signified an unbridgeable rift, not only between the negotiating parties, but also between two worldviews on resolving conflicts. The last two rounds of negotiations in May and June 202…",
-      "source": "Antiwar.com",
-      "url": "https://original.antiwar.com/amirhassan_boozari/2026/05/12/why-is-it-so-difficult-for-iran-to-reach-an-agreement-with-the-united-states/",
+      "headline": "Netanyahu reveals he 'secretly' visited UAE during war on Iran",
+      "summary": "Israeli prime minister Benjamin Netanyahu reveals \"secretly\" visiting the United Arab Emirates during the latest round of unprovoked US-Israeli aggression against Iran.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260513-presstv01.htm",
       "bloc": "western",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T00:00:33Z",
+      "datetime": "2026-05-13T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,13 +92,65 @@
       "_from": "newsapi"
     },
     {
-      "headline": "The Insurance Weapon: How Commercial Risk Logic Became an Irregular Warfare Tool at Hormuz",
-      "summary": "Editor’s Note: this article is being republished with the permission of the Irregular Warfare Initiative as part of a republishing arrangement between IWI and SWJ. The original article was published on March 24, 2026 and is available here.  Before Iran laid m…",
-      "source": "Smallwarsjournal.com",
-      "url": "https://smallwarsjournal.com/2026/05/13/the-insurance-weapon/",
+      "headline": "Yemen warns continued war on Iran will burn entire region",
+      "summary": "Yemen's Deputy Foreign Minister Abdulwahid Abu Ras has warned that the continuation of the US-Israeli aggression against Iran will set the region and the entire world on fire, while reaffirming Yemen's full solidarity with the Islamic Republic.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260513-presstv04.htm",
       "bloc": "western",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T06:00:29Z",
+      "datetime": "2026-05-13T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran parliamentary commission finalizes plan to secure Strait of Hormuz: Chairman",
+      "summary": "Iran's National Security and Foreign Policy Commission has finalized a comprehensive plan for the security and development of the Persian Gulf and the Strait of Hormuz, a senior lawmaker said, while also revealing a proposal calling for legal and financial in…",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260513-presstv06.htm",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran-Linked LPG Tanker Sails Past US Navy’s Blockade Line",
+      "summary": "A liquefied petroleum gas carrier, which has previously ferried Iranian cargoes, has sailed past the blockade boundary announced last month by the US Navy.",
+      "source": "gcaptain.com",
+      "url": "https://gcaptain.com/iran-linked-lpg-tanker-sails-past-us-navys-blockade-line/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T14:22:47Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -144,13 +170,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "‘Not even a little bit’ – Trump says he does not think of Americans’ financial situation as war costs spiral",
-      "summary": "{\n \"themeId\": \"lct_653b7fa7fed115003648bab8\",\n \"clientId\": \"64772ae4d1d7dec0c5b716af\",\n \"liveblogId\": \"69a2ae3f1c39bcc5812537fb\"\n}",
-      "source": "Independent.ie",
-      "url": "https://www.independent.ie/world-news/middle-east/not-even-a-little-bit-trump-says-he-does-not-think-of-americans-financial-situation-as-war-costs-spiral/a61790098.html",
+      "headline": "Trump says he does not expect China’s help to end Iran war",
+      "summary": "Israeli airstrikes on  road south of Beirut kill eight people, including two children",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/05/13/trump-says-he-does-not-expect-chinas-help-to-end-iran-war/",
       "bloc": "western",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T05:30:00Z",
+      "datetime": "2026-05-13T14:06:51Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -170,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Iran says Hormuz control to bring significant revenues",
-      "summary": "Iran's military spokesman has said that Tehran's control over the Strait of Hormuz could generate \"significant\" economic revenue and strengthen the country's international position.",
-      "source": "RTE",
-      "url": "https://www.rte.ie/news/world/2026/0513/1573069-middle-east-iran-us/",
-      "bloc": "western",
+      "headline": "Trump says no need for China's help on Iran as shippers seek passage through Hormuz",
+      "summary": "President Donald Trump states no help is needed from China to end the Iran war. He believes the US will win the conflict. Iran is firming its control over the Strait of Hormuz. US and Iran demands to end the war remain far apart. A Chinese supertanker is atte…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-says-no-need-for-chinas-help-on-iran-as-shippers-seek-passage-through-hormuz/articleshow/131066397.cms",
+      "bloc": "regional",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T03:34:00Z",
+      "datetime": "2026-05-13T12:50:56Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +222,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Vietnam oil firm urges US Navy to allow tanker through Hormuz blockade",
-      "summary": "The ongoing blockade underscores geopolitical tensions, impacting global oil trade and highlighting the strategic importance of the Strait of Hormuz.\nThe post Vietnam oil firm urges US Navy to allow tanker through Hormuz blockade appeared first on Crypto Brie…",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/vietnam-oil-firm-urges-us-navy-to-allow-tanker-through-hormuz-blockade/",
+      "headline": "Chinese Supertanker Attempts Hormuz Transit",
+      "summary": "A Chinese supertanker carrying nearly 2 million barrels of Iraqi crude oil was attempting to pass through the Strait of Hormuz on May 13, according to maritime tracking data from the London Stock Exchange Group (LSEG) and the analytics firm Kpler, .",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260513-rferl04.htm",
       "bloc": "western",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T00:38:46Z",
+      "datetime": "2026-05-13T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -222,13 +248,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Vietnam Urges US Navy to Let Oil Tanker Through Its Blockade",
-      "summary": "Vietnam’s state oil company urged the US to let a supertanker pass through an American naval blockade outside of the Persian Gulf, saying the shipment is critical to the Asian country’s economy.",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-pmn/vietnam-urges-us-navy-to-let-oil-tanker-through-its-blockade",
+      "headline": "Iran War: Iran Escalates With Threat of Even Higher Level of Enrichment, Assertion of Larger Gulf Control Area as US Revealed to Have Lost 39 Planes and Press Gives Ever More Coverage to Economic Damage; Israel Political Meltdown Could Stymie Further Attacks; Trump More Visibly Losing His Mind",
+      "summary": "Today's Iran war watch: Iran ups demands as more evidence of US weakness and Trump insanity emerges, and the economy is collateral damage.",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-iran-escalates-with-threat-of-even-higher-level-of-enrichment-assertion-of-larger-gulf-control-area-as-us-revealed-to-have-lost-39-planes-and-press-gives-ever-more-coverage-to-economic-dama.html",
       "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T15:10:30Z",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T10:57:33Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -243,7 +269,7 @@
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
-      "escalation": 2,
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -321,6 +347,78 @@
       "_from": "newsapi"
     },
     {
+      "headline": "China’s Mahan: The Man Who Created China’s Modern Navy",
+      "summary": "Insights from Xiaobing Li.",
+      "source": "The Diplomat",
+      "url": "https://thediplomat.com/2026/05/chinas-mahan-the-man-who-created-chinas-modern-navy/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T13:30:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump's 2026 Beijing Summit With Xi: How It Differs Dramatically From His Lavish 2017 Visit",
+      "summary": "President Trump visits Beijing for a summit with Xi Jinping, amid heightened tensions and a focus on trade, technology, and geopolitical issues, contrasting with his 2017 visit's pageantry.",
+      "source": "Ibtimes.com.au",
+      "url": "https://www.ibtimes.com.au/trump-2026-beijing-visit-summit-xi-jinping-1868730",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T12:02:52Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Sino-American Rivalry & Cooperation",
+      "summary": "By Shashi P.B.B. Malla The grinding war in Iran has so drained American firepower that ahead of Trump’s forthcoming visit to China, geopolitical analysts are questioning the U.S.’s ability to defend Taiwan (NYT, May 9-10). The NYT’s columnists David Pierson a…",
+      "source": "Peoplesreview.com.np",
+      "url": "https://peoplesreview.com.np/2026/05/13/sino-american-rivalry-cooperation/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T09:17:22Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "The agenda at the Xi–Trump meeting: The semi-closed Strait of Hormuz, pressure on the White House, and China as the “responsible player”",
       "summary": "“We cannot allow Iran to acquire nuclear weapons,” Trump said. As the ceasefire is being violated in the Straits, the POTUS is rushing to close the front, fearing he may appear weakened\nThe post The agenda at the Xi–Trump meeting: The semi-closed Strait of Ho…",
       "source": "Protothema.gr",
@@ -369,73 +467,27 @@
       "_from": "newsapi"
     },
     {
-      "headline": "The secret hidden traps set for Trump as he meets Xi Jinping face-to-face in China amid Iran tensions…. and the phrase he MUST avoid or risk WWIII",
-      "summary": "President Donald Trump is set to arrive in Beijing this week for a high-stakes face-off with President Xi Jinping, a meeting shadowed by a deadlocked conflict with Iran.",
-      "source": "Dailymail.com",
-      "url": "https://www.dailymail.com/news/article-15808057/secret-traps-Trump-Xi-Jinping-China-Iran-tensions-WWIII.html",
+      "headline": "Oil price spike turmoil far from over, IEA says as inventories are depleted at “record pace\"",
+      "summary": "The IEA's oil market report for May noted that global oil supply declined by a further 1.8 million barrels per day in April.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/05/13/oil-price-spike-turmoil-iea-iran-war.html",
       "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T11:17:19Z",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T12:12:32Z",
       "leaders": [
-        "Xi Jinping"
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
       ],
       "watch_terms": [
-        "Xi Jinping China"
+        "oil Brent crude"
       ],
       "dimensions": [
         "survival",
-        "impulsivity"
+        "values"
       ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "What Trump Must Do To Make His Trip To China A Strategic Success",
-      "summary": "Here’s how President Trump can disabuse Xi Jinping of his dangerous fantasy that the U.S. no longer has what it takes to firmly lead the Free World.",
-      "source": "Forbes",
-      "url": "https://www.forbes.com/sites/steveforbes/2026/05/12/what-trump-must-do-to-make-his-trip-to-china-a-strategic-success/",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T10:00:00Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "What's Old And New: Trump's First Visit To Beijing And This One",
-      "summary": "As of 11 May, it looks like President Donald Trump’s visit to Beijing will go forward this week. The issues present during his visit to China in November 2017 are still live. They include the Chinese Communist Party’s (CCP’s) regional ambitions to subsume Tai…",
-      "source": "Substack.com",
-      "url": "https://historywedontknow.substack.com/p/whats-old-and-new-trumps-first-visit",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T00:00:00Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -519,32 +571,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "After winning poll battles, Modi has picked up a new fight",
-      "summary": "Amidst rising crude oil prices and a weakening rupee, Prime Minister Modi has urged Indians to embrace austerity. His call to reduce fuel consumption, postpone gold purchases, and cut edible oil use aims to protect foreign exchange reserves and curb inflation…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/economy/policy/after-winning-poll-battles-modi-has-picked-up-a-new-fight/articleshow/131007459.cms",
-      "bloc": "regional",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T07:46:50Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "Board Of Trade, Ahoy!",
       "summary": "In my never-ending quest to connect U.S.-China relations to the cannon of popular (and often times obscure) music, it is sometimes tough to find a song to fit my commentary.",
       "source": "Substack.com",
@@ -568,6 +594,56 @@
       "variable_key": "nuclearSignalling",
       "event_type": "static_variable",
       "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "News24 | Putin hails test-firing of nuclear-capable ‘Satan II’ intercontinental ballistic missile",
+      "summary": "Russia has test-fired a new intercontinental ballistic missile, with President Vladimir Putin describing the nuclear-capable Sarmat weapon as the world’s “most powerful” missile.",
+      "source": "News24",
+      "url": "https://www.news24.com/world/putin-hails-test-firing-of-nuclear-capable-satan-ii-intercontinental-ballistic-missile-20260513-0395",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T12:50:08Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump arrives in China for summit as war and inflation weigh on presidency",
+      "summary": "US president accompanied by family members and business world titans including Nvidia’s Jensen Huang and Tesla and SpaceX’s Elon Musk",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/asia-pacific/2026/05/13/trump-arrives-in-china-for-summit-as-war-and-inflation-weigh-on-presidency/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T12:23:39Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -643,31 +719,6 @@
       "variable_key": "armsControlArchitecture",
       "event_type": "static_variable",
       "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Germany’s new militarization: Revival of the spirit or blatant revanchism? (by Dmitry Medvedev)",
-      "summary": "On the eve of Victory Day Read Full Article at RT.com",
-      "source": "RT",
-      "url": "https://www.rt.com/news/639537-germanys-new-militarization-revanchism/",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T05:20:18Z",
-      "leaders": [
-        "Vladimir Putin",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "arms control New"
-      ],
-      "dimensions": [
-        "accountability",
-        "values"
-      ],
-      "variable_key": "armsControlArchitecture",
-      "event_type": "static_variable",
-      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
