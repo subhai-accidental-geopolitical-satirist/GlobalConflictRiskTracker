@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-14T14:24:50.398Z",
+  "ts": "2026-05-14T19:52:19.142Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-14T14:24:50.398Z"
+    "updatedAt": "2026-05-14T19:52:19.142Z"
   },
   "items": [
     {
@@ -70,58 +70,6 @@
       "summary": "Israeli prime minister Benjamin Netanyahu reveals \"secretly\" visiting the United Arab Emirates during the latest round of unprovoked US-Israeli aggression against Iran.",
       "source": "Globalsecurity.org",
       "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260513-presstv01.htm",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Yemen warns continued war on Iran will burn entire region",
-      "summary": "Yemen's Deputy Foreign Minister Abdulwahid Abu Ras has warned that the continuation of the US-Israeli aggression against Iran will set the region and the entire world on fire, while reaffirming Yemen's full solidarity with the Islamic Republic.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260513-presstv04.htm",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran parliamentary commission finalizes plan to secure Strait of Hormuz: Chairman",
-      "summary": "Iran's National Security and Foreign Policy Commission has finalized a comprehensive plan for the security and development of the Persian Gulf and the Strait of Hormuz, a senior lawmaker said, while also revealing a proposal calling for legal and financial in…",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260513-presstv06.htm",
       "bloc": "western",
       "date": "2026-05-13",
       "datetime": "2026-05-13T12:00:00Z",
@@ -274,6 +222,54 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Why Congress Can’t Stop Trump’s Iran War",
+      "summary": "A half-century of messy politics has inverted the Constitution’s design—and there’s no easy fix.",
+      "source": "Foreign Policy",
+      "url": "http://foreignpolicy.com/2026/05/13/why-congress-cant-stop-trumps-iran-war/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T16:49:02Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Three Senate Republicans break with Trump on Iran war powers vote",
+      "summary": "Senate Republicans fractured on Iran war powers as Rand Paul and GOP colleagues voted to end Trump's Operation Epic Fury military campaign.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/politics/senate-democrats-finally-crack-gop-unity-trumps-iran-war-murkowski-flips",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T16:28:19Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Murkowski Grills Hegseth About Getting Congressional Approval for Iran War: Law ‘Is Pretty Clear’",
       "summary": "\"The War Powers Resolution is pretty clear here. It requires the president to terminate hostilities within 60 days absent congressional authorization.\"\nThe post Murkowski Grills Hegseth About Getting Congressional Approval for Iran War: Law ‘Is Pretty Clear’ …",
       "source": "Mediaite",
@@ -343,6 +339,30 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump-Xi summit: China’s help in Iran may require US concessions",
+      "summary": "Analysts say China is likely to ask for change in US policy towards Taiwan if it were to pressure Iran reopen Hormuz.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/13/trump-xi-summit-chinas-help-in-iran-may-require-us-concessions",
+      "bloc": "regional",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T17:27:09Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -443,25 +463,27 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump and Xi set to meet in Beijing as Iran war and trade tensions dominate agenda",
-      "summary": "The summit could redefine US-China relations, impacting global trade dynamics, geopolitical stability, and technological competition.\nThe post Trump and Xi set to meet in Beijing as Iran war and trade tensions dominate agenda appeared first on Crypto Briefing.",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/trump-xi-beijing-summit-iran-trade/",
+      "headline": "Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000",
+      "summary": "Sovereign curves are back near old stress zones while Hormuz inflation risk keeps central banks boxed in.\nThe post Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/global-financial-crisis-bond-yields-bitcoin/",
       "bloc": "western",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T04:00:35Z",
+      "datetime": "2026-05-13T18:25:40Z",
       "leaders": [
-        "Xi Jinping"
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
       ],
       "watch_terms": [
-        "Xi Jinping China"
+        "oil Brent crude"
       ],
       "dimensions": [
         "survival",
-        "impulsivity"
+        "values"
       ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -526,32 +548,6 @@
       "bloc": "western",
       "date": "2026-05-11",
       "datetime": "2026-05-11T12:56:38Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Sensex today | Stock Market Highlights: Sensex crashes 1,313 points, rupee hits record low amid US-Iran tensions",
-      "summary": "Sensex Today, Nifty 50 | Stock Market Highlights: Indian stock markets plunged on Monday as soaring crude oil prices and fading hopes of a US-Iran peace deal triggered heavy selling, with the Sensex crashing over 1,300 points amid rising fears over the prolon…",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-11th-may-2026/article70961997.ece",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T10:58:10Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
@@ -694,31 +690,6 @@
       "variable_key": "armsControlArchitecture",
       "event_type": "static_variable",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The Climate Reckoning That the Nuclear Arms Control Can’t Ignore",
-      "summary": "At 8:15 AM on August 6, 1945, a 9,000-pound atomic bomb detonated 1,900 feet above Hiroshima\r\n, instantly killing 70,000 people. Three days later, a second bomb exploded over Nagasaki, killing another 40,000.The sheer scale of destruction—that humans could an…",
-      "source": "Common Dreams",
-      "url": "https://www.commondreams.org/opinion/nuclear-weapons-climate-change",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T12:35:01Z",
-      "leaders": [
-        "Vladimir Putin",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "arms control New"
-      ],
-      "dimensions": [
-        "accountability",
-        "values"
-      ],
-      "variable_key": "armsControlArchitecture",
-      "event_type": "static_variable",
-      "escalation": 4,
       "persian_only": false,
       "_from": "newsapi"
     },

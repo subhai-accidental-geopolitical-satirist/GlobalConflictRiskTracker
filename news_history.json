@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-14T14:23:45.222Z",
+  "updated": "2026-05-14T19:51:13.705Z",
   "retention_days": 30,
   "items": [
     {
@@ -23834,7 +23834,113 @@
       "_from": "newsapi",
       "first_seen": "2026-05-14T14:23:45.222Z",
       "run_id": "2026-05-14T14:23"
+    },
+    {
+      "headline": "Why Congress Can’t Stop Trump’s Iran War",
+      "summary": "A half-century of messy politics has inverted the Constitution’s design—and there’s no easy fix.",
+      "source": "Foreign Policy",
+      "url": "http://foreignpolicy.com/2026/05/13/why-congress-cant-stop-trumps-iran-war/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T16:49:02Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T19:51:13.705Z",
+      "run_id": "2026-05-14T19:51"
+    },
+    {
+      "headline": "Three Senate Republicans break with Trump on Iran war powers vote",
+      "summary": "Senate Republicans fractured on Iran war powers as Rand Paul and GOP colleagues voted to end Trump's Operation Epic Fury military campaign.",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/politics/senate-democrats-finally-crack-gop-unity-trumps-iran-war-murkowski-flips",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T16:28:19Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T19:51:13.705Z",
+      "run_id": "2026-05-14T19:51"
+    },
+    {
+      "headline": "Trump-Xi summit: China’s help in Iran may require US concessions",
+      "summary": "Analysts say China is likely to ask for change in US policy towards Taiwan if it were to pressure Iran reopen Hormuz.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/13/trump-xi-summit-chinas-help-in-iran-may-require-us-concessions",
+      "bloc": "regional",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T17:27:09Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T19:51:13.705Z",
+      "run_id": "2026-05-14T19:51"
+    },
+    {
+      "headline": "Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000",
+      "summary": "Sovereign curves are back near old stress zones while Hormuz inflation risk keeps central banks boxed in.\nThe post Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/global-financial-crisis-bond-yields-bitcoin/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T18:25:40Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T19:51:13.705Z",
+      "run_id": "2026-05-14T19:51"
     }
   ],
-  "total_items_ever": 1352
+  "total_items_ever": 1356
 }
