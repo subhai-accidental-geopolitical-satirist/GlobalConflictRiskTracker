@@ -1,764 +1,8 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-13T20:00:47.215Z",
+  "updated": "2026-05-14T03:45:41.187Z",
   "retention_days": 30,
   "items": [
-    {
-      "headline": "Turkey Accuses Israeli PM of War Crimes, Issues Formal Statement Comparing Him to Hitler",
-      "summary": "Introduction On April 12, 2026, Turkey formally accused Israeli Prime Minister Benjamin Netanyahu of war crimes and crimes against humanity, issuing a statement from its foreign ministry that described him as the ‘Hitler of our time’ [1]. The accusation was m…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-04-13-erdogan-accuses-netanyahu-war-crimes-compares-to-hitler.html",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T06:20:44.238Z",
-      "run_id": "2026-04-14T06:20"
-    },
-    {
-      "headline": "Oil surges, stocks fall as Trump says to blockade Strait of Hormuz",
-      "summary": "Oil prices surged and stocks sank Monday after U.S.-Iran peace talks fell apart and Donald Trump announced a blockade of the strategic Strait of Hormuz, adding to fears of energy supplies from the Middle East.",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/oil-surges-stocks-fall-as-trump-says-to-blockade-strait-of-hormuz-220949",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T05:17:32Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T06:20:44.238Z",
-      "run_id": "2026-04-14T06:20"
-    },
-    {
-      "headline": "US blockade of Iran will be major military endeavor, experts say",
-      "summary": "The US military's Central Command later said the blockade will\nonly apply to ships going to or from Iran, including all Iranian\nports on the Arabian Gulf and Gulf of Oman",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/us-blockade-of-iran-will-be-major-military-endeavor-experts-say/article70856138.ece",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T03:18:58Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T06:20:44.238Z",
-      "run_id": "2026-04-14T06:20"
-    },
-    {
-      "headline": "Oil Prices Surge Past $100 as Trump Announces Hormuz Blockade Amid Fragile Iran Ceasefire",
-      "summary": "NEW YORK — Global oil prices jumped sharply Monday as President Donald Trump ordered a U.S. naval blockade of the Strait of Hormuz, reigniting fears of prolonged supply disruptions in the world's most critical energy chokepoint.",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/oil-prices-surge-past-100-trump-announces-hormuz-blockade-amid-fragile-iran-ceasefire-1866323",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T06:07:20Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T06:20:44.238Z",
-      "run_id": "2026-04-14T06:20"
-    },
-    {
-      "headline": "Why did oil prices jump above $100? #politics",
-      "summary": "Oil prices surged above $100 amid Iran crisis escalation Oil prices rose sharply above $100 per barrel as the U.S. prepared to blockade Iran linked shipping routes following failed U.S. Iran peace talks. Coverage describes West Texas Intermediate hovering jus…",
-      "source": "Alltoc.com",
-      "url": "https://alltoc.com/politics/why-did-oil-prices-jump-above-100",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T06:02:24Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T06:20:44.238Z",
-      "run_id": "2026-04-14T06:20"
-    },
-    {
-      "headline": "Failed Hormuz Talks and Trump Blockade Trigger Global Stock Sell-Off as Oil Surges Past $103",
-      "summary": "NEW YORK — The abrupt failure of U.S.-Iran peace negotiations in Pakistan and President Donald Trump's immediate order to blockade the Strait of Hormuz sent shockwaves through world financial markets Monday, driving oil prices above $103 a barrel and triggeri…",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/failed-hormuz-talks-trump-blockade-trigger-global-stock-sell-off-oil-surges-past-103-1866311",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T04:51:54Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T06:20:44.238Z",
-      "run_id": "2026-04-14T06:20"
-    },
-    {
-      "headline": "Two Oil Tankers Attempt Hormuz Exit After US Announces Blockade",
-      "summary": "Two fuel tankers are attempting to exit the Persian Gulf via the Strait of Hormuz by sailing close to the Iranian coast, the first vessels to try and pass through the waterway since the US announced a blockade.",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-pmn/two-oil-tankers-attempt-hormuz-exit-after-us-announces-blockade",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T03:57:57Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T06:20:44.238Z",
-      "run_id": "2026-04-14T06:20"
-    },
-    {
-      "headline": "Crude oil tankers steer clear of Hormuz ahead of US blockade",
-      "summary": "Move follows an announcement that U.S. forces would begin implementing ‌the blockade of all maritime traffic entering and exiting Iranian ports on Monday.",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/crude-oil-tankers-steer-clear-of-hormuz-ahead-of-us-blockade/article70856066.ece",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T02:45:24Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T06:20:44.238Z",
-      "run_id": "2026-04-14T06:20"
-    },
-    {
-      "headline": "Hezbollah chief: 'Lebanese resistance will not surrender, the battlefield will speak'",
-      "summary": "Hezbollah Secretary General Sheikh Naim Qassem has said that the Lebanese Islamic resistance will confront the ongoing Israeli-American aggression against the people of Lebanon and demanded immediate implementation of the November 2024 ceasefire agreement.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260413-presstv02.htm",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "Fidan: 'Israel cannot live without an enemy' and seeks to declare Turkey as one",
-      "summary": "Turkish Foreign Minister Hakan Fidan says Israel \"cannot live without an enemy\" and the incumbent cabinet led by Benjamin Netanyahu is now seeking to declare the Ankara government as its new enemy.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/turkey/2026/turkey-260413-presstv01.htm",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "Yemen vows military escalation if US, Israel resume war on Iran",
-      "summary": "Yemen's Foreign Ministry says the Arab country's position remains steadfast in active participation and escalation of military operations if the United States and the Israeli regime resume their war of aggression against Iran and the Axis of Resistance.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260413-presstv14.htm",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "Iran resumes rail services on routes damaged by war",
-      "summary": "Authorities have in recent days begun reconstruction work on bridges, railway lines and other infrastructure hit during nearly 40 days of fighting.\nThe post Iran resumes rail services on routes damaged by war appeared first on Vanguard News.",
-      "source": "Vanguard",
-      "url": "https://www.vanguardngr.com/2026/04/iran-resumes-rail-services-on-routes-damaged-by-war/",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T10:08:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "Iran threatens ports in West Asia as US military set to impose shipping blockade",
-      "summary": "US Central Command announced the blockade would begin on Monday at 10 am EDT or 5:30 pm in Iran, and would be ‘enforced impartially against vessels of all nations entering or departing Iranian ports and coastal areas’",
-      "source": "BusinessLine",
-      "url": "https://www.thehindubusinessline.com/news/world/iran-threatens-ports-in-west-asia-as-us-military-set-to-impose-shipping-blockade/article70856928.ece",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T09:35:27Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "Trump Is About to Make the Oil Crisis Even Worse",
-      "summary": "Iran and oil expert Gregory Brew discusses President Trump’s blockade of the Strait of Hormuz and what a best-case scenario for the oil crisis looks like now.",
-      "source": "New York Magazine",
-      "url": "http://nymag.com/intelligencer/article/trumps-strait-of-hormuz-blockade-will-make-oil-crisis-worse.html",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T15:45:49Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "Trump’s threat to blockade Hormuz: Why it’s war’s latest major escalation",
-      "summary": "Analysts warn Washington's blockade could harm the fragile ceasefire between the US and Iran.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/4/13/trumps-threat-to-blockade-hormuz-why-its-wars-latest-major-escalation",
-      "bloc": "regional",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T14:14:35Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "UK Rejects US Iran Blockade as Macron Pushes Multinational Talks to Reopen Vital Strait of Hormuz",
-      "summary": "LONDON — Britain declared Monday it will not support or participate in the U.S. naval blockade of Iranian ports in the Strait of Hormuz, with Prime Minister Keir Starmer insisting the U.K. has no intention of being \"dragged in\" to the escalating conflict with…",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/uk-rejects-us-iran-blockade-macron-pushes-multinational-talks-reopen-vital-strait-hormuz-1866387",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T14:06:18Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "U.S. Blockade Draws New Red Lines in Strait of Hormuz Crisis",
-      "summary": "The United States is moving to blockade maritime traffic tied to Iran, marking a sharp escalation in the Strait of Hormuz crisis and introducing a new layer of risk for...",
-      "source": "gcaptain.com",
-      "url": "https://gcaptain.com/u-s-blockade-draws-new-red-lines-in-strait-of-hormuz-crisis/",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T13:07:20Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "What To Know About The US Naval Blockade Of Iran",
-      "summary": "A US naval blockade on ships entering Iranian ports and coastal areas has come into effect, following failed peace talks between US and Iranian negotiators over the weekend.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260413-rferl03.htm",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "Goldman Sachs warning on consumers: Gas price spike will be felt",
-      "summary": "Consumers can't outrun higher gas prices forever.",
-      "source": "Yahoo Entertainment",
-      "url": "https://finance.yahoo.com/news/goldman-sachs-warning-on-consumers-gas-price-spike-will-be-felt-145418482.html",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T14:54:18Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "Current price of oil as of April 13, 2026",
-      "summary": "When oil prices change, it affects your energy costs—and even the price of everyday items. Here’s why.",
-      "source": "Fortune",
-      "url": "https://fortune.com/article/price-of-oil-04-13-2026/",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T12:53:01Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "War in Middle East hampering Finland's economic recovery, OP forecast says",
-      "summary": "OP Pohjola anticipates a slow but gradual recovery for the Finnish economy, although the war could hinder progress.",
-      "source": "YLE News",
-      "url": "https://yle.fi/a/74-20220256",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T10:21:45Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T15:57:52.766Z",
-      "run_id": "2026-04-14T15:57"
-    },
-    {
-      "headline": "WATCH: Trump says he doesn't owe Pope Leo an apology after attacking him for comments on Iran",
-      "summary": "President Donald Trump refused to apologize to Pope Leo XIV on Monday after criticizing the pontiff for his opposition to the war in Iran — and he sought to explain away a now-deleted social media post depicting himself as Jesus by saying he had thought the i…",
-      "source": "PBS",
-      "url": "https://www.pbs.org/newshour/politics/watch-trump-says-he-doesnt-owe-pope-leo-an-apology-after-attacking-him-for-comments-on-iran",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T20:08:34Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T21:09:22.589Z",
-      "run_id": "2026-04-14T21:09"
-    },
-    {
-      "headline": "Netanyahu hails blow dealt to Iran as Israel commemorates Holocaust",
-      "summary": "The observance, held each year in April or May according to the Hebrew calendar, is separate from International Holocaust Remembrance Day on January 27.\nThe post Netanyahu hails blow dealt to Iran as Israel commemorates Holocaust appeared first on Vanguard Ne…",
-      "source": "Vanguard",
-      "url": "https://www.vanguardngr.com/2026/04/netanyahu-hails-blow-dealt-to-iran-as-israel-commemorates-holocaust/",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T19:31:46Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T21:09:22.589Z",
-      "run_id": "2026-04-14T21:09"
-    },
-    {
-      "headline": "The Crisis In The Strait Of Hormuz Is The Greatest Threat To The Global Economy In My Entire Lifetime",
-      "summary": "Nobody was ready for a scenario in which the Strait of Hormuz is blocked for an indefinite period of time. The Iranians think that they will eventually get what they want by holding commercial traffic through the Strait of Hormuz hostage and causing as much p…",
-      "source": "Theeconomiccollapseblog.com",
-      "url": "http://theeconomiccollapseblog.com/the-crisis-in-the-strait-of-hormuz-is-the-greatest-threat-to-the-global-economy-in-my-entire-lifetime/",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T20:23:17Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T21:09:22.589Z",
-      "run_id": "2026-04-14T21:09"
-    },
-    {
-      "headline": "What’s happening with Brent crude and African crude prices, and why physical oil hits $150 as Europe pays record premiums amid Strait of Hormuz disruption and global supply shock fears",
-      "summary": "Brent crude and WTI oil prices are under sharp focus as physical crude for Europe has surged near $150 a barrel, based on LSEG data. This gap between futures and real oil signals a live supply crunch. The Strait of Hormuz disruption has tightened global flows…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/us/whats-happening-with-brent-crude-and-african-crude-prices-and-why-physical-oil-hits-150-as-europe-pays-record-premiums-amid-strait-of-hormuz-disruption-and-global-supply-shock-fears/articleshow/130243265.cms",
-      "bloc": "regional",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T19:20:44Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T21:09:22.589Z",
-      "run_id": "2026-04-14T21:09"
-    },
-    {
-      "headline": "Iran threatens to retaliate against Gulf ports for US blockade",
-      "summary": "The United States military will blockade ships leaving Iran's ports starting Monday. Iran has threatened retaliation against Gulf neighbors. Oil prices have jumped significantly as the Strait of Hormuz remains closed. Talks to end the conflict have broken dow…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/defence/iran-threatens-to-retaliate-against-gulf-ports-for-us-blockade/articleshow/130242316.cms",
-      "bloc": "regional",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T16:47:02Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T21:09:22.589Z",
-      "run_id": "2026-04-14T21:09"
-    },
-    {
-      "headline": "Trump's naval blockade raises economic pressure on Iran",
-      "summary": "A US naval blockade will cut off Iran's main source of hard currency by halting most of its oil exports. Will Donald Trump's pressure force Tehran back to negotiations or widen the conflict? How will Trump's blockade of Iranian oil work?\n\nAfter US-Iran peace …",
-      "source": "DW (English)",
-      "url": "https://www.dw.com/en/trumps-naval-blockade-raises-economic-pressure-on-iran/a-76760110",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T16:31:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-14T21:09:22.589Z",
-      "run_id": "2026-04-14T21:09"
-    },
     {
       "headline": "Lebanon, Israel to meet for tough talks in Washington",
       "summary": "Lebanese and Israeli representatives are scheduled to meet in Washington Tuesday for U.S.-mediated talks on ending the war in Lebanon, but the prospects of an agreement appear slim.",
@@ -851,34 +95,6 @@
       "bloc": "western",
       "date": "2026-04-14",
       "datetime": "2026-04-14T00:40:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-15T06:22:11.143Z",
-      "run_id": "2026-04-15T06:22"
-    },
-    {
-      "headline": "Strait of Hormuz blockade: the complex regional realities the US ignores at its peril",
-      "summary": "The pivotal waterway is much more than a global economic choke point. It is a politically and culturally dynamic region with its own dangerous undercurrents.",
-      "source": "The Conversation Africa",
-      "url": "https://theconversation.com/strait-of-hormuz-blockade-the-complex-regional-realities-the-us-ignores-at-its-peril-280427",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T23:53:12Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -1026,32 +242,6 @@
       ],
       "watch_terms": [
         "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi",
-      "first_seen": "2026-04-15T06:22:11.143Z",
-      "run_id": "2026-04-15T06:22"
-    },
-    {
-      "headline": "Iran war diverts U.S. military and attention from Asia ahead of Trump's summit with China's leader",
-      "summary": "In 2011, President Barack Obama declared it was time for America to leave behind the wars in Iraq and Afghanistan and “pivot” to Asia to counter the rise of China. Fifteen years later, the U.S. finds itself still at war in the Middle East and has pulled milit…",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/features/opinions/iran-war-diverts-us-military-and-attention-from-asia-ahead-of-trump%27s-summit-with-china%27s-leader",
-      "bloc": "western",
-      "date": "2026-04-13",
-      "datetime": "2026-04-13T21:37:55Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
       ],
       "dimensions": [
         "survival",
@@ -23873,7 +23063,147 @@
       "_from": "newsapi",
       "first_seen": "2026-05-13T20:00:47.215Z",
       "run_id": "2026-05-13T20:00"
+    },
+    {
+      "headline": "Saudi Arabia reportedly carried out secret strikes on Iran during West Asia war",
+      "summary": "Saudi Arabia reportedly carried out covert retaliatory strikes on Iran during the West Asia conflict before both sides moved to de-escalate tensions.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/saudi-arabia-reportedly-carried-out-secret-strikes-on-iran-during-west-asia-war/article70972399.ece",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T01:41:29Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T03:45:41.187Z",
+      "run_id": "2026-05-14T03:45"
+    },
+    {
+      "headline": "Why Is It So Difficult for Iran To Reach an Agreement With the United States?",
+      "summary": "The collapse of the Islamabad negotiations between Iran and United States signified an unbridgeable rift, not only between the negotiating parties, but also between two worldviews on resolving conflicts. The last two rounds of negotiations in May and June 202…",
+      "source": "Antiwar.com",
+      "url": "https://original.antiwar.com/amirhassan_boozari/2026/05/12/why-is-it-so-difficult-for-iran-to-reach-an-agreement-with-the-united-states/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T00:00:33Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T03:45:41.187Z",
+      "run_id": "2026-05-14T03:45"
+    },
+    {
+      "headline": "Hezbollah leader urges Lebanon to quit direct talks with Israel",
+      "summary": "The leader of Lebanon’s militant Hezbollah group called on the government Tuesday to withdraw from direct talks with Israel, calling them a concession and urging “indirect negotiations.” Lebanon and Israel are scheduled to hold two days of talks in Washington…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/hezbollah-leader-urges-lebanon-to-quit-direct-israel-talks",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T21:38:17Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T03:45:41.187Z",
+      "run_id": "2026-05-14T03:45"
+    },
+    {
+      "headline": "Iran says Hormuz control to bring significant revenues",
+      "summary": "Iran's military spokesman has said that Tehran's control over the Strait of Hormuz could generate \"significant\" economic revenue and strengthen the country's international position.",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/world/2026/0513/1573069-middle-east-iran-us/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T03:34:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T03:45:41.187Z",
+      "run_id": "2026-05-14T03:45"
+    },
+    {
+      "headline": "Vietnam oil firm urges US Navy to allow tanker through Hormuz blockade",
+      "summary": "The ongoing blockade underscores geopolitical tensions, impacting global oil trade and highlighting the strategic importance of the Strait of Hormuz.\nThe post Vietnam oil firm urges US Navy to allow tanker through Hormuz blockade appeared first on Crypto Brie…",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/vietnam-oil-firm-urges-us-navy-to-allow-tanker-through-hormuz-blockade/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T00:38:46Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-14T03:45:41.187Z",
+      "run_id": "2026-05-14T03:45"
     }
   ],
-  "total_items_ever": 1324
+  "total_items_ever": 1329
 }

@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-13T20:01:52.359Z",
+  "ts": "2026-05-14T03:46:46.365Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -8,19 +8,45 @@
     "claude": true
   },
   "live_variables": {
-    "oilPrice": 118,
-    "oilStress": 81,
-    "updatedAt": "2026-05-13T20:01:52.359Z"
+    "oilPrice": 106,
+    "oilStress": 62,
+    "updatedAt": "2026-05-14T03:46:46.365Z"
   },
   "items": [
     {
-      "headline": "Iran war hits home as gasoline prices fuel significant U.S. inflation jump",
-      "summary": "The Labor Department's consumer price index rose 3.8% from April 2025 and up from a 3.3% year-over-year gain in March.",
-      "source": "PBS",
-      "url": "https://www.pbs.org/newshour/economy/iran-war-hits-home-as-gasoline-prices-fuel-significant-u-s-inflation-jump",
+      "headline": "Saudi Arabia reportedly carried out secret strikes on Iran during West Asia war",
+      "summary": "Saudi Arabia reportedly carried out covert retaliatory strikes on Iran during the West Asia conflict before both sides moved to de-escalate tensions.",
+      "source": "BusinessLine",
+      "url": "https://www.thehindubusinessline.com/news/world/saudi-arabia-reportedly-carried-out-secret-strikes-on-iran-during-west-asia-war/article70972399.ece",
       "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T16:46:43Z",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T01:41:29Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Why Is It So Difficult for Iran To Reach an Agreement With the United States?",
+      "summary": "The collapse of the Islamabad negotiations between Iran and United States signified an unbridgeable rift, not only between the negotiating parties, but also between two worldviews on resolving conflicts. The last two rounds of negotiations in May and June 202…",
+      "source": "Antiwar.com",
+      "url": "https://original.antiwar.com/amirhassan_boozari/2026/05/12/why-is-it-so-difficult-for-iran-to-reach-an-agreement-with-the-united-states/",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T00:00:33Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +66,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Oil Jumps As Trump Says Mulling Restart Of Project Freedom, Which Could Mean New Hormuz Clashes With Iran",
-      "summary": "Trump mulls restarting Project Freedom in Hormuz and says forcibly retrieving 'nuclear dust' is still on the table, oil jumps on the headline.",
-      "source": "Shtfplan.com",
-      "url": "https://www.shtfplan.com/war/oil-jumps-as-trump-says-mulling-restart-of-project-freedom-which-could-mean-new-hormuz-clashes-with-iran",
+      "headline": "Hezbollah leader urges Lebanon to quit direct talks with Israel",
+      "summary": "The leader of Lebanon’s militant Hezbollah group called on the government Tuesday to withdraw from direct talks with Israel, calling them a concession and urging “indirect negotiations.” Lebanon and Israel are scheduled to hold two days of talks in Washington…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/hezbollah-leader-urges-lebanon-to-quit-direct-israel-talks",
       "bloc": "western",
       "date": "2026-05-12",
-      "datetime": "2026-05-12T12:30:19Z",
+      "datetime": "2026-05-12T21:38:17Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -66,79 +92,53 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Pakistan scrambles to salvage US-Iran diplomacy as ceasefire faces collapse",
-      "summary": "Pakistan rejects allegations of aiding Iran militarily while Trump says truce on 'life support'.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/5/12/pakistan-scrambles-to-salvage-us-iran-diplomacy-as-ceasefire-faces-collapse",
-      "bloc": "regional",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T12:17:08Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US envoy admits Israel secretly sent Iron Dome to UAE during war on Iran",
-      "summary": "Israel secretly deployed Iron Dome missile-defense batteries and troops to the United Arab Emirates during the war against Iran, says the US ambassador to Israel, revealing deepening military cooperation between the occupying regime and the monarchy.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260512-presstv01.htm",
+      "headline": "Iran says Hormuz control to bring significant revenues",
+      "summary": "Iran's military spokesman has said that Tehran's control over the Strait of Hormuz could generate \"significant\" economic revenue and strengthen the country's international position.",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/world/2026/0513/1573069-middle-east-iran-us/",
       "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T12:00:00Z",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T03:34:00Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "May 12: Iran's strategic edge widens as top officials warn US against new military adventurism",
-      "summary": "Iran's strategic upper hand is becoming increasingly visible, as the United States finds itself in a ring of fire with no viable options or leverage to advance its agenda.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260512-presstv06.htm",
+      "headline": "Vietnam oil firm urges US Navy to allow tanker through Hormuz blockade",
+      "summary": "The ongoing blockade underscores geopolitical tensions, impacting global oil trade and highlighting the strategic importance of the Strait of Hormuz.\nThe post Vietnam oil firm urges US Navy to allow tanker through Hormuz blockade appeared first on Crypto Brie…",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/vietnam-oil-firm-urges-us-navy-to-allow-tanker-through-hormuz-blockade/",
       "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T12:00:00Z",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T00:38:46Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -170,6 +170,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Oil Jumps As Trump Says Mulling Restart Of Project Freedom, Which Could Mean New Hormuz Clashes With Iran",
+      "summary": "Trump mulls restarting Project Freedom in Hormuz and says forcibly retrieving 'nuclear dust' is still on the table, oil jumps on the headline.",
+      "source": "Shtfplan.com",
+      "url": "https://www.shtfplan.com/war/oil-jumps-as-trump-says-mulling-restart-of-project-freedom-which-could-mean-new-hormuz-clashes-with-iran",
+      "bloc": "western",
+      "date": "2026-05-12",
+      "datetime": "2026-05-12T12:30:19Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Second Qatari LNG Tanker Crosses Strait of Hormuz",
       "summary": "A second Qatari liquefied natural gas (LNG) tanker has successfully crossed the Strait of Hormuz under a special arrangement involving Iran and Pakistan, highlighting efforts to maintain energy shipments despite regional conflict risks.",
       "source": "Globalsecurity.org",
@@ -177,58 +203,6 @@
       "bloc": "western",
       "date": "2026-05-12",
       "datetime": "2026-05-12T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump Says USA-Iran Ceasefire is on 'Massive Life Support'",
-      "summary": "'I would say the ceasefire is on massive life support where the doctor walks in and says, 'sir, your loved one has approximately a one percent chance of living',' U.S. President Donald Trump said.",
-      "source": "Rigzone",
-      "url": "https://www.rigzone.com/news/trump_says_usairan_ceasefire_is_on_massive_life_support-12-may-2026-183665-article/",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T10:08:53Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US releasing 53mn barrels from strategic oil reserve to mitigate fallout from war on Iran",
-      "summary": "The United States is releasing 53.3 million barrels of crude oil from its Strategic Petroleum Reserve to energy companies in an attempt to calm global markets shaken by the war against Iran and the disruption of shipping through the Strait of Hormuz.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260512-presstv02.htm",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T10:08:51Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -292,80 +266,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran Has All the Hallmarks of a Forever War",
-      "summary": "There is a way out of this mess—but not right away.",
-      "source": "Foreign Policy",
-      "url": "http://foreignpolicy.com/2026/05/06/iran-hallmarks-forever-war/",
-      "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T05:51:33Z",
-      "leaders": [
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "Trump Iran war"
-      ],
-      "dimensions": [
-        "accountability",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "India–Pakistan May 2025 War Shows Limitations of Air Power",
-      "summary": "On the night of May 6 and 7, 2025, the Indian Air Force (IAF) faced an unprecedented setback: The Pakistan Air Force (PAF) reportedly downed seven Indian aircraft during a high-intensity aerial engagement. This included the state-of-the-art Rafale fighters, r…",
-      "source": "Fair Observer",
-      "url": "https://www.fairobserver.com/region/central_south_asia/india-pakistan-may-2025-war-shows-limitations-of-air-power/",
-      "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T14:09:52Z",
-      "leaders": [
-        "General Asim Munir",
-        "Narendra Modi"
-      ],
-      "watch_terms": [
-        "Pakistan India LoC"
-      ],
-      "dimensions": [
-        "impulsivity",
-        "survival"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "May 2025 Air War: From Assumed Superiority to Operational Shock",
-      "summary": "On the night of May 6 and 7, 2025, the Indian Air Force (IAF) faced an unprecedented setback: The Pakistan Air Force (PAF) downed seven Indian aircraft during a high-intensity aerial engagement. This included the state-of-the-art Rafale fighters, regarded as …",
-      "source": "Fair Observer",
-      "url": "https://www.fairobserver.com/region/central_south_asia/may-2025-air-war-from-assumed-superiority-to-operational-shock/",
-      "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T14:09:52Z",
-      "leaders": [
-        "General Asim Munir",
-        "Narendra Modi"
-      ],
-      "watch_terms": [
-        "Pakistan India LoC"
-      ],
-      "dimensions": [
-        "impulsivity",
-        "survival"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -618,31 +518,6 @@
       "variable_key": "nuclearSignalling",
       "event_type": "static_variable",
       "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "US Navy Escorts More Tankers Through Strait of Hormuz as Tensions Ease Slightly",
-      "summary": "DUBAI, United Arab Emirates — U.S. naval forces successfully escorted three additional commercial tankers through the Strait of Hormuz on Wednesday, marking the most significant transit under Project Freedom since the operation began last week, as diplomatic …",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/us-navy-escorts-more-tankers-through-strait-hormuz-tensions-ease-slightly-1868300",
-      "bloc": "western",
-      "date": "2026-05-06",
-      "datetime": "2026-05-06T13:09:54Z",
-      "leaders": [
-        "Donald J. Trump",
-        "Mojtaba Khamenei"
-      ],
-      "watch_terms": [
-        "Iran US diplomacy"
-      ],
-      "dimensions": [
-        "values",
-        "survival"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
