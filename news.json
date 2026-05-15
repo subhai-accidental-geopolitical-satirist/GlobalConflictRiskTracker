@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-14T19:52:19.142Z",
+  "ts": "2026-05-15T03:51:42.608Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,17 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-14T19:52:19.142Z"
+    "updatedAt": "2026-05-15T03:51:42.608Z"
   },
   "items": [
     {
-      "headline": "Amid US-Israel war on Iran, Arizona awaits Iranian team before World Cup",
-      "summary": "Sports facility and football fans in the city of Tucson want Iran's players to feel 'safe and welcome'.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/sports/2026/5/13/amid-us-israel-war-on-iran-arizona-awaits-iranian-team-before-world-cup",
-      "bloc": "regional",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T14:05:49Z",
+      "headline": "The Iran Stalemate",
+      "summary": "Wars always take much less time to start than you think they will, and last much longer than you thought they could.",
+      "source": "Substack.com",
+      "url": "https://niallferguson.substack.com/p/the-iran-stalemate",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T00:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -40,13 +40,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Mossad chief made secret visits to UAE to coordinate attacks on Iran during war: Report",
-      "summary": "Israel's Mossad chief secretly travelled to the United Arab Emirates at least twice in recent months to coordinate military attacks against Iran, a new report reveals.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260513-presstv02.htm",
+      "headline": "Pope Leo's Bizarre Move Sparks Global Fury",
+      "summary": "Amid an active war, Pope Leo XIV has bestowed the Vatican's highest diplomatic honor on the Islamic Republic's envoy. Critics say it validates a regime that murders Christians, kills protesters by the thousands, and fires missiles at Western allies. In a move…",
+      "source": "Freerepublic.com",
+      "url": "https://freerepublic.com/focus/f-news/4379110/posts",
       "bloc": "western",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T12:00:00Z",
+      "datetime": "2026-05-13T20:30:22Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -61,18 +61,18 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
-      "escalation": 3,
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
     {
-      "headline": "Netanyahu reveals he 'secretly' visited UAE during war on Iran",
-      "summary": "Israeli prime minister Benjamin Netanyahu reveals \"secretly\" visiting the United Arab Emirates during the latest round of unprovoked US-Israeli aggression against Iran.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/israel/2026/05/israel-260513-presstv01.htm",
+      "headline": "Iran War Tanks Americans’ View Of Israel As An Ally",
+      "summary": "New polling data suggests that a majority of American voters now believe Israel is not an ally. Only 33% of American voters believe Israel is an ally, a Napolitan News Service survey states. One in five American voters also believe that Israel is an enemy, ac…",
+      "source": "The Daily Caller",
+      "url": "https://dailycaller.com/2026/05/13/iran-war-israel-americans-ally/",
       "bloc": "western",
       "date": "2026-05-13",
-      "datetime": "2026-05-13T12:00:00Z",
+      "datetime": "2026-05-13T19:54:58Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -87,6 +87,32 @@
       ],
       "variable_key": "diplomaticChannels",
       "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran war, shifting alliances loom over Trump's China visit",
+      "summary": "The U.S.-Israeli war in Iran loomed over U.S. President Donald Trump's visit to China on Wednesday, as signs emerged that the conflict is shifting alliances across the Middle East. Trump arrived in Beijing ‌on Wednesday ahead of talks with President Xi Jinpin…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/iran-war-looms-over-trump%27s-china-visit-shifts-alliances1",
+      "bloc": "western",
+      "date": "2026-05-13",
+      "datetime": "2026-05-13T21:47:40Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -166,58 +192,6 @@
       "variable_key": null,
       "event_type": "leader_watch_term",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Chinese Supertanker Attempts Hormuz Transit",
-      "summary": "A Chinese supertanker carrying nearly 2 million barrels of Iraqi crude oil was attempting to pass through the Strait of Hormuz on May 13, according to maritime tracking data from the London Stock Exchange Group (LSEG) and the analytics firm Kpler, .",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260513-rferl04.htm",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T12:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran War: Iran Escalates With Threat of Even Higher Level of Enrichment, Assertion of Larger Gulf Control Area as US Revealed to Have Lost 39 Planes and Press Gives Ever More Coverage to Economic Damage; Israel Political Meltdown Could Stymie Further Attacks; Trump More Visibly Losing His Mind",
-      "summary": "Today's Iran war watch: Iran ups demands as more evidence of US weakness and Trump insanity emerges, and the economy is collateral damage.",
-      "source": "Nakedcapitalism.com",
-      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-iran-escalates-with-threat-of-even-higher-level-of-enrichment-assertion-of-larger-gulf-control-area-as-us-revealed-to-have-lost-39-planes-and-press-gives-ever-more-coverage-to-economic-dama.html",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T10:57:33Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -594,6 +568,31 @@
       "_from": "newsapi"
     },
     {
+      "headline": "A proper Trump-Xi summit would deal with nukes",
+      "summary": "Nuclear weapons may not dominate discussions between US President Donald Trump and Chinese President Xi Jinping this week, but analysts argue the issue is becoming increasingly urgent as China rapidly expands and modernises its atomic arsenal.",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/a-proper-trump-xi-summit-would-deal-with-nukes/articleshow/131081416.cms",
+      "bloc": "regional",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T03:19:38Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "News24 | Putin hails test-firing of nuclear-capable ‘Satan II’ intercontinental ballistic missile",
       "summary": "Russia has test-fired a new intercontinental ballistic missile, with President Vladimir Putin describing the nuclear-capable Sarmat weapon as the world’s “most powerful” missile.",
       "source": "News24",
@@ -669,31 +668,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Book Talk | Security Through Co-operation: Attempts At US-Russian Accord After The Cold War",
-      "summary": "Hoover Institution fellow Rose Gottemoeller explores the themes in her new book, Security Through Cooperation, on May 21 from 1-2PM EDT.",
-      "source": "Quincyinst.org",
-      "url": "https://quincyinst.org/events/book-talk-security-through-co-operation-attempts-at-us-russian-accord-after-the-cold-war/",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T00:00:00Z",
-      "leaders": [
-        "Vladimir Putin",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "arms control New"
-      ],
-      "dimensions": [
-        "accountability",
-        "values"
-      ],
-      "variable_key": "armsControlArchitecture",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "Ukraine’s Drone War Is Reaching Deep Into Russia’s Oil Heartland",
       "summary": "Russia’s Leningrad Oblast lies some 600 kilometers from the closest corner of Ukraine. But on April 15, its governor declared it a “frontline” region. Part of his explanation: From January through March, a total of 243 Ukrainian drones were shot down over the…",
       "source": "OilPrice.com",
@@ -701,29 +675,6 @@
       "bloc": "western",
       "date": "2026-05-10",
       "datetime": "2026-05-10T17:00:00Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Drone Strikes, Deep Strikes: How Ukraine's Long-Range Air Attacks Are Hurting Russia",
-      "summary": "Russia's Leningrad Oblast lies some 600 kilometers from the closest corner of Ukraine.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/05/ukraine-260507-rferl03.htm",
-      "bloc": "western",
-      "date": "2026-05-07",
-      "datetime": "2026-05-07T12:00:00Z",
       "leaders": [],
       "watch_terms": [
         "oil refinery port"
