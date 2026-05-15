@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-15T03:51:42.608Z",
+  "ts": "2026-05-15T08:55:05.338Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,165 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-15T03:51:42.608Z"
+    "updatedAt": "2026-05-15T08:55:05.338Z"
   },
   "items": [
+    {
+      "headline": "News24 | Lebanon, Israel meet in the US for new ceasefire talks as expiry deadline nears",
+      "summary": "Lebanon and Israel are to hold new peace talks in Washington starting, as their latest ceasefire - considered to still be in place despite hundreds of deaths in Israeli strikes - nears its end.",
+      "source": "News24",
+      "url": "https://www.news24.com/world/lebanon-israel-meet-in-the-us-for-new-ceasefire-talks-as-expiry-deadline-nears-20260514-0272",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T07:10:10Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran war day 76: Vance says progress made in talks; Israel pounds Lebanon",
+      "summary": "US Vice President Vance says progress is being made in talks with Iran as President Trump begins his trip to China.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/14/iran-war-day-76-vance-says-progress-made-in-talks-israel-pounds-lebanon",
+      "bloc": "regional",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T07:00:12Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Lebanon and Israel to hold new talks in US later as ceasefire nears end",
+      "summary": "On the eve of the negotiations, Lebanon’s health ministry said 22 people, including eight children, were killed as Israel intensified airstrikes.",
+      "source": "TheJournal.ie",
+      "url": "https://www.thejournal.ie/lebanon-and-israel-to-hold-new-talks-in-us-as-ceasefire-nears-end-7039101-May2026/",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T06:36:52Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Lebanon, Israel to hold new talks in US as ceasefire nears end",
+      "summary": "Lebanon and Israel are to hold new peace talks in Washington starting Thursday, as their latest ceasefire — considered to still be in place despite hundreds of deaths in Israeli strikes — nears its end.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/lebanon-israel-to-hold-new-talks-in-us-as-ceasefire-nears-end-222121",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T06:02:37Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "UAE Joined U.S. and Israel in Carrying Out Military Strikes on Iran, Report Says",
+      "summary": "The United Arab Emirates (UAE) launched military strikes on Iran, including an attack on a refinery on Lavan Island in early April, according to a Wall Street Journal (WSJ) report cited by Middle East Eye and the Antiwar.com blog. The UAE has not publicly ack…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-14-uae-joined-us-israel-strikes-iran-report.html",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Iran war: Trump discusses conflict with XI Jinping as peace talks stall",
+      "summary": "The US-Israeli war with Iran looms large over US president’s visit to China",
+      "source": "The Irish Times",
+      "url": "https://www.irishtimes.com/world/middle-east/2026/05/14/iran-war-trump-discusses-conflict-with-xi-jinping-as-peace-talks-stall/",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T07:25:56Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "The Iran Stalemate",
       "summary": "Wars always take much less time to start than you think they will, and last much longer than you thought they could.",
@@ -23,70 +179,18 @@
       "datetime": "2026-05-14T00:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Pope Leo's Bizarre Move Sparks Global Fury",
-      "summary": "Amid an active war, Pope Leo XIV has bestowed the Vatican's highest diplomatic honor on the Islamic Republic's envoy. Critics say it validates a regime that murders Christians, kills protesters by the thousands, and fires missiles at Western allies. In a move…",
-      "source": "Freerepublic.com",
-      "url": "https://freerepublic.com/focus/f-news/4379110/posts",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T20:30:22Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran War Tanks Americans’ View Of Israel As An Ally",
-      "summary": "New polling data suggests that a majority of American voters now believe Israel is not an ally. Only 33% of American voters believe Israel is an ally, a Napolitan News Service survey states. One in five American voters also believe that Israel is an enemy, ac…",
-      "source": "The Daily Caller",
-      "url": "https://dailycaller.com/2026/05/13/iran-war-israel-americans-ally/",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T19:54:58Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -151,32 +255,6 @@
       "bloc": "western",
       "date": "2026-05-13",
       "datetime": "2026-05-13T14:06:51Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump says no need for China's help on Iran as shippers seek passage through Hormuz",
-      "summary": "President Donald Trump states no help is needed from China to end the Iran war. He believes the US will win the conflict. Iran is firming its control over the Strait of Hormuz. US and Iran demands to end the war remain far apart. A Chinese supertanker is atte…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-says-no-need-for-chinas-help-on-iran-as-shippers-seek-passage-through-hormuz/articleshow/131066397.cms",
-      "bloc": "regional",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T12:50:56Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -317,6 +395,30 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Ship is seized off UAE by 'unauthorised personnel' and taken to Iran",
+      "summary": "UKMTO did not name the ship and said it is investigating. There were no immediate claims of responsibility for the seizure.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15817255/Ship-seized-UAE-unauthorised-personnel-taken-Iran.html",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T08:46:45Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Trump-Xi summit: China’s help in Iran may require US concessions",
       "summary": "Analysts say China is likely to ask for change in US policy towards Taiwan if it were to pressure Iran reopen Hormuz.",
       "source": "Al Jazeera English",
@@ -396,30 +498,6 @@
       "bloc": "western",
       "date": "2026-05-13",
       "datetime": "2026-05-13T09:17:22Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "The agenda at the Xi–Trump meeting: The semi-closed Strait of Hormuz, pressure on the White House, and China as the “responsible player”",
-      "summary": "“We cannot allow Iran to acquire nuclear weapons,” Trump said. As the ceasefire is being violated in the Straits, the POTUS is rushing to close the front, fearing he may appear weakened\nThe post The agenda at the Xi–Trump meeting: The semi-closed Strait of Ho…",
-      "source": "Protothema.gr",
-      "url": "https://en.protothema.gr/2026/05/13/the-agenda-at-the-xi-trump-meeting-the-semi-closed-strait-of-hormuz-pressure-on-the-white-house-and-china-as-the-responsible-player/",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T07:51:00Z",
       "leaders": [
         "Xi Jinping"
       ],
