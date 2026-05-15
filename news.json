@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-15T14:17:36.248Z",
+  "ts": "2026-05-15T19:45:03.864Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,35 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-15T14:17:36.248Z"
+    "updatedAt": "2026-05-15T19:45:03.864Z"
   },
   "items": [
+    {
+      "headline": "Israel’s Long War on Lebanon : A Joint History of the Zionist and Lebanese Entities",
+      "summary": "Reviewing a century of colonial violence in Palestine and Lebanon illuminates the current Israeli occupation and what it would take to resist it.",
+      "source": "Crimethinc.com",
+      "url": "https://crimethinc.com/2026/05/14/israels-long-war-on-lebanon-a-joint-history-of-the-zionist-and-lebanese-entities",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T18:49:32Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Chris Rabb Will Be a Transformative Member of the House",
       "summary": "John Nichols\n\n\n\nA candidate from Philadelphia, running in America’s 250th year, has a plan to restore checks and balances on kingly presidents and renew the constitutional authority of Congress.\r\n\n\r\n\n\nThe post Chris Rabb Will Be a Transformative Member of the…",
@@ -118,27 +144,53 @@
       "_from": "newsapi"
     },
     {
-      "headline": "US Efforts to End Iran War Stumble as Ship Seized Near UAE",
-      "summary": "US efforts to end the war with Iran were dealt a setback after a commercial vessel was apparently seized by unauthorized personnel near the United Arab Emirates, increasing uncertainty over control of the critical Strait of Hormuz. The ship, whose …",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/05/14/869787.htm",
+      "headline": "Chinese Tankers Resume Hormuz Transit Under Iran Coordination",
+      "summary": "During President Trump's ongoing state visit to China, he and President Xi Jinping agreed that the ‌Strait of ‌Hormuz must be open for ‌the free flow of energy. They along with their senior officials have expressed agreement that no country can be allowed to …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Chinese-Tankers-Resume-Hormuz-Transit-Under-Iran-Coordination.html",
       "bloc": "western",
       "date": "2026-05-14",
-      "datetime": "2026-05-14T11:00:06Z",
+      "datetime": "2026-05-14T19:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump, Xi discuss Strait of Hormuz as Chinese vessels transit key waterway",
+      "summary": "White House says the two leaders agree that the strait 'must remain open to support the free flow of energy'.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/14/trump-xi-discuss-strait-of-hormuz-as-chinese-vessels-transit-key-waterway",
+      "bloc": "regional",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T14:23:21Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -177,32 +229,6 @@
       "bloc": "western",
       "date": "2026-05-14",
       "datetime": "2026-05-14T11:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran War: Tanker War Lite as Trump Comes Even More Unglued and Real Economy Damage Becomes More Visible",
-      "summary": "Today's Iran war update: The contest over control of the Strait of Hormuz continues as Congresscritters and the press tally war costs.",
-      "source": "Nakedcapitalism.com",
-      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-tanker-war-lite-as-trump-comes-even-more-unglued-and-real-economy-damage-becomes-more-visible.html",
-      "bloc": "western",
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T10:54:43Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -343,6 +369,30 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Amid Trump-Xi Meeting, US Coalition Urges Congress to ‘Prioritize Peace’ and End ‘Confrontational Posture’ With China",
+      "summary": "As US President Donald Trump meets with Chinese President Xi Jinping, a coalition of anti-war groups is calling on Congress to pressure the administration to \"prioritize peace, cooperation, and stability\" at a time when the US-China relationship is increasing…",
+      "source": "Common Dreams",
+      "url": "https://www.commondreams.org/news/anti-war-groups-china-summit",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T16:33:15Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "America holds the advantage as Trump meets Xi in high-stakes summit",
       "summary": "President Donald Trump meets Chinese President Xi Jinping in Beijing backed by military and trade leverage built over 16 months of geopolitical maneuvering.",
       "source": "Fox News",
@@ -422,30 +472,6 @@
       "bloc": "western",
       "date": "2026-05-14",
       "datetime": "2026-05-14T08:46:45Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump-Xi summit: China’s help in Iran may require US concessions",
-      "summary": "Analysts say China is likely to ask for change in US policy towards Taiwan if it were to pressure Iran reopen Hormuz.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/5/13/trump-xi-summit-chinas-help-in-iran-may-require-us-concessions",
-      "bloc": "regional",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T17:27:09Z",
       "leaders": [
         "Xi Jinping"
       ],

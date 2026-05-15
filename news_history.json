@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-15T14:16:31.114Z",
+  "updated": "2026-05-15T19:43:58.731Z",
   "retention_days": 30,
   "items": [
     {
@@ -23712,7 +23712,117 @@
       "_from": "newsapi",
       "first_seen": "2026-05-15T14:16:31.114Z",
       "run_id": "2026-05-15T14:16"
+    },
+    {
+      "headline": "Israel’s Long War on Lebanon : A Joint History of the Zionist and Lebanese Entities",
+      "summary": "Reviewing a century of colonial violence in Palestine and Lebanon illuminates the current Israeli occupation and what it would take to resist it.",
+      "source": "Crimethinc.com",
+      "url": "https://crimethinc.com/2026/05/14/israels-long-war-on-lebanon-a-joint-history-of-the-zionist-and-lebanese-entities",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T18:49:32Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-15T19:43:58.731Z",
+      "run_id": "2026-05-15T19:43"
+    },
+    {
+      "headline": "Chinese Tankers Resume Hormuz Transit Under Iran Coordination",
+      "summary": "During President Trump's ongoing state visit to China, he and President Xi Jinping agreed that the ‌Strait of ‌Hormuz must be open for ‌the free flow of energy. They along with their senior officials have expressed agreement that no country can be allowed to …",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Chinese-Tankers-Resume-Hormuz-Transit-Under-Iran-Coordination.html",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T19:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-15T19:43:58.731Z",
+      "run_id": "2026-05-15T19:43"
+    },
+    {
+      "headline": "Trump, Xi discuss Strait of Hormuz as Chinese vessels transit key waterway",
+      "summary": "White House says the two leaders agree that the strait 'must remain open to support the free flow of energy'.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/14/trump-xi-discuss-strait-of-hormuz-as-chinese-vessels-transit-key-waterway",
+      "bloc": "regional",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T14:23:21Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-15T19:43:58.731Z",
+      "run_id": "2026-05-15T19:43"
+    },
+    {
+      "headline": "Amid Trump-Xi Meeting, US Coalition Urges Congress to ‘Prioritize Peace’ and End ‘Confrontational Posture’ With China",
+      "summary": "As US President Donald Trump meets with Chinese President Xi Jinping, a coalition of anti-war groups is calling on Congress to pressure the administration to \"prioritize peace, cooperation, and stability\" at a time when the US-China relationship is increasing…",
+      "source": "Common Dreams",
+      "url": "https://www.commondreams.org/news/anti-war-groups-china-summit",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T16:33:15Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-15T19:43:58.731Z",
+      "run_id": "2026-05-15T19:43"
     }
   ],
-  "total_items_ever": 1379
+  "total_items_ever": 1383
 }
