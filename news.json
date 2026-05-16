@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-15T19:45:03.864Z",
+  "ts": "2026-05-16T03:33:48.679Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-15T19:45:03.864Z"
+    "updatedAt": "2026-05-16T03:33:48.678Z"
   },
   "items": [
     {
@@ -144,39 +144,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Chinese Tankers Resume Hormuz Transit Under Iran Coordination",
-      "summary": "During President Trump's ongoing state visit to China, he and President Xi Jinping agreed that the ‌Strait of ‌Hormuz must be open for ‌the free flow of energy. They along with their senior officials have expressed agreement that no country can be allowed to …",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Chinese-Tankers-Resume-Hormuz-Transit-Under-Iran-Coordination.html",
-      "bloc": "western",
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T19:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump, Xi discuss Strait of Hormuz as Chinese vessels transit key waterway",
-      "summary": "White House says the two leaders agree that the strait 'must remain open to support the free flow of energy'.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/5/14/trump-xi-discuss-strait-of-hormuz-as-chinese-vessels-transit-key-waterway",
+      "headline": "Trump says he is losing patience with Iran after talks with China's Xi",
+      "summary": "Iran war: The U.S. paused its attacks on Iran last month but began a blockade of the country's ports. Talks aimed at ending the conflict have stalled with Iran refusing to end its nuclear program or relinquish its ‌stockpile of enriched uranium.",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-says-he-is-losing-patience-with-iran-after-talks-with-chinas-xi/articleshow/131107246.cms",
       "bloc": "regional",
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T14:23:21Z",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T03:28:11Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -196,13 +170,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Strait of Hormuz Remains Largely Closed Amid Iran Conflict as Trump-Xi Summit Eyes Resolution",
-      "summary": "The Strait of Hormuz remains closed due to Iran-US conflict, disrupting global oil supply and causing economic ripple effects worldwide.",
-      "source": "Ibtimes.com.au",
-      "url": "https://www.ibtimes.com.au/strait-hormuz-closure-global-oil-supply-disrupted-1868832",
-      "bloc": "western",
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T13:31:53Z",
+      "headline": "West Asia War: Ship reported seized off UAE as Trump discusses Iran with Xi",
+      "summary": "A ship was seized by Iranian personnel near the UAE. US President Trump and Chinese President Xi Jinping agreed on keeping the Strait of Hormuz open. An Indian cargo vessel was sunk off Oman. Iran is making deals for ships to pass through the strait. Iran's J…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/west-asia-war-ship-reported-seized-off-uae-as-trump-discusses-iran-with-xi/articleshow/131105671.cms",
+      "bloc": "regional",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T00:39:43Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -222,13 +196,13 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Empires of Flow Control",
-      "summary": "In September 1507 the Portuguese conquistador Afonso de Albuquerque sailed his small fleet to a point off the coast of Hormuz Island, in the narrow bottleneck that provides access to the Persian Gulf. Negotiations between the Portuguese and the independent Ki…",
-      "source": "The New York Review of Books",
-      "url": "https://www.nybooks.com/online/2026/05/14/empires-of-flow-control-hormuz/",
+      "headline": "Tensions flare near Strait of Hormuz as a ship is seized and another is sunk",
+      "summary": "A ship anchored off the United Arab Emirates was seized and taken toward Iran and another — a cargo ship near Oman — sank after being attacked, authorities said Thursday, as tensions escalated near the Strait of Hormuz. It wasn't immediately clear who was beh…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/ship-is-reported-seized-off-the-coast-of-the-uae-and-is-heading-toward-iran",
       "bloc": "western",
       "date": "2026-05-14",
-      "datetime": "2026-05-14T11:00:00Z",
+      "datetime": "2026-05-14T21:40:43Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -239,6 +213,82 @@
       ],
       "dimensions": [
         "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "‘A net positive’: Chinese supertanker glides through Hormuz blockade as White House touts ‘good’ talks in Beijing",
+      "summary": "The ship had been stranded for over 2 months, as the Iran war continues to strangle international shipping",
+      "source": "Wnd.com",
+      "url": "https://www.wnd.com/2026/05/net-positive-chinese-supertanker-glides-through-hormuz-blockade/",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T20:37:59Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Ship reported seized off UAE as Strait traffic increases",
+      "summary": "A ship was reported seized off the coast of the United Arab Emirates and was heading for Iranian waters today, a British navy agency said, as the US and Chinese leaders met in Beijing to discuss global problems including the Iran war.",
+      "source": "RTE",
+      "url": "https://www.rte.ie/news/world/2026/0514/1573411-iran-wrap/",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T19:47:47Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "House vote on Iran war powers resolution fails for third time",
+      "summary": "The vote on a Democratic resolution to rein in Mr. Trump's authority to strike Iran was 212-212, falling just short of a majority.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/house-iran-war-powers-resolution/",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T21:05:26Z",
+      "leaders": [
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "Trump Iran war"
+      ],
+      "dimensions": [
+        "accountability",
         "impulsivity"
       ],
       "variable_key": null,
@@ -336,31 +386,6 @@
       "dimensions": [
         "accountability",
         "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Russia downs 264 Ukrainian drones during Victory Day ceasefire, warns of retaliation",
-      "summary": "Russia intercepted 264 Ukrainian drones overnight despite declaring a 72-hour Victory Day ceasefire. Ukraine targeted 16 Russian regions, dismissing the truce as a propaganda move while damaging strategic sites. Russia threatened massive retaliation against K…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-08-russia-downs-ukrainian-drones-victory-ceasefire.html",
-      "bloc": "western",
-      "date": "2026-05-08",
-      "datetime": "2026-05-08T06:00:00Z",
-      "leaders": [
-        "Vladimir Putin"
-      ],
-      "watch_terms": [
-        "Putin Ukraine ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "narcissism"
       ],
       "variable_key": null,
       "event_type": "leader_watch_term",
@@ -489,6 +514,58 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Stock market today: Dow, S&P 500, Nasdaq sink as yields jump amid inflation jitters",
+      "summary": "Inflation worries are preying on investors as they weigh the outcomes of the Trump-Xi summit in China.",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-sink-as-yields-jump-amid-inflation-jitters-224527705.html",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T22:45:27Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Polestar says ‘pump anxiety’ has replaced range anxiety. Its balance sheet tells a more complicated story.",
+      "summary": "For years, the electric vehicle industry’s biggest problem had a name: range anxiety. Now, according to the chief executive of Polestar, the anxiety has moved to the other side of the forecourt. “People are concerned, ‘how much do I pay at the gas station?’” …",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/polestar-pump-anxiety-ev-demand-iran-oil-crisis/",
+      "bloc": "western",
+      "date": "2026-05-14",
+      "datetime": "2026-05-14T20:20:47Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000",
       "summary": "Sovereign curves are back near old stress zones while Hormuz inflation risk keeps central banks boxed in.\nThe post Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000 appeared first on CryptoSlate.",
       "source": "CryptoSlate",
@@ -541,58 +618,6 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Here's the inflation breakdown for April 2026 — in one chart",
-      "summary": "The Iran war has pushed up gasoline, groceries and other prices for consumers.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/12/inflation-breakdown-for-april-2026-cpi-chart.html",
-      "bloc": "western",
-      "date": "2026-05-12",
-      "datetime": "2026-05-12T13:44:15Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Current price of oil as of May 11, 2026",
-      "summary": "When oil prices change, it affects your energy costs—and even the price of everyday items. Here’s why.",
-      "source": "Fortune",
-      "url": "https://fortune.com/article/price-of-oil-05-11-2026/",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T12:56:38Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
       "headline": "Board Of Trade, Ahoy!",
       "summary": "In my never-ending quest to connect U.S.-China relations to the cannon of popular (and often times obscure) music, it is sometimes tough to find a song to fit my commentary.",
       "source": "Substack.com",
@@ -616,6 +641,55 @@
       "variable_key": "nuclearSignalling",
       "event_type": "static_variable",
       "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "The Strangers in the Streets: Hezbollah, the War That Made It, and the Stages of Its Unraveling",
+      "summary": "In the aftermath of the 1982 Israeli invasion of Lebanon, as West Beirut struggled not only to absorb the scale of its physical devastation but also to grasp the deeper collapse of the political order that had once given the country a semblance of coherence, …",
+      "source": "Hoover.org",
+      "url": "https://www.hoover.org/research/strangers-streets-hezbollah-war-made-it-and-stages-its-unraveling",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T00:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei"
+      ],
+      "watch_terms": [
+        "Iran IRGC regime"
+      ],
+      "dimensions": [
+        "survival",
+        "accountability"
+      ],
+      "variable_key": "iranRegimeCohesion",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "New Book Details How Washington and Moscow Forged a Framework for Security After the Cold War",
+      "summary": "A new book by Hoover Institution Research Fellow Rose Gottemoeller offers an insider’s account of how leaders in Washington and the newly democratic Russian government forged a working relationship that advanced international security and cooperation in the y…",
+      "source": "Hoover.org",
+      "url": "https://www.hoover.org/new-book-details-how-washington-and-moscow-forged-framework-security-after-cold-war",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T00:00:00Z",
+      "leaders": [
+        "Vladimir Putin",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "arms control New"
+      ],
+      "dimensions": [
+        "accountability",
+        "values"
+      ],
+      "variable_key": "armsControlArchitecture",
+      "event_type": "static_variable",
+      "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
     },
@@ -691,31 +765,6 @@
       "variable_key": "armsControlArchitecture",
       "event_type": "static_variable",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Putin hails Russia’s test launch of ‘most powerful missile in the world’",
-      "summary": "Russian leader says the nuclear-capable Sarmat missile will enter combat service at the end of the year.",
-      "source": "Al Jazeera English",
-      "url": "https://www.aljazeera.com/news/2026/5/13/putin-hails-russias-test-launch-of-most-powerful-missile-in-the-world",
-      "bloc": "regional",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T04:27:51Z",
-      "leaders": [
-        "Vladimir Putin",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "arms control New"
-      ],
-      "dimensions": [
-        "accountability",
-        "values"
-      ],
-      "variable_key": "armsControlArchitecture",
-      "event_type": "static_variable",
-      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
