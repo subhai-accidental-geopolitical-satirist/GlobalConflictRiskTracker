@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-16T13:40:41.288Z",
+  "updated": "2026-05-16T19:10:35.374Z",
   "retention_days": 30,
   "items": [
     {
@@ -23513,7 +23513,147 @@
       "_from": "newsapi",
       "first_seen": "2026-05-16T13:40:41.288Z",
       "run_id": "2026-05-16T13:40"
+    },
+    {
+      "headline": "Pakistan and the Trump-Xi Summit in Beijing",
+      "summary": "Like other Global South countries, Pakistan would like to pursue cooperation with both the US and China. Will the Beijing summit facilitate that?",
+      "source": "The Diplomat",
+      "url": "https://thediplomat.com/2026/05/pakistan-and-the-trump-xi-summit-in-beijing/",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T14:04:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T19:10:35.373Z",
+      "run_id": "2026-05-16T19:10"
+    },
+    {
+      "headline": "Show HN: Late News – stop reading 50 articles to understand one story",
+      "summary": "Coverage of escalating military conflict between the United States and Iran, including strikes, retaliations, and diplomatic developments.",
+      "source": "Latenews.press",
+      "url": "https://www.latenews.press",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T13:50:29Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T19:10:35.374Z",
+      "run_id": "2026-05-16T19:10"
+    },
+    {
+      "headline": "Tensions flare near Strait of Hormuz as one ship is seized and another is sunk",
+      "summary": "It wasn't immediately clear who was behind these incidents, but they happened as a senior Iranian official reiterated his country's claim of control over the waterway and another said it had a right to seize oil tankers connected to the U.S.",
+      "source": "PBS",
+      "url": "https://www.pbs.org/newshour/world/tensions-flare-near-strait-of-hormuz-as-one-ship-is-seized-and-another-is-sunk",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T18:31:02Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T19:10:35.374Z",
+      "run_id": "2026-05-16T19:10"
+    },
+    {
+      "headline": "Oil Tankers Transiting Strait of Hormuz Since Start of Iran War",
+      "summary": "The U.S. has maintained a blockade of Iranian ports, while Iran lifted and then reimposed its own blockade on marine traffic passing through the Strait of Hormuz, which typically handles roughly one-fifth of the world’s oil supply. Here’s a look …",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/international/2026/05/15/870091.htm",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T15:37:28Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T19:10:35.374Z",
+      "run_id": "2026-05-16T19:10"
+    },
+    {
+      "headline": "Why is US stock market falling today? Dow Jones, S&P 500 and Nasdaq crash after Trump concludes China visit - Nvidia and Amazon stocks sink amid inflation fears and Iran war uncertainty shaking Wall Street",
+      "summary": "US stock market today suffered a sharp selloff as the Dow Jones, S&P 500, and Nasdaq crashed after President Donald Trump ended his China visit without easing deeper market fears. The S&P 500 fell 0.86% to 7,436, the Nasdaq dropped 1.25%, and the Dow lost 366…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/international/us/why-is-us-stock-market-falling-today-dow-jones-sp-500-and-nasdaq-crash-after-trump-concludes-china-visit-nvidia-and-amazon-stocks-sink-amid-inflation-fears-and-iran-war-uncertainty-shaking-wall-street/articleshow/131120735.cms",
+      "bloc": "regional",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T14:46:13Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T19:10:35.374Z",
+      "run_id": "2026-05-16T19:10"
     }
   ],
-  "total_items_ever": 1402
+  "total_items_ever": 1407
 }
