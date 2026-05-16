@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-16T08:09:46.604Z",
+  "updated": "2026-05-16T13:40:41.288Z",
   "retention_days": 30,
   "items": [
     {
@@ -23401,7 +23401,119 @@
       "_from": "newsapi",
       "first_seen": "2026-05-16T08:09:46.604Z",
       "run_id": "2026-05-16T08:09"
+    },
+    {
+      "headline": "61% of Americans See Trump’s Iran War as ‘Mistake’, Far Outpacing Disapproval of Vietnam and Iraq: Poll",
+      "summary": "“In Iraq, it took more than three years to reach that high. In Vietnam, it took six years.” More than 6 in 10 Americans now say President Donald Trump’s war in Iran was a “mistake,” according to a poll out Friday from the Washington Post/ABC News/Ipsos. Withi…",
+      "source": "Activistpost.com",
+      "url": "https://www.activistpost.com/61-of-americans-see-trumps-iran-war-as-mistake-far-outpacing-disapproval-of-vietnam-and-iraq-poll/",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T12:05:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T13:40:41.288Z",
+      "run_id": "2026-05-16T13:40"
+    },
+    {
+      "headline": "Iran slams neighbors' betrayal during US-Israeli aggression",
+      "summary": "Iran has censured certain neighboring countries for their betrayal during the recent illegal US-Israeli war of aggression against the Islamic Republic.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260515-presstv05.htm",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T13:40:41.288Z",
+      "run_id": "2026-05-16T13:40"
+    },
+    {
+      "headline": "War on Iran should not have started, no point in continuing it: China",
+      "summary": "China says it sees \"no point\" for the United States to continue its war against Iran, as the conflict is taking a heavy toll on global stability and energy security.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260515-presstv04.htm",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T13:40:41.288Z",
+      "run_id": "2026-05-16T13:40"
+    },
+    {
+      "headline": "Iran War: Trump in China, Ship Seized in the Strait, War Powers Vote Comes This Close",
+      "summary": "Trump was in China, but that didn't stop Iran from seizing and sinking ships, and a War Powers vote almost passed.",
+      "source": "Nakedcapitalism.com",
+      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-trump-xi-china-ships-strait-war-powers-vote.html",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T10:30:59Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-16T13:40:41.288Z",
+      "run_id": "2026-05-16T13:40"
     }
   ],
-  "total_items_ever": 1398
+  "total_items_ever": 1402
 }
