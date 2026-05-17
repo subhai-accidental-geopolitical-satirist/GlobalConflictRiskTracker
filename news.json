@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-16T19:11:40.588Z",
+  "ts": "2026-05-17T03:51:53.017Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,35 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-16T19:11:40.588Z"
+    "updatedAt": "2026-05-17T03:51:53.017Z"
   },
   "items": [
+    {
+      "headline": "Israel, Lebanon say extending ceasefire despite new strikes",
+      "summary": "Israel and Lebanon have agreed to extend a ceasefire for 45 days and will hold expanded talks on a political settlement, the US announced. Despite the truce, Israel conducted new strikes, claiming they are not subject to the ceasefire, leading to civilian cas…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/news/defence/israel-lebanon-say-extending-ceasefire-despite-new-strikes/articleshow/131130272.cms",
+      "bloc": "regional",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T01:43:09Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Pakistan and the Trump-Xi Summit in Beijing",
       "summary": "Like other Global South countries, Pakistan would like to pursue cooperation with both the US and China. Will the Beijing summit facilitate that?",
@@ -73,32 +99,6 @@
       "bloc": "western",
       "date": "2026-05-15",
       "datetime": "2026-05-15T12:05:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran slams neighbors' betrayal during US-Israeli aggression",
-      "summary": "Iran has censured certain neighboring countries for their betrayal during the recent illegal US-Israeli war of aggression against the Islamic Republic.",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260515-presstv05.htm",
-      "bloc": "western",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -342,6 +342,30 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Chinese undersea device found near Bali may be part of something bigger",
+      "summary": "The discovery of a Chinese undersea monitoring device in a strategic Indonesian waterway last month \"shows the extent of both China's reach and its undersea ambitions\" and has implications for Australia's defence strategy, say experts.",
+      "source": "ABC News (AU)",
+      "url": "https://www.abc.net.au/news/2026-05-16/undersea-monitoring-device-indonesia-china-maritime-strategy/106670896",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T19:38:41Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Friday: Hili dialogue",
       "summary": "Welcome to Friday, May 15, 2026, and Malcolm X Day, celebrated on the third Friday in May. Here’s a near-final scene from Spike Lee’s great movie “Malcolm X” (1992, my favorite of his). Malcolm drives to the auditorium where he’ll be assassinated, passing his…",
       "source": "Whyevolutionistrue.com",
@@ -421,30 +445,6 @@
       "bloc": "western",
       "date": "2026-05-14",
       "datetime": "2026-05-14T13:00:49Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "China warns U.S. over Taiwan and Murdaugh juror speaks out: Morning Rundown",
-      "summary": "Chinese President Xi Jinping welcomes Trump with a lavish ceremony, then warns him about Taiwan.",
-      "source": "NBC News",
-      "url": "https://www.nbcnews.com/news/us-news/chinas-warns-taiwan-murdaugh-juror-verdict-morning-rundown-rcna345085",
-      "bloc": "western",
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T11:03:14Z",
       "leaders": [
         "Xi Jinping"
       ],
