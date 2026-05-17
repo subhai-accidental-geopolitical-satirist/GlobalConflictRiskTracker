@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-17T03:51:53.017Z",
+  "ts": "2026-05-17T08:26:49.570Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,17 +10,69 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-17T03:51:53.017Z"
+    "updatedAt": "2026-05-17T08:26:49.570Z"
   },
   "items": [
     {
       "headline": "Israel, Lebanon say extending ceasefire despite new strikes",
-      "summary": "Israel and Lebanon have agreed to extend a ceasefire for 45 days and will hold expanded talks on a political settlement, the US announced. Despite the truce, Israel conducted new strikes, claiming they are not subject to the ceasefire, leading to civilian cas…",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/defence/israel-lebanon-say-extending-ceasefire-despite-new-strikes/articleshow/131130272.cms",
-      "bloc": "regional",
+      "summary": "Israel and Lebanon agreed to extend a ceasefire and hold expanded talks on a political settlement, the United States announced Friday, even as Israel carried out new strikes that it insists are not subject to the truce.",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/israel-lebanon-say-extending-ceasefire-despite-new-strikes-222199",
+      "bloc": "western",
       "date": "2026-05-16",
-      "datetime": "2026-05-16T01:43:09Z",
+      "datetime": "2026-05-16T07:10:43Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Netanyahu’s Office Reveals Israeli PM Secretly Visited UAE During Iran Conflict",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu made an undeclared trip to the United Arab Emirates (UAE) at the height of the U.S.-Israeli war on Iran, his office said on Wednesday, May 13, according to an RT report [1]. The visit, which his office said resulted i…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-16-netanyahu-secretly-visited-uae-during-iran-conflict.html",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "U.S. and Ukraine Draft Landmark Drone Defense Agreement Amid Escalating UAV War",
+      "summary": "The United States and Ukraine have drafted a bilateral agreement focused on drone defense, according to officials familiar with the negotiations. The deal, still under review, aims to enhance Ukraine’s ability to counter unmanned aerial systems (UAS) as the P…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-16-us-ukraine-draft-drone-defense-agreement.html",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -47,58 +99,6 @@
       "bloc": "western",
       "date": "2026-05-15",
       "datetime": "2026-05-15T14:04:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Show HN: Late News – stop reading 50 articles to understand one story",
-      "summary": "Coverage of escalating military conflict between the United States and Iran, including strikes, retaliations, and diplomatic developments.",
-      "source": "Latenews.press",
-      "url": "https://www.latenews.press",
-      "bloc": "western",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T13:50:29Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "61% of Americans See Trump’s Iran War as ‘Mistake’, Far Outpacing Disapproval of Vietnam and Iraq: Poll",
-      "summary": "“In Iraq, it took more than three years to reach that high. In Vietnam, it took six years.” More than 6 in 10 Americans now say President Donald Trump’s war in Iran was a “mistake,” according to a poll out Friday from the Washington Post/ABC News/Ipsos. Withi…",
-      "source": "Activistpost.com",
-      "url": "https://www.activistpost.com/61-of-americans-see-trumps-iran-war-as-mistake-far-outpacing-disapproval-of-vietnam-and-iraq-poll/",
-      "bloc": "western",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T12:05:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -151,6 +151,32 @@
       "bloc": "western",
       "date": "2026-05-15",
       "datetime": "2026-05-15T15:37:28Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Show HN: Late News – stop reading 50 articles to understand one story",
+      "summary": "Coverage of escalating military conflict between the United States and Iran, including strikes, retaliations, and diplomatic developments.",
+      "source": "Latenews.press",
+      "url": "https://www.latenews.press",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T13:50:29Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -714,6 +740,29 @@
       "variable_key": "armsControlArchitecture",
       "event_type": "static_variable",
       "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Ukrainian president Volodymyr Zelensky visits site of Kyiv apartment strike as death toll reaches 24",
+      "summary": "Ukrainian president Volodymyr Zelensky called on Friday for Moscow to be punished after laying red roses at the rubble of a Kyiv apartment building where a Russian missile strike killed 24 people, including three children.",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/europe/ukrainian-president-volodymyr-zelensky-visits-site-of-kyiv-apartment-strike-as-death-toll-reaches-24/a1721811368.html",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T04:30:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },

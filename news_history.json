@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-17T03:50:47.632Z",
+  "updated": "2026-05-17T08:25:44.438Z",
   "retention_days": 30,
   "items": [
     {
@@ -22877,7 +22877,88 @@
       "_from": "newsapi",
       "first_seen": "2026-05-17T03:50:47.632Z",
       "run_id": "2026-05-17T03:50"
+    },
+    {
+      "headline": "Netanyahu’s Office Reveals Israeli PM Secretly Visited UAE During Iran Conflict",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu made an undeclared trip to the United Arab Emirates (UAE) at the height of the U.S.-Israeli war on Iran, his office said on Wednesday, May 13, according to an RT report [1]. The visit, which his office said resulted i…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-16-netanyahu-secretly-visited-uae-during-iran-conflict.html",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-17T08:25:44.438Z",
+      "run_id": "2026-05-17T08:25"
+    },
+    {
+      "headline": "U.S. and Ukraine Draft Landmark Drone Defense Agreement Amid Escalating UAV War",
+      "summary": "The United States and Ukraine have drafted a bilateral agreement focused on drone defense, according to officials familiar with the negotiations. The deal, still under review, aims to enhance Ukraine’s ability to counter unmanned aerial systems (UAS) as the P…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-16-us-ukraine-draft-drone-defense-agreement.html",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-17T08:25:44.438Z",
+      "run_id": "2026-05-17T08:25"
+    },
+    {
+      "headline": "Ukrainian president Volodymyr Zelensky visits site of Kyiv apartment strike as death toll reaches 24",
+      "summary": "Ukrainian president Volodymyr Zelensky called on Friday for Moscow to be punished after laying red roses at the rubble of a Kyiv apartment building where a Russian missile strike killed 24 people, including three children.",
+      "source": "Independent.ie",
+      "url": "https://www.independent.ie/world-news/europe/ukrainian-president-volodymyr-zelensky-visits-site-of-kyiv-apartment-strike-as-death-toll-reaches-24/a1721811368.html",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T04:30:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-17T08:25:44.438Z",
+      "run_id": "2026-05-17T08:25"
     }
   ],
-  "total_items_ever": 1409
+  "total_items_ever": 1412
 }
