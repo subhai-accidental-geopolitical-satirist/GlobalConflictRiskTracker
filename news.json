@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-17T13:40:37.742Z",
+  "ts": "2026-05-17T19:15:27.262Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,61 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-17T13:40:37.742Z"
+    "updatedAt": "2026-05-17T19:15:27.262Z"
   },
   "items": [
+    {
+      "headline": "Iran warns of readiness for war and economic costs as US talks falter",
+      "summary": "Iranian leaders and TV have ramped up pressure on the US with a stream of messaging to domestic and foreign audiences.",
+      "source": "Al Jazeera English",
+      "url": "https://www.aljazeera.com/news/2026/5/16/iran_warns_of_readiness_for_war_and_economic_costs_as_us_talks_falter",
+      "bloc": "regional",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T15:33:13Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Middle East updates: Big crowds at Nakba Day rally in London",
+      "summary": "Big crowds have gathered in London to honor Nakba Day. Meanwhile, Iran's state TV reports that European countries are discussing the safe transit of ships through the Strait of Hormuz. Nakba means 'catastrophe' in Arabic and refers to the mass displacement an…",
+      "source": "DW (English)",
+      "url": "https://www.dw.com/en/middle-east-updates-big-crowds-at-nakba-day-rally-in-london/live-77179563",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T14:50:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Israel, Lebanon say extending ceasefire despite new strikes",
       "summary": "Israel and Lebanon agreed to extend a ceasefire and hold expanded talks on a political settlement, the United States announced Friday, even as Israel carried out new strikes that it insists are not subject to the truce.",
@@ -47,58 +99,6 @@
       "bloc": "western",
       "date": "2026-05-16",
       "datetime": "2026-05-16T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "U.S. and Ukraine Draft Landmark Drone Defense Agreement Amid Escalating UAV War",
-      "summary": "The United States and Ukraine have drafted a bilateral agreement focused on drone defense, according to officials familiar with the negotiations. The deal, still under review, aims to enhance Ukraine’s ability to counter unmanned aerial systems (UAS) as the P…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-16-us-ukraine-draft-drone-defense-agreement.html",
-      "bloc": "western",
-      "date": "2026-05-16",
-      "datetime": "2026-05-16T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Pakistan and the Trump-Xi Summit in Beijing",
-      "summary": "Like other Global South countries, Pakistan would like to pursue cooperation with both the US and China. Will the Beijing summit facilitate that?",
-      "source": "The Diplomat",
-      "url": "https://thediplomat.com/2026/05/pakistan-and-the-trump-xi-summit-in-beijing/",
-      "bloc": "western",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T14:04:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -488,6 +488,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Oil markets could be a month away from the moment of truth. Brace for a ‘non-linear’ price spike and panic buying, analysts warn",
+      "summary": "Oil prices could top $130-$140 a barrel next month if the strait remains closed and inventory depletion rates remain steady, according to Capital Economics.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/05/16/oil-markets-crude-non-linear-price-spike-panic-buying-inventories-iran-hormuz/",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T19:08:42Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Why is US stock market falling today? Dow Jones, S&P 500 and Nasdaq crash after Trump concludes China visit - Nvidia and Amazon stocks sink amid inflation fears and Iran war uncertainty shaking Wall Street",
       "summary": "US stock market today suffered a sharp selloff as the Dow Jones, S&P 500, and Nasdaq crashed after President Donald Trump ended his China visit without easing deeper market fears. The S&P 500 fell 0.86% to 7,436, the Nasdaq dropped 1.25%, and the Dow lost 366…",
       "source": "The Times of India",
@@ -573,32 +599,6 @@
       "bloc": "western",
       "date": "2026-05-13",
       "datetime": "2026-05-13T18:25:40Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Oil price spike turmoil far from over, IEA says as inventories are depleted at “record pace\"",
-      "summary": "The IEA's oil market report for May noted that global oil supply declined by a further 1.8 million barrels per day in April.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/05/13/oil-price-spike-turmoil-iea-iran-war.html",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T12:12:32Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",
