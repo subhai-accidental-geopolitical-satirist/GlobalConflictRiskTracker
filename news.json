@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-17T08:26:49.570Z",
+  "ts": "2026-05-17T13:40:37.742Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-17T08:26:49.570Z"
+    "updatedAt": "2026-05-17T13:40:37.742Z"
   },
   "items": [
     {
@@ -739,6 +739,29 @@
       ],
       "variable_key": "armsControlArchitecture",
       "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Hezbollah: Qassam commander's martyrdom shows Israel respects no agreement",
+      "summary": "Hezbollah strongly condemns the assassination of a senior Hamas commander in an Israeli strike on the Gaza Strip, describing the attack as a violation of a standing ceasefire and denouncing the Israeli regime for disregarding negotiated commitments.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260516-presstv03.htm",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T12:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "general commander killed"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "narcissism"
+      ],
+      "variable_key": null,
+      "event_type": "personnel_killed",
       "escalation": 4,
       "persian_only": false,
       "_from": "newsapi"
