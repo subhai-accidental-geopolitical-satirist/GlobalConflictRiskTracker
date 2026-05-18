@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-18T04:02:51.222Z",
+  "updated": "2026-05-18T10:12:53.979Z",
   "retention_days": 30,
   "items": [
     {
@@ -22205,7 +22205,33 @@
       "_from": "newsapi",
       "first_seen": "2026-05-18T04:02:51.222Z",
       "run_id": "2026-05-18T04:02"
+    },
+    {
+      "headline": "Friday: Hili dialogue",
+      "summary": "Welcome to Friday, May 15, 2026, and Malcolm X Day, celebrated on the third Friday in May. Here’s a near-final scene from Spike Lee’s great movie “Malcolm X” (1992, my favorite of his). Malcolm drives to the auditorium where he’ll be assassinated, passing his…",
+      "source": "Whyevolutionistrue.com",
+      "url": "https://whyevolutionistrue.com/2026/05/15/friday-hili-dialogue-577/",
+      "bloc": "western",
+      "date": "2026-05-15",
+      "datetime": "2026-05-15T11:45:27Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T10:12:53.979Z",
+      "run_id": "2026-05-18T10:12"
     }
   ],
-  "total_items_ever": 1419
+  "total_items_ever": 1420
 }
