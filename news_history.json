@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-18T15:40:47.498Z",
+  "updated": "2026-05-18T19:48:41.239Z",
   "retention_days": 30,
   "items": [
     {
@@ -22369,7 +22369,119 @@
       "_from": "newsapi",
       "first_seen": "2026-05-18T15:40:47.498Z",
       "run_id": "2026-05-18T15:40"
+    },
+    {
+      "headline": "Trump warns Iran the 'clock is ticking' as he issues most direct threat yet amid stalled peace talks",
+      "summary": "In a Sunday Truth Social post, US President Donald Trump unleashed his latest threat to the Iranian regime.",
+      "source": "Dailymail.com",
+      "url": "https://www.dailymail.com/news/article-15825695/Trum-warning-iran-clock-ticking-threat-peace-talks-failed.html",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T19:23:48Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T19:48:41.238Z",
+      "run_id": "2026-05-18T19:48"
+    },
+    {
+      "headline": "Drone attack starts fire at UAE nuclear power plant",
+      "summary": "No one claimed responsibility, and the UAE did not blame anyone for what it said was an \"unprovoked terrorist attack.\" It has recently accused Iran of launching drone and missile attacks as tensions have risen over the Strait of Hormuz, a vital energy waterwa…",
+      "source": "PBS",
+      "url": "https://www.pbs.org/newshour/world/drone-attack-starts-fire-at-uae-nuclear-power-plant",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T18:40:59Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T19:48:41.238Z",
+      "run_id": "2026-05-18T19:48"
+    },
+    {
+      "headline": "There's a ceasefire in Iran but the war's ripples are still hitting millions",
+      "summary": "It has been more than two months since the US and Israel launched strikes in Iran. But the impact of the conflict continues globally.",
+      "source": "ABC News (AU)",
+      "url": "https://www.abc.net.au/news/2026-05-18/the-ripples-of-the-iran-war-are-everywhere/106591410",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T18:39:13Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T19:48:41.238Z",
+      "run_id": "2026-05-18T19:48"
+    },
+    {
+      "headline": "Trump hints at military action against Iran, impacting peace deal odds",
+      "summary": "Increased geopolitical tensions may hinder diplomatic resolutions, elevate oil prices, and reduce prospects for a US-Iran peace deal.\nThe post Trump hints at military action against Iran, impacting peace deal odds appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/trump-hints-at-military-action-against-iran-impacting-peace-deal-odds/",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T17:41:31Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T19:48:41.238Z",
+      "run_id": "2026-05-18T19:48"
     }
   ],
-  "total_items_ever": 1425
+  "total_items_ever": 1429
 }
