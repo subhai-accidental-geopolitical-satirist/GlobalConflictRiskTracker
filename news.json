@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-17T19:15:27.262Z",
+  "ts": "2026-05-18T04:03:56.435Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,7 +10,7 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-17T19:15:27.262Z"
+    "updatedAt": "2026-05-18T04:03:56.435Z"
   },
   "items": [
     {
@@ -118,6 +118,84 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Vietnam-Bound Supertanker Halted by US Navy Resumes Journey",
+      "summary": "A Vietnam-bound supertanker carrying 2 million barrels of Iraqi crude, which idled for days in the Gulf of Oman after it was halted by US forces, has resumed its journey.",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/vietnam-bound-supertanker-halted-by-us-navy-resumes-journey",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T03:28:15Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Beijing’s Silence Is Fueling the Hormuz Crisis",
+      "summary": "Even though the Xi–Trump summit in Beijing was supposed to project stability, the outcome was clearly the opposite. In real terms, the meeting could ultimately be remembered as the moment the world began to understand that there is no viable great-power strat…",
+      "source": "OilPrice.com",
+      "url": "https://oilprice.com/Energy/Energy-General/Beijings-Silence-Is-Fueling-the-Hormuz-Crisis.html",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T23:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Global inventory race intensifies amid fears of energy crunch from Iran war",
+      "summary": "The intensified global inventory race could lead to prolonged market volatility, impacting energy security and economic stability worldwide.\nThe post Global inventory race intensifies amid fears of energy crunch from Iran war appeared first on Crypto Briefing.",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/global-inventory-race-iran-war-energy-crunch/",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T20:39:16Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Tensions flare near Strait of Hormuz as one ship is seized and another is sunk",
       "summary": "It wasn't immediately clear who was behind these incidents, but they happened as a senior Iranian official reiterated his country's claim of control over the waterway and another said it had a right to seize oil tankers connected to the U.S.",
       "source": "PBS",
@@ -151,84 +229,6 @@
       "bloc": "western",
       "date": "2026-05-15",
       "datetime": "2026-05-15T15:37:28Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Show HN: Late News – stop reading 50 articles to understand one story",
-      "summary": "Coverage of escalating military conflict between the United States and Iran, including strikes, retaliations, and diplomatic developments.",
-      "source": "Latenews.press",
-      "url": "https://www.latenews.press",
-      "bloc": "western",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T13:50:29Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Tensions flare near Strait of Hormuz as a ship is seized and another is sunk",
-      "summary": "Tensions are escalating again near the Strait of Hormuz after a ship anchored off the United Arab Emirates was seized and taken toward Iran and another was attacked and sank near the coast of Oman.",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/05/15/g-s1-122203/tensions-flare-near-strait-of-hormuz",
-      "bloc": "western",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T05:11:32Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump says he is losing patience with Iran after talks with China's Xi",
-      "summary": "Iran war: The U.S. paused its attacks on Iran last month but began a blockade of the country's ports. Talks aimed at ending the conflict have stalled with Iran refusing to end its nuclear program or relinquish its ‌stockpile of enriched uranium.",
-      "source": "The Times of India",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-says-he-is-losing-patience-with-iran-after-talks-with-chinas-xi/articleshow/131107246.cms",
-      "bloc": "regional",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T03:28:11Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -797,29 +797,6 @@
       "bloc": "western",
       "date": "2026-05-14",
       "datetime": "2026-05-14T18:49:32Z",
-      "leaders": [],
-      "watch_terms": [
-        "oil refinery port"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity",
-        "accountability"
-      ],
-      "variable_key": null,
-      "event_type": "infrastructure_attack",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Ukraine’s Drone War Is Reaching Deep Into Russia’s Oil Heartland",
-      "summary": "Russia’s Leningrad Oblast lies some 600 kilometers from the closest corner of Ukraine. But on April 15, its governor declared it a “frontline” region. Part of his explanation: From January through March, a total of 243 Ukrainian drones were shot down over the…",
-      "source": "OilPrice.com",
-      "url": "https://oilprice.com/Energy/Energy-General/Ukraines-Drone-War-Is-Reaching-Deep-Into-Russias-Oil-Heartland.html",
-      "bloc": "western",
-      "date": "2026-05-10",
-      "datetime": "2026-05-10T17:00:00Z",
       "leaders": [],
       "watch_terms": [
         "oil refinery port"
