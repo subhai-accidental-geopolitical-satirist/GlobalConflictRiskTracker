@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-18T10:12:53.979Z",
+  "updated": "2026-05-18T15:40:47.498Z",
   "retention_days": 30,
   "items": [
     {
@@ -22231,7 +22231,145 @@
       "_from": "newsapi",
       "first_seen": "2026-05-18T10:12:53.979Z",
       "run_id": "2026-05-18T10:12"
+    },
+    {
+      "headline": "May 17: Iran vows legal action over US-Israeli aggression, says US walking into 'strategic trap'",
+      "summary": "Leader of the Islamic Revolution, Ayatollah Seyyed Mojtaba Khamenei, on Sunday sent greetings to the family of martyred top military commander, Major General Abdolrahim Mousavi, even as Iranian officials outlined a coordinated political and legal response to …",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260517-presstv02.htm",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T15:40:47.498Z",
+      "run_id": "2026-05-18T15:40"
+    },
+    {
+      "headline": "Leader's advisor slams Trump's threats against Iran, warns US falling into Israel's 'trap'",
+      "summary": "Ali Akbar Velayati, a senior advisor to the Leader of the Islamic Revolution, has warned that Washington is falling into a \"strategic trap\" dug out by Israel and would lose what remains of its credibility in West Asia if it wages another war on Iran.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260517-presstv05.htm",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T15:40:47.498Z",
+      "run_id": "2026-05-18T15:40"
+    },
+    {
+      "headline": "Hezbollah says Lebanon-Israel talks at 'dead end' as Israeli strikes continue",
+      "summary": "Israel's military has attacked eastern and southern Lebanon despite a fragile ceasefire agreement, killing and injuring civilians across the country, as Hezbollah warned that negotiations between Lebanese authorities and Israel have reached a \"dead end.\"",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260517-presstv06.htm",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T15:40:47.498Z",
+      "run_id": "2026-05-18T15:40"
+    },
+    {
+      "headline": "HORMUZ TRACKER: Gridlock Persists While Blocked Tanker Sails On",
+      "summary": "Commercial shipping through the Strait of Hormuz remains largely frozen, with only limited vessel movements observed and most tied to Iranian-linked shipping. In a notable development, a supertanker previously halted by the US naval blockade has resumed its j…",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/hormuz-tracker-gridlock-persists-while-blocked-tanker-sails-on",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T10:57:19Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Mohammed bin Salman",
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Strait of Hormuz"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T15:40:47.498Z",
+      "run_id": "2026-05-18T15:40"
+    },
+    {
+      "headline": "In China, Xi let Trump play the suitor",
+      "summary": "As US President Trump showered XI with praise and soft‑pedalled outcomes, Beijing held its line on Taiwan, Iran and Hormuz Read Full Article at RT.com",
+      "source": "RT",
+      "url": "https://www.rt.com/india/640098-china-xi-let-trump/",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T14:46:04Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-18T15:40:47.498Z",
+      "run_id": "2026-05-18T15:40"
     }
   ],
-  "total_items_ever": 1420
+  "total_items_ever": 1425
 }

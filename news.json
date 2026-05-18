@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-18T10:13:59.176Z",
+  "ts": "2026-05-18T15:41:52.728Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,87 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-18T10:13:59.176Z"
+    "updatedAt": "2026-05-18T15:41:52.728Z"
   },
   "items": [
+    {
+      "headline": "May 17: Iran vows legal action over US-Israeli aggression, says US walking into 'strategic trap'",
+      "summary": "Leader of the Islamic Revolution, Ayatollah Seyyed Mojtaba Khamenei, on Sunday sent greetings to the family of martyred top military commander, Major General Abdolrahim Mousavi, even as Iranian officials outlined a coordinated political and legal response to …",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260517-presstv02.htm",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Leader's advisor slams Trump's threats against Iran, warns US falling into Israel's 'trap'",
+      "summary": "Ali Akbar Velayati, a senior advisor to the Leader of the Islamic Revolution, has warned that Washington is falling into a \"strategic trap\" dug out by Israel and would lose what remains of its credibility in West Asia if it wages another war on Iran.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260517-presstv05.htm",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Hezbollah says Lebanon-Israel talks at 'dead end' as Israeli strikes continue",
+      "summary": "Israel's military has attacked eastern and southern Lebanon despite a fragile ceasefire agreement, killing and injuring civilians across the country, as Hezbollah warned that negotiations between Lebanese authorities and Israel have reached a \"dead end.\"",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260517-presstv06.htm",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T12:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Iran warns of readiness for war and economic costs as US talks falter",
       "summary": "Iranian leaders and TV have ramped up pressure on the US with a stream of messaging to domestic and foreign audiences.",
@@ -66,53 +144,27 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Israel, Lebanon say extending ceasefire despite new strikes",
-      "summary": "Israel and Lebanon agreed to extend a ceasefire and hold expanded talks on a political settlement, the United States announced Friday, even as Israel carried out new strikes that it insists are not subject to the truce.",
-      "source": "Hurriyet Daily News",
-      "url": "https://www.hurriyetdailynews.com/israel-lebanon-say-extending-ceasefire-despite-new-strikes-222199",
+      "headline": "HORMUZ TRACKER: Gridlock Persists While Blocked Tanker Sails On",
+      "summary": "Commercial shipping through the Strait of Hormuz remains largely frozen, with only limited vessel movements observed and most tied to Iranian-linked shipping. In a notable development, a supertanker previously halted by the US naval blockade has resumed its j…",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-pmn/hormuz-tracker-gridlock-persists-while-blocked-tanker-sails-on",
       "bloc": "western",
-      "date": "2026-05-16",
-      "datetime": "2026-05-16T07:10:43Z",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T10:57:19Z",
       "leaders": [
         "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
+        "Mohammed bin Salman",
+        "Xi Jinping"
       ],
       "watch_terms": [
-        "Iran war ceasefire"
+        "Strait of Hormuz"
       ],
       "dimensions": [
         "survival",
         "impulsivity"
       ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Netanyahu’s Office Reveals Israeli PM Secretly Visited UAE During Iran Conflict",
-      "summary": "Israeli Prime Minister Benjamin Netanyahu made an undeclared trip to the United Arab Emirates (UAE) at the height of the U.S.-Israeli war on Iran, his office said on Wednesday, May 13, according to an RT report [1]. The visit, which his office said resulted i…",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-05-16-netanyahu-secretly-visited-uae-during-iran-conflict.html",
-      "bloc": "western",
-      "date": "2026-05-16",
-      "datetime": "2026-05-16T06:00:00Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
+      "variable_key": null,
+      "event_type": "leader_watch_term",
       "escalation": 2,
       "persian_only": false,
       "_from": "newsapi"
@@ -203,32 +255,6 @@
       "bloc": "western",
       "date": "2026-05-15",
       "datetime": "2026-05-15T18:31:02Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Mohammed bin Salman",
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Strait of Hormuz"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Oil Tankers Transiting Strait of Hormuz Since Start of Iran War",
-      "summary": "The U.S. has maintained a blockade of Iranian ports, while Iran lifted and then reimposed its own blockade on marine traffic passing through the Strait of Hormuz, which typically handles roughly one-fifth of the world’s oil supply. Here’s a look …",
-      "source": "Insurance Journal",
-      "url": "https://www.insurancejournal.com/news/international/2026/05/15/870091.htm",
-      "bloc": "western",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T15:37:28Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Mohammed bin Salman",
@@ -368,6 +394,30 @@
       "_from": "newsapi"
     },
     {
+      "headline": "In China, Xi let Trump play the suitor",
+      "summary": "As US President Trump showered XI with praise and soft‑pedalled outcomes, Beijing held its line on Taiwan, Iran and Hormuz Read Full Article at RT.com",
+      "source": "RT",
+      "url": "https://www.rt.com/india/640098-china-xi-let-trump/",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T14:46:04Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Chinese undersea device found near Bali may be part of something bigger",
       "summary": "The discovery of a Chinese undersea monitoring device in a strategic Indonesian waterway last month \"shows the extent of both China's reach and its undersea ambitions\" and has implications for Australia's defence strategy, say experts.",
       "source": "ABC News (AU)",
@@ -447,30 +497,6 @@
       "bloc": "western",
       "date": "2026-05-14",
       "datetime": "2026-05-14T16:33:15Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "America holds the advantage as Trump meets Xi in high-stakes summit",
-      "summary": "President Donald Trump meets Chinese President Xi Jinping in Beijing backed by military and trade leverage built over 16 months of geopolitical maneuvering.",
-      "source": "Fox News",
-      "url": "https://www.foxnews.com/opinion/trump-brings-power-america-china-diplomacy",
-      "bloc": "western",
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T13:00:49Z",
       "leaders": [
         "Xi Jinping"
       ],
@@ -763,6 +789,29 @@
       "variable_key": null,
       "event_type": "personnel_killed",
       "escalation": 4,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Netanyahu’s Office Reveals Israeli PM Secretly Visited UAE During Iran Conflict",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu made an undeclared trip to the United Arab Emirates (UAE) at the height of the U.S.-Israeli war on Iran, his office said on Wednesday, May 13, according to an RT report [1]. The visit, which his office said resulted i…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-16-netanyahu-secretly-visited-uae-during-iran-conflict.html",
+      "bloc": "western",
+      "date": "2026-05-16",
+      "datetime": "2026-05-16T06:00:00Z",
+      "leaders": [],
+      "watch_terms": [
+        "oil refinery port"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity",
+        "accountability"
+      ],
+      "variable_key": null,
+      "event_type": "infrastructure_attack",
+      "escalation": 3,
       "persian_only": false,
       "_from": "newsapi"
     },
