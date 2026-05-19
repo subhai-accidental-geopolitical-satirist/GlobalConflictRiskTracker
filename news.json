@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-18T19:49:46.491Z",
+  "ts": "2026-05-19T03:57:29.888Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,9 +10,35 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-18T19:49:46.491Z"
+    "updatedAt": "2026-05-19T03:57:29.888Z"
   },
   "items": [
+    {
+      "headline": "Trump issues dire warning to Iran to accept peace deal",
+      "summary": "President Donald Trump issued a fresh warning to Iran on Sunday, saying it had to move quickly towards a peace deal or &quot;there won't be anything left of them.&quot; Washington, locked in conflict with Tehran since U.S. and Israeli forces launched major st…",
+      "source": "Japan Today",
+      "url": "https://japantoday.com/category/world/trump-issues-dire-warning-to-iran-to-accept-peace-deal",
+      "bloc": "western",
+      "date": "2026-05-17",
+      "datetime": "2026-05-17T21:21:07Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
     {
       "headline": "Trump warns Iran the 'clock is ticking' as he issues most direct threat yet amid stalled peace talks",
       "summary": "In a Sunday Truth Social post, US President Donald Trump unleashed his latest threat to the Iranian regime.",
@@ -99,32 +125,6 @@
       "bloc": "western",
       "date": "2026-05-17",
       "datetime": "2026-05-17T17:41:31Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "May 17: Iran vows legal action over US-Israeli aggression, says US walking into 'strategic trap'",
-      "summary": "Leader of the Islamic Revolution, Ayatollah Seyyed Mojtaba Khamenei, on Sunday sent greetings to the family of martyred top military commander, Major General Abdolrahim Mousavi, even as Iranian officials outlined a coordinated political and legal response to …",
-      "source": "Globalsecurity.org",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260517-presstv02.htm",
-      "bloc": "western",
-      "date": "2026-05-17",
-      "datetime": "2026-05-17T12:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -394,6 +394,54 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Now It’s Time To Disentangle",
+      "summary": "What we’ve learned from the Trump-Xi Summit.",
+      "source": "Substack.com",
+      "url": "https://chinaarticles.substack.com/p/now-its-time-to-disentangle",
+      "bloc": "western",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "China Sees A Weak America",
+      "summary": "U.S. President Trump has arrived in China for 2 days of talks with Xi Jinping. Niall Ferguson coined \"Ferguson's Law\" — every great power that spent more on debt servicing than defense ceases to be a great power. The U.S. has reached this point. The British E…",
+      "source": "Nationalsecurityjournal.org",
+      "url": "https://nationalsecurityjournal.org/china-sees-a-weak-america/",
+      "bloc": "western",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T00:00:00Z",
+      "leaders": [
+        "Xi Jinping"
+      ],
+      "watch_terms": [
+        "Xi Jinping China"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": null,
+      "event_type": "leader_watch_term",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "In China, Xi let Trump play the suitor",
       "summary": "As US President Trump showered XI with praise and soft‑pedalled outcomes, Beijing held its line on Taiwan, Iran and Hormuz Read Full Article at RT.com",
       "source": "RT",
@@ -449,54 +497,6 @@
       "bloc": "western",
       "date": "2026-05-15",
       "datetime": "2026-05-15T11:45:27Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Iran War: Trump in China, Ship Seized in the Strait, War Powers Vote Comes This Close",
-      "summary": "Trump was in China, but that didn't stop Iran from seizing and sinking ships, and a War Powers vote almost passed.",
-      "source": "Nakedcapitalism.com",
-      "url": "https://www.nakedcapitalism.com/2026/05/iran-war-trump-xi-china-ships-strait-war-powers-vote.html",
-      "bloc": "western",
-      "date": "2026-05-15",
-      "datetime": "2026-05-15T10:30:59Z",
-      "leaders": [
-        "Xi Jinping"
-      ],
-      "watch_terms": [
-        "Xi Jinping China"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": null,
-      "event_type": "leader_watch_term",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Amid Trump-Xi Meeting, US Coalition Urges Congress to ‘Prioritize Peace’ and End ‘Confrontational Posture’ With China",
-      "summary": "As US President Donald Trump meets with Chinese President Xi Jinping, a coalition of anti-war groups is calling on Congress to pressure the administration to \"prioritize peace, cooperation, and stability\" at a time when the US-China relationship is increasing…",
-      "source": "Common Dreams",
-      "url": "https://www.commondreams.org/news/anti-war-groups-china-summit",
-      "bloc": "western",
-      "date": "2026-05-14",
-      "datetime": "2026-05-14T16:33:15Z",
       "leaders": [
         "Xi Jinping"
       ],
@@ -640,33 +640,6 @@
       "variable_key": "oilPrice",
       "event_type": "static_variable",
       "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Board Of Trade, Ahoy!",
-      "summary": "In my never-ending quest to connect U.S.-China relations to the cannon of popular (and often times obscure) music, it is sometimes tough to find a song to fit my commentary.",
-      "source": "Substack.com",
-      "url": "https://chinaarticles.substack.com/p/board-of-trade-ahoy",
-      "bloc": "western",
-      "date": "2026-05-11",
-      "datetime": "2026-05-11T00:00:00Z",
-      "leaders": [
-        "Kim Jong-un",
-        "Vladimir Putin",
-        "General Asim Munir"
-      ],
-      "watch_terms": [
-        "nuclear signalling threat"
-      ],
-      "dimensions": [
-        "impulsivity",
-        "survival",
-        "narcissism"
-      ],
-      "variable_key": "nuclearSignalling",
-      "event_type": "static_variable",
-      "escalation": 4,
       "persian_only": false,
       "_from": "newsapi"
     },
