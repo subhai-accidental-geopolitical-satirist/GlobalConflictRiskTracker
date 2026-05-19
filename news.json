@@ -1,5 +1,5 @@
 {
-  "ts": "2026-05-19T03:57:29.888Z",
+  "ts": "2026-05-19T09:54:49.140Z",
   "lookback_days": 7,
   "generated_by": "AGRA GitHub Action",
   "sources_used": {
@@ -10,95 +10,17 @@
   "live_variables": {
     "oilPrice": 106,
     "oilStress": 62,
-    "updatedAt": "2026-05-19T03:57:29.888Z"
+    "updatedAt": "2026-05-19T09:54:49.140Z"
   },
   "items": [
     {
-      "headline": "Trump issues dire warning to Iran to accept peace deal",
-      "summary": "President Donald Trump issued a fresh warning to Iran on Sunday, saying it had to move quickly towards a peace deal or &quot;there won't be anything left of them.&quot; Washington, locked in conflict with Tehran since U.S. and Israeli forces launched major st…",
-      "source": "Japan Today",
-      "url": "https://japantoday.com/category/world/trump-issues-dire-warning-to-iran-to-accept-peace-deal",
+      "headline": "Iran World Cup squad lands in south Türkiye for training",
+      "summary": "TEHRAN: Iran's football team arrived in Türkiye on Monday (May 18) for a training camp and to complete visa applications ahead of the 2026 World Cup, AFP correspondents said.The 22 players and coaching staff in the Team Melli delegation flew into the Turkish …",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/sport/iran-world-cup-football-team-turkiye-friendly-match-6127976",
       "bloc": "western",
-      "date": "2026-05-17",
-      "datetime": "2026-05-17T21:21:07Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Trump warns Iran the 'clock is ticking' as he issues most direct threat yet amid stalled peace talks",
-      "summary": "In a Sunday Truth Social post, US President Donald Trump unleashed his latest threat to the Iranian regime.",
-      "source": "Dailymail.com",
-      "url": "https://www.dailymail.com/news/article-15825695/Trum-warning-iran-clock-ticking-threat-peace-talks-failed.html",
-      "bloc": "western",
-      "date": "2026-05-17",
-      "datetime": "2026-05-17T19:23:48Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 3,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Drone attack starts fire at UAE nuclear power plant",
-      "summary": "No one claimed responsibility, and the UAE did not blame anyone for what it said was an \"unprovoked terrorist attack.\" It has recently accused Iran of launching drone and missile attacks as tensions have risen over the Strait of Hormuz, a vital energy waterwa…",
-      "source": "PBS",
-      "url": "https://www.pbs.org/newshour/world/drone-attack-starts-fire-at-uae-nuclear-power-plant",
-      "bloc": "western",
-      "date": "2026-05-17",
-      "datetime": "2026-05-17T18:40:59Z",
-      "leaders": [
-        "Mojtaba Khamenei",
-        "Donald J. Trump",
-        "Benjamin Netanyahu"
-      ],
-      "watch_terms": [
-        "Iran war ceasefire"
-      ],
-      "dimensions": [
-        "survival",
-        "impulsivity"
-      ],
-      "variable_key": "diplomaticChannels",
-      "event_type": "static_variable",
-      "escalation": 4,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "There's a ceasefire in Iran but the war's ripples are still hitting millions",
-      "summary": "It has been more than two months since the US and Israel launched strikes in Iran. But the impact of the conflict continues globally.",
-      "source": "ABC News (AU)",
-      "url": "https://www.abc.net.au/news/2026-05-18/the-ripples-of-the-iran-war-are-everywhere/106591410",
-      "bloc": "western",
-      "date": "2026-05-17",
-      "datetime": "2026-05-17T18:39:13Z",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T09:24:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -118,13 +40,91 @@
       "_from": "newsapi"
     },
     {
-      "headline": "Trump hints at military action against Iran, impacting peace deal odds",
-      "summary": "Increased geopolitical tensions may hinder diplomatic resolutions, elevate oil prices, and reduce prospects for a US-Iran peace deal.\nThe post Trump hints at military action against Iran, impacting peace deal odds appeared first on Crypto Briefing.",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/trump-hints-at-military-action-against-iran-impacting-peace-deal-odds/",
+      "headline": "Netanyahu, Trump discuss possible renewed fighting against Iran over phone -- state media",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu and U.S. President Donald Trump on Sunday discussed the possibility of renewing fighting against Iran over phone, Israel's state-owned Kan TV news reported.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260518-pdo01.htm",
       "bloc": "western",
-      "date": "2026-05-17",
-      "datetime": "2026-05-17T17:41:31Z",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T09:23:21Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Trump issues dire warning to Iran to accept peace deal",
+      "summary": "President Donald Trump issued a fresh warning to Iran on Sunday, saying it had to move quickly towards a peace deal or \"there won't be anything left of them.\"",
+      "source": "Hurriyet Daily News",
+      "url": "https://www.hurriyetdailynews.com/trump-issues-dire-warning-to-iran-to-accept-peace-deal-222246",
+      "bloc": "western",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T07:18:56Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 3,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "UAE’s Failed Bid for Joint Gulf Military Response to Iran",
+      "summary": "The United Arab Emirates (UAE) made a failed bid to convince Saudi Arabia and Qatar to launch a joint military response to Iran’s attacks on the Gulf, according to a Bloomberg News report cited by Middle East Eye. [1] Emirati President Mohamed bin Zayed held …",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-18-uae-failed-bid-joint-military-response-iran.html",
+      "bloc": "western",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
+      "headline": "Why Is It So Difficult for Iran To Reach an Agreement With the United States?",
+      "summary": "Collapse of Islamabad Talks Negotiations between Iran and the United States collapsed in February 2026 in Islamabad, Pakistan, according to analysts Amir-Hassan Boozari and Muhammad Sahimi in a report published by Antiwar.com [1]. The talks followed two prior…",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-18-difficult-for-iran-reach-agreement-with-us.html",
+      "bloc": "western",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T06:00:00Z",
       "leaders": [
         "Mojtaba Khamenei",
         "Donald J. Trump",
@@ -514,6 +514,32 @@
       "_from": "newsapi"
     },
     {
+      "headline": "Why is market falling today? Sensex crashes 900 points, Nifty below 23,400; 5 key factors behind bloodbath",
+      "summary": "Indian stock markets experienced a significant downturn on Monday. Both Sensex and Nifty saw substantial drops exceeding one percent. This decline was driven by soaring global bond yields and a record low for the Indian rupee. The market capitalization of BSE…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-falling-today-sensex-crashes-850-points-nifty-below-23400-5-key-factors-behind-bloodbath/articleshow/131166047.cms",
+      "bloc": "regional",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T04:07:46Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi"
+    },
+    {
       "headline": "Oil markets could be a month away from the moment of truth. Brace for a ‘non-linear’ price spike and panic buying, analysts warn",
       "summary": "Oil prices could top $130-$140 a barrel next month if the strait remains closed and inventory depletion rates remain steady, according to Capital Economics.",
       "source": "Fortune",
@@ -599,32 +625,6 @@
       "bloc": "western",
       "date": "2026-05-14",
       "datetime": "2026-05-14T20:20:47Z",
-      "leaders": [
-        "Mohammed bin Salman",
-        "Mojtaba Khamenei",
-        "Donald J. Trump"
-      ],
-      "watch_terms": [
-        "oil Brent crude"
-      ],
-      "dimensions": [
-        "survival",
-        "values"
-      ],
-      "variable_key": "oilPrice",
-      "event_type": "static_variable",
-      "escalation": 2,
-      "persian_only": false,
-      "_from": "newsapi"
-    },
-    {
-      "headline": "Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000",
-      "summary": "Sovereign curves are back near old stress zones while Hormuz inflation risk keeps central banks boxed in.\nThe post Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000 appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/global-financial-crisis-bond-yields-bitcoin/",
-      "bloc": "western",
-      "date": "2026-05-13",
-      "datetime": "2026-05-13T18:25:40Z",
       "leaders": [
         "Mohammed bin Salman",
         "Mojtaba Khamenei",

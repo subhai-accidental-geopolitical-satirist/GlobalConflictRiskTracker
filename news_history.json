@@ -1,6 +1,6 @@
 {
   "created": "2026-04-03T17:43:12.385Z",
-  "updated": "2026-05-19T03:56:24.688Z",
+  "updated": "2026-05-19T09:53:43.896Z",
   "retention_days": 30,
   "items": [
     {
@@ -21808,7 +21808,119 @@
       "_from": "newsapi",
       "first_seen": "2026-05-19T03:56:24.688Z",
       "run_id": "2026-05-19T03:56"
+    },
+    {
+      "headline": "Iran World Cup squad lands in south Türkiye for training",
+      "summary": "TEHRAN: Iran's football team arrived in Türkiye on Monday (May 18) for a training camp and to complete visa applications ahead of the 2026 World Cup, AFP correspondents said.The 22 players and coaching staff in the Team Melli delegation flew into the Turkish …",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/sport/iran-world-cup-football-team-turkiye-friendly-match-6127976",
+      "bloc": "western",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T09:24:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-19T09:53:43.896Z",
+      "run_id": "2026-05-19T09:53"
+    },
+    {
+      "headline": "Netanyahu, Trump discuss possible renewed fighting against Iran over phone -- state media",
+      "summary": "Israeli Prime Minister Benjamin Netanyahu and U.S. President Donald Trump on Sunday discussed the possibility of renewing fighting against Iran over phone, Israel's state-owned Kan TV news reported.",
+      "source": "Globalsecurity.org",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260518-pdo01.htm",
+      "bloc": "western",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T09:23:21Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-19T09:53:43.896Z",
+      "run_id": "2026-05-19T09:53"
+    },
+    {
+      "headline": "UAE’s Failed Bid for Joint Gulf Military Response to Iran",
+      "summary": "The United Arab Emirates (UAE) made a failed bid to convince Saudi Arabia and Qatar to launch a joint military response to Iran’s attacks on the Gulf, according to a Bloomberg News report cited by Middle East Eye. [1] Emirati President Mohamed bin Zayed held …",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-05-18-uae-failed-bid-joint-military-response-iran.html",
+      "bloc": "western",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T06:00:00Z",
+      "leaders": [
+        "Mojtaba Khamenei",
+        "Donald J. Trump",
+        "Benjamin Netanyahu"
+      ],
+      "watch_terms": [
+        "Iran war ceasefire"
+      ],
+      "dimensions": [
+        "survival",
+        "impulsivity"
+      ],
+      "variable_key": "diplomaticChannels",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-19T09:53:43.896Z",
+      "run_id": "2026-05-19T09:53"
+    },
+    {
+      "headline": "Why is market falling today? Sensex crashes 900 points, Nifty below 23,400; 5 key factors behind bloodbath",
+      "summary": "Indian stock markets experienced a significant downturn on Monday. Both Sensex and Nifty saw substantial drops exceeding one percent. This decline was driven by soaring global bond yields and a record low for the Indian rupee. The market capitalization of BSE…",
+      "source": "The Times of India",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-falling-today-sensex-crashes-850-points-nifty-below-23400-5-key-factors-behind-bloodbath/articleshow/131166047.cms",
+      "bloc": "regional",
+      "date": "2026-05-18",
+      "datetime": "2026-05-18T04:07:46Z",
+      "leaders": [
+        "Mohammed bin Salman",
+        "Mojtaba Khamenei",
+        "Donald J. Trump"
+      ],
+      "watch_terms": [
+        "oil Brent crude"
+      ],
+      "dimensions": [
+        "survival",
+        "values"
+      ],
+      "variable_key": "oilPrice",
+      "event_type": "static_variable",
+      "escalation": 2,
+      "persian_only": false,
+      "_from": "newsapi",
+      "first_seen": "2026-05-19T09:53:43.896Z",
+      "run_id": "2026-05-19T09:53"
     }
   ],
-  "total_items_ever": 1432
+  "total_items_ever": 1436
 }
